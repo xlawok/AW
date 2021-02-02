@@ -47,29 +47,23 @@ fields:
 - name: params
   type: field_group_list
   fields:
-  - name: scAsset
-    type: file
+  - name: scstyles
+    type: field_group_list
+    fields:
+    - name: scstyle
+      type: file
+      config:
+        maxSize: 64
+      label: Styl
     config:
-      maxSize: 64
-    label: Pliki
-  - name: assetType
-    type: select
-    default: []
-    config:
-      required: false
-      options:
-      - Styl
-      - Skrypt
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
-    label: Rodzaj pliku
+      min: 
+      max: 
+      labelField: 
+    label: Style
   config:
     min: 
     max: 
     labelField: 
-  label: Pliki
+  label: Ustawienia dodawanie skryptów i styli
 pages:
 - config.toml
