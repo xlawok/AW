@@ -45,22 +45,17 @@ fields:
     label: Priorytet
   label: Mapa strony
 - name: params
-  type: field_group
-  config: {}
+  type: field_group_list
   fields:
-  - name: assets
-    type: field_group_list
-    fields:
-    - name: styles
-      type: file
-      config:
-        maxSize: 64
-      label: Style
+  - name: style
+    type: file
     config:
-      min: 
-      max: 
-      labelField: 
-    label: Pliki
-  label: Grupa ustawień
+      maxSize: 64
+    label: Style
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Pliki styli i skryptów
 pages:
 - config.toml
