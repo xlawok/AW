@@ -12,7 +12,7 @@ cover = ""
 description = "Welcome to my website"
 favico = ""
 hjsStyle = "default"
-logo = ""
+logo = "/uploads/banner_w_tiles.jpg"
 metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
 paginatedsections = ["posts"]
 [sitemap]
