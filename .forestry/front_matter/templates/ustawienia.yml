@@ -70,6 +70,6 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Params
+  label: Pliki
 pages:
 - config.toml
