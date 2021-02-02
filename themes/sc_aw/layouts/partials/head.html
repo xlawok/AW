@@ -1,7 +1,11 @@
 <html lang="{{ .Site.LanguageCode }}">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <base href="{{ .Permalink }}">
+    <link rel="canonical" href="{{ .Permalink }}" itemprop="url" /> 
+    <meta name="url" content="{{ .Permalink }}" />
+    <meta name="twitter:url" content="{{ .Permalink }}" /> 
+    <meta property="og:url" content="{{ .Permalink }}" />
 
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
@@ -9,6 +13,6 @@
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
     {{ "<!-- plugins -->" | safeHTML }}
     {{ range .Site.Params.styles }}
-    <link rel="stylesheet" href="{{ .style | absURL }} ">
+    <link rel="stylesheet" href="{{ .Site.Params.logo }} ">
     {{ end }}
 </head>
