@@ -7,6 +7,9 @@ params = []
 scAssets = []
 theme = "sc_aw"
 title = "Agencja Wrocławska"
+[[scriptsStyles.scassets]]
+assetType = "Styl"
+scasset = "/uploads/main.css"
 [sitemap]
 changefreq = "monthly"
 filename = "sitemap.xml"
