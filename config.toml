@@ -7,6 +7,3 @@ title = "Agencja Wrocławska"
 changefreq = "monthly"
 filename = "sitemap.xml"
 priority = "0.5"
-[[dodaj_pliki]]
-dodaj_plik = ""
-rodzaj_pliku = ""
