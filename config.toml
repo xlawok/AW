@@ -1,3 +1,4 @@
+ScAssets = []
 baseURL = "https://agencjawroclawska.pl"
 description = "Hugo port of the Themefisher’s Kross Template"
 dodaj_pliki = []
@@ -8,6 +9,3 @@ title = "Agencja Wrocławska"
 changefreq = "monthly"
 filename = "sitemap.xml"
 priority = "0.5"
-[[ScAssets]]
-ScAsset = "/uploads/main.css"
-rodzaj_pliku = "Styl"
