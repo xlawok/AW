@@ -5,9 +5,11 @@ fields:
 - type: text
   name: baseURL
   label: baseURL
-- type: text
-  name: description
-  label: description
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 - type: text
   name: languageCode
   label: languageCode
@@ -34,30 +36,16 @@ fields:
   - type: text
     name: description
     label: description
-  - type: textarea
-    name: metadescription
-    label: metadescription
-  - type: text
-    name: cover
-    label: cover
-  - type: text
-    name: author
-    label: author
-  - type: text
-    name: authorlocation
-    label: authorlocation
-  - type: text
-    name: authorwebsite
-    label: authorwebsite
-  - type: text
-    name: authorbio
-    label: authorbio
-  - type: text
-    name: logo
-    label: logo
-  - type: text
-    name: hjsStyle
-    label: hjsStyle
   - type: list
     name: paginatedsections
     label: paginatedsections
+  - name: logo
+    type: file
+    config:
+      maxSize: 64
+    label: Logo
+  - name: favico
+    type: file
+    config:
+      maxSize: 64
+    label: Favico
