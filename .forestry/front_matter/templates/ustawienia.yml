@@ -44,10 +44,10 @@ fields:
         path: 
     label: Priorytet
   label: Mapa strony
-- name: ScAssets
+- name: scAssets
   type: field_group_list
   fields:
-  - name: ScAsset
+  - name: scAsset
     type: file
     config:
       maxSize: 64
