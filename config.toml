@@ -1,0 +1,15 @@
+baseURL = "https://agencjawroclawska.pl"
+languageCode = "pl-PL"
+theme = "sc_aw"
+title = "Agencja Wrocławska"
+admin_path = "/sc-aw-62353"
+
+# css assets
+[[styles.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+
+[[params.plugins.css]]
+URL = "plugins/slick/slick.css"
+
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
