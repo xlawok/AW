@@ -1,17 +1,18 @@
-ScAssets = []
+
 baseURL = "https://agencjawroclawska.pl"
 description = "Hugo port of the Themefisher’s Kross Template"
-dodaj_pliki = []
+
 languageCode = "pl-PL"
-scAssets = []
+
 theme = "sc_aw"
-title = "Agencja Wrocławska"
-[[scriptsStyles.scassets]]
-assetType = "Styl"
-scasset = "/uploads/main.css"
-[sitemap]
-changefreq = "monthly"
-filename = "sitemap.xml"
-priority = "0.5"
-[[params]]
-styles = []
+[params]
+  description = "Welcome to my website"
+  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  cover = ""
+  author = "YOUR_NAME"
+  authorlocation = "Earth, Milky Way Galaxy"
+  authorwebsite = ""
+  authorbio= ""
+  logo = ""
+  hjsStyle = "default"
+  paginatedsections = ["posts"]

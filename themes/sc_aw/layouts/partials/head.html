@@ -8,7 +8,7 @@
     <title>{{ $title }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
     {{ "<!-- plugins -->" | safeHTML }}
-    {{ range .Dodaj_pliki }}
-    <link rel="stylesheet" href="{{ .dodaj_plik | absURL }} ">
+    {{ range .Site.Params.styles }}
+    <link rel="stylesheet" href="{{ .style | absURL }} ">
     {{ end }}
 </head>
