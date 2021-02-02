@@ -44,7 +44,7 @@ fields:
         path: 
     label: Priorytet
   label: Mapa strony
-- name: scriptsStyles
+- name: params
   type: field_group
   config: {}
   fields:
