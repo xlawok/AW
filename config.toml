@@ -2,7 +2,8 @@ baseURL = "https://agencjawroclawska.pl"
 languageCode = "pl-PL"
 theme = "sc_aw"
 title = "Agencja Wrocławska"
-admin_path = "/sc-aw-62353"
+description = "Hugo port of the Themefisher’s Kross Template"
+#admin_path = "/sc-aw-62353"
 
 # css assets
 [[styles.plugins.css]]
