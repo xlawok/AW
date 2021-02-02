@@ -1,0 +1,63 @@
+---
+label: Ustawienia tematu
+hide_body: true
+fields:
+- type: text
+  name: baseURL
+  label: baseURL
+- type: text
+  name: description
+  label: description
+- type: text
+  name: languageCode
+  label: languageCode
+- type: text
+  name: theme
+  label: theme
+- type: field_group
+  name: sitemap
+  label: sitemap
+  fields:
+  - type: text
+    name: changefreq
+    label: changefreq
+  - type: text
+    name: filename
+    label: filename
+  - type: number
+    name: priority
+    label: priority
+- type: field_group
+  name: params
+  label: params
+  fields:
+  - type: text
+    name: description
+    label: description
+  - type: textarea
+    name: metadescription
+    label: metadescription
+  - type: text
+    name: cover
+    label: cover
+  - type: text
+    name: author
+    label: author
+  - type: text
+    name: authorlocation
+    label: authorlocation
+  - type: text
+    name: authorwebsite
+    label: authorwebsite
+  - type: text
+    name: authorbio
+    label: authorbio
+  - type: text
+    name: logo
+    label: logo
+  - type: text
+    name: hjsStyle
+    label: hjsStyle
+  - type: list
+    name: paginatedsections
+    label: paginatedsections
