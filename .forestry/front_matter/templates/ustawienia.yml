@@ -44,37 +44,5 @@ fields:
         path: 
     label: Priorytet
   label: Mapa strony
-- name: params
-  type: field_group
-  config: {}
-  fields:
-  - name: scassets
-    type: field_group_list
-    fields:
-    - name: scasset
-      type: file
-      config:
-        maxSize: 64
-      label: Plik
-    - name: assetType
-      type: select
-      default: []
-      config:
-        required: false
-        options:
-        - Styl
-        - Skrypt
-        source:
-          type: simple
-          section: 
-          file: 
-          path: 
-      label: Typ pliku
-    config:
-      min: 
-      max: 
-      labelField: 
-    label: Pliki
-  label: Skrypty i style
 pages:
 - config.toml
