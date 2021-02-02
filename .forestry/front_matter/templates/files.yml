@@ -29,3 +29,5 @@ fields:
     max: 
     labelField: 
   label: Dodaj pliki
+pages:
+- config.toml
