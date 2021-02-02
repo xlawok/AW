@@ -3,6 +3,8 @@ description = "Hugo port of the Themefisher’s Kross Template"
 languageCode = "pl-PL"
 theme = "sc_aw"
 title = ""
+enableRobotsTXT = true
+canonifyURLs = true
 [params]
 description = "Welcome to my website"
 favico = ""
