@@ -9,6 +9,9 @@ sections:
   label: Pages
   create: all
   match: "*"
+- type: document
+  path: config.toml
+  label: Konfiguracja
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
