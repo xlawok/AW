@@ -1,5 +1,6 @@
 baseURL = "https://agencjawroclawska.pl"
 description = "Hugo port of the Themefisher’s Kross Template"
+dodaj_pliki = []
 languageCode = "pl-PL"
 theme = "sc_aw"
 title = "Agencja Wrocławska"
