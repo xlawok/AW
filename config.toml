@@ -5,6 +5,10 @@ description = "Hugo port of the Themefisher’s Kross Template"
 languageCode = "pl-PL"
 
 theme = "sc_aw"
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
 [params]
   description = "Welcome to my website"
   metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
