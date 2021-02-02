@@ -3,12 +3,10 @@ baseURL = "https://agencjawroclawska.pl"
 description = "Hugo port of the Themefisher’s Kross Template"
 dodaj_pliki = []
 languageCode = "pl-PL"
+scAssets = []
 theme = "sc_aw"
 title = "Agencja Wrocławska"
 [sitemap]
 changefreq = "monthly"
 filename = "sitemap.xml"
 priority = "0.5"
-[[scAssets]]
-rodzaj_pliku = "Styl"
-scAsset = "/uploads/main.css"
