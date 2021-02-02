@@ -47,19 +47,14 @@ fields:
 - name: params
   type: field_group_list
   fields:
-  - name: scstyles
-    type: field_group_list
-    fields:
-    - name: scstyle
-      type: file
-      config:
-        maxSize: 64
-      label: Styl
-    config:
-      min: 
-      max: 
-      labelField: 
+  - name: scstyle
+    type: image_gallery
+    config: {}
     label: Style
+  - name: scscripts
+    type: image_gallery
+    config: {}
+    label: Skrypty
   config:
     min: 
     max: 
