@@ -1,22 +1,21 @@
-
 baseURL = "https://agencjawroclawska.pl"
 description = "Hugo port of the Themefisher’s Kross Template"
-
 languageCode = "pl-PL"
-
 theme = "sc_aw"
-[sitemap]
-  changefreq = "monthly"
-  filename = "sitemap.xml"
-  priority = 0.5
+title = ""
 [params]
-  description = "Welcome to my website"
-  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
-  cover = ""
-  author = "YOUR_NAME"
-  authorlocation = "Earth, Milky Way Galaxy"
-  authorwebsite = ""
-  authorbio= ""
-  logo = ""
-  hjsStyle = "default"
-  paginatedsections = ["posts"]
+author = "YOUR_NAME"
+authorbio = ""
+authorlocation = "Earth, Milky Way Galaxy"
+authorwebsite = ""
+cover = ""
+description = "Welcome to my website"
+favico = ""
+hjsStyle = "default"
+logo = ""
+metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+paginatedsections = ["posts"]
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
