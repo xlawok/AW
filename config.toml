@@ -6,5 +6,15 @@ title = "Agencja Wrocławska"
 [sitemap]
 changefreq = "monthly"
 filename = "sitemap.xml"
-priority = 0.5
-
+priority = "0.5"
+[[styles.plugins.css]]
+URL = ""
+[[styles.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+[[styles.plugins.css]]
+URL = "plugins/slick/slick.css"
+[[styles.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+[[dodaj_pliki]]
+dodaj_plik = ""
+rodzaj_pliku = ""
