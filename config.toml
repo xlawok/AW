@@ -10,3 +10,6 @@ title = "Agencja Wrocławska"
 changefreq = "monthly"
 filename = "sitemap.xml"
 priority = "0.5"
+[[params]]
+assetType = "Styl"
+scAsset = "/uploads/main.css"

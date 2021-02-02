@@ -44,22 +44,22 @@ fields:
         path: 
     label: Priorytet
   label: Mapa strony
-- name: scAssets
+- name: params
   type: field_group_list
   fields:
   - name: scAsset
     type: file
     config:
       maxSize: 64
-    label: Dodaj plik
-  - name: rodzaj_pliku
+    label: Pliki
+  - name: assetType
     type: select
     default: []
     config:
       required: false
       options:
-      - Skrypt
       - Styl
+      - Skrypt
       source:
         type: simple
         section: 
@@ -70,6 +70,6 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Dodaj pliki
+  label: Params
 pages:
 - config.toml
