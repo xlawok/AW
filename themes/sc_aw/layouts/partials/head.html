@@ -11,8 +11,8 @@
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
-    {{ "<!-- plugins -->" | safeHTML }}
-    {{ range .Site.Params.styles }}
+    
+    
     <link rel="stylesheet" href="{{ .Site.Params.logo }} ">
-    {{ end }}
+    
 </head>
