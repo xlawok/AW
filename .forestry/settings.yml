@@ -10,6 +10,10 @@ sections:
   create: all
   match: "*"
 - type: document
+  path: clients.toml
+  label: Nasi klienci
+  match: "**/*"
+- type: document
   path: config.toml
   label: Konfiguracja
 upload_dir: static/uploads
