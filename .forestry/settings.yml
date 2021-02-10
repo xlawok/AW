@@ -4,17 +4,17 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: config.toml
-  label: Konfiguracja
-- type: document
-  path: data/clients.toml
-  label: Nasi klienci
 - type: directory
   path: content
   label: Pages
   create: all
   match: "*"
+- type: document
+  path: data/clients.toml
+  label: Nasi klienci
+- type: document
+  path: config.toml
+  label: Konfiguracja
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
