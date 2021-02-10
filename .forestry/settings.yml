@@ -7,14 +7,14 @@ sections:
 - type: document
   path: config.toml
   label: Konfiguracja
+- type: document
+  path: data/clients.toml
+  label: Nasi klienci
 - type: directory
   path: content
   label: Pages
   create: all
   match: "*"
-- type: document
-  path: clients.toml
-  label: Nasi klienci
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
