@@ -1,4 +1,27 @@
 ---
 label: clients-template
 hide_body: true
-fields: []
+fields:
+- name: client_sec_header
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek sekcji
+- name: clients_list
+  type: field_group_list
+  fields:
+  - name: clinet_logo
+    type: file
+    config:
+      maxSize: 1
+    label: Logo klienta
+  - name: client_url
+    type: text
+    config:
+      required: false
+    label: Adres url klienta
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Lista klientów
