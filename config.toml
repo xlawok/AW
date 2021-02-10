@@ -5,6 +5,8 @@ enableRobotsTXT = true
 languageCode = "pl-PL"
 theme = "sc_aw"
 title = "Agencja Wrocławska"
+landscapePhotoWidths = [2500, 1500, 1000]
+portraitPhotoWidths = [1500, 1000, 750]
 [[menu.main]]
 identifier = "about"
 name = "about hugo"
