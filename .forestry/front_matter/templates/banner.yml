@@ -1,4 +1,19 @@
 ---
 label: Banner
 hide_body: true
-fields: []
+fields:
+- name: banner_img
+  type: file
+  config:
+    maxSize: 1
+  label: Zdjęcie
+- name: banner_header
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek bannera
+- name: banner_slogan
+  type: include
+  config: {}
+  template: naglowek
+  label: Slogan pod nagłówkiem
