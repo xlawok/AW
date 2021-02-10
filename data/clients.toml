@@ -1,0 +1,21 @@
+[[clients_list]]
+client_url = "https://biblioteka.wroc.pl/"
+clinet_logo = "/uploads/biblioteka-wroclaw.svg"
+[[header-repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Nasi"
+txt_block_size = "XL"
+underline = false
+[[header-repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czerwony"
+ornament = "prawa w dół"
+txt_block = "KLIENCI"
+txt_block_size = "L"
+underline = true

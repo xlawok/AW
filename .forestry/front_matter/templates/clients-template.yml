@@ -25,3 +25,5 @@ fields:
     max: 
     labelField: 
   label: Lista klientów
+pages:
+- data/clients.toml
