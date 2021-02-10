@@ -4,6 +4,9 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: config.toml
+  label: Konfiguracja
 - type: directory
   path: content
   label: Pages
@@ -12,10 +15,6 @@ sections:
 - type: document
   path: clients.toml
   label: Nasi klienci
-  match: "**/*"
-- type: document
-  path: config.toml
-  label: Konfiguracja
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
