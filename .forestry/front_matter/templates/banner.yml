@@ -17,3 +17,26 @@ fields:
   config: {}
   template: naglowek
   label: Slogan pod nagłówkiem
+- name: naglowek_formularza
+  type: text
+  config:
+    required: false
+  label: Nagłówek formularza
+- name: banner_form_html
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Kod formularza
+- name: banner_form_script
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Skrypt formularza
