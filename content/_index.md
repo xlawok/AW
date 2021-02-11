@@ -33,5 +33,8 @@ txt_block_size = "XL"
 underline = false
 [sections.banner_slogan]
 header_repeater = []
+[[sections]]
+show_sec_clients = true
+template = "sekcja-nasi-klienci"
 
 +++
