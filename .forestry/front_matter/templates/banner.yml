@@ -1,5 +1,5 @@
 ---
-label: Banner
+label: Sekcja Banner
 hide_body: true
 fields:
 - name: banner_img
