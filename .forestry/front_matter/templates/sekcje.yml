@@ -7,6 +7,7 @@ fields:
   label: Sekcje
   template_types:
   - sekcja-nasi-klienci
+  - banner
   config:
     min: 
     max: 
