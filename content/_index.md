@@ -2,14 +2,6 @@
 [[sections]]
 banner_form_html = ""
 banner_form_script = ""
-banner_header_cnt = ""
-banner_img = ""
-banner_slogan = ""
-naglowek_formularza = ""
-template = ""
-[[sections]]
-banner_form_html = ""
-banner_form_script = ""
 banner_img = "/uploads/breslau-dusk-1024x506.jpg"
 naglowek_formularza = ""
 template = "banner"
