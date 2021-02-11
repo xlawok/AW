@@ -32,5 +32,8 @@ ornament = "brak"
 txt_block = "Bądź tam, gdzie Twoi klienci szukają. Później niech dzieje się magia."
 txt_block_size = "S"
 underline = false
+[[sections]]
+show_sec_clients = true
+template = "sekcja-nasi-klienci"
 
 +++
