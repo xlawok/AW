@@ -1,4 +1,7 @@
 ---
 label: Sekcja nasi klienci
 hide_body: true
-fields: []
+fields:
+- name: show_sec_clients
+  type: boolean
+  label: Wyświetl sekcję klienci
