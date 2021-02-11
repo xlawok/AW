@@ -22,6 +22,15 @@ ornament = "lewa w prawo"
 txt_block = "Pozyjconujemy"
 txt_block_size = "L"
 underline = true
+[[sections.banner_header_cnt.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "marki"
+txt_block_size = "XL"
+underline = false
 [sections.banner_slogan]
 header_repeater = []
 
