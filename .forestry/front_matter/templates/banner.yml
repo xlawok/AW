@@ -7,18 +7,26 @@ fields:
   config:
     maxSize: 1
   label: Zdjęcie
-- name: banner_header
-  type: include
+- name: banner_header_cnt
+  type: field_group
   config: {}
-  template: naglowek
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
   label: Nagłówek bannera
-  description: Dodaj nagłówek bannera
 - name: banner_slogan
-  type: include
+  type: field_group
   config: {}
-  template: naglowek
+  fields:
+  - name: banner_slogan
+    type: include
+    config: {}
+    template: naglowek
+    label: Slogan
   label: Slogan pod nagłówkiem
-  description: Dodaj slogan pod nagłówkiem
 - name: naglowek_formularza
   type: text
   config:
