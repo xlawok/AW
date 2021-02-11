@@ -12,11 +12,13 @@ fields:
   config: {}
   template: naglowek
   label: Nagłówek bannera
+  description: Dodaj nagłówek bannera
 - name: banner_slogan
   type: include
   config: {}
   template: naglowek
   label: Slogan pod nagłówkiem
+  description: Dodaj slogan pod nagłówkiem
 - name: naglowek_formularza
   type: text
   config:
