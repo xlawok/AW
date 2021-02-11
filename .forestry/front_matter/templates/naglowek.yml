@@ -2,7 +2,7 @@
 label: Nagłówek-template
 hide_body: true
 fields:
-- name: header-repeater
+- name: header_repeater
   type: field_group_list
   fields:
   - name: txt_block

@@ -4,7 +4,7 @@ clinet_logo = "/uploads/biblioteka-wroclaw.svg"
 [[clients_list]]
 client_url = "https://biblioteka.wroc.pl/"
 clinet_logo = "/uploads/biblioteka-wroclaw.svg"
-[[header-repeater]]
+[[header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
 break_line = false
@@ -13,7 +13,7 @@ ornament = "brak"
 txt_block = "Nasi"
 txt_block_size = "XL"
 underline = false
-[[header-repeater]]
+[[header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
 break_line = false
