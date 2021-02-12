@@ -1,8 +1,15 @@
 +++
 [[sections]]
+banner_bg_for_center = ""
+banner_bg_no_img = ""
+banner_center_img = ""
+banner_cta_title = ""
+banner_cta_url = ""
 banner_form_html = ""
 banner_form_script = ""
 banner_img = "/uploads/breslau-dusk-1024x506.jpg"
+banner_list_gruop = []
+banner_type = "wide_img"
 naglowek_formularza = ""
 template = "banner"
 [[sections.banner_header_cnt.header_repeater]]
