@@ -1,119 +1,25 @@
 {{ $clientslist := site.Data.clients }}
-<!-- lista klientów z data -->
-{{ $header_list := ($clientslist.header_repeater) }}
-<!-- zapisanie do zmiennej -->
-{{ $header_len := (len $header_list) }}
-<!-- ilosc -->
-{{ $previous_header_tag :="" }}
-{{ $first_header_tag :=""}}
-{{ $previous_break_line :="" }}
-{{ range $index, $element := $header_list }}
-<!--                    USTALENIE ZMIENNYCH W RZĘDZIE -->
-    {{ $header_tag :="div" }}
-    {{ if eq .block_tag_type "paragraf" }}
-        {{ $header_tag ="p" }}
-    {{ else }}
-        {{ $header_tag = .block_tag_type }}
-    {{ end }}
-
-    {{$txt_underline := ""}}
-    {{ if .underline  }}
-        {{ $txt_underline ="txt-underline" }}
-    {{ else }}
-        {{ $txt_underline = "" }}
-    {{ end }}
-
-    {{$break_line := ""}}
-    {{ if .break_line  }}
-        {{ $break_line ="txt-break" }}
-    {{ else }}
-        {{ $break_line = "" }}
-    {{ end }}
-
-    {{ $header_bold :="f-w400" }}
-    {{ if eq .bold_txt "cienki" }}
-        {{ $header_bold ="f-w300" }}
-    {{ else if eq .bold_txt "normalny" }}
-        {{ $header_bold ="f-w400" }}
-    {{ else if eq .bold_txt "gruby" }}
-        {{ $header_bold ="f-w800" }}
-    {{ else if eq .bold_txt "bardzo gruby" }}
-        {{ $header_bold ="f-w900" }}
-    {{ end }}
+{{ $clientslist_len := (len $clientslist) }}
+{{ if gt $clientslist_len  0}}
+<section class='sec-padding sc-our-clients'>
+    <!-- lista klientów z data -->
+    {{ $header_list := ($clientslist.header_repeater) }}
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list)  -}}
+    <!-- zapisanie do zmiennej -->
+    <ul>
+        {{ range $clientslist.clients_list }}
     
-    
-
-    {{ $header_ornament :="" }}
-    {{ if eq .ornament "lewa w górę" }}
-        {{ $header_ornament ="ornament-l-t" }}
-    {{ else if eq .ornament "lewa w prawo" }}
-        {{ $header_ornament ="ornament-l-r" }}
-    {{ else if eq .ornament "lewa w dół" }}
-        {{ $header_ornament ="ornament-l-b" }}
-    {{ else if eq .ornament "lewa w lewo" }}
-        {{ $header_ornament ="ornament-l-l" }}
-    {{ else if eq .ornament "prawa w górę" }}
-        {{ $header_ornament ="ornament-r-t" }}
-    {{ else if eq .ornament "prawa w prawo" }}
-        {{ $header_ornament ="ornament-r-r" }}
-    {{ else if eq .ornament "prawa w dół" }}
-        {{ $header_ornament ="ornament-r-b" }}
-    {{ else if eq .ornament "prawa w lewo" }}
-        {{ $header_ornament ="ornament-rl-l" }}
-    {{ else }}
-        {{ $header_ornament :="" }}
-    {{ end }}
-
-    {{ $header_color :="txt-black" }}
-    {{ if eq .bold_txt "czerwony" }}
-        {{ $header_color ="txt-red" }}
-    {{ else if eq .bold_txt "czarny" }}
-        {{ $header_color ="txt-black" }}
-    {{ else if eq .bold_txt "biały" }}
-        {{ $header_color ="txt-white" }}
-    {{ end }}
-
-    {{ $header_size :=( printf "txt-%s" .txt_block_size ) }}
-
-        {{ if eq (add $index 1) 1 }}
-            {{ $first_header_tag =$header_tag }}
-        <!-- PIERWSZE OTWARCIE BLOKU -->
-            {{( printf "<%s class='%s %s %s %s %s %s'>" $header_tag $header_bold $txt_underline $break_line $header_color $header_size $header_ornament) | safeHTML}}
-            {{.txt_block}}
-        {{end}}
-
-        {{ if not (eq (add $index 1) 1 )}}
-        <!-- KOLEJNE OTWARCIE BLOKU -->
-            {{ if eq $header_tag $previous_header_tag }}
-                {{ $header_tag ="span" }}
-            {{ else }}
-                {{ $header_tag = .header_tag }}
+        <li>
+            <a rel='nofollow' href="{{.client_url}}" target="_blank">
+                <img src="{{.clinet_logo}}" alt="">
+            </a>
+        </li>
+        <!-- {{ if eq .title "Hugo Hula Hoop" }}
+            {{ range .variants }}
+            {{ .price }}
             {{ end }}
-            {{( printf "<%s class='%s %s %s %s %s %s'>" $header_tag $header_bold $txt_underline $previous_break_line $header_color $header_size $header_ornament) | safeHTML}}
-                {{.txt_block}}
-            {{( printf "</%s>" $header_tag ) | safeHTML}}
-        {{end}}
-        
-
-        {{ if eq (add $index 1) $header_len }}
-        <!-- OSTATNIE ZAMKNIĘCIE BLOKU -->
-            {{( printf "</%s>" $first_header_tag ) | safeHTML}}
-        {{end}}
-<!--                    Zapisanie ostatnich ZMIENNYCH W RZĘDZIE -->
-    {{ $previous_header_tag =$header_tag }}
-    <!-- {{ $previous_header_bold :=$header_bold }}
-    {{ $previous_header_color :=$header_color }}
-    {{ $previous_txt_block_sizer :=$header_size }}
-    {{ $previous_txt_underline :=$txt_underline }} -->
-    {{ $previous_break_line =$break_line }}
-    
-{{ end }}
-{{ range $clientslist.clients_list }}
-aa
-
-  <!-- {{ if eq .title "Hugo Hula Hoop" }}
-    {{ range .variants }}
-      {{ .price }}
-    {{ end }}
-  {{ end }} -->
+        {{ end }} -->
+        {{ end }}
+    </ul>
+</section>
 {{ end }}
