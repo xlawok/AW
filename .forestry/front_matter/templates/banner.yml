@@ -2,11 +2,37 @@
 label: Sekcja Banner
 hide_body: true
 fields:
+- name: banner_type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - wide_img
+    - center_img_w_background
+    - no_img_only_background
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Typ bannera
 - name: banner_img
   type: file
   config:
     maxSize: 1
   label: Zdjęcie
+  showOnly:
+    field: banner_type
+    value: wide_img
+- name: banner_center_img
+  type: file
+  config:
+    maxSize: 64
+  label: Zdjęcie
+  showOnly:
+    field: banner_type
+    value: center_img_w_background
 - name: banner_header_cnt
   type: field_group
   config: {}
@@ -32,6 +58,9 @@ fields:
   config:
     required: false
   label: Nagłówek formularza
+  showOnly:
+    field: banner_type
+    value: wide_img
 - name: banner_form_html
   type: textarea
   default: ''
@@ -41,6 +70,9 @@ fields:
     schema:
       format: markdown
   label: Kod formularza
+  showOnly:
+    field: banner_type
+    value: wide_img
 - name: banner_form_script
   type: textarea
   default: ''
@@ -50,3 +82,61 @@ fields:
     schema:
       format: markdown
   label: Skrypt formularza
+  showOnly:
+    field: banner_type
+    value: wide_img
+- name: banner_bg_for_center
+  type: file
+  config:
+    maxSize: 64
+  label: Tło
+  showOnly:
+    field: banner_type
+    value: center_img_w_background
+- name: banner_bg_no_img
+  type: file
+  config:
+    maxSize: 64
+  label: Tło
+  showOnly:
+    field: banner_type
+    value: no_img_only_background
+- name: banner_list_gruop
+  type: field_group_list
+  fields:
+  - name: banenr_list_item
+    type: text
+    config:
+      required: false
+    label: Pozycja listy
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Lista
+  showOnly:
+    field: banner_type
+    value: no_img_only_background
+- name: banner_cta_title
+  type: text
+  config:
+    required: false
+  label: Tytuł odnośnika
+  showOnly:
+    field: banner_type
+    value: no_img_only_background
+- name: banner_cta_url
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: pages
+      file: 
+      path: 
+  label: Adres odnośnika
+  showOnly:
+    field: banner_type
+    value: no_img_only_background
