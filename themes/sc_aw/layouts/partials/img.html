@@ -1,14 +1,14 @@
-<img src="{{ .image }}" />
 
+{{ $resized := "" }}
 {{ with .image }}
-{{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
+  {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
 
-  
-  {{ with $imageResource }}
-  aaa
-  {{ end }}
-  {{ $resized := $imageResource.Fill "200x200" }}
-  <img src="{{ $resized.RelPermalink }}" />
+    
+    {{ with $imageResource }}
+    aaa
+    {{ end }}
+    {{ $resized = $imageResource.Fill "200x200" }}
+    <img src="{{ $resized.RelPermalink }}" />
 
 
 {{ end }}
