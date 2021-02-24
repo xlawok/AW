@@ -1,29 +1,14 @@
-{{ with .src }}
-{{ $imageResource := ($.Site.GetPage "images").Resources.GetMatch (strings.TrimPrefix "/images/" . ) }}
+<img src="{{ .image }}" />
 
-{{ $resizedsm := $imageResource.Resize "640x" }}
-{{ $resizedmd := $imageResource.Resize "768x" }}
-{{ $resizedlg := $imageResource.Resize "1024x" }}
-{{ $resizedxl := $imageResource.Resize "2048x" }}
+{{ with .image }}
+{{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
 
-<picture>
-  <source media="(min-width: 1280px)" srcset="{{ $resizedlg.RelPermalink }} 1x,
-    {{ $resizedxl.RelPermalink }} 2x,
-    {{ $resizedxl.RelPermalink }} 3x">
+  
+  {{ with $imageResource }}
+  aaa
+  {{ end }}
+  {{ $resized := $imageResource.Fill "200x200" }}
+  <img src="{{ $resized.RelPermalink }}" />
 
-  <source media="(min-width: 1024px)" srcset="{{ $resizedlg.RelPermalink }} 1x,
-    {{ $resizedxl.RelPermalink }} 2x,
-    {{ $resizedxl.RelPermalink }} 3x">
-
-  <source media="(min-width: 768px)" srcset="{{ $resizedmd.RelPermalink }} 1x,
-    {{ $resizedlg.RelPermalink }} 2x,
-    {{ $resizedxl.RelPermalink }} 3x">
-
-  <source media="(min-width: 640px)" srcset="{{ $resizedsm.RelPermalink }} 1x,
-    {{ $resizedmd.RelPermalink }} 2x,
-    {{ $resizedlg.RelPermalink }} 3x">
-
-  <img alt="" src="{{ $resizedmd.RelPermalink }}" />
-</picture>
 
 {{ end }}
