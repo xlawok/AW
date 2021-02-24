@@ -6,8 +6,14 @@
   <!-- LOOOP SECTIONS -->
     {{if (isset . "banner_img")}}
     <!-- SEKCJA BANNER -->
-        ...here is some stuff to show in the top bar...
-        {{ .banner_form_html | safeHTML}}
+        {{if eq .banner_type "wide_img"}}
+          {{- partial "banner-wide.html" . -}}
+        {{else if eq .banner_type "center_img_w_background"}}
+          {{- partial "banner-center.html" . -}}
+        {{else if eq .banner_type "no_img_only_background"}}
+          {{- partial "banner-no-img.html" . -}}
+        {{end}}
+          
     <!-- KONIEC SEKCJA BANNER KONIEC -->
     {{end}}
     

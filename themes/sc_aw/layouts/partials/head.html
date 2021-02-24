@@ -12,7 +12,9 @@
     <title>{{ $title }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
     
-    
-    <link rel="stylesheet" href="{{ .Site.Params.logo }} ">
-    
+    {{ $style := resources.Get "/sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    {{ $lazyJs := resources.Get "js/lazysizes.min.js"  }}
+   
+    <script  type="text/javascript" src="{{ $lazyJs.Permalink }}" defer></script>
 </head>

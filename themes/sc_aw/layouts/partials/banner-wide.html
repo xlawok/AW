@@ -1,0 +1,17 @@
+
+<section class='sec-padding sc-banner-wide'>
+    
+    {{- partial "img.html" (dict "context" . "image" .banner_img)  -}}
+  
+   
+    <div class='banner-left-col'>
+       
+    </div>
+    <div class='banner-right-col'>
+        <div class='form-header'>
+            {{.naglowek_formularza}}
+        </div>
+        {{ .banner_form_html | safeHTML}}    
+    </div>
+    
+</section>
