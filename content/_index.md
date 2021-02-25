@@ -30,8 +30,15 @@ ornament = "brak"
 txt_block = "marki"
 txt_block_size = "XL"
 underline = false
-[sections.banner_slogan]
-header_repeater = []
+[[sections.banner_slogan.header_repeater]]
+block_tag_type = "div"
+bold_txt = "normalny"
+break_line = false
+color_txt = "biały"
+ornament = "brak"
+txt_block = "Bądź tam, gdzie Twoi klienci szukają. Później niech dzieje się magia."
+txt_block_size = "S"
+underline = false
 [[sections]]
 show_sec_clients = true
 template = "sekcja-nasi-klienci"
