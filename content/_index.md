@@ -10,7 +10,7 @@ banner_form_script = ""
 banner_img = "/uploads/breslau-dusk-1024x506.jpg"
 banner_list_gruop = []
 banner_type = "wide_img"
-naglowek_formularza = ""
+naglowek_formularza = "Zamów bezpłatną wycenę w 24h!"
 template = "banner"
 [[sections.banner_header_cnt.header_repeater]]
 block_tag_type = "h2"
