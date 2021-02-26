@@ -76,7 +76,7 @@ film_obrazek = "image"
 kod_embed = ""
 obrazek = "/uploads/boy-guarantee-1024x706.jpg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
-adres_odnosnika = []
+adres_odnosnika = "O-nas.md"
 if_blank = false
 opis = "Współpracujemy wyłącznie z firmami z naszego miasta - Wrocławia. Od lokalnych firm, po duże spółki potrzebujących SEO na ogólnopolskie pozycjonowanie. Celem jest lepsza komunikacja, większe nastawienie na efekty oraz jakościową współpracę."
 relacja_linku = ""
