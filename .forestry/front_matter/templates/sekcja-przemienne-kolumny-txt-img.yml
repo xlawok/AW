@@ -1,4 +1,100 @@
 ---
 label: Sekcja przemienne kolumny (txt-img)
 hide_body: true
-fields: []
+fields:
+- name: wiersz_dwie_kolumny
+  type: field_group_list
+  fields:
+  - name: kolumna_pierwsza
+    type: field_group
+    config: {}
+    fields:
+    - name: naglowek
+      type: include
+      config: {}
+      template: naglowek
+      label: Nagłówek
+    - name: opis
+      type: textarea
+      default: ''
+      config:
+        required: true
+        wysiwyg: true
+        schema:
+          format: html
+      label: Opis
+    - name: adres_odnosnika
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: pages
+          file: 
+          path: 
+      label: Adres odnośnika
+    - name: relacja_linku
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - follow
+        - nofollow
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Relacja linku
+    - name: if_blank
+      type: boolean
+      label: Czy w nowym oknie
+    label: Kolumna pierwsza
+  - name: kolumna_druga
+    type: field_group
+    config: {}
+    fields:
+    - name: film_obrazek
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - image
+        - movie embed
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Film obrazek
+    - name: kod_embed
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      showOnly:
+        field: film_obrazek
+        value: movie embed
+      label: Kod embed
+      description: Załącz kod embed/iframe
+    - name: obrazek
+      type: file
+      config:
+        maxSize: 2
+      label: Obrazek
+      showOnly:
+        field: film_obrazek
+        value: image
+    label: Kolumna druga
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Wiersz
