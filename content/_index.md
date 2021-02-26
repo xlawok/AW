@@ -60,7 +60,7 @@ color_txt = "czerwony"
 ornament = "brak"
 txt_block = "1 KROK"
 txt_block_size = "L"
-underline = false
+underline = true
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
@@ -68,6 +68,35 @@ break_line = false
 color_txt = "czarny"
 ornament = "brak"
 txt_block = "Darmowy audyt"
+txt_block_size = "XL"
+underline = false
+[[sections.wiersz_dwie_kolumny]]
+[sections.wiersz_dwie_kolumny.kolumna_druga]
+film_obrazek = []
+kod_embed = ""
+obrazek = ""
+[sections.wiersz_dwie_kolumny.kolumna_pierwsza]
+adres_odnosnika = []
+if_blank = false
+opis = "Współpracujemy wyłącznie z firmami z naszego miasta - Wrocławia. Od lokalnych firm, po duże spółki potrzebujących SEO na ogólnopolskie pozycjonowanie. Celem jest lepsza komunikacja, większe nastawienie na efekty oraz jakościową współpracę."
+relacja_linku = ""
+tytul_odnosnika = "Przeczytaj więcej"
+[[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "Lokalna"
+txt_block_size = "L"
+underline = true
+[[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "obsługa Wrocław"
 txt_block_size = "XL"
 underline = false
 [[sections]]
