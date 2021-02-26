@@ -40,6 +40,37 @@ txt_block = "Bądź tam, gdzie Twoi klienci szukają. Później niech dzieje si�
 txt_block_size = "S"
 underline = false
 [[sections]]
+template = "sekcja-przemienne-kolumny-txt-img"
+[[sections.wiersz_dwie_kolumny]]
+[sections.wiersz_dwie_kolumny.kolumna_druga]
+film_obrazek = "movie embed"
+kod_embed = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZUWoGRU9FYk\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+obrazek = ""
+[sections.wiersz_dwie_kolumny.kolumna_pierwsza]
+adres_odnosnika = "_index.md"
+if_blank = false
+opis = "Zanim porozmawiamy o obsłudze domeny, najpierw przygotujemy dla Ciebie bezpłatny audyt strony. Obejrzyj film, w którym opowiemy o zakresie działań audytu oraz jego korzyści, a następnie zostaw nam swoje dane, a wkrótce się odezwiemy z konkretami!"
+relacja_linku = "follow"
+tytul_odnosnika = "Przeczytaj więcej"
+[[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "1 KROK"
+txt_block_size = "L"
+underline = false
+[[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Darmowy audyt"
+txt_block_size = "XL"
+underline = false
+[[sections]]
 show_sec_clients = true
 template = "sekcja-nasi-klienci"
 
