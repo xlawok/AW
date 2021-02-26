@@ -23,6 +23,12 @@ fields:
         schema:
           format: html
       label: Opis
+    - name: tytul_odnosnika
+      type: text
+      config:
+        required: false
+      label: Tytuł odnośnika
+      default: Przeczytaj więcej
     - name: adres_odnosnika
       type: select
       default: []
