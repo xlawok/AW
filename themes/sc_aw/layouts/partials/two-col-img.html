@@ -3,7 +3,7 @@
 <!-- {{ $previous_header_tag :="" }}
 {{ $first_header_tag :=""}}
 {{ $previous_break_line :="" }} -->
-<section class='sec-padding sc-two-col-img-txt'></section>
+<section class='sec-padding sc-two-col-img-txt'>
     {{ range $index, $element := .wiersz_dwie_kolumny }}
         <div class='two-col-row'>
             <div class='first-col'>
@@ -22,7 +22,12 @@
                 
             </div>
             <div class='second-col'>
-                
+                {{if eq .kolumna_druga.film_obrazek "image"}}
+                    {{- partial "img.html" (dict "image" .kolumna_druga.obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw")  -}}
+
+                {{else if eq .kolumna_druga.film_obrazek "movie embed"}}
+                    {{.kolumna_druga.kod_embed | safeHTML}}
+                {{end}}
             </div>
         </div>
     {{ end }}
