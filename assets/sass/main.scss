@@ -1,11 +1,18 @@
 @charset "UTF-8";
 :root {
-  --blue: #002d72;
-  --second-txt-color: rgb(84, 89, 95);
+  
+  
   --white: #ffffff;
   --main-dark-color: #000000;
-  --red: #df3e40;
-  --bg-light-blue: #f0f6ff;
+  --red: #F63D37;
+  --base-font: "Source Sans Pro", Sans-serif;
+  --header-font: "LATO";
+  --size-XXL: 4.75rem; //--size-XXL: 76px;
+  --size-XL: 3.4375rem; //--size-XL: 55px;
+  --size-L: 2.25rem; //--size-L: 36px;
+  --size-MD: 1.8125rem; // --size-MD: 29px;
+  --size-S: 1.25rem; //--size-S: 20px;
+  --size-XS: 1rem; //--size-XS: 16px;
 }
 
 * {
@@ -37,12 +44,12 @@ html {
 }
 
 body {
-  font-family: "Source Sans Pro", Sans-serif;
+  font-family: var(--base-font);
   color: var(--main-dark-color);
   line-height: 1.25;
   font-size: 1rem;
   margin: 0;
-  background-color: #f9f9f9;
+  background-color: var(--white);
   margin-top: 8rem;
   overflow-x: hidden;
 }
@@ -54,4 +61,7 @@ b, strong {
 a {
   text-decoration: none;
   color: var(--orange);
+}
+h1,.h1,h2,.h2,h3,.h3{
+  font-family: var(--header-font);
 }

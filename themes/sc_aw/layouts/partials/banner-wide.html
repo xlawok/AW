@@ -1,11 +1,15 @@
 
 <section class='sec-padding sc-banner-wide'>
     
-    {{- partial "img.html" (dict "context" . "image" .banner_img)  -}}
+    {{- partial "img.html" (dict "image" .banner_img "imgsizes" "100vw")  -}}
   
    
     <div class='banner-left-col'>
-       
+        {{ $header_list := (.banner_header_cnt.header_repeater) }}
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list)  -}}
+        {{ $header_slogan_list := (.banner_slogan.header_repeater) }}
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_slogan_list)  -}}
+        
     </div>
     <div class='banner-right-col'>
         <div class='form-header'>
