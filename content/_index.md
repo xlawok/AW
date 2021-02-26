@@ -72,9 +72,9 @@ txt_block_size = "XL"
 underline = false
 [[sections.wiersz_dwie_kolumny]]
 [sections.wiersz_dwie_kolumny.kolumna_druga]
-film_obrazek = []
+film_obrazek = "image"
 kod_embed = ""
-obrazek = ""
+obrazek = "/uploads/boy-guarantee-1024x706.jpg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = []
 if_blank = false
