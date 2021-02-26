@@ -1,0 +1,36 @@
+{{ define "main" }}
+  
+  
+    
+  {{ range .Params.sections }}
+  <!-- LOOOP SECTIONS -->
+    {{if (isset . "banner_type")}}
+    <!-- SEKCJA BANNER -->
+        {{if eq .banner_type "wide_img"}}
+          {{- partial "banner-wide.html" . -}}
+        {{else if eq .banner_type "center_img_w_background"}}
+          {{- partial "banner-center.html" . -}}
+        {{else if eq .banner_type "no_img_only_background"}}
+          {{- partial "banner-no-img.html" . -}}
+        {{end}}
+          
+    <!-- KONIEC SEKCJA BANNER KONIEC -->
+    {{end}}
+    {{if (isset . "wiersz_dwie_kolumny")}}
+      {{- partial "two-col-img.html" . -}}
+    {{end}}
+    {{if and (isset . "show_sec_clients") (.show_sec_clients )}}
+    <!-- SEKCJA NASI KLIENCI -->
+      {{- partial "clients.html" . -}}
+    <!-- KONIEC SEKCJA NASI KLIENCI KONIEC -->
+    {{end}}
+    
+  {{ end }}
+        
+  
+        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+        <!-- {{.Content}} -->
+  
+  
+    
+{{ end }}

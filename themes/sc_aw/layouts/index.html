@@ -31,6 +31,13 @@
         <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
         <!-- {{.Content}} -->
   
-  
+        <ul>
+          <!-- Ranges through content/posts/*.md -->
+          {{ range .Pages }}
+              <li>
+                  <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+              </li>
+          {{ end }}
+          </ul>
     
 {{ end }}
