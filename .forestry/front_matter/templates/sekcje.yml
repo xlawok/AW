@@ -8,6 +8,7 @@ fields:
   template_types:
   - sekcja-nasi-klienci
   - banner
+  - sekcja-przemienne-kolumny-txt-img
   config:
     min: 
     max: 
