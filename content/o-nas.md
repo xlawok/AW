@@ -3,7 +3,7 @@ sections: []
 title: O nas
 slug: o-nas
 keywords: ''
-robots: index
+robots: index follow
 description: O agencji wrocławskiej
 url: o-nas
 
