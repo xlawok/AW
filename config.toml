@@ -1,4 +1,4 @@
-baseURL = "https://agencjawroclawska.pl"
+baseURL = "http://localhost:1313/"
 canonifyURLs = true
 description = "Hugo port of the Themefisher’s Kross Template"
 enableRobotsTXT = true
@@ -25,3 +25,7 @@ portraitPhotoWidths = [1500, 1000, 750, 500]
 changefreq = "monthly"
 filename = "sitemap.xml"
 priority = 0.5
+[permalinks]
+"/" = "/:slug/"
+posts = "/:slug/"
+page = "/:slug/"

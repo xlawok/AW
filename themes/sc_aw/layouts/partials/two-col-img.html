@@ -1,0 +1,29 @@
+{{ $row_len := (len .) }}
+<!-- ilosc -->
+<!-- {{ $previous_header_tag :="" }}
+{{ $first_header_tag :=""}}
+{{ $previous_break_line :="" }} -->
+<section class='sec-padding sc-two-col-img-txt'></section>
+    {{ range $index, $element := .wiersz_dwie_kolumny }}
+        <div class='two-col-row'>
+            <div class='first-col'>
+                {{ $header_list := (.kolumna_pierwsza.header_repeater) }}
+                {{- partial "header-tag.html" (dict "context" . "header_list" $header_list)  -}}
+
+                {{.kolumna_pierwsza.opis}}
+                {{ $relacja_linku := .kolumna_pierwsza.relacja_linku }}
+                {{ $tytul_odnosnika := .kolumna_pierwsza.tytul_odnosnika }}
+                {{ with site.GetPage .kolumna_pierwsza.adres_odnosnika }}
+                
+                    <a href=" {{ .Permalink }}" rel="{{$relacja_linku}}">{{$tytul_odnosnika}}</a>
+                {{ end }}
+                
+
+                
+            </div>
+            <div class='second-col'>
+                
+            </div>
+        </div>
+    {{ end }}
+</section>
