@@ -2,6 +2,42 @@
 label: Sekcje-bloki
 hide_body: true
 fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Tytuł
+- name: slug
+  type: text
+  config:
+    required: true
+  label: Permalink
+- name: keywords
+  type: text
+  config:
+    required: false
+  label: keywords
+- name: robots
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - follow
+    - nofollow
+    - index
+    - noindex
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Robots
+- name: description
+  type: text
+  config:
+    required: true
+  label: Opis
 - name: sections
   type: blocks
   label: Sekcje
