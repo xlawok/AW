@@ -98,6 +98,12 @@ fields:
       showOnly:
         field: film_obrazek
         value: image
+    - name: if_svg
+      type: boolean
+      label: Czy SVG
+      showOnly:
+        field: film_obrazek
+        value: image
     label: Kolumna druga
   config:
     min: 
