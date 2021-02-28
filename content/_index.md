@@ -1,4 +1,9 @@
 +++
+description = "Agencja Wrocławska"
+keywords = ""
+robots = ""
+slug = "/"
+title = "Strona główna"
 [[sections]]
 banner_bg_for_center = ""
 banner_bg_no_img = ""
@@ -44,6 +49,7 @@ template = "sekcja-przemienne-kolumny-txt-img"
 [[sections.wiersz_dwie_kolumny]]
 [sections.wiersz_dwie_kolumny.kolumna_druga]
 film_obrazek = "movie embed"
+if_svg = false
 kod_embed = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZUWoGRU9FYk\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 obrazek = ""
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
@@ -73,8 +79,9 @@ underline = false
 [[sections.wiersz_dwie_kolumny]]
 [sections.wiersz_dwie_kolumny.kolumna_druga]
 film_obrazek = "image"
+if_svg = true
 kod_embed = ""
-obrazek = "/uploads/boy-guarantee-1024x706.jpg"
+obrazek = "/uploads/agenci-i-brokerzy-procedura_decyzyjna.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = "O-nas.md"
 if_blank = false
