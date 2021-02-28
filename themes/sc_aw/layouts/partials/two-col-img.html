@@ -23,8 +23,11 @@
             </div>
             <div class='second-col'>
                 {{if eq .kolumna_druga.film_obrazek "image"}}
-                    {{- partial "img.html" (dict "image" .kolumna_druga.obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw")  -}}
-
+                    {{if .kolumna_druga.if_svg}}
+                        {{ readFile .kolumna_druga.obrazek | safeHTML }}
+                    {{else }}
+                        {{- partial "img.html" (dict "image" .kolumna_druga.obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw")  -}}
+                    {{end}}
                 {{else if eq .kolumna_druga.film_obrazek "movie embed"}}
                     {{.kolumna_druga.kod_embed | safeHTML}}
                 {{end}}

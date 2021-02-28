@@ -65,3 +65,93 @@ a {
 h1,.h1,h2,.h2,h3,.h3{
   font-family: var(--header-font);
 }
+//checkbox
+$checked-color: white;
+$unchecked-color: red;
+
+.darmkode-input{
+  position: relative;
+  line-height: 2.4;
+  input{
+    margin: 0px;
+    margin-top: 1px;
+    cursor: pointer;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    background: red;
+    
+    width: 60px;
+    height: 40px;
+    &:checked + label {
+      &:before {
+        background-color: $checked-color;
+        background-color: white;
+        // content: "\f00c";
+        content: "ON";
+        padding-left: 6px;
+      }
+      &:after {
+        background: white;
+        box-shadow: 0 0 0 1px white, 0 0 0 3px red;
+        left: 32px;
+      }
+    }
+  }
+  label {
+    position: relative;
+    
+    padding-left: 65px;
+    vertical-align: middle;
+    &:before, &:after {
+      position: absolute;
+  
+      border-radius: 50%;
+      transition: background-color 0.3s, left 0.3s;
+      transform: translateY(-25%);
+    }
+    &:before {
+      // content: "\f00d";
+      content: "OFF";
+      color: #fff;
+      box-sizing: border-box;
+      // font-family: 'FontAwesome', sans-serif;
+    
+
+   
+      background-color: $unchecked-color;
+      background-color: white;
+      left: 0px;
+      top: 0px;
+  
+ 
+      padding-left: 30px;
+      font-size: 14px;
+      line-height: 30px;
+      height: 30px;
+      width: 60px;
+      border-radius: 20px;
+    }
+    &:after {
+      content: "";
+      letter-spacing: 20px;
+      background: red;
+      box-shadow: 0 0 0 1px white, 0 0 0 3px red;
+    
+      left: 2px;
+      top: 2px;
+      height: 24px;
+      width: 24px;
+    }
+  }
+}
+//end checkbox
+
+@import 'colours.scss'

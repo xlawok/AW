@@ -1,8 +1,17 @@
 
+
+
 {{$imgsizes := .imgsizes}}
 {{$imgalt := .imgalt}}
 
  {{ with .image }}
+  {{ $pathArr := split . "." }}
+  {{ $pathLen := len $pathArr }}
+  {{ $ext := index $pathArr (sub $pathLen 1) }}
+  {{ if eq $ext "svg" }}
+    <img src="{{.}}">
+  {{else}}
+
     {{ $imageResource := (site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .  ) }}
 
 {{ $tinyw := default "500x" }}
@@ -49,4 +58,5 @@
 
   {{ with $imgalt }}alt="{{.}}"{{ else }}alt=""{{ end }}
   >
+  {{ end }} 
 {{ end }} 
