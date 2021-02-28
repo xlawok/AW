@@ -100,7 +100,7 @@ fields:
         value: image
     - name: if_svg
       type: boolean
-      label: Czy SVG
+      label: Gdy svg wczytaj w html
       showOnly:
         field: film_obrazek
         value: image
