@@ -109,5 +109,52 @@ underline = false
 [[sections]]
 show_sec_clients = true
 template = "sekcja-nasi-klienci"
+[[sections]]
+opis = "Jako Agencja SEO kompleksowo zajmujemy się realizacją pozycjonowania. Nasze działania przynoszą realną wartość dla firm w zakresie zwiększenia sprzedaży i budowania marki online. Jesteśmy ludźmi, pracujemy mądrze i sprytnie - nie jesteśmy botami"
+template = "sekcja-glowna-uslugi"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "SEO"
+txt_block_size = "L"
+underline = false
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "czyli nasza specjalność"
+txt_block_size = "XL"
+underline = false
+[[sections.services_box]]
+if_svg = true
+obrazek = "/uploads/mbp-wroclaw.svg"
+service_description = "Pozycjonowanie stron internetowych (z ang. Search Engine Optimization) to cały wieloetapowy proces, którego głównym założeniem jest poprawienie widoczności domeny w wyszukiwarkach takich jak Google. Dzięki zabiegom optymalizacji i sprawnego linkbuildingu Twoją stronę odwiedzi coraz więcej klientów."
+[[sections.services_box.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Pozycjonowanie stron internetowych"
+txt_block_size = "L"
+underline = false
+[[sections.services_box]]
+if_svg = false
+obrazek = "/uploads/agenci-i-brokerzy-procedura_decyzyjna.svg"
+service_description = "W zasadzie proces przygotowania i optymalizacji sklepu jest z reguły tym samym, jak w przypadku strony. Natomiast ważne jest wybranie odpowiednich fraz, które zwiększą współczynnik konwersji. Uściślając - stosunek wizyt na sklepie, ma przekładać się na jak największą sprzedaż produktów klienta."
+[[sections.services_box.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Pozycjonowanie sklepów internetowych"
+txt_block_size = "L"
+underline = false
 
 +++
