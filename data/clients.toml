@@ -1,9 +1,9 @@
 [[clients_list]]
 client_url = "https://4ti.com.pl"
-clinet_logo = "/uploads/biblioteka-wroclaw.svg"
+clinet_logo = "/uploads/mbp-wroclaw.svg"
 [[clients_list]]
 client_url = "https://biblioteka.wroc.pl/"
-clinet_logo = "/uploads/biblioteka-wroclaw.svg"
+clinet_logo = "/uploads/mbp-wroclaw.svg"
 [[header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
