@@ -20,6 +20,9 @@ fields:
     config:
       required: false
     label: Adres url klienta
+  - name: if_svg
+    type: boolean
+    label: Gdy svg wczytaj w html
   config:
     min: 
     max: 
