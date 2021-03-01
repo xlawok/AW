@@ -2,20 +2,32 @@
 label: Sekcja strona główna usługi
 hide_body: false
 fields:
-- name: naglowek_sekcji
-  type: include
+- name: home_services_group
+  type: field_group
   config: {}
-  template: naglowek
-  label: Nagłówek sekcji
-- name: opis
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html
-  label: Opis
+  fields:
+  - name: naglowek_sekcji
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek sekcji
+  - name: opis
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Opis
+  - name: services_box_group
+    type: field_group_list
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Boxy z usługami
+  label: Strona główna usługi
 - name: services_box
   type: field_group_list
   fields:
