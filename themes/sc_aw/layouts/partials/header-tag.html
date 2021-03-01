@@ -57,15 +57,15 @@
     {{ else if eq .ornament "prawa w lewo" }}
         {{ $header_ornament ="ornament-rl-l" }}
     {{ else }}
-        {{ $header_ornament :="" }}
+        {{ $header_ornament ="" }}
     {{ end }}
 
     {{ $header_color :="txt-black" }}
-    {{ if eq .bold_txt "czerwony" }}
+    {{ if eq .color_txt "czerwony" }}
         {{ $header_color ="txt-red" }}
-    {{ else if eq .bold_txt "czarny" }}
+    {{ else if eq .color_txt "czarny" }}
         {{ $header_color ="txt-black" }}
-    {{ else if eq .bold_txt "biały" }}
+    {{ else if eq .color_txt "biały" }}
         {{ $header_color ="txt-white" }}
     {{ end }}
 
@@ -74,7 +74,7 @@
         {{ if eq (add $index 1) 1 }}
             {{ $first_header_tag =$header_tag }}
         <!-- PIERWSZE OTWARCIE BLOKU -->
-            {{( printf "<%s class='%s %s %s %s %s %s'>" $header_tag $header_bold $txt_underline $break_line $header_color $header_size $header_ornament) | safeHTML}}
+            {{( printf "<%s class='%s %s %s %s %s %s '>" $header_tag $header_bold $txt_underline $break_line $header_color $header_size $header_ornament) | safeHTML}}
             {{.txt_block}}
         {{end}}
 
@@ -85,7 +85,7 @@
             {{ else }}
                 {{ $header_tag = .header_tag }}
             {{ end }}
-            {{( printf "<%s class='%s %s %s %s %s %s'>" $header_tag $header_bold $txt_underline $previous_break_line $header_color $header_size $header_ornament) | safeHTML}}
+            {{( printf "<%s class='%s %s %s %s %s %s '>" $header_tag $header_bold $txt_underline $previous_break_line $header_color $header_size $header_ornament) | safeHTML}}
                 {{.txt_block}}
             {{( printf "</%s>" $header_tag ) | safeHTML}}
         {{end}}

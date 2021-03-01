@@ -1,21 +1,21 @@
 
-<section class='sec-padding sc-banner-wide'>
+<section class=' sc-banner-wide'>
     
     {{- partial "img.html" (dict "image" .banner_img "imgsizes" "100vw")  -}}
   
-   
-    <div class='banner-left-col'>
-        {{ $header_list := (.banner_header_cnt.header_repeater) }}
-        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list)  -}}
-        {{ $header_slogan_list := (.banner_slogan.header_repeater) }}
-        {{- partial "header-tag.html" (dict "context" . "header_list" $header_slogan_list)  -}}
-        
-    </div>
-    <div class='banner-right-col'>
-        <div class='form-header'>
-            {{.naglowek_formularza}}
+   <div class='banner-wide-content sec-padding'>
+        <div class='banner-left-col'>
+            {{ $header_list := (.banner_header_cnt.header_repeater) }}
+            {{- partial "header-tag.html" (dict "context" . "header_list" $header_list)  -}}
+            {{ $header_slogan_list := (.banner_slogan.header_repeater) }}
+            {{- partial "header-tag.html" (dict "context" . "header_list" $header_slogan_list)  -}}
+            
         </div>
-        {{ .banner_form_html | safeHTML}}    
+        <div class='banner-right-col'>
+            <div class='form-header'>
+                {{.naglowek_formularza}}
+            </div>
+            {{ .banner_form_html | safeHTML}}    
+        </div>
     </div>
-    
 </section>

@@ -17,4 +17,7 @@
     {{ $lazyJs := resources.Get "js/lazysizes.min.js"  }}
    
     <script  type="text/javascript" src="{{ $lazyJs.Permalink }}" defer></script>
+    {{ $mainJs := resources.Get "js/main.js"  }}
+   
+    <script  type="text/javascript" src="{{ $mainJs.Permalink }}" defer></script>
 </head>

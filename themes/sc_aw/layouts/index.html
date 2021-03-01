@@ -19,6 +19,9 @@
     {{if (isset . "wiersz_dwie_kolumny")}}
       {{- partial "two-col-img.html" . -}}
     {{end}}
+    {{if (isset . "home_services_group")}}
+      {{- partial "front-services.html" . -}}
+    {{end}}
     {{if and (isset . "show_sec_clients") (.show_sec_clients )}}
     <!-- SEKCJA NASI KLIENCI -->
       {{- partial "clients.html" . -}}
