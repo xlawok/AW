@@ -11,7 +11,16 @@
     
         <li>
             <a rel='nofollow' href="{{.client_url}}" target="_blank">
-                <img src="{{.clinet_logo}}" alt="">
+
+               
+                {{if .if_svg}}
+                    {{ readFile .clinet_logo | safeHTML }}
+                {{else }}
+                    {{- partial "img.html" (dict "image" .clinet_logo "imgsizes" "(max-width: 992px) 100vw, 50vw")  -}}
+                {{end}}
+                
+               
+                
             </a>
         </li>
         <!-- {{ if eq .title "Hugo Hula Hoop" }}
