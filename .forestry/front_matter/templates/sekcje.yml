@@ -45,6 +45,7 @@ fields:
   - sekcja-nasi-klienci
   - banner
   - sekcja-przemienne-kolumny-txt-img
+  - sekcja-glowna-uslugi
   config:
     min: 
     max: 
