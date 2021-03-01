@@ -1,5 +1,5 @@
 ---
-label: Sekcja główna usługi
+label: Sekcja strona główna usługi
 hide_body: false
 fields:
 - name: naglowek_sekcji
@@ -18,6 +18,29 @@ fields:
   label: Opis
 - name: services_box
   type: field_group_list
+  fields:
+  - name: obrazek
+    type: file
+    config:
+      maxSize: 2
+    label: Obrazek
+  - name: if_svg
+    type: boolean
+    label: Gdy svg czy wyświetlać z html?
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: service_description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Opis usługi
   config:
     min: 
     max: 
