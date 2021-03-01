@@ -82,6 +82,8 @@ fields:
         file: 
         path: 
     label: Wielkość tekstu
+    description: 'XXL: 76px;<br>XL: 55px;<br>L: 36px;<br>MD: 29px;<br>S: 20px;<br>XS:
+      16px;'
   - name: ornament
     type: select
     default: brak
