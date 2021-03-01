@@ -74,8 +74,10 @@
         {{ if eq (add $index 1) 1 }}
             {{ $first_header_tag =$header_tag }}
         <!-- PIERWSZE OTWARCIE BLOKU -->
-            {{( printf "<%s class='%s %s %s %s %s %s '>" $header_tag $header_bold $txt_underline $break_line $header_color $header_size $header_ornament) | safeHTML}}
-            {{.txt_block}}
+                {{( printf "<%s class=''>" $header_tag ) | safeHTML}}
+                {{( printf "<span class='%s %s %s %s %s %s '>"  $header_bold $txt_underline $break_line $header_color $header_size $header_ornament) | safeHTML}}
+                    {{.txt_block}}
+                </span>
         {{end}}
 
         {{ if not (eq (add $index 1) 1 )}}
@@ -85,7 +87,7 @@
             {{ else }}
                 {{ $header_tag = .header_tag }}
             {{ end }}
-            {{( printf "<%s class='%s %s %s %s %s %s '>" $header_tag $header_bold $txt_underline $previous_break_line $header_color $header_size $header_ornament) | safeHTML}}
+            {{( printf "<%s class='%s %s %s %s %s %s '>" $header_tag $header_bold $txt_underline $break_line $header_color $header_size $header_ornament) | safeHTML}}
                 {{.txt_block}}
             {{( printf "</%s>" $header_tag ) | safeHTML}}
         {{end}}

@@ -163,6 +163,12 @@ $unchecked-color: red;
 .txt-break{
   display: block;
 }
+.txt-underline{
+  text-decoration: underline;
+ > *:not(.txt-underline){
+    text-decoration: none;
+  }
+}
 .sc-two-col-img-txt{
   .two-col-row{
     display: flex;
