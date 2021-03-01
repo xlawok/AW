@@ -109,5 +109,53 @@ underline = false
 [[sections]]
 show_sec_clients = true
 template = "sekcja-nasi-klienci"
+[[sections]]
+template = "sekcja-glowna-uslugi"
+[sections.home_services_group]
+opis = "Jako Agencja SEO kompleksowo zajmujemy się realizacją pozycjonowania. Nasze działania przynoszą realną wartość dla firm w zakresie zwiększenia sprzedaży i budowania marki online. Jesteśmy ludźmi, pracujemy mądrze i sprytnie - nie jesteśmy botami"
+[[sections.home_services_group.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "SEO"
+txt_block_size = "L"
+underline = false
+[[sections.home_services_group.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "czyli nasza specjalność"
+txt_block_size = "XL"
+underline = false
+[[sections.home_services_group.services_box_group]]
+if_svg = true
+obrazek = "/uploads/mbp-wroclaw.svg"
+opis_uslugi = "Pozycjonowanie stron internetowych (z ang. Search Engine Optimization) to cały wieloetapowy proces, którego głównym założeniem jest poprawienie widoczności domeny w wyszukiwarkach takich jak Google. Dzięki zabiegom optymalizacji i sprawnego linkbuildingu Twoją stronę odwiedzi coraz więcej klientów."
+[[sections.home_services_group.services_box_group.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Pozycjonowanie stron internetowych"
+txt_block_size = "L"
+underline = false
+[[sections.home_services_group.services_box_group]]
+if_svg = false
+obrazek = "/uploads/agenci-i-brokerzy-procedura_decyzyjna.svg"
+opis_uslugi = "W zasadzie proces przygotowania i optymalizacji sklepu jest z reguły tym samym, jak w przypadku strony. Natomiast ważne jest wybranie odpowiednich fraz, które zwiększą współczynnik konwersji. Uściślając - stosunek wizyt na sklepie, ma przekładać się na jak największą sprzedaż produktów klienta."
+[[sections.home_services_group.services_box_group.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Pozycjonowanie sklepów internetowych"
+txt_block_size = "L"
+underline = false
 
 +++
