@@ -45,11 +45,11 @@ html {
 
 body {
   font-family: var(--base-font);
-  color: var(--main-dark-color);
+  
   line-height: 1.25;
   font-size: 1rem;
   margin: 0;
-  background-color: var(--white);
+  
   margin-top: 8rem;
   overflow-x: hidden;
 }
@@ -153,5 +153,44 @@ $unchecked-color: red;
   }
 }
 //end checkbox
+.sec-padding{
+  @media (min-width: 1200px){
+    padding-left: (303/1920)*100vw;
+    padding-right: (303/1920)*100vw;
+  }
 
+}
+.txt-break{
+  display: block;
+}
+.sc-two-col-img-txt{
+  .two-col-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    .second-col{
+      iframe{
+        width: 100%;
+      }
+      img{
+        width: 100%;
+      }
+      svg{
+        width: 100%;
+      }
+    }
+    @media (min-width: 1200px){
+      >div:first-child{
+        width: 45%;
+      }
+      >div:last-child{
+        width: 55%;
+      }
+      &:nth-child(even){
+        flex-direction: row-reverse;
+
+      }
+    }
+  }
+}
 @import 'colours.scss'
