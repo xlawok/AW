@@ -18,19 +18,19 @@ banner_type = "wide_img"
 naglowek_formularza = "Zamów bezpłatną wycenę w 24h!"
 template = "banner"
 [[sections.banner_header_cnt.header_repeater]]
-block_tag_type = "h2"
-bold_txt = "gruby"
+block_tag_type = "h1"
+bold_txt = "bardzo gruby"
 break_line = true
-color_txt = "czarny"
-ornament = "lewa w prawo"
+color_txt = "biały"
+ornament = "brak"
 txt_block = "Pozyjconujemy"
-txt_block_size = "L"
-underline = true
+txt_block_size = "XXL"
+underline = false
 [[sections.banner_header_cnt.header_repeater]]
 block_tag_type = "h1"
 bold_txt = "bardzo gruby"
 break_line = false
-color_txt = "czarny"
+color_txt = "biały"
 ornament = "brak"
 txt_block = "marki w internecie"
 txt_block_size = "XL"
