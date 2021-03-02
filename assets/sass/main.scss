@@ -1,12 +1,34 @@
 @charset "UTF-8";
+
+@font-face {
+  font-family: "Corporative";
+  src: url('/fonts/CorporativeSlab-Regular/CorporativeSlab-Regular.eot');
+  src: url("/fonts/CorporativeSlab-Regular/CorporativeSlab-Regular.woff") format('woff'),
+      url("/fonts/CorporativeSlab-Regular/CorporativeSlab-Regular.woff2") format('woff2');
+  // font-weight: normal;
+}
+@font-face {
+  font-family: "Corporative";
+  src: url('/fonts/CorporativeSlab-Bold/CorporativeSlab-Bold.eot');
+  src: url("/fonts/CorporativeSlab-Bold/CorporativeSlab-Bold.woff") format('woff'),
+      url("/fonts/CorporativeSlab-Bold/CorporativeSlab-Bold.woff2") format('woff2');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Corporative";
+  src: url('/fonts/CorporativeSlab-RegularIt/CorporativeSlab-RegularIt.eot');
+  src: url("/fonts/CorporativeSlab-RegularIt/CorporativeSlab-RegularIt.woff") format('woff'),
+      url("/fonts/CorporativeSlab-RegularIt/CorporativeSlab-RegularIt.woff2") format('woff2');
+  font-style: italic;
+}
 :root {
   
   
   --white: #ffffff;
   --main-dark-color: #000000;
   --red: #F63D37;
-  --base-font: "Source Sans Pro", Sans-serif;
-  --header-font: "LATO";
+  --base-font: "Corporative", Sans-serif;
+  --header-font: 'Barlow', sans-serif;;
   --size-XXL: 4.75rem; //--size-XXL: 76px;
   --size-XL: 3.4375rem; //--size-XL: 55px;
   --size-L: 2.25rem; //--size-L: 36px;
@@ -46,7 +68,7 @@ html {
 body {
   font-family: var(--base-font);
   
-  line-height: 1.25;
+  line-height: 1.625;
   font-size: 1rem;
   margin: 0;
   
@@ -64,8 +86,57 @@ a {
 }
 h1,.h1,h2,.h2,h3,.h3{
   font-family: var(--header-font);
+  line-height: 1.2;
 }
-//checkbox
+
+.sec-padding{
+  @media (min-width: 1200px){
+    padding-left: (303/1920)*100vw;
+    padding-right: (303/1920)*100vw;
+  }
+
+}
+.txt-break{
+  display: block;
+  line-height: 1.8;
+}
+.txt-underline{
+  text-decoration: underline;
+ > *:not(.txt-underline){
+    text-decoration: none;
+  }
+}
+.txt-L{
+  font-size: var(--size-L);
+}
+.txt-XXL{
+  font-size: var(--size-XXL);
+}
+.txt-XL{
+  font-size: var(--size-XL);
+}
+.txt-MD{
+  font-size: var(--size-MD);
+}
+.txt-S{
+  font-size: var(--size-S);
+}
+.txt-XS{
+  font-size: var(--size-XS);
+}
+.fw-900{
+  font-weight: 900;
+}
+.fw-700{
+  font-weight: bold;
+}
+.fw-400{
+  font-weight: normal;
+}
+.fw-300{
+  font-weight: 300;
+}
+//DARKMODE checkbox
 $checked-color: white;
 $unchecked-color: red;
 
@@ -152,23 +223,8 @@ $unchecked-color: red;
     }
   }
 }
-//end checkbox
-.sec-padding{
-  @media (min-width: 1200px){
-    padding-left: (303/1920)*100vw;
-    padding-right: (303/1920)*100vw;
-  }
 
-}
-.txt-break{
-  display: block;
-}
-.txt-underline{
-  text-decoration: underline;
- > *:not(.txt-underline){
-    text-decoration: none;
-  }
-}
+//end checkbox
 .sc-two-col-img-txt{
   .two-col-row{
     display: flex;
