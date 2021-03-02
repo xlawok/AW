@@ -27,12 +27,12 @@ txt_block = "Pozyjconujemy"
 txt_block_size = "L"
 underline = true
 [[sections.banner_header_cnt.header_repeater]]
-block_tag_type = "h2"
-bold_txt = "gruby"
+block_tag_type = "h1"
+bold_txt = "bardzo gruby"
 break_line = false
 color_txt = "czarny"
 ornament = "brak"
-txt_block = "marki"
+txt_block = "marki w internecie"
 txt_block_size = "XL"
 underline = false
 [[sections.banner_slogan.header_repeater]]
