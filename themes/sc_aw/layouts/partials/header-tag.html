@@ -3,6 +3,7 @@
 {{ $previous_header_tag :="" }}
 {{ $first_header_tag :=""}}
 {{ $previous_break_line :="" }}
+{{ $custom_class := .custom_class}}
 {{ range $index, $element := .header_list }}
 <!--                    USTALENIE ZMIENNYCH W RZĘDZIE -->
     {{ $header_tag :="div" }}
@@ -75,7 +76,7 @@
             {{ $first_header_tag =$header_tag }}
         <!-- PIERWSZE OTWARCIE BLOKU -->
                 {{( printf "<%s class=''>" $header_tag ) | safeHTML}}
-                {{( printf "<span class='%s %s %s %s %s %s '>"  $header_bold $txt_underline $break_line $header_color $header_size $header_ornament) | safeHTML}}
+                {{( printf "<span class='%s %s %s %s %s %s %s'>"  $header_bold $txt_underline $break_line $header_color $header_size $header_ornament $custom_class) | safeHTML}}
                     {{.txt_block}}
                 </span>
         {{end}}
@@ -84,10 +85,9 @@
         <!-- KOLEJNE OTWARCIE BLOKU -->
             {{ if eq $header_tag $previous_header_tag }}
                 {{ $header_tag ="span" }}
-            {{ else }}
-                {{ $header_tag = .header_tag }}
+            
             {{ end }}
-            {{( printf "<%s class='%s %s %s %s %s %s '>" $header_tag $header_bold $txt_underline $break_line $header_color $header_size $header_ornament) | safeHTML}}
+            {{( printf "<%s class='%s %s %s %s %s %s %s'>" $header_tag $header_bold $txt_underline $break_line $header_color $header_size $header_ornament $custom_class) | safeHTML}}
                 {{.txt_block}}
             {{( printf "</%s>" $header_tag ) | safeHTML}}
         {{end}}

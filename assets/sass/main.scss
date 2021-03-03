@@ -72,7 +72,7 @@ body {
   font-size: 1rem;
   margin: 0;
   
-  margin-top: 8rem;
+  // margin-top: 8rem;
   overflow-x: hidden;
 }
 
@@ -164,15 +164,18 @@ $unchecked-color: red;
     &:checked + label {
       &:before {
         background-color: $checked-color;
-        background-color: white;
+        background-color: var(--main-dark-color);
         // content: "\f00c";
-        content: "ON";
-        padding-left: 6px;
+        // content: "ON";
+        content: url(/img/sun.svg);
+        padding-left: 7px;
+        border: 1px solid white;
       }
       &:after {
         background: white;
-        box-shadow: 0 0 0 1px white, 0 0 0 3px red;
-        left: 32px;
+        box-shadow:  0 0 0 1px var(--white);
+        border: 2px solid var(--red);
+        left: 36px;
       }
     }
   }
@@ -190,11 +193,11 @@ $unchecked-color: red;
     }
     &:before {
       // content: "\f00d";
-      content: "OFF";
-      color: #fff;
+      content: url(/img/moon.svg);
+      // color: #fff;
       box-sizing: border-box;
       // font-family: 'FontAwesome', sans-serif;
-    
+      border: 1px solid var(--red);
 
    
       background-color: $unchecked-color;
@@ -203,23 +206,24 @@ $unchecked-color: red;
       top: 0px;
   
  
-      padding-left: 30px;
+      padding-left: 33px;
+      height: 25px;
+      width: 59px;
       font-size: 14px;
       line-height: 30px;
-      height: 30px;
-      width: 60px;
+   
       border-radius: 20px;
     }
     &:after {
       content: "";
       letter-spacing: 20px;
-      background: red;
-      box-shadow: 0 0 0 1px white, 0 0 0 3px red;
-    
-      left: 2px;
+      background: var(--red);
+      box-shadow:  0 0 0 1px var(--red);
+      border: 2px solid var(--white);
+      left: 5px;
       top: 2px;
-      height: 24px;
-      width: 24px;
+      height: 13px;
+      width: 13px;
     }
   }
 }
@@ -229,6 +233,92 @@ $unchecked-color: red;
 // 
 //                                        SEKCJE
 // 
+
+.sc-banner-wide {
+  padding-bottom: 4rem;
+  position: relative;
+  .banner-img{
+    position: fixed;
+    z-index: -1;
+    opacity: 0.69;
+    width: 100%;
+    object-fit: cover;
+  }
+  .banner-logo {
+    position: fixed;
+    top: -15%;
+    width: 33vw;
+    opacity: 0.4;
+    left: 5vw;
+    z-index: -1;
+  }
+  .banner-img,.banner-wide-content{
+    height: (775/1080)*100vh;
+    min-height: 20.5rem;
+  }
+  .banner-wide-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding-top: 5rem;
+    position: relative;
+    
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      
+      height: 8.5rem;
+      width: 100%;
+      bottom: -5.625rem;
+      
+      clip-path: ellipse(90% 80% at 51% 100%);
+      left:0;
+      z-index: -1;
+    }
+    .banner-left-col{
+      width: 100%;
+      @media (min-width: 1200px){
+        width: (644/1920)*100vw;
+      }
+      .banner-header {
+        line-height: (91/76);
+        font-family: var(--header-font);
+        @media (max-width: 767px){
+          &.txt-XXL{
+            font-size: 10vw;
+          }
+          &.txt-XL{
+            font-size: 7.5vw;
+          }
+        }
+        @media (min-width: 1200px) and (max-width: 1599px){
+          &.txt-XXL{
+            font-size: 5vw;
+          }
+          &.txt-XL{
+            font-size: 3.5vw;
+          }
+        }
+      }
+      .banner-slogan{
+        font-family: var(--base-font);
+        
+      }
+    }
+    .banner-right-col{
+      width: 100%;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      box-shadow: 0rem 0.1875rem 1.25rem #00000029;
+      border-radius: 0.5rem;
+      opacity: 1;
+      padding: 1.5rem 2.8125rem 1rem 2.625rem;
+      @media (min-width: 1200px){
+        width: (527/1920)*100vw;
+      }
+    }
+  }
+}
 .sc-our-clients{
   ul{
     list-style: none;

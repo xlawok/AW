@@ -3,6 +3,7 @@
 
 {{$imgsizes := .imgsizes}}
 {{$imgalt := .imgalt}}
+{{$tag_class := .tag_class}}
 
  {{ with .image }}
   {{ $pathArr := split . "." }}
@@ -35,6 +36,7 @@
 
 
 <img 
+class='{{$tag_class}}'
   sizes='{{with $imgsizes}}{{.}}{{else}}100vw{{end}}'
   srcset='{{ if ge $imageResource.Width "500" }}
     {{ with $tiny.RelPermalink }}{{.}} 500w{{ end }}

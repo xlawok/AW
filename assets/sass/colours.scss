@@ -6,6 +6,10 @@
     color: var(--main-dark-color);
     transition: color .3s ease;
 }
+.txt-white{
+    color: var(--white);
+    transition: color .3s ease;
+}
 body{
     color: var(--main-dark-color);
     background-color: var(--white);
@@ -20,5 +24,32 @@ body{
             color: var(--white);
         }
     }
-    
+    .sc-banner-wide{
+        .banner-wide-content{
+            &:after{
+                background: #F2F2F2 0% 0% no-repeat padding-box;
+            }
+        }
+    }
+    &.dark-m{
+
+        .sc-banner-wide{
+            .banner-wide-content{
+                &:after{
+                    background: transparent linear-gradient(0deg, #F63D37 0%, #7B1F1C00 100%) 0% 0% no-repeat padding-box;
+                }
+            }
+        }
+        
+    }
+    &.home{
+        section:nth-child(2){
+            background: #F2F2F2 0% 0% no-repeat padding-box;
+        }
+    }
+    &.home.dark-m{
+        section:nth-child(2){
+            background: var(--main-dark-color) 0% 0% no-repeat padding-box;
+        }
+    }
 }
