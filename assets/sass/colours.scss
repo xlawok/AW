@@ -77,6 +77,9 @@ body{
                             
                             color: var(--white);
                         }
+                        .rodo label{
+                            color: var(--white);
+                        }
                     }
                 }
             }
@@ -260,6 +263,9 @@ body{
 
         section:nth-child(2),section:nth-child(3){
             background-color: #F2F2F2;
+        }
+        section:nth-child(4){
+            background-color: var(--white);
         }
     }
     &.home.dark-m{

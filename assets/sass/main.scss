@@ -632,6 +632,7 @@ form#contactform{
     flex-wrap: wrap;
     justify-content: space-between;
     padding-left: 0;
+    margin-bottom: 0;
     li{
       background: var(--white) 0% 0% no-repeat padding-box;
       box-shadow: 0px 3px 20px #00000029;
@@ -717,8 +718,8 @@ form#contactform{
         display: block;
         position: absolute;
         z-index: -1;
-        width: 230px;
-        height: 230px;
+        width: 14.375rem;
+        height: 14.375rem;
         transform: matrix(0.68, 0.73, -0.73, 0.68, 0, 0);
         background: #FFFFFF 0% 0% no-repeat padding-box;
       }
@@ -771,6 +772,83 @@ form#contactform{
           padding-left: 0;
           padding-right: 2rem;
         }
+      }
+    }
+  }
+}
+.sc-home-services{
+  .services-intro-cnt{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 4rem;
+    @media (min-width: 1200px){
+      width: (567/1920)*100vw;
+      margin-right: auto;
+    }
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      z-index: -1;
+      width: 14.375rem;
+      height: 14.375rem;
+      left: 3rem;
+      transform: matrix(0.8, 0.6, -0.6, 0.8, 0, 0);
+      background: #F2F2F2;
+    }
+  }
+  .services-cols-cnt{
+    // display: flex;
+    // flex-wrap: wrap;
+    column-count: 1;
+    @media (min-width: 768px){
+      column-gap: 2rem;
+      column-count: 2;
+    }
+    .services-col-box{
+      width: 100%;
+      background: #FFFFFF;
+      box-shadow: 0px 3px 20px #00000029;
+      border-radius: 8px;
+      padding: 1rem 2rem 2rem 3rem;
+      margin-bottom: 2rem;
+      break-inside: avoid;
+      @media (min-width: 768px){
+        // width: 48%;
+        // &:nth-child(odd){
+        //   margin-right: auto;
+          
+        // }
+        &:nth-child(4),&:nth-child(5){
+          transform: translateY(9rem);
+          
+        }
+      }
+      // @media (min-width: 1366x){
+      //   width: (645/1920)*100vw;
+      // }
+      .services-box-first-row{
+        display: flex;
+        flex-wrap: wrap;
+
+        @media (min-width: 560px){
+          flex-wrap: nowrap;
+          align-items: center;
+        }
+        >*:first-child{
+          padding-right: 2rem;
+        }
+        // >*:last-child{
+        //   @media (min-width: 560px){
+        //     width: (368/1920)*100%;
+        //   }
+          
+        // }
+      }
+      .services-box-desc{
+        border-bottom: 1px solid #F53C37;
+        padding-bottom: .8rem;
       }
     }
   }
