@@ -99,7 +99,7 @@ h1,.h1,h2,.h2,h3,.h3{
 }
 .txt-break{
   display: block;
-  line-height: 1.8;
+  line-height: 1.6;
 }
 .txt-underline{
   text-decoration: underline;
@@ -648,6 +648,8 @@ form#contactform{
     flex-wrap: wrap;
     flex-direction: row;
     .second-col{
+      position: relative;
+      z-index: 1;
       iframe{
         width: 100%;
       }
@@ -658,16 +660,68 @@ form#contactform{
         width: 100%;
       }
     }
+    .first-col{
+      position: relative;
+      z-index: 1;
+      &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 230px;
+        height: 230px;
+        transform: matrix(0.68, 0.73, -0.73, 0.68, 0, 0);
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+      }
+    }
+    &:nth-child(1n+1){
+      .first-col{
+        &:before{
+          right:0;
+        }
+      }
+    }
+    &:nth-child(1n+2){
+      .first-col{
+        &:before{
+          left:0;
+          right: unset;
+          transform: matrix(0.84, -0.54, 0.54, 0.84, 0, 0);
+          bottom: 0;
+          bottom: 1rem;
+        }
+      }
+    }
+    &:nth-child(1n+3){
+      .first-col{
+        &:before{
+          right:0;
+          left: unset;
+          bottom: 2rem;
+          transform: matrix(-0.22, -0.97, 0.97, -0.22, 0, 0);
+        }
+      }
+    }
+    &:not(:first-child){
+      padding-top: 4rem;
+      @media (min-width: 1200px){
+        padding-top: 8rem;
+      }
+    }
     @media (min-width: 1200px){
       >div:first-child{
         width: 45%;
       }
       >div:last-child{
         width: 55%;
+        padding-left: 2rem;
       }
       &:nth-child(even){
         flex-direction: row-reverse;
-
+        >div:last-child{
+          padding-left: 0;
+          padding-right: 2rem;
+        }
       }
     }
   }
