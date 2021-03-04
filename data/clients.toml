@@ -1,10 +1,34 @@
 [[clients_list]]
+client_url = "https://www.jakjesc.wroclaw.pl/"
+clinet_logo = "/uploads/jakjesc-logo-aw.jpg"
+if_svg = false
+[[clients_list]]
+client_url = "https://www.tuwroclaw.com/"
+clinet_logo = "/uploads/tuwroclaw-logo-aw.jpg"
+if_svg = false
+[[clients_list]]
+client_url = ""
+clinet_logo = "/uploads/swiatdrzwi-logo-aw.jpg"
+if_svg = false
+[[clients_list]]
+client_url = "http://nuubag.pl/"
+clinet_logo = "/uploads/nuubag-logo-aw.jpg"
+if_svg = false
+[[clients_list]]
+client_url = "https://inkomsa.pl/"
+clinet_logo = "/uploads/inkom-logo-aw.jpg"
+if_svg = false
+[[clients_list]]
+client_url = ""
+clinet_logo = "/uploads/budus-logo-aw.jpg"
+if_svg = false
+[[clients_list]]
 client_url = "https://4ti.com.pl"
-clinet_logo = "/uploads/mbp-wroclaw.svg"
-if_svg = true
+clinet_logo = "/uploads/4ti-logo-aw.jpg"
+if_svg = false
 [[clients_list]]
 client_url = "https://biblioteka.wroc.pl/"
-clinet_logo = "/uploads/mbp-wroclaw.svg"
+clinet_logo = "/uploads/mbp-wroclaw-logo-aw.jpg"
 if_svg = false
 [[header_repeater]]
 block_tag_type = "h2"
