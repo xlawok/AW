@@ -15,7 +15,7 @@
                 {{ $tytul_odnosnika := .kolumna_pierwsza.tytul_odnosnika }}
                 {{ with site.GetPage .kolumna_pierwsza.adres_odnosnika }}
                 
-                    <a href=" {{ .Permalink }}" rel="{{$relacja_linku}}">{{$tytul_odnosnika}}</a>
+                    <a class='two-col-link' href=" {{ .Permalink }}" rel="{{$relacja_linku}}">{{$tytul_odnosnika}}</a>
                 {{ end }}
                 
 

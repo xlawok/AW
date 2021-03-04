@@ -523,7 +523,7 @@ form#contactform{
     width: 33vw;
     opacity: 0.4;
     left: 5vw;
-    z-index: -2;
+    z-index: -1;
   }
   .banner-img,.banner-wide-content{
     height: (775/1080)*100vh;
@@ -612,6 +612,20 @@ form#contactform{
   }
 }
 .sc-our-clients{
+  position: relative;
+  z-index: 1;
+  &:before{
+    content: url(/img/AW-red.svg);
+    position: absolute;
+    display: block;
+    right: -20%;
+    z-index: -1;
+    top: -50%;
+    height: 100%;
+
+    width: 50%;
+    transform: scale(.7);
+  }
   ul{
     list-style: none;
     display: flex;
@@ -674,6 +688,30 @@ form#contactform{
     .first-col{
       position: relative;
       z-index: 1;
+      .two-col-link{
+        display: block;
+        margin-top: 4rem;
+        position: relative;
+        text-transform: uppercase;
+        padding-left: 3rem;
+        visibility: hidden;
+        font-weight: bold;
+        color: var(--red);
+        &:before{
+          content: url(/img/arrow.svg);
+          display: block;
+          position: absolute;
+          left: 0;
+          visibility: visible;
+          transition: left .2s ease;
+        }
+        &:hover{
+          visibility: visible;
+          &:before{
+            left: .5rem;
+          }
+        }
+      }
       &:before{
         content: '';
         display: block;
