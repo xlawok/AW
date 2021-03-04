@@ -27,6 +27,7 @@
   --white: #ffffff;
   --main-dark-color: #000000;
   --red: #F63D37;
+  --yellow: #F9D801;
   --base-font: "Corporative", Sans-serif;
   --header-font: 'Barlow', sans-serif;;
   --size-XXL: 4.75rem; //--size-XXL: 76px;
@@ -234,6 +235,125 @@ $unchecked-color: red;
   input{
     width: 100%;
   }
+  .form-radio{
+    display: flex;
+    
+    label {
+      position: relative;
+      color: var(--main-dark-color);
+      padding-left: 2rem;
+      cursor: pointer;
+    }
+    input[type=radio]{
+      width: 1rem;
+    }
+
+    input {
+      position: absolute;
+      z-index: -1;
+      opacity: 0;
+    }
+    input[type=radio] +label:before {
+        content: '';
+        position: absolute;
+        top: 0.125rem;
+        left: 0;
+        height: 1.25rem;
+        width: 1.25rem;
+        background: #ffffff;
+        border: 0.0625rem solid #000000;
+        border-radius: 50%;
+    }
+    input:checked +label:before {
+        background: #ffffff;
+    }
+    input:disabled +label:before {
+      background: #e6e6e6;
+      opacity: 0.6;
+      pointer-events: none;
+    }
+    input[type=radio] +label::after {
+      box-sizing: unset;
+      content: '';
+      position: absolute;
+      display: none;
+      left: 0.3125rem;
+      top: 0.4375rem;
+      height: 0.75rem;
+      width: 0.75rem;
+      border-radius: 50%;
+      background: #000000;
+      transition: background 250ms;
+    }
+    input[type=radio]:checked +label::after  {
+      display: block;
+    }
+    input[type=radio]:disabled +label::after {
+      background: #7b7b7b;
+    }
+  } 
+  .radio-cnt-title{
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #707070;
+    padding-bottom: .25rem;
+    margin-bottom: .25rem;
+    color: #707070;
+  }
+  .form-radio{
+    padding: .2rem 0;
+    input{
+      margin-right: .7rem;
+    }
+  }
+  button[type=submit]{
+    font-size: var(--size-S);
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    border-radius: 0.5rem;
+    color: var(--white);
+    background-color: var(--red);
+    padding: .85rem;
+    border: 0;
+    font-weight: bold;
+    margin-top: .7rem;
+    opacity: 1;
+    font-family: var(--base-font);
+    transition: background-color .2s ease,color .2s ease;
+    &:hover,&:focus{
+      background-color: var(--yellow);
+      color: var(--main-dark-color);
+      &:before{
+        transform: translateX(1rem);
+      }
+      &:after{
+        right: calc(1rem + 0.625rem);
+      }
+    }
+    &:before,&:after{
+      content: '';
+      display: block;
+      position: absolute;
+      right: 2rem;
+      transition: transform .2s ease, right .2s ease;
+    }
+    &:before{
+      width: 1.4375rem;
+      height: 1.4375rem;
+      border-radius: 50%;
+      border: 0.125rem solid var(--main-dark-color);
+    }
+    &:after{
+      width: 0.5rem;
+      height: 0.5rem;
+      top: calc(50% - 0.3125rem);
+      right: calc(2rem + 0.625rem);
+      border-right: 0.125rem solid var(--main-dark-color);
+      border-bottom: 0.125rem solid var(--main-dark-color);
+      transform: rotate(-45deg);
+    }
+  }
 }
 
 //        FLOATING LABELS
@@ -241,63 +361,79 @@ form#contactform{
   > div {
     position: relative;
     overflow: hidden;
-    margin-top: 1rem;
+    padding-top: 2rem;
   }
-  input, textarea {
-    width: 100%;
-    
-    background: none;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    padding: 8px 12px;
-    outline: 0;
-    &:valid {
-      // Hides the label
-      background: white; 
+  > div:not(.form-radio) {
+   > input, textarea {
+      width: 100%;
+      
+      background: none;
+      position: relative;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      padding: 8px 12px;
+      outline: 0;
+      &:valid {
+        // Hides the label
+        background: white; 
+        
+      }
+      &:focus {
+        border-color: var(--red);
+        // border-top-style: solid;
+        // border-top-width: 1px;
+      }
+      &:focus + label {
+        // background: var(--red);
+        color: var(--red);
+        font-size: 70%;
+        padding: 1px 6px;
+        z-index: 2;
+        text-transform: uppercase;
+      }
     }
-    &:focus {
-      border-color: var(--red);
-      border-top-style: solid;
-      border-top-width: 1px;
+   > label {
+      transition: // not padding
+        background 0.2s,
+        color 0.2s,
+        opacity 0.2s;
+      position: absolute;
+      color: #999;
+      padding: 7px 6px;
+      
     }
-    &:focus + label {
-      background: var(--red);
-      color: white;
-      font-size: 70%;
-      padding: 1px 6px;
-      z-index: 2;
-      text-transform: uppercase;
+  >  label {
+      // top: 2rem;
+      top: 0.5rem;
+      opacity: 0;
+      left: 0;
+      width: 100%;
+      // margin-right: -100%;
+      bottom: 2px;
     }
+  >  input:focus + label, > textarea:focus + label  {
+      left: 0;
+      // margin-right: 0;
+      top: 0.5rem;
+      width: 100%;
+      padding-top: 5px;
+      opacity: 1;
+    }
+    // >  input:valid {
+    //   color: transparent;
+    // }
+    // >input:invalid{
+    //   background: var(--red);
+    // }
+    // >input:invalid +label{
+    //   color: var(--red);
+    //   font-weight: bold;
+    //   font-size: 110%;
+    //   padding: 1px 6px;
+    // }
   }
-  label {
-    transition: // not padding
-      background 0.2s,
-      color 0.2s,
-      top 0.2s,
-      bottom 0.2s,
-      right 0.2s,
-      left 0.2s;
-    position: absolute;
-    color: #999;
-    padding: 7px 6px;
-    z-index: 1;
-  }
-  label {
-    top: 2px;
-    right: 100%;
-    width: 100%;
-    margin-right: -100%;
-    bottom: 2px;
-  }
-  input:focus + label, textarea:focus + label {
-    right: 0;
-    margin-right: 0;
-    width: 40%;
-    padding-top: 5px;
-    opacity: 1;
-  }
+  
 }
 //        FLOATING LABELS END
 // 
