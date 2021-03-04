@@ -16,7 +16,7 @@
                 {{if .if_svg}}
                     {{ readFile .clinet_logo | safeHTML }}
                 {{else }}
-                    {{- partial "img.html" (dict "image" .clinet_logo "imgsizes" "(max-width: 992px) 100vw, 50vw")  -}}
+                    {{- partial "img.html" (dict "image" .clinet_logo "imgsizes" "(max-width: 992px) 100vw, 50vw" "ifsrcset" "nosrcset")  -}}
                 {{end}}
                 
                
