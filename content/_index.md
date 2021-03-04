@@ -81,7 +81,7 @@ underline = false
 film_obrazek = "image"
 if_svg = true
 kod_embed = ""
-obrazek = "/uploads/agenci-i-brokerzy-procedura_decyzyjna.svg"
+obrazek = "/uploads/icon-big-main-aw-1.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = "o-nas.md"
 if_blank = false
@@ -104,6 +104,36 @@ break_line = false
 color_txt = "czarny"
 ornament = "brak"
 txt_block = "Wrocław"
+txt_block_size = "XXL"
+underline = false
+[[sections.wiersz_dwie_kolumny]]
+[sections.wiersz_dwie_kolumny.kolumna_druga]
+film_obrazek = "image"
+if_svg = true
+kod_embed = ""
+obrazek = "/uploads/icon-big-main-aw-2.svg"
+[sections.wiersz_dwie_kolumny.kolumna_pierwsza]
+adres_odnosnika = "o-nas.md"
+if_blank = false
+opis = "Co każde 6 miesięcy działań siadamy do stołu i wspólnie analizujemy wyniki naszej pracy. Każde półrocze naszych działań jest planowane na każdy pik współpracy, tak aby klient wiedział gdzie potencjalnie jego strona się znajdzie co określony czas. Dajemy na to gwarancję. Efekty albo zwrot pieniędzy."
+relacja_linku = "follow"
+tytul_odnosnika = "Przeczytaj więcej"
+[[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "EFEKTY"
+txt_block_size = "XL"
+underline = true
+[[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Efekty albo zwrot pieniędzy"
 txt_block_size = "XXL"
 underline = false
 [[sections]]
