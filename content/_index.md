@@ -64,8 +64,8 @@ bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "1 KROK"
-txt_block_size = "L"
+txt_block = "POZNAJ NAS"
+txt_block_size = "XL"
 underline = true
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
 block_tag_type = "h2"
@@ -73,8 +73,8 @@ bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
 ornament = "brak"
-txt_block = "Darmowy audyt"
-txt_block_size = "XL"
+txt_block = "Agencja SEO"
+txt_block_size = "XXL"
 underline = false
 [[sections.wiersz_dwie_kolumny]]
 [sections.wiersz_dwie_kolumny.kolumna_druga]
@@ -83,10 +83,10 @@ if_svg = true
 kod_embed = ""
 obrazek = "/uploads/agenci-i-brokerzy-procedura_decyzyjna.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
-adres_odnosnika = "O-nas.md"
+adres_odnosnika = "o-nas.md"
 if_blank = false
-opis = "Współpracujemy wyłącznie z firmami z naszego miasta - Wrocławia. Od lokalnych firm, po duże spółki potrzebujących SEO na ogólnopolskie pozycjonowanie. Celem jest lepsza komunikacja, większe nastawienie na efekty oraz jakościową współpracę."
-relacja_linku = ""
+opis = "Współpracujemy głównie z firmami, które pochodzą z Wrocławia. Natomiast obsługujemy również klientów działającymi na terenie całego kraju. Od lokalnych firm, po duże spółki potrzebujące SEO na ogólnopolskie pozycjonowanie. Celem jest lepsza komunikacja, większe nastawienie na efekty, znajomość rynku oraz jakościowa współpraca."
+relacja_linku = "follow"
 tytul_odnosnika = "Przeczytaj więcej"
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
 block_tag_type = "h2"
@@ -94,8 +94,8 @@ bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "Lokalna"
-txt_block_size = "L"
+txt_block = "Lokalna obsługa"
+txt_block_size = "XL"
 underline = true
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
 block_tag_type = "h2"
@@ -103,8 +103,8 @@ bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
 ornament = "brak"
-txt_block = "obsługa Wrocław"
-txt_block_size = "XL"
+txt_block = "Wrocław"
+txt_block_size = "XXL"
 underline = false
 [[sections]]
 show_sec_clients = true
