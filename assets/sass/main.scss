@@ -232,6 +232,7 @@ $unchecked-color: red;
 //end checkbox
 // FORm
 #contactform{
+  padding-bottom: 1rem;
   input{
     width: 100%;
   }
@@ -354,6 +355,72 @@ $unchecked-color: red;
       transform: rotate(-45deg);
     }
   }
+  .rodo {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-top: 0;
+    margin-top: 1rem;
+    input{
+      width: auto;
+    }
+    label{
+      // width: calc(100% - 2rem);
+      padding-left: 2rem;
+      text-align: left;
+      font-family: var(--base-font);
+      font-size: 0.625rem;
+      line-height: 1.1;
+      display: block;
+      letter-spacing: 0px;
+      color: var(--main-dark-color);
+      opacity: 1;
+    }
+    input {
+      position: absolute;
+      z-index: -1;
+      opacity: 0;
+    }
+    input +label:before {
+        content: '';
+        position: absolute;
+        top: 0.125rem;
+        left: 0;
+        height: 1.25rem;
+        width: 1.25rem;
+        background: #ffffff;
+        border: 0.0625rem solid #000000;
+        // border-radius: 50%;
+    }
+    input:checked +label:before {
+        background: #ffffff;
+    }
+    input:disabled +label:before {
+      background: #e6e6e6;
+      opacity: 0.6;
+      pointer-events: none;
+    }
+    input +label::after {
+      box-sizing: unset;
+      content: '';
+      position: absolute;
+      display: none;
+      left: 0.3125rem;
+      top: 0.4375rem;
+      height: 0.75rem;
+      width: 0.75rem;
+      // border-radius: 50%;
+      background: #000000;
+      transition: background 250ms;
+    }
+    input:checked +label::after  {
+      display: block;
+    }
+    input:disabled +label::after {
+      background: #7b7b7b;
+    }
+  }
 }
 
 //        FLOATING LABELS
@@ -363,7 +430,7 @@ form#contactform{
     overflow: hidden;
     padding-top: 2rem;
   }
-  > div:not(.form-radio) {
+  > div:not(.form-radio):not(.rodo) {
    > input, textarea {
       width: 100%;
       
@@ -603,6 +670,14 @@ form#contactform{
 
       }
     }
+  }
+}
+.home{
+  main{
+    section:not(:first-child){
+      padding-top: 5rem;
+    }
+
   }
 }
 @import 'colours.scss'

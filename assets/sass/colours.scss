@@ -84,13 +84,14 @@ body{
         
     }
     &.home{
-        section:nth-child(2){
-            background: #F2F2F2 0% 0% no-repeat padding-box;
+
+        section:nth-child(2),section:nth-child(3){
+            background-color: #F2F2F2;
         }
     }
     &.home.dark-m{
-        section:nth-child(2){
-            background: var(--main-dark-color) 0% 0% no-repeat padding-box;
+        section:nth-child(2),section:nth-child(3){
+            background-color: var(--main-dark-color);
         }
     }
 }
