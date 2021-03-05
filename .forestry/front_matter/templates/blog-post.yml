@@ -78,7 +78,7 @@ fields:
 - name: categories
   type: tag_list
   default: []
-  label: categories
+  label: Kategoria
 pages:
 - content/blog/drug.md
 - content/blog/test.md
