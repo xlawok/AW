@@ -8,4 +8,5 @@ fields:
     required: false
   label: Tag
 pages:
+- pozycjonowanie.md
 - seo.md
