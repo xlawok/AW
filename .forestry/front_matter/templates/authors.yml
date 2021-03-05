@@ -14,5 +14,3 @@ fields:
     config:
       required: false
     label: Jakub
-pages:
-- data/authors.yml

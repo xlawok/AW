@@ -17,9 +17,14 @@ sections:
 - type: document
   path: data/clients.toml
   label: Nasi klienci
-- type: document
-  path: data/authors.yml
+- type: directory
+  path: data/authors
   label: Autorzy
+  create: documents
+  match: "/*"
+  new_doc_ext: ".md"
+  templates:
+  - autorzy
 - type: document
   path: config.toml
   label: Konfiguracja
