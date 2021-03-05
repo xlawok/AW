@@ -7,7 +7,12 @@ fields:
   label: authors
   fields:
   - type: text
-    name: John
-    label: John
+    name: bartek
+    label: Bartek
+  - name: jakub
+    type: text
+    config:
+      required: false
+    label: Jakub
 pages:
 - data/authors.yml
