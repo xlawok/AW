@@ -1,0 +1,14 @@
+---
+label: Tagi
+hide_body: true
+fields:
+- type: field_group
+  name: tags
+  label: tags
+  fields:
+  - type: text
+    name: bartek
+    label: bartek
+  - type: text
+    name: jakub
+    label: jakub
