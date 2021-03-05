@@ -3,12 +3,20 @@ label: Autorzy
 hide_body: false
 fields:
 - name: autor
-  type: text
+  type: field_group_list
+  fields:
+  - name: author_name
+    type: text
+    config:
+      required: false
+    label: Imię i nazwisko
+  - name: image
+    type: file
+    config:
+      maxSize: 2
+    label: Zdjęcie
   config:
-    required: true
+    min: 
+    max: 
+    labelField: 
   label: Autor
-- name: zdjecie_autora
-  type: file
-  config:
-    maxSize: 2
-  label: Zdjęcie autora
