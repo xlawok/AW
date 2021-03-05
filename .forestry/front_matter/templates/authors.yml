@@ -3,7 +3,7 @@ label: Authors
 hide_body: true
 fields:
 - type: field_group
-  name: authors
+  name: authoors
   label: authors
   fields:
   - type: text
@@ -14,5 +14,18 @@ fields:
     config:
       required: false
     label: Jakub
+- name: authors
+  type: field_group_list
+  fields:
+  - name: aaa
+    type: text
+    config:
+      required: false
+    label: aaa
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: authoors
 pages:
 - data/authors.yml
