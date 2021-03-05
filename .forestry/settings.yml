@@ -23,8 +23,6 @@ sections:
   label: Tags
   create: documents
   match: data/tags/*
-  templates:
-  - tags
 - type: document
   path: data/clients.toml
   label: Nasi klienci
