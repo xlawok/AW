@@ -78,4 +78,5 @@ fields:
   - pozycjonowanie
   label: Tagi
 pages:
+- content/blog/drugi.md
 - content/blog/testowy-artykul.md
