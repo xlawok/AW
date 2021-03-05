@@ -1,7 +1,6 @@
 ---
 label: Blog post
 hide_body: false
-
 fields:
 - name: title
   type: text
@@ -39,3 +38,15 @@ fields:
   config:
     required: true
   label: Opis
+- name: klienci
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: nasi-klienci
+      file: 
+      path: 
+  label: Klienci
