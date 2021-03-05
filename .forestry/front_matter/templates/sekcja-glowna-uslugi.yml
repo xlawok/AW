@@ -45,6 +45,32 @@ fields:
         schema:
           format: html
       label: Opis usługi
+    - name: adres_odnosnika
+      type: select
+      default: []
+      config:
+        required: false
+        options: []
+        source:
+          type: pages
+          section: pages
+          file: 
+          path: 
+      label: Adres odnośnika
+    - name: relacja_linku
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - follow
+        - nofollow
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Relacja linku
     config:
       min: 
       max: 
