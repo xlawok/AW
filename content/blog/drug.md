@@ -1,5 +1,5 @@
 +++
-author = "data/authors/bartek.md"
+author = "data/authors/bartek.yml"
 categories = []
 date = ""
 description = "safsdfs"
