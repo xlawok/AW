@@ -73,9 +73,7 @@ fields:
   label: Zdjęcie główne
 - name: tags
   type: tag_list
-  default:
-  - seo
-  - pozycjonowanie
+  default: []
   label: Tagi
 pages:
 - content/blog/drug.md
