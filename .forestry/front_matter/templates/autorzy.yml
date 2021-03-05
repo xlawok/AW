@@ -25,5 +25,3 @@ fields:
   config:
     required: false
   label: Pole
-pages:
-- data/authors.toml
