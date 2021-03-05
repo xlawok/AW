@@ -43,8 +43,8 @@ fields:
   default: []
   config:
     source:
-      type: documents
-      section: autorzy-a1cd0963-ca40-435c-8cae-cbac8c470433
+      type: pages
+      section: autorzy
       file: data/authors.yml
-      path: authors
+      path: ''
   label: Autor
