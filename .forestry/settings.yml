@@ -5,6 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+  templates:
+  - sekcje
+- type: directory
   path: content/blog
   label: Blog
   create: all
@@ -12,15 +19,12 @@ sections:
   templates:
   - blog-post
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-  templates:
-  - sekcje
-- type: document
-  path: data/tags.yml
+  path: ''
   label: Tags
+  create: documents
+  match: data/tags/*
+  templates:
+  - tags
 - type: document
   path: data/clients.toml
   label: Nasi klienci
