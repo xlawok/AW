@@ -29,3 +29,6 @@ priority = 0.5
 "/" = "/:slug/"
 posts = "/:slug/"
 page = "/:slug/"
+[taxonomies]
+  category = "categories"
+  tag = "tags"
