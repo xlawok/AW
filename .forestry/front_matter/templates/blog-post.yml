@@ -46,7 +46,7 @@ fields:
     options: []
     source:
       type: documents
-      section: autorzy-a1cd0963-ca40-435c-8cae-cbac8c470433
+      section: autor
       file: data/authors.toml
       path: 
   label: Autor
