@@ -7,7 +7,7 @@ obrazek = ""
 robots = ""
 slug = "drugi"
 summary = ""
-tags = ["zupa"]
+tags = ["zupa", "kalarepa"]
 title = "drug"
 
 +++
