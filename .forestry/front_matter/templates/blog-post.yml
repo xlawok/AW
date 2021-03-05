@@ -71,5 +71,12 @@ fields:
   config:
     maxSize: 2
   label: Zdjęcie główne
+- name: tags
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: tags
 pages:
 - content/blog/testowy-artykul.md
