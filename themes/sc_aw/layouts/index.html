@@ -29,7 +29,18 @@
     {{end}}
     
   {{ end }}
+  
+{{ $section := "blog" }}
+  <ul class="nav nav-pills nav-stacked">
+    {{ range (where .Site.RegularPages.ByTitle "Section" $section ) }}
+      <li><a href="{{ .Permalink }}">{{ .Params.title | humanize | title }}</a>
         
+        {{- partial "img.html" (dict "image" .Params.obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw")  -}}
+        {{.Params.summary}}
+        {{.Params.date}}
+      </li>
+    {{ end }}
+  </ul> 
   
         <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
         <!-- {{.Content}} -->
