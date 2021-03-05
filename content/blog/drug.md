@@ -1,5 +1,5 @@
 +++
-author = []
+author = "data/authors/bartek.md"
 categories = []
 date = ""
 description = "safsdfs"
