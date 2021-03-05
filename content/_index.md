@@ -162,9 +162,11 @@ txt_block = "czyli nasza specjalność"
 txt_block_size = "XL"
 underline = false
 [[sections.home_services_group.services_box_group]]
+adres_odnosnika = ""
 if_svg = true
 obrazek = "/uploads/group-19.svg"
 opis_uslugi = "Pozycjonowanie stron internetowych (z ang. Search Engine Optimization) to cały wieloetapowy proces, którego głównym założeniem jest poprawienie widoczności domeny w wyszukiwarkach takich jak Google. Dzięki zabiegom optymalizacji i sprawnego linkbuildingu Twoją stronę odwiedzi coraz więcej klientów."
+relacja_linku = ""
 [[sections.home_services_group.services_box_group.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
@@ -175,9 +177,11 @@ txt_block = "Pozycjonowanie stron internetowych"
 txt_block_size = "L"
 underline = false
 [[sections.home_services_group.services_box_group]]
+adres_odnosnika = "o-nas.md"
 if_svg = true
 obrazek = "/uploads/group-160.svg"
 opis_uslugi = "W zasadzie proces przygotowania i optymalizacji sklepu jest z reguły tym samym, jak w przypadku strony. Natomiast ważne jest wybranie odpowiednich fraz, które zwiększą współczynnik konwersji. Uściślając - stosunek wizyt na sklepie, ma przekładać się na jak największą sprzedaż produktów klienta."
+relacja_linku = "follow"
 [[sections.home_services_group.services_box_group.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
@@ -188,9 +192,11 @@ txt_block = "Pozycjonowanie sklepów internetowych"
 txt_block_size = "L"
 underline = false
 [[sections.home_services_group.services_box_group]]
+adres_odnosnika = ""
 if_svg = true
 obrazek = "/uploads/group-164.svg"
 opis_uslugi = "Sprawne i indywidualne obranie ścieżki na pozycjonowanie regionalnych stron i mniejszych sklepów internetowych jest kluczowe w wyrobieniu sobie wysokiej lokalnej pozycji w internecie i dotarcia do klientów w pobliżu."
+relacja_linku = ""
 [[sections.home_services_group.services_box_group.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
@@ -201,9 +207,11 @@ txt_block = "Pozycjonowanie lokalne"
 txt_block_size = "L"
 underline = false
 [[sections.home_services_group.services_box_group]]
+adres_odnosnika = ""
 if_svg = true
 obrazek = "/uploads/group-165.svg"
 opis_uslugi = "Każdy zainteresowany potencjalną współpracą klient otrzymuje od nas bezpłatny, rzetelny audyt na temat jego domeny. Mamy za zadanie pokazać klientowi jego obecną pozycję, porównanie do bezpośredniej konkurencję, obecny profil linkowy, czy aktualną szybkość strony. W kolejnym kroku przedstawiamy klientowi naszą wizję zoptymalizowania i dywersyfikacji obecnej treści oraz strategię działania."
+relacja_linku = ""
 [[sections.home_services_group.services_box_group.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
@@ -214,9 +222,11 @@ txt_block = "Audyt i optymalizacja SEO"
 txt_block_size = "L"
 underline = false
 [[sections.home_services_group.services_box_group]]
+adres_odnosnika = ""
 if_svg = true
 obrazek = "/uploads/group-166.svg"
 opis_uslugi = "Dla klientów, którzy chcą prowadzić swoją stronę lub sklep internetowy w pojedynkę, bez udziału osób trzecich - służymy radą i pomocą. Mini szkolenia z zakresu pozycjonowania i optymalizacji, które są w stanie ukazać cały know how oraz metody działania jako administrator pomogą poznać bliżej świat SEO."
+relacja_linku = ""
 [[sections.home_services_group.services_box_group.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
