@@ -18,7 +18,7 @@ sections:
   path: data/clients.toml
   label: Nasi klienci
 - type: document
-  path: data/authors.toml
+  path: data/authors.yml
   label: Autorzy
 - type: document
   path: config.toml
