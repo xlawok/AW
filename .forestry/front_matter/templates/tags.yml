@@ -1,15 +1,4 @@
 ---
-type: tag_list
-name: ssg
 label: Tagi
-description: Wybierz tagi
-default:
-- Eleventy
-- Gatsby
-- Gridsome
-- Hexo
-- Hugo
-- Jekyll
-- NextJS
-- NuxtJS
-- Sapper
+hide_body: false
+fields: []

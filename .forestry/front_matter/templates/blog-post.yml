@@ -71,25 +71,11 @@ fields:
   config:
     maxSize: 2
   label: Zdjęcie główne
-- name: tags
-  type: field_group_list
-  fields:
-  - name: tags
-    type: select
-    default: []
-    config:
-      required: false
-      options: []
-      source:
-        type: pages
-        section: tags-b8891b6b-3ceb-42aa-a054-2eda36bbb7d7
-        file: 
-        path: 
-    label: Tags
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: tags
+- name: tagi
+  type: tag_list
+  default:
+  - seo
+  - pozycjonowanie
+  label: Tagi
 pages:
 - content/blog/testowy-artykul.md
