@@ -45,7 +45,7 @@ fields:
     required: false
     options: []
     source:
-      type: documents
+      type: pages
       section: autor
       file: data/authors.toml
       path: 
