@@ -71,7 +71,7 @@ fields:
   config:
     maxSize: 2
   label: Zdjęcie główne
-- name: tagi
+- name: tags
   type: tag_list
   default:
   - seo
