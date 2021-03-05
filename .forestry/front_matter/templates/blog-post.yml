@@ -75,6 +75,10 @@ fields:
   type: tag_list
   default: []
   label: Tagi
+- name: categories
+  type: tag_list
+  default: []
+  label: categories
 pages:
 - content/blog/drug.md
 - content/blog/test.md
