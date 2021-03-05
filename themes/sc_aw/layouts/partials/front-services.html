@@ -6,7 +6,7 @@
 <section class='sec-padding sc-home-services'>
     <div class='services-intro-cnt'>
         {{ $header_list := (.home_services_group.header_repeater) }}
-        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list)  -}}
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
         <div class='services-main-desc'>
             {{.home_services_group.opis  | safeHTML}}
 
@@ -16,21 +16,31 @@
     {{ range $index, $element := .home_services_group.services_box_group }}
         
             <div class='services-col-box'>
-                <div class='services-box-first-row'>
-                   
-                    {{if .if_svg}}
-                        {{ readFile .obrazek | safeHTML }}
-                    {{else }}
-                        {{- partial "img.html" (dict "image" .obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw")  -}}
+                {{ $relacja_linku := .relacja_linku }}
+                {{if .adres_odnosnika }}
+                    {{ with site.GetPage .adres_odnosnika }}
+                    
+                        <a class='servics-box-link' href=" {{ .Permalink }}" rel="{{$relacja_linku}}">
                     {{end}}
+               
+                {{ end }}
+                <div class='services-box-first-row'>
+                    <div class='services-ico'>
+                        {{if .if_svg}}
+                            {{ readFile .obrazek | safeHTML }}
+                        {{else }}
+                            {{- partial "img.html" (dict "image" .obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw")  -}}
+                        {{end}}
+                    </div>
                     {{ $header_list := (.header_repeater) }}
-                    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list)  -}}
+                    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
                 </div>
                 <div class='services-box-desc'>
                     {{.opis_uslugi | safeHTML}}
                 </div>
-
-                
+                {{if .adres_odnosnika }}
+                </a>
+                {{end}}
                 
 
                 

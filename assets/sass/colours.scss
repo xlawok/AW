@@ -55,7 +55,9 @@ body{
         }
     }
     &.dark-m{
-
+        // .ornament-r-b:before{
+        //     display: none;
+        // }
         .sc-banner-wide{
             .banner-wide-content{
                 &:after{
@@ -267,10 +269,39 @@ body{
         section:nth-child(4){
             background-color: var(--white);
         }
+        .sc-home-services{
+            .services-intro-cnt{
+                // &:before{
+                //     display: none;
+                // }
+            }
+            .services-cols-cnt{
+                .services-col-box{
+                    background: #FFFFFF;
+                    box-shadow: 0px 3px 20px #00000029;
+                }
+            }
+        }
     }
     &.home.dark-m{
         section:nth-child(2),section:nth-child(3){
             background-color: var(--main-dark-color);
+        }
+        section:nth-child(4){
+            background-color: #242424;
+        }
+        .sc-home-services{
+            .services-intro-cnt{
+                &:before{
+                    display: none;
+                }
+            }
+            .services-cols-cnt{
+                .services-col-box{
+                    background: transparent;
+                    box-shadow: unset;
+                }
+            }
         }
     }
 }

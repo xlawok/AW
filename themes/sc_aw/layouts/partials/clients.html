@@ -4,7 +4,7 @@
 <section class='sec-padding sc-our-clients'>
     <!-- lista klientów z data -->
     {{ $header_list := ($clientslist.header_repeater) }}
-    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list)  -}}
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
     <!-- zapisanie do zmiennej -->
     <ul>
         {{ range $clientslist.clients_list }}

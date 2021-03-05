@@ -1,4 +1,41 @@
 ---
 label: Blog post
 hide_body: false
-fields: []
+
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Tytuł
+- name: slug
+  type: text
+  config:
+    required: true
+  label: Permalink
+- name: keywords
+  type: text
+  config:
+    required: false
+  label: keywords
+- name: robots
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - index follow
+    - noindex nofollow
+    - noindex follow
+    - index nofollow
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Robots
+- name: description
+  type: text
+  config:
+    required: true
+  label: Opis

@@ -4,6 +4,8 @@
 {{ $first_header_tag :=""}}
 {{ $previous_break_line :="" }}
 {{ $custom_class := .custom_class}}
+
+
 {{ range $index, $element := .header_list }}
 <!--                    USTALENIE ZMIENNYCH W RZĘDZIE -->
     {{ $header_tag :="div" }}
@@ -69,6 +71,7 @@
     {{ else if eq .color_txt "biały" }}
         {{ $header_color ="txt-white" }}
     {{ end }}
+ 
 
     {{ $header_size :=( printf "txt-%s" .txt_block_size ) }}
 
