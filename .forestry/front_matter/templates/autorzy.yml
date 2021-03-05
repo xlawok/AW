@@ -20,5 +20,10 @@ fields:
     max: 
     labelField: 
   label: Autor
+- name: pole
+  type: text
+  config:
+    required: false
+  label: Pole
 pages:
 - data/authors.toml
