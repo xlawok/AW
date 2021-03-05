@@ -7,3 +7,5 @@ fields:
   config:
     required: false
   label: Tag
+pages:
+- seo.md
