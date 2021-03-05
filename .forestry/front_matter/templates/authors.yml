@@ -1,0 +1,11 @@
+---
+label: Authors
+hide_body: true
+fields:
+- type: field_group
+  name: authors
+  label: authors
+  fields:
+  - type: text
+    name: John
+    label: John
