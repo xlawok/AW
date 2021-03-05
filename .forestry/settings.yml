@@ -19,6 +19,10 @@ sections:
   templates:
   - sekcje
 - type: document
+  path: data/tags.yml
+  label: Tags
+  match: "**/*"
+- type: document
   path: data/clients.toml
   label: Nasi klienci
 - type: directory
