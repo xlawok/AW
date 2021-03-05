@@ -45,7 +45,7 @@ fields:
     required: false
     options: []
     source:
-      type: documents
+      type: pages
       section: autorzy-a1cd0963-ca40-435c-8cae-cbac8c470433
       file: data/authors.toml
       path: 
