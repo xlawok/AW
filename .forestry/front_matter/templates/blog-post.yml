@@ -48,3 +48,12 @@ fields:
       file: data/authors.yml
       path: ''
   label: Autor
+- name: date
+  type: datetime
+  label: Data
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
