@@ -1,12 +1,15 @@
 ---
-label: Tags
-hide_body: true
-fields:
-- name: tag
-  type: text
-  config:
-    required: false
-  label: Tag
-pages:
-- data/tags/pozycjonowanie.md
-- data/tags/seo.md
+type: tag_list
+name: ssg
+label: Tagi
+description: Wybierz tagi
+default:
+- Eleventy
+- Gatsby
+- Gridsome
+- Hexo
+- Hugo
+- Jekyll
+- NextJS
+- NuxtJS
+- Sapper
