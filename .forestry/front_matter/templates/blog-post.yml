@@ -41,12 +41,12 @@ fields:
 - name: author
   type: select
   default: []
-  config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: autorzy-a1cd0963-ca40-435c-8cae-cbac8c470433
-      file: data/authors.toml
-      path: 
+config:
+  required: true
+  options: []
+  source:
+    type: pages
+    section: authors
+    file: data/autors.yaml
+    path:
   label: Autor
