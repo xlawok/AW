@@ -27,7 +27,7 @@
       {{- partial "clients.html" . -}}
     <!-- KONIEC SEKCJA NASI KLIENCI KONIEC -->
     {{end}}
-    {{if and (isset . "show_sec_news") (.show_sec_news )}}
+    {{if and (isset .home_news_group "show_sec_news") (.show_sec_news )}}
 <!-- // -->
       
         <ul class="nav nav-pills nav-stacked">

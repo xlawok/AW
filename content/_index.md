@@ -237,8 +237,6 @@ txt_block = "Konsultacje SEO"
 txt_block_size = "L"
 underline = false
 [[sections]]
-cta_btn_more_news_title = "WIĘCEJ AKTUALNOŚCI"
-show_sec_news = true
 template = "sekcja-strona-glowna-artykuly"
 [sections.home_news_group]
 cta_btn_more_news_title = "WIĘCEJ AKTUALNOŚCI"
