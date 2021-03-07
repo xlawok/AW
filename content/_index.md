@@ -238,7 +238,7 @@ txt_block_size = "L"
 underline = false
 [[sections]]
 cta_btn_more_news_title = "WIĘCEJ AKTUALNOŚCI"
-show_sec_news = false
+show_sec_news = true
 template = "sekcja-strona-glowna-artykuly"
 [[sections.header_repeater]]
 block_tag_type = "h2"
