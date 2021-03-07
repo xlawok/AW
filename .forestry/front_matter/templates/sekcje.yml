@@ -46,6 +46,7 @@ fields:
   - banner
   - sekcja-przemienne-kolumny-txt-img
   - sekcja-glowna-uslugi
+  - sekcja-strona-glowna-artykuly
   config:
     min: 
     max: 
