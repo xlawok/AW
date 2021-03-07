@@ -236,5 +236,18 @@ ornament = "brak"
 txt_block = "Konsultacje SEO"
 txt_block_size = "L"
 underline = false
+[[sections]]
+cta_btn_more_news_title = "WIĘCEJ AKTUALNOŚCI"
+show_sec_news = false
+template = "sekcja-strona-glowna-artykuly"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = false
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "AKTUALNOŚCI"
+txt_block_size = "L"
+underline = true
 
 +++
