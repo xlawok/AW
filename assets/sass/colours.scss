@@ -57,6 +57,13 @@ body{
             }
         }
     }
+    .sc-front-news{
+        .news-list{
+            >li{
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+            }
+        }
+    }
     &.dark-m{
         // .ornament-r-b:before{
         //     display: none;
@@ -260,6 +267,13 @@ body{
                         fill: white;
                         }
                     }
+                }
+            }
+        }
+        .sc-front-news{
+            .news-list{
+                >li{
+                    background: #242424 0% 0% no-repeat padding-box;
                 }
             }
         }
