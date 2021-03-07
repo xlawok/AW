@@ -240,7 +240,7 @@ underline = false
 template = "sekcja-strona-glowna-artykuly"
 [sections.home_news_group]
 cta_btn_more_news_title = "WIĘCEJ AKTUALNOŚCI"
-show_sec_news = false
+show_sec_news = true
 [[sections.home_news_group.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "bardzo gruby"
