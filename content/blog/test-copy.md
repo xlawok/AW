@@ -1,7 +1,7 @@
 +++
 author = "data/authors/bartek.yml"
 categories = ["kategoria"]
-date = 2021-03-01T23:00:00Z
+date = 2021-03-06T23:00:00Z
 description = "O agencji wrocławskiej"
 keywords = ""
 obrazek = "/uploads/boy-guarantee-1024x706.jpg"
