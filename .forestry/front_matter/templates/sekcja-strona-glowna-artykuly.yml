@@ -16,3 +16,7 @@ fields:
     required: false
   default: WIĘCEJ AKTUALNOŚCI
   label: Tytuł odnośnika więcej aktualności
+- name: home_news_group
+  type: field_group
+  config: {}
+  label: Aktualności na stronie głównej
