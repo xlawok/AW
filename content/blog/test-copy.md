@@ -3,13 +3,12 @@ author = "data/authors/bartek.yml"
 categories = []
 date = 2021-03-01T23:00:00Z
 description = "O agencji wrocławskiej"
-draft = true
 keywords = ""
 obrazek = "/uploads/boy-guarantee-1024x706.jpg"
 robots = ""
-slug = "test"
-summary = "Zajawka tekstu lorem uspum"
+slug = "test-2"
+summary = "Zwei flinke Boxer jagen die quirlige Eva und ihren Mops durch Sylt. Franz jagt im komplett verwahrlosten Taxi quer durch Bayern. Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter Deich. Vogel Quax zwickt Johnys Pferd Bim. Sylvia wagt quick den Jux bei…"
 tags = ["fonts", "optymalizacja"]
-title = "test-(copy)"
+title = "Zwei flinke Boxer jagen die quirlige Eva und ihren Mops durch Sylt."
 
 +++
