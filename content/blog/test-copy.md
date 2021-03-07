@@ -1,6 +1,6 @@
 +++
 author = "data/authors/bartek.yml"
-categories = []
+categories = ["kategoria"]
 date = 2021-03-01T23:00:00Z
 description = "O agencji wrocławskiej"
 keywords = ""
