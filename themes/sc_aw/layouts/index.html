@@ -1,6 +1,6 @@
 {{ define "main" }}
   
-  
+{{ $section := "blog" }}
     
   {{ range .Params.sections }}
   <!-- LOOOP SECTIONS -->
@@ -27,20 +27,45 @@
       {{- partial "clients.html" . -}}
     <!-- KONIEC SEKCJA NASI KLIENCI KONIEC -->
     {{end}}
-    
+    {{if and (isset . "show_sec_news") (.show_sec_news )}}
+<!-- // -->
+      
+        <ul class="nav nav-pills nav-stacked">
+          {{ range first 8 (where site.RegularPages.ByDate "Section" $section ) }}
+            <li><a href="{{ .Permalink }}">{{ .Params.title | humanize | title }}</a>
+              {{ index .Params.categories 0 }}
+              <ul id="tags">
+                {{ range .Params.tags }}
+                  <li><a href="{{ "/tag/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+                {{ end }}
+              </ul>
+              <ul id="categories">
+                {{ range .Params.categories }}
+                  <li><a href="{{ "/kategoria/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+                {{ end }}
+              </ul>
+              <!-- {{- partial "img.html" (dict "image" .Params.obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw")  -}} -->
+              {{.Params.summary}}
+              
+              
+              {{ $dirFile := path.Base .Params.author }}
+              <!-- sam plik z rozszrzeniem -->
+              {{ $pathArr := split $dirFile "." }}
+              <!-- nazwa pliku -->
+              {{ $filename := index $pathArr 0}}
+
+              {{.Params.date}}
+              {{ (index $.Site.Data.authors $filename).imi__i_nazwisko }}
+              {{- partial "img.html" (dict "image" (index $.Site.Data.authors $filename).obrazek "imgsizes" "" "ifsrcset" "nosrcset")  -}}
+            
+            </li>
+          {{ end }}
+        </ul> 
+<!-- // -->
+    {{end}}
   {{ end }}
   
-{{ $section := "blog" }}
-  <ul class="nav nav-pills nav-stacked">
-    {{ range (where .Site.RegularPages.ByTitle "Section" $section ) }}
-      <li><a href="{{ .Permalink }}">{{ .Params.title | humanize | title }}</a>
-        
-        {{- partial "img.html" (dict "image" .Params.obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw")  -}}
-        {{.Params.summary}}
-        {{.Params.date}}
-      </li>
-    {{ end }}
-  </ul> 
+
   
         <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
         <!-- {{.Content}} -->

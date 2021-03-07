@@ -2,21 +2,22 @@
 label: Sekcja strona główna artykuły
 hide_body: true
 fields:
-- name: naglowek_sekcji
-  type: include
-  config: {}
-  template: naglowek
-  label: Nagłówek sekcji
-- name: show_sec_news
-  type: boolean
-  label: Czy wyświetlać sekcję
-- name: cta_btn_more_news_title
-  type: text
-  config:
-    required: false
-  default: WIĘCEJ AKTUALNOŚCI
-  label: Tytuł odnośnika więcej aktualności
 - name: home_news_group
   type: field_group
   config: {}
+  fields:
+  - name: naglowek_sekcji
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek sekcji
+  - name: show_sec_news
+    type: boolean
+    label: Czy wyświetlać sekcję
+  - name: cta_btn_more_news_title
+    type: text
+    config:
+      required: false
+    default: WIĘCEJ AKTUALNOŚCI
+    label: Tytuł odnośnika więcej aktualności
   label: Aktualności na stronie głównej
