@@ -47,6 +47,7 @@ fields:
   - sekcja-przemienne-kolumny-txt-img
   - sekcja-glowna-uslugi
   - sekcja-strona-glowna-artykuly
+  - sekcja-strona-kontakt-dane-kontaktowe
   config:
     min: 
     max: 
