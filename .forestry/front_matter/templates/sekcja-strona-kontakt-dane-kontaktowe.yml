@@ -1,4 +1,13 @@
 ---
 label: Sekcja strona kontakt - dane kontaktowe
 hide_body: true
-fields: []
+fields:
+- name: contact_data_contact_group
+  type: field_group
+  config: {}
+  fields:
+  - name: lewa_kolumna
+    type: field_group
+    config: {}
+    label: Lewa kolumna
+  label: Kontakt - sekcja kontakt
