@@ -117,6 +117,49 @@ fields:
   showOnly:
     field: banner_type
     value: no_img_only_background
+- name: box_pod_zdj_ciem
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: opis
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Opis
+  - name: kolumny
+    type: field_group_list
+    fields:
+    - name: naglowek
+      type: text
+      config:
+        required: false
+      label: Nagłówek
+    - name: obrazek
+      type: file
+      config:
+        maxSize: 2
+      label: Zdjęcie
+    - name: if_svg
+      type: boolean
+      label: Gdy svg wczytaj w html
+    config:
+      min: 2
+      max: 4
+      labelField: 
+    label: Kolumny
+  label: Box pod zdjęciem
+  showOnly:
+    field: banner_type
+    value: center_img_w_background
 - name: banner_cta_title
   type: text
   config:
