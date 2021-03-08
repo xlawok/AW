@@ -3,7 +3,9 @@
         {{ $header_list := (.contact_data_contact_group.lewa_kolumna.header_repeater) }}
        
         {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "contact-col-header")  -}}
+        <div class='main-contact-data-cnt'>
         {{ range .contact_data_contact_group.lewa_kolumna.dane_adresowe}}
+
             <span class='contact-data-row'>
             {{if   (eq .if_link "tel") and (.adres_do_linkowania "!=" "")  }}
             {{( printf "<a href='tel:%s'>%s</a>" .adres_do_linkowania .wiersz_danych_adresowych) | safeHTML}}
@@ -17,6 +19,7 @@
             </span>
             
         {{end}}
+        </div>
         <div class='contact-registry-data'>
             {{.contact_data_contact_group.lewa_kolumna.dane_rejestrowe | safeHTML}}
         </div>

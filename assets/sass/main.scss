@@ -538,6 +538,7 @@ form#contactform{
 
 .sc-banner-wide {
   padding-bottom: 4rem;
+  padding-bottom: 10rem;
   position: relative;
   .banner-img{
     position: fixed;
@@ -579,6 +580,8 @@ form#contactform{
       
       height: 15.5rem;
       bottom: -4.625rem;
+      height: 18.5rem;
+      bottom: -11.625rem;
       clip-path: ellipse(90% 60% at 51% 100%);
       z-index: 0;
     }
@@ -959,19 +962,30 @@ form#contactform{
   display: flex;
   flex-wrap: wrap;
   background-color:#F2F2F2 ;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
   .left-col-contact-data{
     width: 100%;
     @media (min-width: 992px){
       width: (350/(875+350+86))*100%;
       margin-right: auto;
     }
-    .contact-data-row{
-      display: block;
-      font-size: 1.3125rem;
-
+   
+    .main-contact-data-cnt{
+      padding-bottom: 1rem;
+      .contact-data-row{
+        display: block;
+        font-size: 1.3125rem;
+  
+      }
     }
-
+    .contact-registry-data{
+      border-top: 1px solid #707070;
+      padding-top: 1rem;
+    }
     .szef-img-cnt{
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
       .szef-img{
         border-radius: 50%;
         width: 10.1875rem;
@@ -986,6 +1000,15 @@ form#contactform{
         display: block;
       }
     }
+    .szef-data{
+      font-size: 1.3125rem;
+      span{
+        display: block;
+        &.szef-name{
+          font-weight: bold;
+        }
+      }
+    }
   }
   .right-col-embed{
     width: 100%;
@@ -994,6 +1017,9 @@ form#contactform{
     }
     iframe{
       width: 100%;
+      @media (min-width: 992px){
+        height: 100%;
+      }
     }
   }
 }
