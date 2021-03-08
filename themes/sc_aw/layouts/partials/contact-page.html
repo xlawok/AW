@@ -5,14 +5,19 @@
         {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "contact-col-header")  -}}
         <div class='main-contact-data-cnt'>
         {{ range .contact_data_contact_group.lewa_kolumna.dane_adresowe}}
-
+            {{ $wiersz_danych_adresowych :=.wiersz_danych_adresowych}}
             <span class='contact-data-row'>
-            {{if (isset . "if_link") and (eq .if_link "tel") and (.adres_do_linkowania "!=" "")  }}
-            {{( printf "<a href='tel:%s'>%s</a>" .adres_do_linkowania .wiersz_danych_adresowych) | safeHTML}}
-            {{else if   (isset . "if_link") and   (eq .if_link "mail") and (.adres_do_linkowania "!=" "") }}
-                {{( printf "<a href='mailto:%s'>%s</a>" .adres_do_linkowania .wiersz_danych_adresowych) | safeHTML}}
+            {{if and  (isset . "if_link") (eq .if_link "tel")   }}
+
+                {{with .adres_do_linkowania}}
+                    {{( printf "<a href='tel:%s'>%s</a>" . $wiersz_danych_adresowych) | safeHTML}}
+                {{end}}
+            {{else if and  (isset . "if_link")    (eq .if_link "mail")  }}
+                {{with .adres_do_linkowania}}
+                    {{( printf "<a href='mailto:%s'>%s</a>" . $wiersz_danych_adresowych) | safeHTML}}
+                    {{end}}
             {{else}}
-                {{.wiersz_danych_adresowych}}
+                {{$wiersz_danych_adresowych}}
             {{end}}
              
                    
