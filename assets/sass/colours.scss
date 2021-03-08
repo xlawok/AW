@@ -57,6 +57,11 @@ body{
             }
         }
     }
+    &:not(.dark-m).kontakt{
+        .sc-banner-wide{
+            background: transparent linear-gradient(0deg, #000000 0%, #FCDB01 100%) 0% 0% no-repeat padding-box;
+        }
+    }
     .sc-front-news{
         .news-list{
             >li{

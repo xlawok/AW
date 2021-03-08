@@ -1,0 +1,55 @@
+<section class='sec-padding sc-contact'>
+    <div class='left-col-contact-data'>
+        {{ $header_list := (.contact_data_contact_group.lewa_kolumna.header_repeater) }}
+       
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "contact-col-header")  -}}
+        {{ range .contact_data_contact_group.lewa_kolumna.dane_adresowe}}
+            <span class='contact-data-row'>
+            {{if   (eq .if_link "tel") and (.adres_do_linkowania "!=" "")  }}
+            {{( printf "<a href='tel:%s'>%s</a>" .adres_do_linkowania .wiersz_danych_adresowych) | safeHTML}}
+            {{else if    (eq .if_link "mail") and (.adres_do_linkowania "!=" "") }}
+                {{( printf "<a href='mailto:%s'>%s</a>" .adres_do_linkowania .wiersz_danych_adresowych) | safeHTML}}
+            {{else}}
+                {{.wiersz_danych_adresowych}}
+            {{end}}
+             
+                   
+            </span>
+            
+        {{end}}
+        <div class='contact-registry-data'>
+            {{.contact_data_contact_group.lewa_kolumna.dane_rejestrowe | safeHTML}}
+        </div>
+
+        <div class='szef-img-cnt'>
+            {{- partial "img.html" (dict "image" .contact_data_contact_group.lewa_kolumna.zdj_cie_szefa "imgsizes" "" "ifsrcset" "nosrcset" "tag_class" "szef-img")  -}}
+        </div>
+        <div class='szef-data'>
+            <span class='szef-name'>{{.contact_data_contact_group.lewa_kolumna.imi__i_nazwisko_szefa}}</span>
+            <span class='job-position'>{{.contact_data_contact_group.lewa_kolumna.stanowisko}}</span>
+            <span class='job-tel'>
+            {{  if  ( .contact_data_contact_group.lewa_kolumna.numer_telefonu_bez_spacji_do_linkowania) ( .contact_data_contact_group.lewa_kolumna.numer_telefonu_bez_spacji_do_linkowania "!=" "" ) }}
+                {{( printf "<a href='tel:%s'>%s</a>" .contact_data_contact_group.lewa_kolumna.numer_telefonu_bez_spacji_do_linkowania .contact_data_contact_group.lewa_kolumna.numer_telefonu_szefa) | safeHTML}}
+            {{else}}
+                {{.contact_data_contact_group.lewa_kolumna.numer_telefonu_szefa}}
+            {{end}}
+                
+            </span>
+            <span class='job-email'>
+          
+                {{( printf "<a href='mailto:%s'>%s</a>" .contact_data_contact_group.lewa_kolumna.adres_email .contact_data_contact_group.lewa_kolumna.adres_email) | safeHTML}}
+          
+                
+            </span>
+                
+                
+        </div>
+         
+
+    </div>
+
+    <div class='right-col-embed'>
+
+        {{.contact_data_contact_group.embed_mapka_google | safeHTML}}
+    </div>
+</section>

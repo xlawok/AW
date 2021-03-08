@@ -91,11 +91,20 @@ h1,.h1,h2,.h2,h3,.h3{
 }
 
 .sec-padding{
-  @media (min-width: 1200px){
+  padding-left: 1rem;
+  padding-right: 1rem;
+  @media (min-width: 992px){
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  @media (min-width: 1600px){
     padding-left: (303/1920)*100vw;
     padding-right: (303/1920)*100vw;
   }
-
+  // @media (min-width: 1200px){
+  //   padding-left: (303/1920)*100vw;
+  //   padding-right: (303/1920)*100vw;
+  // }
 }
 .txt-break{
   display: block;
@@ -575,7 +584,10 @@ form#contactform{
     }
     .banner-left-col{
       width: 100%;
-      @media (min-width: 1200px){
+      @media (min-width: 992px){
+        width: 55%
+      }
+      @media (min-width: 1600px){
         width: (644/1920)*100vw;
       }
       .banner-header {
@@ -610,7 +622,10 @@ form#contactform{
       opacity: 1;
       z-index: 2;
       padding: 1.5rem 2.8125rem 1rem 2.625rem;
-      @media (min-width: 1200px){
+      @media (min-width: 992px){
+        width: 43%
+      }
+      @media (min-width: 1600px){
         width: (527/1920)*100vw;
       }
       .form-header{
@@ -634,6 +649,11 @@ form#contactform{
 .sc-our-clients{
   position: relative;
   z-index: 1;
+  .svg{
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
   &:before{
     content: url(/img/AW-red.svg);
     position: absolute;
@@ -645,6 +665,19 @@ form#contactform{
 
     width: 50%;
     transform: scale(.7);
+  }
+  &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 15.5rem;
+    bottom: -4.625rem;
+    clip-path: ellipse(90% 60% at 51% 100%);
+    clip-path: url(#clip-shape-clients);
+    z-index: -1;
+    background: white;
   }
   ul{
     list-style: none;
@@ -920,6 +953,48 @@ form#contactform{
       }
     }
     
+  }
+}
+.sc-contact{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#F2F2F2 ;
+  .left-col-contact-data{
+    width: 100%;
+    @media (min-width: 992px){
+      width: (350/(875+350+86))*100%;
+      margin-right: auto;
+    }
+    .contact-data-row{
+      display: block;
+      font-size: 1.3125rem;
+
+    }
+
+    .szef-img-cnt{
+      .szef-img{
+        border-radius: 50%;
+        width: 10.1875rem;
+        height: 10.1875rem;
+        margin-right: auto;
+        @media (min-width:1600px){
+          width: 12.0625rem;
+          height: 12.0625rem;
+        }
+    
+        object-fit: cover;
+        display: block;
+      }
+    }
+  }
+  .right-col-embed{
+    width: 100%;
+    @media (min-width: 992px){
+      width: (875/(875+350+86))*100%;
+    }
+    iframe{
+      width: 100%;
+    }
   }
 }
 .sc-front-news{

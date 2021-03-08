@@ -1,6 +1,6 @@
 {{ define "main" }}
   
-  
+
     
   {{ range .Params.sections }}
   <!-- LOOOP SECTIONS -->
@@ -19,18 +19,28 @@
     {{if (isset . "wiersz_dwie_kolumny")}}
       {{- partial "two-col-img.html" . -}}
     {{end}}
+    {{if (isset . "home_services_group")}}
+      {{- partial "front-services.html" . -}}
+    {{end}}
     {{if and (isset . "show_sec_clients") (.show_sec_clients )}}
     <!-- SEKCJA NASI KLIENCI -->
       {{- partial "clients.html" . -}}
     <!-- KONIEC SEKCJA NASI KLIENCI KONIEC -->
     {{end}}
+    {{if and (isset .home_news_group "show_sec_news") (.home_news_group.show_sec_news )}}
+<!-- // -->
+      {{- partial "front-news.html" . -}}
+<!-- // -->
+    {{end}}
+    <!-- KONIEC SEKCJI AKTUALNOSCI _ STRONA GLOWNA -->
+    <!-- SEKCJA STRONY KONTAKT -->
+    {{if (isset . "contact_data_contact_group")}}
+      {{- partial "contact-page.html" . -}}
+    {{end}}
     
   {{ end }}
-        
   
-        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-        <!-- {{.Content}} -->
-  
+
   
     
 {{ end }}
