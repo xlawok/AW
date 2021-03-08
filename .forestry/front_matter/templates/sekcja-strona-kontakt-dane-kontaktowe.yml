@@ -9,5 +9,95 @@ fields:
   - name: lewa_kolumna
     type: field_group
     config: {}
+    fields:
+    - name: naglowek_sekcji
+      type: include
+      config: {}
+      template: naglowek
+      label: Nagłówek sekcji
+    - name: dane_adresowe
+      type: field_group_list
+      fields:
+      - name: wiersz_danych_adresowych
+        type: text
+        config:
+          required: true
+        label: wiersz danych adresowych
+      - name: if_link
+        type: select
+        default: []
+        config:
+          required: false
+          options:
+          - mail
+          - tel
+          - none
+          source:
+            type: simple
+            section: 
+            file: 
+            path: 
+        label: Czy linkować
+      - name: adres_do_linkowania
+        type: text
+        config:
+          required: false
+        label: Adres do linkowania
+        description: wpisz bez spacji numer telefonu lub adres e-mail do linkowania
+      config:
+        min: 
+        max: 
+        labelField: 
+      label: Dane adresowe
+    - name: dane_rejestrowe
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html
+      label: Dane rejestrowe
+      description: nip, krs itp
+    - name: zdj_cie_szefa
+      type: file
+      config:
+        maxSize: 2
+      label: Zdjęcie szefa
+    - name: imi__i_nazwisko_szefa
+      type: text
+      config:
+        required: false
+      label: Imię i nazwisko szefa
+    - name: stanowisko
+      type: text
+      config:
+        required: false
+      label: Stanowisko
+    - name: numer_telefonu_szefa
+      type: text
+      config:
+        required: false
+      label: Numer telefonu szefa
+    - name: numer_telefonu_bez_spacji_do_linkowania
+      type: text
+      config:
+        required: false
+      label: Numer telefonu bez spacji do linkowania
+    - name: adres_email
+      type: text
+      config:
+        required: false
+      label: Adres email
     label: Lewa kolumna
+  - name: embed_mapka_google
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Embed mapka google
+    description: Kod embed
   label: Kontakt - sekcja kontakt
