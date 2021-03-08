@@ -52,4 +52,5 @@ fields:
     max: 
 pages:
 - content/_index.md
+- content/kontakt.md
 - content/o-nas.md
