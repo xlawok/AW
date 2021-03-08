@@ -1,0 +1,39 @@
+
+<section class=' sc-banner-center-img'>
+    
+    {{- partial "img.html" (dict "image" .banner_bg_for_center "imgsizes" "" "tag_class" "banner-center-bg-img" "ifsrcset" "nosrcset")  -}}
+    <!-- {{if .banner_header_cnt.header_repeater }}
+        <div class='on-banner-content sec-padding'>
+        
+                {{ $header_list := (.banner_header_cnt.header_repeater) }}
+                {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "banner-header")  -}}
+                {{ $header_slogan_list := (.banner_slogan.header_repeater) }}
+                {{- partial "header-tag.html" (dict "context" . "header_list" $header_slogan_list "custom_class" "banner-slogan")  -}}
+                
+        
+        </div>
+    {{end}} -->
+    <div class='center-on-banner-img'>
+        {{- partial "img.html" (dict "image" .banner_center_img "imgsizes" "(max-width: 992px) 100vw, 80vw" "tag_class" "on-banner-center-img" "ifsrcset" "")  -}}
+        
+    </div>
+    <div class='box-below-banner'>
+        {{ $header_list := (.box_pod_zdj_ciem.header_repeater) }}
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "below-banner-header")  -}}
+        <div class='below-more-desc'>
+            {{.box_pod_zdj_ciem.opis | safeHTML}}
+        </div>
+        <div class='below-baner-col-cnt'>
+            {{range .box_pod_zdj_ciem.kolumny}}
+                <div class='box-col'>
+                    <div class='col-desc'>
+                        {{.naglowek}}
+                    </div>
+                    <div class='col-img'>
+                        {{- partial "img.html" (dict "image" .obrazek "imgsizes" "" "tag_class" "col-img" "ifsrcset" "nosrcset")  -}}
+                    </div>
+                </div>
+            {{end}}
+        </div>
+    </div>
+</section>
