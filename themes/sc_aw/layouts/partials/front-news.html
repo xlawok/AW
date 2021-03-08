@@ -1,7 +1,8 @@
 <section class='sec-padding sc-front-news'>
     {{ $section := "blog" }}
     {{ $header_list := (.home_news_group.header_repeater) }}
-    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
+    {{ $cta_btn_more_news_title := .home_news_group.cta_btn_more_news_title}}
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "front-news-header")  -}}
     <ul class="news-list">
         {{ range first 8 (where site.RegularPages.ByDate "Section" $section ).Reverse }}
         <li>
@@ -30,10 +31,16 @@
 
             <!-- {{.Params.date}} -->
             <span class='list-art-date'>{{ .Params.date.Format "02.01.2006" }}</span>
-            | <span class='list-art-authorname'>{{ (index site.Data.authors $filename).imi__i_nazwisko }}</span>
+            <span class='list-art-authorname'> | &nbsp;{{ (index site.Data.authors $filename).imi__i_nazwisko }}</span>
             {{- partial "img.html" (dict "image" (index site.Data.authors $filename).obrazek "imgsizes" "" "ifsrcset" "nosrcset" "tag_class" "art-author-img")  -}}
             </div>
         </li>
         {{ end }}
     </ul> 
+    
+    {{ with site.GetPage "/blog" }}
+    <div class='front-news-more-cnt'>
+        <a class='front-news-more' href="{{ .Permalink }}">{{$cta_btn_more_news_title}}</a>
+    </div>
+    {{ end }}
 </section>

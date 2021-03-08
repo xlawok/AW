@@ -923,6 +923,12 @@ form#contactform{
   }
 }
 .sc-front-news{
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+  .front-news-header{
+    text-align: right;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+  }
   .news-list{
     display: flex;
     list-style: none;
@@ -975,16 +981,59 @@ form#contactform{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
+    font-size: .9rem;
   }
   .list-art-date{
-    padding-right: .25rem;
+    
     display: inline-block;
+    margin-right: .35rem;
+    padding-top: .25rem;
+    
   }
   .list-art-authorname{
     padding-left: .25rem;
     display: inline-block;
+    padding-top: .25rem;
   }
-
+  .front-news-more-cnt{
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .front-news-more{
+    
+    
+    position: relative;
+    display: block;
+    display: inline-flex;
+    
+    padding: .35rem 1rem .35rem 2.5rem;
+    font-weight: bold;
+    font-family: var(--header-font);
+    margin: 2rem auto;
+    transition: color .2s ease,background .2s ease;
+    &:before{
+      content: '';
+      display: block;
+      width: 1.75rem;
+      height: 1.625rem;
+      transition: background-image .2s ease;
+      background-repeat: no-repeat;
+      background-size: contain;
+      left: .5rem;
+      position: absolute;
+      top: calc(50% - (1.625rem/2));
+    }
+    &:after{
+      content: '';
+      display: block;
+      width: 150%;
+      height: 1px;
+      left: 50%;
+      transform: translateX(-50%);
+      position: absolute;
+      top: -1rem;
+    }
+  }
 }
 .news-list ul.categories{
   list-style: none;
