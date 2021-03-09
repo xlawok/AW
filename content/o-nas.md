@@ -75,7 +75,7 @@ sections:
       bold_txt: gruby
       color_txt: czarny
       underline: false
-      break_line: false
+      break_line: true
       block_tag_type: h2
       ornament: brak
       txt_block_size: XL
@@ -100,7 +100,7 @@ sections:
       bold_txt: gruby
       color_txt: czarny
       underline: false
-      break_line: false
+      break_line: true
       block_tag_type: h2
       ornament: brak
       txt_block_size: XL
@@ -126,7 +126,7 @@ sections:
       bold_txt: gruby
       color_txt: czarny
       underline: false
-      break_line: false
+      break_line: true
       block_tag_type: h2
       ornament: brak
       txt_block_size: XL
