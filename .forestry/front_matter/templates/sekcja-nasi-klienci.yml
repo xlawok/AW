@@ -5,3 +5,8 @@ fields:
 - name: show_sec_clients
   type: boolean
   label: Wyświetl sekcję klienci
+- name: naglowek_sekcji_other
+  type: include
+  config: {}
+  template: naglowek
+  label: Wlasny nagłówek
