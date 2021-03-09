@@ -49,6 +49,7 @@ fields:
   - sekcja-strona-glowna-artykuly
   - sekcja-strona-kontakt-dane-kontaktowe
   - sekcja-strona-o-nas-kolumny-historia-misja
+  - sekcja-o-nas-druzyna-pierscienia
   config:
     min: 
     max: 
