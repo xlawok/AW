@@ -48,6 +48,7 @@ fields:
   - sekcja-glowna-uslugi
   - sekcja-strona-glowna-artykuly
   - sekcja-strona-kontakt-dane-kontaktowe
+  - sekcja-strona-o-nas-kolumny-historia-misja
   config:
     min: 
     max: 
