@@ -37,7 +37,10 @@
     {{if (isset . "contact_data_contact_group")}}
       {{- partial "contact-page.html" . -}}
     {{end}}
-    
+  <!-- SEKCJA STRONY O nas ---- TRZY KOLUMNY -->
+    {{if (isset . "contact_data_contact_group")}}
+        {{- partial "contact-page.html" . -}}
+    {{end}}
   {{ end }}
   
 
