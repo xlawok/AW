@@ -52,6 +52,84 @@ sections:
       obrazek: "/uploads/onas-4.svg"
       if_svg: true
   banner_cta_title: ''
+- template: sekcja-strona-o-nas-kolumny-historia-misja
+  kolumny:
+  - opis: 'Dwóch entuzjastów branży SEO postanowiło rozpocząć komercjalizacje swojego
+      hobby. Mamy pewność, że robiąc dobrą robotę - klienci z nami zostaną i będą
+      nas polecać swoim znajomym, ponieważ:'
+    lista_punktowa:
+    - Nie mamy kija w tyłku
+    - Nie jesteśmy korpo
+    - Wolimy pracować z ludźmi
+    - Dalszą część tworzymy :)
+    header_repeater:
+    - txt_block: NASZA
+      bold_txt: bardzo gruby
+      color_txt: czerwony
+      underline: true
+      break_line: true
+      block_tag_type: h2
+      ornament: lewa w prawo
+      txt_block_size: L
+    - txt_block: historia
+      bold_txt: gruby
+      color_txt: czarny
+      underline: false
+      break_line: false
+      block_tag_type: h2
+      ornament: brak
+      txt_block_size: XL
+  - opis: 'Każda agencja marketingowa obiecuje cudownych efektów, a gdyby coś nie
+      wyszło - to przecież wina algorytmów. Skupiają się na ilości klientów, mniej
+      na jakości. My natomiast:'
+    lista_punktowa:
+    - Obsługujemy ograniczoną ilość klientów
+    - Deklarujemy oczekiwane rezultaty (co PIK)
+    - Nie robimy wszystkiego dla wszystkich
+    - Gwarantujemy bezpieczeństwo inwestycji
+    header_repeater:
+    - txt_block: NASZA
+      bold_txt: bardzo gruby
+      color_txt: czerwony
+      underline: true
+      break_line: true
+      block_tag_type: h2
+      ornament: lewa w prawo
+      txt_block_size: L
+    - txt_block: misja
+      bold_txt: gruby
+      color_txt: czarny
+      underline: false
+      break_line: false
+      block_tag_type: h2
+      ornament: brak
+      txt_block_size: XL
+  - opis: Jesteśmy zespołem, którego skład w zupełności wystarcza do pozycjonowania
+      stron internetowych na bardzo wysokim poziomie. Średnia wieku w naszej agencji
+      to 26 lat, co zalicza nas do młodego pokolenia. Niestety nie mamy owocowych
+      czwartków.
+    lista_punktowa:
+    - Zespołem fachowców
+    - Rzetelną grupą ludzi
+    - Kreatywnymi w działaniu
+    - Pracoholikami (niestety)
+    header_repeater:
+    - txt_block: KIM
+      bold_txt: bardzo gruby
+      color_txt: czerwony
+      underline: true
+      break_line: true
+      block_tag_type: h2
+      ornament: lewa w prawo
+      txt_block_size: L
+    - txt_block: jesteśmy
+      bold_txt: gruby
+      color_txt: czarny
+      underline: false
+      break_line: false
+      block_tag_type: h2
+      ornament: brak
+      txt_block_size: XL
 title: O nas
 slug: o-nas
 keywords: ''
