@@ -91,6 +91,12 @@ body{
             }
         }
     }
+    .sc-our-clients:after{
+        background: var(--white);
+    }
+    .sc-home-services:after{
+        background: var(--white);
+    }
     &.dark-m{
         // .ornament-r-b:before{
         //     display: none;
@@ -125,6 +131,12 @@ body{
         }
         .sc-our-clients::before {
             filter: grayscale(1);
+        }
+        .sc-our-clients:after{
+            background: #242424;
+        }
+        .sc-home-services:after{
+            background: #242424;
         }
         .sc-two-col-img-txt{
             .two-col-row{

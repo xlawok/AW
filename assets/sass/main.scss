@@ -649,6 +649,91 @@ form#contactform{
     }
   }
 }
+.sc-banner-center-img{
+  position: relative;
+  .banner-center-bg-img{
+    width: 100%;
+    height: auto;
+    max-height: (701/1080)*100vh;
+    min-height: 25rem;
+    object-fit: cover;
+  }
+  .center-on-banner-img{
+    width:90%;
+    // margin: 1rem auto 0 auto;
+    position: absolute;
+    left: 5%;
+    top: 2rem;
+
+    @media (min-width: 992px){
+      width: (1247/1920)*100vw;
+      left: ((100-((1247/1920)*100))/2)*1vw;
+    }
+    img{
+      width: 100%;
+      object-fit: cover;
+      max-height: (690/1080)*100vh;
+      min-height: 25rem;
+      box-shadow: 0px 3px 20px #00000029;
+      border: 1px solid #00000000;
+      border-radius: 8px;
+    }
+  }
+  .box-below-banner{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+    border-radius: 8px;
+    width:80%;
+    margin: 0 10%;
+    // position: absolute;
+    position: relative;
+    top: -3rem;
+    padding: 2rem;
+    @media (min-width: 992px){
+      width: (1014/1920)*100vw;
+      margin: 0 ((100-((1014/1920)*100))/2)*1vw;
+    }
+    .below-banner-header{
+      font-family: var(--base-font);
+    }
+    .below-more-desc{
+      padding-bottom: 2rem;
+    }
+    .below-baner-col-cnt{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .box-col{
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        @media (min-width: 992px){
+          width: 23%;
+        }
+        .col-desc {
+          font-weight: bold;
+          color: var(--red);
+          flex-grow: 1;
+          text-align: center;
+          line-height: 1.1;
+          transition: transform .2s ease;
+          transform-origin: center;
+        }
+        .col-img{
+          text-align: center;
+        //  img{
+        //   //  width: 100%;
+        //  }
+        }
+        &:hover{
+          .col-desc{
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+}
 .sc-our-clients{
   position: relative;
   z-index: 1;
@@ -683,7 +768,7 @@ form#contactform{
     clip-path: ellipse(90% 60% at 51% 100%);
     clip-path: url(#my-clip-path);
     z-index: -1;
-    background: white;
+    // background: white;
   }
   ul{
     list-style: none;
@@ -857,7 +942,7 @@ form#contactform{
     clip-path: ellipse(90% 60% at 51% 100%);
     clip-path: url(#my-clip-path2);
     z-index: -1;
-    background: white;
+    // background: white;
     height: 80.5rem;
 bottom: -10rem;
 z-index: 1;
