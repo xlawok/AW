@@ -52,6 +52,8 @@ sections:
       obrazek: "/uploads/onas-4.svg"
       if_svg: true
   banner_cta_title: ''
+  banner_bg_for_center_left: "/uploads/onas-left.svg"
+  banner_bg_for_center_right: "/uploads/onas-right.svg"
 - template: sekcja-strona-o-nas-kolumny-historia-misja
   kolumny_o_nas:
   - opis: 'Dwóch entuzjastów branży SEO postanowiło rozpocząć komercjalizacje swojego
