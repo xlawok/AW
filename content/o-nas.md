@@ -130,6 +130,8 @@ sections:
       block_tag_type: h2
       ornament: brak
       txt_block_size: XL
+- template: sekcja-nasi-klienci
+  show_sec_clients: true
 title: O nas
 slug: o-nas
 keywords: ''
