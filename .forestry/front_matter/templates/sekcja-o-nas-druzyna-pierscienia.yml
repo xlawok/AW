@@ -1,4 +1,27 @@
 ---
 label: sekcja o nas - druzyna pierscienia
 hide_body: true
-fields: []
+fields:
+- name: section_team_group
+  type: field_group_list
+  fields:
+  - name: obrazek
+    type: file
+    config:
+      maxSize: 2
+    label: Obrazek
+  - name: my_name
+    type: text
+    config:
+      required: false
+    label: Imię
+  - name: stanowisko
+    type: text
+    config:
+      required: false
+    label: Stanowisko
+  config:
+    min: 3
+    max: 
+    labelField: 
+  label: 'Druzyna '
