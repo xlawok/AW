@@ -1,0 +1,18 @@
+<section class='sec-padding sc-onas-about-columns'>
+    {{range .kolumny_o_nas}}
+        <div class='about-col-cnt'>
+            {{ $header_list := (.header_repeater) }}
+            {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "about-col-header")  -}}
+            <div class='about-desc'>
+                {{.opis  | safeHTML}}
+                {{with .lista_punktowa}}
+                    <ul>
+                    {{range .}}
+                        <li>{{.}}</li>
+                    {{end}}
+                    </ul>
+                {{end}}
+            </div>
+        </div>
+    {{end}}
+</section>

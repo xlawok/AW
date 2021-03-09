@@ -166,6 +166,11 @@ h1,.h1,h2,.h2,h3,.h3{
   
   transform: rotate(90deg);
 }
+.ornament-l-r:before{
+  left: -2rem;
+  
+  // transform: rotate(90deg);
+}
 //DARKMODE checkbox
 $checked-color: white;
 $unchecked-color: red;
@@ -756,6 +761,91 @@ form#contactform{
       
       
       
+    }
+  }
+}
+.sc-onas-about-columns{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  .about-col-cnt{
+    width: 100%;
+    // cursor: pointer;
+    @media (min-width: 992px){
+      width: 32%;
+    }
+    .about-col-header{
+      position: relative;
+      z-index: 1;
+      span{
+        line-height: 1;
+      }
+      &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 14.375rem;
+        height: 14.375rem;
+        // transform: matrix(0.68, 0.73, -0.73, 0.68, 0, 0);
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        left: -2rem;
+        top: -1rem;
+        transform: scale(.7);
+        transition: transform .3s ease;
+        transform-origin: left top;
+      }
+
+    }
+    &:nth-child(1){
+      .about-col-header:before{
+        transform: rotate(35deg) translate(6rem,-5rem) scale(1);
+      }
+      &:hover{
+        .about-col-header:before{
+          transform: rotate(0) translate(0,0) scale(.7);
+        }
+      }
+    }
+    &:nth-child(2){
+      .about-col-header:before{
+        transform: rotate(85deg)translate(7rem,-18rem)scale(1);
+      }
+      &:hover{
+        .about-col-header:before{
+          transform: rotate(0) translate(0,0) scale(.7);
+        }
+      }
+    }
+    &:nth-child(3){
+      .about-col-header:before{
+        transform: rotate(35deg) translate(6rem,-7rem) scale(1);
+      }
+      &:hover{
+        .about-col-header:before{
+          transform: rotate(0) translate(0,0) scale(.7);
+        }
+      }
+    }
+    .about-desc{
+      position: relative;
+      z-index: 1;
+    }
+    ul{
+      padding-left: 1rem;
+      list-style: none;
+      li{
+        padding: .5rem 0;
+      }
+      li::before {
+        content: "•"; 
+        color: var(--red);
+        display: inline-block; 
+        width: 1rem;
+        margin-left: -1rem
+      }
     }
   }
 }

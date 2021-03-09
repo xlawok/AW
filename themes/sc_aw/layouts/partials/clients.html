@@ -1,10 +1,16 @@
 {{ $clientslist := site.Data.clients }}
 {{ $clientslist_len := (len $clientslist) }}
 {{ if gt $clientslist_len  0}}
+{{$own_header :=.header_repeater}}
 <section class='sec-padding sc-our-clients'>
     <!-- lista klientów z data -->
-    {{ $header_list := ($clientslist.header_repeater) }}
-    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
+    {{with $own_header}}
+        {{ $header_list := (.) }}
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
+    {{else}}
+        {{ $header_list := ($clientslist.header_repeater) }}
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
+    {{end}}
     <!-- zapisanie do zmiennej -->
     <ul>
         {{ range $clientslist.clients_list }}
