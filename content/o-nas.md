@@ -132,6 +132,23 @@ sections:
       txt_block_size: XL
 - template: sekcja-nasi-klienci
   show_sec_clients: true
+  header_repeater:
+  - txt_block: Zaufali
+    bold_txt: gruby
+    color_txt: czarny
+    underline: false
+    break_line: true
+    block_tag_type: h2
+    ornament: prawa w dół
+    txt_block_size: XL
+  - txt_block: NAM
+    bold_txt: gruby
+    color_txt: czerwony
+    underline: true
+    break_line: true
+    block_tag_type: h2
+    ornament: brak
+    txt_block_size: L
 title: O nas
 slug: o-nas
 keywords: ''
