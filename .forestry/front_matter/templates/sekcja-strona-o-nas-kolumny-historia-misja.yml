@@ -1,4 +1,33 @@
 ---
 label: Sekcja strona o nas - kolumny historia,misja
 hide_body: true
-fields: []
+fields:
+- name: kolumny
+  type: field_group_list
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: opis
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Opis
+  - name: lista_punktowa
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Lista punktowa
+  config:
+    min: 3
+    max: 3
+    labelField: 
+  label: Kolumny
