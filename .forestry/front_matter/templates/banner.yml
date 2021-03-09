@@ -85,11 +85,19 @@ fields:
   showOnly:
     field: banner_type
     value: wide_img
-- name: banner_bg_for_center
+- name: banner_bg_for_center_left
   type: file
   config:
     maxSize: 64
-  label: Tło
+  label: Tło po lewej
+  showOnly:
+    field: banner_type
+    value: center_img_w_background
+- name: banner_bg_for_center_right
+  type: file
+  config:
+    maxSize: 64
+  label: Tło po prawej
   showOnly:
     field: banner_type
     value: center_img_w_background
