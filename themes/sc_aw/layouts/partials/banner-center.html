@@ -1,18 +1,28 @@
 
 <section class=' sc-banner-center-img'>
-    
-    {{- partial "img.html" (dict "image" .banner_bg_for_center "imgsizes" "" "tag_class" "banner-center-bg-img" "ifsrcset" "nosrcset")  -}}
-    <!-- {{if .banner_header_cnt.header_repeater }}
-        <div class='on-banner-content sec-padding'>
-        
-                {{ $header_list := (.banner_header_cnt.header_repeater) }}
-                {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "banner-header")  -}}
-                {{ $header_slogan_list := (.banner_slogan.header_repeater) }}
-                {{- partial "header-tag.html" (dict "context" . "header_list" $header_slogan_list "custom_class" "banner-slogan")  -}}
-                
-        
+    <div class='center-banner-cnt'>
+        <div class='banner-left-side-img'>
+            {{- partial "img.html" (dict "image" .banner_bg_for_center_left "imgsizes" "" "tag_class" "banner-bg-img" "ifsrcset" "nosrcset")  -}}
         </div>
-    {{end}} -->
+        <!-- {{if .banner_header_cnt.header_repeater }}
+            <div class='on-banner-content sec-padding'>
+            
+                    {{ $header_list := (.banner_header_cnt.header_repeater) }}
+                    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "banner-header")  -}}
+                    {{ $header_slogan_list := (.banner_slogan.header_repeater) }}
+                    {{- partial "header-tag.html" (dict "context" . "header_list" $header_slogan_list "custom_class" "banner-slogan")  -}}
+                    
+            
+            </div>
+        {{end}} -->
+        <div class='center-on-banner-img'>
+            {{- partial "img.html" (dict "image" .banner_center_img "imgsizes" "(max-width: 992px) 100vw, 80vw" "tag_class" "on-banner-center-img" "ifsrcset" "")  -}}
+            
+        </div>
+        <div class='banner-right-side-img'>
+            {{- partial "img.html" (dict "image" .banner_bg_for_center_right "imgsizes" "" "tag_class" "banner-bg-img" "ifsrcset" "nosrcset")  -}}
+        </div>
+    </div>
     <div class='center-on-banner-img'>
         {{- partial "img.html" (dict "image" .banner_center_img "imgsizes" "(max-width: 992px) 100vw, 80vw" "tag_class" "on-banner-center-img" "ifsrcset" "")  -}}
         
