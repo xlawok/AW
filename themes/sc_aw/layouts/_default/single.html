@@ -41,6 +41,11 @@
     {{if (isset . "kolumny_o_nas")}}
         {{- partial "onas-page-about-columns.html" . -}}
     {{end}}
+<!-- SEKCJA STRONY O nas ---- DRUŻYNA -->
+     {{if (isset . "section_team_group")}}
+       {{- partial "onas-page-team.html" . -}}
+    {{end}}
+    
   {{ end }}
   
 
