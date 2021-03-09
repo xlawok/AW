@@ -57,6 +57,15 @@ body{
             }
         }
     }
+    &:not(.dark-m){
+        .sc-banner-center-img{
+            .box-below-banner{
+                &:before{
+                    background: #F2F2F2 0% 0% no-repeat padding-box;
+                }
+            }
+        }
+    }
     &:not(.dark-m).kontakt{
         .sc-banner-wide{
             background: transparent linear-gradient(0deg, #000000 0%, #FCDB01 100%) 0% 0% no-repeat padding-box;

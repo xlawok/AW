@@ -657,6 +657,8 @@ form#contactform{
     max-height: (701/1080)*100vh;
     min-height: 25rem;
     object-fit: cover;
+    z-index: -1;
+    position: relative;
   }
   .center-on-banner-img{
     width:90%;
@@ -695,6 +697,7 @@ form#contactform{
     }
     .below-banner-header{
       font-family: var(--base-font);
+      text-align: center;
     }
     .below-more-desc{
       padding-bottom: 2rem;
@@ -731,6 +734,28 @@ form#contactform{
           }
         }
       }
+    }
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100vw;
+      
+      
+      
+      left:-10vw;
+      @media (min-width: 992px){
+        
+        left: -((100-((1014/1920)*100))/2)*1vw;
+      }
+
+      height: calc(100% + 4rem);
+      top: -1rem;
+      clip-path: ellipse(130% 100% at 51% 100%);
+      z-index: -1;
+      
+      
+      
     }
   }
 }
