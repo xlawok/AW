@@ -2,7 +2,7 @@
 label: Sekcja strona o nas - kolumny historia,misja
 hide_body: true
 fields:
-- name: kolumny
+- name: kolumny_o_nas
   type: field_group_list
   fields:
   - name: naglowek

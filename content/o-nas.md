@@ -53,7 +53,7 @@ sections:
       if_svg: true
   banner_cta_title: ''
 - template: sekcja-strona-o-nas-kolumny-historia-misja
-  kolumny:
+  kolumny_o_nas:
   - opis: 'Dwóch entuzjastów branży SEO postanowiło rozpocząć komercjalizacje swojego
       hobby. Mamy pewność, że robiąc dobrą robotę - klienci z nami zostaną i będą
       nas polecać swoim znajomym, ponieważ:'
