@@ -849,6 +849,45 @@ form#contactform{
     }
   }
 }
+.sc-onas-team-columns{
+  position: relative;
+  ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    
+    
+    li{
+      width: 48%;
+      @media (min-width: 992px){
+        width: 32%;
+        &:nth-child(2),&:nth-child(5){
+          margin: 0 auto;
+        }
+      }
+      @media (min-width: 1600px){
+        width: (364/1920)*100vw;
+        &:last-child{
+          
+          position: absolute;
+          right: 0;
+          top: 25%;
+        }
+        &:nth-child(2),&:nth-child(5){
+          margin: 0 4%;
+        }
+      }
+      @media (min-width: 1920px){
+        width: (364/1920)*100vw;
+      }
+      
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
 .sc-our-clients{
   position: relative;
   z-index: 1;
