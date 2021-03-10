@@ -71,6 +71,14 @@ fields:
   config:
     maxSize: 2
   label: Zdjęcie główne
+  description: Gdy dodane, wyświetlane w listowaniu artykułów
+- name: ikona_artykulu
+  type: file
+  config:
+    maxSize: 2
+  label: Ikona artykułu
+  description: Gdy nie wprowadzono zdjęcia, wyświetlane w listowaniu.
+  default: "/uploads/group-166.svg"
 - name: tags
   type: tag_list
   default: []
@@ -79,6 +87,24 @@ fields:
   type: tag_list
   default: []
   label: Kategoria
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: tytul_o_czym_przeczytasz
+  type: text
+  config:
+    required: false
+  label: Tytuł o czym przeczytasz
+  default: O czym przeczytasz w artykule?
+- name: lista_o_czym_przeczytasz
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Lista o czym przeczytasz
 pages:
 - content/blog/drug.md
 - content/blog/test-copy.md
