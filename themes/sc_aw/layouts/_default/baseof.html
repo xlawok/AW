@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
-    <body class="{{ if .IsHome }} home {{else}} {{ .Params.slug }} {{ if .IsPage }}single{{ else }}list{{ end }} {{end}}">
+    <body class="{{ if .IsHome }} home {{else}}  {{ if .IsPage }}single {{ .Params.slug }} {{ else }}list{{ end }} {{end}}">
         {{- partial "header.html" . -}}
         <main id="content">
         {{- block "main" . }}{{- end }}
