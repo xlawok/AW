@@ -10,3 +10,5 @@ fields:
 - name: czy_wyswietlac_sekcje_zamow_wycene
   type: boolean
   label: Czy wyświetlać sekcję zamów wycenę
+pages:
+- data/blog-ustawienia.yml
