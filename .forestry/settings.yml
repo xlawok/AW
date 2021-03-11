@@ -35,7 +35,7 @@ sections:
   templates:
   - autorzy
 - type: document
-  path: data/blog-ustawienia.yml
+  path: data/blogs.yml
   label: Ustawienia wyświetlania postów
 - type: document
   path: config.toml
