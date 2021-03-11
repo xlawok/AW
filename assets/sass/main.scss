@@ -1427,6 +1427,7 @@ z-index: 1;
     }
     
     box-shadow: 0px 3px 20px #00000029;
+    background-color: var(--white);
     border-radius: 8px;
     margin-bottom: 1rem;
     cursor: pointer;
@@ -1478,6 +1479,67 @@ z-index: 1;
 }
 //
 .list{
+  .blog-page{
+    overflow: hidden;
+    background: #f2f2f2;
+    position: relative;
+    .svg{
+      position: absolute;
+      width: 0;
+    }
+    .container {
+      z-index: 2;
+      position: relative;
+    }
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      height: 15.5rem;
+      
+      height: 75.5rem;
+      
+      z-index: -2;
+      clip-path: ellipse(90% 60% at 51% 100%);
+      clip-path: url(#my-clip-path2);
+      z-index: 0;
+      width: 100vw;
+      left: -1rem;
+   
+   
+
+      top: 5rem;
+      background: white;
+      // background: white;
+    }
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      height: 15.5rem;
+      
+      height: 75.5rem;
+      
+      z-index: 0;
+      bottom: -65rem;
+
+      clip-path: ellipse(90% 60% at 51% 100%);
+      clip-path: url(#my-clip-path2);
+      
+      width: 100vw;
+      left: -1rem;
+     
+   
+
+      
+      background: #f2f2f2;
+      // background: white;
+    }
+  }
   .news-list{
     &.with_grid{
       display: grid;
@@ -1553,7 +1615,7 @@ z-index: 1;
 
 
     }
-  
+    
     .article-head{
       display: flex;
       flex-wrap: wrap;
@@ -1565,6 +1627,30 @@ z-index: 1;
         }
         @media (min-width: 992px){
           width: (1044/1920)*100vw;
+        }
+        .single-post-header{
+          position: relative;
+          &:before{
+            content: url(/img/kwad.svg);
+            position: absolute;
+            display: block;
+            width: 1rem;
+            height: 1rem;
+            left: -6rem;
+            top: 0rem;
+          }
+          &:after{
+            content: '';
+            background-image: url(/img/circle.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            display: block;
+            width: 2rem;
+            height: 2rem;
+            left: -5rem;
+            top: 10rem;
+          }
         }
       }
       .right-col{
@@ -1735,6 +1821,21 @@ z-index: 1;
     margin-bottom: 3rem;
     @media (min-width: 992px){
       margin-left: calc(50% - 4rem);
+    }
+    position: relative;
+    &:before{
+      content: '';
+      z-index: 1;
+      display: block;
+      position: absolute;
+      z-index: -1;
+      width: 14.375rem;
+      height: 14.375rem;
+      left: 10rem;
+      transform: matrix(0.8, 0.6, -0.6, 0.8, 0, 0);
+      width: 8.375rem;
+      height: 8.375rem;
+      background: white;
     }
   }
   .news-list{
