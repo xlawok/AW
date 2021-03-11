@@ -1,4 +1,12 @@
 ---
 label: Ustawienia postów
 hide_body: true
-fields: []
+fields:
+- name: naglowek_powiazanych_aktualnosci
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek powiązanych aktualności
+- name: czy_wyswietlac_sekcje_zamow_wycene
+  type: boolean
+  label: Czy wyświetlać sekcję zamów wycenę
