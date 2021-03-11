@@ -85,6 +85,41 @@ fields:
   showOnly:
     field: banner_type
     value: wide_img
+- name: naglowek_formularza_no_img
+  type: text
+  config:
+    required: false
+  label: 'Nagłówek formularza '
+  showOnly:
+    field: banner_type
+    value: no_img_only_background
+  description: Banner bez zdjęcia
+- name: banner_form_html_no_img
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  showOnly:
+    field: banner_type
+    value: no_img_only_background
+  label: Kod formularza
+  description: Banner bez zdjecia
+- name: banner_form_script_no_img
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Skrypt formularza
+  description: Banner bez zdjęcia
+  showOnly:
+    field: banner_type
+    value: no_img_only_background
 - name: banner_bg_for_center_left
   type: file
   config:
