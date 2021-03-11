@@ -78,7 +78,7 @@ fields:
     maxSize: 2
   label: Ikona artykułu
   description: Gdy nie wprowadzono zdjęcia, wyświetlane w listowaniu.
-  default: "/uploads/group-166.svg"
+  default: "/uploads/art-placeholder.svg"
 - name: tags
   type: tag_list
   default: []
