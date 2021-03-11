@@ -110,6 +110,32 @@ body{
     .sc-home-services:after{
         background: var(--white);
     }
+    &.single{
+        .blog-post{
+          .article-head{
+              position: relative;
+              &:before{
+                content: '';
+                display: block;
+                position: absolute;
+                width: 100vw;
+                height: 100%;
+                z-index: -1;
+                left:   -1rem;
+                padding-right: 1rem;
+                @media (min-width: 992px){
+                    left:   -5vw;
+                  
+                }
+                @media (min-width: 1600px){
+                    left:   -(303/1920)*100vw;
+                }
+                background: #F2F2F2 0% 0% no-repeat padding-box;
+              }
+            
+          }
+        }
+    }
     &.dark-m{
         // .ornament-r-b:before{
         //     display: none;
