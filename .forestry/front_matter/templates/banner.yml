@@ -160,6 +160,18 @@ fields:
   showOnly:
     field: banner_type
     value: no_img_only_background
+- name: opis_banner
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Opis
+  showOnly:
+    field: banner_type
+    value: no_img_only_background
 - name: box_pod_zdj_ciem
   type: field_group
   config: {}
@@ -223,18 +235,6 @@ fields:
       file: 
       path: 
   label: Adres odnośnika
-  showOnly:
-    field: banner_type
-    value: no_img_only_background
-- name: opis_banner
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html
-  label: Opis
   showOnly:
     field: banner_type
     value: no_img_only_background
