@@ -207,7 +207,7 @@ fields:
       type: boolean
       label: Gdy svg wczytaj w html
     config:
-      min: 2
+      min: 
       max: 4
       labelField: 
     label: Kolumny
