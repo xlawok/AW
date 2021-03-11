@@ -74,5 +74,11 @@
         
         
     </article>
-    
+    <section class='more-related'>
+        {{ $related_settings := site.Data.blogs }}
+
+            {{ $header_list := ($related_settings.header_repeater) }}
+            {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
+      
+    </section>
 {{ end }}
