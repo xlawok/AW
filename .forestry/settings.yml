@@ -37,7 +37,6 @@ sections:
 - type: document
   path: data/blog-ustawienia.yml
   label: Ustawienia wyświetlania postów
-  match: "**/*"
 - type: document
   path: config.toml
   label: Konfiguracja
