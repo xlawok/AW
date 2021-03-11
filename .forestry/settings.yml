@@ -19,10 +19,11 @@ sections:
   templates:
   - blog-post
 - type: directory
-  path: data/tags
-  label: Tags
-  create: documents
-  match: "/*"
+  path: content/slownik
+  label: Słownik
+  create: all
+  match: "**/*"
+  new_doc_ext: md
 - type: document
   path: data/clients.toml
   label: Nasi klienci
