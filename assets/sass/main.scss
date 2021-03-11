@@ -169,6 +169,15 @@ h1,.h1,h2,.h2,h3,.h3{
   
   // transform: rotate(90deg);
 }
+.ornament-l-b:before{
+  left: -2rem;
+  transform: rotate(90deg);
+  // transform: rotate(90deg);
+}
+.header-template{
+  line-height: 1.1;
+  font-family: var(--header-font);
+}
 //DARKMODE checkbox
 $checked-color: white;
 $unchecked-color: red;
@@ -1662,7 +1671,15 @@ z-index: 1;
     }
     
   }
-
+  .related-news-header{
+    margin-bottom: 3rem;
+    @media (min-width: 992px){
+      margin-left: calc(50% - 4rem);
+    }
+  }
+  .news-list{
+    justify-content: space-evenly;
+  }
 }
 .sc-front-news{
   background: #F2F2F2 0% 0% no-repeat padding-box;

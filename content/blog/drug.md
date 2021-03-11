@@ -1,6 +1,6 @@
 +++
 author = "data/authors/bartek.yml"
-categories = ["pozycjonowanie lokalne"]
+categories = ["optymalizacja"]
 date = ""
 description = "safsdfs"
 keywords = ""

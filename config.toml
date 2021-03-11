@@ -34,3 +34,11 @@ categories = "/kategoria/:slug/"
 [taxonomies]
   category = "categories"
   tag = "tags"
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+
+  [[related.indices]]
+    name = "categories"
+    weight = 100
