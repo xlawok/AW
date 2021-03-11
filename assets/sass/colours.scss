@@ -74,14 +74,15 @@ body{
     .sc-onas-about-columns{
         background: #F2F2F2 0% 0% no-repeat padding-box;
     }
+    .list-art-date{
+    
+        border-top: 1px solid #000000;
+    }
     .sc-front-news{
         .news-list{
             >li{
                 background: #FFFFFF 0% 0% no-repeat padding-box;
-                .list-art-date{
-    
-                    border-top: 1px solid #000000;
-                }
+               
             }
         }
         .front-news-more{
@@ -321,15 +322,16 @@ body{
                 }
             }
         }
+        .list-art-date{
+    
+            border-top: 1px solid #fff;
+        }
         .sc-front-news{
             background: #000000 0% 0% no-repeat padding-box;
             .news-list{
                 >li{
                     background: #242424 0% 0% no-repeat padding-box;
-                    .list-art-date{
-    
-                        border-top: 1px solid #fff;
-                    }
+                    
                 }
             }
             .front-news-more{

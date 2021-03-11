@@ -1,0 +1,78 @@
+{{ define "main" }}
+    
+    
+    <article class="sec-padding blog-post">
+        <div class='article-head'>
+            <div class='left-col'>
+                {{ $header_list := $.Params.header_repeater }}
+                {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "single-post-header")  -}}
+                <div class='excerpt'>
+                    {{$.Params.summary}}
+                </div>
+               
+            </div>
+            <div class='right-col'>
+               {{ with $.Params.ikona_artykulu }}
+                    {{- partial "img.html" (dict "image" . "imgsizes" "" "ifsrcset" "nosrcset" "tag_class" "")  -}} 
+               {{end}}
+               
+            </div>
+            <div class='author-data'>
+            
+                {{ $dirFile := path.Base .Params.author }}
+                <!-- sam plik z rozszrzeniem -->
+                {{ $pathArr := split $dirFile "." }}
+                <!-- nazwa pliku -->
+                {{ $filename := index $pathArr 0}}
+    
+                <!-- {{.Params.date}} -->
+                <span class='list-art-date'>{{ .Params.date.Format "02.01.2006" }}</span>
+                <span class='list-art-authorname'> | &nbsp;{{ (index site.Data.authors $filename).imi__i_nazwisko }}</span>
+                {{- partial "img.html" (dict "image" (index site.Data.authors $filename).obrazek "imgsizes" "" "ifsrcset" "nosrcset" "tag_class" "art-author-img")  -}}
+                
+            </div>
+        </div>
+        <div class='article-content-wrapper'>
+            <div class='is-about'>
+                {{ with $.Params.lista_o_czym_przeczytasz}}
+                    <div class='is-about-title'>
+                    {{ with $.Params.tytul_o_czym_przeczytasz}}
+                        {{.}}
+                    {{else}}
+                        O czym przeczytasz w artykule?
+                    {{end}}
+                    </div>
+                    <ol class='is-about-list'>
+                        {{range . }}
+                            <li class='is-about-item'>{{ . }}</li>
+                        {{end}}
+                    </ol>
+                {{end}}
+            </div>
+            <div class='article-content'>
+                {{.Content}}
+            </div>
+            <div class="single-art-footer">
+                <div class='star-cnt'>
+    
+                </div>
+                <div class='author-data'>
+                    {{ $dirFile := path.Base .Params.author }}
+                    <!-- sam plik z rozszrzeniem -->
+                    {{ $pathArr := split $dirFile "." }}
+                    <!-- nazwa pliku -->
+                    {{ $filename := index $pathArr 0}}
+        
+                    <!-- {{.Params.date}} -->
+                    <span class='list-art-date'>{{ .Params.date.Format "02.01.2006" }}</span>
+                    <span class='list-art-authorname'> | &nbsp;{{ (index site.Data.authors $filename).imi__i_nazwisko }}</span>
+                    {{- partial "img.html" (dict "image" (index site.Data.authors $filename).obrazek "imgsizes" "" "ifsrcset" "nosrcset" "tag_class" "art-author-img")  -}}
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </article>
+    
+{{ end }}

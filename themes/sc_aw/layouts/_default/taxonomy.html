@@ -1,4 +1,5 @@
 {{ define "main" }}
+
     <section class="sec-padding blog-page">
         <div class='categories-cnt'>
             <ul class='categories-list-all'>
@@ -13,7 +14,7 @@
         <div class="container">
             <div class="row">
                 
-                {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") 12 }}
+                {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") 1 }}
                 
                 
                     {{if  ( eq $paginator.PageNumber 1) }}
@@ -31,12 +32,8 @@
                         {{ if and ( or (eq $index 0) (eq $index 3) (eq $index 4) (eq $index 5) ) (eq $paginator.PageNumber 1) }}
                             {{with .Params.obrazek}}
                                 <div class='with-img-cnt'>
-                                    {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 20vw" "ifsrcset" "" "tag_class" "")  -}} 
+                                    {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 20vw")  -}} 
                                 </div>
-                            {{else}}
-                                {{with .Params.ikona_artykulu}}
-                                    {{- partial "img.html" (dict "image" . "imgsizes" "" "ifsrcset" "nosrcset" "tag_class" "")  -}} 
-                                {{end}}
                             {{end}}
                         {{end}}
                         <div class='without-img-cnt'>

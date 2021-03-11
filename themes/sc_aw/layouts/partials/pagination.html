@@ -1,7 +1,7 @@
 {{ $pag := $.Paginator }}
 {{ if gt $pag.TotalPages 1 }}
-<nav aria-label="Page navigation" class="w-100">
-  <ul class="pagination justify-content-center pagination-lg">
+<nav aria-label="Page navigation" class="pagination-cnt">
+  <!-- <ul class="pagination justify-content-center pagination-lg">
     {{ range $pag.Pagers }}
     {{ if eq . $pag }}
     <li class="page-item active">
@@ -21,7 +21,24 @@
       </a>
     </li>
     {{ end }}
-  </ul>
+  </ul> -->
+  {{ if $pag.HasPrev }}
+  
+    <a class="page-link prev" href="{{ $pag.Prev.URL }}" rel="next">
+    
+    </a>
+
+  {{ end }}
+  <div class='pageof'>
+  Strona <span class='pageno'>{{$pag.PageNumber }}</span> z <span class='pageno'>{{$pag.TotalPages}}</span>
+  </div>
+  {{ if $pag.HasNext }}
+ 
+    <a class="page-link next" href="{{ $pag.Next.URL }}" rel="next">
+     
+    </a>
+
+  {{ end }}
   <!-- </nav> -->
 </nav>
 {{ end }}
