@@ -5,7 +5,7 @@ header_repeater:
   bold_txt: bardzo gruby
   color_txt: czerwony
   underline: true
-  break_line: false
+  break_line: true
   block_tag_type: div
   ornament: brak
   txt_block_size: L
