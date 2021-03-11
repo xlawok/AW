@@ -26,6 +26,7 @@ sections:
   new_doc_ext: md
   templates:
   - wpis-slownika
+  - sekcje
 - type: document
   path: data/clients.toml
   label: Nasi klienci
