@@ -9,14 +9,13 @@ banner_bg_for_center_left = ""
 banner_bg_for_center_right = ""
 banner_bg_no_img = "/uploads/group-120.svg"
 banner_center_img = ""
-banner_cta_title = ""
-banner_cta_url = []
+banner_cta_title = "wróc"
+banner_cta_url = "o-nas.md"
 banner_form_html = ""
 banner_form_html_no_img = ""
 banner_form_script = ""
 banner_form_script_no_img = ""
 banner_img = ""
-banner_list_gruop = []
 banner_type = "no_img_only_background"
 naglowek_formularza = ""
 naglowek_formularza_no_img = ""
@@ -46,5 +45,9 @@ header_repeater = []
 header_repeater = []
 kolumny = []
 opis = ""
+[[sections.banner_list_gruop]]
+banenr_list_item = "inna pozycja"
+[[sections.banner_list_gruop]]
+banenr_list_item = "test"
 
 +++
