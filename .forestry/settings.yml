@@ -5,6 +5,14 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: pozycjonowanie
+  label: Pozycjonowanie
+  create: all
+  match: "**/*"
+  new_doc_ext: md
+  templates:
+  - sekcje
+- type: directory
   path: content
   label: Pages
   create: all
