@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: pozycjonowanie
+  path: content/pozycjonowanie
   label: Pozycjonowanie
   create: all
   match: "**/*"
