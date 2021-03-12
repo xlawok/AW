@@ -144,6 +144,18 @@ fields:
   showOnly:
     field: banner_type
     value: no_img_only_background
+- name: opis_banner
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Opis
+  showOnly:
+    field: banner_type
+    value: no_img_only_background
 - name: banner_list_gruop
   type: field_group_list
   fields:
@@ -157,18 +169,6 @@ fields:
     max: 
     labelField: 
   label: Lista
-  showOnly:
-    field: banner_type
-    value: no_img_only_background
-- name: opis_banner
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html
-  label: Opis
   showOnly:
     field: banner_type
     value: no_img_only_background
