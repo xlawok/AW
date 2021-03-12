@@ -43,3 +43,6 @@ categories = "/kategoria/:slug/"
   [[related.indices]]
     name = "categories"
     weight = 100
+  [[related.indices]]
+    name = "letters"
+    weight = 100

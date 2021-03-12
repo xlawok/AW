@@ -1,0 +1,44 @@
+
+<section class=' sc-banner-center-noimg'>
+    <div class='center-banner-cnt'>
+        
+            {{- partial "img.html" (dict "image" .banner_bg_no_img "imgsizes" "" "tag_class" "banner-bg-img" "ifsrcset" "nosrcset")  -}}
+        
+        {{if .banner_header_cnt.header_repeater }}
+            <div class='on-banner-content sec-padding'>
+            
+                    {{ $header_list := (.banner_header_cnt.header_repeater) }}
+                    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "banner-header")  -}}
+                    {{ $header_slogan_list := (.banner_slogan.header_repeater) }}
+                    {{- partial "header-tag.html" (dict "context" . "header_list" $header_slogan_list "custom_class" "banner-slogan")  -}}
+                    {{with .opis_banner}}
+                        <div class='no-img-banner-desc'>
+                            {{. | safeHTML}}
+                        </div>
+                    {{end}}
+                    {{with .banner_list_gruop}}
+                        <ul class='no-img-banner-list'>
+                            {{range . }}
+                                <li>{{.banenr_list_item }}</li>
+                            {{end}}
+                        </ul>
+                    {{end}}
+                    {{if and .banner_cta_title .banner_cta_url}}
+                        {{$tytul_odnosnika:=.banner_cta_title}}
+                        {{ with site.GetPage .banner_cta_url }}
+                            <a href='{{.RelPermalink}}'>{{$tytul_odnosnika}}</a>
+                       
+                        {{ end }}
+                    {{else}}
+                        <span class='additional-ornaments'></span>
+                    {{end}}
+            <!-- gdzieś formularz jeżeli istnieje -->
+            <!-- gdzieś modal -> zamiennie czy odnośnik do strony, czy modal -->
+       
+            </div>
+        {{end}}
+     
+    </div>
+
+
+</section>

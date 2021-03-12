@@ -36,7 +36,11 @@ body{
     &:not(.dark-m)
      .sc-banner-wide{
         background: transparent linear-gradient(0deg, #000000 0%, #FF0800 100%) 0% 0% no-repeat padding-box;
-        z-index: -2;
+        z-index: 0;
+        &~section{
+            position: relative;
+            z-index: 1;
+        }
         .banner-wide-content{
             &:after{
                 background: #F2F2F2 0% 0% no-repeat padding-box;

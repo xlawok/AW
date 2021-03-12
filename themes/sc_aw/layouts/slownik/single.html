@@ -1,0 +1,42 @@
+{{ define "main" }}
+<section class=' sc-banner-center-noimg slownik-post'>
+    <div class='center-banner-cnt'>
+        {{ with site.GetPage "/slownik" }}
+            {{range .Params.sections}}
+                {{- partial "img.html" (dict "image" .banner_bg_no_img "imgsizes" "" "tag_class" "banner-bg-img" "ifsrcset" "nosrcset")  -}}
+            {{end}}
+        {{end}}
+       
+            <div class='on-banner-content sec-padding'>
+            
+                   <h1 class='txt-red f-w700 txt-underline txt-XL'>
+                       {{.Title}}
+                   </h1>
+                    {{with .Params.opis}}
+                        <div class='no-img-banner-desc'>
+                            {{. | safeHTML}}
+                        </div>
+                    {{end}}
+                    
+                    
+                    {{ with site.GetPage "/slownik" }}
+                        <a class='cta-button cta-back' href='{{.RelPermalink}}'>Powrót do słownika</a>
+                    
+                    {{ end }}
+                
+                    <!-- <span class='additional-ornaments'></span> -->
+                    
+            <!-- gdzieś formularz jeżeli istnieje -->
+            <!-- gdzieś modal -> zamiennie czy odnośnik do strony, czy modal -->
+       
+            </div>
+        
+     
+    </div>
+
+
+</section>
+    
+   
+    
+{{ end }}
