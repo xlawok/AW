@@ -238,3 +238,16 @@ fields:
   showOnly:
     field: banner_type
     value: no_img_only_background
+- name: otworz_modal
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Otwórz modal
+  description: Wklej zawartość okna modal. Gdy wypełnione, nie działa adres odnośnika.
+  showOnly:
+    field: banner_type
+    value: no_img_only_background
