@@ -25,7 +25,7 @@ template = "banner"
 [[sections.banner_header_cnt.header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
-break_line = false
+break_line = true
 color_txt = "czerwony"
 ornament = "brak"
 txt_block = "Słownik"
