@@ -8,7 +8,7 @@ sections:
   path: content/pozycjonowanie
   label: Pozycjonowanie
   create: all
-  match: "**/*"
+  match: "/*"
   new_doc_ext: md
   templates:
   - sekcje
