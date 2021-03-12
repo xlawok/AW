@@ -1795,9 +1795,12 @@ z-index: 1;
       } 
     }
   }
-  .sc-banner-center-noimg .center-banner-cnt .banner-bg-img{
-    top: 0;
-  }
+  .sc-banner-center-noimg{
+    background-color: #F2F2F2;
+    .center-banner-cnt .banner-bg-img{
+      top: 0;
+    }
+  } 
   .dictionary-page{
     padding-top: 3rem;
     .letters-cnt{
