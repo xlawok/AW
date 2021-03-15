@@ -46,6 +46,11 @@ fields:
     label: Odnośnik
     showOnly:
       field: if_anchor
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Nazwa kafelka
   config:
     min: 
     max: 
