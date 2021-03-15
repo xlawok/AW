@@ -29,6 +29,23 @@ fields:
     config: {}
     template: naglowek
     label: Nagłówek
+  - name: if_anchor
+    type: boolean
+    label: Przewiń do góry
+  - name: odnosnik
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: pozycjonowanie
+        file: 
+        path: 
+    label: Odnośnik
+    showOnly:
+      field: if_anchor
   config:
     min: 
     max: 
