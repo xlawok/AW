@@ -1,4 +1,46 @@
 ---
 label: Sekcja z pytajnikiem
 hide_body: true
-fields: []
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: opis
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Tekst
+- name: pytajnik_filled
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - tylko kontur
+    - z wypelnieniem
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Pytajnik
+- name: pytajnik_where_shadow
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - po lewej
+    - po prawej
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Cień pytajnik
