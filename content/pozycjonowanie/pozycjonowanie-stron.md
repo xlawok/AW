@@ -55,6 +55,28 @@ banenr_list_item = "marka Twojej firmy będzie coraz bardziej popularna"
 [[sections.banner_list_gruop]]
 banenr_list_item = "dbając o pozycjonowanie, zadbasz o rozwój całej firmy"
 [[sections]]
+opis = "Znalezienie potrzebnych informacji w szybki i skuteczny sposób jest fundamentalnym wymogiem dzisiejszych czasów, zarówno w celu ograniczenia kosztów, jak i zaoszczędzenia czasu. Informacje różnej treści krążące w sieci mnożą się w gwałtownym tempie i przyjmują różnorodne formy (dokumenty, filmy, linki, streamingi, audio i video) - z tego względu wyszukiwarki nabierają coraz większego znaczenia. <br><br>Wyczulone mechanizmy i roboty Google’a regulujące funkcjonowanie wyszukiwarki, w prosty sposób umożliwiają jej użytkownikowi otrzymywanie - poprzez czynność wyszukiwania - użytecznych i ścisłych wyników. <br><br>Użytkownik formuje zapytanie (wykaz fraz do wyszukania) dla wyszukiwarki, ta natomiast je przetwarza i przesyła, za pośrednictwem odpowiednich układów logicznych, szereg mniej lub bardziej istotnych informacji."
+pytajnik_filled = "tylko kontur"
+pytajnik_where_shadow = "po lewej"
+template = "sekcja-z-pytajnikiem"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "SEO"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "co to jest?"
+txt_block_size = "XL"
+[[sections]]
 opis = "W ramach obsługi seo, każdy z naszych klientów ma wsparcie od naszych specjalistów tj. pozycjonera, copywritera, grafika programisty czy ogólnego wsparcia marketingowego. Dzięki takim zasobom, jesteśmy w stanie kompleksowo doradzić w kwestii marketingu i pozycjonowania online. Nasza oferta seo mówi jasno - uzyskanie efektu albo 100% zwrot pieniędzy. Nasza współpraca jest w pełni transparentna. Każde 6 miesięcy obsługi jest poprzedzone wyznaczeniem efektów jakie są możliwe do uzyskania. Po każdych 6-ciu miesiącach analizujemy wraz z klientem obecną sytuację i wyznaczamy cele na kolejny okres."
 template = "sekcja-oferta-z-kafelkami"
 [[sections.header_repeater]]
@@ -109,27 +131,5 @@ ornament = "brak"
 txt_block = "sklepów internetowych"
 txt_block_size = "L"
 underline = true
-[[sections]]
-opis = "Znalezienie potrzebnych informacji w szybki i skuteczny sposób jest fundamentalnym wymogiem dzisiejszych czasów, zarówno w celu ograniczenia kosztów, jak i zaoszczędzenia czasu. Informacje różnej treści krążące w sieci mnożą się w gwałtownym tempie i przyjmują różnorodne formy (dokumenty, filmy, linki, streamingi, audio i video) - z tego względu wyszukiwarki nabierają coraz większego znaczenia. <br><br>Wyczulone mechanizmy i roboty Google’a regulujące funkcjonowanie wyszukiwarki, w prosty sposób umożliwiają jej użytkownikowi otrzymywanie - poprzez czynność wyszukiwania - użytecznych i ścisłych wyników. <br><br>Użytkownik formuje zapytanie (wykaz fraz do wyszukania) dla wyszukiwarki, ta natomiast je przetwarza i przesyła, za pośrednictwem odpowiednich układów logicznych, szereg mniej lub bardziej istotnych informacji."
-pytajnik_filled = "tylko kontur"
-pytajnik_where_shadow = "po lewej"
-template = "sekcja-z-pytajnikiem"
-[[sections.header_repeater]]
-block_tag_type = "h2"
-bold_txt = "bardzo gruby"
-break_line = true
-color_txt = "czerwony"
-ornament = "brak"
-txt_block = "SEO"
-txt_block_size = "L"
-underline = true
-[[sections.header_repeater]]
-block_tag_type = "h2"
-bold_txt = "gruby"
-break_line = true
-color_txt = "czarny"
-ornament = "prawa w dół"
-txt_block = "co to jest?"
-txt_block_size = "XL"
 
 +++
