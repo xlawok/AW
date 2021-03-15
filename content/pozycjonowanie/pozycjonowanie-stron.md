@@ -96,6 +96,7 @@ ornament = "prawa w dół"
 txt_block = "SEO"
 txt_block_size = "XL"
 [[sections.kafelki]]
+if_anchor = true
 ikona = "/uploads/group-19.svg"
 [[sections.kafelki.header_repeater]]
 block_tag_type = "h3"
@@ -115,6 +116,7 @@ txt_block = "Pozycjonowanie"
 txt_block_size = "L"
 [[sections.kafelki]]
 ikona = "/uploads/group-160.svg"
+odnosnik = "pozycjonowanie/pozycjonowanie-sklepow.md"
 [[sections.kafelki.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
