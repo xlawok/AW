@@ -76,5 +76,60 @@ color_txt = "czarny"
 ornament = "prawa w dół"
 txt_block = "co to jest?"
 txt_block_size = "XL"
+[[sections]]
+opis = "W ramach obsługi seo, każdy z naszych klientów ma wsparcie od naszych specjalistów tj. pozycjonera, copywritera, grafika programisty czy ogólnego wsparcia marketingowego. Dzięki takim zasobom, jesteśmy w stanie kompleksowo doradzić w kwestii marketingu i pozycjonowania online. Nasza oferta seo mówi jasno - uzyskanie efektu albo 100% zwrot pieniędzy. Nasza współpraca jest w pełni transparentna. Każde 6 miesięcy obsługi jest poprzedzone wyznaczeniem efektów jakie są możliwe do uzyskania. Po każdych 6-ciu miesiącach analizujemy wraz z klientem obecną sytuację i wyznaczamy cele na kolejny okres."
+template = "sekcja-oferta-z-kafelkami"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "OFERTA"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "SEO"
+txt_block_size = "XL"
+[[sections.kafelki]]
+ikona = "/uploads/group-19.svg"
+[[sections.kafelki.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "stron internetowych"
+txt_block_size = "L"
+underline = true
+[[sections.kafelki.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Pozycjonowanie"
+txt_block_size = "L"
+[[sections.kafelki]]
+ikona = "/uploads/group-160.svg"
+[[sections.kafelki.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Pozycjonowanie"
+txt_block_size = "L"
+[[sections.kafelki.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "sklepów internetowych"
+txt_block_size = "L"
+underline = true
 
 +++
