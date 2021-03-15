@@ -1,4 +1,36 @@
 ---
 label: Sekcja oferta z kafelkami
 hide_body: true
-fields: []
+fields:
+- name: naglowek_sekcji
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek sekcji
+- name: opis
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Opis sekcji
+- name: kafelki
+  type: field_group_list
+  fields:
+  - name: ikona
+    type: file
+    config:
+      maxSize: 2
+    label: Ikona
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Kafelki
