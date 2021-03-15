@@ -98,6 +98,7 @@ txt_block_size = "XL"
 [[sections.kafelki]]
 if_anchor = true
 ikona = "/uploads/group-19.svg"
+title = "strony"
 [[sections.kafelki.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
@@ -117,6 +118,7 @@ txt_block_size = "L"
 [[sections.kafelki]]
 ikona = "/uploads/group-160.svg"
 odnosnik = "pozycjonowanie/pozycjonowanie-sklepow.md"
+title = "sklepy"
 [[sections.kafelki.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
@@ -131,6 +133,66 @@ bold_txt = "gruby"
 color_txt = "czerwony"
 ornament = "brak"
 txt_block = "sklepów internetowych"
+txt_block_size = "L"
+underline = true
+[[sections.kafelki]]
+ikona = "/uploads/group-164.svg"
+odnosnik = "pozycjonowanie/pozycjonowanie-sklepow.md"
+title = "lokalne"
+[[sections.kafelki.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Pozycjonowanie"
+txt_block_size = "L"
+[[sections.kafelki.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "lokalne"
+txt_block_size = "L"
+underline = true
+[[sections.kafelki]]
+ikona = "/uploads/group-165.svg"
+odnosnik = "pozycjonowanie/pozycjonowanie-sklepow.md"
+title = "audyt"
+[[sections.kafelki.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Audyt"
+txt_block_size = "L"
+[[sections.kafelki.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "i optymalizacja SEO"
+txt_block_size = "L"
+underline = true
+[[sections.kafelki]]
+ikona = "/uploads/group-166.svg"
+odnosnik = "pozycjonowanie/pozycjonowanie-sklepow.md"
+title = "konsultacje"
+[[sections.kafelki.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Konsultacje"
+txt_block_size = "L"
+[[sections.kafelki.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "SEO"
 txt_block_size = "L"
 underline = true
 
