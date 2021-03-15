@@ -102,19 +102,19 @@ title = "strony"
 [[sections.kafelki.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
-color_txt = "czerwony"
-ornament = "brak"
-txt_block = "stron internetowych"
-txt_block_size = "L"
-underline = true
-[[sections.kafelki.header_repeater]]
-block_tag_type = "h3"
-bold_txt = "gruby"
 break_line = true
 color_txt = "czarny"
 ornament = "brak"
 txt_block = "Pozycjonowanie"
 txt_block_size = "L"
+[[sections.kafelki.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "stron internetowych"
+txt_block_size = "L"
+underline = true
 [[sections.kafelki]]
 ikona = "/uploads/group-160.svg"
 odnosnik = "pozycjonowanie/pozycjonowanie-sklepow.md"
