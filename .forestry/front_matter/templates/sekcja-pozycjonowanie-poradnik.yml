@@ -116,7 +116,7 @@ fields:
     type: text
     config:
       required: false
-    label: Tytuł odnisnika
+    label: Tytuł odnośnika
   - name: otworz_modal
     type: textarea
     default: ''
