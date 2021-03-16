@@ -45,7 +45,12 @@
      {{if (isset . "section_team_group")}}
        {{- partial "onas-page-team.html" . -}}
     {{end}}
-    
+    {{if eq .template "sekcja-z-pytajnikiem"}}
+      {{- partial "pytajnik.html" . -}}
+    {{end}}
+    {{if eq .template "sekcja-oferta-z-kafelkami"}}
+      {{- partial "oferta-z-kafelkami.html" . -}}
+    {{end}}
   {{ end }}
   
 

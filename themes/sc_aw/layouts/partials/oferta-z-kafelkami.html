@@ -1,0 +1,36 @@
+<section class='sec-padding sc-offer-w-tiles'>
+  
+    {{ $header_list := (.header_repeater) }}
+  
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "front-news-header")  -}}
+    <div class='offer-w-tiles-description'>
+        {{.opis  | safeHTML}}
+    </div>
+    {{ with .kafelki}}
+        <ul class='offer-tiles-wrapper'>
+            {{range . }}
+                <li>
+                   
+                    
+                    {{if .odnosnik}}    
+                        {{ with site.GetPage .odnosnik }}
+                            <a href="{{ .Permalink}}">
+                        
+                        {{end}}
+                    {{else }}
+                            <a href="#top-banner">
+                    {{end}}
+                   
+                    <div class='tile-img'>
+                        {{- partial "img.html" (dict "image" .ikona "imgsizes" "" "tag_class" "col-img" "ifsrcset" "nosrcset")  -}}
+                    </div>
+                    {{ $header_list := (.header_repeater) }}
+  
+                    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "offer-tile-header")  -}}
+                    </a>
+
+                </li>
+            {{end}}
+        </ul>
+    {{end}}
+</section>

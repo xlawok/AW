@@ -1,0 +1,34 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var all_modal_cta=document.querySelectorAll('.open-modal-quote');
+  if(all_modal_cta.length>0){
+    for (var i = 0; i < all_modal_cta.length; i++) {
+        
+        all_modal_cta[i].addEventListener('click',function(e){
+            e.preventDefault();
+            var modal_target = this.dataset.modaltarget;
+            modal_target="[data-modalname='"+modal_target+"']";
+            document.querySelector(modal_target).classList.toggle('modal-active');
+        });
+    }
+  }
+  document.addEventListener(
+    "click",
+    function(event) {
+      // If user either clicks X button OR clicks outside the modal window, then close modal by calling closeModal()
+      if (
+        event.target.matches(".button-close-modal") ||
+        (!event.target.closest(".modal-wrapper") &&!event.target.closest(".open-modal-quote"))
+      ) {
+        closeModal();
+      }
+    },
+    false
+  )
+
+  function closeModal() {
+    document.querySelector(".modal-quote-outer").classList.remove('modal-active');
+  }
+});
+
+</script>

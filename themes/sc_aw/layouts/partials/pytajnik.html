@@ -1,0 +1,9 @@
+<section class='sec-padding sc-questionmark sc-gray {{ if eq .pytajnik_filled "tylko kontur"}} question-border {{else}} question-filled {{end}}'>
+  
+    {{ $header_list := (.header_repeater) }}
+  
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "qustionmark-header")  -}}
+    <div class='questionmark-description'>
+        {{.opis  | safeHTML}}
+    </div>
+</section>

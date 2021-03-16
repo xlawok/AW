@@ -1,5 +1,5 @@
 
-<section class=' sc-banner-center-noimg'>
+<section class=' sc-banner-center-noimg' id="top-banner">
     <div class='center-banner-cnt'>
         
             {{- partial "img.html" (dict "image" .banner_bg_no_img "imgsizes" "" "tag_class" "banner-bg-img" "ifsrcset" "nosrcset")  -}}
@@ -23,11 +23,15 @@
                             {{end}}
                         </ul>
                     {{end}}
-                    {{if and .banner_cta_title .banner_cta_url}}
+                    {{if and .banner_cta_title (or .banner_cta_url .otworz_modal) }}
                         {{$tytul_odnosnika:=.banner_cta_title}}
-                        {{ with site.GetPage .banner_cta_url }}
-                            <a href='{{.RelPermalink}}'>{{$tytul_odnosnika}}</a>
-                       
+                        {{ if .banner_cta_url }}
+                            {{ with site.GetPage .banner_cta_url }}
+                                <a class='cta-button' href='{{.RelPermalink}}'>{{$tytul_odnosnika}}</a>
+                            {{end}}
+                        {{else}}
+                            <a data-modaltarget='modal1' class='open-modal-quote cta-button' href='#'>{{$tytul_odnosnika}}</a>
+                            {{- partial "modal.html" (dict "modal_data" .otworz_modal "modal_name" "modal1")  -}}
                         {{ end }}
                     {{else}}
                         <span class='additional-ornaments'></span>
