@@ -127,3 +127,19 @@ fields:
         format: markdown
     label: otworz_modal
   label: Pływający box
+- name: kategoria_tytulu_dla_poradnika
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - h2
+    - h3
+    - h4
+    - div
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Kategoria tytułu dla poradnika
