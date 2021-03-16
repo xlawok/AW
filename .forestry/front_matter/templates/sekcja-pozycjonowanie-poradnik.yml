@@ -74,11 +74,16 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: naglowek_1
-    type: include
+  - name: naglowek_pierwszy
+    type: field_group
     config: {}
-    template: naglowek
-    label: Nagłówek
+    fields:
+    - name: naglowek
+      type: include
+      config: {}
+      template: naglowek
+      label: Nagłówek
+    label: Nagłówek pierwszy
   - name: opis_1
     type: textarea
     default: ''
@@ -88,11 +93,16 @@ fields:
       schema:
         format: markdown
     label: opis_1
-  - name: naglowek_2
-    type: include
+  - name: naglowek_drugi
+    type: field_group
     config: {}
-    template: naglowek
-    label: Nagłówek_2
+    fields:
+    - name: naglowek_drugi
+      type: include
+      config: {}
+      template: naglowek
+      label: Nagłówek drugi
+    label: Nagłówek drugi
   - name: opis_2
     type: textarea
     default: ''
