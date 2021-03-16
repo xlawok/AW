@@ -201,12 +201,30 @@ template = "sekcja-pozycjonowanie-poradnik"
 title_of_index = "Spis treści"
 [sections.floating_box_group]
 opis_1 = "Zwei flinke Boxer jagen die quirlige Eva und ihren Mops durch Sylt. Franz jagt im komplett verwahrlosten Taxi quer durch Bayern. Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter Deich. Vogel Quax zwickt Johnys Pferd Bim. Sylvia wagt quick den Jux bei Pforzheim. Polyfon zwitschernd aßen Mäxchens Vögel Rüben, Joghurt und Quark. \"Fix, Schwyz!\" quäkt…"
-[[sections.floating_box_group.header_repeater]]
+opis_2 = "Zrobimy dla Ciebie bezpłatny audyt seo, gdzie od razu wyceniamy obsługę pozycjonowania"
+tytul_odnosnika = "Zamów bezpłatną wycenę"
+[[sections.floating_box_group.naglowek_drugi.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "CHESZ WIEDZIEĆ WIĘCEJ?"
+txt_block_size = "L"
+underline = true
+[[sections.floating_box_group.naglowek_pierwszy.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "bardzo gruby"
 color_txt = "czerwony"
 ornament = "brak"
 txt_block = "O NAS"
+txt_block_size = "L"
+underline = true
+[[sections.floating_box_group.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "CHESZ"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
