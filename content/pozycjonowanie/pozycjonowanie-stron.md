@@ -196,6 +196,7 @@ txt_block = "SEO"
 txt_block_size = "L"
 underline = true
 [[sections]]
+kategoria_tytulu_dla_poradnika = "h3"
 obrazek_sekcji = "/uploads/group-85.svg"
 template = "sekcja-pozycjonowanie-poradnik"
 title_of_index = "Spis treści"
