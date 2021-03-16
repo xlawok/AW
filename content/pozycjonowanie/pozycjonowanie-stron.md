@@ -195,5 +195,36 @@ ornament = "brak"
 txt_block = "SEO"
 txt_block_size = "L"
 underline = true
+[[sections]]
+obrazek_sekcji = "/uploads/group-85.svg"
+template = "sekcja-pozycjonowanie-poradnik"
+title_of_index = "Spis treści"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+color_txt = "czerwony"
+ornament = "lewa w prawo"
+txt_block = "PORADNIK"
+txt_block_size = "L"
+underline = true
+[[sections.poradnik_group]]
+if_svg = true
+ikona = "/uploads/group-194.svg"
+opis = "Ponieważ marketing cyfrowy staje się coraz bardziej dojrzały, nie jest zaskoczeniem, że firmy są coraz lepsze w pozycjonowaniu, walka na poszczególnych frazach, staje się coraz bardziej zacięta. Posługując się statystykami, większość osób widzi więcej wyników poprzez działania SEO - czyli pozycjonowania organicznego, niż PPC (Pay Per Click) - posługiwania się AdWordsami - płatnymi reklamami Google. Wielu respondentów zgłosiło, że widzi lepsze wyniki (w tym ruchu organicznego, potencjalnych klientów i ilości sprzedaży) realizując działania SEO. Inni wykorzystali zwrot z inwestycji jako punkt odniesienia do ustalenia wyższości SEO nad PPC. Marketerzy uznali SEO za strategię długoterminową, podczas gdy PPC pozwalało na krótkoterminowe wybuchy, co przekładało się na brak ruchu na stronie po zaprzestaniu płacenia na AdWords. Dobrze utkwił nam jeden cytat właściciela firmy, która korzystała zarówno z SEO, jak i AdWords: „PPC to jak podnoszenie ołowianego sterowca. Włóż w to wystarczającą siłę (tj. Pieniądze), a ruch się pojawi. Ale gdy tylko przestaniesz płacić, ruch ustanie”. Posługując się statystykami - 70% marketingców uważa, że ​​SEO jest skuteczniejsze niż PPC. Natomiast 61% marketingowców w firmach twierdzi, że poprawa SEO i zwiększenie organicznej obecności w internecie jest najwyższym priorytetem w obecnej strategii działań."
+title = "Jaką skuteczność ma pozycjonowanie?"
+[[sections.poradnik_group]]
+if_svg = true
+ikona = "/uploads/group-189.svg"
+opis = "Pierwsza strona w wyszukiwarce Google to swoista “Ziemia obiecana” dla wszystkich pozycjonerów. Wszystkie frazy, które są pozycjonowane, mają za zadanie znaleźć się właśnie tam. Ale dlaczego tak jest? Wystarczy posłużyć się dwoma faktami, zachowaniem każdego z nas, ale również potwierdzonymi danymi m.in. posługując się książką o SEO, Marco Maltraversi’ego. Jest tam informacja o tym, że 85% użytkowników wyszukiwarek, patrzy tylko na pierwszą stronę wyników wyszukiwania, natomiast 78% użytkowników nie doskonali zapytań po pierwszym wyszukaniu. Z reguły jako ludzie mamy tendencję do tego, żeby przemieszczać się z jednej strony na drugą kierując się linkami, zamiast zajrzeć na następną stronę albo raz jeszcze wpisać zapytanie. Pierwsza strona w Google na większość zatłoczonych fraz objawia się bardzo podobnie. Na samej górze znajdują się płatne reklamy PPC takie jak AdWords i to one, nawet przy najlepszym pozycjonowaniu organicznym będą znajdować się najwyżej. Jednak na przestrzeni lat ludzie intuicyjnie coraz rzadziej w nie klikają, bo nauczyli się, że jakościowe treści znajdują się pod reklamami. To właśnie o te miejsca firmy toczą największe boje - to tutaj dochodzi do największego ruchu z wyszukiwarki do strony końcowej. Cała pierwsza strona wyszukiwań wyświetla 10 wyników organicznie dopasowanych do zapytania, jednak trzeba pamiętać o tym, że AdWordsy zabierają cenne miejsce. Miejmy więc dobry i przemyślany plan na SEO."
+title = "Jak wygląda pierwsza strona w wynikach wyszukiwania?"
+[[sections.poradnik_group]]
+if_svg = true
+ikona = "/uploads/group-195.svg"
+opis = "Aby zrozumieć, czym jest algorytm Google, przyjrzyjmy się najpierw, czym są właściwie algorytmy. Standardowa definicja, którą znajdziemy w książkach, czy Wikipedii określana jest jako zbiór reguł rozwiązywania problemu, w skończonej liczbie kroków. <br>W języku komputerów algorytm wyznacza komputerowi scenę do wykonania określonego zadania. Dla pewnego przykładu - komputer może zostać zaprogramowany tak, aby losowo wybierał liczbę od 1 do 100. Jest to zadanie, które ma ustalone punkty brzegowe - początkowy i końcowy. Zatem możemy zaliczyć to jako algorytm. <br>Innym sposobem postrzegania algorytmów jest myślenie o nim jako o równaniu matematycznym. Możesz zostać poproszony o policzenie wstecz o 3 od 100 do 82. Powiesz wtedy: „100, 97, 94,..., 82”. Na papierze możesz oczekiwać, że pokażesz w kolumnie, w jaki sposób osiągnąłeś każdą odpowiedź odejmując liczbę 3. Chociaż jest to uproszczone spojrzenie na algorytm, pomoże to w zrozumieniu bardziej złożonych wersji. Algorytmy Google kierują się tą samą podstawową definicją i regułą algorytmu, który opisaliśmy. Pomyśl o ostatnim swoim wyszukaniu Google. Niezależnie od tego, czy wpisałeś „filmy z uroczymi kotami”, czy „sklepy obuwnicze we Wrocławiu”, wyszukiwarka zwróciła setki wyników do wyboru. Tylko w jaki sposób Google zdecydował, które wyniki Ci pokazać i w jakiej kolejności? Algorytm. Google ma bardzo złożony algorytm wyświetlania wyników wyszukiwania i zmienia się stosunkowo często. Chociaż firma nie podaje dokładnego algorytmu do wiadomości publicznej, oto kilka elementów, o których wiemy, że mają wpływ na możliwość pojawienia się strony w wynikach wyszukiwania dla określonych słów kluczowych: Wygląd słowa kluczowego w tytule strony, tagach nagłówka i meta opisie Liczba naturalnie występujących, organicznych linków do strony Sposób działania witryny na urządzeniach mobilnych, takich jak smartfony i tablety Oczywiście to tylko niektóre cechy, które algorytm Google analizuje podczas określania sposobu dostarczania i pozycjonowania stron. Prawdopodobnie są dziesiątki, jeśli nie setki innych."
+title = "Algorytm Google"
+[[sections.poradnik_group]]
+ikona = "/uploads/group-191.svg"
+opis = ""
+title = "Wyszukiwarka i ruch organiczny"
 
 +++
