@@ -52,6 +52,7 @@ fields:
   - sekcja-o-nas-druzyna-pierscienia
   - sekcja-z-pytajnikiem
   - sekcja-oferta-z-kafelkami
+  - sekcja-pozycjonowanie-poradnik
   config:
     min: 
     max: 
