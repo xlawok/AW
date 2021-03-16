@@ -43,7 +43,7 @@ fields:
   - name: if_svg
     type: boolean
     label: Gdy svg wczytaj w html
-  - name: opis_-_kroki
+  - name: opis__kroki
     type: field_group_list
     fields:
     - name: tytul

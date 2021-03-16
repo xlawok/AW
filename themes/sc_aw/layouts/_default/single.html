@@ -51,6 +51,10 @@
     {{if eq .template "sekcja-oferta-z-kafelkami"}}
       {{- partial "oferta-z-kafelkami.html" . -}}
     {{end}}
+    {{if eq .template "sekcja-pozycjonowanie-poradnik"}}
+      {{- partial "pozycjonowanie-poradnik.html" . -}}
+    {{end}}
+    
   {{ end }}
   
 
