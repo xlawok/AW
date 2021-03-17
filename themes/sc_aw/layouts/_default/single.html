@@ -54,6 +54,9 @@
     {{if eq .template "sekcja-pozycjonowanie-poradnik"}}
       {{- partial "pozycjonowanie-poradnik.html" . -}}
     {{end}}
+    {{if eq .template "sekcja-cta-zamow-wycene"}}
+      {{- partial "sec-cta-get-modal.html" . -}}
+    {{end}}
     
   {{ end }}
   

@@ -76,6 +76,7 @@
         {{with .floating_box_group}}
         <div class='floating-box-cnt'>
             <div class='box-wrapper'>
+                <div class='box-scroller'>
                 {{ $header_list := (.naglowek_pierwszy.header_repeater) }}
   
                 {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "tutorial-sec-header")  -}}
@@ -88,8 +89,11 @@
                 <div class='float-box-desc-2'>
                     {{.opis_2 | safeHTML}}
                 </div>
+                <a data-modaltarget='modal1' class='open-modal-quote cta-button' href='#'>{{.tytul_odnosnika}}</a>
+                </div>
             </div>
         </div>
+            
         {{end}}
     </div>
    

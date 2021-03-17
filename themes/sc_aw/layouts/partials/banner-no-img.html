@@ -31,7 +31,7 @@
                             {{end}}
                         {{else}}
                             <a data-modaltarget='modal1' class='open-modal-quote cta-button' href='#'>{{$tytul_odnosnika}}</a>
-                            {{- partial "modal.html" (dict "modal_data" .otworz_modal "modal_name" "modal1")  -}}
+                            
                         {{ end }}
                     {{else}}
                         <span class='additional-ornaments'></span>
@@ -46,3 +46,7 @@
 
 
 </section>
+{{ with .otworz_modal}}
+{{- partial "modal.html" (dict "modal_data" . "modal_name" "modal1")  -}}
+
+{{end}}
