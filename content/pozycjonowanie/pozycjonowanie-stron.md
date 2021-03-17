@@ -196,6 +196,11 @@ txt_block = "SEO"
 txt_block_size = "L"
 underline = true
 [[sections]]
+if_background = true
+naglowek = "Chcesz poprawić swoją pozycję w sieci?"
+template = "sekcja-cta-zamow-wycene"
+tytul_odnosnika = "Zamów bezpłatną wycenę"
+[[sections]]
 kategoria_tytulu_dla_poradnika = "h3"
 obrazek_sekcji = "/uploads/group-85.svg"
 template = "sekcja-pozycjonowanie-poradnik"
@@ -290,5 +295,8 @@ title = "Ile mam czekać na wyniki?"
 [[sections.poradnik_group]]
 opis = "Zastanawiałeś się kiedyś, czemu dwie podobnie wyglądające strony mają wielkie rozbieżności w liczbie osób odwiedzających witrynę? W internecie takich przykładów jest mnóstwo. Uważamy, że odpowiedzią jest właśnie SEO. Często widzimy na przykładach stron, które prowadzą mniejsze firmy, że ruch jest większy niż na tych, których marka jest dużo bardziej rozpoznawalna. Dzieje się tak, ponieważ nawet będąc maluczcy, posiadając odpowiednią wiedzę i zasoby w kwestii marketingu internetowego i pozycjonowania, jesteśmy w stanie stać się w internecie hegemonem. Wizerunek w internecie, a ten w realnym świecie może od siebie mocno odbiegać. Dlatego pozycjonowanie otwiera nowe możliwości na rozwój rozpoznawalności marki i dotarcie do ogromnej rzeszy klientów, którzy nie kierują się popularnością marki, ale pozycji w internecie, czy doświadczeń z użytkowania domeny."
 title = "Efektywne pozycjonowanie strony to szansa"
+[[sections]]
+template = "sekcja-cta-zamow-wycene"
+tytul_odnosnika = "Zamów bezpłatną wycenę"
 
 +++
