@@ -1,0 +1,17 @@
+---
+label: Sekcja CTA zamów wycenę
+hide_body: true
+fields:
+- name: if_background
+  type: boolean
+  label: Czerwone tło
+- name: naglowek
+  type: text
+  config:
+    required: false
+  label: Nagłówek
+- name: tytul_odnosnika
+  type: text
+  config:
+    required: false
+  label: Tytuł odnośnika
