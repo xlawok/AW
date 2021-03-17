@@ -53,6 +53,7 @@ fields:
   - sekcja-z-pytajnikiem
   - sekcja-oferta-z-kafelkami
   - sekcja-pozycjonowanie-poradnik
+  - sekcja-cta-zamow-wycene
   config:
     min: 
     max: 
