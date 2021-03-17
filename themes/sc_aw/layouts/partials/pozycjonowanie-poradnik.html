@@ -30,7 +30,7 @@
         <ol class='tutorial-contant-wrapper'>
             {{range $index, $element:= . }}
             <li id="tut-desc-{{$index}}">
-                {{( printf "<%s class=''>" $kategoria_tytulu_dla_poradnika) | safeHTML}}
+                {{( printf "<%s class='ornament-l-r'>" $kategoria_tytulu_dla_poradnika) | safeHTML}}
                 {{$element.title}}
                 {{( printf "</%s>" $kategoria_tytulu_dla_poradnika) | safeHTML}}
 
