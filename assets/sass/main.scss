@@ -2507,6 +2507,93 @@ justify-content: center;
   }
 
 }
+.sc-tutorial{
+  .tutorial-content-cnt{
+    // display: grid;
+    // grid-template-columns: minmax(80%, max-content) minmax(0%, 20%);
+    // grid-template-columns: minmax(60%,max-content)minmax(0%,40%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    @media (min-width: 1200px){
+      flex-direction: row;
+    }
+    .tutorial-contant-wrapper{
+      width: 100%;
+      @media (min-width: 1200px){
+        width: calc(100% - 20vw);
+      }
+      @media (min-width: 1600px){
+        width: calc(100% - 20vw);
+      }
+    }
+    .floating-box-cnt{
+      width: 100%;
+      @media (min-width: 1200px){
+        width: 20vw;
+      }
+      @media (min-width: 1600px){
+        width: 20vw;
+      }
+    }
+    li{
+      font-weight: bold;
+      >*,>*>*{
+        font-weight: normal;
+      }
+      .row-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        @media (min-width: 992px){
+          flex-direction: row;
+        }
+      }
+      // list-style: none;
+      // &:before {
+      //   counter-increment: section;            /* Increments only this instance
+      //                                             of the section counter */
+      //   content: counters(section, ".") " "; 
+      // }
+      .tut-row-50{
+        width: 100%;
+        @media (min-width: 992px){
+          width: 50%;
+        }
+        img,svg{
+          max-width: 20rem;
+          max-height: 20rem;
+          margin: 0 auto;
+          @media (min-width: 992px){
+            max-width:unset;
+            max-height:unset;
+          }
+          width: 100%;
+          display: block;
+        }
+      }
+    }
+    .floating-box-cnt{
+      .box-wrapper{
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0rem 0.1875rem 1.25rem #00000029;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        @media (min-width: 1200px){
+          // transform: translateX(2.5vw);
+          width: (481/1920)*100vw;
+          position:sticky;
+          top: 2rem;
+          // right: 0;
+        }
+        @media (min-width: 1600px){
+          transform: translateX(5vw);
+        }
+      }
+     
+    }
+  }
+}
 .home{
   main{
     section:not(:first-child){

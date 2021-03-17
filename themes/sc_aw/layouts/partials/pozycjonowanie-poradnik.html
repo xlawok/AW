@@ -14,9 +14,9 @@
           <div class='tutorial-index-title'>{{.title_of_index}}</div>
           {{ with .poradnik_group}}
             <ol class='tutorial-index'>
-                {{range . }}
-                <li><a href='#'>
-                    {{.title}}
+                {{range $index , $element :=. }}
+                <li><a href='#tut-desc-{{$index}}'>
+                    {{$element.title}}
                 </a></li>
                 {{end}}
             </ol>
@@ -26,28 +26,32 @@
    
     <div class='tutorial-content-cnt'>
         {{ with .poradnik_group}}
+        
         <ol class='tutorial-contant-wrapper'>
-            {{range . }}
-            <li>
+            {{range $index, $element:= . }}
+            <li id="tut-desc-{{$index}}">
                 {{( printf "<%s class=''>" $kategoria_tytulu_dla_poradnika) | safeHTML}}
-                {{.title}}
+                {{$element.title}}
                 {{( printf "</%s>" $kategoria_tytulu_dla_poradnika) | safeHTML}}
 
-                {{if .ikona}}
-                    <div class='tut-row-50'>
-                        {{.opis  | safeHTML}}
-                    </div>
-                    <div class='tut-row-50'>
-                        {{if .if_svg}}
-                            {{ readFile .ikona | safeHTML }}
-                        {{else }}
-                            {{- partial "img.html" (dict "image" .ikona "imgsizes" "" "ifsrcset" "nosrcset")  -}}
-                        {{end}}
+                {{if $element.ikona}}
+                    <div class='row-wrapper'>
+                  
+                        <div class='tut-row-50'>
+                            {{$element.opis  | safeHTML}}
+                        </div>
+                        <div class='tut-row-50'>
+                            {{if $element.if_svg}}
+                                {{ readFile $element.ikona | safeHTML }}
+                            {{else }}
+                                {{- partial "img.html" (dict "image" $element.ikona "imgsizes" "" "ifsrcset" "nosrcset")  -}}
+                            {{end}}
+                        </div>
                     </div>
                 {{else}}
                     <div class='tut-row-100'>
-                        {{.opis  | safeHTML}}
-                        {{ with .opis__kroki}}
+                        {{$element.opis  | safeHTML}}
+                        {{ with $element.opis__kroki}}
                         <ul class='tutorial-steps'>
                             {{range .}}
                             <li>
@@ -66,6 +70,24 @@
             </li>
             {{end}}
         </ol>
+        {{end}}
+        {{with .floating_box_group}}
+        <div class='floating-box-cnt'>
+            <div class='box-wrapper'>
+                {{ $header_list := (.naglowek_pierwszy.header_repeater) }}
+  
+                {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "tutorial-sec-header")  -}}
+                <div class='float-box-desc-1'>
+                    {{.opis_1 | safeHTML}}
+                </div>
+                {{ $header_list := (.naglowek_drugi.header_repeater) }}
+  
+                {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "tutorial-sec-header")  -}}
+                <div class='float-box-desc-2'>
+                    {{.opis_2 | safeHTML}}
+                </div>
+            </div>
+        </div>
         {{end}}
     </div>
    
