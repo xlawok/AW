@@ -12,14 +12,6 @@ sections:
   templates:
   - sekcje
 - type: directory
-  path: content/pozycjonowanie
-  label: Pozycjonowanie
-  create: all
-  match: "/*"
-  new_doc_ext: md
-  templates:
-  - sekcje
-- type: directory
   path: content/blog
   label: Blog
   create: all
