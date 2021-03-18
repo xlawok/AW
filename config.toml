@@ -13,15 +13,18 @@ url = "#"
 weight = 1
 [params]
 description = "Welcome to my website"
+email_header = "kontakt@agencjawroclawska.pl"
 favico = ""
+header_adres_email = "kontakt@agencjawroclawska.pl"
+header_numer_telefonu = "666 666 666"
+header_numer_telefonu_link = "+48666666666"
 landscapePhotoWidths = [3400, 2560, 1920, 1600, 1366, 1200, 992, 786, 560]
 logo = "/uploads/banner_w_tiles.jpg"
 metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
 paginatedsections = ["posts"]
+phone_header = "666 666 666"
+phone_header_url = "+48666666666"
 portraitPhotoWidths = [1500, 1000, 750, 500]
-phone_header="666 666 666"
-phone_header_url="+48666666666"
-email_header="kontakt@agencjawroclawska.pl"
 [permalinks]
 "/" = "/:slug/"
 categories = "/kategoria/:slug/"
