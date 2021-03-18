@@ -2,47 +2,44 @@ baseURL = "/"
 canonifyURLs = true
 description = "Hugo port of the Themefisher’s Kross Template"
 enableRobotsTXT = true
+landscapePhotoWidths = [2500, 1500, 1000]
 languageCode = "pl-PL"
+portraitPhotoWidths = [1500, 1000, 750]
 theme = "sc_aw"
 title = "Agencja Wrocławska"
-landscapePhotoWidths = [2500, 1500, 1000]
-portraitPhotoWidths = [1500, 1000, 750]
 [[menu.main]]
-identifier = "about"
-name = "about hugo"
-pre = "<i class='fa fa-heart'></i>"
-url = "/about/"
-weight = -110
+name = "Pozycjonowanie"
+url = "#"
+weight = 1
 [params]
 description = "Welcome to my website"
 favico = ""
+landscapePhotoWidths = [3400, 2560, 1920, 1600, 1366, 1200, 992, 786, 560]
 logo = "/uploads/banner_w_tiles.jpg"
 metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
 paginatedsections = ["posts"]
-landscapePhotoWidths = [3400, 2560, 1920, 1600, 1366, 1200, 992, 786, 560]
 portraitPhotoWidths = [1500, 1000, 750, 500]
+[permalinks]
+"/" = "/:slug/"
+categories = "/kategoria/:slug/"
+page = "/:slug/"
+posts = "/:slug/"
+tags = "/tag/:slug/"
+[related]
+includeNewer = true
+threshold = 80
+toLower = false
+[[related.indices]]
+name = "categories"
+weight = 100
+[[related.indices]]
+name = "letters"
+weight = 100
 [sitemap]
 changefreq = "monthly"
 filename = "sitemap.xml"
 priority = 0.5
-[permalinks]
-"/" = "/:slug/"
-posts = "/:slug/"
-page = "/:slug/"
-tags = "/tag/:slug/"
-categories = "/kategoria/:slug/"
 [taxonomies]
-  category = "categories"
-  tag = "tags"
-  letter = "letters"
-[related]
-  includeNewer = true
-  threshold = 80
-  toLower = false
-
-  [[related.indices]]
-    name = "categories"
-    weight = 100
-  [[related.indices]]
-    name = "letters"
-    weight = 100
+category = "categories"
+letter = "letters"
+tag = "tags"

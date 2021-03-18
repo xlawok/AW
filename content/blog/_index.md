@@ -1,8 +1,10 @@
 +++
-title = "AKTUALNOŚCI"
-date = 2020-08-26T06:05:24-04:00
-draft = false
+date = 2020-08-26T10:05:24Z
 slug = "/blog"
+title = "AKTUALNOŚCI"
+[menu.main]
+name = "Blog"
+weight = 3
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
@@ -21,5 +23,6 @@ ornament = "brak"
 txt_block = "może byc dwuliniowy lub jednoliniowy"
 txt_block_size = "XL"
 underline = false
+
 +++
 This is content/blog/_index.md

@@ -4,6 +4,9 @@ keywords = ""
 robots = ""
 slug = "pozycjonowanie-stron"
 title = "Pozycjonowanie stron"
+[menu.main]
+parent = "Pozycjonowanie"
+weight = 1
 [[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_right = ""
