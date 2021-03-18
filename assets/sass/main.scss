@@ -364,7 +364,200 @@ $unchecked-color: red;
     }
   }
 }
+header{
+  
+  height: 7.625rem;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 30px #00000029;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  .logo-cnt {
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img{
+      width: 100%;
+      display: block;
+      height: auto;
+    }
+  }
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .upper-row {
+    position: relative;
+    padding: 0 1rem;
+    margin: .5rem 0;
+    .darmkode-input {
+      position: absolute;
+      right: -3rem;
+      top: 0;
+    }
+    .tel-link{
+      position: relative;
+      padding: 0 2rem;
+      font-size: 0.875rem;
+      color: var(--red);
+      &:before{
+        content: '';
+        position: absolute;
+        left: .75rem;
+        width: 1em;
+        height: 1em;
+        background-repeat: no-repeat;
+        bottom: 0;
+        background-position: center;
+        background-size: contain;
+        background-image: url(/img/Icon-phone-red.svg);
+      }
+    }
+    .mail-link{
+      position: relative;
+      padding: 0 2rem;
+      font-size: 0.875rem;
+      color: var(--red);
+      &:before{
+        content: '';
+        position: absolute;
+        left: .75rem;
+        width: 1em;
+        height: 1em;
+        background-repeat: no-repeat;
+        background-size: contain;
+        bottom: 0;
+        background-image: url(/img/Icon-mail-red.svg);
+      }
+    }
+  }
+  .below-row{
+    ul{
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+      display: flex;
+      li{
+        a{
+          font-size: 1.125rem;
+          position: relative;
+          display: block;
+          width: max-content;
+        }
+        &.active,&:hover{
+          &:not(:last-child){
+            >a{
+              color: var(--red);
+              &:before{
+                content: '';
+                display: block;
+                position: absolute;
+                bottom: -0.25rem;
+                left: 0;
+                width: 100%;
+                border-bottom: 0.0625rem solid #FCDB01;
+              }
+            }
+          }
+      
+        }
+      }
+    }
+    >ul{
+      flex-direction: column;
+      @media (min-width: 1200px){
+        flex-direction: row;
+      }
+      >li{
+        padding: 1rem 1rem 1.25rem 1rem;
+      }
+      >li:last-child{
 
+        a{
+          transform: translateY(-0.25rem);
+          background: #F63D37 0% 0% no-repeat padding-box;
+          border-radius: 8px;
+          font-weight: bold;
+          color: var(--white);
+          font-size: 1.25rem;
+          padding-left: 3rem;
+          padding-right: 3rem;
+        }
+      
+      }
+    }
+    .parent{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      .sub-menu{
+        position: absolute;
+        border-radius:  0rem 0rem 0.5rem 0.5rem;
+        display: none;
+        flex-direction: column;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0rem 0.375rem 0.625rem #00000029;
+        top: 99%;
+        // z-index: -1;
+        padding: 3rem 2rem 2rem 2rem;
+        left: -1rem;
+        transition: top .2s ease;
+        li:not(:last-child){
+          margin-bottom: 1rem;
+        }
+        a{
+          transition: transform .2s ease;
+          &:hover{
+            transform: translateX(1rem);
+            &:before{
+              content: '';
+              display: block;
+              position: absolute;
+              bottom: 50%;
+              left: -1rem;
+              width: .5rem;
+              border-bottom: 0.0625rem solid #FCDB01;
+            }
+          }
+        }
+        li{
+          &.active{
+            a{
+              transform: translateX(1rem);
+              &:before{
+                content: '';
+                display: block;
+                position: absolute;
+                bottom: 50%;
+                left: -1rem;
+                width: .5rem;
+                border-bottom: 0.0625rem solid #FCDB01;
+              }
+            }
+           
+          }
+        }
+      }
+      &:hover{
+        .sub-menu{
+          display: flex;
+        }
+      }
+    }
+  }
+  
+}
+main{
+  margin-top: 7.625rem;
+
+}
 //end checkbox
 // FORm
 #contactform{
@@ -2802,7 +2995,7 @@ justify-content: center;
           // transform: translateX(2.5vw);
           width: (481/1920)*100vw;
           position:sticky;
-          top: 2rem;
+          top: 8rem;
           // right: 0;
         }
         @media (min-width: 1600px){

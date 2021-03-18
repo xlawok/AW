@@ -1,5 +1,10 @@
 <header class='sec-padding'>
-    <div class='logo-cnt'>logos</div>
+    <div class='logo-cnt'>
+        <a href='{{.Site.BaseURL}}'>
+            <img class='for-white-ver' src='{{.Site.Params.logo}}'>
+            <img class='for-dark-ver' src='{{.Site.Params.logo_dark_mode}}'>
+        </a>
+    </div>
     <div class='right-side'>
         <div class='upper-row'>
             <a class='tel-link' href="tel:{{.Site.Params.header_numer_telefonu_link}}">
@@ -14,24 +19,25 @@
                 <label for='darkmode'></label>
             </div>
         </div>
-        <div class='below-row'>
+        <nav class='below-row'>
             <ul>
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
                     {{ if .HasChildren }}
-                        <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+                        <li class="parent {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
                             <a href="#">
                                 {{ .Pre }}
                                 <span>{{ .Name }}</span>
                             </a>
+                            <ul class="sub-menu">
+                                {{ range .Children }}
+                                    <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                                        <a href="{{ .URL }}">{{ .Name }}</a>
+                                    </li>
+                                {{ end }}
+                            </ul>
                         </li>
-                        <ul class="sub-menu">
-                            {{ range .Children }}
-                                <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                                    <a href="{{ .URL }}">{{ .Name }}</a>
-                                </li>
-                            {{ end }}
-                        </ul>
+                        
                     {{ else }}
                         <li>
                             <a href="{{ .URL }}">
@@ -48,7 +54,7 @@
                     <a href="#" target="_blank">Hardcoded Link 2</a>
                 </li> -->
             </ul>
-        </div>
+        </nav>
     </div>
 
 </header>

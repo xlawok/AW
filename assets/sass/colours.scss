@@ -33,29 +33,33 @@ body{
             // opacity: 0.5;
         }
     }
-    &:not(.dark-m)
-     .sc-banner-wide{
-        background: transparent linear-gradient(0deg, #000000 0%, #FF0800 100%) 0% 0% no-repeat padding-box;
-        z-index: 0;
-        &~section{
-            position: relative;
-            z-index: 1;
+    &:not(.dark-m){
+        .for-dark-ver{
+            display: none;
         }
-        .banner-wide-content{
-            &:after{
-                background: #F2F2F2 0% 0% no-repeat padding-box;
+        .sc-banner-wide{
+            background: transparent linear-gradient(0deg, #000000 0%, #FF0800 100%) 0% 0% no-repeat padding-box;
+            z-index: 0;
+            &~section{
+                position: relative;
+                z-index: 1;
             }
-            .banner-right-col{
-                background: #FFFFFF 0% 0% no-repeat padding-box;
-                box-shadow: 0rem 0.1875rem 1.25rem #00000029;
-                .form-header{
-                    color: var(--main-dark-color);
+            .banner-wide-content{
+                &:after{
+                    background: #F2F2F2 0% 0% no-repeat padding-box;
                 }
-                #contactform{
-
-                    .form-radio label {
-                        
+                .banner-right-col{
+                    background: #FFFFFF 0% 0% no-repeat padding-box;
+                    box-shadow: 0rem 0.1875rem 1.25rem #00000029;
+                    .form-header{
                         color: var(--main-dark-color);
+                    }
+                    #contactform{
+
+                        .form-radio label {
+                            
+                            color: var(--main-dark-color);
+                        }
                     }
                 }
             }
@@ -144,6 +148,34 @@ body{
         // .ornament-r-b:before{
         //     display: none;
         // }
+        header{
+            background: var(--main-dark-color);
+            .for-white-ver{
+                display: none;
+            }
+            .tel-link{
+               
+                color: var(--white);
+                &:before{
+               
+                  background-image: url(/img/Icon-phone-white.svg);
+                }
+              }
+              .mail-link{
+               
+                color: var(--white);
+                &:before{
+                 
+                  background-image: url(/img/Icon-mail-white.svg);
+                }
+              }
+              .sub-menu{
+                  a{
+                      color: var(--main-dark-color);
+                  }
+              }
+        }
+        
         .sc-banner-wide{
             .banner-wide-content{
                 &:after{
