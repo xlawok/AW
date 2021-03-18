@@ -22,8 +22,6 @@ landscapePhotoWidths = [3400, 2560, 1920, 1600, 1366, 1200, 992, 786, 560]
 logo = "/uploads/banner_w_tiles.jpg"
 metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
 paginatedsections = ["posts"]
-phone_header = "666 666 666"
-phone_header_url = "+48666666666"
 portraitPhotoWidths = [1500, 1000, 750, 500]
 [permalinks]
 "/" = "/:slug/"

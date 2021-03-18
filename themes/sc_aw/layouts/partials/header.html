@@ -1,8 +1,13 @@
-<header>
+<header class='sec-padding'>
     <div class='logo-cnt'>logos</div>
     <div class='right-side'>
         <div class='upper-row'>
-            tel i email
+            <a class='tel-link' href="tel:{{.Site.Params.header_numer_telefonu_link}}">
+                {{.Site.Params.header_numer_telefonu}}
+            </a>
+            <a class='mail-link' href="mailto:{{.Site.Params.header_adres_email}}">
+                {{.Site.Params.header_adres_email}}
+            </a>
             <div class='darmkode-input'>
     
                 <input id='darkmode' type="checkbox" name='darkmode' value="true">
