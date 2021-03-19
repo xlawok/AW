@@ -88,7 +88,6 @@ kolumna_1 = "Rozwiązania dedykowane"
 kolumna_2 = "cena ustalana indywidualnie"
 kolumna_3 = "na czas nieokreślony"
 [[sections]]
-pozycje_pakietu = []
 template = "sekcja-porownanie-pakietow"
 tytul_guzika_cta = ""
 [[sections.header_repeater]]
@@ -130,5 +129,11 @@ naglowek_wyrozniajacy = ""
 nazwa_pakiet = "Pakiet"
 przypisz_pozycje_pakietu = "premium"
 title = "PREMIUM"
+[[sections.pozycje_pakietu]]
+nazwa_pozycji_pakietu = "Pozycjonowanie kilku do kilkunastu fraz"
+wybierz_pakiety = ["premium", "optiumum", "basic"]
+[[sections.pozycje_pakietu]]
+nazwa_pozycji_pakietu = "Promocja w Mapach Google"
+wybierz_pakiety = ["premium", "optiumum"]
 
 +++
