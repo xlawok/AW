@@ -56,6 +56,7 @@ fields:
   - sekcja-cta-zamow-wycene
   - sekcja-cennik-tabela
   - sekcja-porownanie-pakietow
+  - sekcja-galeria-logosow
   config:
     min: 
     max: 
