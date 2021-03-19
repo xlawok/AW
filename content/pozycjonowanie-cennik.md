@@ -138,5 +138,26 @@ wybierz_pakiety = ["premium", "optiumum"]
 [[sections.pozycje_pakietu]]
 nazwa_pozycji_pakietu = "Content Marketing"
 wybierz_pakiety = ["premium"]
+[[sections]]
+logosy_marek = ["/uploads/senuto-web.png", "/uploads/ahrefs-web.png", "/uploads/screamingfrog-web.png", "/uploads/gtm-web.png", "/uploads/lrt-web.png", "/uploads/gsc-web.png"]
+template = "sekcja-galeria-logosow"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "Używamy narzędzi najlepiej dopasowanych"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "do potrzeb wymagających marek"
+txt_block_size = "XL"
+underline = false
 
 +++
