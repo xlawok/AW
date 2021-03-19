@@ -135,5 +135,8 @@ wybierz_pakiety = ["premium", "optiumum", "basic"]
 [[sections.pozycje_pakietu]]
 nazwa_pozycji_pakietu = "Promocja w Mapach Google"
 wybierz_pakiety = ["premium", "optiumum"]
+[[sections.pozycje_pakietu]]
+nazwa_pozycji_pakietu = "Content Marketing"
+wybierz_pakiety = ["premium"]
 
 +++
