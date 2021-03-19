@@ -63,6 +63,9 @@
     {{if eq .template "sekcja-porownanie-pakietow"}}
       {{- partial "porownanie-pakietow.html" . -}}
     {{end}}
+    {{if eq .template "sekcja-galeria-logosow"}}
+      {{- partial "galeria-logosow.html" . -}}
+    {{end}}
     
   {{ end }}
   

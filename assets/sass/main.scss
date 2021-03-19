@@ -2687,7 +2687,7 @@ justify-content: center;
         z-index: 1;
         
       }
-      
+     
       
       @media (min-width: 560px){
         width: 48%;
@@ -3381,6 +3381,29 @@ justify-content: center;
             }
           }
         }
+      }
+    }
+  }
+}
+.sc-logos{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  .tools-logos {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 12fr;
+    @media (min-width: 560px){
+      grid-template-columns: repeat(2, 6fr);
+    }
+    @media (min-width: 768px){
+      grid-template-columns: repeat(3, 4fr);
+    }
+    padding: 2rem 5vw;
+    gap: 2rem;
+    li{
+      max-width: 18rem;
+      img{
+        width: 100%;
       }
     }
   }

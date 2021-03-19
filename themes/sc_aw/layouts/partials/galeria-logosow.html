@@ -1,0 +1,17 @@
+<section class='sec-padding sc-logos'>
+    
+   
+    {{ $header_list := (.header_repeater) }}
+
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "tutorial-sec-header")  -}}
+    {{with .logosy_marek}}
+    <ul class="tools-logos">
+        {{range .}}
+            <li>
+                {{- partial "img.html" (dict "image" . "imgsizes" "" "tag_class" "col-logos" "ifsrcset" "nosrcset")  -}}
+            </li>
+        {{end}}
+    </ul>
+    {{end}}
+
+</section>
