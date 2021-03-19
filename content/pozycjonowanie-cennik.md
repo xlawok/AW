@@ -87,5 +87,48 @@ kolumna_3 = "na czas nieokreślony"
 kolumna_1 = "Rozwiązania dedykowane"
 kolumna_2 = "cena ustalana indywidualnie"
 kolumna_3 = "na czas nieokreślony"
+[[sections]]
+pozycje_pakietu = []
+template = "sekcja-porownanie-pakietow"
+tytul_guzika_cta = ""
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "OFEROWANE"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "pakiety"
+txt_block_size = "XL"
+underline = false
+[[sections.informacje_o_pakietach]]
+komu_polecany = "Polecany dla mikro i małych firm"
+kwota_od = "999 zł/msc"
+naglowek_wyrozniajacy = ""
+nazwa_pakiet = "Pakiet"
+przypisz_pozycje_pakietu = "basic"
+title = "BASIC"
+[[sections.informacje_o_pakietach]]
+komu_polecany = "Polecany dla małych i średnich firm"
+kwota_od = "1699 zł/msc"
+naglowek_wyrozniajacy = "Najczęściej wybierany"
+nazwa_pakiet = "Pakiet"
+przypisz_pozycje_pakietu = "optiumum"
+title = "OPTIUM"
+[[sections.informacje_o_pakietach]]
+komu_polecany = "Polecany dla średnich i dużych firm"
+kwota_od = "2 999 zł/msc"
+naglowek_wyrozniajacy = ""
+nazwa_pakiet = "Pakiet"
+przypisz_pozycje_pakietu = "premium"
+title = "PREMIUM"
 
 +++
