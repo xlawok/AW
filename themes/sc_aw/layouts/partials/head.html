@@ -14,12 +14,16 @@
     
     {{ $style := resources.Get "/sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
+    
     {{ $lazyJs := resources.Get "js/lazysizes.min.js"  }}
    
     <script  type="text/javascript" src="{{ $lazyJs.Permalink }}" defer></script>
     {{ $mainJs := resources.Get "js/main.js"  }}
    
-    <script  type="text/javascript" src="{{ $mainJs.Permalink }}" defer></script>
+    <!-- <script  type="text/javascript" src="{{ $mainJs.Permalink }}" defer></script>
+    {{ $glideJs := resources.Get "js/glide.min.js"  }} -->
+   
+    <script  type="text/javascript" src="{{ $glideJs.Permalink }}" defer></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,700;0,900;1,700;1,900&display=swap" rel="stylesheet"> 
 </head>

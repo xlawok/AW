@@ -1,0 +1,272 @@
+<section class='sec-padding sc-compare'>
+    
+   
+        {{ $header_list := (.header_repeater) }}
+  
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "tutorial-sec-header")  -}}
+       
+ 
+      
+     
+   {{$pozycje_pakietu :=.pozycje_pakietu}}
+   <a id='to-left' href="#"></a>
+   <a id='to-right' href="#"></a>
+    <div class='compare-content-cnt '>
+       
+        <div id='compare-content-table'>
+       {{range .informacje_o_pakietach}}
+            {{$przypisz_pozycje_pakietu :=.przypisz_pozycje_pakietu}}
+            {{$tytul_pakietu :=.title}}
+            {{with .naglowek_wyrozniajacy}}
+            <div class='package-col middle '>
+                <div class='enco'>
+                    {{.}}
+                </div>
+            {{else}}
+            <div class='package-col no-enco '>
+             
+            {{end}}
+       
+
+
+            <div class='pack-label'>
+                {{.nazwa_pakiet}}
+            </div>
+            <div class='pack-title'>
+                {{$tytul_pakietu}}
+            </div>
+            <div class='pack-begining-label'>od</div>
+            <div class='pack-begining-price'>{{.kwota_od}}</div>
+            <div class='pack-recom'>{{.komu_polecany}}</div>
+            <ul class='pack-list'>
+            {{range $pozycje_pakietu}}
+                <li class="{{if not (in .wybierz_pakiety $przypisz_pozycje_pakietu)}} not-applicable {{end}}">
+                    
+                    {{if not (in .wybierz_pakiety $przypisz_pozycje_pakietu)}} 
+                        <span class='for-readers'>
+                            Pakiet {{$tytul_pakietu}} nie obejmuje </span> {{.nazwa_pozycji_pakietu}}
+                       
+                    {{else}}
+                        <span class='for-readers'>
+                            Pakiet {{$tytul_pakietu}} obejmuje </span> {{.nazwa_pozycji_pakietu}}
+                        
+                    {{end}}
+                        </li>
+            {{end}}
+            </ul>
+            <a data-modaltarget='modal1' class='open-modal-quote cta-button' href='#'>
+                {{with .tytul_guzika_cta}}
+                {{.}}
+                {{else }}
+                Poproś o wycenę
+                {{end}}
+            </a>
+        </div>
+       {{end}}
+        </div>
+  
+    </div>
+   
+</section>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var table_cnt = document.querySelector('.compare-content-cnt');
+        if(table_cnt){
+            var times_to_left=0;
+            var my_window=window.innerWidth;
+            var my_table=document.querySelector('#compare-content-table');
+            var cnt= table_cnt.offsetWidth;
+            var move_me_left;
+            count_columns=document.querySelectorAll('.package-col').length;
+                table_size=cnt;
+                // col_size=table_size / count_columns;
+                col_size = 32 + document.querySelector('.package-col').offsetWidth;
+                if(my_window<1200){
+                    // col_size=(my_window / count_columns );//wielkosc okna / ilosc kolumn - 1 dla zwiększenia wielkosci kolumny
+                    table_size=(col_size * count_columns );//na podstawioe powyzszego liczona wielkosc tabeli
+                }
+                if(my_window<768){
+                    // col_size=(my_window / count_columns);
+                    col_size=cnt;
+                    table_size=(col_size * count_columns );
+                }
+                if(my_window<560){
+                    // col_size=cnt;
+                    table_size=(col_size * count_columns );
+                }
+                // console.log('col_size: '+ col_size);
+                // console.log('table_size: '+ table_size);
+                // console.log('cnt: '+ cnt);
+                // my_table.style.width=table_size;
+                var to_swipe=Math.floor(((table_size - cnt) / col_size));
+                // console.log('to_swipe: '+ to_swipe);
+                window.addEventListener('resize',function(){
+                    my_table.style.right="0px";
+                     times_to_left=0;
+                     my_window=window.innerWidth;
+                     my_table=document.querySelector('#compare-content-table');
+                     cnt= table_cnt.offsetWidth;
+                     col_size = 32 + document.querySelector('.package-col').offsetWidth;
+                    if(my_window<1200){
+                        // col_size=(my_window / count_columns );//wielkosc okna / ilosc kolumn - 1 dla zwiększenia wielkosci kolumny
+                        table_size=(col_size * count_columns );//na podstawioe powyzszego liczona wielkosc tabeli
+                    }
+                    if(my_window<768){
+                        // col_size=(my_window / count_columns);
+                        col_size=cnt;
+                        table_size=(col_size * count_columns );
+                    }
+                    if(my_window<560){
+                        // col_size=cnt;
+                        table_size=(col_size * count_columns );
+                    }
+                    to_swipe=Math.floor(((table_size - cnt) / col_size));
+                });
+
+            
+                
+                console.log(to_swipe);
+
+                document.querySelector('#to-left').addEventListener('click',function(e){
+                    e.preventDefault();
+                    // console.log('times_to_left' + times_to_left)
+                    if(times_to_left<to_swipe&&my_window<1200){
+                        times_to_left++;
+                        if(times_to_left==to_swipe){
+                            move_me_left=(table_size - cnt + 5);
+                        }
+                        else  move_me_left=(col_size * times_to_left);
+                        my_table.style.right= move_me_left + "px";
+                        
+                    }
+
+                });
+
+                document.querySelector('#to-right').addEventListener('click',function(e){
+                    e.preventDefault();
+                    // console.log('times_to_left' + times_to_left)
+                    if(times_to_left>0&&my_window<1200){
+                        times_to_left=times_to_left-1;
+                        // if(times_to_left<=to_swipe){
+                            if(times_to_left==0){
+                                move_me_left=0;
+                            }
+                            else  move_me_left=(col_size * times_to_left);
+                            // $(my_table).css({"right": move_me_left + "px"});
+                            my_table.style.right= move_me_left + "px";
+                        // }
+                    }
+
+
+                });
+
+                (function() {
+                    var min_horizontal_move = 30;
+                    var max_vertical_move = 30;
+                    var within_ms = 1000;
+                
+                    var start_xPos;
+                    var start_yPos;
+                    var start_time;
+                    function touch_start(event) {
+                        start_xPos = event.touches[0].pageX;
+                        start_yPos = event.touches[0].pageY;
+                        start_time = new Date();
+                    }
+                
+                
+                    function touch_end(event) {
+                        var end_xPos = event.changedTouches[0].pageX;
+                        var end_yPos = event.changedTouches[0].pageY;
+                        var end_time = new Date();
+                        let move_x = end_xPos - start_xPos;
+                        let move_y = end_yPos - start_yPos;
+                        let elapsed_time = end_time - start_time;
+                        if (Math.abs(move_x) > min_horizontal_move && Math.abs(move_y) < max_vertical_move && elapsed_time < within_ms) {
+                            if (move_x < 0) {
+                                //alert("left");
+                                if(times_to_left<to_swipe&&my_window<1200){
+                                    times_to_left++;
+                                    if(times_to_left==to_swipe){
+                                        move_me_left=(table_size - cnt + 5);
+                                    }
+                                    else  move_me_left=(col_size * times_to_left);
+                                    my_table.style.right= move_me_left + "px";
+                                    
+                                }
+                            } else {
+                                if(times_to_left>0&&my_window<1200){
+                                    times_to_left=times_to_left-1;
+                                // if(times_to_left<=to_swipe){
+                                    if(times_to_left==0){
+                                        move_me_left=0;
+                                    }
+                                    else  move_me_left=(col_size * times_to_left);
+                                    // $(my_table).css({"right": move_me_left + "px"});
+                                    my_table.style.right= move_me_left + "px";
+                                
+                                }
+                            }
+                        }
+                    }
+                
+                    var content = document.getElementById("compare-content-table");
+                    
+                    if(content){
+                        content.addEventListener('touchstart', touch_start);
+                        content.addEventListener('touchend', touch_end);
+                    }
+
+                
+                })();
+            
+            
+        }
+//     // Return `{ perView: 1 }` with assumptions
+// // that width of the window is <=600px.
+
+// var glide = new Glide('.glide', {
+//   perView: 3,
+//   bound: true,
+// //   gap: 20,
+// //   type: 'carousel',
+//   breakpoints: {
+//     1200: {
+//       perView: 2,
+//       bound: true,
+//     },
+//     767: {
+//       perView: 1
+//     }
+//   }
+// })
+
+// glide.mount()
+// var windowSize = window.innerWidth;
+//     // if (windowSize > 1200) {
+//     //     glide.disable();
+//     // } else {
+//     //     glide.enable();
+//     // }
+
+//     function resizeFunction() {
+//         glide.update({
+//             startAt: 0,
+            
+
+//         });
+//         glide.disable();
+//         glide.enable();
+//         // var windowSize = window.innerWidth;
+//         // if (windowSize > 1200) {
+//         //     glide.disable();
+//         // } else {
+//         //     glide.enable();
+//         // }
+//     };
+
+//     window.addEventListener("resize", resizeFunction);
+    });
+  </script>

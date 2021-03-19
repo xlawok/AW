@@ -60,6 +60,10 @@
     {{if eq .template "sekcja-cennik-tabela"}}
       {{- partial "cennik-tabela.html" . -}}
     {{end}}
+    {{if eq .template "sekcja-porownanie-pakietow"}}
+      {{- partial "porownanie-pakietow.html" . -}}
+    {{end}}
+    
   {{ end }}
   
 
