@@ -55,6 +55,7 @@ fields:
   - sekcja-pozycjonowanie-poradnik
   - sekcja-cta-zamow-wycene
   - sekcja-cennik-tabela
+  - sekcja-porownanie-pakietow
   config:
     min: 
     max: 
