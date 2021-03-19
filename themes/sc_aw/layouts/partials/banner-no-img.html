@@ -41,7 +41,15 @@
        
             </div>
         {{end}}
-     
+        {{$naglowek_formularza_no_img :=.naglowek_formularza_no_img}}
+        {{with .banner_form_html_no_img}}
+        <div class='banner-right-col'>
+            <div class='form-header'>
+                {{$naglowek_formularza_no_img}}
+            </div>
+            {{ . | safeHTML}}    
+        </div>
+        {{end}}
     </div>
 
 

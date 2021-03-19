@@ -57,7 +57,9 @@
     {{if eq .template "sekcja-cta-zamow-wycene"}}
       {{- partial "sec-cta-get-modal.html" . -}}
     {{end}}
-    
+    {{if eq .template "sekcja-cennik-tabela"}}
+      {{- partial "cennik-tabela.html" . -}}
+    {{end}}
   {{ end }}
   
 

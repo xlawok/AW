@@ -2,7 +2,7 @@
 description = "Cennik usług pozycjonowania SEO i SEM"
 keywords = ""
 robots = ""
-slug = "pozycjonowanie-cennik"
+slug = "cennik-pozycjonowanie"
 title = "Pozycjonowanie cennik"
 [[sections]]
 banner_bg_for_center_left = ""

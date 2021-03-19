@@ -64,6 +64,38 @@ body{
                 }
             }
         }
+        .sc-banner-center-noimg{
+            .banner-right-col{
+                background: var(--red) 0% 0% no-repeat padding-box;
+                box-shadow: 0px 3px 20px #00000029;
+                .form-header{
+                    color: var(--white);
+                }
+                #contactform{
+                    button[type=submit]{
+                        
+                        background-color: var(--white);
+                        color: var(--main-dark-color);
+                        opacity: 1;
+                        &:hover{
+                            background-color: var(--yellow);
+                        }
+                    }
+                    input:not([type=submit]){
+                        
+                        background-color: var(--white);
+                        opacity: 1;
+                    }
+                    .form-radio label {
+                        
+                        color: var(--white);
+                    }
+                    .rodo label{
+                        color: var(--white);
+                    }
+                }
+            }
+        }
     }
     &:not(.dark-m){
         .sc-banner-center-img{

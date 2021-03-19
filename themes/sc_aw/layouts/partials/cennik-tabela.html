@@ -1,0 +1,56 @@
+<section class='sec-padding sc-price-table'>
+    
+   
+        {{ $header_list := (.header_repeater) }}
+  
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "tutorial-sec-header")  -}}
+       
+
+      
+     
+   
+    <div class='table-content-cnt'>
+        <div class='table-wrapper'>
+            {{with .glowka_tabeli}}
+            <div class='table-heading'>
+                {{with .kolumna_1}}
+                    <div class='tb-col txt-L f-w700'>
+                        {{.}}
+                    </div>
+                {{ end}}
+                {{with .kolumna_2}}
+                    <div class='tb-col txt-L f-w700'>
+                        {{.}}
+                    </div>
+                {{ end}}
+                {{with .kolumna_3}}
+                    <div class='tb-col txt-L f-w700'>
+                        {{.}}
+                    </div>
+                {{ end}}
+            </div>
+            {{end}}
+            {{range .wiersze_tabela}}
+                <div class='table-row'>
+                    {{with .kolumna_1}}
+                        <div class='tb-col'>
+                            {{.}}
+                        </div>
+                    {{ end}}
+                    {{with .kolumna_2}}
+                        <div class='tb-col'>
+                            {{.}}
+                        </div>
+                    {{ end}}
+                    {{with .kolumna_3}}
+                        <div class='tb-col'>
+                            {{.}}
+                        </div>
+                    {{ end}}
+                </div>
+            {{end}}
+        </div>
+        
+    </div>
+   
+</section>
