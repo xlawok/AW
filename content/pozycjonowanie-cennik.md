@@ -183,6 +183,7 @@ underline = false
 [[sections.kafelki]]
 if_anchor = true
 ikona = "/uploads/group-19.svg"
+odnosnik = ""
 title = "strony"
 [[sections.kafelki.header_repeater]]
 block_tag_type = "h3"
@@ -192,15 +193,18 @@ color_txt = "czarny"
 ornament = "brak"
 txt_block = "Pozycjonowanie"
 txt_block_size = "L"
+underline = false
 [[sections.kafelki.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
+break_line = false
 color_txt = "czerwony"
 ornament = "brak"
 txt_block = "stron internetowych"
 txt_block_size = "L"
 underline = true
 [[sections.kafelki]]
+if_anchor = false
 ikona = "/uploads/group-160.svg"
 odnosnik = "pozycjonowanie/pozycjonowanie-sklepow.md"
 title = "sklepy"
@@ -212,15 +216,18 @@ color_txt = "czarny"
 ornament = "brak"
 txt_block = "Pozycjonowanie"
 txt_block_size = "L"
+underline = false
 [[sections.kafelki.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
+break_line = false
 color_txt = "czerwony"
 ornament = "brak"
 txt_block = "sklepów internetowych"
 txt_block_size = "L"
 underline = true
 [[sections.kafelki]]
+if_anchor = false
 ikona = "/uploads/group-164.svg"
 odnosnik = "pozycjonowanie/pozycjonowanie-sklepow.md"
 title = "lokalne"
@@ -232,15 +239,18 @@ color_txt = "czarny"
 ornament = "brak"
 txt_block = "Pozycjonowanie"
 txt_block_size = "L"
+underline = false
 [[sections.kafelki.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
+break_line = false
 color_txt = "czerwony"
 ornament = "brak"
 txt_block = "lokalne"
 txt_block_size = "L"
 underline = true
 [[sections.kafelki]]
+if_anchor = false
 ikona = "/uploads/group-165.svg"
 odnosnik = "pozycjonowanie/pozycjonowanie-sklepow.md"
 title = "audyt"
@@ -252,15 +262,18 @@ color_txt = "czarny"
 ornament = "brak"
 txt_block = "Audyt"
 txt_block_size = "L"
+underline = false
 [[sections.kafelki.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
+break_line = false
 color_txt = "czerwony"
 ornament = "brak"
 txt_block = "i optymalizacja SEO"
 txt_block_size = "L"
 underline = true
 [[sections.kafelki]]
+if_anchor = false
 ikona = "/uploads/group-166.svg"
 odnosnik = "pozycjonowanie/pozycjonowanie-sklepow.md"
 title = "konsultacje"
@@ -272,12 +285,48 @@ color_txt = "czarny"
 ornament = "brak"
 txt_block = "Konsultacje"
 txt_block_size = "L"
+underline = false
 [[sections.kafelki.header_repeater]]
 block_tag_type = "h3"
 bold_txt = "gruby"
+break_line = false
 color_txt = "czerwony"
 ornament = "brak"
 txt_block = "SEO"
 txt_block_size = "L"
 underline = true
+[[sections]]
+styl_szeroki_dwie_kolumny = "kolumny"
+template = "sekcja-faq"
+[[sections.grupa_faq]]
+odpowied_ = "Pozycjonowanie stron wyceniamy bardzo indywidualnie, głównie cena zależy od rozpiętości serwisu oraz możliwości jego rozbudowy. W zależności od potrzeb klienta oraz dostępnego budżetu na działania seo, ustalamy rekomendowany zakres prac oraz informujemy o oczekiwanych rezultatach."
+pytanie = "Ile kosztuje pozycjonowanie stron?"
+[[sections.grupa_faq]]
+odpowied_ = "W darmowej wycenie przygotowujemy audyt, który przedstawia stronę w świetle technicznym seo. Pokazujemy, co można poprawić oraz jak zapatrujemy się na prowadzenie seo w danym serwisie. Darmowa wycena uwzględnia analizę SEO, UX, Contentu oraz Web Developmentu."
+pytanie = "Co zawiera darmowa wycena?"
+[[sections.grupa_faq]]
+odpowied_ = "Zazwyczaj pierwsze efekty pozycjonowania możemy zauważyć już po 2-3 miesiącach od nawiązania współpracy. Współpraca z nami jest podzielona na piki 6 miesięczne, po których przesyłamy szczegółowy raport, co ułatwia w sprawdzaniu efektów naszych prac."
+pytanie = "Kiedy widoczne są pierwsze efekty?"
+[[sections.grupa_faq]]
+odpowied_ = "W ramach obsługi pozycjonowania - w pakiecie optimum oraz premium, zapewniamy kompleksową obsługę, w skład którego wchodzi stała optymalizacja, realizacja strategii seo, budowanie contentu, poprawa UX oraz wszelkie wdrożenia. W zależności od sytuacji danej strony, zakres prac i możliwości działań ustalamy indywidualnie."
+pytanie = "Co zapewniamy w cenie pozycjonowania?"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "NAJCZĘŚCIEJ"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "zadawane pytania"
+txt_block_size = "XL"
+underline = false
+
 +++
