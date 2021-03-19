@@ -52,6 +52,11 @@ fields:
         file: 
         path: 
     label: Przypisz pozycje pakietu
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Nazwa pakietu
   - name: naglowek_wyrozniajacy
     type: text
     config:
@@ -64,11 +69,6 @@ fields:
       required: false
     label: Nazwa pakiet (wierz pierwszy)
     default: Pakiet
-  - name: title
-    type: text
-    config:
-      required: false
-    label: Nazwa pakietu
   - name: kwota_od
     type: text
     config:
