@@ -1,4 +1,13 @@
 ---
 label: sekcja - galeria logosów
 hide_body: true
-fields: []
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: logosy_marek
+  type: image_gallery
+  config: {}
+  label: Logosy marek
