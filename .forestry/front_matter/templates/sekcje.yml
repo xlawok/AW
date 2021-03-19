@@ -54,6 +54,7 @@ fields:
   - sekcja-oferta-z-kafelkami
   - sekcja-pozycjonowanie-poradnik
   - sekcja-cta-zamow-wycene
+  - sekcja-cennik-tabela
   config:
     min: 
     max: 
