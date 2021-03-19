@@ -328,5 +328,10 @@ ornament = "prawa w dół"
 txt_block = "zadawane pytania"
 txt_block_size = "XL"
 underline = false
+[[sections]]
+if_background = false
+naglowek = ""
+template = "sekcja-cta-zamow-wycene"
+tytul_odnosnika = "Zamów bezpłatną wycenę"
 
 +++
