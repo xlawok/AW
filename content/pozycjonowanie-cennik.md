@@ -77,7 +77,7 @@ kolumna_2 = "od 1190 zł"
 kolumna_3 = "na czas nieokreślony"
 [[sections.wiersze_tabela]]
 kolumna_1 = "SEO ogólnopolskie"
-kolumna_2 = "d 1590 zł"
+kolumna_2 = "od 1590 zł"
 kolumna_3 = "na czas nieokreślony"
 [[sections.wiersze_tabela]]
 kolumna_1 = "Pozycjonowanie sklepów"
