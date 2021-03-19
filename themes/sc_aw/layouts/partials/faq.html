@@ -1,0 +1,22 @@
+<section class='sec-padding sc-faq faq {{ if eq .styl_szeroki_dwie_kolumny "kolumny"}} faq-cols {{else}} faq-wide {{end}}'>
+  
+    {{ $header_list := .header_repeater }}
+  
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "front-news-header")  -}}
+    {{with .grupa_faq}}
+        <ul class='faq-list'>
+            {{range . }}
+                <li>
+                    <div class='faq-q'>
+                        {{.pytanie}}
+                    </div>
+                    <div class='faq-q'>
+                        {{.odpowied_}}
+                    </div>
+                </li>
+            {{end}}
+
+        </ul>
+    {{end}}
+
+</section>

@@ -66,6 +66,9 @@
     {{if eq .template "sekcja-galeria-logosow"}}
       {{- partial "galeria-logosow.html" . -}}
     {{end}}
+    {{if eq .template "sekcja-faq"}}
+      {{- partial "faq.html" . -}}
+    {{end}}
     
   {{ end }}
   
