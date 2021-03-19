@@ -47,5 +47,45 @@ header_repeater = []
 header_repeater = []
 kolumny = []
 opis = ""
+[[sections]]
+template = "sekcja-cennik-tabela"
+[sections.glowka_tabeli]
+kolumna_1 = "Usługa"
+kolumna_2 = "Cena"
+kolumna_3 = "Umowa"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "POZYCJONOWANIE"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "Cennik - 2021"
+txt_block_size = "XL"
+underline = false
+[[sections.wiersze_tabela]]
+kolumna_1 = "Pozycjonowanie lokalne"
+kolumna_2 = "od 1190 zł"
+kolumna_3 = "na czas nieokreślony"
+[[sections.wiersze_tabela]]
+kolumna_1 = "SEO ogólnopolskie"
+kolumna_2 = "d 1590 zł"
+kolumna_3 = "na czas nieokreślony"
+[[sections.wiersze_tabela]]
+kolumna_1 = "Pozycjonowanie sklepów"
+kolumna_2 = "od 2090 zł"
+kolumna_3 = "na czas nieokreślony"
+[[sections.wiersze_tabela]]
+kolumna_1 = "Rozwiązania dedykowane"
+kolumna_2 = "cena ustalana indywidualnie"
+kolumna_3 = "na czas nieokreślony"
 
 +++
