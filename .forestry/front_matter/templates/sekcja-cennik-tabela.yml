@@ -1,4 +1,52 @@
 ---
 label: Sekcja cennik - tabela
 hide_body: true
-fields: []
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: glowka_tabeli
+  type: field_group
+  config: {}
+  fields:
+  - name: kolumna_1
+    type: text
+    config:
+      required: false
+    label: Kolumna 1
+  - name: kolumna_2
+    type: text
+    config:
+      required: false
+    label: Kolumna 2
+  - name: kolumna_3
+    type: text
+    config:
+      required: false
+    label: Kolumna 3
+  label: Główka tabeli
+- name: wiersze_tabela
+  type: field_group_list
+  fields:
+  - name: kolumna_1
+    type: text
+    config:
+      required: false
+    label: kolumna 1
+  - name: kolumna_2
+    type: text
+    config:
+      required: false
+    label: Kolumna 2
+  - name: kolumna_3
+    type: text
+    config:
+      required: false
+    label: Kolumna 3
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: wiersze tabela
