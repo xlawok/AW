@@ -159,5 +159,27 @@ ornament = "prawa w dół"
 txt_block = "do potrzeb wymagających marek"
 txt_block_size = "XL"
 underline = false
+[[sections]]
+kafelki = []
+opis = ""
+template = "sekcja-oferta-z-kafelkami"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "ZAPOZNAJ SIĘ ZE SZCZEGÓŁAMI"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "naszej oferty SEO"
+txt_block_size = "XL"
+underline = false
 
 +++
