@@ -1,4 +1,45 @@
 ---
 label: sekcja FAQ
 hide_body: true
-fields: []
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: styl_szeroki_dwie_kolumny
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - kolumny
+    - pełna szerokość
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Styl szeroki dwie kolumny
+- name: grupa_faq
+  type: field_group_list
+  fields:
+  - name: pytanie
+    type: text
+    config:
+      required: false
+    label: Pytanie
+  - name: odpowied_
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Odpowiedź
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Grupa faq
