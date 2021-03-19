@@ -57,6 +57,7 @@ fields:
   - sekcja-cennik-tabela
   - sekcja-porownanie-pakietow
   - sekcja-galeria-logosow
+  - sekcja-faq
   config:
     min: 
     max: 
