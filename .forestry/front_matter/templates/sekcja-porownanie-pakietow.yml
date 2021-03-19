@@ -1,4 +1,93 @@
 ---
 label: sekcja - porównanie pakietów
 hide_body: true
-fields: []
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: pozycje_pakietu
+  type: field_group_list
+  fields:
+  - name: wybierz_pakiety
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: simple
+      options:
+      - basic
+      - optiumum
+      - premium
+    label: Wybierz pakiety
+  - name: nazwa_pozycji_pakietu
+    type: text
+    config:
+      required: false
+    label: Nazwa pozycji pakietu
+    description: np. copywriting
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Pozycje pakietu
+- name: informacje_o_pakietach
+  type: field_group_list
+  fields:
+  - name: przypisz_pozycje_pakietu
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - basic
+      - optiumum
+      - premium
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Przypisz pozycje pakietu
+  - name: naglowek_wyrozniajacy
+    type: text
+    config:
+      required: false
+    label: Nagłówek wyróżniający
+    default: Najczęściej wybierany
+  - name: nazwa_pakiet
+    type: text
+    config:
+      required: false
+    label: Nazwa pakiet (wierz pierwszy)
+    default: Pakiet
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Nazwa pakietu
+  - name: kwota_od
+    type: text
+    config:
+      required: false
+    label: Kwota od
+    description: np. 999 zł/msc
+  - name: komu_polecany
+    type: text
+    config:
+      required: false
+    label: Komu polecany
+    description: np. Polecany dla mikro i małych firm
+  config:
+    min: 3
+    max: 3
+    labelField: 
+  label: Informacje o pakietach
+- name: tytul_guzika_cta
+  type: text
+  config:
+    required: false
+  label: Tytuł guzika cta
