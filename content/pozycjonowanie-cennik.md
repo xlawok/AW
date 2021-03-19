@@ -89,7 +89,7 @@ kolumna_2 = "cena ustalana indywidualnie"
 kolumna_3 = "na czas nieokreślony"
 [[sections]]
 template = "sekcja-porownanie-pakietow"
-tytul_guzika_cta = ""
+tytul_guzika_cta = "Poproś o wycenę"
 [[sections.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "bardzo gruby"
