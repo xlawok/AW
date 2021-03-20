@@ -61,7 +61,7 @@ template = "sekcja-przemienne-kolumny-txt-img"
 [sections.wiersz_dwie_kolumny.kolumna_druga]
 film_obrazek = "movie embed"
 if_svg = false
-kod_embed = "<iframe width=\"560\" height=\"315\" \nsrc=\"https://www.youtube.com/embed/ZUWoGRU9FYk\"\nsrdoc=\"<a href='https://www.youtube.com/embed/ZUWoGRU9FYk?autoplay=1'><img src=https://img.youtube.com/vi/ZUWoGRU9FYk/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>\"\n></iframe>"
+kod_embed = "<iframe width=\"560\" height=\"315\" \nsrc=\"https://www.youtube.com/embed/ZUWoGRU9FYk\"\nsrdoc=\"<a href=https://www.youtube.com/embed/ZUWoGRU9FYk?autoplay=1><img src=https://img.youtube.com/vi/ZUWoGRU9FYk/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>\"\n></iframe>"
 obrazek = ""
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = "_index.md"
