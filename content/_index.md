@@ -6,16 +6,23 @@ slug = "/"
 title = "Strona główna"
 [[sections]]
 banner_bg_for_center = ""
+banner_bg_for_center_left = ""
+banner_bg_for_center_right = ""
 banner_bg_no_img = ""
 banner_center_img = ""
 banner_cta_title = ""
 banner_cta_url = ""
 banner_form_html = "<form id=\"contactform\" action=\"https://formsubmit.io/send/piotr.m.kowalski@gmail.com\" method=\"POST\">\n<div class='input-cnt'>\n <input required name=\"email\" type=\"email\" id=\"email\" placeholder=\"Adres e-mail\"><label for='email'> Adres e-mail</label>\n</div>\n<div class='input-cnt'>\n    <input name=\"www\" type=\"url\" id=\"www\" placeholder=\"Adres strony www\"><label for='www'>Adres strony www</label>\n</div>\n<div class='input-cnt'>\n    <input  required name=\"phone\" type=\"tel\" id=\"phone\" placeholder=\"Numer telefonu\"><label for='phone'>Numer telefonu</label>\n   </div>\n   <div>\n<span class='radio-cnt-title'>Wybierz temat zapytania</span>\n <div class='form-radio'>\n\n  <input type=\"radio\" id=\"optimization\" name=\"question\" value=\"optymalizacja\"\n         ><label for=\"optimization\">\nOptymalizacja strony WWW </label>\n</div>\n <div class='form-radio'>\n \n  <input type=\"radio\" id=\"positoning\" name=\"question\" value=\"pozyjnonowanie\"\n         ><label for=\"positoning\">Pozycjonowanie\n </label>\n</div>\n <div class='form-radio'>\n \n  <input type=\"radio\" id=\"consulting\" name=\"question\" value=\"konsultacje\"\n         ><label for=\"consulting\">Konsultacje SEO\n </label>\n</div>\n</div>\n\n    <input name=\"_formsubmit_id\" type=\"text\" style=\"display:none\">\n\n    <button  type=\"submit\">Wyślij zapytanie</button>\n<div class='rodo'>\n<input id='rodo-accept' type='checkbox' required name='rodo-accept' value='accept'/>\n<label for='rodo-accept'>Administratorem Twoich danych osobowych, czyli podmiotem decydującym o celach i sposobach przetwarzania Twoich danych osobowych jest Agencja Wrocławska. Informujemy, że podanie danych osobowych zawartych w formularzu jest dobrowolne, ale niezbędne do skutecznego nawiązania kontaktu z Administratorem, jak również przysługują Ci prawa dostępu do Twoich danych osobowych, ich zmiany (w tym aktualizacji), a także pozostałe prawa opisane w Polityce prywatności. W Polityce prywatności znajdują się także szczegółowe informację w zakresie praw i obowiązków Administratora.\n</label>\n</div>\n</form>"
+banner_form_html_no_img = ""
 banner_form_script = ""
+banner_form_script_no_img = ""
 banner_img = "/uploads/breslau-dusk-1024x506.jpg"
 banner_list_gruop = []
 banner_type = "wide_img"
 naglowek_formularza = "Zamów bezpłatną wycenę w 24h!"
+naglowek_formularza_no_img = ""
+opis_banner = ""
+otworz_modal = ""
 template = "banner"
 [[sections.banner_header_cnt.header_repeater]]
 block_tag_type = "h1"
@@ -44,13 +51,17 @@ ornament = "brak"
 txt_block = "Bądź tam, gdzie Twoi klienci szukają. Później niech dzieje się magia."
 txt_block_size = "S"
 underline = false
+[sections.box_pod_zdj_ciem]
+header_repeater = []
+kolumny = []
+opis = ""
 [[sections]]
 template = "sekcja-przemienne-kolumny-txt-img"
 [[sections.wiersz_dwie_kolumny]]
 [sections.wiersz_dwie_kolumny.kolumna_druga]
 film_obrazek = "movie embed"
 if_svg = false
-kod_embed = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZUWoGRU9FYk\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+kod_embed = "<iframe width=\"560\" height=\"315\" \nsrdoc=\"<a href=https://www.youtube.com/embed/ZUWoGRU9FYk?autoplay=1><img src=https://img.youtube.com/vi/ZUWoGRU9FYk/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>\"\n></iframe>"
 obrazek = ""
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = "_index.md"
@@ -137,6 +148,7 @@ txt_block = "Efekty albo zwrot pieniędzy"
 txt_block_size = "XXL"
 underline = false
 [[sections]]
+header_repeater = []
 show_sec_clients = true
 template = "sekcja-nasi-klienci"
 [[sections]]
