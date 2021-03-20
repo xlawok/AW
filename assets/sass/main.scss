@@ -74,7 +74,9 @@ body {
   // margin-top: 8rem;
   overflow-x: hidden;
 }
-
+body main>section ~ section ~ section{
+  content-visibility: auto;
+}
 b, strong {
   font-weight: bold;
 }
