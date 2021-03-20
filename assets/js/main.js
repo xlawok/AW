@@ -54,5 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
             retrieve_theme();
         },false);
         //end --- darkmode
+
+        
     }
 },false);

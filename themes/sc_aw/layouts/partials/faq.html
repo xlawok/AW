@@ -2,15 +2,15 @@
   
     {{ $header_list := .header_repeater }}
   
-    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "front-news-header")  -}}
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "faq-header")  -}}
     {{with .grupa_faq}}
         <ul class='faq-list'>
             {{range . }}
                 <li>
-                    <div class='faq-q'>
+                    <h3 class='faq-q txt-L'>
                         {{.pytanie}}
-                    </div>
-                    <div class='faq-q'>
+                    </h3>
+                    <div class='faq-a hidden'>
                         {{.odpowied_}}
                     </div>
                 </li>
@@ -20,3 +20,20 @@
     {{end}}
 
 </section>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var faq_list=document.querySelectorAll('.faq-list li');
+        if(faq_list.length>0){
+            for (var i = 0; i < faq_list.length; i++) {
+        
+                faq_list[i].addEventListener('click',function(e){
+                    e.preventDefault();
+                    // var modal_target = this.dataset.modaltarget;
+                    // modal_target="[data-modalname='"+modal_target+"']";
+                    this.classList.toggle('acc-opened');
+                    this.querySelector('.faq-a').classList.toggle('hidden');
+                });
+            }
+        }
+    });
+</script>
