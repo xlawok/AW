@@ -98,6 +98,12 @@ fields:
       showOnly:
         field: film_obrazek
         value: image
+    - name: obrazek_dark_mode
+      type: file
+      config:
+        maxSize: 64
+      label: Obrazek do dark mode
+      description: Dodać, gdy inny obrazek dla dark mode
     - name: if_svg
       type: boolean
       label: Gdy svg wczytaj w html
