@@ -13,14 +13,10 @@
             <a class='mail-link' href="mailto:{{.Site.Params.header_adres_email}}">
                 {{.Site.Params.header_adres_email}}
             </a>
-            <div class='darmkode-input'>
-    
-                <input id='darkmode' type="checkbox" name='darkmode' value="true">
-                <label for='darkmode'></label>
-            </div>
+ 
         </div>
         <nav class='below-row'>
-            <ul>
+            <ul class='main-menu'>
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
                     {{ if .HasChildren }}
@@ -56,6 +52,15 @@
             </ul>
         </nav>
     </div>
-
+    <button class="menu-btn-cnt">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <div class='darmkode-input'>
+    
+        <input id='darkmode' type="checkbox" name='darkmode' value="true">
+        <label for='darkmode'></label>
+    </div>
 </header>
 

@@ -29,6 +29,29 @@ document.addEventListener("DOMContentLoaded", function() {
   function closeModal() {
     document.querySelector(".modal-quote-outer").classList.remove('modal-active');
   }
+
+
+
+  //mobile nav opne submenu
+  var all_nav_parent_items= document.querySelectorAll('nav .parent > a');
+  if(all_nav_parent_items.length>0){
+    for (var i = 0; i < all_nav_parent_items.length; i++) {
+        
+        all_nav_parent_items[i].addEventListener('click',function(e){
+            e.preventDefault();
+      
+            this.parentNode.classList.toggle('mobile-sub-open');
+        });
+    }
+  }
+  var menu_btn_cnt = document.querySelector('.menu-btn-cnt');
+  menu_btn_cnt.addEventListener('click',function(e){
+    e.preventDefault();
+    document.querySelector('header').classList.toggle('menu-mobile-opened');
+    
+    
+  });
+  //END mobile nav opne submenu
 });
 
 </script>
