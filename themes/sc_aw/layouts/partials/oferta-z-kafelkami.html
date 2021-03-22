@@ -12,11 +12,13 @@
                 <li>
                    
                     
-                    {{if .odnosnik}}    
-                        {{ with site.GetPage .odnosnik }}
+                    {{with .odnosnik}}    
+                        {{ with site.GetPage . }}
                             <a href="{{ .Permalink}}">
-                        
+                        {{else }}
+                                <a href="#top-banner">
                         {{end}}
+                        
                     {{else }}
                             <a href="#top-banner">
                     {{end}}
