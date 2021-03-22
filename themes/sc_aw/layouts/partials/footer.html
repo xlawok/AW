@@ -27,7 +27,9 @@ document.addEventListener("DOMContentLoaded", function() {
   )
 
   function closeModal() {
-    document.querySelector(".modal-quote-outer").classList.remove('modal-active');
+    var modal_quote_outer =  document.querySelector(".modal-quote-outer");
+    if(modal_quote_outer)
+    modal_quote_outer.classList.remove('modal-active');
   }
 
 

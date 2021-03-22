@@ -750,7 +750,11 @@ header{
     }
 }
 main{
-  margin-top: 7.625rem;
+  margin-top: 6rem;
+  @media (min-width: 1600px){
+    margin-top: 7.625rem;
+  }
+  
 
 }
 //end checkbox
