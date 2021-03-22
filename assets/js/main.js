@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if(theme != null){
                 document.body.classList.remove('default', 'dark-m'); 
                 document.body.classList.add(theme);
+                if(theme=="dark-m")  dark_mode_input.checked = true;
             }else{
                 // nie ustawiono na stronie więc sprawdzam preferencje przeglądarki
                 console.log('nie ustawiono');

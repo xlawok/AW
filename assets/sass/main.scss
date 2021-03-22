@@ -625,27 +625,29 @@ header{
           }
         }
       }
-      &.mobile-sub-open{
-        >a:before{
-          content: '';
-          display: block;
-          position: absolute;
-          bottom: -0.25rem;
-          left: 0;
-          width: 100%;
-          border-bottom: 0.0625rem solid #FCDB01;
-        }
-        &:after{
-          content: '';
-          display: block;
-          position: absolute;
-          bottom: 1.25rem;
-          left: calc(50% - 2.5rem);
-          width: 5rem;
-          border-bottom: 0.0625rem solid #FCDB01;
-        }
-        .sub-menu{
-          display: flex;
+      @media (max-width: 1199px){
+        &.mobile-sub-open{
+          >a:before{
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: -0.25rem;
+            left: 0;
+            width: 100%;
+            border-bottom: 0.0625rem solid #FCDB01;
+          }
+          &:after{
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: 1.25rem;
+            left: calc(50% - 2.5rem);
+            width: 5rem;
+            border-bottom: 0.0625rem solid #FCDB01;
+          }
+          .sub-menu{
+            display: flex;
+          }
         }
       }
       @media (min-width: 1200px){
