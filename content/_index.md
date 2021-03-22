@@ -58,11 +58,13 @@ opis = ""
 [[sections]]
 template = "sekcja-przemienne-kolumny-txt-img"
 [[sections.wiersz_dwie_kolumny]]
+tytul_wiersza = "POZNAJ NAS Agencja SEO "
 [sections.wiersz_dwie_kolumny.kolumna_druga]
 film_obrazek = "movie embed"
 if_svg = false
 kod_embed = "<iframe width=\"560\" height=\"315\" \nsrc=\"https://www.youtube.com/embed/ZUWoGRU9FYk\"\nsrdoc=\"<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/ZUWoGRU9FYk?autoplay=1><img src=https://img.youtube.com/vi/ZUWoGRU9FYk/hqdefault.jpg alt='Video The Dark Knight Rises: What Went Wrong? – Wisecrack Edition'><span>▶</span></a>\"\nframeborder=\"0\"\n  allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"\n  allowfullscreen\n></iframe>"
 obrazek = ""
+obrazek_dark_mode = ""
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = "_index.md"
 if_blank = false
@@ -88,11 +90,13 @@ txt_block = "Agencja SEO"
 txt_block_size = "XXL"
 underline = false
 [[sections.wiersz_dwie_kolumny]]
+tytul_wiersza = "Lokalna obsługa Wrocław "
 [sections.wiersz_dwie_kolumny.kolumna_druga]
 film_obrazek = "image"
-if_svg = true
+if_svg = false
 kod_embed = ""
 obrazek = "/uploads/icon-big-main-aw-1.svg"
+obrazek_dark_mode = "/uploads/icon-big-main-aw-1.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = "o-nas.md"
 if_blank = false
@@ -118,11 +122,13 @@ txt_block = "Wrocław"
 txt_block_size = "XXL"
 underline = false
 [[sections.wiersz_dwie_kolumny]]
+tytul_wiersza = "EFEKTY Efekty albo zwrot pieniędzy "
 [sections.wiersz_dwie_kolumny.kolumna_druga]
 film_obrazek = "image"
-if_svg = true
+if_svg = false
 kod_embed = ""
 obrazek = "/uploads/icon-big-main-aw-2.svg"
+obrazek_dark_mode = "/uploads/icon-big-main-aw-2.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = "o-nas.md"
 if_blank = false
