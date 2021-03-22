@@ -26,7 +26,10 @@
                     {{if .kolumna_druga.if_svg}}
                         {{ readFile .kolumna_druga.obrazek | safeHTML }}
                     {{else }}
-                        {{- partial "img.html" (dict "image" .kolumna_druga.obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw")  -}}
+                        {{- partial "img.html" (dict "image" .kolumna_druga.obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "lmode")  -}}
+                        {{with .kolumna_druga.obrazek_dark_mode}}
+                            {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "dmode")  -}}
+                        {{end}}
                     {{end}}
                 {{else if eq .kolumna_druga.film_obrazek "movie embed"}}
                     {{.kolumna_druga.kod_embed | safeHTML}}

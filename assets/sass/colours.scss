@@ -34,6 +34,9 @@ body{
         }
     }
     &:not(.dark-m){
+        .dmode{
+            display: none;
+        }
         .for-dark-ver{
             display: none;
         }
@@ -180,6 +183,9 @@ body{
         // .ornament-r-b:before{
         //     display: none;
         // }
+        .lmode{
+            display: none;
+        }
         header{
             background: var(--main-dark-color);
             .for-white-ver{
