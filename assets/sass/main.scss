@@ -27,13 +27,23 @@
   --red: #F63D37;
   --yellow: #F9D801;
   --base-font: "Corporative", Sans-serif;
-  --header-font: 'Barlow', sans-serif;;
+  --header-font: 'Barlow', sans-serif;
+  --size-XXL: calc(4.75rem * 0.7); //--size-XXL: 76px;
+  --size-XL: calc(3.4375rem * 0.7); //--size-XL: 55px;
+  --size-L: calc(2.25rem * 0.7); //--size-L: 36px;
+  --size-MD: calc(1.8125rem * 0.7); // --size-MD: 29px;
+  --size-S: calc(1.25rem * 0.9); //--size-S: 20px;
+
+
+@media (min-width: 1600px){
   --size-XXL: 4.75rem; //--size-XXL: 76px;
   --size-XL: 3.4375rem; //--size-XL: 55px;
   --size-L: 2.25rem; //--size-L: 36px;
   --size-MD: 1.8125rem; // --size-MD: 29px;
   --size-S: 1.25rem; //--size-S: 20px;
   --size-XS: 1rem; //--size-XS: 16px;
+}
+
 }
 
 * {
@@ -385,8 +395,11 @@ $unchecked-color: red;
   }
 }
 header{
+  height: 6rem;
+  @media (min-width: 1600px){
+    height: 7.625rem;
+  }
   
-  height: 7.625rem;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 30px #00000029;
   display: flex;
@@ -423,6 +436,7 @@ header{
       left: 0;
       background-color: var(--white);
       top: 7.625rem;
+      top: 6rem;
     }
   }
   @media (max-width: 1199px){
@@ -495,6 +509,12 @@ header{
       li{
         a{
           font-size: 1.125rem;
+          @media (min-width: 1200px){
+            font-size: 1rem;
+          }
+          @media (min-width: 1600px){
+            font-size: 1.125rem;
+          }
           position: relative;
           display: block;
           width: max-content;
@@ -642,12 +662,19 @@ header{
            
             z-index: 10;
             position: relative;
-            right: 1rem;
+            // right: 1rem;
             
             height: 1.8rem;
             cursor: pointer;
             width: 3.5rem;
             top: 4rem;
+            // right: 1.5rem;
+            right: calc(3vw - .5rem);
+            @media (min-width: 992px){
+              right: -1rem;
+            }
+            
+            top: 3rem;
             margin: 0;
             padding: 0;
             border: 0;
@@ -684,7 +711,9 @@ header{
             //         width: 0.5rem;
             //     }
             // }
-            
+            &:focus{
+              outline: 0;
+            }
         }
     
         @media(min-width: 1200px){
@@ -1689,7 +1718,10 @@ form#contactform{
       margin-bottom: 1rem;
       opacity: 1;
       width: 48%;
-      @media (min-width: 992px){
+      // @media (min-width: 768px){
+      //   width: 32%;
+      // }
+      @media (min-width: 768px){
         width: 22%;
       }
   
