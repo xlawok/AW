@@ -5,6 +5,12 @@ fields:
 - name: wiersz_dwie_kolumny
   type: field_group_list
   fields:
+  - name: tytul_wiersza
+    type: text
+    config:
+      required: false
+    label: tytul wiersza
+    description: Opis techniczny wiersza
   - name: kolumna_pierwsza
     type: field_group
     config: {}
