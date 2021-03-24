@@ -94,10 +94,13 @@ body {
     }
   }
   &.dark-m{
-    background-color: black;
-    &.cennik-pozycjonowanie{
-      background-color: #242424;
+    &.home{
+      background-color: black;
     }
+    
+    // &.cennik-pozycjonowanie{
+      background-color: #242424;
+    // }
     color: var(--white);
     .txt-red{
         color: var(--red);
@@ -108,9 +111,9 @@ body {
     .lmode{
       display: none;
     }
-    section:first-child{
-      background-color: #242424;
-    }
+    // section:first-child{
+    //   background-color: #242424;
+    // }
   }
 }
 body main>section ~ section:not(.sc-questionmark){
@@ -1599,6 +1602,11 @@ form#contactform{
   .box-below-banner{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 20px #00000029;
+    @at-root body.dark-m .sc-banner-center-img .box-below-banner {
+      background: var(--main-dark-color);
+      box-shadow: 0 3px 20px #a2a2a229;
+    }
+   
     border-radius: 8px;
     width:80%;
     margin: 0 10%;
@@ -1664,9 +1672,10 @@ form#contactform{
       clip-path: ellipse(130% 95% at 51% 100%);
       z-index: -1;
       background: #F2F2F2 0% 0% no-repeat padding-box;
-      // @at-root body.dark-m  .sc-banner-center-img .box-below-banner:before{
-      //   background: #F2F2F2 0% 0% no-repeat padding-box;
-      // }
+      @at-root body.dark-m  .sc-banner-center-img .box-below-banner:before{
+        background: var(--main-dark-color);
+        
+      }
       
     }
   }
@@ -1680,7 +1689,7 @@ form#contactform{
   padding-bottom: 2rem;
   background: #F2F2F2 0% 0% no-repeat padding-box;
   @at-root body.dark-m .sc-onas-about-columns{
-    background: #F2F2F2 0% 0% no-repeat padding-box;
+    background: var(--main-dark-color) 0% 0% no-repeat padding-box;
   }
   .about-col-cnt{
     width: 100%;
@@ -1703,6 +1712,9 @@ form#contactform{
         height: 14.375rem;
         // transform: matrix(0.68, 0.73, -0.73, 0.68, 0, 0);
         background: #FFFFFF 0% 0% no-repeat padding-box;
+        @at-root body.dark-m .sc-onas-about-columns .about-col-cnt .about-col-header::before {
+          background-color: #242424;
+        }
         left: -2rem;
         top: -1rem;
         transform: scale(.7);
@@ -2491,12 +2503,18 @@ form#contactform{
   }
   .sc-banner-center-noimg{
     background-color: #F2F2F2;
+    @at-root body.dark-m.list .sc-banner-center-noimg {
+      background-color: #242424;
+    }
     .center-banner-cnt .banner-bg-img{
       top: 0;
     }
   } 
   .dictionary-page{
     padding-top: 3rem;
+    @at-root body.dark-m.list .dictionary-page {
+      background-color: var(--main-dark-color);
+    }
     .letters-cnt{
       padding: 2rem 0;
       @media (min-width: 1200px){
@@ -2530,6 +2548,10 @@ form#contactform{
         padding: 2rem 1rem;
         position: relative;
         border: 2px solid #F2F2F2;
+        @at-root body.dark-m.list .dictionary-page .letters-list-all > li {
+        
+          border: 2px solid #242424;
+        }
         a:hover{
           text-decoration: underline;
           color: var(--red);
@@ -3611,8 +3633,11 @@ justify-content: center;
 }
 .sc-cta{
   text-align: center;
-  padding: 2rem;
-  margin-top: 4rem;
+  padding: 6rem 2rem 2rem 2rem;
+  
+  @at-root body.dark-m .sc-cta{
+    background-color: var(--main-dark-color);
+  }
   .sc-cta-header{
     font-weight: bold;
     padding-bottom: 3rem;
