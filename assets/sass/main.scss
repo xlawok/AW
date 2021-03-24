@@ -1686,10 +1686,30 @@ form#contactform{
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
   background: #F2F2F2 0% 0% no-repeat padding-box;
   @at-root body.dark-m .sc-onas-about-columns{
     background: var(--main-dark-color) 0% 0% no-repeat padding-box;
+  }
+  position: relative;
+  &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    
+    height: 43rem;
+    bottom: -16.187rem;
+    transform: rotate(180deg);
+    z-index: -2;
+    clip-path: ellipse(90% 60% at 51% 100%);
+    clip-path: url(#my-clip-path2);
+    z-index: -1;
+    background: var(--white);
+    @at-root body.dark-m .sc-onas-about-columns::after {
+      background-color: var(--main-dark-color);
+    }
   }
   .about-col-cnt{
     width: 100%;
@@ -1898,16 +1918,14 @@ form#contactform{
     position: absolute;
     width: 100%;
     left: 0;
-    height: 15.5rem;
-    bottom: -4.625rem;
-    height: 75.5rem;
-    bottom: -58rem;
+    height: 40.5rem;
+    bottom: -30rem;
     z-index: -2;
     clip-path: ellipse(90% 60% at 51% 100%);
     clip-path: url(#my-clip-path);
     background: var(--white);
     @at-root body.dark-m .sc-our-clients:after{
-      background: #242424;
+      background: var(--main-dark-color);
     }
   }
   ul{
@@ -3057,10 +3075,10 @@ justify-content: center;
     height: 15.5rem;
     bottom: -4.625rem;
     height: 75.5rem;
-    bottom: -58rem;
+    bottom: -45rem;
     z-index: -2;
     clip-path: ellipse(90% 60% at 51% 100%);
-    clip-path: url(#my-clip-path);
+    clip-path: url(#my-clip-path2);
     background-color: #fff;
     @at-root body.dark-m .sc-questionmark::after {
       background-color: #242424;
@@ -3686,12 +3704,13 @@ justify-content: center;
     position: absolute;
     width: 100%;
     left: 0;
-    height: 15.5rem;
-    height: 13rem;
-    bottom: -5rem;
+    
+    height: 33rem;
+    bottom: -12.1875rem;
+    transform: rotate(180deg);
     z-index: -2;
     clip-path: ellipse(90% 60% at 51% 100%);
-    clip-path: url(#my-clip-path);
+    clip-path: url(#my-clip-path2);
     z-index: -1;
     background: var(--white);
     @at-root body.dark-m .sc-price-table::after {
