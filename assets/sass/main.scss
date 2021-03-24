@@ -105,9 +105,12 @@ body {
     .lmode{
       display: none;
     }
+    section:first-child{
+      background-color: #242424;
+    }
   }
 }
-body main>section ~ section{
+body main>section ~ section:not(.sc-questionmark){
   content-visibility: auto;
 }
 // body main>section ~ section ~ section{
@@ -1396,6 +1399,9 @@ form#contactform{
       height: 23.5rem;
       bottom: -11.625rem;
       background-color: #F2F2F2;
+      @at-root body.dark-m .sc-banner-center-noimg .center-banner-cnt::after {
+        background-color: var(--main-dark-color);
+      }
       clip-path: ellipse(90% 60% at 51% 100%);
       z-index: -1;
     }
@@ -3031,6 +3037,9 @@ justify-content: center;
     clip-path: ellipse(90% 60% at 51% 100%);
     clip-path: url(#my-clip-path);
     background-color: #fff;
+    @at-root body.dark-m .sc-questionmark::after {
+      background-color: #242424;
+    }
     z-index: -1;
     // background: white;
   }
@@ -3062,9 +3071,15 @@ justify-content: center;
   }
   &.sc-gray{
     background-color: #F2F2F2;
+    @at-root body.dark-m .sc-questionmark.sc-gray {
+      background-color: var(--main-dark-color);
+    }
    > .header-template{
       &:before {
         background: var(--white) no-repeat padding-box;
+        @at-root body.dark-m .sc-questionmark.sc-gray > .header-template::before {
+          background: #242424;
+        }
       }
     }
   }
@@ -3098,10 +3113,14 @@ justify-content: center;
       height: 7.375rem;
       transform: translate(6rem,1rem) rotate(35deg);
       background: #f2f2f2 no-repeat padding-box;
+      @at-root body.dark-m .sc-offer-w-tiles > .header-template::before {
+        background-color: var(--main-dark-color);
+      }
     }
   }
   &.sc-gray{
     background-color: #F2F2F2;
+   
    > .header-template{
       &:before {
         background: var(--white) no-repeat padding-box;
@@ -3135,7 +3154,7 @@ justify-content: center;
       position: absolute;
       display: block;
       right: -20%;
-      z-index: -1;
+      z-index: 0;
       top: 0;
       height: 100%;
       width: 50%;
@@ -3233,6 +3252,9 @@ justify-content: center;
   padding-top: 5rem;
   position: relative;
   background-color: #fff;
+  @at-root body.dark-m .sc-tutorial {
+    background-color: var(--main-dark-color);
+  }
   z-index: 1;
   &:before{
     // clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 51% 61%, 0% 74%);
@@ -3249,6 +3271,10 @@ justify-content: center;
     // clip-path: ellipse(90% 60% at 51% 100%);
    
     background-color: #f2f2f2;
+    @at-root body.dark-m .sc-tutorial::before {
+      
+      background: #242424;
+    }
     z-index: -1;
   }
   &:after{
@@ -3266,6 +3292,9 @@ justify-content: center;
     clip-path: ellipse(90% 60% at 51% 100%);
    
     background-color: #fff;
+    @at-root body.dark-m .sc-tutorial::after {
+      background-color: var(--main-dark-color);
+    }
     z-index: -1;
   }
   .sec-heading{
@@ -3371,7 +3400,9 @@ justify-content: center;
           height: 7.375rem;
           transform: translate(6rem,1rem)rotate(35deg);
           background: #f2f2f2 no-repeat padding-box;
-      
+          @at-root body.dark-m .sc-tutorial .tutorial-content-cnt li > h3::after {
+            background-color: #242424;
+            }
         }
         &.ornament-l-r{
           &:before{
@@ -3539,6 +3570,9 @@ justify-content: center;
     .floating-box-cnt{
       .box-wrapper{
         background: #FFFFFF 0% 0% no-repeat padding-box;
+        @at-root body.dark-m .sc-tutorial .tutorial-content-cnt .floating-box-cnt .box-wrapper {
+          background-color: #242424;
+        }
         box-shadow: 0rem 0.1875rem 1.25rem #00000029;
         border-radius: 0.5rem;
         padding: 2rem;
