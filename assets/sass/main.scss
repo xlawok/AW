@@ -116,8 +116,12 @@ body {
     // }
   }
 }
-body main>section ~ section:not(.sc-questionmark){
-  content-visibility: auto;
+body main>section ~ section:not(.sc-questionmark):not(.sc-onas-about-columns):not(.sc-onas-team-columns):not(.sc-our-clients){
+
+    content-visibility: auto;
+ 
+    
+  
 }
 // body main>section ~ section ~ section{
 //   content-visibility: auto;
