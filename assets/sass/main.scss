@@ -95,6 +95,9 @@ body {
   }
   &.dark-m{
     background-color: black;
+    &.cennik-pozycjonowanie{
+      background-color: #242424;
+    }
     color: var(--white);
     .txt-red{
         color: var(--red);
@@ -3645,7 +3648,10 @@ justify-content: center;
   }
 }
 .sc-price-table{
-  background: #f2f2f2;
+  background: var(--main-dark-color);
+  @at-root body.dark-m .sc-price-table {
+    background-color: black;
+  }
   position: relative;
   z-index: 1;
   padding-bottom: 7rem;
@@ -3663,6 +3669,9 @@ justify-content: center;
     clip-path: url(#my-clip-path);
     z-index: -1;
     background: var(--white);
+    @at-root body.dark-m .sc-price-table::after {
+      background-color: var(--main-dark-color);
+    }
   }
   > .header-template{
     position: relative;
@@ -3677,7 +3686,9 @@ justify-content: center;
       height: 7.375rem;
       transform: translate(2rem,-5rem)rotate(35deg);
       background: var(--white) no-repeat padding-box;
-  
+      @at-root body.dark-m .sc-price-table > .header-template::after {
+        background-color: #242424;
+      }
     }
   }
   .table-content-cnt {
@@ -3738,6 +3749,9 @@ justify-content: center;
       transition: background .2s ease;
       &:hover{
         background: var(--yellow);
+      }
+      @at-root body.dark-m .sc-price-table .table-wrapper .table-row {
+        color: var(--main-dark-color);
       }
     }
     .tb-col{
@@ -3829,6 +3843,9 @@ justify-content: center;
       grid-template-columns: 3fr 3fr 3fr;
       gap: 2rem;
       padding: .5rem;
+      @at-root body.dark-m .sc-compare .compare-content-cnt > div {
+        color: var(--main-dark-color);
+      }
       .package-col{
         min-width: 90vw;
         @media (min-width: 768px){
@@ -3990,6 +4007,9 @@ justify-content: center;
       box-shadow: 0 0.1875rem 1.25rem rgba(0, 0, 0, 0.16);
       margin-bottom: 2rem;
       break-inside: avoid;
+      @at-root body.dark-m .sc-faq .faq-list > li {
+        color: var(--main-dark-color);
+      }
       button{
         padding: 0;
         color: var(--main-dark-color);
