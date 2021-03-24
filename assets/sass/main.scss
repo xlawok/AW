@@ -1706,7 +1706,7 @@ form#contactform{
     clip-path: ellipse(90% 60% at 51% 100%);
     clip-path: url(#my-clip-path2);
     z-index: -1;
-    background: var(--white);
+    background: #f2f2f2;
     @at-root body.dark-m .sc-onas-about-columns::after {
       background-color: var(--main-dark-color);
     }
@@ -1918,15 +1918,26 @@ form#contactform{
     position: absolute;
     width: 100%;
     left: 0;
-    height: 40.5rem;
-    bottom: -30rem;
+    height: 15.5rem;
+    bottom: -4.625rem;
+    height: 75.5rem;
+    bottom: -58rem;
     z-index: -2;
     clip-path: ellipse(90% 60% at 51% 100%);
     clip-path: url(#my-clip-path);
     background: var(--white);
     @at-root body.dark-m .sc-our-clients:after{
-      background: var(--main-dark-color);
+      background: #242424;
     }
+  @at-root body:not(.home) .sc-our-clients:after{
+    background: #f2f2f2;
+    height: 40.5rem;
+    bottom: -30rem;
+    
+  }
+  @at-root body:not(.home).dark-m .sc-our-clients:after{
+    background: var(--main-dark-color);
+  }
   }
   ul{
     list-style: none;
