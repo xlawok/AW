@@ -2334,6 +2334,7 @@ form#contactform{
   position: relative;
   z-index: 1;
   flex-wrap: wrap;
+ 
  > li{
     width: 100%;
     padding: 3rem 1rem 1rem 2rem;
@@ -2346,6 +2347,9 @@ form#contactform{
     
     box-shadow: 0px 3px 20px #00000029;
     background-color: var(--white);
+    @at-root body.dark-m .news-list > li {
+      background-color: #242424;
+    }
     border-radius: 8px;
     margin-bottom: 1rem;
     cursor: pointer;
@@ -2407,6 +2411,9 @@ form#contactform{
   .blog-page{
     overflow: hidden;
     background: #f2f2f2;
+    @at-root body.dark-m.list .blog-page {
+      background-color: #242424;
+      }
     position: relative;
     .svg{
       position: absolute;
@@ -2437,6 +2444,9 @@ form#contactform{
 
       top: 5rem;
       background: white;
+      @at-root body.dark-m.list .blog-page::before {
+        background-color: var(--main-dark-color);
+      }
       // background: white;
     }
     &:after{
@@ -2462,6 +2472,9 @@ form#contactform{
 
       
       background: #f2f2f2;
+      @at-root body.dark-m.list .blog-page::after {
+        background-color: #242424;
+      }
       // background: white;
     }
   }
@@ -2632,6 +2645,9 @@ form#contactform{
             left:   -(303/1920)*100vw;
         }
         background: #F2F2F2 0% 0% no-repeat padding-box;
+        @at-root body.dark-m.single .blog-post .article-head::before {
+          background-color: #242424;
+        }
       }
       .left-col{
         width: 100%;
@@ -2764,6 +2780,9 @@ form#contactform{
 
         top: -17.625rem;
         background: white;
+        @at-root body.dark-m.single .blog-post .article-content-wrapper::before {
+          background-color: var(--main-dark-color);
+        }
         // background: white;
       }
       &:after{
@@ -2789,6 +2808,9 @@ form#contactform{
 
         bottom: -25.625rem;
         background: #f2f2f2;
+        @at-root body.dark-m.single .blog-post .article-content-wrapper::after {
+          background-color: var(--main-dark-color);
+        }
         // background: white;
       }
       width: 100%;
@@ -2852,6 +2874,9 @@ form#contactform{
       width: 8.375rem;
       height: 8.375rem;
       background: white;
+      @at-root body.dark-m.single .related-news-header::before {
+        background-color: #242424;
+        } 
     }
   }
   .news-list{
