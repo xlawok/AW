@@ -1,7 +1,7 @@
 +++
 description = "Pozycjonowanie sklepów"
 keywords = ""
-robots = ""
+robots = "index follow"
 slug = "pozycjonowanie-sklepow"
 title = "Pozycjonowanie sklepów"
 [[sections]]
@@ -57,5 +57,32 @@ color_txt = "czarny"
 ornament = "prawa w dół"
 txt_block = "Zakres prac SEO"
 txt_block_size = "XL"
+[[sections]]
+template = "sekcja-kolumny-z-cyframi-w-tle"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "EFEKTY SEO"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "3W"
+txt_block_size = "XL"
+[[sections.kolumny_3_bg]]
+opis = "Twój sklep zaczyna być widoczny w miejscach, gdzie Twoi klienci szukają. Zaczynasz widzieć prawdziwe efekty pozycjonowania, bo sklep zaczyna się pojawiać na popularnie wpisywane słowa kluczowe, co znacząco buduje rozpoznawalność Twojej marki."
+title = "Widoczność online"
+[[sections.kolumny_3_bg]]
+opis = "Przy realizacji strategii seo zaczynamy pozyskiwać jakościowy ruch, który jest kierowany w poszczególne miejsca Twojego sklepu. Jeśli ilość wyszukiwań w ciągu miesiąca wzrośnie o 50%, to oznaczać może znaczący wzrost ilości zainteresowania Twoją marką i przynieść Ci wielu nowych klientów."
+title = "Więcej klientów"
+[[sections.kolumny_3_bg]]
+opis = "Przygotowując strategię SEO na sklep internetowy analizujemy, na które słowa kluczowe warto będzie się pozycjonować. W momencie kiedy Google zacznie indeksować wprowadzane przez nas cykliczne zmiany, będzie przekładać się to cykliczny wzrost wyświetleń Twojej strony i realizacji zakupów."
+title = "Wzrost sprzedaży"
 
 +++
