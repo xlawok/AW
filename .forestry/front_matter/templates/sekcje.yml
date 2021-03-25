@@ -58,6 +58,7 @@ fields:
   - sekcja-porownanie-pakietow
   - sekcja-galeria-logosow
   - sekcja-faq
+  - sekcja-box-wysrodkowany-z-tekstem
   config:
     min: 
     max: 
