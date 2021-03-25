@@ -59,6 +59,7 @@ fields:
   - sekcja-galeria-logosow
   - sekcja-faq
   - sekcja-box-wysrodkowany-z-tekstem
+  - sekcja-kolumny-z-cyframi-w-tle
   config:
     min: 
     max: 

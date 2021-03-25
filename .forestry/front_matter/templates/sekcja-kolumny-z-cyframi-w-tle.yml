@@ -1,0 +1,31 @@
+---
+label: Sekcja kolumny z cyframi w tle
+hide_body: true
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: kolumny_3_bg
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Tytuł
+  - name: opis
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Opis
+  config:
+    min: 3
+    max: 3
+    labelField: 
+  label: Kolumny 3
