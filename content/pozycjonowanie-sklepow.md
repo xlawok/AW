@@ -28,6 +28,8 @@ color_txt = "czarny"
 ornament = "brak"
 txt_block = "Co zyskasz dzięki SEO dla e-Commerce?"
 txt_block_size = "XL"
+[sections.banner_slogan]
+header_repeater = []
 [[sections.banner_list_gruop]]
 banenr_list_item = "Znacznie szybsze budowanie marki w internecie"
 [[sections.banner_list_gruop]]

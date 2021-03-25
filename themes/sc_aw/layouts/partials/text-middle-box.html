@@ -1,0 +1,12 @@
+<section class='sec-padding sc-txt-in-middle'>
+
+
+    
+    {{ $header_list := .header_repeater }}
+  
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "middle-txt-sec-header")  -}}
+    <div class="middl-text-cnt">
+        {{.opis | safeHTML}}
+    </div>
+
+</section>

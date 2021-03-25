@@ -1415,7 +1415,7 @@ form#contactform{
       height: 15.5rem;
       bottom: -4.625rem;
       height: 23.5rem;
-      bottom: -11.625rem;
+      bottom: -18.625rem;
       background-color: #F2F2F2;
       @at-root body.dark-m .sc-banner-center-noimg .center-banner-cnt::after {
         background-color: var(--main-dark-color);
@@ -1449,11 +1449,15 @@ form#contactform{
       width: 100%;
       height: auto;
       margin: 1rem auto;
-      @media (min-width: 560px){
-        width: 50%;
-      }
+      // @media (min-width: 560px){
+      //   width: 50%;
+      // }
+      position: absolute;
+      top: 0;
+      opacity: .5;
       @media (min-width: 992px){
-        position: absolute;
+        // position: absolute;
+        opacity: 1;
         margin: 0;
         width: 50%;
         right: -2rem;
@@ -3110,6 +3114,7 @@ justify-content: center;
 }
 .sc-questionmark{
   
+  margin-top: 8rem;
   padding-bottom: 4rem;
   padding-top: 4rem;
   position: relative;
@@ -3141,7 +3146,7 @@ justify-content: center;
     background-image: url(/img/question-w-border.svg);
     height: 140%;
     width: 100%;
-    top: -10rem;
+    top: -5rem;
     background-repeat: no-repeat;
     background-position: 60% 0%;
     background-size: contain;
@@ -3739,7 +3744,7 @@ justify-content: center;
   }
 }
 .sc-price-table{
-  background: var(--main-dark-color);
+  background: #f2f2f2;
   @at-root body.dark-m .sc-price-table {
     background-color: black;
   }
@@ -3760,7 +3765,7 @@ justify-content: center;
     clip-path: ellipse(90% 60% at 51% 100%);
     clip-path: url(#my-clip-path2);
     z-index: -1;
-    background: var(--white);
+    background:  #f2f2f2;
     @at-root body.dark-m .sc-price-table::after {
       background-color: var(--main-dark-color);
     }
@@ -4153,6 +4158,21 @@ justify-content: center;
       
     }
       
+  }
+}
+.sc-txt-in-middle{
+  position: relative;
+  margin-top: 8rem;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+  background-color: #f2f2f2;
+  @at-root body.dark-m .sc-txt-in-middle{
+    background-color: var(--main-dark-color);
+  }
+  >*{
+    max-width: (812/1920)*100vw;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .home{
