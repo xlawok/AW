@@ -3151,6 +3151,18 @@ justify-content: center;
     background-position: 60% 0%;
     background-size: contain;
   }
+  &.question-filled:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url(/img/question-filled.svg);
+    height: 140%;
+    width: 100%;
+    top: -5rem;
+    background-repeat: no-repeat;
+    background-position: 60% 0%;
+    background-size: contain;
+  }
   > .header-template{
     position: relative;
     z-index: 0;
@@ -4281,6 +4293,20 @@ justify-content: center;
       }
       
     }
+  }
+  
+}
+
+.pozycjonowanie-sklepow{
+  section.sc-cta-bg {
+    position: relative;
+    }
+    
+    section.sc-logos {
+    position: relative;
+    }
+  .sc-questionmark{
+    background-color: transparent;
   }
   
 }
