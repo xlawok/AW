@@ -37,7 +37,7 @@ banenr_list_item = "Zwiększenie sprzedaży i ruchu organicznego na stronie"
 [[sections.banner_list_gruop]]
 banenr_list_item = "Zbudowanie popularności swojego sklepu internetowego"
 [[sections]]
-opis = "Znalezienie potrzebnych informacji w szybki i skuteczny sposób jest fundamentalnym wymogiem dzisiejszych czasów, zarówno w celu ograniczenia kosztów, jak i zaoszczędzenia czasu. Informacje różnej treści krążące w sieci mnożą się w gwałtownym tempie i przyjmują różnorodne formy (dokumenty, filmy, linki, streamingi, audio i video) - z tego względu wyszukiwarki nabierają coraz większego znaczenia. <br><br>Wyczulone mechanizmy i roboty Google’a regulujące funkcjonowanie wyszukiwarki, w prosty sposób umożliwiają jej użytkownikowi otrzymywanie - poprzez czynność wyszukiwania - użytecznych i ścisłych wyników. <br><br>Użytkownik formuje zapytanie (wykaz fraz do wyszukania) dla wyszukiwarki, ta natomiast je przetwarza i przesyła, za pośrednictwem odpowiednich układów logicznych, szereg mniej lub bardziej istotnych informacji."
+opis = "Nasza agencja SEO zajmuje się pozycjonowaniem sklepów internetowych. Od małych lokalnych sklepów po duże platformy e-Commerce. <br><br>Zakres prac rozpoczyna się od pełnej optymalizacji struktury sklepu. Wszelkiego rodzaju meta tagi, nagłówki, grafika, linkowanie wewnętrzne, przekierowania, stronicowanie, błędy 404, key research itp. Konkretny zakres prac seo jest określany przed zawarciem współpracy z klientem. <br><br>Przy pozycjonowaniu sklepów internetowych bieżąca optymalizacja seo to bardzo ważny aspekt, poprzez co stale zajmujemy się tym elementem przez cały czas trwania współpracy. Po początkowej optymalizacji rozpoczynamy przygotowywać strategię na budowanie profilu linkowego domeny, tworzyć content i analizować efekty przyjętej strategii seo."
 template = "sekcja-box-wysrodkowany-z-tekstem"
 [[sections.header_repeater]]
 block_tag_type = "h2"
@@ -45,7 +45,7 @@ bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "SEO"
+txt_block = "POZYCJONOWANIE SKLEPU"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
@@ -53,7 +53,7 @@ block_tag_type = "h2"
 bold_txt = "gruby"
 color_txt = "czarny"
 ornament = "prawa w dół"
-txt_block = "co to jest?"
+txt_block = "Zakres prac SEO"
 txt_block_size = "XL"
 
 +++
