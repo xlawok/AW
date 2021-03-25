@@ -4169,11 +4169,120 @@ justify-content: center;
   @at-root body.dark-m .sc-txt-in-middle{
     background-color: var(--main-dark-color);
   }
-  >*{
-    max-width: (812/1920)*100vw;
-    margin-left: auto;
-    margin-right: auto;
+  &:before{
+    content: url(/img/kwad.svg);
+    position: absolute;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 6rem;
+    top: 2rem;
   }
+  .middl-text-cnt{
+    position: relative;
+    &:after{
+      content: '';
+      background-image: url(/img/circle.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      display: block;
+      width: 5rem;
+      height: 5rem;
+      right: -6rem;
+      top: 3rem;
+    }
+    &:before {
+      content: url(/img/star.svg);
+      position: absolute;
+      display: block;
+      width: 1.5rem;
+      height: 1.5rem;
+      left: -6rem;
+      bottom: 3rem;
+    }
+  }
+  
+  >*{
+    max-width: 100%;
+    @media (min-width: 1200px){
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @media (min-width: 1600px){
+      max-width: (812/1920)*100vw;
+    }
+    
+   
+  }
+}
+.sc-cols-w-no{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  .cols-w-no-sec-header  {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .cols-w-no{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding-left: 0;
+    @media (min-width: 768px){
+      grid-template-columns: 3fr 3fr 3fr;
+    }
+    li{
+      position: relative;
+      z-index: 0;
+      padding: 4rem 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .col-w-no-header{
+      font-weight: bold;
+      font-family: var(--header-font);
+      padding-bottom: 2rem;
+    }
+    .col-w-no-desc{
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--red);
+      flex-grow: 1;
+    }
+    .no-bg{
+      color: #F2F2F2;
+      // font-size: 800px;
+      position: absolute;
+      left: 50%;
+      
+      z-index: -1;
+      font-weight: bold;
+      transform: translateX(-50%);
+      display: block;
+      
+      line-height: 1;
+      top: calc(50% - 14rem);
+      font-size: 25rem;
+      @media (min-width: 768px){
+        font-size: 60vw;
+        top: calc(50% - 30vw);
+       
+      }
+      @media (min-width: 1366px){
+        font-size: 50vw;
+        top: calc(50% - 25vw);
+      }
+      @media (min-width: 1600px){
+        
+        top: 50%;
+        transform: translate(-50% ,-50%);
+      }
+      
+    }
+  }
+  
 }
 .home{
   main{

@@ -72,7 +72,9 @@
     {{if eq .template "sekcja-box-wysrodkowany-z-tekstem"}}
       {{- partial "text-middle-box.html" . -}}
     {{end}}
-    
+    {{if eq .template "sekcja-kolumny-z-cyframi-w-tle"}}
+      {{- partial "kolumny-z-cyframi.html" . -}}
+    {{end}}
   {{ end }}
   
 

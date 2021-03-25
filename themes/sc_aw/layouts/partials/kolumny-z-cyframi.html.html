@@ -1,0 +1,23 @@
+<section class='sec-padding sc-cols-w-no'>
+
+
+    
+    {{ $header_list := .header_repeater }}
+  
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "cols-w-no-sec-header")  -}}
+    {{with .kolumny_3_bg}}
+        <ul class="cols-w-no">
+            
+            {{ range $index, $item:= . }} 
+                <li class="col-w-no">
+                    <div class="col-w-no-header  txt-L">{{$item.title}}</div>
+                    <div class="col-w-no-desc">{{$item.opis | safeHTML}}</div>
+                    <span class='no-bg'>{{ add $index  1 }}</span>
+                </li>
+            
+
+            {{end}}
+        </ul>
+    {{end}}
+
+</section>
