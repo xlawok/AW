@@ -116,15 +116,20 @@ body {
     // }
   }
 }
-body main>section ~ section:not(.sc-questionmark):not(.sc-onas-about-columns):not(.sc-onas-team-columns):not(.sc-our-clients){
+// body main>section ~ section:not(.sc-questionmark):not(.sc-onas-about-columns):not(.sc-onas-team-columns):not(.sc-our-clients){
 
-    content-visibility: auto;
+//     content-visibility: auto;
  
     
   
-}
+// }
+// body main>section ~ section div{
+//   content-visibility: auto;
+//   contain-intrinsic-size: 1px 5000px;
+// }
 // body main>section ~ section ~ section{
 //   content-visibility: auto;
+//   contain-intrinsic-size: 1px 5000px;
 // }
 b, strong {
   font-weight: bold;
