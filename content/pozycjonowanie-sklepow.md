@@ -84,5 +84,49 @@ title = "Więcej klientów"
 [[sections.kolumny_3_bg]]
 opis = "Przygotowując strategię SEO na sklep internetowy analizujemy, na które słowa kluczowe warto będzie się pozycjonować. W momencie kiedy Google zacznie indeksować wprowadzane przez nas cykliczne zmiany, będzie przekładać się to cykliczny wzrost wyświetleń Twojej strony i realizacji zakupów."
 title = "Wzrost sprzedaży"
+[[sections]]
+opis = "Jak wykazują badania, z roku na rok sprzedaż w internecie wzrasta o ok. 40%. Pojawiają się coraz to nowsze marki, oferujące różnego rodzaju produkty. Jest coraz więcej dystrybutorów online, poprzez co rozrasta się sieć sklepów e-Commerce. Co ważne, nie zginą tylko Ci, którzy zadbają o naprawdę mocne pozycjonowanie. Samo pozycjonowanie to obecnie nie wszystko. Aby utrzymać swoje pozycje, marki muszą znacząco ułatwiać funkcjonalności sklepów dla swoich klientów. Coraz to szybsze płatności, konfiguratory, oraz co ważne - prosty User Experience. Nadchodzą czasy, w których to doświadczenia użytkownika z korzystania, łatwość posługiwania się interfejsem będą grały pierwsze skrzypce. Na tej samej pozycji pozostaje w dalszym ciągu prawidłowa optymalizacja i seo."
+pytajnik_filled = "z wypelnieniem"
+pytajnik_where_shadow = "po lewej"
+template = "sekcja-z-pytajnikiem"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "DLACZEGO POZYCJONOWANIE E-COMMERCE"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "jest ważne dla marki?"
+txt_block_size = "XL"
+[[sections]]
+logosy_marek = ["/uploads/ahrefs-web.png", "/uploads/lrt-web.png", "/uploads/senuto-web.png", "/uploads/gtm-web.png", "/uploads/gsc-web.png", "/uploads/screamingfrog-web.png"]
+template = "sekcja-galeria-logosow"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "UŻYWAMY NARZĘDZI NAJLEPIEJ DOPASOWANYCH"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "do potrzeb wymagających marek"
+txt_block_size = "XL"
+[[sections]]
+if_background = true
+naglowek = "CHCESZ POPRAWIĆ SWOJĄ POZYCJĘ W SIECI?"
+template = "sekcja-cta-zamow-wycene"
+tytul_odnosnika = "Zamów bezpłatna wycenę"
 
 +++
