@@ -1249,7 +1249,8 @@ form#contactform{
       width: 100%;
       @media (min-width: 992px){
         width: 55%
-       }
+        margin: auto;
+      }
       @media (min-width: 1600px){
         width: (644/1920)*100vw;
       }
@@ -1280,7 +1281,7 @@ form#contactform{
     }
     .banner-right-col{
       width: 100%;
-
+      margin: auto;
       border-radius: 0.5rem;
       opacity: 1;
       z-index: 2;
