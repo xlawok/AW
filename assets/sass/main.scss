@@ -1247,9 +1247,9 @@ form#contactform{
     }
     .banner-left-col{
       width: 100%;
+      margin: auto;
       @media (min-width: 992px){
         width: 55%
-        margin: auto;
       }
       @media (min-width: 1600px){
         width: (644/1920)*100vw;
