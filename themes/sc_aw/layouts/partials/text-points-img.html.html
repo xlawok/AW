@@ -5,8 +5,9 @@
             {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
             <div class='first-col'>
               
-
-                {{.opis}}
+                <div class='txt-L slogan'>
+                    {{.tekst_nad_listowaniem | safeHTML}}
+                </div>
                 {{with .listowanie}}
                     <ul class='red-point-list'>
                         {{range .}}
