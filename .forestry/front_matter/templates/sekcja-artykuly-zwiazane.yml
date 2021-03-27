@@ -1,4 +1,19 @@
 ---
 label: Sekcja - artykuły związane
 hide_body: true
-fields: []
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: tytul_guzika_cta
+  type: text
+  config:
+    required: false
+  label: Tytuł guzika cta
+- name: powiaz_haslem
+  type: text
+  config:
+    required: false
+  label: Powiąż hasłem
