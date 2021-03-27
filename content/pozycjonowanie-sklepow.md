@@ -153,6 +153,48 @@ ornament = "prawa w dół"
 txt_block = "dla e-commerce"
 txt_block_size = "XL"
 [[sections]]
+template = "sekcja-2-kolumny-text-lub-punktory"
+[sections.druga_kolumna]
+listowanie = ["PIK co 6 miesięcy", "Umowa na czas nieokreślony", "Założone efekty, albo zwrot pieniędzy"]
+opis_czy_listowanie = "listowanie"
+tlo = "czerwone"
+[[sections.druga_kolumna.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = true
+color_txt = "biały"
+ornament = "brak"
+txt_block = "OTRZYMUJESZ"
+txt_block_size = "L"
+underline = true
+[[sections.druga_kolumna.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "biały"
+ornament = "brak"
+txt_block = "gwarancję efektów"
+txt_block_size = "XL"
+[sections.pierwsza_kolumna]
+opis = "W ramach obsługi pozycjonowania sklepu, każdy z naszych klientów ma możliwość dodatkowego wsparcia naszego zespołu tj. pozycjonera (technicznego), pozycjonera (linkbuilding), web dewelopera, grafika, copywritera czy marketingowca. Dzięki takim zasobom jesteśmy w stanie kompleksowo doradzić w kwestii marketingu internetowego."
+opis_czy_listowanie = "opis"
+tlo = "białe"
+[[sections.pierwsza_kolumna.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "OBSŁUGA"
+txt_block_size = "L"
+underline = true
+[[sections.pierwsza_kolumna.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "5 w 1"
+txt_block_size = "XL"
+[[sections]]
 listowanie = ["Jesteśmy Partnerem Google.", "Dekowany zespoł specjalistów SEO on-site i off-site całościowo zajmie się Twoim sklepem", "Wspólnie ustalamy Twoje cele marketingowe i przygotujemy konkretne założenia", "Łączymy wiedzę z zakresu SEO, Web Developmentu, User Experience oraz Content Marketing", "Nie robimy wszystkiego dla wszystkich, realizujemy swoją ideę"]
 obrazek = "/uploads/group-217.svg"
 tekst_nad_listowaniem = "<strong>Jesteśmy wrocławskim zespołem, który w pełni zaangażuje się w pracę nad <span class='txt-red'>Twoim</span> serwisem. Twoje efekty są również miarą naszego sukcesu.</strong>"
