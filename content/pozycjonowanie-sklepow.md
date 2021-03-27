@@ -265,5 +265,8 @@ color_txt = "czarny"
 ornament = "prawa w dół"
 txt_block = "wybrać pozycjonowanie sklepu z AW?"
 txt_block_size = "XL"
+[[sections]]
+template = "sekcja-cta-zamow-wycene"
+tytul_odnosnika = "Zamów bezpłatną wycenę"
 
 +++
