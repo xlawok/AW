@@ -195,6 +195,36 @@ ornament = "brak"
 txt_block = "5 w 1"
 txt_block_size = "XL"
 [[sections]]
+template = "sekcja-3-kolumny-z-obrazkami"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "EFEKTY"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "naszej pracy"
+txt_block_size = "XL"
+[[sections.kolumny_3]]
+obrazek = "/uploads/group-169.svg"
+opis = "Naszym celem było zająć się pozycjonowaniem sklepu w bardzo konkurencyjnej branży - z odzieżą damską. Po 6-ciu miesiącach uzyskaliśmy znaczący efekt zwiększenia widoczności słów kluczowych pojawiających się na pierwszej stronie wyników wyszukiwań. Sklep klienta znacząco zyskał na tym procesie optymalizacji i linkbuildingu w zakresie zwiększenia sprzedaży."
+title = "Zwiększenie o 144% ilości słów kluczowych w TOP 10"
+[[sections.kolumny_3]]
+obrazek = "/uploads/group-173.svg"
+opis = "W przypadku rozbudowanych sklepów internetowych znacząco zadaniem jest wykonanie odpowiedniej migracji starego sklepu do nowego - nie tracąc ruchu organicznego. To normalne, że marki ewoluują i czasami zmieniają swoje sklepy rewolucyjnie. Przeprowadziliśmy migrację sklepu klienta w bezpieczny sposób, nie tracąc wyników SEO."
+title = "Bezpieczna migracja sklepu na nowy"
+[[sections.kolumny_3]]
+obrazek = "/uploads/group-178.svg"
+opis = "Prowadzimy klienta z branży reklamowo&artystycznej, gdzie w większości zlecenia pozyskuje się w dwojaki sposób - polecenia albo zapytania z Google. Poprzez optymalizację strony, stałe tworzenie contentu oraz budowanie profilu linkowego domeny zwiększyliśmy 10 krotnie ilość zapytań ofertowych. Przed rozpoczęciem prac było ok. 1 zapytanie miesięcznie, obecnie wpływa ich około 10-ciu. Czas trwania współpracy to 8 miesięcy."
+title = "10x więcej zapytań ofertowych"
+[[sections]]
 listowanie = ["Jesteśmy Partnerem Google.", "Dekowany zespoł specjalistów SEO on-site i off-site całościowo zajmie się Twoim sklepem", "Wspólnie ustalamy Twoje cele marketingowe i przygotujemy konkretne założenia", "Łączymy wiedzę z zakresu SEO, Web Developmentu, User Experience oraz Content Marketing", "Nie robimy wszystkiego dla wszystkich, realizujemy swoją ideę"]
 obrazek = "/uploads/group-217.svg"
 tekst_nad_listowaniem = "<strong>Jesteśmy wrocławskim zespołem, który w pełni zaangażuje się w pracę nad <span class='txt-red'>Twoim</span> serwisem. Twoje efekty są również miarą naszego sukcesu.</strong>"
