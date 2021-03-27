@@ -225,6 +225,26 @@ obrazek = "/uploads/group-178.svg"
 opis = "Prowadzimy klienta z branży reklamowo&artystycznej, gdzie w większości zlecenia pozyskuje się w dwojaki sposób - polecenia albo zapytania z Google. Poprzez optymalizację strony, stałe tworzenie contentu oraz budowanie profilu linkowego domeny zwiększyliśmy 10 krotnie ilość zapytań ofertowych. Przed rozpoczęciem prac było ok. 1 zapytanie miesięcznie, obecnie wpływa ich około 10-ciu. Czas trwania współpracy to 8 miesięcy."
 title = "10x więcej zapytań ofertowych"
 [[sections]]
+powiaz_haslem = "pozycjonowanie sklepów"
+template = "sekcja-artykuly-zwiazane"
+tytul_guzika_cta = "WIĘCEJ AKTUALNOŚCI"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "WIĘCEJ"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czarny"
+ornament = "lewa w dół"
+txt_block = "o pozycjonowaniu e-commerce…"
+txt_block_size = "XL"
+[[sections]]
 listowanie = ["Jesteśmy Partnerem Google.", "Dekowany zespoł specjalistów SEO on-site i off-site całościowo zajmie się Twoim sklepem", "Wspólnie ustalamy Twoje cele marketingowe i przygotujemy konkretne założenia", "Łączymy wiedzę z zakresu SEO, Web Developmentu, User Experience oraz Content Marketing", "Nie robimy wszystkiego dla wszystkich, realizujemy swoją ideę"]
 obrazek = "/uploads/group-217.svg"
 tekst_nad_listowaniem = "<strong>Jesteśmy wrocławskim zespołem, który w pełni zaangażuje się w pracę nad <span class='txt-red'>Twoim</span> serwisem. Twoje efekty są również miarą naszego sukcesu.</strong>"
