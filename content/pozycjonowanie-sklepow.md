@@ -128,5 +128,46 @@ if_background = true
 naglowek = "CHCESZ POPRAWIĆ SWOJĄ POZYCJĘ W SIECI?"
 template = "sekcja-cta-zamow-wycene"
 tytul_odnosnika = "Zamów bezpłatna wycenę"
+[[sections]]
+listowanie = ["Budowanie świadomości i popularności marki", "Widoczność na pożądane słowa kluczowe wyszukiwane przez klientów", "Odpowiednie zoptymalizowane strony produktowe", "Odpowiednie zoptymalizowane strony produktowe", "Zwiększenie sprzedaży produktów", "Możliwość na szybki rozwój marki w internecie"]
+obrazek = "/uploads/group-217.svg"
+tekst_nad_listowaniem = "<strong>Co zyskuje marka dzięki pozycjonowaniu e-commerce?</strong>"
+template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "STRATEGIE SEO"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "dla e-commerce"
+txt_block_size = "XL"
+[[sections]]
+listowanie = ["Jesteśmy Partnerem Google.", "Dekowany zespoł specjalistów SEO on-site i off-site całościowo zajmie się Twoim sklepem", "Wspólnie ustalamy Twoje cele marketingowe i przygotujemy konkretne założenia", "Łączymy wiedzę z zakresu SEO, Web Developmentu, User Experience oraz Content Marketing", "Nie robimy wszystkiego dla wszystkich, realizujemy swoją ideę"]
+tekst_nad_listowaniem = "<strong>Jesteśmy wrocławskim zespołem, który w pełni zaangażuje się w pracę nad Twoim serwisem. Twoje efekty są również miarą naszego sukcesu.</strong>"
+template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "DLACZEGO WARTO"
+txt_block_size = "XL"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "wybrać pozycjonowanie sklepu z AW?"
+txt_block_size = "XL"
 
 +++
