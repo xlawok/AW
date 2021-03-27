@@ -75,6 +75,11 @@
     {{if eq .template "sekcja-kolumny-z-cyframi-w-tle"}}
       {{- partial "kolumny-z-cyframi.html" . -}}
     {{end}}
+    {{if eq .template "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"}}
+      {{- partial "text-points-img.html" . -}}
+    {{end}}
+
+    
   {{ end }}
   
 

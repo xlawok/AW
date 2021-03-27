@@ -179,6 +179,22 @@ h1,.h1,h2,.h2,h3,.h3{
   word-wrap: normal !important;
 
 }
+ul.red-point-list{
+  list-style: none;
+  padding-left: 1rem;
+  li{
+    position: relative;
+    padding: .5rem 0;
+    &:before {
+      content: "•";
+      color: var(--red);
+      font-size: 1.5rem;
+      display: inline-block;
+      width: 1rem;
+      margin-left: -1rem;
+    }
+  }
+}
 .sec-padding{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1529,7 +1545,21 @@ form#contactform{
           top: 3rem;
         }
       }
-     
+      .no-img-banner-list{
+        padding-left: 1rem;
+        list-style: none;
+        li{
+          &:before {
+            content: "•";
+            color: var(--red);
+            display: inline-block;
+            width: 1rem;
+            margin-left: -1rem;
+            font-size: 1.5rem;
+          }
+        }
+      }
+      
     }
 
 
@@ -1805,7 +1835,8 @@ form#contactform{
         color: var(--red);
         display: inline-block; 
         width: 1rem;
-        margin-left: -1rem
+        margin-left: -1rem;
+        font-size: 1.5rem;
       }
     }
   }
@@ -2865,6 +2896,7 @@ form#contactform{
             display: inline-block; 
             font-size: 1.5rem;
             width: 1rem;
+            
             margin-left: -1rem
           }
         }
@@ -3120,6 +3152,7 @@ justify-content: center;
   padding-top: 4rem;
   position: relative;
   z-index: 0;
+ 
   &:after{
     content: '';
     display: block;
@@ -4297,6 +4330,58 @@ justify-content: center;
   }
   
 }
+.sc-text-points-img{
+  padding-top: 6rem;
+  background-color: #f2f2f2;
+  @at-root body.dark-m .sc-text-points-img{
+    background-color: var(--main-dark-color);
+  }
+  &:not(:last-child){
+    .two-col-row
+    >.header-template{
+      position: relative;
+      z-index: 0;
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 7.375rem;
+        height: 7.375rem;
+        transform: translate(5rem,-1rem)rotate(83deg);
+        background: var(--white)no-repeat padding-box;
+      }
+    }
+  }
+  .two-col-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    >.header-template{
+      width: 100%;
+    }
+    .first-col{
+      width: 100%;
+      @media (min-width: 992px){
+        width: 60%;
+      }
+
+    }
+    .second-col{
+      width: 100%;
+      @media (min-width: 992px){
+        width: 40%;
+      }
+      img{
+        width: 100%;
+        @media (min-width: 992px){
+          transform: translateY(-5rem);
+        }
+      }
+    }
+  }
+}
+
 
 .pozycjonowanie-sklepow{
   section.sc-cta-bg {
@@ -4305,9 +4390,37 @@ justify-content: center;
     
     section.sc-logos {
     position: relative;
+      >.header-template{
+        position: relative;
+        z-index: 0;
+        &:before {
+          content: '';
+          display: block;
+          position: absolute;
+          z-index: -1;
+          width: 7.375rem;
+          height: 7.375rem;
+          transform: translate(0,2rem)rotate(105deg);
+          background: #f2f2ff no-repeat padding-box;
+        }
+      }
     }
   .sc-questionmark{
     background-color: transparent;
+    >.header-template{
+      position: relative;
+      z-index: 0;
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 7.375rem;
+        height: 7.375rem;
+        transform: translate(1rem,-5rem)rotate(85deg);
+        background: #f2f2ff no-repeat padding-box;
+      }
+    }
   }
   
 }

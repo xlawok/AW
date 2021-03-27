@@ -1,0 +1,30 @@
+<section class='sec-padding sc-text-points-img'>
+    
+        <div class='two-col-row cnt-visibility'>
+            {{ $header_list := (.header_repeater) }}
+            {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
+            <div class='first-col'>
+              
+
+                {{.opis}}
+                {{with .listowanie}}
+                    <ul class='red-point-list'>
+                        {{range .}}
+                        <li>{{.}}</li>
+                        {{end}}
+                    </ul>
+                {{end}}
+
+                
+            </div>
+            <div class='second-col'>
+          
+                {{- partial "img.html" (dict "image" .obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "")  -}}
+                        
+                   
+                   
+
+            </div>
+        </div>
+    
+</section>
