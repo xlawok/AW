@@ -60,6 +60,7 @@ fields:
   - sekcja-faq
   - sekcja-box-wysrodkowany-z-tekstem
   - sekcja-kolumny-z-cyframi-w-tle
+  - sekcja-1-wiersz-tekst-listowanie-i-zdjecie
   config:
     min: 
     max: 
