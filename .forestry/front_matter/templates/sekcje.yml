@@ -63,6 +63,7 @@ fields:
   - sekcja-1-wiersz-tekst-listowanie-i-zdjecie
   - sekcja-2-kolumny-text-lub-punktory
   - sekcja-3-kolumny-z-obrazkami
+  - sekcja-artykuly-zwiazane
   config:
     min: 
     max: 
