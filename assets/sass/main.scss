@@ -4386,7 +4386,47 @@ justify-content: center;
     }
   }
 }
-
+.sc-two-cols-desc-points{
+  .two-col-row{
+    display: grid;
+    grid-template-columns: 1fr;
+    @media (min-width: 768px){
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    background-color: #f2f2f2;
+    >div{
+      box-shadow: 0 3px 20px rgba(0, 0, 0, 0.16);
+      padding-top: 1rem;
+      padding-bottom: 2rem;
+      &.tlo-biale{
+        background-color: var(--white);
+      }
+      &.tlo-czerwone{
+        background-color: var(--red);
+        color: var(--white);
+        .red-point-list{
+          
+          li:before {
+            
+            color: var(--white);
+          }
+        }
+      }
+      width: 100%;
+      @media (min-width: 768px){
+        // width: 50%;
+        &.sec-padding-left{
+          padding-right: 4rem;
+          margin: 2rem 0;
+        }
+        &.sec-padding-right{
+          padding-left: 3rem;
+        }
+      }
+    }
+  }
+}
 .cennik-pozycjonowanie{
   .sc-banner-center-noimg .center-banner-cnt::after {
     

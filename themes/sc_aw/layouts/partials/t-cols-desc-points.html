@@ -1,0 +1,49 @@
+<section class='sc-two-cols-desc-points'>
+    
+        <div class='two-col-row cnt-visibility'>
+           {{with .pierwsza_kolumna}}
+            <div class='sec-padding sec-padding-left  first-col tlo-{{.tlo}}'>
+                {{ $header_list := (.header_repeater) }}
+                {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
+       
+                {{if eq .opis_czy_listowanie "listowanie"}}
+                    {{with .listowanie}}
+                        <ul class='red-point-list'>
+                            {{range .}}
+                            <li>{{.}}</li>
+                            {{end}}
+                        </ul>
+                    {{end}}
+                {{end}}
+                {{if eq .opis_czy_listowanie "opis"}}
+                    <div class=' opis'>
+                        {{.opis | safeHTML}}
+                    </div>
+                {{end}}
+                
+            </div>
+            {{end}}
+            {{with .druga_kolumna}}
+            <div class='sec-padding sec-padding-right second-col tlo-{{.tlo}}'>
+                {{ $header_list := (.header_repeater) }}
+                {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
+       
+                {{if eq .opis_czy_listowanie "listowanie"}}
+                    {{with .listowanie}}
+                        <ul class='red-point-list'>
+                            {{range .}}
+                            <li>{{.}}</li>
+                            {{end}}
+                        </ul>
+                    {{end}}
+                {{end}}
+                {{if eq .opis_czy_listowanie "opis"}}
+                    <div class=' opis'>
+                        {{.opis | safeHTML}}
+                    </div>
+                {{end}}
+            </div>
+            {{end}}
+        </div>
+    
+</section>

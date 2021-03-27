@@ -78,7 +78,10 @@
     {{if eq .template "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"}}
       {{- partial "text-points-img.html" . -}}
     {{end}}
-
+    {{if eq .template "sekcja-2-kolumny-text-lub-punktory"}}
+      {{- partial "t-cols-desc-points.html" . -}}
+    {{end}}
+    
     
   {{ end }}
   

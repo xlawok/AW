@@ -53,7 +53,7 @@ fields:
     config:
       required: false
       options:
-      - białe
+      - biale
       - czerwone
       source:
         type: simple
@@ -113,7 +113,7 @@ fields:
     config:
       required: false
       options:
-      - białe
+      - biale
       - czerwone
       source:
         type: simple

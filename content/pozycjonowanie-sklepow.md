@@ -177,7 +177,7 @@ txt_block_size = "XL"
 [sections.pierwsza_kolumna]
 opis = "W ramach obsługi pozycjonowania sklepu, każdy z naszych klientów ma możliwość dodatkowego wsparcia naszego zespołu tj. pozycjonera (technicznego), pozycjonera (linkbuilding), web dewelopera, grafika, copywritera czy marketingowca. Dzięki takim zasobom jesteśmy w stanie kompleksowo doradzić w kwestii marketingu internetowego."
 opis_czy_listowanie = "opis"
-tlo = "białe"
+tlo = "biale"
 [[sections.pierwsza_kolumna.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
