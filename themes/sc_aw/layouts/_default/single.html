@@ -84,6 +84,9 @@
     {{if eq .template "sekcja-3-kolumny-z-obrazkami"}}
       {{- partial "kolumny-z-obrazkami.html" . -}}
     {{end}}
+    {{if eq .template "sekcja-artykuly-zwiazane"}}
+      {{- partial "related-by.html" . -}}
+    {{end}}
     
   {{ end }}
   
