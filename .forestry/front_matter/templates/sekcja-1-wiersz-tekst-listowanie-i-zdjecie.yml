@@ -1,4 +1,30 @@
 ---
 label: Sekcja 1 wiersz tekst-listowanie i zdjecie
 hide_body: true
-fields: []
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: tekst_nad_listowaniem
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Tekst nad listowaniem
+- name: listowanie
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Listowanie
+- name: obrazek
+  type: file
+  config:
+    maxSize: 2
+  label: Obrazek
