@@ -4427,6 +4427,65 @@ justify-content: center;
     }
   }
 }
+.sc-cols-w-img{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #f2f2f2;
+  >.header-template{
+    position: relative;
+    z-index: 0;
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      z-index: -1;
+      width: 7.375rem;
+      height: 7.375rem;
+      transform: translate(4rem,0rem)rotate(123deg);
+      background: var(--white)no-repeat padding-box;
+    }
+  }
+  .cols-w-no-sec-header  {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .cols-w-img{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding-left: 0;
+    @media (min-width: 768px){
+      grid-template-columns: 3fr 3fr 3fr;
+    }
+    li{
+      position: relative;
+      z-index: 0;
+      padding: 4rem 0;
+      display: flex;
+      flex-direction: column;
+    }
+    img{
+      width: 100%;
+      padding: 1rem;
+      max-height: 15rem;
+    }
+    .col-header{
+      font-weight: bold;
+      font-family: var(--header-font);
+      padding-bottom: 2rem;
+      line-height: (42/36);
+      // flex-grow: 2;
+      height: 10rem;
+    }
+    .col-desc{
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--red);
+      flex-grow: 1;
+    }
+  }
+}
 .cennik-pozycjonowanie{
   .sc-banner-center-noimg .center-banner-cnt::after {
     

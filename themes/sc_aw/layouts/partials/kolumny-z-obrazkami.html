@@ -1,0 +1,24 @@
+<section class='sec-padding sc-cols-w-img'>
+
+
+    
+    {{ $header_list := .header_repeater }}
+  
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "cols-w-no-sec-header")  -}}
+    {{with .kolumny_3}}
+        <ul class="cols-w-img">
+            
+            {{ range $index, $item:= . }} 
+                <li class="col-w-img">
+                    {{- partial "img.html" (dict "image" .obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "")  -}}
+                    <div class="col-header  txt-L">{{$item.title}}</div>
+                    <div class="col-desc">{{$item.opis | safeHTML}}</div>
+                    
+                </li>
+            
+
+            {{end}}
+        </ul>
+    {{end}}
+
+</section>

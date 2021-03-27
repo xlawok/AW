@@ -81,7 +81,9 @@
     {{if eq .template "sekcja-2-kolumny-text-lub-punktory"}}
       {{- partial "t-cols-desc-points.html" . -}}
     {{end}}
-    
+    {{if eq .template "sekcja-3-kolumny-z-obrazkami"}}
+      {{- partial "kolumny-z-obrazkami.html" . -}}
+    {{end}}
     
   {{ end }}
   
