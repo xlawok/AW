@@ -161,7 +161,7 @@ break_line = true
 color_txt = "czerwony"
 ornament = "brak"
 txt_block = "DLACZEGO WARTO"
-txt_block_size = "XL"
+txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
 block_tag_type = "h2"
