@@ -62,6 +62,7 @@ fields:
   - sekcja-kolumny-z-cyframi-w-tle
   - sekcja-1-wiersz-tekst-listowanie-i-zdjecie
   - sekcja-2-kolumny-text-lub-punktory
+  - sekcja-3-kolumny-z-obrazkami
   config:
     min: 
     max: 
