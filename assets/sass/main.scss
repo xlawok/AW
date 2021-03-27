@@ -4375,17 +4375,24 @@ justify-content: center;
       img{
         width: 100%;
         @media (min-width: 992px){
-          transform: translateY(-5rem);
+          transform: translate(5rem,-5rem);
         }
       }
     }
     .slogan{
       line-height: (42/35);
+      position: relative;
+      z-index: 0;
     }
   }
 }
 
-
+.cennik-pozycjonowanie{
+  .sc-banner-center-noimg .center-banner-cnt::after {
+    
+    bottom: -10.625rem;
+    }
+}
 .pozycjonowanie-sklepow{
   section.sc-cta-bg {
     position: relative;

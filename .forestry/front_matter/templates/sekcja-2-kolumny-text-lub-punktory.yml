@@ -62,3 +62,63 @@ fields:
         path: 
     label: Tło
   label: Pierwsza kolumna
+- name: druga_kolumna
+  type: field_group
+  config: {}
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: opis
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Opis
+    showOnly:
+      field: opis_czy_listowanie
+      value: opis
+  - name: listowanie
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Listowanie
+    showOnly:
+      field: opis_czy_listowanie
+      value: listowanie
+  - name: opis_czy_listowanie
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - opis
+      - listowanie
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Opis czy listowanie
+  - name: tlo
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - białe
+      - czerwone
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Tło
+  label: Druga kolumna
