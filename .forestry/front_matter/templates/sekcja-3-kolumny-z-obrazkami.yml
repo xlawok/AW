@@ -1,4 +1,36 @@
 ---
 label: Sekcja 3 kolumny z obrazkami
 hide_body: true
-fields: []
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: kolumny_3
+  type: field_group_list
+  fields:
+  - name: obrazek
+    type: file
+    config:
+      maxSize: 2
+    label: Obrazek
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Tytuł
+  - name: opis
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Opis
+  config:
+    min: 3
+    max: 3
+    labelField: 
+  label: Trzy kolumny
