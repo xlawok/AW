@@ -7,7 +7,7 @@ title = "Pozycjonowanie cennik"
 [menu.main]
 name = "Cennik pozycjonowania"
 parent = "Pozycjonowanie"
-weight = 2
+weight = 3
 [[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_right = ""

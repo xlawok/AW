@@ -4,6 +4,9 @@ keywords = ""
 robots = "index follow"
 slug = "pozycjonowanie-sklepow"
 title = "Pozycjonowanie sklepów"
+[menu.main]
+parent = "Pozycjonowanie"
+weight = 2
 [[sections]]
 banner_bg_no_img = "/uploads/group-215.svg"
 banner_cta_title = "Zamów bezpłatną wycenę"
