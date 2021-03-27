@@ -61,6 +61,7 @@ fields:
   - sekcja-box-wysrodkowany-z-tekstem
   - sekcja-kolumny-z-cyframi-w-tle
   - sekcja-1-wiersz-tekst-listowanie-i-zdjecie
+  - sekcja-2-kolumny-text-lub-punktory
   config:
     min: 
     max: 
