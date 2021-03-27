@@ -4614,12 +4614,32 @@ z-index: 1;
       }
   }
 }
+/*home additional styles*/
   .home span.f-w900.txt-underline.txt-break.txt-red.txt-XL {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
   .home span.header-template.f-w700.txt-black.txt-XXL {
-  font-size: 2.75rem;
+    font-size: 2.75rem;
+}
+
+  .home .sc-two-col-img-txt .two-col-row:nth-child(even)>div:last-child{
+    padding-right: 8em;
+}
+
+  .home span.header-template.f-w700.txt-black.txt-XL.ornament-r-b {
+    font-size: 2.75rem;
+}
+
+  .home section.sec-padding.sc-our-clients {
+    padding-bottom: 5rem;
+}
+  .home .services-cols-cnt.cnt-visibility {
+    margin: -2em;
+    padding: 2em;
+}
+.home .two-col-row.cnt-visibility {
+  padding-bottom: 2em;
 }
 // @import 'colours.scss';
 // @import 'glide.core.scss';
