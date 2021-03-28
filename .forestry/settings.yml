@@ -39,9 +39,8 @@ sections:
   templates:
   - autorzy
 - type: document
-  path: data/footer.toml
+  path: data/footer.yml
   label: Stopka
-  match: "**/*"
 - type: document
   path: data/blogs.yml
   label: Ustawienia wyświetlania postów
