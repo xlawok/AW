@@ -1,0 +1,58 @@
++++
+description = "Pozycjonowanie lokalne Wroclaw"
+keywords = ""
+robots = ""
+slug = "pozycjonowanie-lokalne"
+title = "Pozycjonowanie lokalne"
+[[sections]]
+banner_bg_for_center_left = ""
+banner_bg_for_center_right = ""
+banner_bg_no_img = "/uploads/group-213.svg"
+banner_center_img = ""
+banner_cta_title = "Zamów bezpłatną wycenę"
+banner_cta_url = []
+banner_form_html = ""
+banner_form_html_no_img = ""
+banner_form_script = ""
+banner_form_script_no_img = ""
+banner_img = ""
+banner_type = "no_img_only_background"
+naglowek_formularza = ""
+naglowek_formularza_no_img = ""
+opis_banner = ""
+otworz_modal = " <div class=\"form-header\">Zamów bezpłatną wycenę w 24h!</div>\n<form id=\"contactform\" action=\"https://formsubmit.io/send/piotr.m.kowalski@gmail.com\" method=\"POST\">\n<div class=\"input-cnt\">\n <input required=\"\" name=\"email\" type=\"email\" id=\"email\" placeholder=\"Adres e-mail\"><label for=\"email\"> Adres e-mail</label>\n</div>\n<div class=\"input-cnt\">\n    <input name=\"www\" type=\"url\" id=\"www\" placeholder=\"Adres strony www\"><label for=\"www\">Adres strony www</label>\n</div>\n<div class=\"input-cnt\">\n    <input required=\"\" name=\"phone\" type=\"tel\" id=\"phone\" placeholder=\"Numer telefonu\"><label for=\"phone\">Numer telefonu</label>\n   </div>\n   <div>\n<span class=\"radio-cnt-title\">Wybierz temat zapytania</span>\n <div class=\"form-radio\">\n\n  <input type=\"radio\" id=\"optimization\" name=\"question\" value=\"optymalizacja\"><label for=\"optimization\">\nOptymalizacja strony WWW </label>\n</div>\n <div class=\"form-radio\">\n \n  <input type=\"radio\" id=\"positoning\" name=\"question\" value=\"pozyjnonowanie\"><label for=\"positoning\">Pozycjonowanie\n </label>\n</div>\n <div class=\"form-radio\">\n \n  <input type=\"radio\" id=\"consulting\" name=\"question\" value=\"konsultacje\"><label for=\"consulting\">Konsultacje SEO\n </label>\n</div>\n</div>\n\n    <input name=\"_formsubmit_id\" type=\"text\" style=\"display:none\">\n\n    <button type=\"submit\">Wyślij zapytanie</button>\n<div class=\"rodo\">\n<input id=\"rodo-accept\" type=\"checkbox\" required=\"\" name=\"rodo-accept\" value=\"accept\">\n<label for=\"rodo-accept\">Administratorem Twoich danych osobowych, czyli podmiotem decydującym o celach i sposobach przetwarzania Twoich danych osobowych jest Agencja Wrocławska. Informujemy, że podanie danych osobowych zawartych w formularzu jest dobrowolne, ale niezbędne do skutecznego nawiązania kontaktu z Administratorem, jak również przysługują Ci prawa dostępu do Twoich danych osobowych, ich zmiany (w tym aktualizacji), a także pozostałe prawa opisane w Polityce prywatności. W Polityce prywatności znajdują się także szczegółowe informację w zakresie praw i obowiązków Administratora.\n</label>\n</div>\n</form>"
+template = "banner"
+[[sections.banner_header_cnt.header_repeater]]
+block_tag_type = "h1"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "Pozycjonowanie lokalne"
+txt_block_size = "XL"
+underline = true
+[[sections.banner_header_cnt.header_repeater]]
+block_tag_type = "h1"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Nowe strategie SEO dla lokalnych marek"
+txt_block_size = "XL"
+underline = false
+[sections.banner_slogan]
+header_repeater = []
+[sections.box_pod_zdj_ciem]
+header_repeater = []
+kolumny = []
+opis = ""
+[[sections.banner_list_gruop]]
+banenr_list_item = "Rozpoznanie potrzeb klientów lokalnych"
+[[sections.banner_list_gruop]]
+banenr_list_item = "Proste i przejrzyste warunki współpracy Indywidualne rozwiązania "
+[[sections.banner_list_gruop]]
+banenr_list_item = "Indywidualne rozwiązania "
+[[sections.banner_list_gruop]]
+banenr_list_item = "Wysokie i stabilne pozycje w Google"
+
++++
