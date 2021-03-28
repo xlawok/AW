@@ -3154,26 +3154,7 @@ justify-content: center;
   position: relative;
   z-index: 0;
  
-  &:after{
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    left: 0;
-    height: 15.5rem;
-    bottom: -4.625rem;
-    height: 75.5rem;
-    bottom: -45rem;
-    z-index: -2;
-    clip-path: ellipse(90% 60% at 51% 100%);
-    clip-path: url(#my-clip-path2);
-    background-color: #fff;
-    @at-root body.dark-m .sc-questionmark::after {
-      background-color: #242424;
-    }
-    z-index: -1;
-    // background: white;
-  }
+ 
   &.question-border:before {
     content: '';
     display: block;
@@ -4490,6 +4471,36 @@ justify-content: center;
     }
   }
 }
+.pozycjonowanie-stron{
+  .sc-questionmark{
+  
+
+   
+    &:after{
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      height: 15.5rem;
+      bottom: -4.625rem;
+      height: 75.5rem;
+      bottom: -45rem;
+      z-index: -2;
+      clip-path: ellipse(90% 60% at 51% 100%);
+      clip-path: url(#my-clip-path2);
+      background-color: #fff;
+      @at-root body.dark-m .sc-questionmark::after {
+        background-color: #242424;
+      }
+      z-index: -1;
+      // background: white;
+    }
+  }
+  .sc-offer-w-tiles{
+    padding-bottom: 4rem;
+  }
+}
 .cennik-pozycjonowanie{
   .sc-banner-center-noimg .center-banner-cnt::after {
     
@@ -4516,6 +4527,10 @@ justify-content: center;
   }
   .sec-padding.sc-logos{
     background-color: #f2f2f2;
+    @at-root body.dark-m.cennik-pozycjonowanie .sec-padding.sc-logos{
+      background-color: #242424;
+      z-index: 1;
+    }
     z-index: 0;
     position: relative;
     padding-top: 10rem;
@@ -4550,6 +4565,9 @@ justify-content: center;
       height: 23.5rem;
       top: -11rem;
       background-color: #ffffff;
+      @at-root body.dark-m.cennik-pozycjonowanie .sec-padding.sc-logos::after{
+        background-color: #242424;
+      }
       clip-path: ellipse(90% 60% at 51% 100%);
       z-index: -1;
       transform: rotate(180deg);
@@ -4558,15 +4576,45 @@ justify-content: center;
   .sc-offer-w-tiles{
     padding-top: 4rem;
     background-color: #F2F2F2;
+    @at-root  body.dark-m.cennik-pozycjonowanie .sc-offer-w-tiles{
+      background-color: var(--main-dark-color);
+      z-index: 0;
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        
+        height: 23.5rem;
+        
+        background-color: #242424;
+        top: -10rem;
+        clip-path: ellipse(90% 60% at 51% 100%);
+        z-index: -1;
+        
+        transform: rotate(180deg);
+      }
+    }
     padding-bottom: 2rem;
+  }
+  @at-root body.dark-m.cennik-pozycjonowanie .sc-compare {
+    
+    z-index: 2;
   }
   .sc-faq{
     padding-top: 4rem;
     background-color: #F2F2F2;
+    @at-root  body.dark-m.cennik-pozycjonowanie .sc-faq{
+      background-color: var(--main-dark-color);
+    }
   }
-  .sc-cta{
+  .sc-cta:not(.sc-cta-bg){
     padding-top: 4rem;
     background-color: #F2F2F2;
+    @at-root  body.dark-m.cennik-pozycjonowanie .sc-cta{
+      background-color: var(--main-dark-color);
+    }
   }
 }
 .pozycjonowanie-sklepow{
@@ -4576,6 +4624,7 @@ justify-content: center;
     
   section.sc-logos {
     position: relative;
+    padding-bottom: 8rem;
       >.header-template{
         position: relative;
         z-index: 0;
@@ -4589,6 +4638,24 @@ justify-content: center;
           transform: translate(0,2rem)rotate(105deg);
           background: #f2f2ff no-repeat padding-box;
         }
+      }
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        
+        
+        
+        clip-path: ellipse(90% 60% at 51% 100%);
+        height: 70.5rem;
+        bottom: -54rem;
+        clip-path: url(#my-clip-path);
+        background-color: #f2f2f2;
+        
+        z-index: -1;
+        transform: scaleX(-1);
       }
   }
   .sc-questionmark{
@@ -4618,10 +4685,8 @@ justify-content: center;
       position: absolute;
       width: 100%;
       left: 0;
-      height: 15.5rem;
-      bottom: -4.625rem;
       height: 75.5rem;
-      bottom: -50rem;
+      bottom: -49rem;
       z-index: -2;
       clip-path: ellipse(90% 60% at 51% 100%);
       clip-path: url(#my-clip-path2);
@@ -4629,6 +4694,9 @@ justify-content: center;
       z-index: -1;
       transform: scaleX(-1);
     }
+  }
+  .sc-front-news{
+    padding-top: 8rem;
   }
   .sc-cols-w-no{
     padding-top: 8rem;
@@ -4638,13 +4706,14 @@ justify-content: center;
       content: url(/img/AW-gray.svg);
       position: absolute;
       display: block;
-      right: -20%;
+      
       z-index: -1;
-      top: -50%;
+      right: -35%;
+      top: 0;
       height: 100%;
   
       width: 50%;
-      transform: scale(.7);
+      
       @at-root body.dark-m .sc-our-clients:before{
         filter: grayscale(1);
       }
@@ -4691,6 +4760,29 @@ z-index: 1;
       position: absolute;
       top: -1rem;
     }
+  }
+
+  .sc-front-news ~ .sc-text-points-img{
+    position: relative;
+    z-index: 0;
+    padding-top: 8rem;
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      clip-path: ellipse(90% 60% at 51% 100%);
+      height: 70.5rem;
+      clip-path: url(#my-clip-path2);
+      background-color: #fff;
+      z-index: -1;
+      top: -45rem;
+      transform: rotate(180deg) scaleX(-1);
+    }
+  }
+  .sc-cta:not(.sc-cta-bg){
+    background-color: #f2f2f2;
   }
 }
 .home{
