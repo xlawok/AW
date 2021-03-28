@@ -1,4 +1,105 @@
 ---
 label: STOPKA
 hide_body: true
-fields: []
+fields:
+- name: pierwsza_kolumna
+  type: field_group
+  config: {}
+  fields:
+  - name: logo
+    type: file
+    config:
+      maxSize: 1
+    label: LOGO
+  - name: opis
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Opis
+  label: Pierwsza kolumna
+- name: druga_kolumna
+  type: field_group_list
+  fields:
+  - name: wybierz_odnosniki
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: pages
+        file: 
+        path: 
+    label: Wybierz odnośniki
+  - name: tytul_odnosnika
+    type: text
+    config:
+      required: false
+    label: Tytuł odnośnika
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Druga kolumna
+- name: trzecia_kolumna
+  type: field_group_list
+  fields:
+  - name: adres_odnosnika
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: pages
+        file: 
+        path: 
+    label: Adres odnośnika
+  - name: tytul_odnosnika
+    type: text
+    config:
+      required: false
+    label: Tytuł odnośnika
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Trzecia kolumna
+- name: czwarta_kolumna
+  type: field_group_list
+  fields:
+  - name: ikona
+    type: file
+    config:
+      maxSize: 64
+    label: Ikona
+  - name: adres_odnosnika
+    type: text
+    config:
+      required: false
+    label: Adres odnośnika
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Czwarta kolumna
+- name: wiersz_dolny
+  type: field_group
+  config: {}
+  fields:
+  - name: tekst
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Tekst
+  label: Wiersz dolny
