@@ -1,0 +1,26 @@
+---
+pierwsza_kolumna:
+  logo: "/uploads/logo-aw-black.svg"
+  opis: <p>Agencja Wrocławska Sp. z o.o. <br>ul. Piłsudskiego 74 <br>50-020 Wrocław</p><p><a
+    href="kontakt@agencjawroclawska.pl" title="" target="_blank">kontakt@agencjawroclawska.pl</a></p>
+druga_kolumna:
+- wybierz_odnosniki: pozycjonowanie-stron.md
+  tytul_odnosnika: Pozycjonowanie stron
+- wybierz_odnosniki: pozycjonowanie-cennik.md
+  tytul_odnosnika: Cennik
+- wybierz_odnosniki: pozycjonowanie-sklepow.md
+  tytul_odnosnika: Sklepy internetowe
+- wybierz_odnosniki: pozycjonowanie-lokalne.md
+  tytul_odnosnika: Lokalne
+- wybierz_odnosniki: konsultacje-seo.md
+  tytul_odnosnika: Konsultacje SEO
+trzecia_kolumna:
+- adres_odnosnika: o-nas.md
+  tytul_odnosnika: O nas
+- adres_odnosnika: kontakt.md
+  tytul_odnosnika: Formularz kontaktowy
+wiersz_dolny:
+  tekst: "<p>© 2021 Wszelkie prawa zastrzeżone</p>"
+czwarta_kolumna:
+- ikona: ''
+  adres_odnosnika: ''

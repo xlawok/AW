@@ -103,3 +103,5 @@ fields:
         format: html-blocks
     label: Tekst
   label: Wiersz dolny
+pages:
+- data/footer.yml
