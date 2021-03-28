@@ -54,5 +54,105 @@ banenr_list_item = "Proste i przejrzyste warunki współpracy Indywidualne rozwi
 banenr_list_item = "Indywidualne rozwiązania "
 [[sections.banner_list_gruop]]
 banenr_list_item = "Wysokie i stabilne pozycje w Google"
+[[sections]]
+opis = "Pozycjonowanie lokalne jest to cała strategia działań dla serwisu, która ma spowodować zwiększenie zasięgów i poprawienie widoczności na ustalone frazy kluczowe związane bezpośrednio z lokalizacją. Jest to idealne rozwiązanie dla klientów, którzy chcą skupić się na wyższych pozycjach na terenie gminy, powiatu czy województwa. Nie są im potrzebne frazy ogólnopolskie. Słowa kluczowe powinny zawierać dopiski większych miast, takich jak Wrocław. Jest to najlepsza strategia SEO dla klienta oraz agencji, ponieważ skupiając się na danej lokalizacji - stronę klienta odwiedzają jego docelowi klienci, których poszukuję. Natomiast agencji jest dużo łatwiej wypozycjonować stronę na frazy, na które jest mniejsza konkurencja i trudność osiągnięcia wyższych pozycji w Google."
+template = "sekcja-box-wysrodkowany-z-tekstem"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "JAKIE DZIAŁANIA"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "overujemy?"
+txt_block_size = "XL"
+underline = false
+[[sections]]
+template = "sekcja-kolumny-z-cyframi-w-tle"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "TECHNIKA"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "3B"
+txt_block_size = "XL"
+underline = false
+[[sections.kolumny_3_bg]]
+opis = "Klient, który nie zna marki, ale potrzebuje znaleźć daną usługę lub produkt w internecie, przede wszystkim będzie kierował się pozycją w Google. Im wyżej znajdziemy się na danej frazie w wyszukiwarce, tym mamy większą szansę na zwiększenie ruchu organicznego na domenie. Na wielu frazach lokalnych konkurencja nie jest aż tak duża, jak w przypadku fraz ogólnopolskich, dzięki czemu w prosty sposób można wykreować przewagę nad konkurencją."
+title = "Budowanie przewagi nad konkurancją"
+[[sections.kolumny_3_bg]]
+opis = "Więcej wejść na stronę = więcej potencjalnych klientów w portfolio. Bezwartościowy ruch budowany na frazach popularnych, ale nie mających nic wspólnego z typem naszej działalności nie dostarczy nam nowych kupujących. Warto postawić na frazy lokalne, które poza ruchem dostarczą nam również prawdziwych klientów. Bardzo ważne jest, żeby oprawa graficzna, jak i proste udoskonalenia strony zachęciły klienta do dokonania zakupu, a nie zniechęciły go do powrotu na stronę. W ten sposób można stopniowo budować bazę stałych klientów, którzy zapamiętają prosty interfejs i z chęcią do nas wrócą po kolejne produkty w przyszłości."
+title = "Budowanie bazy klientów"
+[[sections.kolumny_3_bg]]
+opis = "W obecnych czasach musimy wyodrębnić dwa typy wizerunku marki. Jeden z nich to wizerunek internetowy, a drugi rzeczywisty. Wiele firm, które postawiły na rozwój w internecie wcześniej - obecnie stały się hegemonem na rynku lokalnym, mimo że w rzeczywistości są to małe firmy, niekiedy jednoosobowe działalności gospodarcze. Z drugiej strony mamy potężne wizerunkowo firmy, które zaniedbały dbanie o wizerunek internetowy i mają obecnie problem, żeby nawet przy ogromnych nakładach finansowych wywindować się w pozycjach wyszukiwania. Dlatego istotną kwestią jest elastyczność na nowe możliwosci, jakie daje nam internet w kontekście SEO."
+title = "Budowanie wizerunku"
+[[sections]]
+opis = "Na przestrzeni ostatnich miesięcy, kiedy ogromną liczbę firm w Polsce dotknął kryzys związany z lockdownami - Polacy zaczęli dużo więcej spraw załatwiać przez internet. Tyczy się to większości usług, jak i sprzedaży. Właściciele firm musieli postawić na nowe kanały promocji swoich produktów. Dla wielu krajan, którzy jeszcze kilkanaście miesięcy temu wszystko załatwiali z dala od internetu, zmieniły się standardy. Obecnie wszystko czego potrzebuje klient, znajdzie w internecie, a wszystko rozpoczyna się od wyszukiwarki. To tam są wpisywane hasła i frazy, które akurat go interesują, a najwyższe pozycję są dodatkowo premiowane, ponieważ ludzie klikają głównie w wyniki na samej górze wyszukiwań. Pozycjonowanie lokalne pozwala na dotarcie do tych samych lub zupełnie innych grup docelowych przez to, że przy odpowiedniej pracy optymalizacyjnej i graficznej - konsumenci chętniej zdecydują się na wybór usługi i produktu na stronie marki. Pozycjonowanie regionalne jest nadwyraz skuteczne i opłacalne dla właścicieli biznesów, bo zwiększy liczbę odwiedzających i kupujących, ale również wiąże się z mniejszymi opłatami niż w przypadku pozycjonowania ogólnopolskiego."
+pytajnik_filled = "z wypelnieniem"
+pytajnik_where_shadow = "po prawej"
+template = "sekcja-z-pytajnikiem"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "Dlaczego pozycjonowanie lokalne"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "jest ważne dla marki?"
+txt_block_size = "XL"
+underline = false
+[[sections]]
+powiaz_haslem = "lokalne"
+template = "sekcja-artykuly-zwiazane"
+tytul_guzika_cta = "WIĘCEJ AKTUALNOŚCI"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "WIĘCEJ"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "lewa w dół"
+txt_block = "o pozycjonowaniu lokalnym"
+txt_block_size = "XL"
+underline = false
+[[sections]]
+if_background = false
+naglowek = ""
+template = "sekcja-cta-zamow-wycene"
+tytul_odnosnika = "Zamów bezpłatną wycenę"
 
 +++
