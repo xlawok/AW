@@ -1,3 +1,51 @@
+{{ $footer := site.Data.footer }}
+{{with $footer}}
+<footer>
+  <div class="first-row">
+    {{with .pierwsza_kolumna}}
+    <div class='first-col'>
+      {{- partial "img.html" (dict "image" .logo "imgsizes" "" "tag_class" "footer-logo" "ifsrcset" "nosrcset")  -}}
+      <div class='footer-address'>
+        {{.opis  | safeHTML}}
+      </div>
+    </div>
+    {{end}}
+    {{with .druga_kolumna}}
+    <div class='second-col'>
+      <ul>
+      {{range .}}
+        {{$tytul_odnosnika:=.tytul_odnosnika}}
+        {{ with site.GetPage .wybierz_odnosniki }}
+            
+            <li><a href="{{.RelPermalink}}">{{$tytul_odnosnika}}</a></li>
+        {{end}}
+        
+      {{end}}
+      </ul>
+    </div>
+    {{end}}
+    {{with .trzecia_kolumna}}
+    <div class='third-col'>
+      <ul>
+      {{range .}}
+        {{$tytul_odnosnika:=.tytul_odnosnika}}
+        {{ with site.GetPage .adres_odnosnika }}
+            
+            <li><a href="{{.RelPermalink}}">{{$tytul_odnosnika}}</a></li>
+        {{end}}
+        
+      {{end}}
+      </ul>
+    </div>
+    {{end}}
+  </div>
+  {{with .wiersz_dolny }}
+  <div class="second-row">
+    {{ .tekst | safeHTML}}
+  </div>
+  {{end}}
+</footer>
+{{end}}
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   var all_modal_cta=document.querySelectorAll('.open-modal-quote');
