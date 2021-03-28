@@ -2988,6 +2988,12 @@ form#contactform{
       }
   }
 }
+.front-news-more-cnt{
+  text-align: center;
+  margin-top: 4rem;
+  position: relative;
+z-index: 1;
+}
 .home .sc-front-news{
   background: #F2F2F2 0% 0% no-repeat padding-box;
   padding-top: 0rem;
@@ -4321,6 +4327,9 @@ justify-content: center;
   @at-root body.dark-m .sc-text-points-img{
     background-color: var(--main-dark-color);
   }
+  @at-root body.dark-m.pozycjonowanie-sklepow  .sc-front-news ~ .sc-text-points-img{
+    background-color: #242424;
+  }
   &:not(:last-child){
     .two-col-row
     >.header-template{
@@ -4335,6 +4344,10 @@ justify-content: center;
         height: 7.375rem;
         transform: translate(5rem,-1rem)rotate(83deg);
         background: var(--white)no-repeat padding-box;
+        @at-root body.dark-m .sc-text-points-img:not(:last-child) .two-col-row > .header-template::before {
+         
+          background-color: #242424;
+        } 
       }
     }
   }
@@ -4380,12 +4393,18 @@ justify-content: center;
     }
     
     background-color: #f2f2f2;
+    @at-root body.dark-m .sc-two-cols-desc-points .two-col-row{
+      background-color: var(--main-dark-color);
+    }
     >div{
       box-shadow: 0 3px 20px rgba(0, 0, 0, 0.16);
       padding-top: 1rem;
       padding-bottom: 2rem;
       &.tlo-biale{
         background-color: var(--white);
+        @at-root body.dark-m .sc-two-cols-desc-points .two-col-row > div.tlo-biale{
+          background-color: #242424;
+        }
       }
       &.tlo-czerwone{
         background-color: var(--red);
@@ -4416,6 +4435,10 @@ justify-content: center;
   padding-top: 4rem;
   padding-bottom: 4rem;
   background-color: #f2f2f2;
+  @at-root body.dark-m .sc-cols-w-img{
+    background-color: var(--main-dark-color);
+  }
+  
   >.header-template{
     position: relative;
     z-index: 0;
@@ -4428,6 +4451,9 @@ justify-content: center;
       height: 7.375rem;
       transform: translate(4rem,0rem)rotate(123deg);
       background: var(--white)no-repeat padding-box;
+      @at-root body.dark-m .sc-cols-w-img > .header-template::before{
+        background-color: #242424;
+      }
     }
   }
   .cols-w-no-sec-header  {
@@ -4625,6 +4651,9 @@ justify-content: center;
   section.sc-logos {
     position: relative;
     padding-bottom: 8rem;
+    @at-root body.dark-m.pozycjonowanie-sklepow .sc-cols-w-no {
+      background-color: #242424;
+    }
       >.header-template{
         position: relative;
         z-index: 0;
@@ -4637,6 +4666,9 @@ justify-content: center;
           height: 7.375rem;
           transform: translate(0,2rem)rotate(105deg);
           background: #f2f2ff no-repeat padding-box;
+          @at-root body.dark-m.pozycjonowanie-sklepow section.sc-logos > .header-template::before{
+            background-color: var(--main-dark-color);
+          }
         }
       }
       &:after {
@@ -4653,13 +4685,18 @@ justify-content: center;
         bottom: -54rem;
         clip-path: url(#my-clip-path);
         background-color: #f2f2f2;
-        
+        @at-root body.dark-m.pozycjonowanie-sklepow section.sc-logos::after{
+          background-color: var(--main-dark-color);
+        }
         z-index: -1;
         transform: scaleX(-1);
       }
   }
   .sc-questionmark{
     background-color: transparent;
+    @at-root body.dark-m.pozycjonowanie-sklepow  .sc-questionmark{
+      background-color: transparent;
+    }
     >.header-template{
       position: relative;
       z-index: 0;
@@ -4691,6 +4728,9 @@ justify-content: center;
       clip-path: ellipse(90% 60% at 51% 100%);
       clip-path: url(#my-clip-path2);
       background-color: #fff;
+      @at-root body.dark-m.pozycjonowanie-sklepow .sc-txt-in-middle::after {
+        background: #242424;
+      }
       z-index: -1;
       transform: scaleX(-1);
     }
@@ -4704,6 +4744,9 @@ justify-content: center;
     z-index: 0;
     &:before{
       content: url(/img/AW-gray.svg);
+      @at-root body.dark-m.pozycjonowanie-sklepow .sc-cols-w-no::before {
+        content: url(/img/AW-red.svg);
+      }
       position: absolute;
       display: block;
       
@@ -4714,9 +4757,12 @@ justify-content: center;
   
       width: 50%;
       
-      @at-root body.dark-m .sc-our-clients:before{
-        filter: grayscale(1);
-      }
+      // @at-root body.dark-m .sc-our-clients:before{
+      //   filter: grayscale(1);
+      // }
+    }
+    @at-root body.dark-m.pozycjonowanie-sklepow .sc-cols-w-no .cols-w-no .no-bg {
+      color: var(--main-dark-color);
     }
   }
 
@@ -4776,6 +4822,9 @@ z-index: 1;
       height: 70.5rem;
       clip-path: url(#my-clip-path2);
       background-color: #fff;
+      @at-root body.dark-m.pozycjonowanie-sklepow .sc-front-news ~ .sc-text-points-img::after{
+        background-color: var(--main-dark-color);
+      }
       z-index: -1;
       top: -45rem;
       transform: rotate(180deg) scaleX(-1);
@@ -4783,7 +4832,14 @@ z-index: 1;
   }
   .sc-cta:not(.sc-cta-bg){
     background-color: #f2f2f2;
+    @at-root body.dark-m.pozycjonowanie-sklepow  .sc-cta:not(.sc-cta-bg){  
+      background-color: transparent;
+    }
   }
+  @at-root body.dark-m.pozycjonowanie-sklepow  .sc-cta.sc-cta-bg{
+    background-color: var(--red);
+  }
+
 }
 .home{
   main{
