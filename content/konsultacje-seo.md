@@ -1,4 +1,5 @@
 +++
+body_class = "konsultacje-seo"
 description = "Konsultacje SEO"
 keywords = ""
 robots = ""
