@@ -1,4 +1,5 @@
 +++
+body_class = "pozycjonowanie-stron"
 description = "Pozycjonowanie stron"
 keywords = ""
 robots = ""
