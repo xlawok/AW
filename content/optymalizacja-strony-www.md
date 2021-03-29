@@ -5,6 +5,10 @@ keywords = ""
 robots = ""
 slug = "optymalizacja-seo"
 title = "Optymalizacja strony WWW"
+[menu.main]
+name = "Optymalizacja SEO"
+parent = "Pozycjonowanie"
+weight = 6
 [[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_right = ""
