@@ -4,7 +4,10 @@
   <div class="first-row">
     {{with .pierwsza_kolumna}}
     <div class='first-col'>
-      {{- partial "img.html" (dict "image" .logo "imgsizes" "" "tag_class" "footer-logo" "ifsrcset" "nosrcset")  -}}
+ 
+      
+        <img class='lmode footer-logo' src='{{.logo}}'>
+        <img class='dmode footer-logo' src='{{.logo_dark}}'>
       <div class='footer-address'>
         {{.opis  | safeHTML}}
       </div>
@@ -33,6 +36,24 @@
             
             <li><a href="{{.RelPermalink}}">{{$tytul_odnosnika}}</a></li>
         {{end}}
+        
+      {{end}}
+      </ul>
+    </div>
+    {{end}}
+    {{with .czwarta_kolumna}}
+    <div class='fourth-col'>
+      <ul class='footer-social-list'>
+      {{range .}}
+       
+       
+            
+            <li><a rel='nofollow' href="{{.adres_odnosnika}}">
+              <img class='lmode ' src='{{.ikona}}'>
+              <img class='dmode' src='{{.ikona_dark}}'>
+
+            </a></li>
+       
         
       {{end}}
       </ul>
