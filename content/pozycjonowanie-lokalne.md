@@ -1,4 +1,5 @@
 +++
+body_class = "pozycjonowanie-lokalne"
 description = "Pozycjonowanie lokalne Wroclaw"
 keywords = ""
 robots = ""
