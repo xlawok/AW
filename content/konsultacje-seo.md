@@ -7,7 +7,7 @@ slug = "konsultacje-seo"
 title = "Konsultacje SEO"
 [menu.main]
 parent = "Pozycjonowanie"
-weight = 4
+weight = 5
 [[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_right = ""
@@ -77,7 +77,7 @@ txt_block_size = "XL"
 underline = false
 [[sections.wiersze_tabela]]
 kolumna_1 = "Konsultacje - pozycjonowanie"
-kolumna_2 = "od 1190 zł"
+kolumna_2 = "od 200 zł zł/h"
 kolumna_3 = ""
 [[sections]]
 opis = "Pozycjonowanie stron internetowych jest bardzo rozległym tematem, na które ma wpływ niezliczona liczba czynników. To nie tylko poprawa i optymalizacja działania strony, czy odpowiednie ustawienie metatagów na Twojej stronie. To cały system, w którym każdy trybik odgrywa określoną ważną rolę dla całości. Na konsultacjach z nami dowiesz się wszystkiego czego potrzebujesz do tego, żeby więcej ludzi odwiedzało Twój portal i spróbujesz sam obrać swój model biznesowy, po to, aby zmaksymalizować swoje zyski. Chętnie podzielimy się swoimi doświadczeniami, stawiamy mocno na szczerość i prawdę, nawet jeśli miałaby być bolesna. Opowiemy Ci o technikach i możliwościach jakie otwierają przed Tobą przeglądarki takie jak Google."
