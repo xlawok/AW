@@ -3815,7 +3815,7 @@ justify-content: center;
 }
 .sc-cta{
   text-align: center;
-  padding: 6rem 2rem 2rem 2rem;
+  padding: 6rem 2rem 6rem 2rem;
   
   @at-root body.dark-m .sc-cta{
     background-color: var(--main-dark-color);
@@ -4917,6 +4917,100 @@ justify-content: center;
     background-color: var(--red);
   }
 
+}
+.pozycjonowanie-lokalne{
+  .sc-txt-in-middle{
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      height: 33rem;
+      bottom: -12.1875rem;
+      transform: rotate(180deg);
+      z-index: -2;
+      clip-path: ellipse(90% 60% at 51% 100%);
+      clip-path: url(#my-clip-path2);
+      z-index: -1;
+      background: #f2f2f2;
+      @at-root body.dark-m.pozycjonowanie-lokalne .sc-txt-in-middle:after{
+        background: var(--main-dark-color);
+      }
+    }
+  }
+  @at-root body.dark-m.pozycjonowanie-lokalne .sc-cols-w-no .cols-w-no .no-bg {
+    color: var(--main-dark-color);
+  }
+  .sc-questionmark{
+    background-color: transparent;
+    @at-root body.dark-m.pozycjonowanie-lokalne .sc-questionmark{
+      background-color: transparent;
+    }
+    position: relative;
+    z-index: 1;
+    padding-bottom: 4rem;
+  }
+  .sc-front-news{
+    background-color: #f2f2f2;
+    padding-top: 6rem;
+    position: relative;
+    z-index: 0;
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      height: 15.5rem;
+      top: 30.375rem;
+      height: 23.5rem;
+      top: -11rem;
+      background-color: #fff;
+      @at-root body.dark-m.pozycjonowanie-lokalne .sc-front-news:after{
+        background-color: #242424;
+      }
+      clip-path: ellipse(90% 60% at 51% 100%);
+      z-index: -1;
+      transform: rotate(180deg);
+    }
+  }
+  .sc-cta{
+    background-color: #f2f2f2;
+    @at-root body.dark-m.pozycjonowanie-lokalne .sc-cta{
+      background-color: #242424;
+    }
+    padding-bottom: 6rem;
+  }
+}
+.optymalizacja-seo{
+  .sc-txt-in-middle{
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      height: 33rem;
+      bottom: -12.1875rem;
+      transform: rotate(180deg);
+      z-index: -2;
+      clip-path: ellipse(90% 60% at 51% 100%);
+      clip-path: url(#my-clip-path2);
+      z-index: -1;
+      background: #f2f2f2;
+      @at-root body.dark-m.optymalizacja-seo .sc-txt-in-middle:after{
+        background: var(--main-dark-color);
+      }
+    }
+  }
+  @at-root body.dark-m.optymalizacja-seo .sc-cols-w-no .cols-w-no .no-bg {
+    color: var(--main-dark-color);
+  }
+  @at-root body.dark-m.optymalizacja-seo .sc-cta-bg {
+    background-color: var(--red);
+  }
+  
 }
 .home{
   main{
