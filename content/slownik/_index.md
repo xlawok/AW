@@ -1,4 +1,5 @@
 +++
+body_class = ""
 description = "Słownik SEO/SEM"
 keywords = ""
 robots = "index follow"
@@ -24,6 +25,7 @@ banner_type = "no_img_only_background"
 naglowek_formularza = ""
 naglowek_formularza_no_img = ""
 opis_banner = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro…"
+otworz_modal = ""
 template = "banner"
 [[sections.banner_header_cnt.header_repeater]]
 block_tag_type = "h1"
@@ -49,5 +51,10 @@ header_repeater = []
 header_repeater = []
 kolumny = []
 opis = ""
+[[sections]]
+if_background = false
+naglowek = ""
+template = "sekcja-cta-zamow-wycene"
+tytul_odnosnika = "Zamów bezpłatną wycenę"
 
 +++
