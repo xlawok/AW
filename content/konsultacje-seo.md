@@ -10,7 +10,7 @@ weight = 4
 [[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_right = ""
-banner_bg_no_img = "/uploads/pozycjonowanie-stron.svg"
+banner_bg_no_img = "/uploads/ban-konsultacje.svg"
 banner_center_img = ""
 banner_cta_title = "Zapisz się na konsultacje SEO"
 banner_cta_url = []
