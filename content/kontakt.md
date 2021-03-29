@@ -77,11 +77,11 @@ wiersz_danych_adresowych = "Agencja Wrocławska Sp. z o.o."
 [[sections.contact_data_contact_group.lewa_kolumna.dane_adresowe]]
 adres_do_linkowania = ""
 if_link = "none"
-wiersz_danych_adresowych = "ul. Piłsudskiego 74"
+wiersz_danych_adresowych = "ul. Hercena 3-5"
 [[sections.contact_data_contact_group.lewa_kolumna.dane_adresowe]]
 adres_do_linkowania = ""
 if_link = "none"
-wiersz_danych_adresowych = "50-020 Wrocław"
+wiersz_danych_adresowych = "50-453 Wrocław"
 [[sections.contact_data_contact_group.lewa_kolumna.dane_adresowe]]
 adres_do_linkowania = "+48 536 742 137"
 if_link = "tel"
