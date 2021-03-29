@@ -5093,6 +5093,14 @@ justify-content: center;
     }
   }
 }
+.kontakt{
+  .sc-contact{
+    background-color: transparent;
+    @at-root body.dark-m.kontakt .sc-contact{
+      background: var(--main-dark-color)
+    }
+  }
+}
 .home{
   main{
     section:not(:first-child){
