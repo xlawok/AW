@@ -12,6 +12,12 @@ fields:
   config:
     required: true
   label: Permalink
+- name: body-class
+  type: text
+  config:
+    required: false
+  label: body-class
+  description: Wpisz klasy oddzielone spacją
 - name: keywords
   type: text
   config:
