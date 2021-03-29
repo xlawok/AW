@@ -54,6 +54,11 @@ sections:
   banner_cta_title: ''
   banner_bg_for_center_left: "/uploads/onas-left.svg"
   banner_bg_for_center_right: "/uploads/onas-right.svg"
+  naglowek_formularza_no_img: ''
+  banner_form_html_no_img: ''
+  banner_form_script_no_img: ''
+  opis_banner: ''
+  otworz_modal: ''
 - template: sekcja-strona-o-nas-kolumny-historia-misja
   kolumny_o_nas:
   - opis: 'Dwóch entuzjastów branży SEO postanowiło rozpocząć komercjalizacje swojego
@@ -180,6 +185,7 @@ keywords: ''
 robots: index follow
 description: O agencji wrocławskiej
 url: o-nas
+body_class: o-nas
 menu:
   main:
     weight: 2

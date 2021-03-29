@@ -1,4 +1,5 @@
 +++
+body_class = "pozycjonowanie-sklepow"
 description = "Pozycjonowanie sklepów"
 keywords = ""
 robots = "index follow"

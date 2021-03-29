@@ -1,4 +1,5 @@
 +++
+body_class = "pozycjonowanie-lokalne"
 description = "Pozycjonowanie lokalne Wroclaw"
 keywords = ""
 robots = ""
@@ -10,7 +11,7 @@ weight = 3
 [[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_right = ""
-banner_bg_no_img = "/uploads/group-213.svg"
+banner_bg_no_img = "/uploads/ban-pozycjonowanie-lokalne.svg"
 banner_center_img = ""
 banner_cta_title = "Zamów bezpłatną wycenę"
 banner_cta_url = []
