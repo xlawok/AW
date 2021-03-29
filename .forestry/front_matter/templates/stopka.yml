@@ -20,6 +20,12 @@ fields:
       schema:
         format: html-blocks
     label: Opis
+  - name: logo_dark
+    type: file
+    config:
+      maxSize: 64
+    label: Logo dark
+    description: Logo dla ciemnego motwu
   label: Pierwsza kolumna
 - name: druga_kolumna
   type: field_group_list
