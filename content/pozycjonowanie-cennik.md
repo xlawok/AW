@@ -1,4 +1,5 @@
 +++
+body_class = "cennik-pozycjonowanie"
 description = "Cennik usług pozycjonowania SEO i SEM"
 keywords = ""
 robots = ""
