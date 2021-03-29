@@ -109,5 +109,31 @@ title = "Oszczędność PPC"
 [[sections.kolumny_3_bg]]
 opis = "Zwiększa się ruch organiczny na stronie, klienci chętniej i częściej odwiedzają stronę w celu wykonania zapytania ofertowego bądź zakupu, oszczędza się pieniądze ze względu na brak AdWordsów. Wszystkie te zalety wynikające z dobrze wykonanej optymalizacji mają tak naprawdę jeden cel główny, najważniejszy. Jest nim zasobność portfela osoby prowadzącej stronę. To po to tak naprawdę wykonuje się samą optymalizację strony, jak i całkowity zakres prac SEO - wszystkie zmiany prowadzą do potencjalnie wyższych dochodów na przestrzeni kolejnych miesięcy/lat."
 title = "Więcej pieniędzy w portfelu"
+[[sections]]
+logosy_marek = ["/uploads/senuto-web.png", "/uploads/ahrefs-web.png", "/uploads/screamingfrog-web.png", "/uploads/gtm-web.png", "/uploads/lrt-web.png", "/uploads/gsc-web.png"]
+template = "sekcja-galeria-logosow"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "UŻYWAMY NARZĘDZI NAJLEPIEJ DOPASOWANYCH"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "do potrzeb wymagających marek"
+txt_block_size = "XL"
+underline = false
+[[sections]]
+if_background = true
+naglowek = "CHCESZ POPRAWIĆ SWOJĄ POZYCJĘ W SIECI?"
+template = "sekcja-cta-zamow-wycene"
+tytul_odnosnika = "Zamów bezpłatną wycenę"
 
 +++
