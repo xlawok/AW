@@ -12,7 +12,7 @@ fields:
   config:
     required: true
   label: Permalink
-- name: body-class
+- name: body_class
   type: text
   config:
     required: false
