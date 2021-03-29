@@ -90,6 +90,12 @@ fields:
     config:
       required: false
     label: Adres odnośnika
+  - name: ikona_dark
+    type: file
+    config:
+      maxSize: 64
+    label: Ikona dark
+    description: Ikona dla ciemnego motywu
   config:
     min: 
     max: 

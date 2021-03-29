@@ -1,7 +1,7 @@
 ---
 pierwsza_kolumna:
   logo: "/uploads/logo-aw-black.svg"
-  opis: <p>Agencja Wrocławska Sp. z o.o. <br>ul. Piłsudskiego 74 <br>50-020 Wrocław</p><p><a
+  opis: <p>Agencja Wrocławska Sp. z o.o. <br>ul. Hercena 3-5 <br>50-453 Wrocław</p><p><a
     href="mailto:kontakt@agencjawroclawska.pl" title="" target="_blank">kontakt@agencjawroclawska.pl</a></p>
   logo_dark: "/uploads/logo-aw-white.svg"
 druga_kolumna:
@@ -23,5 +23,9 @@ trzecia_kolumna:
 wiersz_dolny:
   tekst: "<p>© 2021 Wszelkie prawa zastrzeżone</p>"
 czwarta_kolumna:
-- ikona: ''
-  adres_odnosnika: ''
+- ikona: "/uploads/linkedin-in.svg"
+  adres_odnosnika: https://www.linkedin.com/company/agencja-wrocławska/
+  ikona_dark: "/uploads/linkedin-in.svg"
+- ikona: "/uploads/facebook-f.svg"
+  adres_odnosnika: https://www.facebook.com/agencjawroclawskaseo
+  ikona_dark: "/uploads/facebook-f.svg"
