@@ -23,6 +23,9 @@ trzecia_kolumna:
 wiersz_dolny:
   tekst: "<p>© 2021 Wszelkie prawa zastrzeżone</p>"
 czwarta_kolumna:
+- ikona: "/uploads/linkedin-in.svg"
+  adres_odnosnika: https://www.linkedin.com/company/agencja-wrocławska/
+  ikona_dark: "/uploads/linkedin-in.svg"
 - ikona: "/uploads/facebook-f.svg"
   adres_odnosnika: https://www.facebook.com/agencjawroclawskaseo
   ikona_dark: "/uploads/facebook-f.svg"
