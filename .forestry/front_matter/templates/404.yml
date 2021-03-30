@@ -1,4 +1,18 @@
 ---
 label: '404'
 hide_body: true
-fields: []
+fields:
+- name: obrazek
+  type: file
+  config:
+    maxSize: 64
+  label: Focia pod zero
+- name: tekst_pod_404
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: tekst pod 404
