@@ -114,7 +114,7 @@ Optymalizacja strony WWW </label>
 </div></div>
 <script>
     var mform = document.getElementById("mcontactform");
-    if(mform){
+    if(mform.length>0){
     async function handleSubmit(event) {
       event.preventDefault();
       var status = document.getElementById("mmy-form-status");
@@ -137,7 +137,7 @@ Optymalizacja strony WWW </label>
 </script>
 <script>
   var form = document.getElementById("contactform");
-  if(form){
+  if(form.length>0){
   async function handleSubmit(event) {
     event.preventDefault();
     var status = document.getElementById("my-form-status");
