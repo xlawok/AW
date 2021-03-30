@@ -19,3 +19,4 @@ fields:
   label: Zdjęcie
 pages:
 - data/authors/bartek.yml
+- data/authors/jakub.yml
