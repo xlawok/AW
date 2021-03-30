@@ -38,6 +38,9 @@ toLower = false
 name = "categories"
 weight = 100
 [[related.indices]]
+name = "tags"
+weight = 50
+[[related.indices]]
 name = "letters"
 weight = 100
 [sitemap]
