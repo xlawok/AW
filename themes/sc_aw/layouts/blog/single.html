@@ -35,7 +35,7 @@
       
         <div class='article-content-wrapper'>
             <div class='is-about'>
-                {{ with $.Params.lista_o_czym_przeczytasz}}
+                {{ with $.Params.lista_o_czym_przeczytasz_group}}
                     <div class='is-about-title'>
                     {{ with $.Params.tytul_o_czym_przeczytasz}}
                         {{.}}
@@ -45,7 +45,7 @@
                     </div>
                     <ol class='is-about-list'>
                         {{range . }}
-                            <li class='is-about-item'>{{ . }}</li>
+                            <li class='is-about-item'><a href="#{{ .adres_odnosnika | urlize}}">{{ .title }}</a></li>
                         {{end}}
                     </ol>
                 {{end}}
