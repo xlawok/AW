@@ -1455,6 +1455,7 @@ form#contactform,form#mcontactform{
 
 .sc-banner-center-noimg{
   position: relative;
+  
   .banner-right-col{
     width: 100%;
 
@@ -2697,10 +2698,13 @@ form#contactform,form#mcontactform{
     }
   } 
   .dictionary-page{
-    padding-top: 3rem;
-    @at-root body.dark-m.list .dictionary-page {
-      background-color: var(--main-dark-color);
-    }
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    position: relative;
+    z-index: 1;
+    // @at-root body.dark-m.list .dictionary-page {
+    //   background-color: var(--main-dark-color);
+    // }
     .letters-cnt{
       padding: 2rem 0;
       @media (min-width: 1200px){
@@ -2735,7 +2739,7 @@ form#contactform,form#mcontactform{
         position: relative;
         border: 2px solid #F2F2F2;
         @at-root body.dark-m.list .dictionary-page .letters-list-all > li {
-        
+          background-color: #242424;
           border: 2px solid #242424;
         }
         a:hover{
@@ -5116,6 +5120,60 @@ justify-content: center;
     background-color: #f2f2f2;
     @at-root body.dark-m.kontakt .sc-contact{
       background: var(--main-dark-color)
+    }
+  }
+}
+.slownik-listowanie{
+  @at-root body.dark-m.slownik-listowanie{
+    background-color: var(--main-dark-color);
+  }
+  .sc-banner-center-noimg .center-banner-cnt{
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      height: 33rem;
+      bottom: -12.1875rem;
+      transform: rotate(180deg);
+      
+      clip-path: ellipse(90% 60% at 51% 100%);
+      clip-path: url(#my-clip-path2);
+      z-index: -1;
+      background: #f2f2f2;
+      @at-root body.dark-m.slownik-listowanie .sc-banner-center-noimg .center-banner-cnt:after{
+        background: #242424;
+      }
+    }
+  }
+  .sc-cta{
+    background: #f2f2f2;
+    @at-root body.dark-m.slownik-listowanie .sc-cta{
+      background: #242424;
+    }
+    position: relative;
+    z-index: 0;
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      
+      
+      transform: rotate(180deg);
+      height: 20rem;
+      top: -12.1875rem;
+      transform: scale(-1);
+      
+      clip-path: ellipse(90% 60% at 51% 100%);
+      clip-path: url(#my-clip-path2);
+      z-index: -1;
+      background: var(--white);
+      @at-root body.dark-m.slownik-listowanie .sc-cta:after{
+        background: var(--main-dark-color);
+      }
     }
   }
 }
