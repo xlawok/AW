@@ -141,25 +141,25 @@ sections:
   section_team_group:
   - obrazek: "/uploads/bartek-500x500.jpg"
     my_name: Bartek
-    stanowisko: New Business Leader
+    stanowisko: Marketing Manager
   - obrazek: "/uploads/kuba-500x500.jpg"
     my_name: Jakub
-    stanowisko: New Business Leader
+    stanowisko: SEO Manager
   - obrazek: "/uploads/konrad-500x500.jpg"
     my_name: Konrad
-    stanowisko: New Business Leader
+    stanowisko: UX/UI Specialist
   - obrazek: "/uploads/piotr-500x500.jpg"
     my_name: Piotr
-    stanowisko: New Business Leader
+    stanowisko: Web Developer
   - obrazek: "/uploads/agata-500x500.jpg"
     my_name: Agata
-    stanowisko: New Business Leader
+    stanowisko: SEO Specialist
   - obrazek: "/uploads/mateusz-500x500.jpg"
     my_name: Mateusz
-    stanowisko: New Business Leader
+    stanowisko: SEO Specialist
   - obrazek: "/uploads/sziba-500x500.jpg"
     my_name: Shiba
-    stanowisko: New Business Leader
+    stanowisko: Doge
 - template: sekcja-nasi-klienci
   show_sec_clients: true
   header_repeater:
