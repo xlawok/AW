@@ -10,7 +10,7 @@ obrazek = ""
 robots = "index follow"
 slug = "marketing-internetowy-co-to-takiego"
 summary = "Marketing internetowy to termin obejmujący wszystkie produkty i usługi <strong>marketingu online</strong>. Obejmuje to różne metody i platformy używane do komunikowania się z klientami, takie jak strony internetowe, poczty e-mail, media społecznościowe i reklamy online. Postaram się opisać cały schemat widoczny w <strong>marketingu internetowym</strong>, roli i znaczeniu marketingu internetowego w przedsiębiorstwach oraz o tym, jak go wykorzystać na swoją korzyść."
-tags = ["marketing"]
+tags = ["marketing", "optymalizacja"]
 title = "Marketing internetowy, co to takiego?"
 tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
 [[header_repeater]]

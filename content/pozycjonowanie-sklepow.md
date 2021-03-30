@@ -115,6 +115,7 @@ template = "sekcja-galeria-logosow"
 [[sections.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
+break_line = true
 color_txt = "czerwony"
 ornament = "brak"
 txt_block = "UŻYWAMY NARZĘDZI NAJLEPIEJ DOPASOWANYCH"
