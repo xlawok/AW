@@ -70,6 +70,7 @@ fields:
   - sekcja-2-kolumny-text-lub-punktory
   - sekcja-3-kolumny-z-obrazkami
   - sekcja-artykuly-zwiazane
+  - '404'
   config:
     min: 
     max: 
