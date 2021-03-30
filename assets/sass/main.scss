@@ -947,6 +947,12 @@ main{
 }
 //end checkbox
 // FORm
+#my-form-status,#mmy-form-status{
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
 #contactform,#mcontactform{
   padding-bottom: 1rem;
   input{
@@ -5269,3 +5275,61 @@ justify-content: center;
 }
 // @import 'colours.scss';
 // @import 'glide.core.scss';
+#p404{
+  background-color:#F63D37;
+}
+.cnt-404 {
+  position: relative;
+  color: var(--white);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  h1{
+    font-size: 40vw;
+    position: relative;
+    margin: 0;
+    z-index: 1;
+    color: var(--white);
+    line-height: 1;
+    font-family: var(--base-font);
+    font-family: var(--base-font);
+    text-align: center;
+    white-space: nowrap;
+  }
+  .header-0{
+    position: relative;
+    display: inline-block;
+  }
+  .doggie-cnt{
+    position: absolute;
+    display: block;
+
+    
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    
+    
+    
+    
+    
+    
+    
+    height: 1.1ex;
+    
+    
+    width: 14vw;
+    
+    left: 50%;
+    top: 50%;
+    img{
+      width: 100%;
+      display: block;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .under-404{
+    // color: var(--white);
+    text-align: center;
+    font-weight: bold;
+  }
+}

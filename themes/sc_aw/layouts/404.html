@@ -1,8 +1,27 @@
 {{ define "main" }}
-<section id="main">
-  <div>
-   <h1 id="title">{{ .Title }}</h1>
+<section id="p404" class="sec-padding">
+  <div class='cnt-404'>
+  
+   
+  {{ with site.GetPage "/404" }}
+    
+    {{ range .Params.sections }}
+    <h1 id="title">
+      4<span class="header-0">
+        0
+        <span class="doggie-cnt">{{- partial "img.html" (dict "image" .obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "dog-404")  -}}</span>
+      </span>4
+      
+    </h1>
+        
+      <div class='under-404'>
+        {{.tekst_pod_404 | safeHTML}}
+      </div>
+    {{end}}
+  {{ end }}
+
+   
   </div>
 </section>
 
-{{ end }}
+{{end}}
