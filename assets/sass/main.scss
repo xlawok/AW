@@ -947,7 +947,7 @@ main{
 }
 //end checkbox
 // FORm
-#contactform{
+#contactform,#mcontactform{
   padding-bottom: 1rem;
   input{
     width: 100%;
@@ -1147,7 +1147,7 @@ main{
 }
 
 //        FLOATING LABELS
-form#contactform{
+form#contactform,form#mcontactform{
   > div {
     position: relative;
     overflow: hidden;
@@ -1273,6 +1273,24 @@ form#contactform{
     }
     &:after{
       transform: rotate(45deg);
+    }
+  }
+  .form-header{
+    text-align: left;
+    font-size: 1.8125rem;
+    @media (min-width: 1200px){
+      font-size: 2vw;
+    }
+    @media (min-width: 1600px){
+      font-size: 1.8125rem;
+    }
+    font-weight: bold;
+    line-height: (36/29);
+    letter-spacing: 0px;      
+    opacity: 1;
+    
+    @at-root body.dark-m  .form-header{
+      color: var(--main-dark-color);
     }
   }
 }
