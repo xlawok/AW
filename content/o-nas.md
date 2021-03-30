@@ -179,6 +179,10 @@ sections:
     block_tag_type: h2
     ornament: brak
     txt_block_size: L
+- template: sekcja-cta-zamow-wycene
+  tytul_odnosnika: Zamów bezpłatną wycenę
+  if_background: false
+  naglowek: ''
 title: O nas
 slug: o-nas
 keywords: ''
