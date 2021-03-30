@@ -54,7 +54,9 @@
 
 
 </section>
-{{ with .otworz_modal}}
-{{- partial "modal.html" (dict "modal_data" . "modal_name" "modal1")  -}}
+{{if false }}
+    {{ with .otworz_modal}}
+    {{- partial "modal.html" (dict "modal_data" . "modal_name" "modal1")  -}}
 
+    {{end}}
 {{end}}

@@ -67,6 +67,97 @@
   {{end}}
 </footer>
 {{end}}
+<div data-modalname="modal1" class="modal-quote-outer"><a href="#" class="button-close-modal"></a><div class="modal-wrapper">
+<div id="mmy-form-status"></div>
+<form id="mcontactform" action="https://formspree.io/f/xdoynvwe" method="POST">
+<div class='input-cnt'>
+ <input required name="email" type="email" id="email" placeholder="Adres e-mail"><label for='email'> Adres e-mail</label>
+</div>
+<div class='input-cnt'>
+    <input name="www" type="url" id="www" placeholder="Adres strony www"><label for='www'>Adres strony www</label>
+</div>
+<div class='input-cnt'>
+    <input  required name="phone" type="tel" id="phone" placeholder="Numer telefonu"><label for='phone'>Numer telefonu</label>
+   </div>
+   <div>
+<span class='radio-cnt-title'>Wybierz temat zapytania</span>
+ <div class='form-radio'>
+
+  <input type="radio" id="optimization" name="question" value="optymalizacja"
+         ><label for="optimization">
+Optymalizacja strony WWW </label>
+</div>
+ <div class='form-radio'>
+ 
+  <input type="radio" id="positoning" name="question" value="pozyjnonowanie"
+         ><label for="positoning">Pozycjonowanie
+ </label>
+</div>
+ <div class='form-radio'>
+ 
+  <input type="radio" id="consulting" name="question" value="konsultacje"
+         ><label for="consulting">Konsultacje SEO
+ </label>
+</div>
+</div>
+
+ <input type="text" name="_gotcha" style="display:none" />
+
+    <button  type="submit">Wyślij zapytanie</button>
+<div class='rodo'>
+<input id='rodo-accept' type='checkbox' required name='rodo-accept' value='accept'/>
+<label for='rodo-accept'>Administratorem Twoich danych osobowych, czyli podmiotem decydującym o celach i sposobach przetwarzania Twoich danych osobowych jest Agencja Wrocławska. Informujemy, że podanie danych osobowych zawartych w formularzu jest dobrowolne, ale niezbędne do skutecznego nawiązania kontaktu z Administratorem, jak również przysługują Ci prawa dostępu do Twoich danych osobowych, ich zmiany (w tym aktualizacji), a także pozostałe prawa opisane w Polityce prywatności. W Polityce prywatności znajdują się także szczegółowe informację w zakresie praw i obowiązków Administratora.
+</label>
+</div>
+</form>
+</div></div>
+<script>
+    var mform = document.getElementById("mcontactform");
+    if(mform){
+    async function handleSubmit(event) {
+      event.preventDefault();
+      var status = document.getElementById("mmy-form-status");
+      var data = new FormData(event.target);
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+      }).then(response => {
+        status.innerHTML = "Dziękujemy skontaktujemy się z Tobą niebawem.";
+        form.reset()
+      }).catch(error => {
+        status.innerHTML = "Oops! Nie udało się wysłać formularza!"
+      });
+    }
+    form.addEventListener("submit", handleSubmit)
+}
+</script>
+<script>
+  var form = document.getElementById("contactform");
+  if(form){
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var status = document.getElementById("my-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+          'Accept': 'application/json'
+      }
+    }).then(response => {
+      status.innerHTML = "Dziękujemy skontaktujemy się z Tobą niebawem.";
+      form.reset()
+    }).catch(error => {
+      status.innerHTML = "Oops! Nie udało się wysłać formularza!"
+    });
+  }
+  form.addEventListener("submit", handleSubmit)
+}
+</script>
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   var all_modal_cta=document.querySelectorAll('.open-modal-quote');
