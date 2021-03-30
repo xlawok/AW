@@ -2487,7 +2487,7 @@ form#contactform,form#mcontactform{
  
  > li{
     width: 100%;
-    padding: 3rem 1rem 1rem 2rem;
+    padding: 3rem 1rem 1rem 1rem;
     @media (min-width: 768px){
       width: 48%;
     }
@@ -2565,6 +2565,7 @@ form#contactform,form#mcontactform{
       background-color: #242424;
       }
     position: relative;
+    padding-bottom: 4rem;
     .svg{
       position: absolute;
       width: 0;
@@ -2610,8 +2611,8 @@ form#contactform,form#mcontactform{
       height: 75.5rem;
       
       z-index: 0;
-      bottom: -65rem;
-
+      // bottom: -65rem;
+      bottom: -60%;
       clip-path: ellipse(90% 60% at 51% 100%);
       clip-path: url(#my-clip-path);
       
