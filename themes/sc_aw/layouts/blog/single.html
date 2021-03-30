@@ -7,7 +7,7 @@
                 {{ $header_list := $.Params.header_repeater }}
                 {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "single-post-header")  -}}
                 <div class='excerpt'>
-                    {{$.Params.summary}}
+                    {{$.Params.summary | safeHTML}}
                 </div>
                
             </div>
