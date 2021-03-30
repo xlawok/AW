@@ -98,13 +98,6 @@ fields:
     required: false
   label: Tytuł o czym przeczytasz
   default: O czym przeczytasz w artykule?
-- name: lista_o_czym_przeczytasz
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-  label: Lista o czym przeczytasz
 - name: lista_o_czym_przeczytasz_group
   type: field_group_list
   fields:
