@@ -2037,6 +2037,11 @@ form#contactform,form#mcontactform{
     
     top: -150%;
   }
+  .sc-cta {
+
+    position: relative;
+    z-index: 1;
+  }
 }
 .sc-our-clients{
   position: relative;
