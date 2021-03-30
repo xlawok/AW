@@ -1,5 +1,5 @@
 +++
-body_class = ""
+body_class = "slownik-listowanie"
 description = "Słownik SEO/SEM"
 keywords = ""
 robots = "index follow"
