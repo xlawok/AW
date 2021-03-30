@@ -5,7 +5,7 @@ date = 2021-03-29T22:00:00Z
 description = "Wyjaśnienie pojęcia marketingu internetowego"
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = "marketing, internetowy,Marketing internetowy"
-lista_o_czym_przeczytasz = ["Jak działa network marketing", "Content na Twojej stronie internetow", "Blogowanie", "Wideo i podcasty", "Media społecznościowe", "E-mail marketing", "Reklamy płatne online", "Reklamy online", "Content Marketing – clue oraz podsumowanie"]
+lista_o_czym_przeczytasz = []
 obrazek = ""
 robots = "index follow"
 slug = "marketing-internetowy-co-to-takiego"
@@ -31,6 +31,33 @@ ornament = "brak"
 txt_block = "co to takiego?"
 txt_block_size = "L"
 underline = false
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "jak-dziala-network-marketing"
+title = "Jak działa network marketing?"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "content-na-twojej-stronie-internetowej"
+title = "Content na Twojej stronie internetowej"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "blogowanie"
+title = "Blogowanie"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "wideo-i-podcasty"
+title = "Wideo i podcasty"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "media-spolecznosciowe"
+title = "Media społecznościowe"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "e-mail-marketing"
+title = "E-mail marketing"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "reklamy-platne-online"
+title = "Reklamy płatne online"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "reklamy-online"
+title = "Reklamy online"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "content-marketing-clue-oraz-podsumowanie"
+title = "Content Marketing – clue oraz podsumowanie"
 
 +++
 Marketing internetowy to termin obejmujący wszystkie produkty i usługi **marketingu online**. Obejmuje to różne metody i platformy używane do komunikowania się z klientami, takie jak strony internetowe, poczty e-mail, media społecznościowe i reklamy online. Postaram się opisać cały schemat widoczny w **marketingu internetowym**, roli i znaczeniu marketingu internetowego w przedsiębiorstwach oraz o tym, jak go wykorzystać na swoją korzyść.
