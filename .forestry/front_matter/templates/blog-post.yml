@@ -105,6 +105,24 @@ fields:
     min: 
     max: 
   label: Lista o czym przeczytasz
+- name: lista_o_czym_przeczytasz_group
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Tytul
+  - name: adres_odnosnika
+    type: text
+    config:
+      required: false
+    label: Adres odnośnika
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Lista o czym przeczytasz
 pages:
 - content/blog/drug.md
 - content/blog/marketing-internetowy-co-to-takiego.md
