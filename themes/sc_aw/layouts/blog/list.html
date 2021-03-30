@@ -50,7 +50,7 @@
                             <a href="{{ .Permalink }}">
                                 <h3>{{ .Params.title | humanize | title }}</h3>
                            
-                                <div class='art-summary'>{{.Params.summary}}</div>
+                                <div class='art-summary'>{{.Params.summary | safeHTML }}</div>
                             
                             </a>
                             <div class="list-art-footer">
