@@ -8,6 +8,11 @@ fields:
     required: false
   label: tytuł
   description: Hasło słownika
+- name: slug
+  type: text
+  config:
+    required: false
+  label: Adres url
 - name: letters
   type: tag_list
   default: []
