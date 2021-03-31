@@ -29,6 +29,7 @@ portraitPhotoWidths = [1500, 1000, 750, 500]
 categories = "/kategoria/:slug/"
 page = "/:slug/"
 posts = "/:slug/"
+slownik = "/:slug/"
 tags = "/tag/:slug/"
 [related]
 includeNewer = true

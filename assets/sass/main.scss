@@ -3091,6 +3091,9 @@ form#contactform,form#mcontactform{
       max-height: unset;
       .no-img-banner-desc{
         padding-bottom: 3rem;
+        @at-root body.dark-m.single .slownik-post.sc-banner-center-noimg .center-banner-cnt .no-img-banner-desc{
+          color: var(--main-dark-color);
+        }
       }
     }
   }
