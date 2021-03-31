@@ -117,6 +117,4 @@ fields:
     labelField: 
   label: Lista o czym przeczytasz
 pages:
-- content/blog/drug.md
 - content/blog/marketing-internetowy-co-to-takiego.md
-- content/blog/test-copy.md
