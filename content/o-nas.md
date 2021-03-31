@@ -142,7 +142,7 @@ sections:
   - obrazek: "/uploads/plik_000-min_optimized.jpeg"
     my_name: Bartek
     stanowisko: Marketing Manager
-  - obrazek: "/uploads/kuba-500x500.jpg"
+  - obrazek: "/uploads/plik_001-min_optimized.jpeg"
     my_name: Jakub
     stanowisko: SEO Manager
   - obrazek: "/uploads/konrad-500x500.jpg"
