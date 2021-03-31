@@ -139,13 +139,13 @@ sections:
       txt_block_size: XL
 - template: sekcja-o-nas-druzyna-pierscienia
   section_team_group:
-  - obrazek: "/uploads/plik_000-min_optimized.jpeg"
+  - obrazek: "/uploads/bartek1.jpg"
     my_name: Bartek
     stanowisko: Marketing Manager
   - obrazek: "/uploads/plik_001-min_optimized.jpeg"
     my_name: Jakub
     stanowisko: SEO Manager
-  - obrazek: "/uploads/konrad-500x500.jpg"
+  - obrazek: "/uploads/plik_005-min_optimized.jpeg"
     my_name: Konrad
     stanowisko: UX/UI Specialist
   - obrazek: "/uploads/piotr-500x500.jpg"
