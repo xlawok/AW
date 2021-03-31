@@ -24,7 +24,7 @@ banner_list_gruop = []
 banner_type = "no_img_only_background"
 naglowek_formularza = ""
 naglowek_formularza_no_img = ""
-opis_banner = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro…"
+opis_banner = "Poznaj tajemnicze zagadnienia z branży SEO i rozwiń skrzydła prawdziwego pozycjonera! Po zagłębieniu się w pojęcia seo, znacznie łatwiej będzie Ci zrozumieć ideologię SEO - oraz łatwiej będzie Ci rozmawiać z pozycjonerem :)<br><strong>Słownik SEO</strong> to niezbędne narzędzie do zbudowania niezbędnej merytoryki, która jak wszędzie - jest bardzo cenna."
 otworz_modal = ""
 template = "banner"
 [[sections.banner_header_cnt.header_repeater]]
