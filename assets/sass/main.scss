@@ -4418,8 +4418,11 @@ justify-content: center;
   }
 }
 .sc-cols-w-no{
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding: 2rem 1rem;
+  @media (min-width: 1200px){
+    padding: 4rem 0;
+   
+  }
   .cols-w-no-sec-header  {
     position: relative;
     z-index: 1;
@@ -4437,7 +4440,13 @@ justify-content: center;
     li{
       position: relative;
       z-index: 0;
-      padding: 4rem 0;
+      &.col-w-no{
+        padding: 2rem 0;
+      }
+      @media (min-width: 1200px){
+        padding: 4rem 0;
+      }
+      
       display: flex;
       flex-direction: column;
     }
@@ -4831,15 +4840,7 @@ justify-content: center;
     }
 
   }
-  .sc-cols-w-no{
-    @media (max-width: 1199px){
-      padding: 2rem 1rem;
-      .col-w-no{
-        padding: 2rem 0;
-      }
-    }
-    
-  }
+
   @at-root body.dark-m.pozycjonowanie-sklepow .sc-cols-w-no {
     background-color: #242424;
   }
