@@ -157,7 +157,7 @@ sections:
   - obrazek: "/uploads/mateusz1.jpg"
     my_name: Mateusz
     stanowisko: SEO Specialist
-  - obrazek: "/uploads/sziba-500x500.jpg"
+  - obrazek: "/uploads/sziba1.jpg"
     my_name: Shiba
     stanowisko: Doge
 - template: sekcja-nasi-klienci
