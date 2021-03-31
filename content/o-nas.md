@@ -139,7 +139,7 @@ sections:
       txt_block_size: XL
 - template: sekcja-o-nas-druzyna-pierscienia
   section_team_group:
-  - obrazek: "/uploads/bartek-500x500.jpg"
+  - obrazek: "/uploads/bc.jpg"
     my_name: Bartek
     stanowisko: Marketing Manager
   - obrazek: "/uploads/kuba-500x500.jpg"
