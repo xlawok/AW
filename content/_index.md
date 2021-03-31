@@ -17,7 +17,7 @@ banner_form_html = "<div id=\"my-form-status\"></div>\n<form id=\"contactform\" 
 banner_form_html_no_img = ""
 banner_form_script = ""
 banner_form_script_no_img = ""
-banner_img = "/uploads/breslau-dusk-1024x506.jpg"
+banner_img = "/uploads/wroclaw-main-header.jpg"
 banner_list_gruop = []
 banner_type = "wide_img"
 naglowek_formularza = "Zamów bezpłatną wycenę w 24h!"
@@ -31,7 +31,7 @@ bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "biały"
 ornament = "brak"
-txt_block = "Pozyjconujemy"
+txt_block = "Pozycjonujemy"
 txt_block_size = "XXL"
 underline = false
 [[sections.banner_header_cnt.header_repeater]]
