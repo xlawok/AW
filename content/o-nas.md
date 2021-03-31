@@ -145,7 +145,7 @@ sections:
   - obrazek: "/uploads/jakub1.jpg"
     my_name: Jakub
     stanowisko: SEO Manager
-  - obrazek: "/uploads/plik_005-min_optimized.jpeg"
+  - obrazek: "/uploads/konrad1.jpg"
     my_name: Konrad
     stanowisko: UX/UI Specialist
   - obrazek: "/uploads/piotr-500x500.jpg"
