@@ -151,7 +151,7 @@ sections:
   - obrazek: "/uploads/piotr1.jpg"
     my_name: Piotr
     stanowisko: Web Developer
-  - obrazek: "/uploads/agata-500x500.jpg"
+  - obrazek: "/uploads/agata1.jpg"
     my_name: Agata
     stanowisko: SEO Specialist
   - obrazek: "/uploads/mateusz-500x500.jpg"
