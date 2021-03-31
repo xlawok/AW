@@ -154,7 +154,7 @@ sections:
   - obrazek: "/uploads/agata1.jpg"
     my_name: Agata
     stanowisko: SEO Specialist
-  - obrazek: "/uploads/mateusz-500x500.jpg"
+  - obrazek: "/uploads/mateusz1.jpg"
     my_name: Mateusz
     stanowisko: SEO Specialist
   - obrazek: "/uploads/sziba-500x500.jpg"
