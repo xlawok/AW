@@ -148,7 +148,7 @@ sections:
   - obrazek: "/uploads/konrad1.jpg"
     my_name: Konrad
     stanowisko: UX/UI Specialist
-  - obrazek: "/uploads/piotr-500x500.jpg"
+  - obrazek: "/uploads/piotr1.jpg"
     my_name: Piotr
     stanowisko: Web Developer
   - obrazek: "/uploads/agata-500x500.jpg"
