@@ -17,3 +17,7 @@ header_repeater:
   block_tag_type: div
   ornament: lewa w dół
   txt_block_size: XL
+menu:
+  main:
+    name: Blog
+    weight: 5

@@ -7,7 +7,7 @@ slug = "slownik"
 title = "Słownik"
 [menu.main]
 name = "Słownik SEO"
-weight = 4
+weight = 3
 [[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_right = ""
