@@ -35,7 +35,7 @@ txt_block = "Pozycjonujemy"
 txt_block_size = "XXL"
 underline = false
 [[sections.banner_header_cnt.header_repeater]]
-block_tag_type = "h1"
+block_tag_type = "h3"
 bold_txt = "bardzo gruby"
 break_line = false
 color_txt = "biały"
