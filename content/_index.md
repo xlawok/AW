@@ -63,7 +63,7 @@ tytul_wiersza = "POZNAJ NAS Agencja SEO "
 [sections.wiersz_dwie_kolumny.kolumna_druga]
 film_obrazek = "movie embed"
 if_svg = false
-kod_embed = "<iframe width=\"560\" height=\"315\" \nsrc=\"https://vimeo.com/531636649\"\nsrdoc=\"<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://vimeo.com/531636649?autoplay=1><img src=https://img.youtube.com/vi/ZUWoGRU9FYk/hqdefault.jpg alt=' – Wisecrack Edition'><span>▶</span></a>\"\nframeborder=\"0\"\n  allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"\n  allowfullscreen\n></iframe>"
+kod_embed = "<iframe width=\"560\" height=\"315\" \nsrc=\"https://vimeo.com/531636649\"\nsrdoc=\"<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://vimeo.com/531636649=1><img src=https://img.youtube.com/vi/ZUWoGRU9FYk/hqdefault.jpg alt=' – Wisecrack Edition'><span>▶</span></a>\"\nframeborder=\"0\"\n  allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"\n  allowfullscreen\n></iframe>"
 obrazek = ""
 obrazek_dark_mode = ""
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
