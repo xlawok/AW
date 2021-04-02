@@ -82,7 +82,7 @@ underline = false
 [[sections]]
 template = "sekcja-kolumny-z-cyframi-w-tle"
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
@@ -91,7 +91,7 @@ txt_block = "TECHNIKA"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
