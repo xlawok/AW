@@ -4,7 +4,7 @@ description = "O agencji wrocławskiej dane kontaktowe"
 keywords = ""
 robots = "index follow"
 slug = "kontakt"
-title = "Kontakt - Agencja SEO Wrocław - tel. 792 789 836"
+title = "Kontakt - SEO Wrocław - 792 789 836 | Agencja Wrocławska"
 [menu.main]
 weight = 5
 [[sections]]
