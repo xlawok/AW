@@ -1,6 +1,6 @@
 +++
 body_class = ""
-description = "Agencja Wrocławska to firma SEO zajmująca się pozycjonowaniem stron w internecie. Cele na każde 6 miesięcy działań, gwarancja efektów."
+description = "Agencja Wrocławska to firma SEO zajmująca się pozycjonowaniem stron w internecie. Cele na każde 6 miesięcy działań, gwarancja efektów!"
 keywords = ""
 robots = ""
 slug = "/"
