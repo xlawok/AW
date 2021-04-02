@@ -3050,12 +3050,12 @@ form#contactform,form#mcontactform{
         }
       }
     }
-    .single .blog-post .article-content-wrapper{
-      z-index: auto;
-      background: #3a3a3a;
-      padding: 2em 4em;
-    }
-  }
+ }
+ .single .blog-post .article-content-wrapper{
+  z-index: auto;
+  background: #3a3a3a;
+  padding: 2em 4em;
+}
   .related-news-header{
     margin-bottom: 3rem;
     @media (min-width: 992px){
