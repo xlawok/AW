@@ -3022,6 +3022,10 @@ form#contactform,form#mcontactform{
         width: (898/1920)*100vw;
         margin: 1rem auto;
       }
+      .is-about {
+        background: #424242;
+        padding: 2em;
+      }
       @at-root body.dark-m .article-content-wrapper .is-about{
         background: #424242;
         padding: 2em;
