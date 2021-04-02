@@ -113,7 +113,7 @@ title = "Więcej pieniędzy w portfelu"
 logosy_marek = ["/uploads/senuto-web.png", "/uploads/ahrefs-web.png", "/uploads/screamingfrog-web.png", "/uploads/gtm-web.png", "/uploads/lrt-web.png", "/uploads/gsc-web.png"]
 template = "sekcja-galeria-logosow"
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
