@@ -68,7 +68,7 @@ bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "OPTYMALIZACJA STRONY"
+txt_block = "Optymalizacja Strony"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
