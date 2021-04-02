@@ -7,14 +7,14 @@ pierwsza_kolumna:
 druga_kolumna:
 - wybierz_odnosniki: pozycjonowanie-stron.md
   tytul_odnosnika: Pozycjonowanie stron
-- wybierz_odnosniki: pozycjonowanie-cennik.md
-  tytul_odnosnika: Cennik
 - wybierz_odnosniki: pozycjonowanie-sklepow.md
-  tytul_odnosnika: Sklepy internetowe
+  tytul_odnosnika: 'Pozycjonowanie sklepów '
 - wybierz_odnosniki: pozycjonowanie-lokalne.md
-  tytul_odnosnika: Lokalne
+  tytul_odnosnika: Pozycjonowanie lokalne
+- wybierz_odnosniki: pozycjonowanie-cennik.md
+  tytul_odnosnika: Cennik pozycjonowania
 - wybierz_odnosniki: optymalizacja-strony-www.md
-  tytul_odnosnika: Optymalizacja
+  tytul_odnosnika: Optymalizacja SEO
 - wybierz_odnosniki: konsultacje-seo.md
   tytul_odnosnika: Konsultacje SEO
 trzecia_kolumna:
@@ -23,7 +23,7 @@ trzecia_kolumna:
 - adres_odnosnika: kontakt.md
   tytul_odnosnika: Formularz kontaktowy
 wiersz_dolny:
-  tekst: "<p>© 2021 Wszelkie prawa zastrzeżone</p>"
+  tekst: "<p>© 2021 Agencja Wrocławska Sp. z o.o. Wszelkie prawa zastrzeżone</p>"
 czwarta_kolumna:
 - ikona: "/uploads/linkedin-in.svg"
   adres_odnosnika: https://www.linkedin.com/company/agencja-wrocławska/

@@ -121,7 +121,7 @@ txt_block_size = "L"
 underline = true
 [[sections.kafelki]]
 ikona = "/uploads/group-160.svg"
-odnosnik = "pozycjonowanie/pozycjonowanie-sklepow.md"
+odnosnik = nil
 title = "sklepy"
 [[sections.kafelki.header_repeater]]
 block_tag_type = "h3"
