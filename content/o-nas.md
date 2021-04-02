@@ -183,11 +183,12 @@ sections:
   tytul_odnosnika: Zamów bezpłatną wycenę
   if_background: false
   naglowek: ''
-title: O nas
+title: O nas | Agencja Wrocławska
 slug: o-nas
 keywords: ''
 robots: index follow
-description: O agencji wrocławskiej
+description: Jesteśmy specjalistami branży SEO/SEM z Wrocławia. Nasze działania prowadzą
+  do zwiększenia sprzedaży, a nie do podkręcania ego wykresami o wzrostach widoczności.
 url: o-nas
 body_class: o-nas
 menu:
