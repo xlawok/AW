@@ -31,16 +31,16 @@ bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "biały"
 ornament = "brak"
-txt_block = "Pozycjonujemy"
+txt_block = "Agencja SEO"
 txt_block_size = "XXL"
 underline = false
 [[sections.banner_header_cnt.header_repeater]]
-block_tag_type = "h3"
+block_tag_type = "div"
 bold_txt = "bardzo gruby"
 break_line = false
 color_txt = "biały"
 ornament = "brak"
-txt_block = "marki w internecie"
+txt_block = "Której się jeszcze chce"
 txt_block_size = "XL"
 underline = false
 [[sections.banner_slogan.header_repeater]]
