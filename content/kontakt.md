@@ -6,7 +6,7 @@ robots = "index follow"
 slug = "kontakt"
 title = "Kontakt"
 [menu.main]
-weight = 4
+weight = 5
 [[sections]]
 banner_bg_for_center = ""
 banner_bg_for_center_left = ""

@@ -1,10 +1,10 @@
 +++
 body_class = "optymalizacja-seo"
-description = "Optymalizacja strony internetowej"
+description = "Ten jeden element poprawi widoczność Twojej strony internetowej nie do poznania! Zamów optymalizację SEO oraz poznaj jej wytyczne, a zaczniesz być widocznym w Google!"
 keywords = ""
 robots = ""
 slug = "optymalizacja-seo"
-title = "Optymalizacja strony internetowej"
+title = "Optymalizacja Strony Internetowej - Wytyczne SEO | Agencja Wrocławska"
 [menu.main]
 name = "Optymalizacja SEO"
 parent = "Pozycjonowanie"

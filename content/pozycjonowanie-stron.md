@@ -4,7 +4,7 @@ description = "Pozycjonowanie stron"
 keywords = ""
 robots = ""
 slug = "pozycjonowanie-stron"
-title = "Pozycjonowanie stron"
+title = "Pozycjonowanie Stron"
 [menu.main]
 parent = "Pozycjonowanie"
 weight = 1
