@@ -81,7 +81,7 @@ ornament = "prawa w dół"
 txt_block = "co to jest?"
 txt_block_size = "XL"
 [[sections]]
-opis = "W ramach obsługi seo, każdy z naszych klientów ma wsparcie od naszych specjalistów tj. pozycjonera, copywritera, grafika programisty czy ogólnego wsparcia marketingowego. Dzięki takim zasobom, jesteśmy w stanie kompleksowo doradzić w kwestii marketingu i pozycjonowania online. Nasza oferta seo mówi jasno - uzyskanie efektu albo 100% zwrot pieniędzy. Nasza współpraca jest w pełni transparentna. Każde 6 miesięcy obsługi jest poprzedzone wyznaczeniem efektów jakie są możliwe do uzyskania. Po każdych 6-ciu miesiącach analizujemy wraz z klientem obecną sytuację i wyznaczamy cele na kolejny okres."
+opis = "W ramach obsługi <strong>SEO</strong> każdy<strong>﻿</strong> z naszych klientów ma wsparcie od naszych specjalistów tj. pozycjonera, copywritera, grafika programisty czy ogólnego wsparcia marketingowego. Dzięki takim zasobom jesteśmy w stanie kompleksowo doradzić w kwestii marketingu i pozycjonowania online. Nasza <strong>oferta seo</strong> mówi jasno - uzyskanie efektu albo 100% zwrot pieniędzy. Nasza współpraca jest w pełni transparentna. Każde 6 miesięcy obsługi jest poprzedzone wyznaczeniem efektów, jakie są możliwe do uzyskania. Po każdych 6-ciu miesiącach analizujemy wraz z klientem obecną sytuację i wyznaczamy cele na kolejny okres."
 template = "sekcja-oferta-z-kafelkami"
 [[sections.header_repeater]]
 block_tag_type = "h2"
@@ -104,7 +104,7 @@ if_anchor = true
 ikona = "/uploads/group-19.svg"
 title = "strony"
 [[sections.kafelki.header_repeater]]
-block_tag_type = "h3"
+block_tag_type = "h2"
 bold_txt = "gruby"
 break_line = true
 color_txt = "czarny"
@@ -112,7 +112,7 @@ ornament = "brak"
 txt_block = "Pozycjonowanie"
 txt_block_size = "L"
 [[sections.kafelki.header_repeater]]
-block_tag_type = "h3"
+block_tag_type = "h2"
 bold_txt = "gruby"
 color_txt = "czerwony"
 ornament = "brak"
@@ -243,7 +243,7 @@ block_tag_type = "h2"
 bold_txt = "bardzo gruby"
 color_txt = "czerwony"
 ornament = "lewa w prawo"
-txt_block = "PORADNIK"
+txt_block = "Jak pozycjonować stronę samemu?"
 txt_block_size = "L"
 underline = true
 [[sections.poradnik_group]]
