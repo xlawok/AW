@@ -1405,13 +1405,7 @@ form#contactform,form#mcontactform{
       }
       .banner-header {
         line-height: (91/76);
-        font-family: var(--header-font);
-      .banner-header:nth-child(1) {
-          margin: 0 0 .35em 0;
-        }
-       .banner-header:nth-child(2){
-        margin: 0 0 .5em 0;
-      } 
+        font-family: var(--header-font); 
         @media (max-width: 767px){
           &.txt-XXL{
             font-size: 10vw;
@@ -1428,6 +1422,12 @@ form#contactform,form#mcontactform{
             font-size: 3.5vw;
           }
         }
+      }
+      .banner-header:nth-child(1) {
+        margin: 0 0 .35em 0;
+      }
+      .banner-header:nth-child(2){
+      margin: 0 0 .5em 0;
       }
 
       .banner-slogan{
