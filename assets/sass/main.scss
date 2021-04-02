@@ -3021,6 +3021,10 @@ form#contactform,form#mcontactform{
         width: (898/1920)*100vw;
         margin: 1rem auto;
       }
+      @at-root body.dark-m .is-about{
+        background: #424242;
+        padding: 2em;
+      }
       .is-about-title{
         color: var(--red);
         font-family: var(--header-font);
