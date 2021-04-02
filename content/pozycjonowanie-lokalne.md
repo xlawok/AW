@@ -36,7 +36,7 @@ txt_block = "Pozycjonowanie lokalne"
 txt_block_size = "XL"
 underline = true
 [[sections.banner_header_cnt.header_repeater]]
-block_tag_type = "h1"
+block_tag_type = "h2"
 bold_txt = "gruby"
 break_line = true
 color_txt = "czarny"
