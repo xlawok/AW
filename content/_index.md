@@ -4,7 +4,7 @@ description = "Agencja Wrocławska to firma SEO zajmująca się pozycjonowaniem 
 keywords = ""
 robots = ""
 slug = "/"
-title = "Agencja SEO - UX/UI & WebDev Support - Agencja Wrocławska"
+title = "SEO/SEM - Marketing internetowy w Google | Agencja Wrocławska"
 [[sections]]
 banner_bg_for_center = ""
 banner_bg_for_center_left = ""
