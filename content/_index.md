@@ -4,7 +4,7 @@ description = "Agencja Wrocławska to firma SEO zajmująca się pozycjonowaniem 
 keywords = ""
 robots = ""
 slug = "/"
-title = "SEO/SEM | Pozycjonowanie stron - Agencja Wrocławska"
+title = "Strona główna"
 [[sections]]
 banner_bg_for_center = ""
 banner_bg_for_center_left = ""
