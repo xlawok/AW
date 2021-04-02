@@ -1423,17 +1423,16 @@ form#contactform,form#mcontactform{
           }
         }
       }
-      .banner-left-col:nth-child(1) {
-        margin: 0 0 .35em 0;
-      }
-      .banner-left-col:nth-child(2){
-      margin: 0 0 .5em 0;
-      }
-
-      .banner-slogan{
+            .banner-slogan{
         font-family: var(--base-font);
         
       }
+    }
+    .banner-left-col:nth-child(1) {
+      margin: 0 0 .35em 0;
+    }
+    .banner-left-col:nth-child(2){
+    margin: 0 0 .5em 0;
     }
     .banner-right-col{
       width: 100%;
