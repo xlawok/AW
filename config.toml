@@ -12,7 +12,7 @@ name = "Pozycjonowanie"
 url = "#"
 weight = 1
 [params]
-description = "Welcome to my website"
+description = ""
 email_header = "kontakt@agencjawroclawska.pl"
 favico = ""
 header_adres_email = "kontakt@agencjawroclawska.pl"
