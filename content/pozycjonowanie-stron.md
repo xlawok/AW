@@ -4,7 +4,7 @@ description = "Pozycjonowanie stron"
 keywords = ""
 robots = ""
 slug = "pozycjonowanie-stron"
-title = "Pozycjonowanie Stron"
+title = "Pozycjonowanie Stron w Google - na 110% SEO ! Agencja Wrocławska"
 [menu.main]
 parent = "Pozycjonowanie"
 weight = 1
