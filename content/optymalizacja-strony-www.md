@@ -122,7 +122,7 @@ txt_block = "UŻYWAMY NARZĘDZI NAJLEPIEJ DOPASOWANYCH"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "paragraf"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
