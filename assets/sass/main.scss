@@ -2854,6 +2854,10 @@ form#contactform,form#mcontactform{
         @media (min-width: 992px){
           width: (1044/1920)*100vw;
         }
+        .single .blog-post .article-head .left-col {
+          margin-top: 6em;
+        }
+
         .single-post-header{
           position: relative;
           &:before{
