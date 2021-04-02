@@ -37,12 +37,12 @@ txt_block = "Optymalizacja strony internetowej"
 txt_block_size = "XL"
 underline = true
 [[sections.banner_header_cnt.header_repeater]]
-block_tag_type = "h1"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
 ornament = "brak"
-txt_block = "Zadbaj o silne fundamenty stron"
+txt_block = "Zadbaj o silne fundamenty strony"
 txt_block_size = "XL"
 underline = false
 [sections.banner_slogan]
