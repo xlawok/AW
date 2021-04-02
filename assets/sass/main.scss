@@ -2979,6 +2979,13 @@ form#contactform,form#mcontactform{
         @at-root body.dark-m.single .blog-post .article-content-wrapper::before {
           background-color: var(--main-dark-color);
         }
+        @at-root body.dark-m.single .blog-post .article-content-wrapper {
+          z-index: auto;
+        }
+        @at-root body.dark-m .article-content-wrapper {
+          background: #4e4e4e;
+          padding: 2em 4em;
+        }
         // background: white;
       }
       &:after{
