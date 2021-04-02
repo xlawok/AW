@@ -2952,9 +2952,7 @@ form#contactform,form#mcontactform{
     }
     .article-content-wrapper{
       position: relative;
-      z-index: auto;
-      background: #3a3a3a;
-      padding: 2em 4em;
+      z-index: 1;
       &:before{
         content: '';
         display: block;
@@ -3052,8 +3050,9 @@ form#contactform,form#mcontactform{
         }
       }
     }
+    
   }
-   .related-news-header{
+  .related-news-header{
     margin-bottom: 3rem;
     @media (min-width: 992px){
       margin-left: calc(50% - 4rem);
