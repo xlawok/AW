@@ -120,7 +120,7 @@ film_obrazek = "image"
 if_svg = false
 kod_embed = ""
 obrazek = "/uploads/icon-big-main-aw-2.svg"
-obrazek_dark_mode = "/uploads/icon-big-main-aw-2.svg"
+obrazek_dark_mode = "/uploads/home-dark-g2.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = "o-nas.md"
 if_blank = false
