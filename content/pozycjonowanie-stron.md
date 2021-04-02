@@ -73,7 +73,7 @@ txt_block = "SEO"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = true
 color_txt = "czarny"
