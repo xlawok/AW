@@ -34,22 +34,13 @@ ornament = "brak"
 txt_block = "Agencja SEO"
 txt_block_size = "XXL"
 underline = false
-[[sections.banner_header_cnt.header_repeater]]
-block_tag_type = "div"
-bold_txt = "bardzo gruby"
-break_line = false
-color_txt = "biały"
-ornament = "brak"
-txt_block = "Której się jeszcze chce"
-txt_block_size = "XL"
-underline = false
 [[sections.banner_slogan.header_repeater]]
 block_tag_type = "div"
 bold_txt = "normalny"
 break_line = false
 color_txt = "biały"
 ornament = "brak"
-txt_block = "Bądź tam, gdzie Twoi klienci szukają. Później niech dzieje się magia."
+txt_block = "Zapraszamy do rakiety. Widzimy się na Googlowym księżycu!"
 txt_block_size = "S"
 underline = false
 [sections.box_pod_zdj_ciem]
