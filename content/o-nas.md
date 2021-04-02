@@ -193,6 +193,7 @@ url: o-nas
 body_class: o-nas
 menu:
   main:
+    name: O nas
     weight: 2
 
 ---

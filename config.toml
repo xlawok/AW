@@ -7,10 +7,6 @@ languageCode = "pl-PL"
 portraitPhotoWidths = [1500, 1000, 750]
 theme = "sc_aw"
 title = "Agencja Wrocławska"
-[[menu.main]]
-name = "Pozycjonowanie"
-url = "#"
-weight = 1
 [params]
 description = ""
 email_header = "kontakt@agencjawroclawska.pl"

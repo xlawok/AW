@@ -6,7 +6,7 @@ robots = "index follow"
 slug = "pozycjonowanie-sklepow"
 title = "Pozycjonowanie Sklepów - Wsparcie Dev&UX/UI | Agencja Wrocławska"
 [menu.main]
-name = "Pozycjonowanie Sklepów Internetowych"
+name = "Pozycjonowanie Sklepów"
 parent = "Pozycjonowanie"
 weight = 2
 [[sections]]

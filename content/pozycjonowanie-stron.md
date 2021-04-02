@@ -6,6 +6,7 @@ robots = ""
 slug = "pozycjonowanie-stron"
 title = "Pozycjonowanie Stron - Kampanie SEO | Agencja Wrocławska"
 [menu.main]
+name = "Pozycjonowanie Stron"
 parent = "Pozycjonowanie"
 weight = 1
 [[sections]]
