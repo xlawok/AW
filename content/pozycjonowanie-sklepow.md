@@ -1,10 +1,10 @@
 +++
 body_class = "pozycjonowanie-sklepow"
 description = "Pozycjonowanie sklepów"
-keywords = ""
+keywords = "Wrocław Stuff! Zajmiemy się pozycjonowaniem SEO Twojego sklepu internetowego bez ściemy! Na każde 6 msc działań określamy cele i oczekiwane rezultaty! Call us!"
 robots = "index follow"
 slug = "pozycjonowanie-sklepow"
-title = "Pozycjonowanie sklepów"
+title = "Pozycjonowanie Sklepów Internetowych - SEO ToTheMoon  - Agencja Wrocławska"
 [menu.main]
 parent = "Pozycjonowanie"
 weight = 2
