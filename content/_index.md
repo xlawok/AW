@@ -35,12 +35,12 @@ txt_block = "Agencja SEO"
 txt_block_size = "XXL"
 underline = false
 [[sections.banner_slogan.header_repeater]]
-block_tag_type = "div"
+block_tag_type = "paragraf"
 bold_txt = "normalny"
 break_line = false
 color_txt = "biały"
 ornament = "brak"
-txt_block = "Zapraszamy do rakiety. Widzimy się na Googlowym księżycu!"
+txt_block = "Wejdź z nami do rakiety. Widzimy się na Googlowym księżycu!"
 txt_block_size = "S"
 underline = false
 [sections.box_pod_zdj_ciem]
