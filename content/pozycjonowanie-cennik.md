@@ -1,6 +1,6 @@
 +++
 body_class = "cennik-pozycjonowanie"
-description = "Cennik usług pozycjonowania SEO i SEM"
+description = "Cennik pozycjonowania SEO i SEM"
 keywords = ""
 robots = ""
 slug = "cennik-pozycjonowanie"
@@ -96,7 +96,7 @@ kolumna_3 = "na czas nieokreślony"
 template = "sekcja-porownanie-pakietow"
 tytul_guzika_cta = "Poproś o wycenę"
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "paragraf"
 bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
@@ -105,7 +105,7 @@ txt_block = "OFEROWANE"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "paragraf"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"

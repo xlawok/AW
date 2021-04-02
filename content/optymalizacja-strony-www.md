@@ -1,10 +1,10 @@
 +++
 body_class = "optymalizacja-seo"
-description = "Optymalizacja strony WWW"
+description = "Optymalizacja strony internetowej"
 keywords = ""
 robots = ""
 slug = "optymalizacja-seo"
-title = "Optymalizacja strony WWW"
+title = "Optymalizacja strony internetowej"
 [menu.main]
 name = "Optymalizacja SEO"
 parent = "Pozycjonowanie"
@@ -33,16 +33,16 @@ bold_txt = "gruby"
 break_line = true
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "Optymalizacja strony www"
+txt_block = "Optymalizacja strony internetowej"
 txt_block_size = "XL"
 underline = true
 [[sections.banner_header_cnt.header_repeater]]
-block_tag_type = "h1"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
 ornament = "brak"
-txt_block = "Zadbaj o silne fundamenty stron"
+txt_block = "Zadbaj o silne fundamenty strony"
 txt_block_size = "XL"
 underline = false
 [sections.banner_slogan]
@@ -60,7 +60,7 @@ banenr_list_item = "poprawienie szybkości strony"
 [[sections.banner_list_gruop]]
 banenr_list_item = "zwiększenie zainteresowania marki"
 [[sections]]
-opis = "Optymalizacja stron www to jeden z fundamentalnych czynników w procesie pozycjonowania strony. Nawet najlepiej wykonana praca nad linkbuildingiem ze strony agencji, bez wykonania konsekwentnej i gruntownej pracy u podstaw, czyli pełnej optymalizacji - nic by nie dała. Nieuporządkowane tagi i metatagi, czy błędy wynikające ze zbyt długich lub zbyt krótkich opisów nie pozwalają się rozwinąć stronie, do takiego poziomu, jaki byśmy oczekiwali. Pełna techniczna optymalizacja SEO obejmuje dostosowanie kodu źródłowego pod obecne standardy Google’a, przekierowania 301/302, sprawdzenie kanibalizacji słów kluczowych, detekcja duplikacji treści, ułożenie architektury strony pod linkowanie wewnętrzne, ustawienie prawidłowych nagłówków H1;H2;H3, wdrożenie i ujednolicenie opisów oraz tytułów meta na wszystkich podstronach serwisu, przyśpieszenie działania strony poprzez dywersyfikację ilości wtyczek oraz uszczuplenie kodu źródłowego, aktualizacja obecnego contentu na stronie klienta, wdrożenie nowych rozwiązań z zakresu UX – mające za zadanie zwiększenie konwersji."
+opis = "<strong>Optymalizacja stron internetowych</strong> to jeden z fundamentalnych czynników w procesie pozycjonowania strony. Nawet najlepiej wykonana praca nad linkbuildingiem ze strony agencji, bez wykonania konsekwentnej i gruntownej pracy u podstaw, czyli pełnej optymalizacji - nic by nie dała. Nieuporządkowane tagi i metatagi, czy błędy wynikające ze zbyt długich lub zbyt krótkich opisów nie pozwalają się rozwinąć stronie, do takiego poziomu, jaki byśmy oczekiwali. Pełna <strong>techniczna optymalizacja SEO</strong> obejmuje dostosowanie kodu źródłowego pod obecne standardy Google’a, przekierowania 301/302, sprawdzenie kanibalizacji słów kluczowych, detekcja duplikacji treści, ułożenie architektury strony pod linkowanie wewnętrzne, ustawienie prawidłowych nagłówków H1;H2;H3, wdrożenie i ujednolicenie opisów oraz tytułów meta na wszystkich podstronach serwisu, przyśpieszenie działania strony poprzez dywersyfikację ilości wtyczek oraz uszczuplenie kodu źródłowego, aktualizacja obecnego contentu na stronie klienta, wdrożenie nowych rozwiązań z zakresu UX – mające za zadanie zwiększenie konwersji."
 template = "sekcja-box-wysrodkowany-z-tekstem"
 [[sections.header_repeater]]
 block_tag_type = "h2"
@@ -68,11 +68,11 @@ bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "OPTYMALIZACJA STRONY"
+txt_block = "Optymalizacja Strony"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
@@ -88,11 +88,11 @@ bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "OPTYMALIZACJA SEO"
+txt_block = "Optymalizacja SEO"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
@@ -113,7 +113,7 @@ title = "Więcej pieniędzy w portfelu"
 logosy_marek = ["/uploads/senuto-web.png", "/uploads/ahrefs-web.png", "/uploads/screamingfrog-web.png", "/uploads/gtm-web.png", "/uploads/lrt-web.png", "/uploads/gsc-web.png"]
 template = "sekcja-galeria-logosow"
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
@@ -122,7 +122,7 @@ txt_block = "UŻYWAMY NARZĘDZI NAJLEPIEJ DOPASOWANYCH"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "paragraf"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
