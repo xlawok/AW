@@ -88,7 +88,7 @@ film_obrazek = "image"
 if_svg = false
 kod_embed = ""
 obrazek = "/uploads/icon-big-main-aw-1.svg"
-obrazek_dark_mode = "/uploads/icon-big-main-aw-1.svg"
+obrazek_dark_mode = "/uploads/home-dark-g1.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = "o-nas.md"
 if_blank = false
