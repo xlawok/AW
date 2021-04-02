@@ -41,7 +41,7 @@ bold_txt = "gruby"
 break_line = true
 color_txt = "czarny"
 ornament = "brak"
-txt_block = "Nowe strategie SEO dla lokalnych marek"
+txt_block = "Strategie SEO dla lokalnych marek"
 txt_block_size = "XL"
 underline = false
 [sections.banner_slogan]
