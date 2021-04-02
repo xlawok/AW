@@ -2952,7 +2952,7 @@ form#contactform,form#mcontactform{
     }
     .article-content-wrapper{
       position: relative;
-      z-index: 1;
+      z-index: auto;
       &:before{
         content: '';
         display: block;
@@ -3050,7 +3050,11 @@ form#contactform,form#mcontactform{
         }
       }
     }
-    
+    .single .blog-post .article-content-wrapper{
+      z-index: auto;
+      background: #3a3a3a;
+      padding: 2em 4em;
+    }
   }
   .related-news-header{
     margin-bottom: 3rem;
