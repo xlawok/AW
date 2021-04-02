@@ -36,12 +36,12 @@ txt_block = "Pozycjonowanie lokalne"
 txt_block_size = "XL"
 underline = true
 [[sections.banner_header_cnt.header_repeater]]
-block_tag_type = "h1"
+block_tag_type = "h2"
 bold_txt = "gruby"
 break_line = true
 color_txt = "czarny"
 ornament = "brak"
-txt_block = "Nowe strategie SEO dla lokalnych marek"
+txt_block = "Strategie SEO dla lokalnych marek"
 txt_block_size = "XL"
 underline = false
 [sections.banner_slogan]
@@ -62,7 +62,7 @@ banenr_list_item = "Wysokie i stabilne pozycje w Google"
 opis = "Pozycjonowanie lokalne jest to cała strategia działań dla serwisu, która ma spowodować zwiększenie zasięgów i poprawienie widoczności na ustalone frazy kluczowe związane bezpośrednio z lokalizacją. Jest to idealne rozwiązanie dla klientów, którzy chcą skupić się na wyższych pozycjach na terenie gminy, powiatu czy województwa. Nie są im potrzebne frazy ogólnopolskie. Słowa kluczowe powinny zawierać dopiski większych miast, takich jak Wrocław. Jest to najlepsza strategia SEO dla klienta oraz agencji, ponieważ skupiając się na danej lokalizacji - stronę klienta odwiedzają jego docelowi klienci, których poszukuję. Natomiast agencji jest dużo łatwiej wypozycjonować stronę na frazy, na które jest mniejsza konkurencja i trudność osiągnięcia wyższych pozycji w Google."
 template = "sekcja-box-wysrodkowany-z-tekstem"
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
