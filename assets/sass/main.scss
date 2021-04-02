@@ -1406,6 +1406,7 @@ form#contactform,form#mcontactform{
       .banner-header {
         line-height: (91/76);
         font-family: var(--header-font); 
+        margin: 0 0 .35em 0;
         @media (max-width: 767px){
           &.txt-XXL{
             font-size: 10vw;
@@ -1425,14 +1426,8 @@ form#contactform,form#mcontactform{
       }
             .banner-slogan{
         font-family: var(--base-font);
-        
+        margin: 0 0 .5em 0;
       }
-    }
-    .banner-left-col .banner-header {
-      margin: 0 0 .35em 0;
-    }
-    .banner-left-col .banner-slogan{
-    margin: 0 0 .5em 0;
     }
     .banner-right-col{
       width: 100%;
@@ -2542,7 +2537,7 @@ form#contactform,form#mcontactform{
     box-shadow: 0px 3px 20px #00000029;
     background-color: var(--white);
     @at-root body.dark-m .news-list > li {
-      background-color: #242424;
+      background-color: #4e4e4e;
     }
     border-radius: 8px;
     margin-bottom: 1rem;
