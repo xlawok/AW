@@ -1,10 +1,10 @@
 +++
 body_class = "optymalizacja-seo"
-description = "Optymalizacja strony WWW"
+description = "Optymalizacja strony internetowej"
 keywords = ""
 robots = ""
 slug = "optymalizacja-seo"
-title = "Optymalizacja strony WWW"
+title = "Optymalizacja strony internetowej"
 [menu.main]
 name = "Optymalizacja SEO"
 parent = "Pozycjonowanie"
@@ -33,7 +33,7 @@ bold_txt = "gruby"
 break_line = true
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "Optymalizacja strony www"
+txt_block = "Optymalizacja strony internetowej"
 txt_block_size = "XL"
 underline = true
 [[sections.banner_header_cnt.header_repeater]]
