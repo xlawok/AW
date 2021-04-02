@@ -6,7 +6,7 @@ robots = ""
 slug = "konsultacje-seo"
 title = "Konsultacje SEO - Cennik | Agencja Wrocławska"
 [menu.main]
-name = "Konsultacje SEO - Cennik"
+name = "Konsultacje SEO"
 parent = "Pozycjonowanie"
 weight = 5
 [[sections]]
