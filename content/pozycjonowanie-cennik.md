@@ -64,7 +64,7 @@ bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "POZYCJONOWANIE"
+txt_block = "Cennik Pozycjonowania"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
@@ -73,7 +73,7 @@ bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
 ornament = "prawa w dół"
-txt_block = "Cennik - 2021"
+txt_block = "Wycena 2021"
 txt_block_size = "XL"
 underline = false
 [[sections.wiersze_tabela]]
