@@ -6,6 +6,7 @@ robots = ""
 slug = "pozycjonowanie-lokalne"
 title = "Pozycjonowanie Lokalne | Agencja Wrocławska"
 [menu.main]
+name = "Pozycjonowanie Lokalne"
 parent = "Pozycjonowanie"
 weight = 3
 [[sections]]
