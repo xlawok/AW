@@ -7,9 +7,13 @@
     <meta name="twitter:url" content="{{ .Permalink }}" /> 
     <meta property="og:url" content="{{ .Permalink }}" />
 
-    {{ $title := print .Site.Title " | " .Title }}
-    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
-    <title>{{ $title }}</title>
+   
+    {{ if .IsHome }}
+    <title>{{ .Title }} </title>
+    {{else}}
+    <title>{{ .Site.Title }}  | {{ .Title }}</title>
+    {{ end }}
+    
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
     
     {{ $style := resources.Get "/sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}

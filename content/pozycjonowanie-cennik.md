@@ -1,10 +1,10 @@
 +++
-body_class = "cennik-pozycjonowanie"
-description = "Cennik pozycjonowania SEO i SEM"
+body_class = "cennik-pozycjonowania"
+description = "Sprawdź, jakie oferujemy stawki za pozycjonowanie strony internetowej! Nasz cennik seo jest aktualny na 2021 rok. Wejdź i wyceń indywidualnie swój projekt!"
 keywords = ""
 robots = ""
-slug = "cennik-pozycjonowanie"
-title = "Pozycjonowanie cennik"
+slug = "cennik-pozycjonowania"
+title = "Cennik Pozycjonowania - Poznaj Ceny SEO 2021 | Agencja Wrocławska"
 [menu.main]
 name = "Cennik pozycjonowania"
 parent = "Pozycjonowanie"
