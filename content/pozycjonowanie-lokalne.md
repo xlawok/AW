@@ -1,10 +1,10 @@
 +++
 body_class = "pozycjonowanie-lokalne"
-description = "Pozycjonowanie lokalne Wroclaw"
+description = "Zdobądź pozycję lidera w swojej lokalizacji! Niezależnie od formy prowadzonej działalności, pozycjonowanie pomoże Ci zdobyć nowych klientów! Porozmawiajmy!"
 keywords = ""
 robots = ""
 slug = "pozycjonowanie-lokalne"
-title = "Pozycjonowanie lokalne"
+title = "Pozycjonowanie Lokalne | Agencja Wrocławska"
 [menu.main]
 parent = "Pozycjonowanie"
 weight = 3

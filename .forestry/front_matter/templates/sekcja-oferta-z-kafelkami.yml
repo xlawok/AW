@@ -40,7 +40,7 @@ fields:
       options: []
       source:
         type: pages
-        section: pozycjonowanie
+        section: pages
         file: 
         path: 
     label: Odnośnik
