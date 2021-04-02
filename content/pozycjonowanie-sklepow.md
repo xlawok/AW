@@ -4,7 +4,7 @@ description = "Wrocław Stuff! Zajmiemy się pozycjonowaniem SEO Twojego sklepu 
 keywords = ""
 robots = "index follow"
 slug = "pozycjonowanie-sklepow"
-title = "Pozycjonowanie Sklepów - Wsparcie Dev&UX/UI - Agencja Wrocławska"
+title = "Pozycjonowanie Sklepów - Wsparcie Dev&UX/UI | Agencja Wrocławska"
 [menu.main]
 name = "Pozycjonowanie Sklepów Internetowych"
 parent = "Pozycjonowanie"
