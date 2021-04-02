@@ -32,12 +32,14 @@
                         {{end}}
                     {{end}}
                 {{else if eq .kolumna_druga.film_obrazek "movie embed"}}
-                {{if false }}
+                
                     {{.kolumna_druga.kod_embed | safeHTML}}
 
-                {{end}}
+               
+                {{if false }}
                     <iframe src="https://player.vimeo.com/video/521605944?color=ffffff&title=0&byline=0&portrait=0&badge=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/521605944">Droptree | &quot;Village Come Back&quot; (OFFICIAL MUSIC VIDEO)</a> from <a href="https://vimeo.com/droptree">DROPTREE PRODUCTIONS</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                    <p><a href="https://vimeo.com/521605944">Droptree | &quot;Village Come Back&quot; (OFFICIAL MUSIC VIDEO)</a> from <a href="https://vimeo.com/droptree">DROPTREE PRODUCTIONS</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                    {{end}}
                 {{end}}
             </div>
         </div>
