@@ -5,6 +5,7 @@ date = 2021-04-02T22:00:00Z
 description = "Wybierz skuteczne narzędzia SEO, z których korzystają najlepsi pozycjonerzy na świecie! Zobacz listę 6 wybranych narzędzi!"
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = ""
+lista_o_czym_przeczytasz_group = []
 obrazek = ""
 robots = ""
 slug = "6-narzedzi-seo-ktore-pomoga-ci-w-pozycjonowaniu"
@@ -30,23 +31,8 @@ ornament = "brak"
 txt_block = "6 Polecanych Programów do SEO"
 txt_block_size = ""
 underline = false
-[[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = "#wstep-do-narzedzi"
-title = "Wstęp do narzędzi"
-[[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = "polecane-narzedzia-seo"
-title = "Polecane narzędzia SEO"
-[[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = "podsumowanie"
-title = "Podsumowanie"
 
 +++
-Spis treści:
-
-1. Wstęp do narzędzi
-2. Polecane narzędzia seo
-3. Podsumowanie
-
 Opanowanie optymalizacji SEO może być trudne, zwłaszcza jeśli dopiero zaczynasz. Na szczęście znalezienie najlepszych narzędzi SEO jest łatwe, dlatego zebraliśmy je wszystkie na tej liście. Przeanalizowaliśmy bardzo dokładnie, które narzędzia seo są skuteczne i poniżej znajdziesz nasze przemyślenia na ten temat. Nie musisz wypróbowywać wszystkich tych narzędzi, wybierz te, które najlepiej pasują do profilu Twojej działalności.
 
 ## 1. Ahrefs
