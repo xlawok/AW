@@ -20,6 +20,9 @@ fields:
     config:
       required: false
     label: Adres url klienta
+  - name: czy_nofollow
+    type: boolean
+    label: Czy nofollow
   - name: if_svg
     type: boolean
     label: Gdy svg wczytaj w html
