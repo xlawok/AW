@@ -77,8 +77,6 @@ Na powyższym wykresie widzimy liczbę odsyłających stron, czyli mówiąc bard
 
 Dzięki zorientowaniu się na kampanię SEO, ogromny miesięczny ruch organiczny oraz multum słów kluczowych jeszcze bardziej się zwiększył. Mimo, że na wykresie, patrząc tylko na nachylenie krzywej nie wygląda to tak bardzo imponująco, jeśli pomyślimy o różnicy ruchu organicznego na ten moment, a tego sprzed roku – w wielu datach dochodzimy nawet do kilkunastu milionów więcej odwiedzających miesięcznie.
 
-Podsumowanie i subiektywna ocena
-
 ### Podsumowanie i subiektywna ocena {#podsumowanie-i-subiektywna-ocena}
 
 Na podstawie moich doświadczeń oraz obserwacji, uważam że w czasach w jakich obecnie jesteśmy, kiedy wiele biznesów jest zamykane, z uwagi na obostrzenia, czy braki znalezienia innych kanałów dojścia do klienta, przedsiębiorcy powinni być elastyczni. Zdaję sobie sprawę z tego, że niektórzy usługodawcy lub sprzedawcy nie mogą poprzez różne czynniki postawić na kampanię internetowe, ale jeśli ktoś ma taką możliwość, to koniecznie powinien z niej skorzystać. Patrząc na trendy wyszukiwania produktów oraz zwiększone przychody firm dostawczych i kurierskich możemy szybko postawić diagnozę, że ludzie odzwyczaili się od chodzenia po sklepach, wolą wszystko załatwić sprawnie przed swoim komputerem albo smartfonem.  
