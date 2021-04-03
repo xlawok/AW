@@ -4,10 +4,11 @@
   <div class="first-row">
     {{with .pierwsza_kolumna}}
     <div class='first-col'>
- 
+      <a href='{{.Site.BaseURL}}'>
       
         <img class='lmode footer-logo' src='{{.logo}}'>
         <img class='dmode footer-logo' src='{{.logo_dark}}'>
+      </a>
       <div class='footer-address'>
         {{.opis  | safeHTML}}
       </div>
