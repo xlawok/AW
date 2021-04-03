@@ -3032,7 +3032,7 @@ form#contactform,form#mcontactform{
         background: #f2f2f2;
         padding: 2em;
       }
-      @at-root body.dark-m .article-content-wrapper .is-about{
+      @at-root body.dark-m.single .blog-post .article-content-wrapper .is-about{
         background: #424242;
         padding: 2em;
       }

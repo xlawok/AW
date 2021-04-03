@@ -34,22 +34,24 @@
         </div>
       
         <div class='article-content-wrapper'>
+           
+            {{ with $.Params.lista_o_czym_przeczytasz_group}}
             <div class='is-about'>
-                {{ with $.Params.lista_o_czym_przeczytasz_group}}
-                    <div class='is-about-title'>
-                    {{ with $.Params.tytul_o_czym_przeczytasz}}
-                        {{.}}
-                    {{else}}
-                        O czym przeczytasz w artykule?
-                    {{end}}
-                    </div>
-                    <ol class='is-about-list'>
-                        {{range . }}
-                            <li class='is-about-item'><a href="#{{ .adres_odnosnika | urlize}}">{{ .title }}</a></li>
-                        {{end}}
-                    </ol>
+                <div class='is-about-title'>
+                {{ with $.Params.tytul_o_czym_przeczytasz}}
+                    {{.}}
+                {{else}}
+                    O czym przeczytasz w artykule?
                 {{end}}
+                </div>
+                <ol class='is-about-list'>
+                    {{range . }}
+                        <li class='is-about-item'><a href="#{{ .adres_odnosnika | urlize}}">{{ .title }}</a></li>
+                    {{end}}
+                </ol>  
             </div>
+            {{end}}
+          
             <div class='article-content'>
                 {{.Content}}
             </div>
