@@ -3,7 +3,6 @@ author = "data/authors/jakub.yml"
 categories = []
 date = 2021-04-02T22:00:00Z
 description = "Zastanowienie się nad tematem SEO w wielkich firmach"
-draft = true
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = "kampania seo, wielkie marki"
 obrazek = ""
