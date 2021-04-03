@@ -11,7 +11,11 @@
     {{ if .IsHome }}
     <title>{{ .Title }} </title>
     {{else}}
-    <title>{{ .Site.Title }}  | {{ .Title }}</title>
+    <title>
+        {{if false}}
+        {{ .Site.Title }}  | 
+        {{end}}
+        {{ .Title }}</title>
     {{ end }}
     
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
