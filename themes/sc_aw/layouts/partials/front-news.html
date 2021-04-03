@@ -17,7 +17,7 @@
                 <li><a href="{{ "/kategoria/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
             {{ end }}
             </ul>
-            <a href="{{ .Permalink }}"><h3>{{ .Params.title | humanize | title }}</h3>
+            <a href="{{ .Permalink }}"><h3>{{ .Params.tytul_do_listowania   }}</h3>
             <!-- {{- partial "img.html" (dict "image" .Params.obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw")  -}} -->
             <div class='art-summary'>{{.Params.summary | safeHTML}}</div>
             
