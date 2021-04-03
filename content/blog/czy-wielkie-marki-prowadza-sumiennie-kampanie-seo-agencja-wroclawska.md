@@ -11,6 +11,7 @@ slug = "czy-wielkie-marki-prowadza-sumiennie-kampanie-seo"
 summary = " Podczas formułowania unikalnej strategii <strong>kampanii reklamowej SEO</strong>, analiza konkurencji jest jednym z kamieni węgielnych ostatecznego planu. Dzięki analizie konkurentów, którzy aktywnie klasyfikują / wyszukują określone wyszukiwane hasła, możesz uzyskać wgląd w ostateczny rozwój <strong>kampanii SEO w Polsce i na świecie</strong>."
 tags = []
 title = " Czy wielkie marki prowadzą sumiennie kampanię SEO? | Agencja Wrocławska"
+tytul_do_listowania = " Czy wielkie marki prowadzą sumiennie kampanię SEO?"
 tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
 [[header_repeater]]
 block_tag_type = "h1"
