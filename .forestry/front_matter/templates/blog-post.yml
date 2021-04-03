@@ -7,6 +7,11 @@ fields:
   config:
     required: true
   label: Tytuł
+- name: tytul_do_listowania
+  type: text
+  config:
+    required: false
+  label: Tytul do listowania
 - name: slug
   type: text
   config:
