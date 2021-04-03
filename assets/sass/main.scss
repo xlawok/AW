@@ -3528,6 +3528,9 @@ justify-content: center;
           // }
           
         }
+        @at-root body.dark-m .sc-offer-w-tiles .offer-tiles-wrapper li .header-template span.txt-black{
+          color: var(--main-dark-color);
+        }
       }
       &:before,&:after{
         content:'';
