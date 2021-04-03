@@ -1,7 +1,7 @@
 +++
 author = "data/authors/bartek.yml"
 categories = []
-date = 2021-04-03T20:00:00Z
+date = 2021-04-03T08:00:00Z
 description = "Wybierz skuteczne narzędzia SEO, z których korzystają najlepsi pozycjonerzy na świecie! Zobacz listę 6 wybranych narzędzi!"
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = ""
