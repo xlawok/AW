@@ -75,4 +75,6 @@ Wszędzie gdzie nie klikniemy, czekają na nas bardziej szczegółowe dane. Pozo
 
 Wprowadź adres URL, a narzędzie przetestuje czas ładowania i wydajność swojej strony na komputerach i urządzeniach mobilnych. PageSpeed Insight ocenia wydajność Twojej witryny na podstawie wyniku od 0 do 100. Dokładnie poinformuje Cię o szybkości ładowania Twojej witryny na podstawie różnych wskaźników i zasugeruje obszary wymagające poprawy. Zgodnie z aktualizacją Google w tym zakresie warto zadbać o szybkie działanie serwisu w wersji mobilnej i desktop.
 
+### Podsumowanie
+
 Utworzenie listy narzędzi SEO nie jest łatwym zadaniem, bo jest ich dosłownie setki! Chcieliśmy zebrać te, które uznaliśmy za wartościowe, dzięki którym będziesz w stanie zbudować wysokie pozycje w Google i wypromować swój biznes na ogromną skalę dzięki SEO!
