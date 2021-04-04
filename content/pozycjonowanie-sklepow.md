@@ -10,7 +10,7 @@ name = "Pozycjonowanie Sklepów"
 parent = "Pozycjonowanie"
 weight = 2
 [[sections]]
-banner_bg_no_img = "/uploads/group-215.svg"
+banner_bg_no_img = "/uploads/pozycjonowanie-sklepow-regular.svg"
 banner_cta_title = "Zamów bezpłatną wycenę"
 banner_cta_url = []
 banner_img = "/uploads/group-215.svg"
