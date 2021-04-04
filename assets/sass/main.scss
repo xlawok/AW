@@ -2694,6 +2694,9 @@ form#contactform,form#mcontactform{
       grid-gap: 1rem;
       justify-content: unset;
       flex-wrap: unset;
+      li>img{
+        width: 100%;
+      }
       @media (min-width: 1200px){
         li:first-child{
           grid-row: span 2;
