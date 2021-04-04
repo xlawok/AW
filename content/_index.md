@@ -173,7 +173,7 @@ txt_block_size = "XL"
 underline = false
 [[sections.home_services_group.services_box_group]]
 adres_odnosnika = "pozycjonowanie-stron.md"
-if_svg = true
+if_svg = false
 obrazek = "/uploads/group-19.svg"
 obrazek_dark_mode = "/uploads/ikona-pozycjonowanie-stron-dark.svg"
 opis_uslugi = "Pozycjonowanie stron internetowych (z ang. Search Engine Optimization) to cały wieloetapowy proces, którego głównym założeniem jest poprawienie widoczności domeny w wyszukiwarkach takich jak Google. Dzięki zabiegom optymalizacji i sprawnego linkbuildingu Twoją stronę odwiedzi coraz więcej klientów."
