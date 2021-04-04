@@ -21,7 +21,7 @@
                     </ul>
                     <a href="{{ .Permalink }}"><h3>{{ .Params.tytul_do_listowania  }}</h3>
                     <!-- {{- partial "img.html" (dict "image" .Params.obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw")  -}} -->
-                    <div class='art-summary'>{{.Params.summary}}</div>
+                    <div class='art-summary'>{{.Params.summary |safeHTML}}</div>
                     
                     </a>
                     <div class="list-art-footer">
