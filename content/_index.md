@@ -88,7 +88,7 @@ film_obrazek = "image"
 if_svg = false
 kod_embed = ""
 obrazek = "/uploads/icon-big-main-aw-1.svg"
-obrazek_dark_mode = "/uploads/home-dark-g1.svg"
+obrazek_dark_mode = "/uploads/home-dark-g1-1.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = "o-nas.md"
 if_blank = false
@@ -173,7 +173,7 @@ txt_block_size = "XL"
 underline = false
 [[sections.home_services_group.services_box_group]]
 adres_odnosnika = "pozycjonowanie-stron.md"
-if_svg = true
+if_svg = false
 obrazek = "/uploads/group-19.svg"
 obrazek_dark_mode = "/uploads/ikona-pozycjonowanie-stron-dark.svg"
 opis_uslugi = "Pozycjonowanie stron internetowych (z ang. Search Engine Optimization) to cały wieloetapowy proces, którego głównym założeniem jest poprawienie widoczności domeny w wyszukiwarkach takich jak Google. Dzięki zabiegom optymalizacji i sprawnego linkbuildingu Twoją stronę odwiedzi coraz więcej klientów."
@@ -189,7 +189,7 @@ txt_block_size = "L"
 underline = false
 [[sections.home_services_group.services_box_group]]
 adres_odnosnika = "pozycjonowanie-sklepow.md"
-if_svg = true
+if_svg = false
 obrazek = "/uploads/group-160.svg"
 obrazek_dark_mode = "/uploads/pozycjonowanie-sklepow-dark.svg"
 opis_uslugi = "W zasadzie proces przygotowania i optymalizacji sklepu jest z reguły tym samym, jak w przypadku strony. Natomiast ważne jest wybranie odpowiednich fraz, które zwiększą współczynnik konwersji. Uściślając - stosunek wizyt na sklepie, ma przekładać się na jak największą sprzedaż produktów klienta."
@@ -205,9 +205,9 @@ txt_block_size = "L"
 underline = false
 [[sections.home_services_group.services_box_group]]
 adres_odnosnika = "pozycjonowanie-lokalne.md"
-if_svg = true
+if_svg = false
 obrazek = "/uploads/group-164.svg"
-obrazek_dark_mode = ""
+obrazek_dark_mode = "/uploads/pozycjonowanie-lokalne-dark.svg"
 opis_uslugi = "Sprawne i indywidualne obranie ścieżki na pozycjonowanie regionalnych stron i mniejszych sklepów internetowych jest kluczowe w wyrobieniu sobie wysokiej lokalnej pozycji w internecie i dotarcia do klientów w pobliżu."
 relacja_linku = "follow"
 [[sections.home_services_group.services_box_group.header_repeater]]
