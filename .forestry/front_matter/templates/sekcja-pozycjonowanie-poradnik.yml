@@ -50,7 +50,7 @@ fields:
     config:
       maxSize: 2
     label: Ikona dark mode
-    description: Gdy brak ikony, pozycja na pełną szerokość    
+    description: Gdy brak ikony, pozycja na pełną szerokość
   - name: if_svg
     type: boolean
     label: Gdy svg wczytaj w html
