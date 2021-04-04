@@ -205,9 +205,9 @@ txt_block_size = "L"
 underline = false
 [[sections.home_services_group.services_box_group]]
 adres_odnosnika = "pozycjonowanie-lokalne.md"
-if_svg = true
+if_svg = false
 obrazek = "/uploads/group-164.svg"
-obrazek_dark_mode = ""
+obrazek_dark_mode = "/uploads/pozycjonowanie-lokalne-dark.svg"
 opis_uslugi = "Sprawne i indywidualne obranie ścieżki na pozycjonowanie regionalnych stron i mniejszych sklepów internetowych jest kluczowe w wyrobieniu sobie wysokiej lokalnej pozycji w internecie i dotarcia do klientów w pobliżu."
 relacja_linku = "follow"
 [[sections.home_services_group.services_box_group.header_repeater]]
