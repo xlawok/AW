@@ -24,7 +24,10 @@
                     {{end}}
                    
                     <div class='tile-img'>
-                        {{- partial "img.html" (dict "image" .ikona "imgsizes" "" "tag_class" "col-img" "ifsrcset" "nosrcset")  -}}
+                        {{- partial "img.html" (dict "image" .ikona "imgsizes" "" "tag_class" "col-img lmode" "ifsrcset" "nosrcset")  -}}
+                        {{with .ikona_dark_mode}}
+                            {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "dmode")  -}}
+                        {{end}} 
                     </div>
                     {{ $header_list := (.header_repeater) }}
   

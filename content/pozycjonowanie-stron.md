@@ -103,6 +103,7 @@ txt_block_size = "XL"
 [[sections.kafelki]]
 if_anchor = true
 ikona = "/uploads/group-19.svg"
+ikona_dark_mode = "/uploads/group-19.svg"
 title = "strony"
 [[sections.kafelki.header_repeater]]
 block_tag_type = "h2"
@@ -122,6 +123,7 @@ txt_block_size = "L"
 underline = true
 [[sections.kafelki]]
 ikona = "/uploads/group-160.svg"
+ikona_dark_mode = "/uploads/group-160.svg"
 odnosnik = "pozycjonowanie-sklepow.md"
 title = "sklepy"
 [[sections.kafelki.header_repeater]]
@@ -142,6 +144,7 @@ txt_block_size = "L"
 underline = true
 [[sections.kafelki]]
 ikona = "/uploads/group-164.svg"
+ikona_dark_mode = "/uploads/group-164.svg"
 odnosnik = "pozycjonowanie-lokalne.md"
 title = "lokalne"
 [[sections.kafelki.header_repeater]]
@@ -162,6 +165,7 @@ txt_block_size = "L"
 underline = true
 [[sections.kafelki]]
 ikona = "/uploads/group-165.svg"
+ikona_dark_mode = "/uploads/group-165.svg"
 odnosnik = "optymalizacja-strony-www.md"
 title = "audyt"
 [[sections.kafelki.header_repeater]]
@@ -182,6 +186,7 @@ txt_block_size = "L"
 underline = true
 [[sections.kafelki]]
 ikona = "/uploads/group-166.svg"
+ikona_dark_mode = "/uploads/group-166.svg"
 odnosnik = "konsultacje-seo.md"
 title = "konsultacje"
 [[sections.kafelki.header_repeater]]
