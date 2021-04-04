@@ -20,9 +20,14 @@
             </div>
             <div class='second-col'>
           
-                {{- partial "img.html" (dict "image" .obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "lmode")  -}}
+                
+                {{$obrazek := .obrazek}}
                 {{with .obrazek_dark_mode}}
+                    {{- partial "img.html" (dict "image" $obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "lmode")  -}}
                     {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "dmode")  -}}
+
+                {{else}}
+                    {{- partial "img.html" (dict "image" $obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "")  -}}
                 {{end}}     
                    
                    

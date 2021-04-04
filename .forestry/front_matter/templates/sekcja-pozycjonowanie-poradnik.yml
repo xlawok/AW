@@ -12,6 +12,11 @@ fields:
   config:
     maxSize: 2
   label: Obrazek sekcji
+- name: obrazek_sekcji_dark
+  type: file
+  config:
+    maxSize: 2
+  label: Obrazek sekcji dark mode
 - name: title_of_index
   type: text
   config:
@@ -39,6 +44,12 @@ fields:
     config:
       maxSize: 2
     label: Ikona
+    description: Gdy brak ikony, pozycja na pełną szerokość
+  - name: ikona_dark_mode
+    type: file
+    config:
+      maxSize: 2
+    label: Ikona dark mode
     description: Gdy brak ikony, pozycja na pełną szerokość
   - name: if_svg
     type: boolean

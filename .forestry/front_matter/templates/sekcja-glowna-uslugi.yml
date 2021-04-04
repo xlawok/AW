@@ -26,8 +26,13 @@ fields:
     - name: obrazek
       type: file
       config:
-        maxSize: 64
+        maxSize: 2
       label: Obrazek
+    - name: obrazek_dark_mode
+      type: file
+      config:
+        maxSize: 2
+      label: Obrazek dark mode
     - name: if_svg
       type: boolean
       label: Gdy svg wczytaj w html

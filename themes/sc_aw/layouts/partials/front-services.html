@@ -29,7 +29,15 @@
                         {{if .if_svg}}
                             {{ readFile .obrazek | safeHTML }}
                         {{else }}
-                            {{- partial "img.html" (dict "image" .obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw")  -}}
+                         
+                            {{$obrazek := .obrazek}}
+                            {{with .obrazek_dark_mode}}
+                                {{- partial "img.html" (dict "image" $obrazek "imgsizes" "" "tag_class" "lmode" "ifsrcset" "nosrcset" )  -}}
+                                {{- partial "img.html" (dict "image" . "imgsizes" "" "tag_class" "dmode" "ifsrcset" "nosrcset" )  -}}
+
+                            {{else}}
+                                {{- partial "img.html" (dict "image" $obrazek "imgsizes" "" "tag_class" "" "ifsrcset" "nosrcset" )  -}}
+                            {{end}} 
                         {{end}}
                     </div>
                     {{ $header_list := (.header_repeater) }}

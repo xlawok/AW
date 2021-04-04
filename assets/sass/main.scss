@@ -1345,13 +1345,7 @@ form#contactform,form#mcontactform{
     position: relative;
     z-index: 1;
   }
-  .banner-img{
-    position: fixed;
-    z-index: -1;
-    opacity: 0.69;
-    width: 100%;
-    object-fit: cover;
-  }
+
   .banner-logo {
     position: fixed;
     top: -15%;
@@ -1366,6 +1360,17 @@ form#contactform,form#mcontactform{
     }
     
     min-height: 30rem;
+  }
+  .banner-img{
+    position: fixed;
+    z-index: -1;
+    opacity: 0.69;
+    width: 100%;
+    object-fit: cover;
+    @media (min-width: 768px){
+      height: 100vh;
+      transform: translateY(-30vh);
+    }
   }
   .banner-wide-content{
     display: flex;
