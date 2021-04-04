@@ -6,7 +6,15 @@
   
         {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "tutorial-sec-header")  -}}
         <div class='icon-cnt'>
-            {{- partial "img.html" (dict "image" .obrazek_sekcji "imgsizes" "" "tag_class" "col-img" "ifsrcset" "nosrcset")  -}}
+           
+            {{$obrazek := .obrazek_sekcji}}
+            {{with .obrazek_sekcji_dark}}
+                {{- partial "img.html" (dict "image" $obrazek "imgsizes" "" "tag_class" "col-img lmode" "ifsrcset" "nosrcset")  -}}
+                {{- partial "img.html" (dict "image" . "imgsizes" "" "tag_class" "col-img dmode" "ifsrcset" "nosrcset")  -}}
+
+            {{else}}
+                {{- partial "img.html" (dict "image" $obrazek "imgsizes" "" "tag_class" "col-img" "ifsrcset" "nosrcset")  -}}
+            {{end}}  
         </div>
 
       </div>
@@ -44,7 +52,15 @@
                             {{if $element.if_svg}}
                                 {{ readFile $element.ikona | safeHTML }}
                             {{else }}
-                                {{- partial "img.html" (dict "image" $element.ikona "imgsizes" "" "ifsrcset" "nosrcset")  -}}
+                              
+                                {{$obrazek := $element.ikona}}
+                                {{with $element.ikona_dark_mode}}
+                                    {{- partial "img.html" (dict "image" $obrazek "imgsizes" "" "tag_class" "lmode" "ifsrcset" "nosrcset" )  -}}
+                                    {{- partial "img.html" (dict "image" . "imgsizes" "" "tag_class" "dmode" "ifsrcset" "nosrcset" )  -}}
+
+                                {{else}}
+                                    {{- partial "img.html" (dict "image" $obrazek "imgsizes" "" "tag_class" "" "ifsrcset" "nosrcset" )  -}}
+                                {{end}}  
                             {{end}}
                         </div>
                     </div>
