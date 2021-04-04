@@ -221,7 +221,7 @@ txt_block_size = "L"
 underline = false
 [[sections.home_services_group.services_box_group]]
 adres_odnosnika = "optymalizacja-strony-www.md"
-if_svg = true
+if_svg = false
 obrazek = "/uploads/group-165.svg"
 obrazek_dark_mode = ""
 opis_uslugi = "Każdy zainteresowany potencjalną współpracą klient otrzymuje od nas bezpłatny, rzetelny audyt na temat jego domeny. Mamy za zadanie pokazać klientowi jego obecną pozycję, porównanie do bezpośredniej konkurencję, obecny profil linkowy, czy aktualną szybkość strony. W kolejnym kroku przedstawiamy klientowi naszą wizję zoptymalizowania i dywersyfikacji obecnej treści oraz strategię działania."
@@ -237,7 +237,7 @@ txt_block_size = "L"
 underline = false
 [[sections.home_services_group.services_box_group]]
 adres_odnosnika = "konsultacje-seo.md"
-if_svg = true
+if_svg = false
 obrazek = "/uploads/group-166.svg"
 obrazek_dark_mode = ""
 opis_uslugi = "Dla klientów, którzy chcą prowadzić swoją stronę lub sklep internetowy w pojedynkę, bez udziału osób trzecich - służymy radą i pomocą. Mini szkolenia z zakresu pozycjonowania i optymalizacji, które są w stanie ukazać cały know how oraz metody działania jako administrator pomogą poznać bliżej świat SEO."
