@@ -2,11 +2,13 @@
     <section class="sec-padding blog-page">
         <div class='categories-cnt'>
             <ul class='categories-list-all'>
-                <li>Filtruj:</li>
-                {{ range $key, $value := .Site.Taxonomies.categories }}
-                    <li><a href="/kategoria/{{ $key | urlize  }}">{{ $key | humanize }}</a> 
-                        <!-- ({{ len $value }}) -->
-                    </li>
+                {{with .Site.Taxonomies.categories }}
+                    <li>Filtruj:</li>
+                    {{ range $key, $value := . }}
+                        <li><a href="/kategoria/{{ $key | urlize  }}">{{ $key | humanize }}</a> 
+                            <!-- ({{ len $value }}) -->
+                        </li>
+                    {{ end }}
                 {{ end }}
             </ul>
         </div>

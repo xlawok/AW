@@ -3250,6 +3250,8 @@ z-index: 1;
 .categories-cnt {
   display: flex;
   justify-content: flex-end;
+  z-index: 1;
+  position: relative;
 }
 .categories-list-all{
   list-style: none;
