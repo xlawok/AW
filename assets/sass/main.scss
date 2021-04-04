@@ -5348,7 +5348,7 @@ justify-content: center;
               background: #FFFFFF;
               box-shadow: 0px 3px 20px #00000029;
               @at-root body.dark-m.home section.sc-home-services .services-cols-cnt .services-col-box{
-                background: transparent;
+                background: var(--main-dark-color);
                 box-shadow: unset;
               }
           }
