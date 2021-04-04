@@ -4455,7 +4455,7 @@ justify-content: center;
   @media (min-width: 1920px){
       padding: 8rem 15.78125vw 0 15.78125vw;
   }
-  @media (min-width: 1200px){
+  @media (max-width: 1200px){
     padding: 4rem 4rem;
    
   }
