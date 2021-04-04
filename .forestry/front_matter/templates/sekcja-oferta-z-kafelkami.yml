@@ -24,6 +24,11 @@ fields:
     config:
       maxSize: 2
     label: Ikona
+  - name: ikona_dark_mode
+    type: file
+    config:
+      maxSize: 2
+    label: Ikona dark mode
   - name: naglowek
     type: include
     config: {}
