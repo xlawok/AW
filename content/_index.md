@@ -191,7 +191,7 @@ underline = false
 adres_odnosnika = "pozycjonowanie-sklepow.md"
 if_svg = true
 obrazek = "/uploads/group-160.svg"
-obrazek_dark_mode = ""
+obrazek_dark_mode = "/uploads/pozycjonowanie-sklepow-dark.svg"
 opis_uslugi = "W zasadzie proces przygotowania i optymalizacji sklepu jest z reguły tym samym, jak w przypadku strony. Natomiast ważne jest wybranie odpowiednich fraz, które zwiększą współczynnik konwersji. Uściślając - stosunek wizyt na sklepie, ma przekładać się na jak największą sprzedaż produktów klienta."
 relacja_linku = "follow"
 [[sections.home_services_group.services_box_group.header_repeater]]
