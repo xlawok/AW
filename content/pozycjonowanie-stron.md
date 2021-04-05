@@ -186,7 +186,7 @@ txt_block_size = "L"
 underline = true
 [[sections.kafelki]]
 ikona = "/uploads/group-166.svg"
-ikona_dark_mode = "/uploads/group-166.svg"
+ikona_dark_mode = "/uploads/konsultacje.svg"
 odnosnik = "konsultacje-seo.md"
 title = "konsultacje"
 [[sections.kafelki.header_repeater]]
