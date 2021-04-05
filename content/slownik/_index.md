@@ -4,7 +4,7 @@ description = "Słownik SEO/SEM"
 keywords = ""
 robots = "index follow"
 slug = "slownik"
-title = "Słownik"
+title = "Słownik SEO | Agencja Wrocławska"
 [menu.main]
 name = "Słownik SEO"
 weight = 4

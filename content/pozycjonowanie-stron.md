@@ -12,7 +12,7 @@ weight = 1
 [[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_right = ""
-banner_bg_no_img = "/uploads/pozycjonowanie-stron.svg"
+banner_bg_no_img = "/uploads/pozycjonowanie-stron-1.svg"
 banner_center_img = ""
 banner_cta_title = "Zamów bezpłatną wycenę"
 banner_cta_url = []
@@ -103,10 +103,10 @@ txt_block_size = "XL"
 [[sections.kafelki]]
 if_anchor = true
 ikona = "/uploads/group-19.svg"
-ikona_dark_mode = "/uploads/group-19.svg"
+ikona_dark_mode = "/uploads/ikona-pozycjonowanie-stron-dark.svg"
 title = "strony"
 [[sections.kafelki.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = true
 color_txt = "czarny"
@@ -114,7 +114,7 @@ ornament = "brak"
 txt_block = "Pozycjonowanie"
 txt_block_size = "L"
 [[sections.kafelki.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 color_txt = "czerwony"
 ornament = "brak"
@@ -123,7 +123,7 @@ txt_block_size = "L"
 underline = true
 [[sections.kafelki]]
 ikona = "/uploads/group-160.svg"
-ikona_dark_mode = "/uploads/group-160.svg"
+ikona_dark_mode = "/uploads/pozycjonowanie-sklepow-dark.svg"
 odnosnik = "pozycjonowanie-sklepow.md"
 title = "sklepy"
 [[sections.kafelki.header_repeater]]
@@ -144,7 +144,7 @@ txt_block_size = "L"
 underline = true
 [[sections.kafelki]]
 ikona = "/uploads/group-164.svg"
-ikona_dark_mode = "/uploads/group-164.svg"
+ikona_dark_mode = "/uploads/pozycjonowanie-lokalne-dark.svg"
 odnosnik = "pozycjonowanie-lokalne.md"
 title = "lokalne"
 [[sections.kafelki.header_repeater]]
@@ -165,7 +165,7 @@ txt_block_size = "L"
 underline = true
 [[sections.kafelki]]
 ikona = "/uploads/group-165.svg"
-ikona_dark_mode = "/uploads/group-165.svg"
+ikona_dark_mode = "/uploads/audyt.svg"
 odnosnik = "optymalizacja-strony-www.md"
 title = "audyt"
 [[sections.kafelki.header_repeater]]
@@ -186,7 +186,7 @@ txt_block_size = "L"
 underline = true
 [[sections.kafelki]]
 ikona = "/uploads/group-166.svg"
-ikona_dark_mode = "/uploads/group-166.svg"
+ikona_dark_mode = "/uploads/konsultacje.svg"
 odnosnik = "konsultacje-seo.md"
 title = "konsultacje"
 [[sections.kafelki.header_repeater]]
@@ -213,6 +213,7 @@ tytul_odnosnika = "Zamów bezpłatną wycenę"
 [[sections]]
 kategoria_tytulu_dla_poradnika = "h3"
 obrazek_sekcji = "/uploads/group-85.svg"
+obrazek_sekcji_dark = "/uploads/seo1.svg"
 template = "sekcja-pozycjonowanie-poradnik"
 title_of_index = "Spis treści"
 [sections.floating_box_group]
@@ -255,11 +256,13 @@ underline = true
 [[sections.poradnik_group]]
 if_svg = false
 ikona = "/uploads/group-194.svg"
+ikona_dark_mode = "/uploads/seo2.svg"
 opis = "Ponieważ marketing cyfrowy staje się coraz bardziej dojrzały, nie jest zaskoczeniem, że firmy są coraz lepsze w pozycjonowaniu, walka na poszczególnych frazach, staje się coraz bardziej zacięta. Posługując się statystykami, większość osób widzi więcej wyników poprzez działania SEO - czyli pozycjonowania organicznego, niż PPC (Pay Per Click) - posługiwania się AdWordsami - płatnymi reklamami Google. Wielu respondentów zgłosiło, że widzi lepsze wyniki (w tym ruchu organicznego, potencjalnych klientów i ilości sprzedaży) realizując działania SEO. Inni wykorzystali zwrot z inwestycji jako punkt odniesienia do ustalenia wyższości SEO nad PPC. Marketerzy uznali SEO za strategię długoterminową, podczas gdy PPC pozwalało na krótkoterminowe wybuchy, co przekładało się na brak ruchu na stronie po zaprzestaniu płacenia na AdWords. Dobrze utkwił nam jeden cytat właściciela firmy, która korzystała zarówno z SEO, jak i AdWords: „PPC to jak podnoszenie ołowianego sterowca. Włóż w to wystarczającą siłę (tj. Pieniądze), a ruch się pojawi. Ale gdy tylko przestaniesz płacić, ruch ustanie”. Posługując się statystykami - 70% marketingców uważa, że ​​SEO jest skuteczniejsze niż PPC. Natomiast 61% marketingowców w firmach twierdzi, że poprawa SEO i zwiększenie organicznej obecności w internecie jest najwyższym priorytetem w obecnej strategii działań."
 title = "Jaką skuteczność ma pozycjonowanie?"
 [[sections.poradnik_group]]
 if_svg = false
 ikona = "/uploads/group-189.svg"
+ikona_dark_mode = "/uploads/no1.svg"
 opis = "Pierwsza strona w wyszukiwarce Google to swoista “Ziemia obiecana” dla wszystkich pozycjonerów. Wszystkie frazy, które są pozycjonowane, mają za zadanie znaleźć się właśnie tam. Ale dlaczego tak jest? Wystarczy posłużyć się dwoma faktami, zachowaniem każdego z nas, ale również potwierdzonymi danymi m.in. posługując się książką o SEO, Marco Maltraversi’ego. Jest tam informacja o tym, że 85% użytkowników wyszukiwarek, patrzy tylko na pierwszą stronę wyników wyszukiwania, natomiast 78% użytkowników nie doskonali zapytań po pierwszym wyszukaniu. Z reguły jako ludzie mamy tendencję do tego, żeby przemieszczać się z jednej strony na drugą kierując się linkami, zamiast zajrzeć na następną stronę albo raz jeszcze wpisać zapytanie. <strong>Pierwsza strona w Google</strong> na większość zatłoczonych fraz objawia się bardzo podobnie. Na samej górze znajdują się płatne reklamy PPC takie jak AdWords i to one, nawet przy najlepszym pozycjonowaniu organicznym będą znajdować się najwyżej. Jednak na przestrzeni lat ludzie intuicyjnie coraz rzadziej w nie klikają, bo nauczyli się, że jakościowe treści znajdują się pod reklamami. To właśnie o te miejsca firmy toczą największe boje - to tutaj dochodzi do największego ruchu z wyszukiwarki do strony końcowej. Cała pierwsza strona wyszukiwań wyświetla 10 wyników organicznie dopasowanych do zapytania, jednak trzeba pamiętać o tym, że AdWordsy zabierają cenne miejsce. Miejmy więc dobry i przemyślany <strong>plan na SEO</strong>."
 title = "Jak wygląda pierwsza strona w wynikach wyszukiwania?"
 [[sections.poradnik_group]]

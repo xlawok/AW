@@ -564,7 +564,7 @@ header{
         width: 1em;
         height: 1em;
         background-repeat: no-repeat;
-        bottom: 0;
+        bottom: .3rem;
         @media (max-width:1199px){
           bottom: 0.2rem;
         }
@@ -593,7 +593,7 @@ header{
         height: 1em;
         background-repeat: no-repeat;
         background-size: contain;
-        bottom: 0;
+        bottom: .3rem;
         @media (max-width:1199px){
           bottom: 0.2rem;
         }
