@@ -3,14 +3,23 @@
     <div class='center-banner-cnt'>
         {{ with site.GetPage "/slownik" }}
             {{range .Params.sections}}
-                {{- partial "img.html" (dict "image" .banner_bg_no_img "imgsizes" "" "tag_class" "banner-bg-img" "ifsrcset" "nosrcset")  -}}
+              
+
+                {{$obrazek := .banner_bg_no_img}}
+                {{with .banner_bg_no_img_dark}}
+                    {{- partial "img.html" (dict "image" $obrazek "imgsizes" "" "tag_class" "banner-bg-img lmode" "ifsrcset" "nosrcset")  -}}
+                    {{- partial "img.html" (dict "image" . "imgsizes" "" "tag_class" "dmode")  -}}
+
+                {{else}}
+                    {{- partial "img.html" (dict "image" $obrazek "imgsizes" "" "tag_class" "banner-bg-img" "ifsrcset" "nosrcset")  -}}
+                {{end}}  
             {{end}}
         {{end}}
        
             <div class='on-banner-content sec-padding'>
             
                    <h1 class='txt-red f-w700 txt-underline txt-XL'>
-                       {{.Title}}
+                       {{.Params.title_naglowek}}
                    </h1>
                     {{with .Params.opis}}
                         <div class='no-img-banner-desc'>

@@ -137,6 +137,7 @@ tytul_odnosnika = "Zamów bezpłatna wycenę"
 [[sections]]
 listowanie = ["Budowanie świadomości i popularności marki", "Widoczność na pożądane słowa kluczowe wyszukiwane przez klientów", "Odpowiednie zoptymalizowane strony produktowe", "Odpowiednie zoptymalizowane strony produktowe", "Zwiększenie sprzedaży produktów", "Możliwość na szybki rozwój marki w internecie"]
 obrazek = "/uploads/group-217.svg"
+obrazek_dark_mode = "/uploads/seo3.svg"
 tekst_nad_listowaniem = "<strong>Co zyskuje marka dzięki pozycjonowaniu e-commerce?</strong>"
 template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
 [[sections.header_repeater]]
@@ -216,16 +217,18 @@ ornament = "prawa w dół"
 txt_block = "naszej pracy"
 txt_block_size = "XL"
 [[sections.kolumny_3]]
-obrazek = "/uploads/group-169.svg"
-obrazek_dark_mode = "/uploads/group-169.svg"
+obrazek = "/uploads/144procent.svg"
+obrazek_dark_mode = "/uploads/144procent-dark.svg"
 opis = "Naszym celem było zająć się pozycjonowaniem sklepu w bardzo konkurencyjnej branży - z odzieżą damską. Po 6-ciu miesiącach uzyskaliśmy znaczący efekt zwiększenia widoczności słów kluczowych pojawiających się na pierwszej stronie wyników wyszukiwań. Sklep klienta znacząco zyskał na tym procesie optymalizacji i linkbuildingu w zakresie zwiększenia sprzedaży."
 title = "Zwiększenie o 144% ilości słów kluczowych w TOP 10"
 [[sections.kolumny_3]]
-obrazek = "/uploads/group-173.svg"
+obrazek = "/uploads/bezpeczna-migracja.svg"
+obrazek_dark_mode = "/uploads/bezpieczna-migracja-dark.svg"
 opis = "W przypadku rozbudowanych sklepów internetowych znacząco zadaniem jest wykonanie odpowiedniej migracji starego sklepu do nowego - nie tracąc ruchu organicznego. To normalne, że marki ewoluują i czasami zmieniają swoje sklepy rewolucyjnie. Przeprowadziliśmy migrację sklepu klienta w bezpieczny sposób, nie tracąc wyników SEO."
 title = "Bezpieczna migracja sklepu na nowy"
 [[sections.kolumny_3]]
-obrazek = "/uploads/group-178.svg"
+obrazek = "/uploads/10razy.svg"
+obrazek_dark_mode = "/uploads/1razy-dark.svg"
 opis = "Prowadzimy klienta z branży reklamowo&artystycznej, gdzie w większości zlecenia pozyskuje się w dwojaki sposób - polecenia albo zapytania z Google. Poprzez optymalizację strony, stałe tworzenie contentu oraz budowanie profilu linkowego domeny zwiększyliśmy 10 krotnie ilość zapytań ofertowych. Przed rozpoczęciem prac było ok. 1 zapytanie miesięcznie, obecnie wpływa ich około 10-ciu. Czas trwania współpracy to 8 miesięcy."
 title = "10x więcej zapytań ofertowych"
 [[sections]]
@@ -251,6 +254,7 @@ txt_block_size = "XL"
 [[sections]]
 listowanie = ["Jesteśmy Partnerem Google.", "Dekowany zespoł specjalistów SEO on-site i off-site całościowo zajmie się Twoim sklepem", "Wspólnie ustalamy Twoje cele marketingowe i przygotujemy konkretne założenia", "Łączymy wiedzę z zakresu SEO, Web Developmentu, User Experience oraz Content Marketing", "Nie robimy wszystkiego dla wszystkich, realizujemy swoją ideę"]
 obrazek = "/uploads/group-217.svg"
+obrazek_dark_mode = "/uploads/seo3.svg"
 tekst_nad_listowaniem = "<strong>Jesteśmy wrocławskim zespołem, który w pełni zaangażuje się w pracę nad <span class='txt-red'>Twoim</span> serwisem. Twoje efekty są również miarą naszego sukcesu.</strong>"
 template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
 [[sections.header_repeater]]

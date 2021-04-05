@@ -2,7 +2,15 @@
 <section class=' sc-banner-center-img'>
     <div class='center-banner-cnt'>
         <div class='banner-left-side-img'>
-            {{- partial "img.html" (dict "image" .banner_bg_for_center_left "imgsizes" "" "tag_class" "banner-bg-img" "ifsrcset" "nosrcset")  -}}
+            
+            {{$obrazek := .banner_bg_for_center_left}}
+            {{with .banner_bg_for_center_left_dark}}
+                {{- partial "img.html" (dict "image" $obrazek "imgsizes" "" "tag_class" "banner-bg-img lmode" "ifsrcset" "nosrcset")  -}}
+                {{- partial "img.html" (dict "image" . "imgsizes" "" "tag_class" "dmode")  -}}
+
+            {{else}}
+                {{- partial "img.html" (dict "image" $obrazek "imgsizes" "" "tag_class" "banner-bg-img" "ifsrcset" "nosrcset")  -}}
+            {{end}}  
         </div>
         <!-- {{if .banner_header_cnt.header_repeater }}
             <div class='on-banner-content sec-padding'>
@@ -20,7 +28,15 @@
             
         </div>
         <div class='banner-right-side-img'>
-            {{- partial "img.html" (dict "image" .banner_bg_for_center_right "imgsizes" "" "tag_class" "banner-bg-img" "ifsrcset" "nosrcset")  -}}
+           
+            {{$obrazek2 := .banner_bg_for_center_right}}
+            {{with .banner_bg_for_center_right_dark}}
+                {{- partial "img.html" (dict "image" $obrazek2 "imgsizes" "" "tag_class" "banner-bg-img lmode" "ifsrcset" "nosrcset")  -}}
+                {{- partial "img.html" (dict "image" . "imgsizes" "" "tag_class" "dmode")  -}}
+
+            {{else}}
+                {{- partial "img.html" (dict "image" $obrazek2 "imgsizes" "" "tag_class" "banner-bg-img" "ifsrcset" "nosrcset")  -}}
+            {{end}}  
         </div>
     </div>
     <div class='center-on-banner-img'>

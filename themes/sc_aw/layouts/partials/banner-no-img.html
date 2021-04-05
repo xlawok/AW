@@ -2,8 +2,15 @@
 <section class=' sc-banner-center-noimg' id="top-banner">
     <div class='center-banner-cnt'>
         
-            {{- partial "img.html" (dict "image" .banner_bg_no_img "imgsizes" "" "tag_class" "banner-bg-img" "ifsrcset" "nosrcset")  -}}
-        
+            
+            {{$obrazek := .banner_bg_no_img}}
+            {{with .banner_bg_no_img_dark}}
+                {{- partial "img.html" (dict "image" $obrazek "imgsizes" "" "tag_class" "banner-bg-img lmode" "ifsrcset" "nosrcset")  -}}
+                {{- partial "img.html" (dict "image" . "imgsizes" "" "tag_class" "dmode")  -}}
+
+            {{else}}
+                {{- partial "img.html" (dict "image" $obrazek "imgsizes" "" "tag_class" "banner-bg-img" "ifsrcset" "nosrcset")  -}}
+            {{end}}  
         {{if .banner_header_cnt.header_repeater }}
             <div class='on-banner-content sec-padding'>
             

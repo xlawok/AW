@@ -123,16 +123,32 @@ fields:
 - name: banner_bg_for_center_left
   type: file
   config:
-    maxSize: 64
+    maxSize: 2
   label: Tło po lewej
+  showOnly:
+    field: banner_type
+    value: center_img_w_background
+- name: banner_bg_for_center_left_dark
+  type: file
+  config:
+    maxSize: 2
+  label: Tło po lewej dark mode
   showOnly:
     field: banner_type
     value: center_img_w_background
 - name: banner_bg_for_center_right
   type: file
   config:
-    maxSize: 64
+    maxSize: 2
   label: Tło po prawej
+  showOnly:
+    field: banner_type
+    value: center_img_w_background
+- name: banner_bg_for_center_right_dark
+  type: file
+  config:
+    maxSize: 2
+  label: Tło po prawej dark mode
   showOnly:
     field: banner_type
     value: center_img_w_background
@@ -141,6 +157,14 @@ fields:
   config:
     maxSize: 64
   label: Tło
+  showOnly:
+    field: banner_type
+    value: no_img_only_background
+- name: banner_bg_no_img_dark
+  type: file
+  config:
+    maxSize: 64
+  label: Tło dark mode
   showOnly:
     field: banner_type
     value: no_img_only_background

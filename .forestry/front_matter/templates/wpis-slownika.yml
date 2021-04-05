@@ -7,7 +7,13 @@ fields:
   config:
     required: false
   label: tytuł
-  description: Hasło słownika
+  description: Hasło słownika meta title
+- name: title_naglowek
+  type: text
+  config:
+    required: false
+  label: tytuł nagłówek
+  description: Hasło słownika nagłówek
 - name: slug
   type: text
   config:
