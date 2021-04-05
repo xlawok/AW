@@ -114,7 +114,7 @@ ornament = "brak"
 txt_block = "Pozycjonowanie"
 txt_block_size = "L"
 [[sections.kafelki.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 color_txt = "czerwony"
 ornament = "brak"
