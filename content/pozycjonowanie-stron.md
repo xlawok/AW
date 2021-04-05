@@ -256,6 +256,7 @@ underline = true
 [[sections.poradnik_group]]
 if_svg = false
 ikona = "/uploads/group-194.svg"
+ikona_dark_mode = "/uploads/seo2.svg"
 opis = "Ponieważ marketing cyfrowy staje się coraz bardziej dojrzały, nie jest zaskoczeniem, że firmy są coraz lepsze w pozycjonowaniu, walka na poszczególnych frazach, staje się coraz bardziej zacięta. Posługując się statystykami, większość osób widzi więcej wyników poprzez działania SEO - czyli pozycjonowania organicznego, niż PPC (Pay Per Click) - posługiwania się AdWordsami - płatnymi reklamami Google. Wielu respondentów zgłosiło, że widzi lepsze wyniki (w tym ruchu organicznego, potencjalnych klientów i ilości sprzedaży) realizując działania SEO. Inni wykorzystali zwrot z inwestycji jako punkt odniesienia do ustalenia wyższości SEO nad PPC. Marketerzy uznali SEO za strategię długoterminową, podczas gdy PPC pozwalało na krótkoterminowe wybuchy, co przekładało się na brak ruchu na stronie po zaprzestaniu płacenia na AdWords. Dobrze utkwił nam jeden cytat właściciela firmy, która korzystała zarówno z SEO, jak i AdWords: „PPC to jak podnoszenie ołowianego sterowca. Włóż w to wystarczającą siłę (tj. Pieniądze), a ruch się pojawi. Ale gdy tylko przestaniesz płacić, ruch ustanie”. Posługując się statystykami - 70% marketingców uważa, że ​​SEO jest skuteczniejsze niż PPC. Natomiast 61% marketingowców w firmach twierdzi, że poprawa SEO i zwiększenie organicznej obecności w internecie jest najwyższym priorytetem w obecnej strategii działań."
 title = "Jaką skuteczność ma pozycjonowanie?"
 [[sections.poradnik_group]]
