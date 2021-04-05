@@ -22,7 +22,7 @@ sections:
       color_txt: czerwony
       underline: false
       break_line: false
-      block_tag_type: h2
+      block_tag_type: h1
       ornament: brak
       txt_block_size: MD
     - txt_block: rozwijająca się agencja SEO w Polsce
@@ -30,7 +30,7 @@ sections:
       color_txt: czarny
       underline: false
       break_line: false
-      block_tag_type: h2
+      block_tag_type: h1
       ornament: brak
       txt_block_size: MD
     opis: Zostaliśmy powołani do życia w wakacje 2020 roku. Zaczynaliśmy od biura
