@@ -2,11 +2,12 @@
 
 
     
-    {{ $header_list := .header_repeater }}
-  
-    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "middle-txt-sec-header")  -}}
+    
     <div class="middl-text-cnt">
-        {{.opis | safeHTML}}
+        {{ $header_list := .header_repeater }}
+  
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "middle-txt-sec-header")  -}}
+        <p>{{.opis | safeHTML}}</p>
     </div>
 
 </section>
