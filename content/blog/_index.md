@@ -3,6 +3,7 @@ date = 2020-08-26T10:05:24Z
 description = "SEO Blog - Nowinki branżowe i porady: ✓ Kampanie SEO ✓ Optymalizacja  ✓ Pozycjonowanie."
 slug = "/blog"
 title = "SEO Blog - Nowości z branży marketingu internetowego | Agencja Wrocławska"
+tytul_do_listowania = "BLOG"
 [menu.main]
 name = "Blog"
 weight = 3
