@@ -257,12 +257,12 @@ template = "sekcja-strona-glowna-artykuly"
 cta_btn_more_news_title = "WIĘCEJ AKTUALNOŚCI"
 show_sec_news = true
 [[sections.home_news_group.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "bardzo gruby"
 break_line = false
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "AKTUALNOŚCI"
+txt_block = "Aktualności"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
