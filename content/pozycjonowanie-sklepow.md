@@ -254,6 +254,7 @@ txt_block_size = "XL"
 [[sections]]
 listowanie = ["Jesteśmy Partnerem Google.", "Dekowany zespoł specjalistów SEO on-site i off-site całościowo zajmie się Twoim sklepem", "Wspólnie ustalamy Twoje cele marketingowe i przygotujemy konkretne założenia", "Łączymy wiedzę z zakresu SEO, Web Developmentu, User Experience oraz Content Marketing", "Nie robimy wszystkiego dla wszystkich, realizujemy swoją ideę"]
 obrazek = "/uploads/group-217.svg"
+obrazek_dark_mode = "/uploads/seo3.svg"
 tekst_nad_listowaniem = "<strong>Jesteśmy wrocławskim zespołem, który w pełni zaangażuje się w pracę nad <span class='txt-red'>Twoim</span> serwisem. Twoje efekty są również miarą naszego sukcesu.</strong>"
 template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
 [[sections.header_repeater]]
