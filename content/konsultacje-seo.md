@@ -11,8 +11,11 @@ parent = "Pozycjonowanie"
 weight = 5
 [[sections]]
 banner_bg_for_center_left = ""
+banner_bg_for_center_left_dark = ""
 banner_bg_for_center_right = ""
+banner_bg_for_center_right_dark = ""
 banner_bg_no_img = "/uploads/ban-konsultacje.svg"
+banner_bg_no_img_dark = "/uploads/konsultacje2.svg"
 banner_center_img = ""
 banner_cta_title = "Zapisz się na konsultacje SEO"
 banner_cta_url = []

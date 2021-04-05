@@ -23,7 +23,7 @@
           {{ with .poradnik_group}}
             <ol class='tutorial-index'>
                 {{range $index , $element :=. }}
-                <li><a href='#tut-desc-{{$index}}'>
+                <li><a href='#{{$element.odnosnik_spis | urlize}}'>
                     {{$element.title}}
                 </a></li>
                 {{end}}
@@ -37,7 +37,7 @@
         
         <ol class='tutorial-contant-wrapper'>
             {{range $index, $element:= . }}
-            <li id="tut-desc-{{$index}}">
+            <li id="{{$element.odnosnik_spis | urlize}}">
                 {{( printf "<%s class='ornament-l-r'>" $kategoria_tytulu_dla_poradnika) | safeHTML}}
                 {{$element.title}}
                 {{( printf "</%s>" $kategoria_tytulu_dla_poradnika) | safeHTML}}

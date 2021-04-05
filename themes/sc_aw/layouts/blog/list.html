@@ -1,5 +1,6 @@
 {{ define "main" }}
     <section class="sec-padding blog-page">
+        <h1 class='blog-header txt-XXL f-w700 txt-underline txt-red'>{{ .Params.tytul_do_listowania   }}</h1>
         <div class='categories-cnt'>
             <ul class='categories-list-all'>
                 {{with .Site.Taxonomies.categories }}
