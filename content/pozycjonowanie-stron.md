@@ -213,6 +213,7 @@ tytul_odnosnika = "Zamów bezpłatną wycenę"
 [[sections]]
 kategoria_tytulu_dla_poradnika = "h3"
 obrazek_sekcji = "/uploads/group-85.svg"
+obrazek_sekcji_dark = "/uploads/seo1.svg"
 template = "sekcja-pozycjonowanie-poradnik"
 title_of_index = "Spis treści"
 [sections.floating_box_group]
