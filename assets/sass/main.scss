@@ -1647,6 +1647,7 @@ form#contactform,form#mcontactform{
       .banner-header {
         line-height: (91/76);
         font-family: var(--header-font);
+        margin-bottom: 0;
         @media (max-width: 767px){
           &.txt-XXL{
             font-size: 10vw;
