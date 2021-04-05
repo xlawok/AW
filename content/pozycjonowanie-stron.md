@@ -103,7 +103,7 @@ txt_block_size = "XL"
 [[sections.kafelki]]
 if_anchor = true
 ikona = "/uploads/group-19.svg"
-ikona_dark_mode = "/uploads/group-19.svg"
+ikona_dark_mode = "/uploads/ikona-pozycjonowanie-stron-dark.svg"
 title = "strony"
 [[sections.kafelki.header_repeater]]
 block_tag_type = "h3"
