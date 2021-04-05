@@ -226,7 +226,8 @@ obrazek = "/uploads/group-173.svg"
 opis = "W przypadku rozbudowanych sklepów internetowych znacząco zadaniem jest wykonanie odpowiedniej migracji starego sklepu do nowego - nie tracąc ruchu organicznego. To normalne, że marki ewoluują i czasami zmieniają swoje sklepy rewolucyjnie. Przeprowadziliśmy migrację sklepu klienta w bezpieczny sposób, nie tracąc wyników SEO."
 title = "Bezpieczna migracja sklepu na nowy"
 [[sections.kolumny_3]]
-obrazek = "/uploads/group-178.svg"
+obrazek = "/uploads/10razy.svg"
+obrazek_dark_mode = "/uploads/1razy-dark.svg"
 opis = "Prowadzimy klienta z branży reklamowo&artystycznej, gdzie w większości zlecenia pozyskuje się w dwojaki sposób - polecenia albo zapytania z Google. Poprzez optymalizację strony, stałe tworzenie contentu oraz budowanie profilu linkowego domeny zwiększyliśmy 10 krotnie ilość zapytań ofertowych. Przed rozpoczęciem prac było ok. 1 zapytanie miesięcznie, obecnie wpływa ich około 10-ciu. Czas trwania współpracy to 8 miesięcy."
 title = "10x więcej zapytań ofertowych"
 [[sections]]
