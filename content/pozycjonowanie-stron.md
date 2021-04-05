@@ -144,7 +144,7 @@ txt_block_size = "L"
 underline = true
 [[sections.kafelki]]
 ikona = "/uploads/group-164.svg"
-ikona_dark_mode = "/uploads/group-164.svg"
+ikona_dark_mode = "/uploads/pozycjonowanie-lokalne-dark.svg"
 odnosnik = "pozycjonowanie-lokalne.md"
 title = "lokalne"
 [[sections.kafelki.header_repeater]]
