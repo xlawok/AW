@@ -137,6 +137,7 @@ tytul_odnosnika = "Zamów bezpłatna wycenę"
 [[sections]]
 listowanie = ["Budowanie świadomości i popularności marki", "Widoczność na pożądane słowa kluczowe wyszukiwane przez klientów", "Odpowiednie zoptymalizowane strony produktowe", "Odpowiednie zoptymalizowane strony produktowe", "Zwiększenie sprzedaży produktów", "Możliwość na szybki rozwój marki w internecie"]
 obrazek = "/uploads/group-217.svg"
+obrazek_dark_mode = "/uploads/seo3.svg"
 tekst_nad_listowaniem = "<strong>Co zyskuje marka dzięki pozycjonowaniu e-commerce?</strong>"
 template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
 [[sections.header_repeater]]
@@ -216,8 +217,8 @@ ornament = "prawa w dół"
 txt_block = "naszej pracy"
 txt_block_size = "XL"
 [[sections.kolumny_3]]
-obrazek = "/uploads/group-169.svg"
-obrazek_dark_mode = "/uploads/group-169.svg"
+obrazek = "/uploads/144procent.svg"
+obrazek_dark_mode = "/uploads/144procent-dark.svg"
 opis = "Naszym celem było zająć się pozycjonowaniem sklepu w bardzo konkurencyjnej branży - z odzieżą damską. Po 6-ciu miesiącach uzyskaliśmy znaczący efekt zwiększenia widoczności słów kluczowych pojawiających się na pierwszej stronie wyników wyszukiwań. Sklep klienta znacząco zyskał na tym procesie optymalizacji i linkbuildingu w zakresie zwiększenia sprzedaży."
 title = "Zwiększenie o 144% ilości słów kluczowych w TOP 10"
 [[sections.kolumny_3]]
