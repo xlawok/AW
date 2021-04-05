@@ -168,7 +168,7 @@ sections:
     color_txt: czarny
     underline: false
     break_line: true
-    block_tag_type: h2
+    block_tag_type: h3
     ornament: prawa w dół
     txt_block_size: XL
   - txt_block: NAM
@@ -176,7 +176,7 @@ sections:
     color_txt: czerwony
     underline: true
     break_line: true
-    block_tag_type: h2
+    block_tag_type: h3
     ornament: brak
     txt_block_size: L
 - template: sekcja-cta-zamow-wycene
