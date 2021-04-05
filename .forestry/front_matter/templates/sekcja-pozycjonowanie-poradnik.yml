@@ -30,6 +30,11 @@ fields:
     config:
       required: false
     label: Tytuł pozycji
+  - name: odnosnik_spis
+    type: text
+    config:
+      required: false
+    label: Slug/odnosnik
   - name: opis
     type: textarea
     default: ''
