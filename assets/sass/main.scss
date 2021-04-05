@@ -5304,6 +5304,9 @@ justify-content: center;
       }
     }
   }
+  .sc-banner-center-noimg .center-banner-cnt .banner-bg-img{
+    z-index: 0;
+  }
   .sc-cta{
     background: #f2f2f2;
     @at-root body.dark-m.slownik-listowanie .sc-cta{
