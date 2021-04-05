@@ -11,8 +11,11 @@ parent = "Pozycjonowanie"
 weight = 6
 [[sections]]
 banner_bg_for_center_left = ""
+banner_bg_for_center_left_dark = ""
 banner_bg_for_center_right = ""
+banner_bg_for_center_right_dark = ""
 banner_bg_no_img = "/uploads/ban-optymalizacja.svg"
+banner_bg_no_img_dark = "/uploads/optymalizacja2.svg"
 banner_center_img = ""
 banner_cta_title = "Zamów bezpłatną wycenę"
 banner_cta_url = []
