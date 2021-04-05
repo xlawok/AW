@@ -137,6 +137,7 @@ tytul_odnosnika = "Zamów bezpłatna wycenę"
 [[sections]]
 listowanie = ["Budowanie świadomości i popularności marki", "Widoczność na pożądane słowa kluczowe wyszukiwane przez klientów", "Odpowiednie zoptymalizowane strony produktowe", "Odpowiednie zoptymalizowane strony produktowe", "Zwiększenie sprzedaży produktów", "Możliwość na szybki rozwój marki w internecie"]
 obrazek = "/uploads/group-217.svg"
+obrazek_dark_mode = "/uploads/seo3.svg"
 tekst_nad_listowaniem = "<strong>Co zyskuje marka dzięki pozycjonowaniu e-commerce?</strong>"
 template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
 [[sections.header_repeater]]
