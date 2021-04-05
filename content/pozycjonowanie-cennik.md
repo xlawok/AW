@@ -11,8 +11,11 @@ parent = "Pozycjonowanie"
 weight = 4
 [[sections]]
 banner_bg_for_center_left = ""
+banner_bg_for_center_left_dark = ""
 banner_bg_for_center_right = ""
-banner_bg_no_img = "/uploads/group-213.svg"
+banner_bg_for_center_right_dark = ""
+banner_bg_no_img = "/uploads/cennik.svg"
+banner_bg_no_img_dark = "/uploads/cennik-1.svg"
 banner_center_img = ""
 banner_cta_title = ""
 banner_cta_url = []
@@ -188,6 +191,7 @@ underline = false
 [[sections.kafelki]]
 if_anchor = true
 ikona = "/uploads/group-19.svg"
+ikona_dark_mode = ""
 odnosnik = ""
 title = "strony"
 [[sections.kafelki.header_repeater]]
@@ -211,6 +215,7 @@ underline = true
 [[sections.kafelki]]
 if_anchor = false
 ikona = "/uploads/group-160.svg"
+ikona_dark_mode = ""
 odnosnik = "pozycjonowanie/pozycjonowanie-sklepow.md"
 title = "sklepy"
 [[sections.kafelki.header_repeater]]
@@ -234,6 +239,7 @@ underline = true
 [[sections.kafelki]]
 if_anchor = false
 ikona = "/uploads/group-164.svg"
+ikona_dark_mode = ""
 odnosnik = "pozycjonowanie/pozycjonowanie-sklepow.md"
 title = "lokalne"
 [[sections.kafelki.header_repeater]]
@@ -257,6 +263,7 @@ underline = true
 [[sections.kafelki]]
 if_anchor = false
 ikona = "/uploads/group-165.svg"
+ikona_dark_mode = ""
 odnosnik = "pozycjonowanie/pozycjonowanie-sklepow.md"
 title = "audyt"
 [[sections.kafelki.header_repeater]]
@@ -280,6 +287,7 @@ underline = true
 [[sections.kafelki]]
 if_anchor = false
 ikona = "/uploads/group-166.svg"
+ikona_dark_mode = ""
 odnosnik = "pozycjonowanie/pozycjonowanie-sklepow.md"
 title = "konsultacje"
 [[sections.kafelki.header_repeater]]
