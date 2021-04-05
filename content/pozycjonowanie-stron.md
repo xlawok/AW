@@ -12,7 +12,7 @@ weight = 1
 [[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_right = ""
-banner_bg_no_img = "/uploads/pozycjonowanie-stron.svg"
+banner_bg_no_img = "/uploads/pozycjonowanie-stron-1.svg"
 banner_center_img = ""
 banner_cta_title = "Zamów bezpłatną wycenę"
 banner_cta_url = []
@@ -123,7 +123,7 @@ txt_block_size = "L"
 underline = true
 [[sections.kafelki]]
 ikona = "/uploads/group-160.svg"
-ikona_dark_mode = "/uploads/group-160.svg"
+ikona_dark_mode = "/uploads/pozycjonowanie-sklepow-dark.svg"
 odnosnik = "pozycjonowanie-sklepow.md"
 title = "sklepy"
 [[sections.kafelki.header_repeater]]
