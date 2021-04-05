@@ -64,7 +64,7 @@ opis = "Zanim porozmawiamy o obsłudze domeny, najpierw przygotujemy dla Ciebie 
 relacja_linku = "follow"
 tytul_odnosnika = "Przeczytaj więcej"
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
