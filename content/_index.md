@@ -137,7 +137,7 @@ txt_block = "EFEKTY"
 txt_block_size = "XL"
 underline = true
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
