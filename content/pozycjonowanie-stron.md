@@ -123,7 +123,7 @@ txt_block_size = "L"
 underline = true
 [[sections.kafelki]]
 ikona = "/uploads/group-160.svg"
-ikona_dark_mode = "/uploads/group-160.svg"
+ikona_dark_mode = "/uploads/pozycjonowanie-sklepow-dark.svg"
 odnosnik = "pozycjonowanie-sklepow.md"
 title = "sklepy"
 [[sections.kafelki.header_repeater]]
