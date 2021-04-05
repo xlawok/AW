@@ -23,7 +23,7 @@
                             {{ $key | humanize }}
                             <ul>
                                 {{ range $value.Pages }}
-                                <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}">{{ .title_naglowek }}</a></li>
+                                <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}">{{ .Params.title_naglowek }}</a></li>
                                 {{ end }}
                             </ul>
                         <!-- </a>  -->

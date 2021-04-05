@@ -12,7 +12,7 @@ fields:
   type: text
   config:
     required: false
-  label: tytuł
+  label: tytuł nagłówek
   description: Hasło słownika nagłówek
 - name: slug
   type: text
