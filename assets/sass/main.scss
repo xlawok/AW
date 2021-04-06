@@ -884,7 +884,7 @@ footer {
     background-color: var(--main-dark-color);
     padding-top: 6em;
   }
-  @at-root body.dark-m footer.sec-padding:before {
+  @at-root body.dark-m footer .sec-padding:before {
     content: '';
     position: absolute;
     width: 100%;
