@@ -8,8 +8,11 @@ title = "SEO/SEM - Marketing internetowy w Google | Agencja Wrocławska"
 [[sections]]
 banner_bg_for_center = ""
 banner_bg_for_center_left = ""
+banner_bg_for_center_left_dark = ""
 banner_bg_for_center_right = ""
+banner_bg_for_center_right_dark = ""
 banner_bg_no_img = ""
+banner_bg_no_img_dark = ""
 banner_center_img = ""
 banner_cta_title = ""
 banner_cta_url = ""
@@ -223,7 +226,7 @@ underline = false
 adres_odnosnika = "optymalizacja-strony-www.md"
 if_svg = false
 obrazek = "/uploads/group-165.svg"
-obrazek_dark_mode = ""
+obrazek_dark_mode = "/uploads/audyt.svg"
 opis_uslugi = "Każdy zainteresowany potencjalną współpracą klient otrzymuje od nas bezpłatny, rzetelny audyt na temat jego domeny. Mamy za zadanie pokazać klientowi jego obecną pozycję, porównanie do bezpośredniej konkurencję, obecny profil linkowy, czy aktualną szybkość strony. W kolejnym kroku przedstawiamy klientowi naszą wizję zoptymalizowania i dywersyfikacji obecnej treści oraz strategię działania."
 relacja_linku = "follow"
 [[sections.home_services_group.services_box_group.header_repeater]]
