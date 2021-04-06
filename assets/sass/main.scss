@@ -4762,9 +4762,9 @@ justify-content: center;
 }
 .pozycjonowanie-stron{
   .sc-questionmark{
-  
-
-   
+    .header-template:nth-child(1) {
+      margin-bottom: 0;
+    }  
     &:after{
       content: '';
       display: block;
