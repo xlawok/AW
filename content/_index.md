@@ -242,7 +242,7 @@ underline = false
 adres_odnosnika = "konsultacje-seo.md"
 if_svg = false
 obrazek = "/uploads/group-166.svg"
-obrazek_dark_mode = ""
+obrazek_dark_mode = "/uploads/konsultacje.svg"
 opis_uslugi = "Dla klientów, którzy chcą prowadzić swoją stronę lub sklep internetowy w pojedynkę, bez udziału osób trzecich - służymy radą i pomocą. Mini szkolenia z zakresu pozycjonowania i optymalizacji, które są w stanie ukazać cały know how oraz metody działania jako administrator pomogą poznać bliżej świat SEO."
 relacja_linku = "follow"
 [[sections.home_services_group.services_box_group.header_repeater]]
