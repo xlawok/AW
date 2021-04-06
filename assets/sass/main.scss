@@ -5307,6 +5307,9 @@ justify-content: center;
   .sc-banner-wide .banner-wide-content {
     flex-direction: row-reverse;
   }
+  .sc-banner-wide .banner-img {
+    transform: translateY(-2vh);
+  }
 }
 .slownik-listowanie{
   @at-root body.dark-m.slownik-listowanie{
