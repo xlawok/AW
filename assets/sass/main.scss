@@ -95,7 +95,7 @@ body {
   transition: background-color .3s ease,color .3s ease;
   &:not(.dark-m){
     .dmode{
-      display: none;
+      display: none  !important;
     }
   }
   &.dark-m{
@@ -114,7 +114,7 @@ body {
         color: var(--white);
     }
     .lmode{
-      display: none;
+      display: none !important;
     }
     // section:first-child{
     //   background-color: #242424;
