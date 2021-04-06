@@ -5465,6 +5465,9 @@ justify-content: center;
 
   .home .sc-two-col-img-txt .two-col-row:nth-child(even)>div:last-child{
     padding-right: 8em;
+    @media (max-width: 360px) {
+      padding-right: 0;
+    }
 }
 
   .home span.header-template.f-w700.txt-black.txt-XL.ornament-r-b {
