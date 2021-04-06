@@ -24,7 +24,7 @@ sections:
       break_line: false
       block_tag_type: h1
       ornament: brak
-      txt_block_size: MD
+      txt_block_size: L
     - txt_block: rozwijająca się agencja SEO w Polsce
       bold_txt: gruby
       color_txt: czarny
@@ -59,6 +59,9 @@ sections:
   banner_form_script_no_img: ''
   opis_banner: ''
   otworz_modal: ''
+  banner_bg_for_center_left_dark: ''
+  banner_bg_for_center_right_dark: ''
+  banner_bg_no_img_dark: ''
 - template: sekcja-strona-o-nas-kolumny-historia-misja
   kolumny_o_nas:
   - opis: 'Dwóch entuzjastów branży SEO postanowiło rozpocząć komercjalizacje swojego
