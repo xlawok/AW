@@ -4922,7 +4922,7 @@ justify-content: center;
   #contactform .radio-cnt-title {
     color: white;
     border-bottom: 1px solid white;
-}
+  }
 }
 .pozycjonowanie-sklepow{
   section.sc-cta-bg {
@@ -4931,6 +4931,9 @@ justify-content: center;
   .sc-text-points-img{
     @media (max-width: 1199px){
       padding-top: 4rem;
+      .second-col img {
+        transform: translate(5rem,-5rem);
+      }
     }
 
   }
