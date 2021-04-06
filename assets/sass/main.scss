@@ -4789,14 +4789,20 @@ justify-content: center;
 .cennik-pozycjonowanie{
   .banner-right-col {
     margin-right: 19vw;
-    }
+  }
+  .sc-banner-center-noimg .center-banner-cnt{
+    padding-bottom: 0;
+  } 
   .sc-banner-center-noimg .center-banner-cnt::after {
     
     bottom: -10.625rem;
-    }
-    .sc-offer-w-tiles .offer-tiles-wrapper::before {
+  }
+  .sc-offer-w-tiles .offer-tiles-wrapper::before {
       content: url(/img/AW-yellow.svg);
-    }
+  }
+  .sc-price-table {
+    margin-top: 6em;
+  }
   .sec-padding.sc-compare{
     padding-bottom: 6rem;
     &:after {
