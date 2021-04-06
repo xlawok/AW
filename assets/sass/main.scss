@@ -292,7 +292,7 @@ ul.red-point-list{
   // transform: rotate(90deg);
 }
 .header-template{
-  line-height: 1.1;
+  line-height: .8;
   font-family: var(--header-font);
   margin-top: 0;
   font-size: 2.75rem;
@@ -5303,6 +5303,9 @@ justify-content: center;
     @at-root body.dark-m.kontakt .sc-contact{
       background: var(--main-dark-color)
     }
+  }
+  .banner-wide-content .sec-padding {
+    flex-direction: row-reverse;
   }
 }
 .slownik-listowanie{
