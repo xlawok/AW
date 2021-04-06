@@ -3954,7 +3954,11 @@ justify-content: center;
         }
         .box-scroller{
           overflow-y: auto;
+          .header-template{
+            margin-bottom: .5em;
+          }
         }
+         
         @media (max-height: 650px){
           .header-template{
             span{font-size: 1.5rem;}
