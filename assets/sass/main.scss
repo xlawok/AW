@@ -4787,6 +4787,9 @@ justify-content: center;
   }
 }
 .cennik-pozycjonowanie{
+  .banner-right-col {
+    margin-right: 19vw;
+    }
   .sc-banner-center-noimg .center-banner-cnt::after {
     
     bottom: -10.625rem;
@@ -4901,7 +4904,7 @@ justify-content: center;
       background-color: var(--main-dark-color);
     }
   }
-  .cennik-pozycjonowania #contactform .radio-cnt-title {
+  #contactform .radio-cnt-title {
     color: white;
     border-bottom: 1px solid white;
 }
