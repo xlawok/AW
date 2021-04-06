@@ -4802,6 +4802,7 @@ justify-content: center;
   }
   .sc-offer-w-tiles{
     padding-bottom: 4rem;
+    margin-top: 6em;
   }
 }
 .cennik-pozycjonowanie{
@@ -4935,7 +4936,7 @@ justify-content: center;
   #contactform .radio-cnt-title {
     color: white;
     border-bottom: 1px solid white;
-}
+  }
 }
 .pozycjonowanie-sklepow{
   section.sc-cta-bg {
@@ -4944,6 +4945,9 @@ justify-content: center;
   .sc-text-points-img{
     @media (max-width: 1199px){
       padding-top: 4rem;
+      .second-col img {
+        transform: translate(0,-5rem);
+      }
     }
 
   }
@@ -5456,6 +5460,9 @@ justify-content: center;
   }
   .services-intro-cnt .header-template {
     margin-bottom: .85em;
+  }
+  .services-intro-cnt .header-template:first-child {
+    margin-bottom: 0;
   }
   .services-intro-cnt .header-template .ornament-r-b {
     margin-bottom: .85em;
