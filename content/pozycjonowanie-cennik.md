@@ -1,5 +1,5 @@
 +++
-body_class = "cennik-pozycjonowania"
+body_class = "cennik-pozycjonowanie"
 description = "Sprawdź, jakie oferujemy stawki za pozycjonowanie strony internetowej! Nasz cennik seo jest aktualny na 2021 rok. Wejdź i wyceń indywidualnie swój projekt!"
 keywords = ""
 robots = ""
