@@ -886,6 +886,7 @@ footer {
   }
   @at-root body.dark-m footer.sec-padding:before {
     content: '';
+    display: block;
     position: absolute;
     width: 100%;
     height: 5em;
