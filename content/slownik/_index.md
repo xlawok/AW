@@ -10,8 +10,11 @@ name = "Słownik SEO"
 weight = 4
 [[sections]]
 banner_bg_for_center_left = ""
+banner_bg_for_center_left_dark = ""
 banner_bg_for_center_right = ""
+banner_bg_for_center_right_dark = ""
 banner_bg_no_img = "/uploads/group-120.svg"
+banner_bg_no_img_dark = "/uploads/seo3.svg"
 banner_center_img = ""
 banner_cta_title = "wróc"
 banner_cta_url = ""
