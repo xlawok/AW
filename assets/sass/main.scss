@@ -1867,6 +1867,10 @@ form#contactform,form#mcontactform{
         @media (min-width: 992px){
           width: 23%;
         }
+        @media (max-width: 360px){
+          width: 100%;
+        }
+        
         .col-desc {
           font-weight: bold;
           color: var(--red);
