@@ -8,7 +8,7 @@
                 {{$obrazek := .banner_bg_no_img}}
                 {{with .banner_bg_no_img_dark}}
                     {{- partial "img.html" (dict "image" $obrazek "imgsizes" "" "tag_class" "banner-bg-img lmode" "ifsrcset" "nosrcset")  -}}
-                    {{- partial "img.html" (dict "image" . "imgsizes" "" "tag_class" "dmode")  -}}
+                    {{- partial "img.html" (dict "image" . "imgsizes" "" "tag_class" "dmode banner-bg-img")  -}}
 
                 {{else}}
                     {{- partial "img.html" (dict "image" $obrazek "imgsizes" "" "tag_class" "banner-bg-img" "ifsrcset" "nosrcset")  -}}
