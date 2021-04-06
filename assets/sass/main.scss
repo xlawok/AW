@@ -5241,6 +5241,9 @@ justify-content: center;
       
       bottom: -11rem;
     }
+    .on-banner-content .banner-header {
+      margin-bottom: .85em;
+    }
   }
   .sc-price-table{
     .table-wrapper{
@@ -5434,6 +5437,9 @@ justify-content: center;
   }
   .services-intro-cnt .header-template {
     margin-bottom: 0;
+  }
+  .header-template .ornament-r-b {
+    margin-bottom: .85em;
   }
 }
 /*home additional styles*/
