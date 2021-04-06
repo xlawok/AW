@@ -1,5 +1,5 @@
 +++
-body_class = "cennik-pozycjonowania"
+body_class = "cennik-pozycjonowanie"
 description = "Sprawdź, jakie oferujemy stawki za pozycjonowanie strony internetowej! Nasz cennik seo jest aktualny na 2021 rok. Wejdź i wyceń indywidualnie swój projekt!"
 keywords = ""
 robots = ""
@@ -14,8 +14,8 @@ banner_bg_for_center_left = ""
 banner_bg_for_center_left_dark = ""
 banner_bg_for_center_right = ""
 banner_bg_for_center_right_dark = ""
-banner_bg_no_img = "/uploads/cennik.svg"
-banner_bg_no_img_dark = "/uploads/cennik-1.svg"
+banner_bg_no_img = "/uploads/cennik-2.svg"
+banner_bg_no_img_dark = "/uploads/cennik-dark.svg"
 banner_center_img = ""
 banner_cta_title = ""
 banner_cta_url = []
