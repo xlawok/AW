@@ -59,8 +59,8 @@ sections:
   banner_form_script_no_img: ''
   opis_banner: ''
   otworz_modal: ''
-  banner_bg_for_center_left_dark: "/uploads/onas-left-dark.svg"
-  banner_bg_for_center_right_dark: "/uploads/onas-right-dark.svg"
+  banner_bg_for_center_left_dark: "/uploads/onas-left-dark-1.svg"
+  banner_bg_for_center_right_dark: "/uploads/onas-right-dark-1.svg"
   banner_bg_no_img_dark: ''
 - template: sekcja-strona-o-nas-kolumny-historia-misja
   kolumny_o_nas:
