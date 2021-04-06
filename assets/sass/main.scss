@@ -1867,7 +1867,7 @@ form#contactform,form#mcontactform{
         @media (min-width: 992px){
           width: 23%;
         }
-        @media (max-width: 360px){
+        @media (max-width: 450px){
           width: 100%;
           margin: 1em 0;
         }
@@ -2216,6 +2216,9 @@ form#contactform,form#mcontactform{
         opacity: 0.5;
         width: 100%;
         transition: opacity .3s ease-out,transform .3s ease-out;
+      }
+      img{
+        height: 100%;
       }
       &:hover{
         img,svg{
