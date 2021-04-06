@@ -1867,7 +1867,7 @@ form#contactform,form#mcontactform{
         @media (min-width: 992px){
           width: 23%;
         }
-        @media (max-width: 360px){
+        @media (max-width: 450px){
           width: 100%;
           margin: 1em 0;
         }
@@ -2216,6 +2216,9 @@ form#contactform,form#mcontactform{
         opacity: 0.5;
         width: 100%;
         transition: opacity .3s ease-out,transform .3s ease-out;
+      }
+      img{
+        height: 100%;
       }
       &:hover{
         img,svg{
@@ -3133,7 +3136,7 @@ form#contactform,form#mcontactform{
     }
     
   }
-  .related-news-header{
+  .related-news-header:first-child{
     margin-bottom: 3rem;
     @media (min-width: 992px){
       margin-left: calc(50% - 4rem);
@@ -3440,7 +3443,7 @@ justify-content: center;
   > .header-template{
     position: relative;
     z-index: 0;
-    &:before {
+    &:first-child:before {
       content: '';
       display: block;
       position: absolute;
@@ -3456,10 +3459,10 @@ justify-content: center;
     @at-root body.dark-m .sc-questionmark.sc-gray {
       background-color: var(--main-dark-color);
     }
-   > .header-template{
+   > .header-template:first-child{
       &:before {
         background: var(--white) no-repeat padding-box;
-        @at-root body.dark-m .sc-questionmark.sc-gray > .header-template::before {
+        @at-root body.dark-m .sc-questionmark.sc-gray > .header-template:first-child::before {
           background: #242424;
         }
       }
@@ -3486,7 +3489,7 @@ justify-content: center;
  > .header-template{
     position: relative;
     z-index: 0;
-    &:before {
+    &:first-child:before {
       content: '';
       display: block;
       position: absolute;
@@ -3495,7 +3498,7 @@ justify-content: center;
       height: 7.375rem;
       transform: translate(6rem,1rem) rotate(35deg);
       background: #f2f2f2 no-repeat padding-box;
-      @at-root body.dark-m .sc-offer-w-tiles > .header-template::before {
+      @at-root body.dark-m .sc-offer-w-tiles > .header-template:first-child::before {
         background-color: var(--main-dark-color);
       }
     }
@@ -3503,7 +3506,7 @@ justify-content: center;
   &.sc-gray{
     background-color: #F2F2F2;
    
-   > .header-template{
+   > .header-template:first-child{
       &:before {
         background: var(--white) no-repeat padding-box;
       }
@@ -4902,7 +4905,7 @@ justify-content: center;
   .sc-offer-w-tiles{
     padding-top: 4rem;
     background-color: #F2F2F2;
-    margin-top: 6em;
+    padding-top: 6em;
     @at-root  body.dark-m.cennik-pozycjonowanie .sc-offer-w-tiles{
       background-color: var(--main-dark-color);
       z-index: 0;
