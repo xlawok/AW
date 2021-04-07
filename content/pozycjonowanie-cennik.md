@@ -132,7 +132,7 @@ przypisz_pozycje_pakietu = "optiumum"
 title = "OPTIMUM"
 [[sections.informacje_o_pakietach]]
 komu_polecany = "Polecany dla średnich i dużych firm"
-kwota_od = "2 999 zł/msc"
+kwota_od = "2 599 zł/msc"
 naglowek_wyrozniajacy = ""
 nazwa_pakiet = "Pakiet"
 przypisz_pozycje_pakietu = "premium"
