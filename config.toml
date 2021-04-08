@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://agencjawroclawska/"
 canonifyURLs = true
 description = "Hugo port of the Themefisher’s Kross Template"
 enableRobotsTXT = true
