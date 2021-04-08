@@ -71,7 +71,7 @@ txt_block = "Cennik Pozycjonowania"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
@@ -81,7 +81,7 @@ txt_block_size = "XL"
 underline = false
 [[sections.wiersze_tabela]]
 kolumna_1 = "Pozycjonowanie lokalne"
-kolumna_2 = "od 1190 zł"
+kolumna_2 = "od 999 zł"
 kolumna_3 = "na czas nieokreślony"
 [[sections.wiersze_tabela]]
 kolumna_1 = "SEO ogólnopolskie"
@@ -129,10 +129,10 @@ kwota_od = "1699 zł/msc"
 naglowek_wyrozniajacy = "Najczęściej wybierany"
 nazwa_pakiet = "Pakiet"
 przypisz_pozycje_pakietu = "optiumum"
-title = "OPTIUM"
+title = "OPTIMUM"
 [[sections.informacje_o_pakietach]]
 komu_polecany = "Polecany dla średnich i dużych firm"
-kwota_od = "2 999 zł/msc"
+kwota_od = "2 599 zł/msc"
 naglowek_wyrozniajacy = ""
 nazwa_pakiet = "Pakiet"
 przypisz_pozycje_pakietu = "premium"

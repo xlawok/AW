@@ -11,8 +11,11 @@ weight = 5
 [[sections]]
 banner_bg_for_center = ""
 banner_bg_for_center_left = ""
+banner_bg_for_center_left_dark = ""
 banner_bg_for_center_right = ""
+banner_bg_for_center_right_dark = ""
 banner_bg_no_img = ""
+banner_bg_no_img_dark = ""
 banner_center_img = ""
 banner_cta_title = ""
 banner_cta_url = []
@@ -67,8 +70,8 @@ embed_mapka_google = "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1
 adres_email = "j.horbacz@agencjawroclawska.pl"
 dane_rejestrowe = "NIP: 8971882219 <br>REGON: 386840471 <br>KRS 0000856500 <br>Sąd Rejonowy dla Wrocław - Fabryczna <br>VI Wydział Gospodarczy <br>Krajowego Rejestru Sądowego"
 imi__i_nazwisko_szefa = "Jakub Horbacz"
-numer_telefonu_bez_spacji_do_linkowania = "+48734216198"
-numer_telefonu_szefa = "+48 734 216 198"
+numer_telefonu_bez_spacji_do_linkowania = "+48792789836"
+numer_telefonu_szefa = "+48 792 789 836"
 stanowisko = "SEO Manager"
 zdj_cie_szefa = "/uploads/jakub1.jpg"
 [[sections.contact_data_contact_group.lewa_kolumna.dane_adresowe]]

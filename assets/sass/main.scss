@@ -1485,8 +1485,8 @@ form#contactform,form#mcontactform{
       }
       @media (min-width: 1600px){
         width: (527/1920)*100vw;
-        width: 28vw;
-        margin-top: 8rem;
+        width: 25vw;
+        margin-top: 4rem;
       }
       background: #FFFFFF 0% 0% no-repeat padding-box;
       box-shadow: 0rem 0.1875rem 1.25rem #00000029;
@@ -2424,12 +2424,13 @@ form#contactform,form#mcontactform{
     }
     .services-col-box{
       width: 100%;
-      
-     
       border-radius: 8px;
       padding: 1rem 2rem 2rem 3rem;
       margin-bottom: 2rem;
       break-inside: avoid;
+      @media (max-width: 360px){
+        padding: 1rem 1rem 2rem 1rem;
+      }
       @media (min-width: 768px){
         // width: 48%;
         // &:nth-child(odd){
@@ -5525,6 +5526,9 @@ justify-content: center;
 }
   .home .services-cols-cnt.cnt-visibility {
     padding: 2em;
+    @media (max-width: 360px){
+      padding: 1em;
+    }
 }
 .home .two-col-row.cnt-visibility {
   padding-bottom: 2em;
