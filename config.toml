@@ -14,7 +14,7 @@ weight = 1
 [params]
 description = ""
 email_header = "kontakt@agencjawroclawska.pl"
-favico = ""
+favico = "/uploads/favicon-aw.png"
 header_adres_email = "kontakt@agencjawroclawska.pl"
 header_numer_telefonu = "536 742 137"
 header_numer_telefonu_link = "+48536742137"
@@ -24,7 +24,7 @@ logo_dark_mode = "/uploads/logo-aw-white.svg"
 metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
 paginatedsections = ["posts"]
 portraitPhotoWidths = [1500, 1000, 750, 500]
-taxonomiesExcludedFromSitemap = ["letters","tags"]
+taxonomiesExcludedFromSitemap = ["letters", "tags"]
 [permalinks]
 "/" = "/:slug/"
 categories = "/kategoria/:slug/"
