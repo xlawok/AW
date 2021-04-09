@@ -6,8 +6,10 @@
     <meta name="url" content="{{ .Permalink }}" />
     <meta name="twitter:url" content="{{ .Permalink }}" /> 
     <meta property="og:url" content="{{ .Permalink }}" />
-
-   
+    
+    <link rel="icon" 
+    type="image/png" 
+    href="{{.Site.Params.favico}}" />
     {{ if .IsHome }}
     <title>{{ .Title }} </title>
     {{else}}
