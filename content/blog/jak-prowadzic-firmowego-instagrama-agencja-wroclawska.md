@@ -1,5 +1,5 @@
 +++
-author = "data/authors/bartek.yml"
+author = "data/authors/agata.yml"
 categories = []
 date = ""
 description = "Czy profil firmowy na instagramie zagwarantuje Ci skuteczność sprzedaży? Jak prowadzić profil i na co zwrócić uwagę? Sprawdź!"
@@ -10,7 +10,7 @@ keywords = ""
 obrazek = ""
 robots = ""
 slug = "jak-prowadzic-firmowego-instagrama"
-summary = ""
+summary = "Na Instagramie dziennie pojawiają się setki tysięcy zdjęć. Dzięki temu, że mamy możliwość obserwowania wybranych użytkowników, możemy zawęzić krąg swoich zainteresowań. Wtedy mamy taki content, który nas interesuje. Nasi klienci robią dokładnie to, co my – pierwsze co, to sprawdzają social media wybranych marek a później obserwują te, które wydają się dla nich najciekawsze. Dlatego też naszym zadaniem jest zadbać o to, żeby profil marki wyglądał oryginalnie, schludnie i zaskakiwał obserwatora ciekawymi treściami. Krótko mówiąc - żeby istnieć w świadomości klientów trzeba być w Social Mediach."
 tags = []
 title = "Jak prowadzić firmowego Instagrama? | Agencja Wrocławska"
 tytul_do_listowania = "Jak prowadzić firmowego Instagrama?"
