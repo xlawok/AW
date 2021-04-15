@@ -63,7 +63,7 @@ Na Instagramie dziennie pojawiają się setki tysięcy zdjęć. Dzięki temu, ż
 
 Wydaje się, że to taka prosta rzecz a dużo osób zapomina o tej ważnej kwestii. Profile prywatne mają mniejsze zasięgi, nie mogą korzystać z działań reklamowych w sieci Instagrama a co za tym idzie – tracimy potencjalnych klientów. Dlatego warto przypilnować, czy z konta osobistego zmieniliśmy na firmowe. Poniżej grafika jak to zrobić krok po kroku:
 
-![](/uploads/ustawienie-instagram.png)
+![jak włączyć profil firmowy na instagramie](/uploads/jak-wlaczyc-konto-firmowe-na-instagramie.png)
 
 Dodatkowym udogodnieniem posiadania konta firmowego jest dostęp do bardzo dokładnego panelu statystyk. Jak więc sprawdzić **statystyki postu na Instagramie**? Spójrz:
 
@@ -89,7 +89,7 @@ Chcesz ustalić idealną godzinę publikacji? Testuj przez miesiąc, 2 razy dzie
 
 ## Grupa docelowa
 
-Znając naszych potencjalnych odbiorców dużo łatwiej przewidzieć, jakie treści będą dla nich interesujące. Dopiero wtedy możemy liczyć na naprawdę skuteczny marketing. Bez względu na to, czy już posiadasz **profil firmowy na Instagramie**, czy dopiero zamierzasz rozpocząć działania na tej platformie, powinieneś określić grupę docelową. To pozwoli Ci odpowiednio ukierunkować swoje działania i osiągnąć szybsze efekty. 
+Znając naszych potencjalnych odbiorców dużo łatwiej przewidzieć, jakie treści będą dla nich interesujące. Dopiero wtedy możemy liczyć na naprawdę skuteczny marketing. Bez względu na to, czy już posiadasz **profil firmowy na Instagramie**, czy dopiero zamierzasz rozpocząć działania na tej platformie, powinieneś określić grupę docelową. To pozwoli Ci odpowiednio ukierunkować swoje działania i osiągnąć szybsze efekty.
 
 ### **Zatem skąd uzyskać informacje, kim jest Twoja grupa docelowa?**
 
@@ -103,7 +103,7 @@ Znając naszych potencjalnych odbiorców dużo łatwiej przewidzieć, jakie tre�
 
 ## Budowanie relacji z obserwatorami
 
-To jest jedna z najważniejszych rzeczy w **prowadzeniu biznesowego konta na Instagramie**. Pokaż, że podchodzisz do każdego indywidualnie - komentuj i dawaj like swoim obserwatorom, odpowiadaj na komentarze, prywatne wiadomości. Wtedy zyskasz zaufanie. Dodatkowo możesz zadawać im pytania, robić quizy itp. poprzez InstaStory. Dzięki temu poczują się bardziej wyróżnieni i docenieni, co sprawi, że będą chętniej zaglądać na Twój profil biznesowy i mocniej przywiążą się do marki. Osobiście uważam, że dodanie na Story opcji „zadaj mi pytanie” jest świetnym rozwiązaniem do poznania swojego widza. 
+To jest jedna z najważniejszych rzeczy w **prowadzeniu biznesowego konta na Instagramie**. Pokaż, że podchodzisz do każdego indywidualnie - komentuj i dawaj like swoim obserwatorom, odpowiadaj na komentarze, prywatne wiadomości. Wtedy zyskasz zaufanie. Dodatkowo możesz zadawać im pytania, robić quizy itp. poprzez InstaStory. Dzięki temu poczują się bardziej wyróżnieni i docenieni, co sprawi, że będą chętniej zaglądać na Twój profil biznesowy i mocniej przywiążą się do marki. Osobiście uważam, że dodanie na Story opcji „zadaj mi pytanie” jest świetnym rozwiązaniem do poznania swojego widza.
 
 ### Dlaczego?
 
@@ -111,7 +111,7 @@ To jest jedna z najważniejszych rzeczy w **prowadzeniu biznesowego konta na Ins
 2. Poznasz ich zdanie na dany temat.
 3. Zaczerpniesz inspiracji np. do następnego posta – możesz ustawić dowolne pytanie na które Twoi obserwatorzy mogą się wypowiedzieć.
 
-A w jaki sposób dodać daną naklejkę o której jest powyżej mowa? Już Ci pokazuję!
+A w jaki sposób dodać daną naklejkę o której jest wyżej mowa? Już Ci pokazuję!
 
 ![dodanie naklejki instastories](/uploads/dodawanie-naklejki-instagram.png)
 
@@ -165,7 +165,7 @@ Jeśli jesteś na początku budowania Twojego profilu możesz spokojnie dodawać
 
 ### Jakich hashtagów używać?
 
-Najlepiej adekwatnych do konkretnego postu – czyli powiązanych z tym, co przedstawia zdjęcie i treść opisu. Jeśli dodajesz do zdjęć hashtagi, które nie odzwierciedlają tego co znajduje się na zdjęciu, narażasz się na to, że Twoje zdjęcie zostanie niezauważone a tego nie chcemy, prawda? Unikaj zbanowanych hashtagów typu #l4l, #followme itp. Niektóre hashtagi dostają ban gdy dotyczą tematów sprzecznych z zasadami społeczności Instagrama. 
+Najlepiej adekwatnych do konkretnego postu – czyli powiązanych z tym, co przedstawia zdjęcie i treść opisu. Jeśli dodajesz do zdjęć hashtagi, które nie odzwierciedlają tego co znajduje się na zdjęciu, narażasz się na to, że Twoje zdjęcie zostanie niezauważone a tego nie chcemy, prawda? Unikaj zbanowanych hashtagów typu #l4l, #followme itp. Niektóre hashtagi dostają ban gdy dotyczą tematów sprzecznych z zasadami społeczności Instagrama.
 
 Co więc oznacza to w praktyce? Oznaczając zdjęcie takim hashtagiem, nie pokaże się ono w tym haśle, które zostało zbanowane, co za tym idzie – nie dotrzesz do większej ilości odbiorców. Zatem nie warto tracić czasu i łudzić się, że coś z tego będzie tylko próbować znaleźć nowych odbiorców pod wartościowymi hasłami.
 
