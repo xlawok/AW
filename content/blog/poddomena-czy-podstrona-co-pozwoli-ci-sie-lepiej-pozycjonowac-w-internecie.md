@@ -27,9 +27,9 @@ block_tag_type = "paragraf"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
-ornament = "brak"
+ornament = "prawa w górę"
 txt_block = "Co pozwoli Ci się lepiej pozycjonować w internecie?"
-txt_block_size = ""
+txt_block_size = "L"
 underline = false
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "Czy-subdomeny-są-złe-dla-SEO?"
