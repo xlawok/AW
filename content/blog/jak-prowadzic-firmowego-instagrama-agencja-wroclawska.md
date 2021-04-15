@@ -3,7 +3,6 @@ author = "data/authors/agata.yml"
 categories = []
 date = 2021-04-15T18:27:00Z
 description = "Czy profil firmowy na instagramie zagwarantuje Ci skuteczność sprzedaży? Jak prowadzić profil i na co zwrócić uwagę? Sprawdź!"
-header_repeater = []
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = ""
 obrazek = ""
@@ -14,6 +13,15 @@ tags = []
 title = "Jak prowadzić firmowego Instagrama? | Agencja Wrocławska"
 tytul_do_listowania = "Jak prowadzić firmowego Instagrama?"
 tytul_o_czym_przeczytasz = "Firmowy Instagram – omówione zagadnienia:"
+[[header_repeater]]
+block_tag_type = "h1"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "Jak prowadzić firmowego Instagrama?"
+txt_block_size = ""
+underline = true
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "jak-ustawic-konto-firmowe-na-instagramie"
 title = "1. Ustawienie profilu jako konto biznesowe"
