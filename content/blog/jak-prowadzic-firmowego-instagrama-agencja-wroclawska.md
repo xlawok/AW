@@ -24,31 +24,31 @@ txt_block_size = ""
 underline = true
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "jak-ustawic-konto-firmowe-na-instagramie"
-title = "1. Ustawienie profilu jako konto biznesowe"
+title = "Ustawienie profilu jako konto biznesowe"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "harmonogram-publikowania-na-instagramie"
-title = "2. Harmonogram działań"
+title = "Harmonogram działań"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "planowanie-postow-na-instagramie"
-title = "3. Planowanie postów"
+title = "Planowanie postów"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = ""
-title = "4. Grupa docelowa"
+title = "Grupa docelowa"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "budowanie-marki-na-instagramie"
-title = "5. Budowanie relacji z obserwatorami"
+title = "Budowanie relacji z obserwatorami"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "instastories"
-title = "6. InstaStories"
+title = "InstaStories"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "jak-pisac-posty-na-instagramie"
-title = "7. Treści, które powinieneś publikować"
+title = "Treści, które powinieneś publikować"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "jak-ustawiac-hashtagi-na-instagramie"
-title = "8. Hashtagi"
+title = "Hashtagi"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "podsumowanie"
-title = "9. Podsumowanie"
+title = "Podsumowanie"
 
 +++
 Na Instagramie dziennie pojawiają się setki tysięcy zdjęć. Dzięki temu, że mamy możliwość obserwowania wybranych użytkowników, możemy zawęzić krąg swoich zainteresowań. Wtedy mamy taki content, który nas interesuje. Nasi klienci robią dokładnie to, co my – pierwsze co, to sprawdzają social media wybranych marek a później obserwują te, które wydają się dla nich najciekawsze. Dlatego też naszym zadaniem jest zadbać o to, żeby profil marki wyglądał oryginalnie, schludnie i zaskakiwał obserwatora ciekawymi treściami. Krótko mówiąc - żeby istnieć w świadomości klientów trzeba być w Social Mediach.
