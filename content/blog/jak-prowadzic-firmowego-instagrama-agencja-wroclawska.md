@@ -1,7 +1,7 @@
 +++
 author = "data/authors/agata.yml"
 categories = []
-date = ""
+date = 2021-04-15T18:27:00Z
 description = "Czy profil firmowy na instagramie zagwarantuje Ci skuteczność sprzedaży? Jak prowadzić profil i na co zwrócić uwagę? Sprawdź!"
 header_repeater = []
 ikona_artykulu = "/uploads/art-placeholder.svg"
