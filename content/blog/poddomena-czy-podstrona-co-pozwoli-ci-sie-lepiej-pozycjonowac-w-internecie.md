@@ -2,7 +2,7 @@
 author = "data/authors/jakub.yml"
 categories = []
 date = 2021-04-15T13:00:00Z
-description = "Ocena przydatności podstron i poddomen na witrynie internetowej"
+description = "Ocena przydatności podstron i poddomen na witrynie internetowej, przeczytaj i dowiedz się, co będzie dla Ciebie korzystniejsze w kontekście SEO?"
 draft = true
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = "poddomena, domena, witryna, podstrona"
