@@ -49,29 +49,16 @@ adres_odnosnika = "najlepsza-opcja-seo-dla-domeny"
 title = "Najlepsza opcja SEO dla domeny"
 
 +++
-## Dlaczego poddomeny nie mają wartości dla głównej strony, w kontekście SEO? 
+## Dlaczego poddomeny nie mają wartości dla głównej strony, w kontekście SEO?
 
-Decyzja o integracji bloga firmowego z witryną główną (taką jak katalog, na przykład domena.com/blog) lub hostowaniu go na subdomenie (takiej jak Blog.domena.com) jest ważną decyzją i nie należy jej lekceważyć. . Od wielu lat przysłuchujemy się debacie „subdomena i zintegrowany blog” chociaż Google twierdzi, że to nie jest ważne, bo oba będą indeksowane, ale jest to naprawdę ważne z punktu widzenia SEO. W tym artykule pomogę Ci odpowiedzieć na następujące pytanie: Czy subdomeny wpływają na pozycjonowanie organiczne?
-
-Spis treści
-
-1\. Jak Google interpretuje subdomenę?
-
-2\. Czy Twoje treści będą miały znaczenie jako czynnik rankingowy?
-
-3\. Czy Twoja subdomena pomoże autorytetowi Twojej domeny głównej?
-
-4\. Czy Twoja subdomena jest oddzielona od domeny głównej?
-
-5\. Jak działa linkowanie wewnętrzne dla SEO w subdomenie?
-
-6\. Jaka jest najlepsza opcja SEO dla domeny?
-
-7\. Kiedy należy używać subdomeny?
+Decyzja o integracji bloga firmowego z witryną główną (taką jak katalog, na przykład [https://salimali.pl/blog/](https://salimali.pl/blog/ "https://salimali.pl/blog/")) lub hostowaniu go na subdomenie (takiej jak blog.domena.com) jest ważną decyzją i nie należy jej lekceważyć. Od wielu lat przysłuchujemy się debacie „subdomena i zintegrowany blog” chociaż Google twierdzi, że to nie jest ważne, bo oba będą indeksowane, ale jest to naprawdę ważne z punktu widzenia SEO. W tym artykule pomogę Ci odpowiedzieć na następujące pytanie: Czy subdomeny wpływają na pozycjonowanie organiczne?  
+[https://www.youtube.com/watch?v=uJGDyAN9g-g](https://www.youtube.com/watch?v=uJGDyAN9g-g "https://www.youtube.com/watch?v=uJGDyAN9g-g")
 
 ## 1. Czy subdomeny są złe dla SEO? Czy subdomeny szkodzą SEO?{#Czy-subdomeny-są-złe-dla-SEO?}
 
 Blogi firmowe mogą przyciągnąć do Twojej witryny 60% (lub więcej!) odwiedzających. Jeśli jednak jesteś hostowany w subdomenie, stracisz dużo ruchu i możliwości rankingowych dla głównej witryny. Chociaż niektórzy uważają, że subdomena ma zalety, nie będzie ona zajmować tak wysokiej lub szybkiej pozycji w rankingu, jak zintegrowane treści publikowane w domenie głównej. Ponadto strona główna będzie cierpieć z powodu posiadania dwóch witryn. Nigdy nie uzyska pełnych korzyści na miejscu. Nie martw się, jeszcze raz podkreślę tę kwestię. Subdomena jest w zasadzie pośrednikiem dla wszystkich działań SEO na Twojej stronie głównej. Wszelkie funkcje SEO generowane przez Twoją subdomenę mogą powoli przesuwać się z powrotem do twojej strony głównej, ale wynik nie będzie tak potężny, jak gdybyś zostawił tylko pośrednika.
+
+![Blog na podstronie ](/uploads/obraz_2021-04-15_152401.png)
 
 ## 2. Subdomeny są wyświetlane jako oddzielne witryny {#Subdomeny-sa-wyswietlane-jako-odzielne-witryny}
 
@@ -80,6 +67,8 @@ Jak mawia Google, zarówno twoja subdomena, jak i strona główna będą wyszuki
 ## 3. Subdomeny nie dodają się do całkowitej liczby stron ani nie wspomagają SEO {#Subdomeny-nie-dodaja-sie-do-calkowitej-liczby-stron-ani-nie-wspomagaja-SEO}
 
 Podczas korzystania z subdomen, posty będą wyświetlane na oddzielnej stronie internetowej, więc treść nie będzie głównym czynnikiem rankingowym Twojej strony głównej. Wszyscy wiemy, że im więcej stron musi zaindeksować Twoja witryna (jeśli są to strony wysokiej jakości, które ludzie czytają, udostępniają i do których prowadzą linki), tym wyższy jest jej ranking, ponieważ Google lubi witryny bogate w treści, aby zwiększyć autorytet.
+
+![różnice w prowadzeniu bloga na podstronie, a poddomenie](/uploads/02-difference-in-ahrefs.jpg)
 
 ### 4. Udziały w subdomenie nie przyniosą korzyści rankingowi domeny głównej {#udzialy-w-subdomenie-nie-przyniosa-korzysci-rankingowi-domeny-glownej}
 
@@ -108,6 +97,8 @@ Bez odpowiedniej integracji, prowadzenie bloga na subdomenie może również zas
 ## 8. Najlepsza opcja SEO dla domeny {#najlepsza-opcja-seo-dla-domeny}
 
 Stworzenie i wypromowanie marki i serwisu jest dużo łatwiejsze i tańsze niż połączenie dwóch marek i serwisów z subdomeną. Jeśli Twoim głównym celem jest zwiększenie autorytetu strony głównej i siły SEO, musisz dodać blog na podstronie, co uczyni z nich zintegrowany blog. Najlepszą rzeczą, jaką możesz zrobić dla pozycjonowania subdomeny bloga, jest usunięcie go z subdomeny i wrzucenie jako podstronę strony głównej.
+
+![zalety wynikające z blogu na podstronie](/uploads/obraz_2021-04-15_152817.png)
 
 ### 9. Kiedy dozwolone jest używanie subdomen?{#najlepsza-opcja-seo-dla-domeny}
 
