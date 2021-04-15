@@ -2,7 +2,7 @@
 author = "data/authors/jakub.yml"
 categories = []
 date = 2021-04-02T22:00:00Z
-description = "Zastanowienie się nad tematem SEO w wielkich firmach"
+description = "Czy duże firmy prowadzą sumiennie kampanie SEO? W jaki sposób podchodzą do realizacji strategii pozycjonowania? Wejdź i sprawdź!"
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = "kampania seo, wielkie marki"
 obrazek = ""
