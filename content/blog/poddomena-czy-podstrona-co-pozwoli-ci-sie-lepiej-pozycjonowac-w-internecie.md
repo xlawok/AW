@@ -19,7 +19,16 @@ bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
 ornament = "brak"
-txt_block = "Poddomena czy podstrona? Co pozwoli Ci się lepiej pozycjonować w internecie?"
+txt_block = "Poddomena czy podstrona?"
+txt_block_size = ""
+underline = false
+[[header_repeater]]
+block_tag_type = "paragraf"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Co pozwoli Ci się lepiej pozycjonować w internecie?"
 txt_block_size = ""
 underline = false
 [[lista_o_czym_przeczytasz_group]]
