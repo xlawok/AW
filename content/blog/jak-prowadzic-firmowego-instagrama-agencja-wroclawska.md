@@ -16,50 +16,37 @@ title = "Jak prowadzić firmowego Instagrama? | Agencja Wrocławska"
 tytul_do_listowania = "Jak prowadzić firmowego Instagrama?"
 tytul_o_czym_przeczytasz = "Firmowy Instagram – omówione zagadnienia:"
 [[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = ""
+adres_odnosnika = "jak-ustawic-konto-firmowe-na-instagramie"
 title = "1. Ustawienie profilu jako konto biznesowe"
 [[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = ""
+adres_odnosnika = "harmonogram-publikowania-na-instagramie"
 title = "2. Harmonogram działań"
 [[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = ""
+adres_odnosnika = "planowanie-postow-na-instagramie"
 title = "3. Planowanie postów"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = ""
 title = "4. Grupa docelowa"
 [[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = ""
+adres_odnosnika = "budowanie-marki-na-instagramie"
 title = "5. Budowanie relacji z obserwatorami"
 [[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = ""
+adres_odnosnika = "instastories"
 title = "6. InstaStories"
 [[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = ""
+adres_odnosnika = "jak-pisac-posty-na-instagramie"
 title = "7. Treści, które powinieneś publikować"
 [[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = ""
+adres_odnosnika = "jak-ustawiac-hashtagi-na-instagramie"
 title = "8. Hashtagi"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "podsumowanie"
+title = "9. Podsumowanie"
 
 +++
 Na Instagramie dziennie pojawiają się setki tysięcy zdjęć. Dzięki temu, że mamy możliwość obserwowania wybranych użytkowników, możemy zawęzić krąg swoich zainteresowań. Wtedy mamy taki content, który nas interesuje. Nasi klienci robią dokładnie to, co my – pierwsze co, to sprawdzają social media wybranych marek a później obserwują te, które wydają się dla nich najciekawsze. Dlatego też naszym zadaniem jest zadbać o to, żeby profil marki wyglądał oryginalnie, schludnie i zaskakiwał obserwatora ciekawymi treściami. Krótko mówiąc - żeby istnieć w świadomości klientów trzeba być w Social Mediach.
 
-1\.Ustawienie profilu jako konto biznesowe
-
-2\.Harmonogram działań
-
-3\.Planowanie postów.
-
-4\.Grupa docelowa
-
-5\.Budowanie relacji z obserwatorami
-
-6\.InstaStories
-
-7\.Treści, które powinieneś publikować
-
-8\.Hashtagi
-
-## Ustawienie profilu jako konto biznesowe
+## Ustawienie profilu jako konto biznesowe{#jak-ustawic-konto-firmowe-na-instagramie}
 
 Wydaje się, że to taka prosta rzecz a dużo osób zapomina o tej ważnej kwestii. Profile prywatne mają mniejsze zasięgi, nie mogą korzystać z działań reklamowych w sieci Instagrama a co za tym idzie – tracimy potencjalnych klientów. Dlatego warto przypilnować, czy z konta osobistego zmieniliśmy na firmowe. Poniżej grafika jak to zrobić krok po kroku:
 
@@ -71,7 +58,7 @@ Dodatkowym udogodnieniem posiadania konta firmowego jest dostęp do bardzo dokł
 
 Oprócz tego w Twoim bio na profilu pojawi się drobny szary napis – dzięki niemu osoba po wejściu na profil od razu widzi, że czym się zajmujesz. To wpływa na Twoją wiarygodność.
 
-## Harmonogram działań
+## Harmonogram działań{#harmonogram-publikowania-na-instagramie}
 
 Bardzo istotną rzeczą jest ustalenie swojego harmonogramu działań. Najlepiej robić to np. z początkiem miesiąca ale uważam, że najlepszym rozwiązaniem będzie rozpisanie listy zadań w każdy poniedziałek. Co nam to da?
 
@@ -81,13 +68,13 @@ Bardzo istotną rzeczą jest ustalenie swojego harmonogramu działań. Najlepiej
 
 Dobry **harmonogram publikowania postów na instagramie** powinien uwzględniać takie rzeczy jak np. dni mniejszego i większego ruchu na stronie, efektywne i **popularne hashtagi**, ewentualnie gdy wybieramy płatną reklamę na post to ustalić odpowiednią kwotę.
 
-## Planowanie postów na instagramie
+## Planowanie postów na instagramie{#planowanie-postow-na-instagramie}
 
 Chcesz ustalić idealną godzinę publikacji? Testuj przez miesiąc, 2 razy dziennie o różnych porach dnia aby znaleźć ten moment w którym Twoje posty zbierają najwięcej polubień i komentarzy. To też warto uwzględnić w planowaniu. Ja polecam **Preview App**, która oprócz zaawansowanej analityki ma funkcję przypominania o przesłaniu posta oraz dopasowywania do instagramowej siatki.
 
 ![preview app na instagram](/uploads/preview-app-instagram.png)
 
-## Grupa docelowa
+## Grupa docelowa{#grupa-docelowa-na-instagramie}
 
 Znając naszych potencjalnych odbiorców dużo łatwiej przewidzieć, jakie treści będą dla nich interesujące. Dopiero wtedy możemy liczyć na naprawdę skuteczny marketing. Bez względu na to, czy już posiadasz **profil firmowy na Instagramie**, czy dopiero zamierzasz rozpocząć działania na tej platformie, powinieneś określić grupę docelową. To pozwoli Ci odpowiednio ukierunkować swoje działania i osiągnąć szybsze efekty.
 
@@ -101,7 +88,7 @@ Znając naszych potencjalnych odbiorców dużo łatwiej przewidzieć, jakie tre�
 
 \-Zadawaj pytania bezpośrednio do widzów. Dzięki temu dopasujesz content do ich potrzeb.
 
-## Budowanie relacji z obserwatorami
+## Budowanie relacji z obserwatorami{budowanie-marki-na-instagramie}
 
 To jest jedna z najważniejszych rzeczy w **prowadzeniu biznesowego konta na Instagramie**. Pokaż, że podchodzisz do każdego indywidualnie - komentuj i dawaj like swoim obserwatorom, odpowiadaj na komentarze, prywatne wiadomości. Wtedy zyskasz zaufanie. Dodatkowo możesz zadawać im pytania, robić quizy itp. poprzez InstaStory. Dzięki temu poczują się bardziej wyróżnieni i docenieni, co sprawi, że będą chętniej zaglądać na Twój profil biznesowy i mocniej przywiążą się do marki. Osobiście uważam, że dodanie na Story opcji „zadaj mi pytanie” jest świetnym rozwiązaniem do poznania swojego widza.
 
@@ -115,7 +102,7 @@ A w jaki sposób dodać daną naklejkę o której jest wyżej mowa? Już Ci poka
 
 ![dodanie naklejki instastories](/uploads/dodawanie-naklejki-instagram.png)
 
-## InstaStories
+## InstaStories{#instastories}
 
 Od kilku lat możemy korzystać z **funkcji Instagram Stories**, która umożliwia nam publikację materiałów wideo oraz zdjęć, które są dostępne przez 24 godziny. Możemy dodać m.in: hasztagi, gify, pytania, quizy czy ankiety – wszystko po to, aby jeszcze bardziej zaangażować swoich obserwatorów. Dzięki regularnym publikacjom budujesz rozpoznawalność swojej marki przez co powodujesz, że jest ona jeszcze bardziej widoczna – a o to nam właśnie chodzi. Pamiętaj, że algorytm zwraca uwagę na liczbę publikacji. W ten sposób zwiększasz szanse na dotarcie do jeszcze większej grupy odbiorców.
 
@@ -132,7 +119,7 @@ Od kilku lat możemy korzystać z **funkcji Instagram Stories**, która umożliw
 
 Warto pamiętać o oznaczaniu w treściach hasztagów i lokalizacji. Pomoże to dotrzeć do jak największej grupy docelowej. **InstaStories** to doskonała opcja dla wszystkich, którzy za pomocą kontaktu z widzami pragną wzbogacić swoją strategię biznesową. Największym plusem jest powszechna dostępność i brak opłat za umieszczanie treści i szybkość ich dodawania. Oczywiście są płatne kampanie ale nie są one musowe. Dzięki rozwojowi techniki wszystkie czynności, możemy wykonać samodzielnie, za pomocą telefonu i nie angażować montażystów, operatorów i producentów. To jeden z głównych powodów, dla których **warto wykorzystywać Instagram w tworzeniu strategii dla swojego konta firmowego**.
 
-## Treści, które powinieneś publikować
+## Treści, które powinieneś publikować{#jak-pisac-posty-na-instagramie}
 
 **Konto firmowe na instagramie** nie powinno zawierać jedynie nachalnej reklamy proponowanych usług lub produktów. W publikowanych postach oprócz atrakcyjnych, przemyślanych zdjęć czy kreatywnych filmików warto jest umieścić interesujące treści związane z działalnością firmy. Mogą to być np. wpisy na popularne tematy społeczne, kadry „zza kulis”, porady czy inspiracje, które delikatnie przemycą ofertę Twojej marki.
 
@@ -143,7 +130,7 @@ Warto pamiętać o oznaczaniu w treściach hasztagów i lokalizacji. Pomoże to 
 * Liczy się dobry pomysł! Wyróżnij się, pokaż coś oryginalnego, nie to co wszyscy.
 * Zadbaj o dobre hashtagi związane z Twoim profilem biznesowym.
 
-## Hashtagi
+## Hashtagi{#jak-ustawiac-hashtagi-na-instagramie}
 
 **Hashtagi** to ważne narzędzie komunikacji w Social Media. Są popularne na Instagramie, Facebooku czy Twitterze.
 
@@ -169,7 +156,7 @@ Najlepiej adekwatnych do konkretnego postu – czyli powiązanych z tym, co prze
 
 Co więc oznacza to w praktyce? Oznaczając zdjęcie takim hashtagiem, nie pokaże się ono w tym haśle, które zostało zbanowane, co za tym idzie – nie dotrzesz do większej ilości odbiorców. Zatem nie warto tracić czasu i łudzić się, że coś z tego będzie tylko próbować znaleźć nowych odbiorców pod wartościowymi hasłami.
 
-## Podsumowując:
+## Podsumowując:{#podsumowanie}
 
 1. Hashtagów używamy do odnalezienia nowych, potencjalnie zainteresowanych naszym contentem odbiorców.
 2. Możesz używać ich w języku polskim jak i w angielskim. Możesz pisać to samo słowo w dwóch językach np. #miłość, #love.
