@@ -2,7 +2,7 @@
 author = "data/authors/jakub.yml"
 categories = []
 date = 2021-04-02T22:00:00Z
-description = "Zastanowienie się nad tematem SEO w wielkich firmach"
+description = "Czy duże firmy prowadzą sumiennie kampanie SEO? W jaki sposób podchodzą do realizacji strategii pozycjonowania? Wejdź i sprawdź!"
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = "kampania seo, wielkie marki"
 obrazek = ""
@@ -56,7 +56,7 @@ Nie uczymy się tutaj fizyki kwantowej. To całkiem proste. Jeśli dane w witryn
 
 ## Przestarzałe metody SEO {#przestarzałe-metody-SEO}
 
-Mieliśmy przyjemność skonfrontować i zapoznać się z ofertami firm dla marek, z których wszyscy korzystamy każdego dnia, głównie z polski. Firmy zaprosiły nas do [doradztwa i szkoleń w zakresie SEO](https://agencja-wroclawska.onrender.com/konsultacje-seo/), dogłębnych technicznych audytów SEO i nie tylko. Ku mojemu zaskoczeniu wiedza na temat SEO w tych firmach była mocno przestarzała. Duża część pracy opierała się na delikatnej optymalizacji oraz linkbuildingu poprzez płatne, prywatne katalogi, oraz fora, które nie dostarczają stronom zbyt wielu profitów.
+Mieliśmy przyjemność skonfrontować i zapoznać się z ofertami firm dla marek, z których wszyscy korzystamy każdego dnia, głównie z polski. Firmy zaprosiły nas do [doradztwa i szkoleń w zakresie SEO](https://agencjawroclawska.pl/konsultacje-seo/), dogłębnych technicznych audytów SEO i nie tylko. Ku mojemu zaskoczeniu wiedza na temat SEO w tych firmach była mocno przestarzała. Duża część pracy opierała się na delikatnej optymalizacji oraz linkbuildingu poprzez płatne, prywatne katalogi, oraz fora, które nie dostarczają stronom zbyt wielu profitów.
 
 ## Marketing rozproszony {#marketing-rozproszony}
 

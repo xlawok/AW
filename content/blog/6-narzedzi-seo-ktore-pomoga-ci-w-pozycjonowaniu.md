@@ -18,11 +18,11 @@ tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-color_txt = "czarny"
+color_txt = "czerwony"
 ornament = "brak"
 txt_block = "Narzędzia SEO"
 txt_block_size = ""
-underline = false
+underline = true
 [[header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
