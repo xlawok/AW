@@ -3068,6 +3068,9 @@ form#contactform,form#mcontactform{
         @at-root body.dark-m .article-content-wrapper {
           background: #4e4e4e;
           padding: 2em 4em;
+          @media (max-width: 414px){
+            padding: 2em 1em;
+          }
         }
         // background: white;
       }
