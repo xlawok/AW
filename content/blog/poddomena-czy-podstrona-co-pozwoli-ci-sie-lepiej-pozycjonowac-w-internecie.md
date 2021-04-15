@@ -11,7 +11,7 @@ slug = "poddomena-czy-podstrona-co-pozwoli-na-lepsze-pozycjonowanie"
 summary = ""
 tags = []
 title = "Poddomena czy podstrona? Co pozwoli Ci się lepiej pozycjonować w internecie?"
-tytul_do_listowania = ""
+tytul_do_listowania = "Poddomena czy podstrona? Co pozwoli Ci się lepiej pozycjonować w internecie?"
 tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
 [[header_repeater]]
 block_tag_type = "h2"
