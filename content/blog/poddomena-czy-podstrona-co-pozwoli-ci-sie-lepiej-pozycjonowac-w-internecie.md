@@ -10,7 +10,7 @@ robots = "index follow"
 slug = "poddomena-czy-podstrona-co-pozwoli-na-lepsze-pozycjonowanie"
 summary = "Decyzja o integracji bloga firmowego z witryną główną (taką jak katalog, na przykład salimali.pl/blog lub hostowaniu go na <strong>subdomenie</strong> (takiej jak blog.domena.com) jest ważną decyzją i nie należy jej lekceważyć. Od wielu lat przysłuchujemy się debacie „<strong>subdomena i zintegrowany blog</strong>” chociaż Google twierdzi, że to nie jest ważne, bo oba będą indeksowane, ale jest to naprawdę ważne z punktu widzenia SEO. W tym artykule pomogę Ci odpowiedzieć na następujące pytanie: Czy subdomeny wpływają na pozycjonowanie organiczne?"
 tags = []
-title = "Poddomena czy podstrona? Co pozwoli Ci się lepiej pozycjonować w internecie?"
+title = "Poddomena czy podstrona? Co pozwoli Ci się lepiej pozycjonować w internecie? | Agencja Wrocławska"
 tytul_do_listowania = "Poddomena czy podstrona? Co pozwoli Ci się lepiej pozycjonować w internecie?"
 tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
 [[header_repeater]]
