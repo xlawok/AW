@@ -16,12 +16,12 @@ tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
-break_line = false
-color_txt = "czarny"
+break_line = true
+color_txt = "czerwony"
 ornament = "brak"
 txt_block = "Poddomena czy podstrona?"
 txt_block_size = ""
-underline = false
+underline = true
 [[header_repeater]]
 block_tag_type = "paragraf"
 bold_txt = "gruby"
