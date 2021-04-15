@@ -14,13 +14,13 @@ title = "Poddomena czy podstrona? Co pozwoli Ci się lepiej pozycjonować w inte
 tytul_do_listowania = "Poddomena czy podstrona? Co pozwoli Ci się lepiej pozycjonować w internecie?"
 tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
 [[header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
 ornament = "brak"
-txt_block = ""
-txt_block_size = []
+txt_block = "Poddomena czy podstrona? Co pozwoli Ci się lepiej pozycjonować w internecie?"
+txt_block_size = ""
 underline = false
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "Czy-subdomeny-są-złe-dla-SEO?"
