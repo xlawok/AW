@@ -32,7 +32,7 @@ title = "Harmonogram działań"
 adres_odnosnika = "planowanie-postow-na-instagramie"
 title = "Planowanie postów"
 [[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = ""
+adres_odnosnika = "grupa-docelowa-na-instagramie"
 title = "Grupa docelowa"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "budowanie-marki-na-instagramie"
