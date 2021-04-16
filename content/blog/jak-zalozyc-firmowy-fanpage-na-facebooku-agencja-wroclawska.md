@@ -1,10 +1,9 @@
 +++
 author = "data/authors/agata.yml"
 categories = []
-date = ""
+date = 2021-04-16T15:00:00Z
 description = "Dowiedz się jak założyć i prowadzić fanpage firmowy na Facebooku! Nowe zestawienie 2021 sprawi, że bez problemu pozyskasz nowych klientów w social media!"
 draft = true
-header_repeater = []
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = ""
 obrazek = ""
@@ -15,6 +14,15 @@ tags = []
 title = "Jak założyć firmowy fanpage na Facebooku? | Agencja Wrocławska"
 tytul_do_listowania = "Jak założyć firmowy fanpage na Facebooku? "
 tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
+[[header_repeater]]
+block_tag_type = "h1"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "Jak założyć firmowy fanpage na Facebooku?"
+txt_block_size = ""
+underline = true
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "fanpage-a-profil-prywatny-czym-sie-rozni?"
 title = "Fanpage a profil prywatny – czym się różni?"
