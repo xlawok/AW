@@ -84,7 +84,7 @@ Najlepszym przykładem będzie wykres:
 
 ![najczęściej używane social media](/uploads/najczesciej-uzywane-social-media.png)
 
-Źródło: https://www.slideshare.net/DataReportal/digital-2021-poland-january-2021-v01
+Źródło: slideshare. net/DataReportal/digital-2021-poland-january-2021-v01
 
 \- YouTube jest zdecydowanie najpopularniejszy w naszym kraju. Korzysta z niego 25,9 mln widzów. Na YouTube znajdujemy filmy, muzykę oraz video instruktażowe. Reklama w tym serwisie dociera do 72,9% populacji. Na kolejnym miejscu plasuje się Facebook.
 
