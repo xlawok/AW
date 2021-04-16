@@ -50,7 +50,7 @@ title = "Podsumowanie"
 +++
 Zgodnie z regulaminem Facebooka, żeby reklamować firmę i mieć dostęp do wszystkich funkcji musisz mieć wiedzę jak to zrobić. Prowadzenie konta marki na profilu prywatnym jest zabronione. W tym artykule znajdziesz wszystkie potrzebne informacje, aby zacząć już od zaraz!
 
-## Fanpage na Facebooku a profil prywatny – czym się różni?{#fanpage-a-profil-prywatny-czym-sie-rozni?}
+## Fanpage na Facebooku a profil prywatny – czym się różni? {#fanpage-a-profil-prywatny-czym-sie-rozni?}
 
 **Fanpage na Facebooku** jak sama nazwa wskazuje to strona dla fanów. Profil prywatny służy do komunikacji osobistej, tak więc Fanpage to idealne miejsce dla marki. Kiedyś potencjalnego klienta mogliśmy po prostu zaprosić do znajomych, ponieważ nie było czegoś takiego jak konto firmowe czy konto osobiste. Zgodnie z teraźniejszym regulaminem działanie na profilu osobistym w celach firmowych jest zabronione.
 
