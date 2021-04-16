@@ -95,7 +95,7 @@ Znając naszych potencjalnych odbiorców dużo łatwiej przewidzieć, jakie tre�
 
 \-Zadawaj pytania bezpośrednio do widzów. Dzięki temu dopasujesz content do ich potrzeb.
 
-## Budowanie relacji z obserwatorami{budowanie-marki-na-instagramie}
+## Budowanie relacji z obserwatorami{#budowanie-marki-na-instagramie}
 
 To jest jedna z najważniejszych rzeczy w **prowadzeniu biznesowego konta na Instagramie**. Pokaż, że podchodzisz do każdego indywidualnie - komentuj i dawaj like swoim obserwatorom, odpowiadaj na komentarze, prywatne wiadomości. Wtedy zyskasz zaufanie. Dodatkowo możesz zadawać im pytania, robić quizy itp. poprzez InstaStory. Dzięki temu poczują się bardziej wyróżnieni i docenieni, co sprawi, że będą chętniej zaglądać na Twój profil biznesowy i mocniej przywiążą się do marki. Osobiście uważam, że dodanie na Story opcji „zadaj mi pytanie” jest świetnym rozwiązaniem do poznania swojego widza.
 
