@@ -64,7 +64,7 @@ title = "Kiedy dozwolone jest używanie subdomen?"
 
 Decyzja o integracji bloga firmowego z witryną główną (taką jak katalog, na przykład [https://salimali.pl/blog/](https://salimali.pl/blog/ "https://salimali.pl/blog/")) lub hostowaniu go na **subdomenie** (takiej jak blog.domena.com) jest ważną decyzją i nie należy jej lekceważyć. Od wielu lat przysłuchujemy się debacie „**subdomena i zintegrowany blog**” chociaż Google twierdzi, że to nie jest ważne, bo oba będą indeksowane, ale jest to naprawdę ważne z punktu widzenia SEO. W tym artykule pomogę Ci odpowiedzieć na następujące pytanie: Czy subdomeny wpływają na pozycjonowanie organiczne?
 
-## 1. Czy subdomeny są złe dla SEO? Czy subdomeny szkodzą SEO?{#Czy-subdomeny-sa-zle-dla-SEO?}
+## 1. Czy subdomeny są złe dla SEO? Czy subdomeny szkodzą SEO? {#Czy-subdomeny-sa-zle-dla-SEO?}
 
 [Blogi firmowe](https://agencjawroclawska.pl/blog/) mogą przyciągnąć do Twojej witryny 60% (lub więcej!) odwiedzających. Jeśli jednak jesteś hostowany w subdomenie, stracisz dużo ruchu i możliwości rankingowych dla głównej witryny. Chociaż niektórzy uważają, że **subdomena** ma zalety, nie będzie ona zajmować tak wysokiej lub szybkiej pozycji w rankingu, jak zintegrowane treści publikowane w domenie głównej. Ponadto strona główna będzie cierpieć z powodu posiadania dwóch witryn. Nigdy nie uzyska pełnych korzyści na miejscu. Nie martw się, jeszcze raz podkreślę tę kwestię. Subdomena jest w zasadzie pośrednikiem dla wszystkich działań SEO na Twojej stronie głównej. Wszelkie **funkcje SEO** generowane przez Twoją subdomenę mogą powoli przesuwać się z powrotem do twojej strony głównej, ale wynik nie będzie tak potężny, jak gdybyś zostawił tylko pośrednika.
 
