@@ -46,12 +46,8 @@ title = "Wizytówka firmy – strona Internetowa"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "Pozycjonowanie-lokalne-na-czym-polega-i-jak-to-robic"
 title = "Pozycjonowanie lokalne – na czym polega i jak to robić?"
-[[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = "pozycjonowanie-lokalne-na-czym-polega-i-jak-to-zrobic"
-title = "Pozycjonowanie lokalne - na czym polega i jak to zrobić?"
 
 +++
-
 W dzisiejszych czasach wszyscy walczą o jak najlepszą reklamę w Internecie. Tak też się dzieje z branżą budowlaną – coraz częściej możemy zobaczyć promowane usługi z tej kategorii. Większość firm nie działa już tylko z polecenia, tylko szuka nowych, potencjalnych klientów za pośrednictwem Internetu. W tym artykule pokaże Ci, na czym polega strategia SEO dla branży budowlanej.
 
 ## Efekty pozycjonowania strony Internetowej z branży budowlanej – rzeczywiste wyniki. {#Efekty-pozycjonowania-strony-internetowej-z-branzy-budowlanej}
@@ -68,13 +64,13 @@ Jednym z głównych celów działań na stronie klienta najczęściej jest zwię
 
 **Tak więc efekty są zależne od dobrego audytu oraz ustaleniem priorytetów. Trzeba pamiętać, że pozycjonowanie wymaga czasu więc nie można od razu spodziewać się kokosów. Wszystkie prowadzone działania można cały czas monitorować – jedyne co pozostaje to dalej świadczyć profesjonalne usługi i czekać na fenomenalne efekty J**
 
-## **Czy reklama firmy budowlanej online ma sens?{#**Czy-reklama-firmy-budowlanej-ma-sens}
+## Czy reklama firmy budowlanej online ma sens? {#Czy-reklama-firmy-budowlanej-ma-sens}
 
 **Każdy z nas kojarzył do niedawna firmę budowlaną tylko z polecenia, banerów, tablic ogłoszeń czy reklam na bilbordach. W dzisiejszych czasach taki sposób reklamy to historia. Większą rzeszę klientów z pewnością znajdą Państwo w Internecie niżeli na słupie z ogłoszeniami.**
 
 Coraz większa ilość firm przenosi swoje działania do Internetu – nie ma znaczenia, czy Państwa biznes jest duży, czy mały. W XXI wieku firmy muszą reklamować się w sieci, aby przetrwać, zdobywać nowe kontrakty pochodzące także od tych klientów, którzy pierwsze swoje myśli dotyczące usług – w tym przypadku budowlanych wpisują w wyszukiwarkę Google. Istnieje kilka sposobów, w jaki mogą Państwo zareklamować swoje usługi.
 
-## Jakie są sposoby zareklamowania firmy budowlanej w Internecie?{#Jakie-sa-sposoby-zareklamowania-firmy-w-Internecie}
+## Jakie są sposoby zareklamowania firmy budowlanej w Internecie? {#Jakie-sa-sposoby-zareklamowania-firmy-w-Internecie}
 
 1\. Jednym z najbardziej popularnych sposobów jest strona internetowa – ten temat omówimy później.
 
@@ -96,7 +92,7 @@ Oryginalne opisy to klucz do sukcesu, jeśli chodzi o [pozycjonowanie strony](ht
 
 ![prowadzenie firmowego bloga przykład](/uploads/prowadzenie-bloga-na-stronie-przyklad.jpg)
 
-## Pozycjonowanie lokalne – na czym polega i jak to robić?{#pozycjonowanie-lokalne-na-czym-polega-i-jak-to-zrobic}
+## Pozycjonowanie lokalne – na czym polega i jak to robić? {#pozycjonowanie-lokalne-na-czym-polega-i-jak-to-zrobic}
 
 [Pozycjonowanie lokalne](https://agencjawroclawska.pl/pozycjonowanie-lokalne/) ma duże znaczenie w przypadku firm, które swoje usługi świadczą na niewielkim, ograniczonym obszarze - w większości działają tak firmy budowlane i remontowe. Z czego to wynika? Na przykład z tego, że klienci najczęściej chcą kupić materiały budowlane jak najbliżej miejsca wykonywanych prac po to, by ograniczyć drogi i często trudny transport.
 
