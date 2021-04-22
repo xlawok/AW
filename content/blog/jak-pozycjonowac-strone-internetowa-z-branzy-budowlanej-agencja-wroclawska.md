@@ -92,7 +92,7 @@ Oryginalne opisy to klucz do sukcesu, jeśli chodzi o [pozycjonowanie strony](ht
 
 ![prowadzenie firmowego bloga przykład](/uploads/prowadzenie-bloga-na-stronie-przyklad.jpg)
 
-## Pozycjonowanie lokalne – na czym polega i jak to robić? {#pozycjonowanie-lokalne-na-czym-polega-i-jak-to-zrobic}
+## Pozycjonowanie lokalne – na czym polega i jak to robić? {#pozycjonowanie-lokalne-na-czym-polega-i-jak-to-robic}
 
 [Pozycjonowanie lokalne](https://agencjawroclawska.pl/pozycjonowanie-lokalne/) ma duże znaczenie w przypadku firm, które swoje usługi świadczą na niewielkim, ograniczonym obszarze - w większości działają tak firmy budowlane i remontowe. Z czego to wynika? Na przykład z tego, że klienci najczęściej chcą kupić materiały budowlane jak najbliżej miejsca wykonywanych prac po to, by ograniczyć drogi i często trudny transport.
 
