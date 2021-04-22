@@ -1,7 +1,7 @@
 +++
 author = "data/authors/agata.yml"
 categories = []
-date = ""
+date = 2021-04-22T11:05:00Z
 description = "Czy pozycjonowanie w branży budowlanej ma sens? Sprawdź, w jaki sposób do tego podchodzimy i jak komercjalizujemy nasze kampanie seo!"
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = ""
