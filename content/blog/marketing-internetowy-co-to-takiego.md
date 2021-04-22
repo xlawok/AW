@@ -2,7 +2,7 @@
 author = "data/authors/jakub.yml"
 categories = []
 date = 2021-03-29T22:00:00Z
-description = "Wyjaśnienie pojęcia marketingu internetowego"
+description = "W jaki sposób prowadzić marketing internetowy w firmie? Poznaj sprawdzone sposoby i narzędzia do marketingu online!"
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = "marketing, internetowy,Marketing internetowy"
 lista_o_czym_przeczytasz = []
