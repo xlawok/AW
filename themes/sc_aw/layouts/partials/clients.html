@@ -16,7 +16,7 @@
         {{ range $clientslist.clients_list }}
     
         <li>
-            <a {{if .czy_nofollow }} rel='nofollow' {{end}} href="{{.client_url}}" target="_blank">
+            <a {{with .client_url_title}} title="{{.}}" {{end}} {{if .czy_nofollow }} rel='nofollow' {{end}} href="{{.client_url}}" target="_blank">
 
                
                 {{if .if_svg}}

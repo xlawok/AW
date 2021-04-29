@@ -20,6 +20,11 @@ fields:
     config:
       required: false
     label: Adres url klienta
+  - name: client_url_title
+    type: text
+    config:
+      required: false
+    label: Tytuł adresu url klienta
   - name: czy_nofollow
     type: boolean
     label: Czy nofollow
