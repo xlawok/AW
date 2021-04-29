@@ -1,40 +1,48 @@
 [[clients_list]]
 client_url = "https://www.jakjesc.wroclaw.pl/"
+client_url_title = "Link do strony Jak Jeść catering dietetyczny"
 clinet_logo = "/uploads/jakjesc-logo-aw.jpg"
 czy_nofollow = false
 if_svg = false
 [[clients_list]]
 client_url = "https://www.tuwroclaw.com/"
+client_url_title = ""
 clinet_logo = "/uploads/tuwroclaw-logo-aw.jpg"
 czy_nofollow = true
 if_svg = false
 [[clients_list]]
 client_url = ""
+client_url_title = ""
 clinet_logo = "/uploads/swiatdrzwi-logo-aw.jpg"
 czy_nofollow = false
 if_svg = false
 [[clients_list]]
 client_url = "http://nuubag.pl/"
+client_url_title = ""
 clinet_logo = "/uploads/nuubag-logo-aw.jpg"
 czy_nofollow = false
 if_svg = false
 [[clients_list]]
 client_url = "https://inkomsa.pl/"
+client_url_title = ""
 clinet_logo = "/uploads/inkom-logo-aw.jpg"
 czy_nofollow = false
 if_svg = false
 [[clients_list]]
 client_url = ""
+client_url_title = ""
 clinet_logo = "/uploads/budus-logo-aw.jpg"
 czy_nofollow = false
 if_svg = false
 [[clients_list]]
 client_url = "https://4ti.com.pl"
+client_url_title = ""
 clinet_logo = "/uploads/4ti-logo-aw.jpg"
 czy_nofollow = false
 if_svg = false
 [[clients_list]]
 client_url = "https://biblioteka.wroc.pl/"
+client_url_title = ""
 clinet_logo = "/uploads/mbp-wroclaw-logo-aw.jpg"
 czy_nofollow = true
 if_svg = false
