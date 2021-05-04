@@ -3,7 +3,6 @@ author = "data/authors/agata.yml"
 categories = []
 date = 2021-05-04T09:45:00Z
 description = "Dowiedz się ile faktycznie kosztuje reklama w Google Ads? Czy jest to dla Ciebie opłacalne, czy może postawić na metody organiczne?"
-draft = true
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = ""
 obrazek = ""
