@@ -49,7 +49,6 @@ adres_odnosnika = "czy-marketing-szeptany-sie-oplaca"
 title = "Czy marketing szeptany się opłaca?"
 
 +++
-
 Pewnie nieraz przekonałeś się o sile plotki – może ona pomóc albo zaszkodzić. Niezależnie od tego, czy jest ona prawdziwa jedno jest pewne – jest świetnym nośnikiem informacji. Mechanizm plotki został więc wykorzystany w marketingu.
 
 ## Co to jest marketing szeptany? {#Co-to-jest-marketing-szeptany}
@@ -65,44 +64,44 @@ Marketing szeptany, znany też pod nazwą whisper marketing, wywołuje reakcje p
 ## Jaki jest cel? {#jaki-jest-cel-marketingu-szeptanego}
 
 * wzbudzenie zainteresowania danym produktem lub daną marką,  
-   zachęcenie konsumentów do dyskutowania o nim,
+  zachęcenie konsumentów do dyskutowania o nim,
 * kreowanie trendów na konkretne produkty czy marki,
 * wzmacnianie wizerunku marki poprzez pozytywne rekomendacje,
 * rozprzestrzenianie informacji o aktualnych promocjach, a co za tym idzie – zwiększanie prawdopodobieństwa, że klient zdecyduje się na dany produkt.
 
 ## Formy marketingu szeptanego {#Formy-marketingu-szeptanego}
 
-· **Evangelist marketing**, czyli wywoływanie u odbiorcy więzi emocjonalnej i bardzo silnego przywiązania do produktu, marki bądź usługi. Tworzenie społeczności, która żyje marką i niezależnie od działań marketingowych podejmowanych przez markę, rekomenduje ją swoim znajomym,
+**Evangelist marketing**, czyli wywoływanie u odbiorcy więzi emocjonalnej i bardzo silnego przywiązania do produktu, marki bądź usługi. Tworzenie społeczności, która żyje marką i niezależnie od działań marketingowych podejmowanych przez markę, rekomenduje ją swoim znajomym,
 
 ![evangelist marketing](/uploads/evangelist-marketing.jpg)
 
 _Przykład Evangelist Marketingu. Fani marki Lamborghini stworzyli fan club marki._
 
-· **Marketing wirusowy**, czyli tworzenie „chodliwego” przekazu. Przekaz ten powinien być na tyle interesujący, że zaangażuje jego odbiorców do dalszej dystrybucji i budowania zasięgu przekazywanej informacji,
+**Marketing wirusowy**, czyli tworzenie „chodliwego” przekazu. Przekaz ten powinien być na tyle interesujący, że zaangażuje jego odbiorców do dalszej dystrybucji i budowania zasięgu przekazywanej informacji,
 
 ![marketing szeptany przykłady](/uploads/marketin2.jpg)
 
 _Przykład Marketingu Wirusowego. Ten mem powstał w dwóch wersjach - lewa stworzona przez markę Pepsi, a prawa przez Cola-Colę. Zestawienie dwóch memów obok siebie stworzyło nowy – swego czasu bardzo popularny w internecie. Źródło: kwejk_
 
-· **Trendsetting,** czyli promowanie marki poprzez konkretną osobę. Może to być bezpośrednio właściciel marki, jakiś pracownik firmy lub zaangażowany w promocję celebryta. Tego typu działania mają na celu wywołanie konkretnego trendu konsumpcji danej marki przez osoby uważające osobę promującą markę za autorytet i wzór do naśladowania,
+**Trendsetting,** czyli promowanie marki poprzez konkretną osobę. Może to być bezpośrednio właściciel marki, jakiś pracownik firmy lub zaangażowany w promocję celebryta. Tego typu działania mają na celu wywołanie konkretnego trendu konsumpcji danej marki przez osoby uważające osobę promującą markę za autorytet i wzór do naśladowania,
 
 ![trendsetting](/uploads/trendsetting.jpg)
 
 _Przykład Trendsettingu. Ola Nowak promuje picie wody z butelek Dafi._
 
-· **Community marketing**, czyli promocja marki w mocno wyspecjalizowanych społecznościach i wąskich grupach tematycznych,
+**Community marketing**, czyli promocja marki w mocno wyspecjalizowanych społecznościach i wąskich grupach tematycznych,
 
 ![community marketing](/uploads/community-marketing.jpg)
 
 _Przykład Community Marketingu na forum infor_
 
-· **Brand blogging,** czyli blogowanie (prowadzenie bloga, dodawanie wpisów) na temat konkretnej marki. Często jest on powiązany z trendsettingiem,
+**Brand blogging,** czyli blogowanie (prowadzenie bloga, dodawanie wpisów) na temat konkretnej marki. Często jest on powiązany z trendsettingiem,
 
 ![prowadzenie bloga firmowego](/uploads/prowadzenie-bloga-firmowego.jpg)
 
 _Przykład Brand bloggingu. Jedna z najbardziej znanych blogerek kosmetycznych recenzuje produkt do pielęgnacji cery trądzikowej._
 
-· **Product seeding,** czyli udostępnianie próbek osobom, które są aktywne w social media i które mają zbudowaną grupę odbiorców. Często osoby takie prowadzą własne blogi, vlogi lub mają zasięgowe konta na portalach społecznościowych takich jak Facebook lub Instagram,
+**Product seeding,** czyli udostępnianie próbek osobom, które są aktywne w social media i które mają zbudowaną grupę odbiorców. Często osoby takie prowadzą własne blogi, vlogi lub mają zasięgowe konta na portalach społecznościowych takich jak Facebook lub Instagram,
 
 ![product seeding](/uploads/product-seeding.jpg)
 
