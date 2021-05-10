@@ -17,18 +17,18 @@ tytul_o_czym_przeczytasz = "Kompendium wiedzy na temat marketingu szeptanego:"
 block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
-color_txt = "czarny"
+color_txt = "czerwony"
 ornament = "brak"
-txt_block = "Co to jest? Rodzaje i korzyści"
+txt_block = "Marketing szeptany"
 txt_block_size = ""
-underline = false
+underline = true
 [[header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
 ornament = "brak"
-txt_block = "Marketing szeptany"
+txt_block = "Co to jest? Rodzaje i korzyści"
 txt_block_size = ""
 underline = false
 [[lista_o_czym_przeczytasz_group]]
