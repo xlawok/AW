@@ -32,16 +32,16 @@ txt_block = "Co to jest? Rodzaje i korzyści"
 txt_block_size = ""
 underline = false
 [[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = "Co-to-jest-marketing-szeptany"
+adres_odnosnika = "co-to-jest-marketing-szeptany"
 title = "Co to jest marketing szeptany?"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "jaki-jest-cel-marketingu-szeptanego"
 title = "Jaki jest cel?"
 [[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = "Formy-marketingu-szeptanego"
+adres_odnosnika = "formy-marketingu-szeptanego"
 title = "Formy marketingu szeptanego"
 [[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = "korzyści-marketingu-szeptanego"
+adres_odnosnika = "korzysci-marketingu-szeptanego"
 title = "Korzyści, jakie z niego wynikają."
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "czy-marketing-szeptany-sie-oplaca"
@@ -68,7 +68,7 @@ Marketing szeptany, znany też pod nazwą whisper marketing, wywołuje reakcje p
 * wzmacnianie wizerunku marki poprzez pozytywne rekomendacje,
 * rozprzestrzenianie informacji o aktualnych promocjach, a co za tym idzie – zwiększanie prawdopodobieństwa, że klient zdecyduje się na dany produkt.
 
-## Formy marketingu szeptanego {#Formy-marketingu-szeptanego}
+## Formy marketingu szeptanego {#formy-marketingu-szeptanego}
 
 **Evangelist marketing**, czyli wywoływanie u odbiorcy więzi emocjonalnej i bardzo silnego przywiązania do produktu, marki bądź usługi. Tworzenie społeczności, która żyje marką i niezależnie od działań marketingowych podejmowanych przez markę, rekomenduje ją swoim znajomym,
 
@@ -118,7 +118,7 @@ _Przykład Cause Marketingu, kampania ING kreuje trend na Ekologie. Namawia do j
 
 _Przykład Casual Marketingu. Konkurs promując aktywny tryb życia, a pośrednio także markę CCC._
 
-### Korzyści, jakie z niego wynikają. {#korzyści-marketingu-szeptanego}
+### Korzyści, jakie z niego wynikają. {#korzysci-marketingu-szeptanego}
 
 ![marketing szeptany co to](/uploads/mm2.jpg)
 
