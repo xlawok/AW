@@ -1,9 +1,8 @@
 +++
 author = "data/authors/agata.yml"
 categories = []
-date = 2021-05-09T22:15:00Z
+date = ""
 description = "Czy wiesz jak skutecznie wdrożyć marketing szeptany do swojej firmy? Znalazłeś właśnie pewne kompendium wiedzy na ten temat! Potrzebujesz wsparcia agencji? Odezwij się do nas!"
-draft = true
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = ""
 obrazek = ""
