@@ -11,15 +11,15 @@ clinet_logo = "/uploads/medicus-logo-aw.jpg"
 czy_nofollow = true
 if_svg = false
 [[clients_list]]
-client_url = "https://www.jakjesc.wroclaw.pl/"
-client_url_title = "Catering dietetyczny wrocław"
-clinet_logo = "/uploads/jakjesc-logo-aw.jpg"
-czy_nofollow = false
+client_url = "https://biblioteka.wroc.pl/"
+client_url_title = ""
+clinet_logo = "/uploads/mbp-wroclaw-logo-aw.jpg"
+czy_nofollow = true
 if_svg = false
 [[clients_list]]
-client_url = ""
-client_url_title = ""
-clinet_logo = "/uploads/swiatdrzwi-logo-aw.jpg"
+client_url = "https://inkomsa.pl/"
+client_url_title = "Deweloper wrocław"
+clinet_logo = "/uploads/inkom-logo-aw.jpg"
 czy_nofollow = false
 if_svg = false
 [[clients_list]]
@@ -29,9 +29,21 @@ clinet_logo = "/uploads/nuubag-logo-aw.jpg"
 czy_nofollow = false
 if_svg = false
 [[clients_list]]
-client_url = "https://inkomsa.pl/"
-client_url_title = "Deweloper wrocław"
-clinet_logo = "/uploads/inkom-logo-aw.jpg"
+client_url = "https://4ti.com.pl"
+client_url_title = "ppoż wrocław"
+clinet_logo = "/uploads/4ti-logo-aw.jpg"
+czy_nofollow = false
+if_svg = false
+[[clients_list]]
+client_url = "https://www.jakjesc.wroclaw.pl/"
+client_url_title = "Catering dietetyczny wrocław"
+clinet_logo = "/uploads/jakjesc-logo-aw.jpg"
+czy_nofollow = false
+if_svg = false
+[[clients_list]]
+client_url = "http://www.comfortplus.pl/"
+client_url_title = ""
+clinet_logo = "/uploads/comfortplus-logo-aw.jpg"
 czy_nofollow = false
 if_svg = false
 [[clients_list]]
@@ -39,18 +51,6 @@ client_url = ""
 client_url_title = ""
 clinet_logo = "/uploads/budus-logo-aw.jpg"
 czy_nofollow = false
-if_svg = false
-[[clients_list]]
-client_url = "https://4ti.com.pl"
-client_url_title = "ppoż wrocław"
-clinet_logo = "/uploads/4ti-logo-aw.jpg"
-czy_nofollow = false
-if_svg = false
-[[clients_list]]
-client_url = "https://biblioteka.wroc.pl/"
-client_url_title = ""
-clinet_logo = "/uploads/mbp-wroclaw-logo-aw.jpg"
-czy_nofollow = true
 if_svg = false
 [[header_repeater]]
 block_tag_type = "h2"
