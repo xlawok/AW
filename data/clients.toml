@@ -1,14 +1,20 @@
 [[clients_list]]
-client_url = "https://www.jakjesc.wroclaw.pl/"
-client_url_title = "Catering dietetyczny wrocław"
-clinet_logo = "/uploads/jakjesc-logo-aw.jpg"
-czy_nofollow = false
-if_svg = false
-[[clients_list]]
 client_url = "https://www.tuwroclaw.com/"
 client_url_title = ""
 clinet_logo = "/uploads/tuwroclaw-logo-aw.jpg"
 czy_nofollow = true
+if_svg = false
+[[clients_list]]
+client_url = "https://medicus.com.pl/"
+client_url_title = ""
+clinet_logo = "/uploads/medicus-logo-aw.jpg"
+czy_nofollow = true
+if_svg = false
+[[clients_list]]
+client_url = "https://www.jakjesc.wroclaw.pl/"
+client_url_title = "Catering dietetyczny wrocław"
+clinet_logo = "/uploads/jakjesc-logo-aw.jpg"
+czy_nofollow = false
 if_svg = false
 [[clients_list]]
 client_url = ""
