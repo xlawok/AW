@@ -23,8 +23,8 @@ clinet_logo = "/uploads/inkom-logo-aw.jpg"
 czy_nofollow = false
 if_svg = false
 [[clients_list]]
-client_url = "http://nuubag.pl/"
-client_url_title = "Torebki handmade"
+client_url = "https://nuubag.pl/kategoria/listonoszki/"
+client_url_title = "Torebki listonoszki"
 clinet_logo = "/uploads/nuubag-logo-aw.jpg"
 czy_nofollow = false
 if_svg = false
