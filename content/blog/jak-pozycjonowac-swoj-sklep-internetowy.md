@@ -1,9 +1,8 @@
 +++
 author = "data/authors/agata.yml"
 categories = []
-date = ""
+date = 2021-05-19T11:00:00Z
 description = "Prowadzisz sklep internetowy i planujesz go pozycjonować? Zobacz, jakich sztuczek użyć aby Twój e-sklep zyskał nowych oglądających! "
-header_repeater = []
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = ""
 obrazek = ""
@@ -12,8 +11,17 @@ slug = "jak-pozycjonowac-swoj-sklep-internetowy"
 summary = "Pozycjonowanie sklepu internetowego jest praktycznie niezbędne przy pozyskiwaniu klientów. Jeżeli jesteś właścicielem e-sklepu, powinieneś wykorzystać ten potencjał i zadbać o swoją widoczność w wyszukiwarkach. Zastanawiasz się, co możesz zrobić, aby zwiększyć sprzedaż? Wszystkiego dowiesz się z tego artykułu. "
 tags = []
 title = "Jak pozycjonować swój sklep internetowy?"
-tytul_do_listowania = ""
+tytul_do_listowania = "Jak pozycjonować swój sklep internetowy?"
 tytul_o_czym_przeczytasz = "Jak pozycjonować sklep internetowy - krok po kroku:"
+[[header_repeater]]
+block_tag_type = "h1"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "Jak pozycjonować swój sklep internetowy?"
+txt_block_size = ""
+underline = true
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "dlaczego-pozycjonowanie-sklepu-internetowego-jest-wazne"
 title = "Dlaczego pozycjonowanie sklepu internetowego jest ważne?"
