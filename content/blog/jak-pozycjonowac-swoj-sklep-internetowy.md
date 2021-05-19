@@ -1,7 +1,7 @@
 +++
 author = "data/authors/agata.yml"
 categories = []
-date = ""
+date = 2021-05-18T22:54:00Z
 description = "Prowadzisz sklep internetowy i planujesz go pozycjonować? Zobacz, jakich sztuczek użyć aby Twój e-sklep zyskał nowych oglądających! "
 draft = true
 header_repeater = []
