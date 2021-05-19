@@ -47,7 +47,7 @@ Pozycjonowanie sklepu internetowego jest praktycznie niezbędne przy pozyskiwani
 
 Pozycjonowanie sklepu jest tak ważne dlatego, że coraz częściej robimy zakupy w sieci. Dzięki badaniu Gemius E-commerce w Polsce wiemy, że w 2019 roku 62% internautów choć raz zdecydowało się na zakupy online. Na przestrzeni ostatnich lat zmienił się znacznie profil kupujących przez Internet.
 
-Poprzez sieć nie kupujemy już jedynie elektroniki czy ubrań. Coraz chętniej sięgamy po [kosmetyki](https://eveda.pl/), leki wydawane bez recepty, a nawet żywność, czyli rzeczy, z których korzystamy na co dzień. Wiele biznesów przenosi swoją działalność do Internetu lub chociaż rozpoczyna działania mające na celu promocję w sieci, ponieważ jest to bardzo opłacalne. W związku z tym konkurencja będzie coraz większa i to właśnie [pozycjonowanie sklepu internetowego](https://agencjawroclawska.pl/pozycjonowanie-sklepow/) ma pomóc w przebiciu się przez nią i dotarciu do klienta, a co za tym idzie – uzyskaniu większych zysków.
+Poprzez sieć nie kupujemy już jedynie elektroniki czy ubrań. Coraz chętniej sięgamy po [naturalne kosmetyki](https://eveda.pl/), leki wydawane bez recepty, a nawet żywność, czyli rzeczy, z których korzystamy na co dzień. Wiele biznesów przenosi swoją działalność do Internetu lub chociaż rozpoczyna działania mające na celu promocję w sieci, ponieważ jest to bardzo opłacalne. W związku z tym konkurencja będzie coraz większa i to właśnie [pozycjonowanie sklepu internetowego](https://agencjawroclawska.pl/pozycjonowanie-sklepow/) ma pomóc w przebiciu się przez nią i dotarciu do klienta, a co za tym idzie – uzyskaniu większych zysków.
 
 ## Korzyści, jakie przynosi pozycjonowanie sklepów internetowych:
 
@@ -115,7 +115,7 @@ Poprzez dostęp do Senuto możesz sprawdzić, na jakie słowa kluczowe pozycjonu
 
 Jeżeli nasza strona internetowa ładuje się dłużej niż 5 sekund możemy mieć pewność, że klienci zaczną ją omijać szerokim łukiem. Często nawet najlepiej przygotowane strony, idealnie zoptymalizowane pod SEO mogą przestać generować ruch ze względu na długi czas wczytywania. **Dzięki narzędziu Page Speed Insights sprawdzisz szybkość swojej strony**.
 
-## Linkowanie zewnętrzne i wewnętrzne.
+## Linkowanie zewnętrzne i wewnętrzne {#linkowanie-zewnetrzne-i-wewnetrzne}
 
 **Linkowanie wewnętrzne** to nic innego jak linki w obrębie jednego serwisu, gdzie przykładowo z wpisu na blogu lub kategorii produktów pokrewnych tworzymy odnośnik do innej podstrony. Tego typu linkowanie jest jedną z najchętniej wykorzystywanych technik optymalizacji w przypadku sklepów i portali internetowych, dzięki pełnej kontroli. Możemy swobodnie używać słów kluczowych w treści linka, wzmacniając tym daną podstronę.
 
