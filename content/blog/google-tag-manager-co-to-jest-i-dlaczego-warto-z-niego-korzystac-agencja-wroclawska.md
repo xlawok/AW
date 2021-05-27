@@ -23,20 +23,20 @@ txt_block = "Google Tag Manager – co to jest i dlaczego warto z niego korzysta
 txt_block_size = ""
 underline = true
 [[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = "w-google-tag-manager-znajdziesz-3-glowne-elementy"
-title = "W Google Tag Manager znajdziesz 3 główne elementy:"
-[[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = "{#jak-rozpoczac-swoja-przygode-z-google-tag-manager}"
-title = "Jak rozpocząć swoją przygodę z Google Tag Managerem?"
-[[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = "dlaczego-powinnismy-korzystac-z-google-tag-manager"
-title = "Dlaczego powinniśmy korzystać z Google Tag Manager?"
+adres_odnosnika = "google-tag-manager-co-to-jest"
+title = "Google Tag Manager - co to jest?"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "czym-sa-tagi"
 title = "Czym są Tagi?"
 [[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = "google-tag-manager-co-to-jest"
-title = "Google Tag Manager - co to jest?"
+adres_odnosnika = "dlaczego-powinnismy-korzystac-z-google-tag-manager"
+title = "Dlaczego powinniśmy korzystać z Google Tag Manager?"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "{#jak-rozpoczac-swoja-przygode-z-google-tag-manager}"
+title = "Jak rozpocząć swoją przygodę z Google Tag Managerem?"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "w-google-tag-manager-znajdziesz-3-glowne-elementy"
+title = "W Google Tag Manager znajdziesz 3 główne elementy:"
 
 +++
 Najbardziej popularne narzędzia, które służą do zbierania danych ze strony to Google Analitycs oraz Google Search Console. Narzędzia te są darmowe oraz można je wdrożyć w bardzo prosty sposób na każdej stronie internetowej. Oprócz dwóch wymienionych powyżej narzędzi Google udostępnia również inne, znacznie bardziej rozbudowane, czyli Google Tag Manager.
