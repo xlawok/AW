@@ -29,7 +29,9 @@
                 <span class='list-art-date'>{{ .Params.date.Format "02.01.2006" }}</span>
                 <span class='list-art-authorname'> | &nbsp;{{ (index site.Data.authors $filename).imi__i_nazwisko }}</span>
                 {{- partial "img.html" (dict "image" (index site.Data.authors $filename).obrazek "imgsizes" "" "ifsrcset" "nosrcset" "tag_class" "art-author-img")  -}}
-                
+                {{with (index site.Data.authors $filename).linkedin_odnosnik }}
+                    <a rel="nofollow" target="_blank" class='author-linkedin' href='{{.}}'><img src="/img/linkedin-in_red.svg"></a>
+                {{end}}
             </div>
         </div>
       
@@ -70,6 +72,9 @@
                     <span class='list-art-date'>{{ .Params.date.Format "02.01.2006" }}</span>
                     <span class='list-art-authorname'> | &nbsp;{{ (index site.Data.authors $filename).imi__i_nazwisko }}</span>
                     {{- partial "img.html" (dict "image" (index site.Data.authors $filename).obrazek "imgsizes" "" "ifsrcset" "nosrcset" "tag_class" "art-author-img")  -}}
+                    {{with (index site.Data.authors $filename).linkedin_odnosnik }}
+                        <a rel="nofollow" target="_blank" class='author-linkedin' href='{{.}}'><img src="/img/linkedin-in_red.svg"></a>
+                    {{end}}
                 </div>
                 
             </div>
