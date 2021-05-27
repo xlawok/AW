@@ -17,6 +17,11 @@ fields:
   config:
     maxSize: 2
   label: Zdjęcie
+- name: linkedin_odnosnik
+  type: text
+  config:
+    required: false
+  label: Linkedin odnośnik
 pages:
 - data/authors/agata.yml
 - data/authors/bartek.yml
