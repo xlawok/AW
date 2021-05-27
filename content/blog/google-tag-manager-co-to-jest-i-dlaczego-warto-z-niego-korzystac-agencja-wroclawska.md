@@ -3,7 +3,6 @@ author = "data/authors/agata.yml"
 categories = []
 date = 2021-05-26T22:00:00Z
 description = "Z artykuły dowiesz się czym jest Google Tag Manager i w jaki sposób można skorzystać z benefitów korzystania"
-draft = true
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = ""
 obrazek = ""
