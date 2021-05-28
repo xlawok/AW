@@ -3156,7 +3156,30 @@ form#contactform,form#mcontactform{
         }
       }
     }
-    
+    .single-art-footer{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-direction: column-reverse;
+      @media (min-width: 600px){
+        flex-direction: row;
+      }
+      div.author-data {
+        width: max-content;
+        margin-bottom: 3rem;
+      }
+      .star-cnt {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 2rem;
+        // align-items: center;
+        span{
+          font-weight: bold;
+
+        }
+      }
+    }
   }
   .related-news-header:first-child{
     margin-bottom: 3rem;
@@ -5629,3 +5652,47 @@ justify-content: center;
   }
   
 }
+
+.rate {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 46px;
+  padding: 0 10px;
+  z-index: 11;
+  position: relative;
+  flex-direction: row-reverse;
+  margin-right: auto;
+}
+.rate:not(:checked) > input {
+    // position:absolute;
+    // top:-9999px;
+    display: none;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #F63D37;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #F63D37;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #F63D37;
+}
+
+/* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
