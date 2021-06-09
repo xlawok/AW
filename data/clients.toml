@@ -30,7 +30,7 @@ czy_nofollow = false
 if_svg = false
 [[clients_list]]
 client_url = "https://4ti.com.pl"
-client_url_title = "ppoż wrocław"
+client_url_title = "https://4ti.com.pl"
 clinet_logo = "/uploads/4ti-logo-aw.jpg"
 czy_nofollow = false
 if_svg = false
