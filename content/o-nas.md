@@ -148,24 +148,24 @@ sections:
   - obrazek: "/uploads/jakub1.jpg"
     my_name: Jakub
     stanowisko: SEO Manager
-  - obrazek: "/uploads/konrad1.jpg"
-    my_name: Konrad
-    stanowisko: UX/UI Specialist
   - obrazek: "/uploads/piotr1.jpg"
     my_name: Piotr
     stanowisko: Web Developer
+  - obrazek: "/uploads/konrad1.jpg"
+    my_name: Konrad
+    stanowisko: UX/UI Specialist
+  - obrazek: "/uploads/karol1.jpeg"
+    my_name: Karol
+    stanowisko: Key Account Manager
   - obrazek: "/uploads/agata1.jpg"
     my_name: Agata
-    stanowisko: SEO Specialist
-  - obrazek: "/uploads/mateusz1.jpg"
-    my_name: Mateusz
     stanowisko: SEO Specialist
   - obrazek: "/uploads/robert1.jpeg"
     my_name: Robert
     stanowisko: SEO Specialist
-  - obrazek: "/uploads/karol1.jpeg"
-    my_name: Karol
-    stanowisko: Key Account Manager
+  - obrazek: "/uploads/mateusz1.jpg"
+    my_name: Mateusz
+    stanowisko: SEO Specialist
   - obrazek: "/uploads/sziba1.jpg"
     my_name: Shiba
     stanowisko: Doge
