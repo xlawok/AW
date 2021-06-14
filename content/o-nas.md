@@ -159,7 +159,7 @@ sections:
     stanowisko: Key Account Manager
   - obrazek: "/uploads/agata1.jpg"
     my_name: Agata
-    stanowisko: SEO Specialist
+    stanowisko: Head of Administration
   - obrazek: "/uploads/robert1.jpeg"
     my_name: Robert
     stanowisko: SEO Specialist
