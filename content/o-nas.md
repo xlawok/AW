@@ -142,9 +142,9 @@ sections:
       txt_block_size: XL
 - template: sekcja-o-nas-druzyna-pierscienia
   section_team_group:
-  - obrazek: "/uploads/robert1.jpeg"
-    my_name: Robert
-    stanowisko: SEO Specialist
+  - obrazek: "/uploads/karol1.jpeg"
+    my_name: Karol
+    stanowisko: Key Account Manager
   - obrazek: "/uploads/bartek1.jpg"
     my_name: Bartek
     stanowisko: Marketing Manager
@@ -162,6 +162,9 @@ sections:
     stanowisko: SEO Specialist
   - obrazek: "/uploads/mateusz1.jpg"
     my_name: Mateusz
+    stanowisko: SEO Specialist
+  - obrazek: "/uploads/robert1.jpeg"
+    my_name: Robert
     stanowisko: SEO Specialist
   - obrazek: "/uploads/sziba1.jpg"
     my_name: Shiba
