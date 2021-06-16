@@ -74,6 +74,7 @@
                         <label for="star1" title="text">1 star</label>
                     
                     </form>
+                    głosów: <span id="count_votes"></span> 
                 </div>
                 <div class='author-data'>
                     {{ $dirFile := path.Base .Params.author }}
@@ -120,6 +121,7 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
         var star4=Number.isInteger(parseInt(json.star4)) ? json.star4 : 0 ;
         var star5=Number.isInteger(parseInt(json.star5)) ? json.star5 : 0 ;
         var count_it=Math.ceil(((1* star1)+(2* star2)+(3* star3)+(4* star4)+(5* star5))/(star1+star2+star3+star4+star5));
+        var count_votes=Math.ceil(star1+star2+star3+star4+star5);
         // console.log(count_it);
         var star_id="star" + count_it;
         // console.log(star_id);
@@ -134,6 +136,13 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
         document.getElementById('star3').dataset.votes=star3;
         document.getElementById('star4').dataset.votes=star4;
         document.getElementById('star5').dataset.votes=star5;
+        document.getElementById('count_votes').innerHTML=count_votes;
+        const structuredDataText='{"@context": "https://schema.org/","@type": "CreativeWorkSeries","name": "'+ {{$.Params.tytul_do_listowania | safeHTML}} + '","aggregateRating": {"@type": "AggregateRating","ratingValue": "' + count_it + '","bestRating": "5","ratingCount": "' + count_votes + '"}}';
+        const script = document.createElement('script');
+        script.setAttribute('type', 'application/ld+json');
+        script.textContent = structuredDataText;
+        document.head.appendChild(script);
+
         // console.log(document.getElementById(star_id));
     }
   
