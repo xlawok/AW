@@ -1,7 +1,7 @@
 +++
 author = "data/authors/agata.yml"
 categories = []
-date = ""
+date = 2021-06-15T22:38:00Z
 description = "Poprawna optymalizacja i dobre pozycjonowanie strony zapewni Ci sukces w UK. SEO w Anglii rządzi się swoimi prawami, dlatego zapoznaj się jak do tego podejść i bądź widoczny w Google!"
 header_repeater = []
 ikona_artykulu = "/uploads/art-placeholder.svg"
