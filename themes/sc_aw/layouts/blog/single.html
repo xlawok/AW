@@ -140,7 +140,7 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
         const structuredDataText=JSON.stringify('{"@context": "https://schema.org/","@type": "CreativeWorkSeries","name": "'+ {{$.Params.tytul_do_listowania | safeHTML}} + '","aggregateRating": {"@type": "AggregateRating","ratingValue": "' + count_it + '","bestRating": "5","ratingCount": "' + count_votes + '"}}');
         const script = document.createElement('script');
         script.setAttribute('type', 'application/ld+json');
-        script.textContent = structuredDataText;
+        script.text = structuredDataText;
         document.head.appendChild(script);
 
         // console.log(document.getElementById(star_id));
