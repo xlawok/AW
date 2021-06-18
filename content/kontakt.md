@@ -23,7 +23,7 @@ banner_form_html = "<div id=\"my-form-status\"></div>\n<form id=\"contactform\" 
 banner_form_html_no_img = ""
 banner_form_script = ""
 banner_form_script_no_img = ""
-banner_img = "/uploads/wroclaw_kontakt.jpg"
+banner_img = "/uploads/wroclaw_kontakt-2.jpg"
 banner_list_gruop = []
 banner_type = "wide_img"
 naglowek_formularza = "Zamów bezpłatną wycenę w 24h!"
