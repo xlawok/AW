@@ -11,8 +11,11 @@ parent = "Pozycjonowanie"
 weight = 3
 [[sections]]
 banner_bg_for_center_left = ""
+banner_bg_for_center_left_dark = ""
 banner_bg_for_center_right = ""
+banner_bg_for_center_right_dark = ""
 banner_bg_no_img = "/uploads/ban-pozycjonowanie-lokalne.svg"
+banner_bg_no_img_dark = "/uploads/ban-pozycjonowanie-lokalne-dark.svg"
 banner_center_img = ""
 banner_cta_title = "Zamów bezpłatną wycenę"
 banner_cta_url = []
