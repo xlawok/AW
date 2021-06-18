@@ -4884,6 +4884,9 @@ justify-content: center;
   .sc-price-table {
     margin-top: 6em;
   }
+  .sc-price-table h3::after {
+    display: none;
+  }
   .sec-padding.sc-compare{
     padding-bottom: 6rem;
     &:after {
