@@ -2149,6 +2149,11 @@ form#contactform,form#mcontactform{
     z-index: 1;
   }
 }
+.home {
+  .sc-our-clients{
+    margin-top: 0;
+  }
+}
 .sc-our-clients{
   position: relative;
   z-index: 1;
@@ -2241,11 +2246,6 @@ form#contactform,form#mcontactform{
         }
       }
     }
-  }
-}
-.home {
-  .sc-our-clients{
-    margin-top: 0;
   }
 }
 .sc-two-col-img-txt{
