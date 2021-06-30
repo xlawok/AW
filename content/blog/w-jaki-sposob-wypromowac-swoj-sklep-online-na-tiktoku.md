@@ -37,7 +37,7 @@ title = "Jak wypromować swój sklep internetowy na TikToku?"
 adres_odnosnika = "zobacz-sam-ze-nawet-duze-swiatowe-marki-takze-korzystaja-z-tiktoka"
 title = "Zobacz sam, że nawet duże, światowe marki także korzystają z TikToka:"
 [[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = "zasady-dzieki-ktorym-mozesz-osiagnac-sukces?"
+adres_odnosnika = "zasady-dzieki-ktorym-mozesz-osiagnac-sukces"
 title = "Zasady, dzięki którym możesz osiągnąć sukces:"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "platna-reklama-i-wspolpraca-z-influencerami-oplaca-sie"
@@ -174,7 +174,7 @@ TikTok znajdował się w gronie najczęściej pobieranych aplikacji przez 18 kol
 
 <blockquote class="tiktok-embed" cite="[https://www.tiktok.com/@mosquitopl/video/6968137004202708229](https://www.tiktok.com/@mosquitopl/video/6968137004202708229 "https://www.tiktok.com/@mosquitopl/video/6968137004202708229")" data-video-id="6968137004202708229" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@mosquitopl" href="[https://www.tiktok.com/@mosquitopl](https://www.tiktok.com/@mosquitopl "https://www.tiktok.com/@mosquitopl")">@mosquitopl</a> <p>NEW, new! 🔥🔥🔥 👉 www.mosquito-sklep.pl <a title="new" target="_blank" href="[https://www.tiktok.com/tag/new](https://www.tiktok.com/tag/new "https://www.tiktok.com/tag/new")">#new</a> <a title="dc" target="_blank" href="[https://www.tiktok.com/tag/dc](https://www.tiktok.com/tag/dc "https://www.tiktok.com/tag/dc")">#dc</a> <a title="mosquitopl" target="_blank" href="[https://www.tiktok.com/tag/mosquitopl](https://www.tiktok.com/tag/mosquitopl "https://www.tiktok.com/tag/mosquitopl")">#mosquitopl</a> <a title="viral" target="_blank" href="[https://www.tiktok.com/tag/viral](https://www.tiktok.com/tag/viral "https://www.tiktok.com/tag/viral")">#viral</a> <a title="dlaciebie" target="_blank" href="[https://www.tiktok.com/tag/dlaciebie](https://www.tiktok.com/tag/dlaciebie "https://www.tiktok.com/tag/dlaciebie")">#dlaciebie</a></p> <a target="_blank" title="♬ Way Back Home - Shaun" href="[https://www.tiktok.com/music/Way-Back-Home-6585092185274878734](https://www.tiktok.com/music/Way-Back-Home-6585092185274878734 "https://www.tiktok.com/music/Way-Back-Home-6585092185274878734")">♬ Way Back Home - Shaun</a> </section> </blockquote> <script async src="[https://www.tiktok.com/embed.js](https://www.tiktok.com/embed.js "https://www.tiktok.com/embed.js")"></script>
 
-### **Zasady, dzięki którym możesz osiągnąć sukces:** {#zasady-dzieki-ktorym-mozesz-osiagnac-sukces?}
+### **Zasady, dzięki którym możesz osiągnąć sukces:** {#zasady-dzieki-ktorym-mozesz-osiagnac-sukces}
 
 To, że założysz konto to nie wszystko. Musisz liczyć się z tym, że musisz nagrywać ciekawe treści i tworzyć nowe pomysły, aby przyciągnąć potencjalnych klientów i widzów.
 
@@ -194,7 +194,7 @@ To, że założysz konto to nie wszystko. Musisz liczyć się z tym, że musisz 
 
 8\. Pytaj swoich odbiorców, czy przygotowywane przez Ciebie treści im odpowiadają i ich zadowalają. To oni są specami i powiedzą Ci, czy przygotowałeś coś fajnego czy niekoniecznie.
 
-### Płatna reklama i współpraca z influencerami – opłaca się? {#platna-reklama-i-wspolpraca-z-influencerami-oplaca-sie?}
+### Płatna reklama i współpraca z influencerami – opłaca się? {#platna-reklama-i-wspolpraca-z-influencerami-oplaca-sie}
 
 TikTok podobnie jak Facebbok i inne media społecznościowe daje możliwość na reklamę. Skorzystaj z platformy do płatnej reklamy albo wykorzystaj w tym celu influencerów i podejmij z nimi współprace.
 
