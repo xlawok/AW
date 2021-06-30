@@ -102,11 +102,11 @@ Użytkownicy TikToka mogą brać udział w wyzwaniach wyznaczonych przez innych 
 
 Na TikToku jest ogromna szansa dla sklepów internetowych, aby zwiększyć liczbę zamówień.
 
-### **TikTok vs. Instagram i Facebook** {#tiktok-instagram-facebook?}
+### **TikTok vs. Instagram i Facebook** {#tiktok-instagram-facebook}
 
 TikTok znajdował się w gronie najczęściej pobieranych aplikacji przez 18 kolejnych miesięcy, co jest rekordem. Różni się znacząco od Facebooka czy Instagrama, ponieważ platformie nie zależy na poznaniu naszych relacji z innymi. Tutaj tak naprawdę każdy jest bliski i obcy jednocześnie. TikTok jest inny niż Facebook i Instagram i w tym ma przewagę. Jest dynamiczny i kreatywny co daje mu zwycięstwo nad pozostałymi social mediami. Kampania będzie skuteczna, jeżeli będzie podążać za trendami, które na TikToku zmieniają się bardzo szybko. Musisz unikać nudy i rutyny w filmach publikowanych na tej platformie. Obecnie reklama na tej platformie może być strzałem w dziesiątkę.
 
-### **Jak wypromować swój sklep internetowy na TikToku?** {#jak-wypromowac-swoj-sklep-internetowy-na-tiktoku?}
+### **Jak wypromować swój sklep internetowy na TikToku?** {#jak-wypromowac-swoj-sklep-internetowy-na-tiktoku}
 
 1\. Fajnie będzie, jeżeli pokażesz swój biznes zza kulis – w jaki sposób przygotowujesz produkt albo kompletujesz produkty
 
