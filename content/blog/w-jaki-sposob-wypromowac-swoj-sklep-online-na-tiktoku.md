@@ -3,7 +3,6 @@ author = "data/authors/agata.yml"
 categories = []
 date = 2021-06-29T23:00:00Z
 description = "Sklepy internetowe i sposoby na marketing na obecnie najpopularniejszej wśród młodych ludzi platformie social media"
-draft = true
 header_repeater = []
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = "tiktok, tik-tok, tik tok"
