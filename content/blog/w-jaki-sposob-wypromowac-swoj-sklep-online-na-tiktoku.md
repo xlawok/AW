@@ -16,11 +16,35 @@ title = "W jaki sposób wypromować swój sklep online na TikToku?"
 tytul_do_listowania = "W jaki sposób wypromować swój sklep online na TikToku?"
 tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
 [[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "sklep-internetowy-i-dzialania-marketingowe-na-tiktoku"
+title = "Sklep internetowy i działania marketingowe na TikToku?"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "co-to-jest-tiktok"
+title = "Co to jest TikTok?"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "dlaczego-warto-zalozyc-konto-na-tiktoku"
+title = "Dlaczego warto założyć konto na TikToku?"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "na-czym-polega-fenomen-tiktoka"
+title = "Na czym polega fenomen TikToka?"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "tiktok-instagram-facebook"
+title = "TikTok vs. Instagram i Facebook"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "jak-wypromowac-swoj-sklep-internetowy-na-tiktoku"
+title = "Jak wypromować swój sklep internetowy na TikToku?"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "zobacz-sam-ze-nawet-duze-swiatowe-marki-takze-korzystaja-z-tiktoka"
+title = "Zobacz sam, że nawet duże, światowe marki także korzystają z TikToka:"
+[[lista_o_czym_przeczytasz_group]]
+adres_odnosnika = "zasady-dzieki-ktorym-mozesz-osiagnac-sukces?"
+title = "Zasady, dzięki którym możesz osiągnąć sukces:"
+[[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "platna-reklama-i-wspolpraca-z-influencerami-oplaca-sie"
 title = "Płatna reklama i współpraca z influencerami – opłaca się?"
 
 +++
-## **Sklep internetowy i działania marketingowe na TikToku?**
+## **Sklep internetowy i działania marketingowe na TikToku?** {#sklep-internetowy-i-dzialania-marketingowe-na-tiktoku}
 
 TikTok to jedna z najpopularniejszych platform na całym świecie. Na swoim koncie posiada miliard zarejestrowanych użytkowników, bardzo szybko zdążyła podbić serca wielu osób. Cały czas się rozwija oraz daje bardzo duże możliwości w promowaniu siebie czy swoich produktów. Warto więc wykorzystać jego potencjał i efektywnie dotrzeć do nowych odbiorców.
 
@@ -38,7 +62,7 @@ W tym artykule dowiesz się:
 
 6\. Płatna reklama i współpraca z Influencerami – opłaca się?
 
-## **Co to jest TikTok?**
+## **Co to jest TikTok?** {#co-to-jest-tiktok}
 
 TikTok to globalna społeczność wideo. Aplikacja pozwala na nagranie krótkich (maksymalnie 60 sekundowych) form wideo pod dowolny utwór muzyczny. Taki klip można dowolnie modyfikować za pomocą narzędzi dostępnych w aplikacji.
 
@@ -50,7 +74,7 @@ Aplikacja TikTok jest na tyle znana, że miesięcznie loguje się w niej 800 mln
 
 Raporty wykazują, że 66% użytkowników aplikacji ma mniej niż 30 lat a 60% osób korzystających z aplikacji jest w wieku od 16 do 24 lat. Jeżeli uważasz, że Twoja grupa docelowa jest w wieku 16-30 lat to warto rozważyć TikToka jako kanał komunikacji ze swoimi potencjalnymi klientami.
 
-Popularni TikTokerzy w Polsce:
+**Popularni TikTokerzy w Polsce:**
 
 ![jeleniewska i wersow](/uploads/tiktok2.png)
 
@@ -58,7 +82,7 @@ Popularni TikTokerzy w Polsce:
 
 <blockquote class="tiktok-embed" cite="[https://www.tiktok.com/@wersow/video/6898678870296251649](https://www.tiktok.com/@wersow/video/6898678870296251649 "https://www.tiktok.com/@wersow/video/6898678870296251649")" data-video-id="6898678870296251649" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@wersow" href="[https://www.tiktok.com/@wersow](https://www.tiktok.com/@wersow "https://www.tiktok.com/@wersow")">@wersow</a> <p>SMILE! ✌🏼 @prncssbrit   <a title="fyp" target="_blank" href="[https://www.tiktok.com/tag/fyp](https://www.tiktok.com/tag/fyp "https://www.tiktok.com/tag/fyp")">#fyp</a> <a title="foryou" target="_blank" href="[https://www.tiktok.com/tag/foryou](https://www.tiktok.com/tag/foryou "https://www.tiktok.com/tag/foryou")">#foryou</a> <a title="foryoupage" target="_blank" href="[https://www.tiktok.com/tag/foryoupage](https://www.tiktok.com/tag/foryoupage "https://www.tiktok.com/tag/foryoupage")">#foryoupage</a> @jeleniewska </p> <a target="_blank" title="♬ original sound - brittyn " href="[https://www.tiktok.com/music/original-sound-6881051186854644485](https://www.tiktok.com/music/original-sound-6881051186854644485 "https://www.tiktok.com/music/original-sound-6881051186854644485")">♬ original sound - brittyn </a> </section> </blockquote> <script async src="[https://www.tiktok.com/embed.js](https://www.tiktok.com/embed.js "https://www.tiktok.com/embed.js")"></script>
 
-## **Dlaczego warto założyć konto na TikToku?**
+## **Dlaczego warto założyć konto na TikToku?** {#dlaczego-warto-zalozyc-konto-na-tiktoku}
 
 Pomimo tego, że TikTok nie jest jeszcze w czołówce rankingu social mediów to jego popularność na całym świecie cały czas rośnie. Oto powody, dla których warto zainteresować się tą platformą:
 
@@ -70,7 +94,7 @@ Pomimo tego, że TikTok nie jest jeszcze w czołówce rankingu social mediów to
 
 4\. Poprzez tak dużą ilość młodych ludzi masz bardzo dużą możliwość na zdobycie nowych klientów.
 
-### **Na czym polega fenomen TikToka?**
+### **Na czym polega fenomen TikToka?** {#na-czym-polega-fenomen-tiktoka}
 
 Przez to, że na TikToku można znaleźć dosłownie wszystko, każdy może znaleźć coś dla siebie. Aplikacja jest docelową platformą dla wielu niszowych społeczności, które mają wspólne zainteresowania. Wielu młodych ludzi bardziej od dzielenia się z innymi informacji o swoim życiu szukają w Internecie rozrywki. Dlatego aplikacja jest tak popularna, ponieważ każdy może wyrazić tam swoją kreatywność.
 
@@ -78,11 +102,11 @@ Użytkownicy TikToka mogą brać udział w wyzwaniach wyznaczonych przez innych 
 
 Na TikToku jest ogromna szansa dla sklepów internetowych, aby zwiększyć liczbę zamówień.
 
-### **TikTok vs. Instagram i Facebook**
+### **TikTok vs. Instagram i Facebook** {#tiktok-instagram-facebook?}
 
 TikTok znajdował się w gronie najczęściej pobieranych aplikacji przez 18 kolejnych miesięcy, co jest rekordem. Różni się znacząco od Facebooka czy Instagrama, ponieważ platformie nie zależy na poznaniu naszych relacji z innymi. Tutaj tak naprawdę każdy jest bliski i obcy jednocześnie. TikTok jest inny niż Facebook i Instagram i w tym ma przewagę. Jest dynamiczny i kreatywny co daje mu zwycięstwo nad pozostałymi social mediami. Kampania będzie skuteczna, jeżeli będzie podążać za trendami, które na TikToku zmieniają się bardzo szybko. Musisz unikać nudy i rutyny w filmach publikowanych na tej platformie. Obecnie reklama na tej platformie może być strzałem w dziesiątkę.
 
-### **Jak wypromować swój sklep internetowy na TikToku?**
+### **Jak wypromować swój sklep internetowy na TikToku?** {#jak-wypromowac-swoj-sklep-internetowy-na-tiktoku?}
 
 1\. Fajnie będzie, jeżeli pokażesz swój biznes zza kulis – w jaki sposób przygotowujesz produkt albo kompletujesz produkty
 
@@ -110,13 +134,13 @@ TikTok znajdował się w gronie najczęściej pobieranych aplikacji przez 18 kol
 
 4\. Podziel się swoimi wskazówkami i poradami z innymi!
 
-![](/uploads/obraz_2021-06-30_122647.png)
+![beuty hacks](/uploads/obraz_2021-06-30_122647.png)
 
 <blockquote class="tiktok-embed" cite="[https://www.tiktok.com/@elan.net.ua/video/6887248665149295873](https://www.tiktok.com/@elan.net.ua/video/6887248665149295873 "https://www.tiktok.com/@elan.net.ua/video/6887248665149295873")" data-video-id="6887248665149295873" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@elan.net.ua" href="[https://www.tiktok.com/@elan.net.ua](https://www.tiktok.com/@elan.net.ua "https://www.tiktok.com/@elan.net.ua")">@elan.net.ua</a> <p>5 BEAUTY LIFE HACKS 💄ELAN.NET.UA</p> <a target="_blank" title="♬ Viva La Swing aka #SandoTwist by @Abiud_Sando - Mingaling 2.0" href="[https://www.tiktok.com/music/Viva-La-Swing-aka-SandoTwist-by-AbiudSando-6823159626767305477](https://www.tiktok.com/music/Viva-La-Swing-aka-SandoTwist-by-AbiudSando-6823159626767305477 "https://www.tiktok.com/music/Viva-La-Swing-aka-SandoTwist-by-AbiudSando-6823159626767305477")">♬ Viva La Swing aka #SandoTwist by @Abiud_Sando - Mingaling 2.0</a> </section> </blockquote> <script async src="[https://www.tiktok.com/embed.js](https://www.tiktok.com/embed.js "https://www.tiktok.com/embed.js")"></script>
 
 <blockquote class="tiktok-embed" cite="[https://www.tiktok.com/@diyor_rahimoff/video/6944812879933672705](https://www.tiktok.com/@diyor_rahimoff/video/6944812879933672705 "https://www.tiktok.com/@diyor_rahimoff/video/6944812879933672705")" data-video-id="6944812879933672705" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@diyor_rahimoff" href="[https://www.tiktok.com/@diyor_rahimoff](https://www.tiktok.com/@diyor_rahimoff "https://www.tiktok.com/@diyor_rahimoff")">@diyor_rahimoff</a> <p><a title="lifehacks" target="_blank" href="[https://www.tiktok.com/tag/lifehacks](https://www.tiktok.com/tag/lifehacks "https://www.tiktok.com/tag/lifehacks")">#lifehacks</a> <a title="lifehackvideo" target="_blank" href="[https://www.tiktok.com/tag/lifehackvideo](https://www.tiktok.com/tag/lifehackvideo "https://www.tiktok.com/tag/lifehackvideo")">#lifehackvideo</a> <a title="lifehacki" target="_blank" href="[https://www.tiktok.com/tag/lifehacki](https://www.tiktok.com/tag/lifehacki "https://www.tiktok.com/tag/lifehacki")">#lifehacki</a> <a title="experiments" target="_blank" href="[https://www.tiktok.com/tag/experiments](https://www.tiktok.com/tag/experiments "https://www.tiktok.com/tag/experiments")">#experiments</a> <a title="experimente" target="_blank" href="[https://www.tiktok.com/tag/experimente](https://www.tiktok.com/tag/experimente "https://www.tiktok.com/tag/experimente")">#experimente</a> <a title="experimentator" target="_blank" href="[https://www.tiktok.com/tag/experimentator](https://www.tiktok.com/tag/experimentator "https://www.tiktok.com/tag/experimentator")">#experimentator</a> <a title="experimentos74" target="_blank" href="[https://www.tiktok.com/tag/experimentos74](https://www.tiktok.com/tag/experimentos74 "https://www.tiktok.com/tag/experimentos74")">#experimentos74</a></p> <a target="_blank" title="♬ Lalala - Y2K & bbno$" href="[https://www.tiktok.com/music/Lalala-6699940113960405766](https://www.tiktok.com/music/Lalala-6699940113960405766 "https://www.tiktok.com/music/Lalala-6699940113960405766")">♬ Lalala - Y2K & bbno$</a> </section> </blockquote> <script async src="[https://www.tiktok.com/embed.js](https://www.tiktok.com/embed.js "https://www.tiktok.com/embed.js")"></script>
 
-### **Zobacz sam, że nawet duże, światowe marki także korzystają z TikToka:**
+### **Zobacz sam, że nawet duże, światowe marki także korzystają z TikToka:** {#zobacz-sam-ze-nawet-duze-swiatowe-marki-takze-korzystaja-z-tiktoka}
 
 **Gucci**
 
@@ -150,7 +174,7 @@ TikTok znajdował się w gronie najczęściej pobieranych aplikacji przez 18 kol
 
 <blockquote class="tiktok-embed" cite="[https://www.tiktok.com/@mosquitopl/video/6968137004202708229](https://www.tiktok.com/@mosquitopl/video/6968137004202708229 "https://www.tiktok.com/@mosquitopl/video/6968137004202708229")" data-video-id="6968137004202708229" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@mosquitopl" href="[https://www.tiktok.com/@mosquitopl](https://www.tiktok.com/@mosquitopl "https://www.tiktok.com/@mosquitopl")">@mosquitopl</a> <p>NEW, new! 🔥🔥🔥 👉 www.mosquito-sklep.pl <a title="new" target="_blank" href="[https://www.tiktok.com/tag/new](https://www.tiktok.com/tag/new "https://www.tiktok.com/tag/new")">#new</a> <a title="dc" target="_blank" href="[https://www.tiktok.com/tag/dc](https://www.tiktok.com/tag/dc "https://www.tiktok.com/tag/dc")">#dc</a> <a title="mosquitopl" target="_blank" href="[https://www.tiktok.com/tag/mosquitopl](https://www.tiktok.com/tag/mosquitopl "https://www.tiktok.com/tag/mosquitopl")">#mosquitopl</a> <a title="viral" target="_blank" href="[https://www.tiktok.com/tag/viral](https://www.tiktok.com/tag/viral "https://www.tiktok.com/tag/viral")">#viral</a> <a title="dlaciebie" target="_blank" href="[https://www.tiktok.com/tag/dlaciebie](https://www.tiktok.com/tag/dlaciebie "https://www.tiktok.com/tag/dlaciebie")">#dlaciebie</a></p> <a target="_blank" title="♬ Way Back Home - Shaun" href="[https://www.tiktok.com/music/Way-Back-Home-6585092185274878734](https://www.tiktok.com/music/Way-Back-Home-6585092185274878734 "https://www.tiktok.com/music/Way-Back-Home-6585092185274878734")">♬ Way Back Home - Shaun</a> </section> </blockquote> <script async src="[https://www.tiktok.com/embed.js](https://www.tiktok.com/embed.js "https://www.tiktok.com/embed.js")"></script>
 
-### **Zasady, dzięki którym możesz osiągnąć sukces:**
+### **Zasady, dzięki którym możesz osiągnąć sukces:** {#zasady-dzieki-ktorym-mozesz-osiagnac-sukces?}
 
 To, że założysz konto to nie wszystko. Musisz liczyć się z tym, że musisz nagrywać ciekawe treści i tworzyć nowe pomysły, aby przyciągnąć potencjalnych klientów i widzów.
 
@@ -170,7 +194,7 @@ To, że założysz konto to nie wszystko. Musisz liczyć się z tym, że musisz 
 
 8\. Pytaj swoich odbiorców, czy przygotowywane przez Ciebie treści im odpowiadają i ich zadowalają. To oni są specami i powiedzą Ci, czy przygotowałeś coś fajnego czy niekoniecznie.
 
-### **Płatna reklama i współpraca z influencerami – opłaca się?** {#platna-reklama-i-wspolpraca-z-influencerami-oplaca-sie?}
+### Płatna reklama i współpraca z influencerami – opłaca się? {#platna-reklama-i-wspolpraca-z-influencerami-oplaca-sie?}
 
 TikTok podobnie jak Facebbok i inne media społecznościowe daje możliwość na reklamę. Skorzystaj z platformy do płatnej reklamy albo wykorzystaj w tym celu influencerów i podejmij z nimi współprace.
 
