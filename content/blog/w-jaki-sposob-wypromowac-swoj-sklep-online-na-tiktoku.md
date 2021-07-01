@@ -81,6 +81,7 @@ Raporty wykazują, że 66% użytkowników aplikacji ma mniej niż 30 lat a 60% o
 {{< /rawhtml >}}
 >     
 <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@wersow/video/6898678870296251649" data-video-id="6898678870296251649" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@wersow" href="https://www.tiktok.com/@wersow">@wersow</a> <p>SMILE! ✌🏼 @prncssbrit   <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp">#fyp</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou">#foryou</a> <a title="foryoupage" target="_blank" href="https://www.tiktok.com/tag/foryoupage">#foryoupage</a> @jeleniewska </p> <a target="_blank" title="♬ original sound - brittyn " href="https://www.tiktok.com/music/original-sound-6881051186854644485">♬ original sound - brittyn </a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+{{< tiktok 6898678870296251649 >}}
 
 ## **Dlaczego warto założyć konto na TikToku?** {#dlaczego-warto-zalozyc-konto-na-tiktoku}
 
