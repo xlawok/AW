@@ -3,7 +3,6 @@ author = "data/authors/agata.yml"
 categories = []
 date = 2021-06-29T23:00:00Z
 description = "Sklepy internetowe i sposoby na marketing na obecnie najpopularniejszej wśród młodych ludzi platformie social media"
-header_repeater = []
 ikona_artykulu = "/uploads/tiktok_sklep.png"
 keywords = "tiktok, tik-tok, tik tok"
 obrazek = ""
@@ -14,6 +13,15 @@ tags = []
 title = "W jaki sposób wypromować swój sklep online na TikToku?"
 tytul_do_listowania = "W jaki sposób wypromować swój sklep online na TikToku?"
 tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
+[[header_repeater]]
+block_tag_type = "h1"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "W jaki sposób wypromować swój sklep online na TikToku?"
+txt_block_size = ""
+underline = true
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "sklep-internetowy-i-dzialania-marketingowe-na-tiktoku"
 title = "Sklep internetowy i działania marketingowe na TikToku?"
