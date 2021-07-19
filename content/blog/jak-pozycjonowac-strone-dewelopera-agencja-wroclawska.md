@@ -3,7 +3,6 @@ author = "data/authors/agata.yml"
 categories = []
 date = ""
 description = "Jak pozycjonować stronę dewelopera jako korporacji i stron inwestycji mieszkaniowych? Zobacz, jak zadbać o skuteczne SEO dla dewelopera z Agencją Wrocławską!"
-draft = true
 header_repeater = []
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = ""
