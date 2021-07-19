@@ -1,7 +1,7 @@
 +++
 author = "data/authors/agata.yml"
 categories = []
-date = ""
+date = 2021-07-18T22:00:00Z
 description = "Jak pozycjonować stronę dewelopera jako korporacji i stron inwestycji mieszkaniowych? Zobacz, jak zadbać o skuteczne SEO dla dewelopera z Agencją Wrocławską!"
 header_repeater = []
 ikona_artykulu = "/uploads/art-placeholder.svg"
@@ -63,8 +63,8 @@ Struktura strony dewelopera powinna być zbudowana w prosty i przejrzysty sposó
 
 **6. Kontakt**
 
-**7. Blog  
-  
+**7. Blog**
+
 ![strona deweloper wrocław ](/uploads/obraz_2021-07-19_115920.png)**
 
 Treści na stronach deweloperów są bardzo ważne. Powinny być one pisane językiem korzyści i przenosić klientów do oferowanych inwestycji. Świetnie sprawdzą się subtelnie zachęcające teksty, które będą **prowadzić zainteresowanych do wykonania konkretnej czynności np. „umów się na spotkanie”, „zapytaj o szczegóły już teraz”**. Ważna zakładka na stronie dewelopera to FAQ, na której osoba poszukująca mieszkania na stronie dewelopera może znaleźć najczęściej zadawane pytania. Nie dość, że oszczędzi to Twój czas spędzony na powtarzanych rozmowach telefonicznych dotyczących tych samych pytań to dodatkowo pozytywnie wpłynie na proces pozycjonowania witryny.
@@ -98,8 +98,8 @@ Każda podstrona dewelopera powinna być wzajemnie podlinkowana. W ten sposób u
 
 ## Optymalizacja wizytówek Google Moja Firma dla wszystkich inwestycji dewelopera {#Optymalizacja-wizytowek-Google-Moja-Firma-dla-wszystkich-inwestycji}
 
-Wizytówka Google Moja Firma pomaga budować widoczność w lokalnym rynku oraz wspomagają proces pozycjonowania lokalnego. Każdy deweloper powinien założyć konto dla głównej siedziby i utworzyć profile dla sprzedawanych inwestycji. Każdą wizytówkę należy dokładnie uzupełnić, dodać zdjęcia, przygotować opis o firmie ze słowami kluczowymi czy przesłać wideo. Na mapie pojawią się opinie użytkowników na które odpowiadaj, nawet jeśli nie są zbyt przychylne. Bardzo dużo osób opiera się o informacje zawarte w Google Moja Firma, dlatego warto dbać o dobre rekomendacje.  
-  
+Wizytówka Google Moja Firma pomaga budować widoczność w lokalnym rynku oraz wspomagają proces pozycjonowania lokalnego. Każdy deweloper powinien założyć konto dla głównej siedziby i utworzyć profile dla sprzedawanych inwestycji. Każdą wizytówkę należy dokładnie uzupełnić, dodać zdjęcia, przygotować opis o firmie ze słowami kluczowymi czy przesłać wideo. Na mapie pojawią się opinie użytkowników na które odpowiadaj, nawet jeśli nie są zbyt przychylne. Bardzo dużo osób opiera się o informacje zawarte w Google Moja Firma, dlatego warto dbać o dobre rekomendacje.
+
 ![wizytówka google deweloper](/uploads/obraz_2021-07-19_120101.png)
 
 ### Przykład poprawnej wizytówki u Dewelopera
