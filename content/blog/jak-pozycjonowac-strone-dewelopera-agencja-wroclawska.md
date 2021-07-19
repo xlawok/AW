@@ -3,7 +3,6 @@ author = "data/authors/agata.yml"
 categories = []
 date = 2021-07-18T22:00:00Z
 description = "Jak pozycjonować stronę dewelopera jako korporacji i stron inwestycji mieszkaniowych? Zobacz, jak zadbać o skuteczne SEO dla dewelopera z Agencją Wrocławską!"
-header_repeater = []
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = ""
 obrazek = ""
@@ -14,6 +13,15 @@ tags = []
 title = "Jak pozycjonować stronę dewelopera? | Agencja Wrocławska"
 tytul_do_listowania = "Jak pozycjonować stronę dewelopera?"
 tytul_o_czym_przeczytasz = "Spis treści - pozycjonowanie dewelopera krok po kroku:"
+[[header_repeater]]
+block_tag_type = "h1"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "Jak pozycjonować stronę dewelopera?"
+txt_block_size = ""
+underline = true
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "Struktura-strony dewelopera-jej-funkcjonalnosc-i-zawartosc"
 title = "Struktura strony dewelopera – jej funkcjonalność i zawartość"
