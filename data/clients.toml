@@ -1,7 +1,7 @@
 [[clients_list]]
-client_url = "https://wsm24.pl/"
-client_url_title = "Sklep z odzieżą motocyklową, rowerową | akcesoria | WSM 24"
-clinet_logo = "/uploads/wsm24-logo.jpg"
+client_url = "https://www.amazigo.pl/"
+client_url_title = "Deski SUP, wakeboard, akcesoria do sportów wodnych - Sklep Amazigo.pl"
+clinet_logo = "/uploads/amazigo-logo.jpg"
 czy_nofollow = false
 if_svg = false
 [[clients_list]]
@@ -62,6 +62,12 @@ if_svg = false
 client_url = "https://costa.pl/"
 client_url_title = "COSTA - Fontanny ogorodowe i domowe. Dekoracje na komunię, ślub..."
 clinet_logo = "/uploads/costa-logo.jpg"
+czy_nofollow = false
+if_svg = false
+[[clients_list]]
+client_url = "https://wsm24.pl/"
+client_url_title = "Sklep z odzieżą motocyklową, rowerową | akcesoria | WSM 24"
+clinet_logo = "/uploads/wsm24-logo.jpg"
 czy_nofollow = false
 if_svg = false
 [[header_repeater]]
