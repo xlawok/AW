@@ -1,4 +1,10 @@
 [[clients_list]]
+client_url = "http://saicos.com.pl/"
+client_url_title = "SAICOS | Lakiery i wosk do parkietu | Olej do podłogi | Pielęgnacja drewna | Farby do drewna"
+clinet_logo = "/uploads/saicos-logo.jpg"
+czy_nofollow = false
+if_svg = false
+[[clients_list]]
 client_url = "https://www.tuwroclaw.com/"
 client_url_title = "Portal informacyjny Wrocławia"
 clinet_logo = "/uploads/tuwroclaw-logo-aw.jpg"
