@@ -66,7 +66,7 @@ czy_nofollow = false
 if_svg = false
 [[clients_list]]
 client_url = "https://www.amazigo.pl/"
-client_url_title = "Deski SUP, wakeboard, akcesoria do sportów wodnych - Sklep Amazigo.pl"
+client_url_title = "https://www.amazigo.pl/"
 clinet_logo = "/uploads/amazigo-logo.jpg"
 czy_nofollow = false
 if_svg = false
