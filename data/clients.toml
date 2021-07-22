@@ -48,13 +48,13 @@ czy_nofollow = false
 if_svg = false
 [[clients_list]]
 client_url = "https://saicos.pl"
-client_url_title = "SAICOS | Lakiery i wosk do parkietu | Olej do podłogi | Pielęgnacja drewna | Farby do drewna"
+client_url_title = "https://saicos.pl"
 clinet_logo = "/uploads/saicos-logo.jpg"
 czy_nofollow = false
 if_svg = false
 [[clients_list]]
 client_url = "https://costa.pl/"
-client_url_title = "COSTA - Fontanny ogorodowe i domowe. Dekoracje na komunię, ślub..."
+client_url_title = "https://costa.pl/"
 clinet_logo = "/uploads/costa-logo.jpg"
 czy_nofollow = false
 if_svg = false
