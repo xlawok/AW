@@ -3140,7 +3140,7 @@ form#contactform,form#mcontactform{
           height: auto;
         }
         a{
-          color: #f63d37;
+          color: var(--red);
           text-decoration: underline;
         }
         ul{
