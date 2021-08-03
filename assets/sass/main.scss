@@ -3227,6 +3227,10 @@ form#contactform,form#mcontactform{
         padding-bottom: 3rem;
         @at-root body.dark-m.single .slownik-post.sc-banner-center-noimg .center-banner-cnt .no-img-banner-desc{
           color: var(--main-dark-color);
+          a {
+            text-decoration: underline;
+            color: var(--red)
+        }
         }
       }
     }
