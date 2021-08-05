@@ -3014,6 +3014,7 @@ form#contactform,form#mcontactform{
       align-items: center;
       font-size: .9rem;
       color: var(--red);
+      z-index: 2;
       .art-author-img{
         border-radius: 50%;
         width: 4.1875rem;
