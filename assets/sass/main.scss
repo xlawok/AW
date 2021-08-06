@@ -347,6 +347,11 @@ ul.red-point-list{
       width: 1.2375rem;
       height: 1.2375rem;
       top: calc(50% - .8rem);
+      @media (max-width: 450px){
+        {
+        display: none;
+        }
+    }
     }
     &:after{
       width: 0.5rem;
@@ -357,6 +362,10 @@ ul.red-point-list{
       transform: rotate(-45deg);
       top: calc(50% - 0.35rem);
       right: calc(2rem + 0.6rem);
+      @media (max-width: 450px){
+        {
+        display: none;
+        }
     }
     &.cta-back{
       &:before,&:after{
@@ -4706,7 +4715,7 @@ justify-content: center;
       img{
         width: 100%;
         @media (min-width: 992px){
-          transform: translate(0,-5rem);
+          transform: translate(0,-1rem);
         }
       }
     }
