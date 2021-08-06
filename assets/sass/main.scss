@@ -5430,8 +5430,18 @@ justify-content: center;
       background: var(--main-dark-color)
     }
   }
+  @media (min-width: 1600px) {
+    .sc-banner-wide {
+    padding-bottom: 0;
+  }
+}
+  .sc-banner-wide .banner-img {
+    transform: translateY(-2vh);
+  }
   .sc-banner-wide .banner-wide-content {
     flex-direction: row-reverse;
+    height: auto;
+    padding-bottom: 2em;
   }
   .sc-banner-wide .banner-img {
     transform: translateY(-2vh);
