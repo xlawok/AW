@@ -1,7 +1,7 @@
 +++
 author = "data/authors/agata.yml"
 categories = []
-date = 2021-08-09T08:00:00Z
+date = ""
 description = "Zalety inwestycji w copywriting i sens tworzenia nowych treści na stronie."
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = "copywriter, copywriting, copy"
@@ -10,7 +10,7 @@ robots = "index follow"
 slug = "dlaczego-warto-inwestowac-w-copywriting"
 summary = "Każdy przedsiębiorca chce rozwinąć własną firmę ora poszerzyć grono swoich klientów. Nie od dziś wiadomo, że odpowiedni marketing to klucz do sukcesu. Sposobów na reklamę jest bardzo dużo, ale coraz częściej wybierany jest marketing internetowy. Tak naprawdę dzięki stronom internetowym możesz zyskać nowych klientów. Z tego artykułu dowiesz się jak do zwiększenia ilości zainteresowanych Twoją firmą osób przyczyniają się odpowiednie teksty marketingowe oraz jaką rolę ma <strong>copywriting</strong>."
 tags = []
-title = "Dlaczego warto inwestować w Copywriting?"
+title = "Dlaczego warto inwestować w Copywriting? | Agencja Wrocławska"
 tytul_do_listowania = "Dlaczego warto inwestować w Copywriting?"
 tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
 [[header_repeater]]
