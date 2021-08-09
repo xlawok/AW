@@ -46,6 +46,30 @@ client_url_title = "Catering dietetyczny wrocław"
 clinet_logo = "/uploads/jakjesc-logo-aw.jpg"
 czy_nofollow = false
 if_svg = false
+[[clients_list]]
+client_url = "https://saicos.pl"
+client_url_title = "https://saicos.pl"
+clinet_logo = "/uploads/saicos-logo.jpg"
+czy_nofollow = false
+if_svg = false
+[[clients_list]]
+client_url = "https://costa.pl/"
+client_url_title = "https://costa.pl/"
+clinet_logo = "/uploads/costa-logo.jpg"
+czy_nofollow = false
+if_svg = false
+[[clients_list]]
+client_url = "https://wsm24.pl/"
+client_url_title = "https://wsm24.pl/"
+clinet_logo = "/uploads/wsm24-logo.jpg"
+czy_nofollow = false
+if_svg = false
+[[clients_list]]
+client_url = "https://www.amazigo.pl/"
+client_url_title = "https://www.amazigo.pl/"
+clinet_logo = "/uploads/amazigo-logo.jpg"
+czy_nofollow = false
+if_svg = false
 [[header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"

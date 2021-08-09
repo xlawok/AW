@@ -3,7 +3,6 @@ author = "data/authors/agata.yml"
 categories = []
 date = 2021-06-15T22:38:00Z
 description = "Poprawna optymalizacja i dobre pozycjonowanie strony zapewni Ci sukces w UK. SEO w Anglii rządzi się swoimi prawami, dlatego zapoznaj się jak do tego podejść i bądź widoczny w Google!"
-header_repeater = []
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = ""
 obrazek = ""
@@ -14,6 +13,15 @@ tags = []
 title = "Na czym polega pozycjonowanie stron w Wielkiej Brytanii? | Agencja Wrocławska"
 tytul_do_listowania = "Na czym polega pozycjonowanie stron w Wielkiej Brytanii?"
 tytul_o_czym_przeczytasz = "Pozycjonowanie stron w UK - spis treści:"
+[[header_repeater]]
+block_tag_type = "h1"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Na czym polega pozycjonowanie stron w Wielkiej Brytanii?"
+txt_block_size = ""
+underline = false
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "od-czego-zaczac-pozycjonowanie-strony-w-uk"
 title = "Od czego zacząć pozycjonowanie strony w UK?"

@@ -53,7 +53,7 @@ header_repeater = []
 kolumny = []
 opis = ""
 [[sections.banner_list_gruop]]
-banenr_list_item = "będziesz tam, gdzie Twoi potencjalni szukają"
+banenr_list_item = "będziesz tam, gdzie szukają Twoi potencjalni klienci"
 [[sections.banner_list_gruop]]
 banenr_list_item = "znacząco zwiększysz sprzedaż produktów/usług"
 [[sections.banner_list_gruop]]
