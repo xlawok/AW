@@ -1403,7 +1403,8 @@ form#contactform,form#mcontactform{
   }
   .banner-img,.banner-wide-content{
     @media (min-width: 768px){
-      height: (775/1080)*100vh;
+      //height: (775/1080)*100vh;
+      height: auto;
     }
     
     min-height: 30rem;
