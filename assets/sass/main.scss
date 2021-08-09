@@ -348,11 +348,11 @@ ul.red-point-list{
       height: 1.2375rem;
       top: calc(50% - .8rem);
       @media (max-width: 450px){
-        {
+        
         display: none;
         }
     }
-    }
+    
     &:after{
       width: 0.5rem;
       height: 0.5rem;
@@ -363,7 +363,7 @@ ul.red-point-list{
       top: calc(50% - 0.35rem);
       right: calc(2rem + 0.6rem);
       @media (max-width: 450px){
-        {
+        
         display: none;
         }
     }
