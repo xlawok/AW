@@ -1,7 +1,7 @@
 +++
 author = "data/authors/agata.yml"
 categories = []
-date = 2021-08-08T22:00:00Z
+date = 2021-08-09T08:00:00Z
 description = "Zalety inwestycji w copywriting i sens tworzenia nowych treści na stronie."
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = "copywriter, copywriting, copy"
