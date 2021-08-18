@@ -24,7 +24,7 @@ czy_nofollow = false
 if_svg = false
 [[clients_list]]
 client_url = "https://proracing24.com/"
-client_url_title = "ProRacingX - bezpieczny tuning Chipbox OBD ( benzyna, diesel)  - wszystkie marki"
+client_url_title = "https://proracing24.com/"
 clinet_logo = "/uploads/proracing-logo.jpg"
 czy_nofollow = false
 if_svg = false
