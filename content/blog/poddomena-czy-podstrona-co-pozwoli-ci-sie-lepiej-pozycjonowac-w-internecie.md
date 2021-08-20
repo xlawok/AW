@@ -56,7 +56,7 @@ title = "Jakie inne negatywne skutki przynosi stronie subdomena?"
 adres_odnosnika = "najlepsza-opcja-seo-dla-domeny"
 title = "Najlepsza opcja SEO dla domeny"
 [[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = "Kiedy-dozwolone-jest-uzywanie-subdomen"
+adres_odnosnika = "kiedy-dozwolone-jest-uzywanie-subdomen"
 title = "Kiedy dozwolone jest używanie subdomen?"
 
 +++
