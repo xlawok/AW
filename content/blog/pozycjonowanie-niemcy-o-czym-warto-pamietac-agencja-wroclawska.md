@@ -1,14 +1,14 @@
 +++
 author = "data/authors/agata.yml"
 categories = []
-date = ""
+date = 2021-08-20T17:25:00Z
 description = "Rozpocznij budowę widoczności w Google.DE. W artykule opisujemy sposób podejścia do pozycjonowania strony w Niemczech. Zapraszamy!"
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = ""
 obrazek = ""
 robots = "index follow"
 slug = "pozycjonowanie-niemczy-o-czym-warto-pamietac"
-summary = ""
+summary = "W jaki sposób pozycjonować stronę internetową w języku niemieckim i znaleźć się na samym szczycie listy wyszukiwania Google.de? Czym różni się pozycjonowanie stron w Niemczech od innych rynków? Mimo tego, że pozycjonowanie stron internetowym w Niemczech bazuje na podobnych zasadach jak w Polsce to można znaleźć kilka różnic. W tym artykule dowiesz się jakie to różnice oraz dowiesz się, jak zacząć pozycjonować swoją stronę w niemieckim Google."
 tags = []
 title = "Pozycjonowanie Niemcy – o czym warto pamiętać? | Agencja Wrocławska"
 tytul_do_listowania = "Pozycjonowanie Niemcy – o czym warto pamiętać? "
@@ -112,7 +112,7 @@ Wpis do katalogów w Niemczech to bardzo kosztowna sprawa. Ceny wahają się od 
 
 Dzięki temu, że zwiększy się zasięg Twoich działań marketingowych w sieci o zagraniczny rynek, liczba odbiorców znacząco wzrośnie. Bez wątpienia poprzez pozycjonowanie w Google DE masz większe szanse na podwyższenie swoich zysków i pewność dalszego rozwoju swojego biznesu.
 
-2. **Odpowiednio dobrana grupa odbiorców**
+1. **Odpowiednio dobrana grupa odbiorców**
 
 Dzięki pozycjonowanie Niemcy możesz doprecyzować swoją grupę docelową, do której chcemy trafić. Dzięki odpowiedniemu doprecyzowaniu możesz dotrzeć do osób, którzy konkretnie interesują się oferowanymi przez Ciebie produktami czy usługami. Jeżeli ktoś będzie wpisywał w Google.de niemieckie określenie produktu bądź usługi to niemal zawsze oznacza, że rozważa zakup. Dlatego warto znajdować się na samej górze wyników wyszukiwani ze swojej branży – wtedy jest jeszcze większa pewność, że klient wybierze właśnie Ciebie!
 
@@ -120,11 +120,11 @@ Dzięki pozycjonowanie Niemcy możesz doprecyzować swoją grupę docelową, do 
 
 Dzięki odpowiednim narzędziom, które posiada [**agencja seo**](https://agencjawroclawska.pl/) możesz zobaczyć, jakie frazy najczęściej wyszukują internauci i na które warto zwrócić uwagę tak, aby zawierały się na Twojej stronie internetowej i generowały Ci ruch.
 
-3. O wiele niższe koszty i pewność skutecznej pracy!
+1. O wiele niższe koszty i pewność skutecznej pracy!
 
 Wiadomo, że **pozycjonowanie zagraniczne** wiąże się z wyższymi kosztami, dlatego każdy, kto działa za granicą chciałby reklamować się skutecznie i możliwie jak najtaniej. Nasza agencja marketingowa daje możliwość ustalenie budżetu, który będzie dopasowany indywidualnie do potrzeb oraz możliwości Twojej firmy. Mimo wszystko pozycjonowanie zagranicznej witryny przez polską agencję marketingową jest o wiele tańsze, niż przez lokalną.
 
-4. Zdobycie przewagi nad konkurencją w Twojej branży
+1. Zdobycie przewagi nad konkurencją w Twojej branży
 
 Pozycje na samej górze liczbie wyszukiwań w Google to nie tylko wzrost ruchu czy liczby zapytań, ale również wyprzedzenie swojej konkurencji! Im więcej słów kluczowych w wynikach wyszukiwarki tym większe jest zaufanie do danego serwisu. Dzięki swojej rozpoznawalności w Internecie możesz stać się liderem i rozwijać biznes, tworzyć markę a przy tym zdobywać kolejnych klientów! To wszystko możliwe jest dzięki odpowiedniemu pozycjonowaniu.
 
