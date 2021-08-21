@@ -92,15 +92,15 @@ Na [**link building**](https://agencjawroclawska.pl/link-building-co-to-jest/) w
 
 Wpis do katalogów w Niemczech to bardzo kosztowna sprawa. Ceny wahają się od 50 do 100 Euro za link. Przykładowe katalogi do wykorzystania na początek:
 
-1\. [http://bellnet.de/](http://bellnet.de/ "http://bellnet.de/")
+1\. {{< rawhtml >}}<a href="http://bellnet.de/" title="http://bellnet.de/" target="_blank" rel="nofollow">http://bellnet.de/</a>{{< /rawhtml >}}
 
-2\. [https://oekoportal.de/](https://oekoportal.de/ "https://oekoportal.de/")
+2\. {{< rawhtml >}}<a href="https://oekoportal.de/" title="https://oekoportal.de/" target="_blank" rel="nofollow">https://oekoportal.de/</a>{{< /rawhtml >}}
 
-3\. [https://www.rss-verzeichnis.de/](https://www.rss-verzeichnis.de/ "https://www.rss-verzeichnis.de/")
+3\. {{< rawhtml >}}<a href="https://www.rss-verzeichnis.de/" title="https://www.rss-verzeichnis.de/" target="_blank" rel="nofollow">https://www.rss-verzeichnis.de/</a>{{< /rawhtml >}}
 
-4\. [https://www.seekxl.de/](https://www.seekxl.de/ "https://www.seekxl.de/")
+4\. {{< rawhtml >}}<a href="https://www.seekxl.de/" title="https://www.seekxl.de/" target="_blank" rel="nofollow">https://www.seekxl.de/</a>{{< /rawhtml >}}
 
-5\. [https://www.bunte-suche.de/web/cms/](https://www.bunte-suche.de/web/cms/ "https://www.bunte-suche.de/web/cms/")
+5\. {{< rawhtml >}}<a href="https://www.bunte-suche.de/web/cms/" title="https://www.bunte-suche.de/web/cms/" target="_blank" rel="nofollow">https://www.bunte-suche.de/web/cms/</a>{{< /rawhtml >}}
 
 ## Jakie są korzyści z pozycjonowania na Niemcy? {#jakie-sa-korzysci-z-pozycjonowania-na-niemcy}
 
@@ -129,6 +129,7 @@ Wiadomo, że **pozycjonowanie zagraniczne** wiąże się z wyższymi kosztami, d
 Pozycje na samej górze liczbie wyszukiwań w Google to nie tylko wzrost ruchu czy liczby zapytań, ale również wyprzedzenie swojej konkurencji! Im więcej słów kluczowych w wynikach wyszukiwarki tym większe jest zaufanie do danego serwisu. Dzięki swojej rozpoznawalności w Internecie możesz stać się liderem i rozwijać biznes, tworzyć markę a przy tym zdobywać kolejnych klientów! To wszystko możliwe jest dzięki odpowiedniemu pozycjonowaniu.
 
 ## SEO Niemcy – porady, jak zacząć pozycjonowanie stron www {#seo-niemcy-porady-jak-zaczac-pozycjonowanie-stron-www}
+
 ![flaga niemiec](/uploads/obraz_2021-08-20_124723.png)
 
 **Jak dopasować witrynę do Niemieckich użytkowników?**
