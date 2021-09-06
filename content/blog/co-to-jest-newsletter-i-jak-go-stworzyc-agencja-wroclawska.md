@@ -1,7 +1,7 @@
 +++
 author = "data/authors/agata.yml"
 categories = []
-date = ""
+date = 2021-09-06T12:54:00Z
 description = "Czy wiesz, że newsletter może okazać się najtańszą formą dotarcia do klienta? Zanurz się w tematyce newslettera z nami!"
 header_repeater = []
 ikona_artykulu = "/uploads/art-placeholder.svg"
