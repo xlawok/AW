@@ -73,19 +73,19 @@ Tytuł powinien wyróżniać się spośród innych wiadomości na skrzynkach odb
 
 **Tworzenie newslettera** to nie lada wyzwanie. Staraj się kierować bezpośrednio do odbiorcy. Przemyśl dokładnie co chcesz przekazać w tej krótkiej treści. Wczuj się w rolę odbiorcy i pomyśl, **jak zaprojektować newsletter** tak, żeby klient skorzystał na tym, że poświęcił swój czas na przeczytanie go.
 
-1. **Wyraźne CTA**
+2. **Wyraźne CTA**
 
 Zawrzyj w treści wyraźne hasło, które zachęci do podjęcia działania. **CTA** ma za zadanie nakłonić użytkownika do natychmiastowej reakcji. Zastosuj w wiadomości hasło „Kup teraz”, „Weź udział”, „Zamów”,” Sprawdź”, „Odbierz rabat”, „Zobacz” itp.
 
-1. **Odpowiednia długość newslettera**
+3. **Odpowiednia długość newslettera**
 
 Zbyt długie treści w tym przypadku nie są dobrym pomysłem i mogą odstraszyć. Postaraj się przedstawić najważniejsze informacje w krótkiej formie, a po więcej szczegółów odeślij odbiorcę przyciskiem CTA do konkretnej oferty. Ważny jest również układ treści, najważniejsze informacje powinny być na samej górze. Warto wyeksponować logo firmowe, w atrakcyjny sposób rozmieścić treść i wyróżnić wartościowe informacje.
 
-1. **Przejrzysty układ graficzny**
+4. **Przejrzysty układ graficzny**
 
 Gdy umieścisz zbyt wiele elementów w newsletterze możesz zniechęcić potencjalnego odbiorcę i odwrócić uwagę od najważniejszych informacji, które chcesz przekazać. Przejrzysty układ graficzny to klucz do sukcesu. Gdy go zastosujesz możesz mieć pewność, że odbiorca łatwo dostrzeże najważniejsze kwestie.
 
-1. **Responsywność**
+5. **Responsywność**
 
 **Mail z newsletterem** musi dobrze wyświetlać się bez względu na to, czy otwierany jest na smartfonie czy na komputerze.
 
@@ -123,7 +123,7 @@ Wysyłanie newsletterów ma bardzo dużo korzyści. Między innymi są to:
 
 Jak już wiesz, żeby wysłać użytkownikowi newsletter musisz pozyskać od niego zgodę. Dzięki temu możesz zbudować bazę klientów zainteresowanych Twoją ofertą co ułatwi utrzymywanie z nimi stałego kontaktu.
 
-1. **Masz możliwość dotrzeć do wszystkich klientów**
+2. **Masz możliwość dotrzeć do wszystkich klientów**
 
 Wysyłany newsletter dociera do wszystkich subskrybentów i nie jesteś zależny od żadnej platformy social media, które często ucinają zasięgi postów przez co dotarcie do klientów jest o wiele trudniejsze. Kiedy wysyłasz newsletter nie tracisz kontaktu ze swoimi klientami oraz nie jest uzależniony od innych.
 
@@ -131,11 +131,11 @@ Wysyłany newsletter dociera do wszystkich subskrybentów i nie jesteś zależny
 
 Poprzez regularnie wysyłane newsletter nie pozwolisz Twoim klientom o sobie zapomnieć. Przez takie działania zwiększasz świadomość marki dzięki czemu z pewnością uda Ci się osiągnąć jeszcze lepsze sukcesy sprzedażowe.
 
-1. **Budujesz pozytywne relacje z klientem**
+4. **Budujesz pozytywne relacje z klientem**
 
 Żadnym sukcesem nie jest nakłonienie do jednorazowego skorzystania z oferty. Sztuką jest stałe zachęcanie klienta, który do Ciebie wraca. Poprzez newsletter możesz osiągnąć ten cel, ponieważ regularnie wysyłane wiadomości oczywiście za zgodą odbiorcy w pozytywny sposób przyczyniają suę do budowania długofalowych jak i pozytywnych relacji.
 
-1. **Zwiększasz wyniki sprzedażowe**
+5. **Zwiększasz wyniki sprzedażowe**
 
 Dzięki temu, że klient musi sam wyrazić zgodę na otrzymywanie od Ciebie wiadomości na starcie jesteś na wygranej pozycji. Newsletter nie będzie odbierany jako nachalna próba namówienia do zakupu co przełoży się na lepsze wyniki sprzedażowe. Działania e-mail marketingowe wpływają na decyzję zakupowe prawie 60% użytkowników, dlatego zadbaj o to, aby wysyłane przez Ciebie treści newslettera były dopracowane i skutecznie zachęciły do zakupu.
 
