@@ -52,6 +52,7 @@ fields:
       section: autorzy
       file: data/authors.yml
       path: ''
+    required: true
   label: Autor
 - name: date
   type: datetime
