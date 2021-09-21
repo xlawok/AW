@@ -1,5 +1,5 @@
 +++
-author = []
+author = "data/authors/jakub.yml"
 categories = []
 date = 2021-09-21T00:00:00Z
 description = "Jeśli kiedyś zastanawiałeś czym jest linkbuilding / profil linkowy - trafiłeś w idealne miejsce w internecie, postaramy się wszystko wyjaśnić."
