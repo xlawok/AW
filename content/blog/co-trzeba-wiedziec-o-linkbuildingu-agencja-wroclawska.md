@@ -70,11 +70,13 @@ title = "Jakie są korzyści z pozycjonowania lokalnego? "
 
 Co to takiego jest linkowanie? Czym różni się linkowanie zewnętrzne od linkowania wewnętrznego? Jak linkowanie wpływa na efekty pozycjonowania stron oraz o czym warto pamiętać, aby skutecznie linkować swoją stronę internetową? Wszystkiego dowiesz się z tego artykułu.
 
-## **Czym jest link building?** {#czym-jest-link-building}
+## **Czym jest link building?**   
+{#czym-jest-link-building}
 
 [Link building](https://agencjawroclawska.pl/link-building-co-to-jest/) to nic innego jak pozyskiwanie linków, które prowadzą do naszej strony internetowej. Tego typu działania prowadzą do wzrostu wartości naszej witryny z perspektywy wyszukiwarki Google i dodatkowo przekładają się na wyższe miejsca w wynikach wyszukiwania. Wzmianki o naszej stronie na innych witrynach są sygnałem dla robotów Google i świadczą o tym, że użytkownicy uważają stronę za wartościową a znajdujące się na niej treści są unikalne oraz użyteczne. Proces linkowania jest zbiorem działań realizowanych w ramach pozycjonowania stron.
 
-## **Co jest ważniejsze – linkowanie wewnętrzne czy zewnętrzne?** {#co-jest-wazniejsze-linkowanie-wewnetrzne-czy-zewnetrzne}
+## **Co jest ważniejsze – linkowanie wewnętrzne czy zewnętrzne?**   
+{#co-jest-wazniejsze-linkowanie-wewnetrzne-czy-zewnetrzne}
 
 Jeżeli linkowanie wewnętrzne nie będzie stosowane lub będzie, ale w niewłaściwy sposób to nawet najlepsze linki nie zagwarantują Ci wypromowania Twojej witryny. Teraz czas, aby dowiedzieć się co to jest linkowanie wewnętrzne a czym jest linkowanie zewnętrzne.
 
@@ -92,7 +94,8 @@ Są to linki zwrotne, baclinki – odnośniki z innych stron, które kierują u�
 
 Są to linki umieszczane na Twojej stronie, ale odsyłające do zewnętrznych serwisów. One również pomagają w budowaniu autorytetu.
 
-## **Co znaczą linki dla wyszukiwarek?** {#co-znacza-linki-dla-wyszukiwarek}
+## **Co znaczą linki dla wyszukiwarek?**   
+{#co-znacza-linki-dla-wyszukiwarek}
 
 Tak naprawdę linki to bardzo ważny wyznacznik do autorytetu witryn. Gdy wyszukiwarki przeszukają strony internetowe mogą wyodrębnić ich zawartość oraz dodać je do swoich indeksów. Właśnie w taki sposób decydują o tym, czy strona jest wystarczająco mocno wartościowa, aby mogła uzyskać wysoką pozycję w rankingu wyszukiwania dla odpowiednich słów kluczowych. Podczas kwalifikacji stron wyszukiwarki oprócz analizy zawartości biorą również pod uwagę liczbę linków kierujących do danej witryny z zewnętrznych portali internetowych, dlatego bardzo ważne jest linkowanie zewnętrzne. Podsumowując – im więcej wysokiej jakości witryn zawiera linki do Twojej strony internetowej, tym jest większe prawdopodobieństwo, że zyskasz dobrą pozycję w wynikach wyszukiwania.
 
