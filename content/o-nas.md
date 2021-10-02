@@ -166,7 +166,7 @@ sections:
   - obrazek: "/uploads/mateusz1.jpg"
     my_name: Mateusz
     stanowisko: SEO Specialist
-  - obrazek: ''
+  - obrazek: "/uploads/wladek.jpg"
     my_name: Władek
     stanowisko: ''
   - obrazek: "/uploads/sziba1.jpg"
