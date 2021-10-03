@@ -168,7 +168,7 @@ sections:
     stanowisko: SEO Specialist
   - obrazek: "/uploads/wladek.jpg"
     my_name: Władek
-    stanowisko: ''
+    stanowisko: SEO Expert
   - obrazek: "/uploads/sziba1.jpg"
     my_name: Shiba
     stanowisko: Doge
