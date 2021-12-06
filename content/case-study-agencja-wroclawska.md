@@ -74,5 +74,34 @@ ornament = "prawa w prawo"
 txt_block = " Medicus Sp. z o.o."
 txt_block_size = "XL"
 underline = false
+[[sections]]
+template = "sekcja-kolumny-z-cyframi-w-tle"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "EFEKTY POZYCJONOWANIA"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "SEO"
+txt_block_size = "XL"
+underline = false
+[[sections.kolumny_3_bg]]
+opis = "656%"
+title = "Wzrost widoczności na frazach TOP 100 (99 -> 650) "
+[[sections.kolumny_3_bg]]
+opis = "419%"
+title = "Wzrost ruchu organicznego na stronie (2 521 -> 10 569) "
+[[sections.kolumny_3_bg]]
+opis = "1078%"
+title = "Wzrost ogólnej liczby fraz kluczowych powiązanych ze stroną TOP 100 (401 -> 4 323) "
 
 +++
