@@ -46,6 +46,7 @@ header_repeater = []
 kolumny = []
 opis = ""
 [[sections]]
+klasa_sekcji = ""
 listowanie = ["Migracja kilku stron spółki w jedną", "Pełny Audyt SEO", "Pełna optymalizacja wraz z przekierowaniami ruchu z poprzednich stron", "Poprawa nagłówków oraz treści na stronie", "Napisanie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
 obrazek = "/uploads/obsluga-newslettera.png"
 obrazek_dark_mode = ""
@@ -70,6 +71,7 @@ txt_block = " Medicus Sp. z o.o."
 txt_block_size = "XL"
 underline = false
 [[sections]]
+klasa_sekcji = "case-numbers-bg"
 template = "sekcja-kolumny-z-cyframi-w-tle"
 [[sections.header_repeater]]
 block_tag_type = "h2"
