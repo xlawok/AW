@@ -60,6 +60,18 @@ fields:
   showOnly:
     field: banner_type
     value: wide_img
+- name: tekst_pod_naglowkiem
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  showOnly:
+    field: formularz_wylaczony
+    value: true
+  label: Tekst pod nagłówkiem
 - name: naglowek_formularza
   type: text
   config:
