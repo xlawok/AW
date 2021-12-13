@@ -281,6 +281,11 @@ ul.red-point-list{
   
   transform: rotate(90deg);
 }
+.ornament-r-r:before{
+  right: -3rem;
+  
+  
+}
 .ornament-l-r:before{
   left: -2rem;
   
@@ -1418,6 +1423,11 @@ form#contactform,form#mcontactform{
     @media (min-width: 768px){
       height: 100vh;
       transform: translateY(-30vh);
+    }
+  }
+  &.banner-wo-form{
+    .banner-img{
+      position: absolute;
     }
   }
   .banner-wide-content{
@@ -4649,6 +4659,8 @@ justify-content: center;
       font-weight: bold;
       font-family: var(--header-font);
       padding-bottom: 2rem;
+      max-width: 85%;
+      flex-grow: 10;
     }
     .col-w-no-desc{
       padding-bottom: 2rem;
@@ -4689,7 +4701,29 @@ justify-content: center;
       }
     }
   }
+  &.case-numbers-bg{
+    background-color: #f2f2f2;
+    @at-root body.dark-m .sc-cols-w-no.case-numbers-bg{
+      background-color: var(--main-dark-color);
+    }
+    .col-w-no-header{
+      text-align: left;
+      font-size: 35px;
+      line-height:1.2;
+    }
+    .col-w-no-desc{
+      border-bottom: 0;
+      text-align: left;
+      font: normal normal bold 91px/109px Barlow;
+      letter-spacing: 0px;
+      color: #F63D37;
+    }
+    .no-bg{
+      color: #E3E3E3;
+    }
+  }
   
+
 }
 .sc-text-points-img{
   padding-top: 6rem;
