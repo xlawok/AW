@@ -53,6 +53,13 @@ fields:
     template: naglowek
     label: Slogan
   label: Slogan pod nagłówkiem
+- name: formularz_widoczny
+  type: boolean
+  default: true
+  label: Formularz widoczny
+  showOnly:
+    field: banner_type
+    value: wide_img
 - name: naglowek_formularza
   type: text
   config:
