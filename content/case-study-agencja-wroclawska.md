@@ -23,6 +23,7 @@ banner_form_script_no_img = ""
 banner_img = "/uploads/wroclaw-main-header.jpg"
 banner_list_gruop = []
 banner_type = "wide_img"
+formularz_wylaczony = true
 naglowek_formularza = ""
 naglowek_formularza_no_img = ""
 opis_banner = ""
