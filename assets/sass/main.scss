@@ -4706,21 +4706,7 @@ justify-content: center;
     @at-root body.dark-m .sc-cols-w-no.case-numbers-bg{
       background-color: var(--main-dark-color);
     }
-    .col-w-no-header{
-      text-align: left;
-      font-size: 35px;
-      line-height:1.2;
-    }
-    .col-w-no-desc{
-      border-bottom: 0;
-      text-align: left;
-      font: normal normal bold 91px/109px Barlow;
-      letter-spacing: 0px;
-      color: #F63D37;
-    }
-    .no-bg{
-      color: #E3E3E3;
-    }
+    
   }
   
 
@@ -5563,6 +5549,72 @@ justify-content: center;
       @at-root body.dark-m.slownik-listowanie .sc-cta:after{
         background: var(--main-dark-color);
       }
+    }
+  }
+}
+.case-study{
+  .sc-cols-w-no.case-numbers-bg{
+    padding-bottom: 8vw;
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      height: 75.5rem;
+      bottom: -49rem;
+      z-index: -2;
+      clip-path: ellipse(90% 60% at 51% 100%);
+      clip-path: url(#my-clip-path2);
+      background-color: #fff;
+      z-index: -2;
+      // transform: scaleX(-1);
+    }
+  }
+  .sc-cols-w-no.case-numbers-nobg{
+    padding-bottom: 8vw;
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      height: 75.5rem;
+      bottom: -49rem;
+      z-index: -2;
+      clip-path: ellipse(90% 60% at 51% 100%);
+      clip-path: url(#my-clip-path2);
+      background-color: #F2F2F2;
+      z-index: -2;
+      // transform: scaleX(-1);
+    }
+  }
+  .case-numbers-last{
+    padding-bottom: 8vw;
+    background-color: #F2F2F2;
+  }
+  .sc-cols-w-no{
+    .col-w-no-header{
+      text-align: left;
+      font-size: 35px;
+      line-height:1.2;
+    }
+    .col-w-no-desc{
+      border-bottom: 0;
+      text-align: left;
+      font-size: 5.6875rem;
+      letter-spacing: 0px;
+      font-weight: bold;
+      color: #F63D37;
+    }
+    .no-bg{
+      color: #E3E3E3;
+    }
+  }
+  .case-white-bg{
+    background-color: #fff;
+    @at-root body.dark-m.case-study .case-white-bg {
+      color: var(--main-dark-color);
     }
   }
 }

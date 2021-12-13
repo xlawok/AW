@@ -125,5 +125,89 @@ ornament = "prawa w prawo"
 txt_block = " branża odzieżowa"
 txt_block_size = "XL"
 underline = false
-
+[[sections]]
+klasa_sekcji = "case-numbers-nobg"
+template = "sekcja-kolumny-z-cyframi-w-tle"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "EFEKTY POZYCJONOWANIA"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "SEO"
+txt_block_size = "XL"
+underline = false
+[[sections.kolumny_3_bg]]
+opis = "405%"
+title = "Wzrost widoczności na frazach TOP 100 (467 -> 1894) "
+[[sections.kolumny_3_bg]]
+opis = "663%"
+title = "Wzrost ruchu organicznego na stronie (606 -> 4038)  "
+[[sections.kolumny_3_bg]]
+opis = "423%"
+title = "Wzrost ogólnej liczby fraz kluczowych powiązanych ze stroną TOP 100 (519 -> 2200)  "
+[[sections]]
+klasa_sekcji = "case-gray-bg"
+listowanie = ["Pełny Audyt SEO", "Pełna optymalizacja SEO strony pod budowanie profilu linkowego", "Poprawa nagłówków oraz treści na stronie", "Stworzenie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
+obrazek = "/uploads/obsluga-newslettera.png"
+obrazek_dark_mode = ""
+tekst_nad_listowaniem = "Co zrobiliśmy?"
+template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "POZYCJONOWANIE DLA E-COMMERCE"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "prawa w prawo"
+txt_block = "branża gier edukacyjnych"
+txt_block_size = "XL"
+underline = false
+[[sections]]
+klasa_sekcji = "case-numbers-last"
+template = "sekcja-kolumny-z-cyframi-w-tle"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "EFEKTY POZYCJONOWANIA"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "SEO"
+txt_block_size = "XL"
+underline = false
+[[sections.kolumny_3_bg]]
+opis = "128%"
+title = "Wzrost widoczności na frazach TOP 100 (3273 -> 4191) "
+[[sections.kolumny_3_bg]]
+opis = "177%"
+title = "Wzrost ruchu organicznego na stronie (1085 -> 1917)  "
+[[sections.kolumny_3_bg]]
+opis = "129%"
+title = "Wzrost ogólnej liczby fraz kluczowych powiązanych ze stroną TOP 100 (3483 -> 4482) "
 +++
