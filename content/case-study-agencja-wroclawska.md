@@ -100,5 +100,30 @@ title = "Wzrost ruchu organicznego na stronie (2 521 -> 10 569) "
 [[sections.kolumny_3_bg]]
 opis = "1078%"
 title = "Wzrost ogólnej liczby fraz kluczowych powiązanych ze stroną TOP 100 (401 -> 4 323) "
+[[sections]]
+klasa_sekcji = "case-white-bg"
+listowanie = ["Pełny Audyt SEO", "Pełna optymalizacja SEO strony pod budowanie profilu linkowego", "Poprawa nagłówków oraz treści na stronie", "Stworzenie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
+obrazek = "/uploads/obsluga-newslettera.png"
+obrazek_dark_mode = ""
+tekst_nad_listowaniem = "Co zrobiliśmy?"
+template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "POZYCJONOWANIE DLA E-COMMERCE"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "prawa w prawo"
+txt_block = " branża odzieżowa"
+txt_block_size = "XL"
+underline = false
 
 +++
