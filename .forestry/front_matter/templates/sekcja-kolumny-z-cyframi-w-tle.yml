@@ -29,3 +29,8 @@ fields:
     max: 3
     labelField: 
   label: Kolumny 3
+- name: klasa_sekcji
+  type: text
+  config:
+    required: false
+  label: Klasa sekcji
