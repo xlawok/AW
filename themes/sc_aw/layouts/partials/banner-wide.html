@@ -11,12 +11,14 @@
             {{- partial "header-tag.html" (dict "context" . "header_list" $header_slogan_list "custom_class" "banner-slogan")  -}}
             
         </div>
+        {{if not .formularz_wylaczony}}
         <div class='banner-right-col'>
             <div class='form-header'>
                 {{.naglowek_formularza}}
             </div>
             {{ .banner_form_html | safeHTML}}    
         </div>
+        {{end}}
     </div>
     <img class='banner-logo' src='/img/AW.svg'>
 </section>

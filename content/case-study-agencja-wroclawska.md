@@ -1,7 +1,7 @@
 +++
 body_class = "case-study"
 description = "Case study Agencji Wrocławskiej"
-draft = true
+draft = false
 keywords = ""
 robots = "noindex nofollow"
 slug = "case-study"
