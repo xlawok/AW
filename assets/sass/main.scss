@@ -1543,6 +1543,32 @@ form#contactform,form#mcontactform{
         }
       }
     }
+    
+  }
+  &.banner-wo-form{
+    .banner-wide-content{
+      .banner-left-col{
+        margin-left: 0;
+        width: 100%;
+        .banner-text{
+          padding-top: 2.75rem;
+          text-align: left;
+          font-size: 1.3125rem;
+          line-height: (32/21);
+          letter-spacing: 0px;
+          color: var(--white);
+          width: 100%;
+          
+          @media (min-width: 992px){
+            width: 55%
+          }
+          @media (min-width: 1600px){
+            width: (644/1920)*100vw;
+          }
+        }
+      }
+    }
+
   }
 }
 
