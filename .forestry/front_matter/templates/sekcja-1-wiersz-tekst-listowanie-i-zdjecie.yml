@@ -33,3 +33,8 @@ fields:
   config:
     maxSize: 2
   label: Obrazek dark mode
+- name: klasa_sekcji
+  type: text
+  config:
+    required: false
+  label: Klasa sekcji
