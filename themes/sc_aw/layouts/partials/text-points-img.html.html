@@ -22,7 +22,7 @@
             </div>
             <div class='second-col'>
                 <div class='obrazek-outer-wrapper'>
-                    <div class='obrazek-wrapper'>
+                    <div class='obrazek-wrapper'><a data-modaltarget='{{$random}}' class='open-modal-quote' href='#'>
                     {{$obrazek := .obrazek}}
                     {{with .obrazek_dark_mode}}
                         {{- partial "img.html" (dict "image" $obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "lmode")  -}}
@@ -30,7 +30,8 @@
 
                     {{else}}
                         {{- partial "img.html" (dict "image" $obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "")  -}}
-                    {{end}}     
+                    {{end}}   
+                    </a>  
                     </div>
                 </div>
 
@@ -39,20 +40,31 @@
     
 </section>
 {{if .obrazek_przewijany }}
+<div data-modalname='{{$random}}' class='modal-quote-outer img-modal-outer'>
+    <a href="#" class='button-close-modal'></a>
+    <div class='modal-wrapper img-modal'>
+        {{with .obrazek_dark_mode}}
+            {{- partial "img.html" (dict "image" $obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "lmode")  -}}
+            {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "dmode")  -}}
 
+        {{else}}
+            {{- partial "img.html" (dict "image" $obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "")  -}}
+        {{end}}    
+    </div>
+</div>
 <script>
       document.addEventListener("DOMContentLoaded", function() {
           var parent_scroll_img=document.querySelector('.a{{$random}} .obrazek-wrapper');
-          console.log(parent_scroll_img.offsetWidth);
+        //   console.log(parent_scroll_img.offsetWidth);
           var scroll_img=document.querySelector('.a{{$random}} .obrazek-wrapper img');
          
           parent_scroll_img.addEventListener('mouseenter',function(){
-            console.log(scroll_img.offsetWidth);
+            // console.log(scroll_img.offsetWidth);
             var move_img=scroll_img.offsetWidth - parent_scroll_img.offsetWidth;
             scroll_img.style.right= move_img + "px";
           });
           parent_scroll_img.addEventListener('mouseleave',function(){
-            console.log(scroll_img.offsetWidth);
+            // console.log(scroll_img.offsetWidth);
             // var move_img=scroll_img.offsetWidth - parent_scroll_img.offsetWidth;
             scroll_img.style.right= 0 + "px";
           });

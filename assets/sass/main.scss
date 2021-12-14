@@ -5567,11 +5567,12 @@ justify-content: center;
         transform: unset;
         transition: right 3s ease;
         right: 0;
+        min-width: 100%;
       }
       .obrazek-outer-wrapper{
         padding: 0 0 1rem 1rem;
         position: relative;
-        width: 500px;
+        width: 100%;
         height:400px;
         @media (min-width: 992px){
           transform: translateY(-8rem);
@@ -5619,6 +5620,9 @@ justify-content: center;
       background-color: #fff;
       z-index: -2;
       // transform: scaleX(-1);
+      @at-root body.dark-m.case-study .sc-cols-w-no.case-numbers-bg::after{
+        background-color: #242424;
+      }
     }
   }
   .sc-cols-w-no.case-numbers-nobg{
@@ -5637,11 +5641,17 @@ justify-content: center;
       background-color: #F2F2F2;
       z-index: -2;
       // transform: scaleX(-1);
+      @at-root body.dark-m.case-study .sc-cols-w-no.case-numbers-nobg::after{
+        background-color: var(--main-dark-color);
+      }
     }
   }
   .case-numbers-last{
     padding-bottom: 8vw;
     background-color: #F2F2F2;
+    @at-root body.dark-m.case-study .case-numbers-last{
+      background-color: var(--main-dark-color);
+    }
   }
   .sc-cols-w-no{
     .col-w-no-header{
@@ -5664,8 +5674,30 @@ justify-content: center;
   .case-white-bg{
     background-color: #fff;
     @at-root body.dark-m.case-study .case-white-bg {
-      color: var(--main-dark-color);
+      color: #fff;
+      background-color: #242424;
     }
+  }
+  .modal-quote-outer .modal-wrapper.img-modal{
+    background: unset;
+    transform: translate(-50%,-50%);
+    
+    margin: auto;
+    border-radius: 5px;
+    max-width: unset;
+    text-align: center;
+    padding: 1rem 1rem;
+    // @media (max-width: 767px){
+      top: 50%;
+    // }
+    
+    img{
+      max-width: 100%;
+    }
+  }
+  .modal-quote-outer.img-modal-outer .button-close-modal {
+    top: 1rem;
+    right: 2rem;
   }
 }
 .home{

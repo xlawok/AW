@@ -1,7 +1,7 @@
 +++
 body_class = "case-study"
 description = "Case study Agencji Wrocławskiej"
-draft = true
+draft = false
 keywords = ""
 robots = "noindex nofollow"
 slug = "case-study"
@@ -106,7 +106,7 @@ klasa_sekcji = "case-white-bg"
 listowanie = ["Pełny Audyt SEO", "Pełna optymalizacja SEO strony pod budowanie profilu linkowego", "Poprawa nagłówków oraz treści na stronie", "Stworzenie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
 obrazek = "/uploads/image27.jpg"
 obrazek_dark_mode = ""
-obrazek_przewijany = false
+obrazek_przewijany = true
 tekst_nad_listowaniem = "Co zrobiliśmy?"
 template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
 [[sections.header_repeater]]
@@ -162,7 +162,7 @@ klasa_sekcji = "case-gray-bg"
 listowanie = ["Pełny Audyt SEO", "Pełna optymalizacja SEO strony pod budowanie profilu linkowego", "Poprawa nagłówków oraz treści na stronie", "Stworzenie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
 obrazek = "/uploads/image28.jpg"
 obrazek_dark_mode = ""
-obrazek_przewijany = false
+obrazek_przewijany = true
 tekst_nad_listowaniem = "Co zrobiliśmy?"
 template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
 [[sections.header_repeater]]
