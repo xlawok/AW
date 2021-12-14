@@ -20,7 +20,7 @@ banner_form_html = ""
 banner_form_html_no_img = ""
 banner_form_script = ""
 banner_form_script_no_img = ""
-banner_img = "/uploads/wroclaw-main-header.jpg"
+banner_img = "/uploads/im-main-full.jpg"
 banner_list_gruop = []
 banner_type = "wide_img"
 formularz_wylaczony = true
@@ -48,9 +48,9 @@ opis = ""
 [[sections]]
 klasa_sekcji = ""
 listowanie = ["Migracja kilku stron spółki w jedną", "Pełny Audyt SEO", "Pełna optymalizacja wraz z przekierowaniami ruchu z poprzednich stron", "Poprawa nagłówków oraz treści na stronie", "Napisanie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
-obrazek_przewijany = true
-obrazek = "/uploads/wroclaw-main-header.jpg"
+obrazek = "/uploads/image26.jpg"
 obrazek_dark_mode = ""
+obrazek_przewijany = true
 tekst_nad_listowaniem = "Co zrobiliśmy?"
 template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
 [[sections.header_repeater]]
@@ -104,8 +104,9 @@ title = "Wzrost ogólnej liczby fraz kluczowych powiązanych ze stroną TOP 100 
 [[sections]]
 klasa_sekcji = "case-white-bg"
 listowanie = ["Pełny Audyt SEO", "Pełna optymalizacja SEO strony pod budowanie profilu linkowego", "Poprawa nagłówków oraz treści na stronie", "Stworzenie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
-obrazek = "/uploads/obsluga-newslettera.png"
+obrazek = "/uploads/image27.jpg"
 obrazek_dark_mode = ""
+obrazek_przewijany = false
 tekst_nad_listowaniem = "Co zrobiliśmy?"
 template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
 [[sections.header_repeater]]
@@ -159,8 +160,9 @@ title = "Wzrost ogólnej liczby fraz kluczowych powiązanych ze stroną TOP 100 
 [[sections]]
 klasa_sekcji = "case-gray-bg"
 listowanie = ["Pełny Audyt SEO", "Pełna optymalizacja SEO strony pod budowanie profilu linkowego", "Poprawa nagłówków oraz treści na stronie", "Stworzenie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
-obrazek = "/uploads/obsluga-newslettera.png"
+obrazek = "/uploads/image28.jpg"
 obrazek_dark_mode = ""
+obrazek_przewijany = false
 tekst_nad_listowaniem = "Co zrobiliśmy?"
 template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
 [[sections.header_repeater]]
@@ -211,4 +213,5 @@ title = "Wzrost ruchu organicznego na stronie (1085 -> 1917)  "
 [[sections.kolumny_3_bg]]
 opis = "129%"
 title = "Wzrost ogólnej liczby fraz kluczowych powiązanych ze stroną TOP 100 (3483 -> 4482) "
+
 +++
