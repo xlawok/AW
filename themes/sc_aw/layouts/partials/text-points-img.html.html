@@ -22,7 +22,8 @@
             </div>
             <div class='second-col'>
                 <div class='obrazek-outer-wrapper'>
-                    <div class='obrazek-wrapper'><a data-modaltarget='{{$random}}' class='open-modal-quote' href='#'>
+                    <div class='obrazek-wrapper'>
+                        <!-- <a data-modaltarget='{{$random}}' class='open-modal-quote' href='#'> -->
                     {{$obrazek := .obrazek}}
                     {{with .obrazek_dark_mode}}
                         {{- partial "img.html" (dict "image" $obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "lmode")  -}}
@@ -31,7 +32,7 @@
                     {{else}}
                         {{- partial "img.html" (dict "image" $obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "")  -}}
                     {{end}}   
-                    </a>  
+                    <!-- </a>   -->
                     </div>
                 </div>
 

@@ -27,7 +27,7 @@ naglowek_formularza = ""
 naglowek_formularza_no_img = ""
 opis_banner = ""
 otworz_modal = ""
-tekst_pod_naglowkiem = "Zwei flinke Boxer jagen die quirlige Eva und ihren Mops durch Sylt. Franz jagt im komplett verwahrlosten Taxi quer durch Bayern. Zwölf Boxkämpfer jagen Viktor quer über den großen Sylter Deich. Vogel Quax zwickt Johnys Pferd Bim. Sylvia wagt quick den Jux bei Pforzheim. Polyfon zwitschernd aßen Mäxchens Vögel Rüben,"
+tekst_pod_naglowkiem = "Prezentujemy wybrane projekty z naszego portfolio, abyśmy mogli opowiedzieć o wszystkich naszych sukcesach podczas naszej historii prac SEO. Poniższe case study są przeznaczone dla klientów korzystających lub chcących skorzystać z usług SEO naszej Agencji na własnych stronach internetowych. Strategie pozycjonowania są implementowane przez doświadczonych specjalistów i entuzjastów branży SEO, co prowadzi do sukcesu oraz zwiększenia konwersji we wszystkich obszarach współpracy podczas pozycjonowania strony internetowej."
 template = "banner"
 [[sections.banner_header_cnt.header_repeater]]
 block_tag_type = "h1"
@@ -49,7 +49,7 @@ klasa_sekcji = ""
 listowanie = ["Migracja kilku stron spółki w jedną", "Pełny Audyt SEO", "Pełna optymalizacja wraz z przekierowaniami ruchu z poprzednich stron", "Poprawa nagłówków oraz treści na stronie", "Napisanie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
 obrazek = "/uploads/medicus.jpg"
 obrazek_dark_mode = ""
-obrazek_przewijany = true
+obrazek_przewijany = false
 tekst_nad_listowaniem = "Co zrobiliśmy?"
 template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
 [[sections.header_repeater]]
@@ -105,7 +105,7 @@ klasa_sekcji = "case-white-bg"
 listowanie = ["Pełny Audyt SEO", "Pełna optymalizacja SEO strony pod budowanie profilu linkowego", "Poprawa nagłówków oraz treści na stronie", "Stworzenie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
 obrazek = "/uploads/wykres-odziez.jpg"
 obrazek_dark_mode = ""
-obrazek_przewijany = true
+obrazek_przewijany = false
 tekst_nad_listowaniem = "Co zrobiliśmy?"
 template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
 [[sections.header_repeater]]
@@ -161,7 +161,7 @@ klasa_sekcji = "case-gray-bg"
 listowanie = ["Pełny Audyt SEO", "Pełna optymalizacja SEO strony pod budowanie profilu linkowego", "Poprawa nagłówków oraz treści na stronie", "Stworzenie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
 obrazek = "/uploads/wykres-gry.jpg"
 obrazek_dark_mode = ""
-obrazek_przewijany = true
+obrazek_przewijany = false
 tekst_nad_listowaniem = "Co zrobiliśmy?"
 template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
 [[sections.header_repeater]]
