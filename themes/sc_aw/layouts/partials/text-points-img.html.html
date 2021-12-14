@@ -1,4 +1,6 @@
-<section class='sec-padding sc-text-points-img {{.klasa_sekcji}}'>
+{{ $seed := "awrc" }}
+{{ $random := delimit (shuffle (split (md5 $seed) "" )) "" }}
+<section class='sec-padding sc-text-points-img {{.klasa_sekcji}} a{{$random}}'>
     
         <div class='two-col-row cnt-visibility'>
             {{ $header_list := (.header_repeater) }}
@@ -19,20 +21,41 @@
                 
             </div>
             <div class='second-col'>
-          
-                
-                {{$obrazek := .obrazek}}
-                {{with .obrazek_dark_mode}}
-                    {{- partial "img.html" (dict "image" $obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "lmode")  -}}
-                    {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "dmode")  -}}
+                <div class='obrazek-outer-wrapper'>
+                    <div class='obrazek-wrapper'>
+                    {{$obrazek := .obrazek}}
+                    {{with .obrazek_dark_mode}}
+                        {{- partial "img.html" (dict "image" $obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "lmode")  -}}
+                        {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "dmode")  -}}
 
-                {{else}}
-                    {{- partial "img.html" (dict "image" $obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "")  -}}
-                {{end}}     
-                   
-                   
+                    {{else}}
+                        {{- partial "img.html" (dict "image" $obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "")  -}}
+                    {{end}}     
+                    </div>
+                </div>
 
             </div>
         </div>
     
 </section>
+{{if .obrazek_przewijany }}
+
+<script>
+      document.addEventListener("DOMContentLoaded", function() {
+          var parent_scroll_img=document.querySelector('.a{{$random}} .obrazek-wrapper');
+          console.log(parent_scroll_img.offsetWidth);
+          var scroll_img=document.querySelector('.a{{$random}} .obrazek-wrapper img');
+         
+          parent_scroll_img.addEventListener('mouseenter',function(){
+            console.log(scroll_img.offsetWidth);
+            var move_img=scroll_img.offsetWidth - parent_scroll_img.offsetWidth;
+            scroll_img.style.right= move_img + "px";
+          });
+          parent_scroll_img.addEventListener('mouseleave',function(){
+            console.log(scroll_img.offsetWidth);
+            // var move_img=scroll_img.offsetWidth - parent_scroll_img.offsetWidth;
+            scroll_img.style.right= 0 + "px";
+          });
+      });
+</script>
+{{end}}

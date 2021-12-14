@@ -48,7 +48,8 @@ opis = ""
 [[sections]]
 klasa_sekcji = ""
 listowanie = ["Migracja kilku stron spółki w jedną", "Pełny Audyt SEO", "Pełna optymalizacja wraz z przekierowaniami ruchu z poprzednich stron", "Poprawa nagłówków oraz treści na stronie", "Napisanie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
-obrazek = "/uploads/obsluga-newslettera.png"
+obrazek_przewijany = true
+obrazek = "/uploads/wroclaw-main-header.jpg"
 obrazek_dark_mode = ""
 tekst_nad_listowaniem = "Co zrobiliśmy?"
 template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"

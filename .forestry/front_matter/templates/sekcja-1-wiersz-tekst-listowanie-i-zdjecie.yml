@@ -23,6 +23,13 @@ fields:
     min: 
     max: 
   label: Listowanie
+- name: obrazek_przewijany
+  type: boolean
+  default: false
+  label: Przewijaj obrazek gdy za szeroki
+  showOnly:
+    field: banner_type
+    value: wide_img
 - name: obrazek
   type: file
   config:
