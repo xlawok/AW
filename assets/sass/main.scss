@@ -5553,6 +5553,24 @@ justify-content: center;
   }
 }
 .case-study{
+  .sc-banner-wide .banner-wide-content::after{
+    z-index: -1;
+    @media (max-width: 767px){
+      display: none;
+    }
+    @media (min-width: 768px) and (max-width: 991px){
+      height: 13.5rem;
+      bottom: -6.625rem;
+    }
+    @media (min-width: 992px) and (max-width: 1599px){
+      height: 8.5rem;
+      bottom: -0.625rem;
+    }
+    @media (min-width: 1600px){
+      height: 15.5rem;
+    }
+    
+  }
   .sc-text-points-img{
     .second-col{
       
