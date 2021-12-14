@@ -5602,7 +5602,24 @@ justify-content: center;
     
       
     }
-   
+    ul.red-point-list li{
+      &:before {
+        position: absolute;
+        left: -.85rem;
+        top: calc(50% - .25rem);
+        height: .5rem;
+        width: 1.2rem;
+        // background-color: #336699;
+        border-left: 3px solid #F63D37;
+        border-bottom: 3px solid #F63D37;
+        content: "";
+        transform: translateX(10px) rotate(-45deg);
+        transform-origin: left bottom;
+      }
+    
+
+    }
+    
   }
   .sc-cols-w-no.case-numbers-bg{
     padding-bottom: 8vw;
