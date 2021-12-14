@@ -1,7 +1,6 @@
 +++
 body_class = "case-study"
 description = "Case study Agencji Wrocławskiej"
-draft = false
 keywords = ""
 robots = "noindex nofollow"
 slug = "case-study"
@@ -48,7 +47,7 @@ opis = ""
 [[sections]]
 klasa_sekcji = ""
 listowanie = ["Migracja kilku stron spółki w jedną", "Pełny Audyt SEO", "Pełna optymalizacja wraz z przekierowaniami ruchu z poprzednich stron", "Poprawa nagłówków oraz treści na stronie", "Napisanie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
-obrazek = "/uploads/image26.jpg"
+obrazek = "/uploads/medicus.jpg"
 obrazek_dark_mode = ""
 obrazek_przewijany = true
 tekst_nad_listowaniem = "Co zrobiliśmy?"
@@ -104,7 +103,7 @@ title = "Wzrost ogólnej liczby fraz kluczowych powiązanych ze stroną TOP 100 
 [[sections]]
 klasa_sekcji = "case-white-bg"
 listowanie = ["Pełny Audyt SEO", "Pełna optymalizacja SEO strony pod budowanie profilu linkowego", "Poprawa nagłówków oraz treści na stronie", "Stworzenie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
-obrazek = "/uploads/image27.jpg"
+obrazek = "/uploads/wykres-odziez.jpg"
 obrazek_dark_mode = ""
 obrazek_przewijany = true
 tekst_nad_listowaniem = "Co zrobiliśmy?"
@@ -160,7 +159,7 @@ title = "Wzrost ogólnej liczby fraz kluczowych powiązanych ze stroną TOP 100 
 [[sections]]
 klasa_sekcji = "case-gray-bg"
 listowanie = ["Pełny Audyt SEO", "Pełna optymalizacja SEO strony pod budowanie profilu linkowego", "Poprawa nagłówków oraz treści na stronie", "Stworzenie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
-obrazek = "/uploads/image28.jpg"
+obrazek = "/uploads/wykres-gry.jpg"
 obrazek_dark_mode = ""
 obrazek_przewijany = true
 tekst_nad_listowaniem = "Co zrobiliśmy?"
