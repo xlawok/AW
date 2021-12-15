@@ -71,6 +71,7 @@ fields:
   - sekcja-3-kolumny-z-obrazkami
   - sekcja-artykuly-zwiazane
   - '404'
+  - sekcja-metrowka
   config:
     min: 
     max: 
