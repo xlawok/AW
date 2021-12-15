@@ -5712,6 +5712,9 @@ justify-content: center;
     }
     .no-bg{
       color: #E3E3E3;
+      @at-root body.dark-m.case-study .sc-cols-w-no .no-bg{
+        opacity: .8;
+      }
     }
   }
   .case-white-bg{

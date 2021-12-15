@@ -2,7 +2,7 @@
 body_class = "case-study"
 description = "Case study Agencji Wrocławskiej"
 keywords = ""
-robots = "noindex nofollow"
+robots = "index follow"
 slug = "case-study"
 title = "Case study Agencja Wrocławska"
 [[sections]]
