@@ -1,4 +1,26 @@
 ---
 label: Sekcja metrówka
 hide_body: true
-fields: []
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: matrowka
+  type: field_group_list
+  fields:
+  - name: opis_pod_metrowka
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Opis pod metrówką
+  config:
+    min: 3
+    max: 4
+    labelField: 
+  label: Matrówka
