@@ -206,7 +206,7 @@ body_class: o-nas
 menu:
   main:
     name: O nas
-    weight: 2
+    weight: 3
 
 ---
 +++

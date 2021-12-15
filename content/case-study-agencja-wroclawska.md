@@ -5,6 +5,9 @@ keywords = ""
 robots = "index follow"
 slug = "case-study"
 title = "Case study Agencja Wrocławska"
+[menu.main]
+name = "Portfolio"
+weight = 2
 [[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_left_dark = ""
