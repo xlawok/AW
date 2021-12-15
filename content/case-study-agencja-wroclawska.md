@@ -4,7 +4,7 @@ description = "Case study Agencji Wrocławskiej"
 keywords = ""
 robots = "index follow"
 slug = "case-study"
-title = "Case study Agencja Wrocławska"
+title = "Case study | Agencja Wrocławska"
 [menu.main]
 name = "Portfolio"
 weight = 2
