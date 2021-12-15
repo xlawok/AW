@@ -90,5 +90,29 @@ ornament = "brak"
 txt_block = "Zarabiaj online"
 txt_block_size = "MD"
 underline = false
+[[sections]]
+template = "sekcja-metrowka"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Zarejestruj się do programu, poleć firmę, kolejnymi krokami zajmie się"
+txt_block_size = "MD"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "Agencja Wrocławska"
+txt_block_size = "MD"
+[[sections.matrowka]]
+opis_pod_metrowka = "Po przekazaniu nam danych Twojego poleconego klienta – specjalista SEO przeprowadza dogłębny audyt strony, wskazuje dotychczasowe problemy, błędy oraz zaproponowanie przez nas kolejnych kroków w celu usprawnienia dotychczasowej domeny oraz przygotowanie ją poprzez optymalizację do rozpoczęcia działań SEO"
+[[sections.matrowka]]
+opis_pod_metrowka = "Przygotowujemy strategię działań oraz research słów kluczowych dla klienta, które pozwolą mu w jak najkrótszym czasie pozwolić generować jakościowy ruch z wyszukiwarki, przekładający się na widoczność, zwiększający konwersję oraz sprzedaż na stronie"
+[[sections.matrowka]]
+opis_pod_metrowka = "Analizujemy z klientem dotychczasowe sugestię oraz frazy kluczowe, które mają być najbardziej opłacalne"
+[[sections.matrowka]]
+opis_pod_metrowka = "Lorem ipsum"
 
 +++
