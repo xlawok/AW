@@ -11,6 +11,7 @@ fields:
     - wide_img
     - center_img_w_background
     - no_img_only_background
+    - 'no_img_w_bubbles '
     source:
       type: simple
       section: 
@@ -294,3 +295,33 @@ fields:
   showOnly:
     field: banner_type
     value: no_img_only_background
+- name: dymki_z_tekstem
+  type: field_group_list
+  fields:
+  - name: ikona
+    type: file
+    config:
+      maxSize: 1
+    label: Ikona
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: tekst
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Tekst
+  config:
+    min: 1
+    max: 3
+    labelField: 
+  label: Dymki z tekstem
+  showOnly:
+    field: banner_type
+    value: 'no_img_w_bubbles '
