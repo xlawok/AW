@@ -6,7 +6,7 @@ title = "SEO Blog - Nowości z branży marketingu internetowego | Agencja Wrocł
 tytul_do_listowania = "Blog"
 [menu.main]
 name = "Blog"
-weight = 4
+weight = 3
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
