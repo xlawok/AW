@@ -8,7 +8,7 @@ title = "Case study | Agencja Wrocławska"
 [menu.main]
 name = "Portfolio"
 parent = "O nas"
-weight = 1
+weight = 2
 [[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_left_dark = ""
