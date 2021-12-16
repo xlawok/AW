@@ -1581,7 +1581,88 @@ form#contactform,form#mcontactform{
 
   }
 }
+.sc-banner-w-bubbles{
+  @media (min-width: 768px){
+    padding-bottom: 5rem;
+  }
+  @media (min-width: 992px){
+    padding-bottom: 0;
+  }
+  @media (min-width: 1600px){
+    padding-bottom: 10rem;
+  }
+  .banner-bubbles-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding-top: 3rem;
+    @media (min-width: 768px){
+      padding-top: 5rem;
+    }
+    
+    position: relative;
+  }
+  .banner-left-col{
+    width: 100%;
+    margin: auto;
+    @media (min-width: 992px){
+      width: 55%
+    }
+    @media (min-width: 1600px){
+      width: (644/1920)*100vw;
+    }
+    .banner-header {
+      line-height: (91/76);
+      font-family: var(--header-font); 
+      margin: 0 0 .35rem 0;
+      @media (max-width: 767px){
+        &.txt-XXL{
+          font-size: 10vw;
+        }
+        &.txt-XL{
+          font-size: 7.5vw;
+        }
+      }
+      @media (min-width: 1200px) and (max-width: 1599px){
+        &.txt-XXL{
+          font-size: 5vw;
+        }
+        &.txt-XL{
+          font-size: 3.5vw;
+        }
+      }
+    }
+          .banner-slogan{
+      font-family: var(--base-font);
+      margin: 0 0 .5em 0;
+    }
+  }
+  .banner-right-col{
+    width: 100%;
+    margin: auto;
+    border-radius: 0.5rem;
+    opacity: 1;
+    z-index: 2;
+    padding: 1.5rem 2.8125rem 1rem 2.625rem;
+    @media (min-width: 992px){
+      width: 43%
+    }
+    @media (min-width: 1600px){
+      width: (527/1920)*100vw;
+      width: 25vw;
+      margin-top: 4rem;
+    }
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0rem 0.1875rem 1.25rem #00000029;
+    @at-root body.dark-m .sc-banner-wide .banner-wide-content .banner-right-col{
+      background: #242424 0% 0% no-repeat padding-box;
+      box-shadow: 0px 3px 20px #00000029;
+    }
 
+
+
+  }
+}
 .sc-banner-center-noimg{
   position: relative;
   

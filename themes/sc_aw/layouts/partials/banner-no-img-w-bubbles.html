@@ -1,0 +1,34 @@
+
+<section class=' sc-banner-w-bubbles '>
+    
+   
+  
+   <div class='banner-bubbles-content sec-padding'>
+        <div class='banner-left-col'>
+            {{ $header_list := (.banner_header_cnt.header_repeater) }}
+            {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "banner-header")  -}}
+            {{ $header_slogan_list := (.banner_slogan.header_repeater) }}
+            {{if gt (len $header_slogan_list) 0}}
+                {{- partial "header-tag.html" (dict "context" . "header_list" $header_slogan_list "custom_class" "banner-slogan")  -}}
+            {{end}}
+            {{if .formularz_wylaczony}}
+                <div class='banner-text'>
+                    {{.tekst_pod_naglowkiem | safeHTML}}
+                </div>
+            {{end}}
+        </div>
+        {{with  .dymki_z_tekstem}}
+        <div class='banner-right-col'>
+            {{range .}}
+            <div class='bubble-wrapper'>
+                {{ $header_list := (.header_repeater) }}
+                {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "bubble-header")  -}}
+                {{ .tekst | safeHTML}}        
+            </div>
+            {{end}}
+            
+        </div>
+        {{end}}
+    </div>
+    <img class='banner-logo' src='/img/AW.svg'>
+</section>

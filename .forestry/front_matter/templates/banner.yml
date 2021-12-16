@@ -11,7 +11,7 @@ fields:
     - wide_img
     - center_img_w_background
     - no_img_only_background
-    - 'no_img_w_bubbles '
+    - no_img_w_bubbles
     source:
       type: simple
       section: 
@@ -324,4 +324,4 @@ fields:
   label: Dymki z tekstem
   showOnly:
     field: banner_type
-    value: 'no_img_w_bubbles '
+    value: 'no_img_w_bubbles'
