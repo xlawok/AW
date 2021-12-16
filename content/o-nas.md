@@ -205,7 +205,7 @@ url: o-nas
 body_class: o-nas
 menu:
   main:
-    name: O nas
+    name: O agencji
     weight: 1
     parent: O nas
 
