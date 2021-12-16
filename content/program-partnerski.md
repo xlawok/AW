@@ -60,7 +60,7 @@ header_repeater = []
 kolumny = []
 opis = ""
 [[sections.dymki_z_tekstem]]
-ikona = "/uploads/favicon-aw.png"
+ikona = "/uploads/dlugopis.svg"
 tekst = "Dołącz do programu partnerskiego naszej agencji SEO i zacznij czerpać zyski przez cały okres trwania umowy poleconego klienta."
 [[sections.dymki_z_tekstem.header_repeater]]
 block_tag_type = "div"
@@ -72,7 +72,7 @@ txt_block = "Zarejestruj się już dziś"
 txt_block_size = "MD"
 underline = false
 [[sections.dymki_z_tekstem]]
-ikona = "/uploads/favicon-aw.png"
+ikona = "/uploads/megafon.svg"
 tekst = "Za każdego poleconą firmę, która rozpocznie z nami działania pozycjonowania organicznego SEO – dostaniesz premię na start współpracy oraz pasywny dochód miesięczny z tytułu polecenia."
 [[sections.dymki_z_tekstem.header_repeater]]
 block_tag_type = "div"
@@ -84,7 +84,7 @@ txt_block = "Poleć nas swoim znajomym"
 txt_block_size = "MD"
 underline = false
 [[sections.dymki_z_tekstem]]
-ikona = "/uploads/favicon-aw.png"
+ikona = "/uploads/kasa.svg"
 tekst = "Dzięki poleceniu firmy, która rozpocznie z nami współpracę – otrzymujesz jednorazowo 30% wartości miesięcznego abonamentu płaconego nam przez klienta. Dodatkowo, od drugiego miesiąca wypłacamy Ci comiesięczny zysk pasywny w postaci 5% od wartości miesięcznego abonamentu."
 [[sections.dymki_z_tekstem.header_repeater]]
 block_tag_type = "div"
