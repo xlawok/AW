@@ -32,13 +32,13 @@ tekst_pod_naglowkiem = ""
 template = "banner"
 [[sections.banner_header_cnt.header_repeater]]
 block_tag_type = "h1"
-bold_txt = "normalny"
-break_line = false
+bold_txt = "cienki"
+break_line = true
 color_txt = "czarny"
 ornament = "brak"
 txt_block = "Dołącz do programu partnerskiego"
 txt_block_size = "XXL"
-underline = true
+underline = false
 [[sections.banner_header_cnt.header_repeater]]
 block_tag_type = "h1"
 bold_txt = "bardzo gruby"

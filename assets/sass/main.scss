@@ -256,7 +256,7 @@ ul.red-point-list{
   font-weight: bold;
 }
 .f-w400{
-  font-weight: normal;
+  font-weight: 400;
 }
 .f-w300{
   font-weight: 300;
@@ -1640,10 +1640,7 @@ form#contactform,form#mcontactform{
   .banner-right-col{
     width: 100%;
     margin: auto;
-    border-radius: 0.5rem;
-    opacity: 1;
-    z-index: 2;
-    padding: 1.5rem 2.8125rem 1rem 2.625rem;
+    position: relative;
     @media (min-width: 992px){
       width: 43%
     }
@@ -1652,13 +1649,35 @@ form#contactform,form#mcontactform{
       width: 25vw;
       margin-top: 4rem;
     }
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0rem 0.1875rem 1.25rem #00000029;
-    @at-root body.dark-m .sc-banner-wide .banner-wide-content .banner-right-col{
-      background: #242424 0% 0% no-repeat padding-box;
-      box-shadow: 0px 3px 20px #00000029;
+    .bubble-wrapper{
+      border-radius: 0.5rem;
+      opacity: 1;
+      z-index: 2;
+      padding: 1.5rem 2.8125rem 2rem 2.625rem;
+     will-change: transform;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      box-shadow: 0rem 0.1875rem 1.25rem #00000029;
+      @at-root body.dark-m .sc-banner-wide .banner-wide-content .banner-right-col{
+        background: #242424 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 20px #00000029;
+      }
+      @media (min-width: 1366px){
+        &:first-child{
+          width: 80%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        margin-bottom: 3rem;
+        &:nth-child(3){
+          transform: translateX(-50%);
+          position: absolute;
+        }
+      }
+      .bubble-header{
+        padding-bottom: 1.5rem;
+      }
     }
-
+    
 
 
   }
