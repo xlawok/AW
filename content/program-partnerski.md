@@ -48,8 +48,13 @@ ornament = "brak"
 txt_block = " Agencji Wrocławskiej"
 txt_block_size = "XXL"
 underline = false
-[sections.banner_slogan]
-header_repeater = []
+[[sections.banner_slogan.header_repeater]]
+block_tag_type = "paragraf"
+bold_txt = "normalny"
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Spory bonus na start + pasywny dochód z każdego miesiąca obsługi"
+txt_block_size = "S"
 [sections.box_pod_zdj_ciem]
 header_repeater = []
 kolumny = []
