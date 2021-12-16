@@ -26,6 +26,7 @@ banner_form_script_no_img = ""
 banner_img = "/uploads/im-main-full.jpg"
 banner_list_gruop = []
 banner_type = "wide_img"
+dymki_z_tekstem = []
 formularz_wylaczony = true
 naglowek_formularza = ""
 naglowek_formularza_no_img = ""
@@ -163,7 +164,7 @@ title = "Wzrost ogólnej liczby fraz kluczowych powiązanych ze stroną TOP 100 
 [[sections]]
 klasa_sekcji = "case-gray-bg"
 listowanie = ["Pełny Audyt SEO", "Pełna optymalizacja SEO strony pod budowanie profilu linkowego", "Poprawa nagłówków oraz treści na stronie", "Stworzenie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
-obrazek = "/uploads/wykres-gry.jpg"
+obrazek = "/uploads/efekty-seo-aw.png"
 obrazek_dark_mode = ""
 obrazek_przewijany = false
 tekst_nad_listowaniem = "Co zrobiliśmy?"
