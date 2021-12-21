@@ -169,5 +169,26 @@ color_txt = "czarny"
 ornament = "brak"
 txt_block = "swoim kontaktom w sieci"
 txt_block_size = "MD"
+[[sections]]
+naglowek_pod_wykresem = "Przykład"
+opis_pod_wykresem = "Polecony klient, który decyduje się na abonament w kwocie 1500 zł/miesięcznie.<br>- Polecony klient przynosi profit 500 zł netto dla Partnera w trybie natychmiastowym<br>- Comiesięczne zyski w postaci 5% to 75 zł netto dla Partnera<br>- Po 12 miesiącach współpracy Partner inkasuje 1400 zł na jednym poleceniu<br>"
+template = "sekcja-wykres"
+wykres_kwota_koncowa = "1400 zł"
+wykres_kwota_startowa = "500 zł"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "Generowanie zysków"
+txt_block_size = "XL"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "na przykładzie rocznym"
+txt_block_size = "MD"
 
 +++
