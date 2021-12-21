@@ -1,4 +1,33 @@
 ---
 label: Sekcja wykres
 hide_body: true
-fields: []
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: wykres_kwota_startowa
+  type: text
+  config:
+    required: false
+  label: wykres kwota startowa
+- name: wykres_kwota_koncowa
+  type: text
+  config:
+    required: false
+  label: wykres kwota końcowa
+- name: naglowek_pod_wykresem
+  type: text
+  config:
+    required: false
+  label: Nagłówek pod wykresem
+- name: opis_pod_wykresem
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Opis pod wykresem
