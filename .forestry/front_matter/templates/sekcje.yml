@@ -72,6 +72,7 @@ fields:
   - sekcja-artykuly-zwiazane
   - '404'
   - sekcja-metrowka
+  - sekcja-wykres
   config:
     min: 
     max: 
