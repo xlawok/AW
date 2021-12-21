@@ -119,5 +119,28 @@ opis_pod_metrowka = "Przygotowujemy strategię działań oraz research słów kl
 opis_pod_metrowka = "Analizujemy z klientem dotychczasowe sugestię oraz frazy kluczowe, które mają być najbardziej opłacalne"
 [[sections.matrowka]]
 opis_pod_metrowka = "Lorem ipsum"
+[[sections]]
+template = "sekcja-przemienne-kolumny-txt-img"
+[[sections.wiersz_dwie_kolumny]]
+tytul_wiersza = "Korzysoc"
+[sections.wiersz_dwie_kolumny.kolumna_pierwsza]
+adres_odnosnika = []
+opis = "Zarabiaj dodatkowe pieniądze wprost ze swojej kanapy<br><br>Zostanie partnerem Agencji Wrocławskiej jest proste i lukratywne. Jedyne co musisz zrobić to przekazać dane poleconego klienta, później Twoim zadaniem jest tylko sprawdzenie swojego konta bankowego i liczenie profitu."
+tytul_odnosnika = "Przeczytaj więcej"
+[[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "z programu partnerskiego"
+txt_block_size = "MD"
+[[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "KORZYŚCI"
+txt_block_size = "XL"
 
 +++
