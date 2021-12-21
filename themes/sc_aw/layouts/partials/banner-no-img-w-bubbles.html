@@ -21,6 +21,7 @@
         <div class='banner-right-col'>
             {{range .}}
             <div class='bubble-wrapper'>
+                {{- partial "img.html" (dict "image" .ikona "imgsizes" "" "tag_class" "" "ifsrcset" "nosrcset" )  -}}
                 {{ $header_list := (.header_repeater) }}
                 {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "bubble-header")  -}}
                 {{ .tekst | safeHTML}}        
@@ -30,5 +31,5 @@
         </div>
         {{end}}
     </div>
-    <img class='banner-logo' src='/img/AW.svg'>
+    
 </section>

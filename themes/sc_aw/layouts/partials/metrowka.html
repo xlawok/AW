@@ -1,0 +1,38 @@
+<section class='sec-padding sc-metrowka'>
+    
+   
+    {{ $header_list := (.header_repeater) }}
+
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "metrowka-sec-header")  -}}
+   
+    <div class='metrowka-wrapper'>
+        <div class="time-control" style="">
+            <div class="ruller">
+              <div class="time-cursor color-red" style="">
+          
+              </div>
+         
+            
+            
+            
+            </div>
+            <div class="timeline">
+              {{ range $index, $item:=.matrowka }} 
+
+              <div class="animation">
+                <div class="  animation-delay"><span>krok <span>{{add $index 1}}</span></span></div>
+                <div class="info-change-begin info info-left info-bottom" data-delay="{{if eq $index 0}}100{{else}} {{mul $index 400}}{{end}}">
+             
+                  <figcaption class="feature-caption" style=" ">{{$item.opis_pod_metrowka}}</figcaption>
+                </div>
+               
+                <div class="animation-band animation-end-delay"></div>
+              </div>
+              {{end}}
+           
+           
+  
+            </div>
+          </div>
+    </div>
+</section>

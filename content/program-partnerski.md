@@ -125,7 +125,7 @@ template = "sekcja-przemienne-kolumny-txt-img"
 tytul_wiersza = "Korzysoc"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = []
-opis = "Zarabiaj dodatkowe pieniądze wprost ze swojej kanapy<br><br>Zostanie partnerem Agencji Wrocławskiej jest proste i lukratywne. Jedyne co musisz zrobić to przekazać dane poleconego klienta, później Twoim zadaniem jest tylko sprawdzenie swojego konta bankowego i liczenie profitu."
+opis = "<p class='txt-MD f-w700'><span class='txt-break txt-red'>Zarabiaj dodatkowe pieniądze</span> wprost ze swojej kanapy</p>Zostanie partnerem Agencji Wrocławskiej jest proste i lukratywne. Jedyne co musisz zrobić to przekazać dane poleconego klienta, później Twoim zadaniem jest tylko sprawdzenie swojego konta bankowego i liczenie profitu."
 tytul_odnosnika = "Przeczytaj więcej"
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
 block_tag_type = "h2"

@@ -10,14 +10,15 @@
                 {{ $header_list := (.kolumna_pierwsza.header_repeater) }}
                 {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
 
-                {{.kolumna_pierwsza.opis}}
+                {{.kolumna_pierwsza.opis | safeHTML }}
                 {{ $relacja_linku := .kolumna_pierwsza.relacja_linku }}
                 {{ $tytul_odnosnika := .kolumna_pierwsza.tytul_odnosnika }}
-                {{ with site.GetPage .kolumna_pierwsza.adres_odnosnika }}
-                
-                    <a class='two-col-link' href=" {{ .Permalink }}" rel="{{$relacja_linku}}">{{$tytul_odnosnika}}</a>
-                {{ end }}
-                
+                {{with .kolumna_pierwsza.adres_odnosnika}}
+                    {{ with site.GetPage . }}
+                    
+                        <a class='two-col-link' href=" {{ .Permalink }}" rel="{{$relacja_linku}}">{{$tytul_odnosnika}}</a>
+                    {{ end }}
+                {{end}}
 
                 
             </div>

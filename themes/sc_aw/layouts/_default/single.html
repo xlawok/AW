@@ -89,7 +89,9 @@
     {{if eq .template "sekcja-artykuly-zwiazane"}}
       {{- partial "related-by.html" . -}}
     {{end}}
-    
+    {{if eq .template "sekcja-metrowka"}}
+      {{- partial "metrowka.html" . -}}
+    {{end}}
   {{ end }}
   
 
