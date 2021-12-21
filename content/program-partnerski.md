@@ -123,6 +123,9 @@ opis_pod_metrowka = "Lorem ipsum"
 template = "sekcja-przemienne-kolumny-txt-img"
 [[sections.wiersz_dwie_kolumny]]
 tytul_wiersza = "Korzysoc"
+[sections.wiersz_dwie_kolumny.kolumna_druga]
+film_obrazek = "image"
+obrazek = "/uploads/korzysci.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = []
 opis = "<p class='txt-MD f-w700'><span class='txt-break txt-red'>Zarabiaj dodatkowe pieniądze</span> wprost ze swojej kanapy</p>Zostanie partnerem Agencji Wrocławskiej jest proste i lukratywne. Jedyne co musisz zrobić to przekazać dane poleconego klienta, później Twoim zadaniem jest tylko sprawdzenie swojego konta bankowego i liczenie profitu."
