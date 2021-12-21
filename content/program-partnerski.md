@@ -130,17 +130,17 @@ tytul_odnosnika = "Przeczytaj więcej"
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
-color_txt = "czarny"
-ornament = "brak"
-txt_block = "z programu partnerskiego"
-txt_block_size = "MD"
-[[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
-block_tag_type = "h2"
-bold_txt = "gruby"
 break_line = true
 color_txt = "czerwony"
 ornament = "brak"
 txt_block = "KORZYŚCI"
 txt_block_size = "XL"
+[[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "z programu partnerskiego"
+txt_block_size = "MD"
 
 +++
