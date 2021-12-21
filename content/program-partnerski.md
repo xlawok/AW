@@ -122,7 +122,7 @@ opis_pod_metrowka = "Lorem ipsum"
 [[sections]]
 template = "sekcja-przemienne-kolumny-txt-img"
 [[sections.wiersz_dwie_kolumny]]
-tytul_wiersza = "Korzysoc"
+tytul_wiersza = "Korzysci"
 [sections.wiersz_dwie_kolumny.kolumna_druga]
 film_obrazek = "image"
 obrazek = "/uploads/korzysci.svg"
@@ -144,6 +144,30 @@ bold_txt = "gruby"
 color_txt = "czarny"
 ornament = "brak"
 txt_block = "z programu partnerskiego"
+txt_block_size = "MD"
+[[sections.wiersz_dwie_kolumny]]
+tytul_wiersza = "szepnij"
+[sections.wiersz_dwie_kolumny.kolumna_druga]
+film_obrazek = "image"
+obrazek = "/uploads/slowko.svg"
+[sections.wiersz_dwie_kolumny.kolumna_pierwsza]
+adres_odnosnika = []
+opis = "Jako Partner Agencji Wrocławskiej nie ma różnicy czy poleciłeś nam 1, czy 10 klientów. Twoje warunki zawsze będą takie same, dlatego zwiększając liczbę poleconych klientów zwiększa się Twój zasób portfela. Przy najlepszych Partnerach, którzy wygenerowali największe liczby leadów – zaproponujemy dodatkowe, indywidualne premię."
+tytul_odnosnika = "Przeczytaj więcej"
+[[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "Szepnij o nas słówko "
+txt_block_size = "MD"
+[[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "swoim kontaktom w sieci"
 txt_block_size = "MD"
 
 +++
