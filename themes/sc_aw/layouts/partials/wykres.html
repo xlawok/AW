@@ -1,0 +1,44 @@
+<section class='sec-padding sc-wykres'>
+    
+   
+    {{ $header_list := (.header_repeater) }}
+
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "metrowka-sec-header")  -}}
+   
+    <div class='wykres-wrapper'>
+        <div class="easing-visualizer" style="">
+            <div class="bars-wrapper"></div>
+            <div class="dots-wrapper"></div>
+            <div class="months-wrapper">
+                <ol>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+            </div>
+          </div>
+    </div>
+    <div class="below-wykres-wrapper">
+        <div class='txt-red txt-MD f-w700'>{{.naglowek_pod_wykresem}}</div>
+        <div class='opis-pod-wykres'>
+            {{.opis_pod_wykresem | safeHTML}}
+        </div>
+    </div>
+</section>
+<style>
+.sc-wykres .easing-visualizer::after{
+    content: '{{.wykres_kwota_koncowa}}';
+}
+.sc-wykres .easing-visualizer::before{
+    content: '{{.wykres_kwota_startowa}}';
+}
+</style>

@@ -314,137 +314,137 @@ function fitElementToParent(el, padding, exception) {
 //   }
 // }, 0);
 
-// var introEasingsAnimation = (function() {
+var introEasingsAnimation = (function() {
 
-//   var easingVisualizerEl = document.querySelector('.easing-visualizer');
-//   var barsWrapperEl = easingVisualizerEl.querySelector('.bars-wrapper');
-//   var dotsWrapperEl = easingVisualizerEl.querySelector('.dots-wrapper');
-//   var barsFragment = document.createDocumentFragment();
-//   var dotsFragment = document.createDocumentFragment();
-//   var numberOfBars = 91;
-//   var duration = 450;
-//   var animation;
-//   var paused = true;
+  var easingVisualizerEl = document.querySelector('.easing-visualizer');
+  var barsWrapperEl = easingVisualizerEl.querySelector('.bars-wrapper');
+  var dotsWrapperEl = easingVisualizerEl.querySelector('.dots-wrapper');
+  var barsFragment = document.createDocumentFragment();
+  var dotsFragment = document.createDocumentFragment();
+  var numberOfBars = 91;
+  var duration = 450;
+  var animation;
+  var paused = true;
 
-//   fitElementToParent(easingVisualizerEl);
+  fitElementToParent(easingVisualizerEl);
 
-//   for (var i = 0; i < numberOfBars; i++) {
-//     var barEl = document.createElement('div');
-//     var dotEl = document.createElement('div');
-//     barEl.classList.add('bar');
-//     dotEl.classList.add('dot');
-//     dotEl.classList.add('color-red');
-//     barsFragment.appendChild(barEl);
-//     dotsFragment.appendChild(dotEl);
-//   }
+  for (var i = 0; i < numberOfBars; i++) {
+    var barEl = document.createElement('div');
+    var dotEl = document.createElement('div');
+    barEl.classList.add('bar');
+    dotEl.classList.add('dot');
+    dotEl.classList.add('color-red');
+    barsFragment.appendChild(barEl);
+    dotsFragment.appendChild(dotEl);
+  }
 
-//   barsWrapperEl.appendChild(barsFragment);
-//   dotsWrapperEl.appendChild(dotsFragment);
+  barsWrapperEl.appendChild(barsFragment);
+  dotsWrapperEl.appendChild(dotsFragment);
 
-//   var defaultEase = 'easeOutElastic';
+  var defaultEase = 'easeOutElastic';
 
-//   function play() {
+  function play() {
 
-//     paused = false;
+    paused = false;
 
-//     if (animation) animation.pause();
+    if (animation) animation.pause();
 
-//     var easings = [];
-//     for (let ease in anime.penner) easings.push(ease);
-//     easings.push('steps('+anime.random(5, 20)+')');
-//     easings.push('steps('+anime.random(5, 20)+')');
-//     easings.push('cubicBezier(0.545, 0.475, 0.145, 1)');
-//     var ease = easings[anime.random(0, easings.length - 1)];
+    var easings = [];
+    for (let ease in anime.penner) easings.push(ease);
+    easings.push('steps('+anime.random(5, 20)+')');
+    easings.push('steps('+anime.random(5, 20)+')');
+    easings.push('cubicBezier(0.545, 0.475, 0.145, 1)');
+    var ease = easings[anime.random(0, easings.length - 1)];
 
-//     animation = anime.timeline({
-//       duration: duration,
-//       easing: ease,
-//       complete: play
-//     })
-//     .add({
-//       targets: '.easing-visualizer .bar',
-//       scaleY: anime.stagger([1, 44], {easing: ease, from: 'center', direction: 'reverse'}),
-//       delay: anime.stagger(7, {from: 'center'})
-//     })
-//     .add({
-//       targets: '.easing-visualizer .dot',
-//       translateY: anime.stagger(['-160px', '160px'], {easing: ease, from: 'last'}),
-//       delay: anime.stagger(7, {from: 'center'})
-//     }, 0);
+    animation = anime.timeline({
+      duration: duration,
+      easing: ease,
+      complete: play
+    })
+    .add({
+      targets: '.easing-visualizer .bar',
+      scaleY: anime.stagger([25, 30], {easing: ease, from: 'center', direction: 'reverse'}),
+      delay: anime.stagger(30, {from: 'center'})
+    })
+    .add({
+      targets: '.easing-visualizer .dot',
+      translateY: anime.stagger(['-160px', '160px'], {easing: ease, from: 'last'}),
+      delay: anime.stagger(55, {from: 'center'})
+    }, 0);
 
-//   }
+  }
 
-//   function pause() {
+  function pause() {
 
-//     if (paused) return;
-//     paused = true;
-//     if (animation) animation.pause();
+    if (paused) return;
+    paused = true;
+    if (animation) animation.pause();
 
-//     animation = anime.timeline({
-//       easing: 'easeInOutQuad'
-//     })
-//     .add({
-//       targets: '.easing-visualizer .bar',
-//       scaleY: anime.stagger([1, 44], {easing: defaultEase, from: 'center', direction: 'reverse'}),
-//       duration: duration,
-//       delay: anime.stagger(7, {from: 'center'})
-//     })
-//     .add({
-//       targets: '.easing-visualizer .dot',
-//       translateY: anime.stagger(['-144px', '144px'], {easing: defaultEase, from: 'last'}),
-//       duration: duration,
-//       delay: anime.stagger(7, {from: 'center'})
-//     }, 0);
+    animation = anime.timeline({
+      easing: 'easeInOutQuad'
+    })
+    .add({
+      targets: '.easing-visualizer .bar',
+      scaleY: anime.stagger([1, 44], {easing: defaultEase, from: 'center', direction: 'reverse'}),
+      duration: duration,
+      delay: anime.stagger(7, {from: 'center'})
+    })
+    .add({
+      targets: '.easing-visualizer .dot',
+      translateY: anime.stagger(['-144px', '144px'], {easing: defaultEase, from: 'last'}),
+      duration: duration,
+      delay: anime.stagger(7, {from: 'center'})
+    }, 0);
 
-//   }
+  }
 
-//   function init() {
+  function init() {
 
-//     animation = anime.timeline({
-//       duration: 600,
-//       easing: 'easeInOutQuad',
-//       complete: function() {
-//         isElementInViewport(easingVisualizerEl, play, pause);
-//       }
-//     })
-//     .add({
-//       targets: '.easing-visualizer .bar',
-//       scale: [0, 1],
-//       delay: anime.stagger(8, {from: 'center'})
-//     })
-//     .add({
-//       targets: '.easing-visualizer .dot',
-//       scale: [0, 1],
-//       delay: anime.stagger(8, {from: 'center'}),
-//       complete: function() {
-//         headerIntroAnimation.play();
-//       }
-//     }, 0)
-//     .add({
-//       targets: '.easing-visualizer .bar',
-//       scaleY: anime.stagger([1, 44], {easing: 'easeInOutQuad', from: 'center', direction: 'reverse'}),
-//       duration: duration,
-//       easing: 'easeInOutQuad',
-//       delay: anime.stagger(7, {from: 'center'})
-//     })
-//     .add({
-//       targets: '.easing-visualizer .dot',
-//       translateY: anime.stagger(['-144px', '144px'], {easing: 'easeInOutQuad', from: 'last'}),
-//       duration: duration,
-//       easing: 'easeInOutQuad',
-//       delay: anime.stagger(7, {from: 'center'})
-//     }, '-=600');
+    animation = anime.timeline({
+      duration: 600,
+      easing: 'easeInOutQuad',
+      complete: function() {
+        isElementInViewport(easingVisualizerEl, play, pause);
+      }
+    })
+    .add({
+      targets: '.easing-visualizer .bar',
+      scale: [0, 1],
+      delay: anime.stagger(8, {from: 'center'})
+    })
+    .add({
+      targets: '.easing-visualizer .dot',
+      scale: [0, 1],
+      delay: anime.stagger(8, {from: 'center'}),
+      // complete: function() {
+      //   headerIntroAnimation.play();
+      // }
+    }, 0)
+    .add({
+      targets: '.easing-visualizer .bar',
+      scaleY: anime.stagger([1, 4], {easing: 'easeInOutQuad', from: 'center', direction: 'reverse'}),
+      duration: duration,
+      easing: 'easeInOutQuad',
+      delay: anime.stagger(7, {from: 'center'})
+    })
+    .add({
+      targets: '.easing-visualizer .dot',
+      translateY: anime.stagger(['-144px', '144px'], {easing: 'easeInOutQuad', from: 'last'}),
+      duration: duration,
+      easing: 'easeInOutQuad',
+      delay: anime.stagger(7, {from: 'center'})
+    }, '-=600');
 
 
-//   }
+  }
 
-//   return {
-//     init: init,
-//     play: play,
-//     pause: pause
-//   }
+  return {
+    init: init,
+    play: play,
+    pause: pause
+  }
 
-// })();
+})();
 
 // var sphereAnimation = (function() {
 
@@ -914,4 +914,4 @@ var timeControlAnimation = (function() {
 //   scrollToElement(document.querySelector('#getting-started'));
 // })
 
-// window.onload = introEasingsAnimation.init;
+window.onload = introEasingsAnimation.init;

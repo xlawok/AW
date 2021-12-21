@@ -171,7 +171,7 @@ txt_block = "swoim kontaktom w sieci"
 txt_block_size = "MD"
 [[sections]]
 naglowek_pod_wykresem = "Przykład"
-opis_pod_wykresem = "Polecony klient, który decyduje się na abonament w kwocie 1500 zł/miesięcznie.<br>- Polecony klient przynosi profit 500 zł netto dla Partnera w trybie natychmiastowym<br>- Comiesięczne zyski w postaci 5% to 75 zł netto dla Partnera<br>- Po 12 miesiącach współpracy Partner inkasuje 1400 zł na jednym poleceniu<br>"
+opis_pod_wykresem = "Polecony klient, który decyduje się na abonament w kwocie 1500 zł/miesięcznie.<ul><li> Polecony klient przynosi profit 500 zł netto dla Partnera w trybie natychmiastowym</li><li>Comiesięczne zyski w postaci 5% to 75 zł netto dla Partnera</li><li>Po 12 miesiącach współpracy Partner inkasuje 1400 zł na jednym poleceniu</li><ul>"
 template = "sekcja-wykres"
 wykres_kwota_koncowa = "1400 zł"
 wykres_kwota_startowa = "500 zł"

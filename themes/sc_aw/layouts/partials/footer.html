@@ -219,3 +219,5 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
+{{ $partnerskiJs := resources.Get "js/partnerski.js"  }}
+<script  type="text/javascript" src="{{ $partnerskiJs.Permalink }}" defer></script>

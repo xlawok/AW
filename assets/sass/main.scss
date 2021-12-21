@@ -5842,6 +5842,166 @@ justify-content: center;
   }
 
 }
+.sc-wykres{
+  .wykres-wrapper{
+    grid-column: 1/13;
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  padding-bottom: 50%;
+  max-width: 1198px;
+    &:before{
+      content: 'kwota';
+      position: absolute;
+      display: block;
+      
+      top: 0rem;
+      @media (min-width: 1920px) {
+        top: 2rem;
+      }
+      left: 0;
+      height: 3rem;
+      border-left: 1px solid #F53C37;
+      padding-left: 1rem;
+    }
+    &:after{
+      content: 'miesiące';
+      position: absolute;
+      display: block;
+      bottom: -1rem;
+      @media (min-width: 1920px) {
+        bottom: 2rem;
+      }
+      left: 0;
+      // height: 3rem;
+      border-bottom: 1px solid #F53C37;
+      padding-right: 1rem;
+    }
+  }
+  .easing-visualizer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 910px;
+    height: 455px;
+    margin: -227px 0 0 -455px;
+    &:before{
+      content: '';
+      position: absolute;
+      display: block;
+      left: 0;
+      bottom: 2rem;
+      @media (min-width: 1366px) {
+        left: -3rem;
+      }
+      
+      font-size: 1rem;
+      font-weight: bold;
+   
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      display: block;
+      top: -1rem;
+      right: 0;
+      @media (min-width: 1366px) {
+        right: -3rem;
+        top: 0;
+      }
+      @media (min-width: 1600px) {
+        right: -4rem;
+        top: 1rem;
+      }
+      // height: 3rem;
+      color: #F53C37;
+      font-size: 1.5625rem;
+      font-weight: bold;
+    }
+    >div {
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+    .bars-wrapper,
+    .dots-wrapper {
+      transform: translateZ(0);
+    }
+    .bar {
+      width: 10px;
+      height: 10px;
+      margin: 0;
+      // background-image: linear-gradient(180deg, #373734 0%, #242423 52%, #0D0D0C 100%);
+      background: transparent linear-gradient(180deg, #D6D6D6 0%, #BCBCBC 100%) 0% 0% no-repeat padding-box;
+      transform: scale(0);
+      transform-origin: 50% 50%;
+    }
+    .dot {
+      position: relative;
+      width: 10px;
+      height: 10px;
+      margin: 0;
+      background-color: #F53C37;
+      transform: scale(0);
+      border-radius: 50%;
+    }
+    .months-wrapper{
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      ol{
+        width: 100%;
+        display: flex;
+        counter-reset: item;
+        flex-direction: row;
+        align-self: flex-end;
+        padding-left: 0;
+        list-style-type: none;
+        justify-content: space-around;
+        li{
+          width: calc((100 /12) * 100%);
+          position: relative;
+          &:before { 
+            content: counter(item) "  "; 
+            counter-increment: item;
+            display: block;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+          }
+          &:not(:last-child) {
+            &:after{
+              height: 400px;
+              position:absolute;
+              bottom: 0;
+              right: 0;
+              content: '';
+              display: block;
+              border-right: 1px solid #F53C37;
+            }
+          }
+        }
+      }
+    }
+  }
+  .below-wykres-wrapper{
+    max-width: 1198px;
+    .opis-pod-wykres{
+      ul{
+       color: #F53C37; 
+       font-weight: 700;
+      }
+    }
+  }
+}
 .kontakt{
   .sc-contact{
     background-color: #f2f2f2;

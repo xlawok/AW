@@ -92,6 +92,9 @@
     {{if eq .template "sekcja-metrowka"}}
       {{- partial "metrowka.html" . -}}
     {{end}}
+    {{if eq .template "sekcja-wykres"}}
+      {{- partial "wykres.html" . -}}
+    {{end}}
   {{ end }}
   
 
