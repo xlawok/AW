@@ -190,5 +190,27 @@ color_txt = "czarny"
 ornament = "brak"
 txt_block = "na przykładzie rocznym"
 txt_block_size = "MD"
+[[sections]]
+e-mail = "j.horbacz@agencjawroclawska.pl"
+imie_i_nazwisko = "Jakub Horbacz"
+stanowisko = "SEO Manager"
+telefon = "+48 792 789 836"
+template = "naglowek-i-belka-czerwona"
+zdjecie = "/uploads/jakub1.jpg"
+[[sections.header_repeater]]
+block_tag_type = "div"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "Zainteresowanych"
+txt_block_size = "XL"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "zapraszamy do kontaktu!"
+txt_block_size = "L"
 
 +++
