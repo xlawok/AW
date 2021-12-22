@@ -73,6 +73,7 @@ fields:
   - '404'
   - sekcja-metrowka
   - sekcja-wykres
+  - naglowek-i-belka-czerwona
   config:
     min: 
     max: 
