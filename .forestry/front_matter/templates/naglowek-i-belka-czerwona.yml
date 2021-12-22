@@ -1,4 +1,34 @@
 ---
 label: Nagłówek i belka czerwona
 hide_body: true
-fields: []
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: imie_i_nazwisko
+  type: text
+  config:
+    required: false
+  label: Imię i nazwisko
+- name: stanowisko
+  type: text
+  config:
+    required: false
+  label: Stanowisko
+- name: telefon
+  type: text
+  config:
+    required: false
+  label: Telefon
+- name: e-mail
+  type: text
+  config:
+    required: false
+  label: E-mail
+- name: zdjecie
+  type: file
+  config:
+    maxSize: 1
+  label: Zdjęcie
