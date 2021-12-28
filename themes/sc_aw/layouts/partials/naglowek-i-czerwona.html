@@ -1,0 +1,30 @@
+<section class=' sc-czerwona-belka'>
+    
+   
+    {{ $header_list := (.header_repeater) }}
+
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "czerwona-sec-header")  -}}
+   
+    <div class='red-badge-wrapper sec-padding'>
+        <div class="badge-contact">
+            <span class="badge-name">
+                {{.imie_i_nazwisko}}
+            </span>
+            <span class="badge-position">
+                {{.stanowisko}}
+            </span>
+            <a class='tel-link' href="tel:{{.telefon}}">
+                {{.telefon}}
+            </a>
+            <a class='mail-link' href="mailto:{{.e_mail}}">
+                {{.e_mail}}
+            </a>
+        </div>
+        <div class="badge-img">
+            <div>
+                {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "" "ifsrcset" "nosrcset" "tag_class" "art-author-img")  -}}
+            </div>
+        </div>
+    </div>
+
+</section>

@@ -95,6 +95,9 @@
     {{if eq .template "sekcja-wykres"}}
       {{- partial "wykres.html" . -}}
     {{end}}
+    {{if eq .template "naglowek-i-belka-czerwona"}}
+      {{- partial "naglowek-i-czerwona.html" . -}}
+    {{end}}
   {{ end }}
   
 

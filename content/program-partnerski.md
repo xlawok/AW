@@ -182,7 +182,7 @@ break_line = true
 color_txt = "czerwony"
 ornament = "brak"
 txt_block = "Generowanie zysków"
-txt_block_size = "XL"
+txt_block_size = "XXL"
 [[sections.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
@@ -191,7 +191,7 @@ ornament = "brak"
 txt_block = "na przykładzie rocznym"
 txt_block_size = "MD"
 [[sections]]
-e-mail = "j.horbacz@agencjawroclawska.pl"
+e_mail = "j.horbacz@agencjawroclawska.pl"
 imie_i_nazwisko = "Jakub Horbacz"
 stanowisko = "SEO Manager"
 telefon = "+48 792 789 836"
@@ -204,7 +204,7 @@ break_line = true
 color_txt = "czerwony"
 ornament = "brak"
 txt_block = "Zainteresowanych"
-txt_block_size = "XL"
+txt_block_size = "XXL"
 [[sections.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"

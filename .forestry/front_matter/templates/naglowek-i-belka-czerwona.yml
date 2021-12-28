@@ -22,7 +22,7 @@ fields:
   config:
     required: false
   label: Telefon
-- name: e-mail
+- name: e_mail
   type: text
   config:
     required: false
