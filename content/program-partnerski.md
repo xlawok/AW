@@ -1,7 +1,7 @@
 +++
 body_class = "program-partnerski"
 description = "Program partnerski Agencji Wrocławskiej"
-draft = true
+draft = false
 keywords = ""
 robots = "noindex nofollow"
 slug = "program-partnerski"
@@ -126,6 +126,7 @@ tytul_wiersza = "Korzysci"
 [sections.wiersz_dwie_kolumny.kolumna_druga]
 film_obrazek = "image"
 obrazek = "/uploads/korzysci.svg"
+obrazek_dark_mode = "/uploads/korzysci.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = []
 opis = "<p class='txt-MD f-w700'><span class='txt-break txt-red'>Zarabiaj dodatkowe pieniądze</span> wprost ze swojej kanapy</p>Zostanie partnerem Agencji Wrocławskiej jest proste i lukratywne. Jedyne co musisz zrobić to przekazać dane poleconego klienta, później Twoim zadaniem jest tylko sprawdzenie swojego konta bankowego i liczenie profitu."
@@ -150,6 +151,7 @@ tytul_wiersza = "szepnij"
 [sections.wiersz_dwie_kolumny.kolumna_druga]
 film_obrazek = "image"
 obrazek = "/uploads/slowko.svg"
+obrazek_dark_mode = "/uploads/slowko.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = []
 opis = "Jako Partner Agencji Wrocławskiej nie ma różnicy czy poleciłeś nam 1, czy 10 klientów. Twoje warunki zawsze będą takie same, dlatego zwiększając liczbę poleconych klientów zwiększa się Twój zasób portfela. Przy najlepszych Partnerach, którzy wygenerowali największe liczby leadów – zaproponujemy dodatkowe, indywidualne premię."
