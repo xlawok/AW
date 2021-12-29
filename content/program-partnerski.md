@@ -2,9 +2,9 @@
 body_class = "program-partnerski"
 description = "Program partnerski Agencji Wrocławskiej"
 keywords = ""
-robots = "noindex nofollow"
+robots = "index follow"
 slug = "program-partnerski"
-title = "Program Partnerski - Agencja Wrocławska"
+title = "Program Partnerski | Agencja Wrocławska"
 [menu.main]
 name = "Program partnerski"
 parent = "O nas"
