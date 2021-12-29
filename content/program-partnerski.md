@@ -1,11 +1,14 @@
 +++
 body_class = "program-partnerski"
 description = "Program partnerski Agencji Wrocławskiej"
-draft = false
 keywords = ""
 robots = "noindex nofollow"
 slug = "program-partnerski"
 title = "Program Partnerski - Agencja Wrocławska"
+[menu.main]
+name = "Program partnerski"
+parent = "O nas"
+weight = 3
 [[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_left_dark = ""
