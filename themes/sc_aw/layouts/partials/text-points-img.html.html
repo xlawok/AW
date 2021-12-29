@@ -2,7 +2,7 @@
 {{ $random := delimit (shuffle (split (md5 $seed) "" )) "" }}
 <section class='sec-padding sc-text-points-img {{.klasa_sekcji}} a{{$random}}'>
     
-        <div class='two-col-row cnt-visibility'>
+        <div class='two-col-row '>
             {{ $header_list := (.header_repeater) }}
             {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
             <div class='first-col'>
