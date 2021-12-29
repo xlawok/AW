@@ -118,7 +118,7 @@ opis_pod_metrowka = "Przygotowujemy strategię działań oraz research słów kl
 [[sections.matrowka]]
 opis_pod_metrowka = "Analizujemy z klientem dotychczasowe sugestię oraz frazy kluczowe, które mają być najbardziej opłacalne"
 [[sections.matrowka]]
-opis_pod_metrowka = "Lorem ipsum"
+opis_pod_metrowka = "Po wykonaniu wszystkich kroków tworzących całą strategię działań marketingowych – rozpoczynamy współpracę, a Ty możesz cieszyć się dodatkowym miesięcznym profitem."
 [[sections]]
 template = "sekcja-przemienne-kolumny-txt-img"
 [[sections.wiersz_dwie_kolumny]]
