@@ -42,7 +42,7 @@ sections:
     - naglowek: 0,1 dekady (doświadczenie)
       obrazek: "/uploads/onas-1.svg"
       if_svg: true
-    - naglowek: 9 osobowy zespół
+    - naglowek: 14 osobowy zespół
       obrazek: "/uploads/onas-2.svg"
       if_svg: true
     - naglowek: Gwarancja efektów
@@ -62,6 +62,9 @@ sections:
   banner_bg_for_center_left_dark: "/uploads/onas-left-dark-1.svg"
   banner_bg_for_center_right_dark: "/uploads/onas-right-dark-1.svg"
   banner_bg_no_img_dark: ''
+  formularz_wylaczony: false
+  tekst_pod_naglowkiem: ''
+  dymki_z_tekstem: []
 - template: sekcja-strona-o-nas-kolumny-historia-misja
   kolumny_o_nas:
   - opis: 'Dwóch entuzjastów branży SEO postanowiło rozpocząć komercjalizacje swojego
@@ -159,16 +162,28 @@ sections:
     stanowisko: Key Account Manager
   - obrazek: "/uploads/agata1.jpg"
     my_name: Agata
-    stanowisko: Head of Administration
+    stanowisko: Copywriter
   - obrazek: "/uploads/robert1.jpeg"
     my_name: Robert
-    stanowisko: SEO Specialist
-  - obrazek: "/uploads/mateusz1.jpg"
-    my_name: Mateusz
-    stanowisko: SEO Specialist
+    stanowisko: Google ADS Manager
   - obrazek: "/uploads/wladek.jpg"
     my_name: Władek
     stanowisko: SEO Expert
+  - obrazek: "/uploads/julia.jpeg"
+    my_name: Julia
+    stanowisko: Social Media Manager
+  - obrazek: "/uploads/magda.jpeg"
+    my_name: Magda
+    stanowisko: Junior SEO Specialist
+  - obrazek: "/uploads/ola.jpeg"
+    my_name: Ola
+    stanowisko: SEO Specialist
+  - obrazek: "/uploads/agata.jpeg"
+    my_name: Agata
+    stanowisko: Junior SEO Specialist
+  - obrazek: "/uploads/mateusz1.jpg"
+    my_name: Mateusz
+    stanowisko: SEO Specialist
   - obrazek: "/uploads/sziba1.jpg"
     my_name: Shiba
     stanowisko: Doge
