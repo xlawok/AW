@@ -145,9 +145,6 @@ sections:
       txt_block_size: XL
 - template: sekcja-o-nas-druzyna-pierscienia
   section_team_group:
-  - obrazek: "/uploads/julia.jpeg"
-    my_name: Julia
-    stanowisko: Social Media Manager
   - obrazek: "/uploads/bartek1.jpg"
     my_name: Bartek
     stanowisko: Marketing Manager
@@ -166,20 +163,23 @@ sections:
   - obrazek: "/uploads/agata1.jpg"
     my_name: Agata
     stanowisko: Head of Administration
-  - obrazek: "/uploads/robert1.jpeg"
-    my_name: Robert
-    stanowisko: SEO Specialist
-  - obrazek: "/uploads/mateusz1.jpg"
-    my_name: Mateusz
-    stanowisko: SEO Specialist
+  - obrazek: "/uploads/julia.jpeg"
+    my_name: Julia
+    stanowisko: Social Media Manager
   - obrazek: "/uploads/wladek.jpg"
     my_name: Władek
     stanowisko: SEO Expert
+  - obrazek: "/uploads/robert1.jpeg"
+    my_name: Robert
+    stanowisko: Google ADS Expert
   - obrazek: "/uploads/magda.jpeg"
     my_name: Magda
     stanowisko: Junior SEO Specialist
   - obrazek: "/uploads/ola.jpeg"
     my_name: Ola
+    stanowisko: SEO Specialist
+  - obrazek: "/uploads/mateusz1.jpg"
+    my_name: Mateusz
     stanowisko: SEO Specialist
   - obrazek: "/uploads/agata.jpeg"
     my_name: Agata
