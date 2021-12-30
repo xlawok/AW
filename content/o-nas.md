@@ -62,6 +62,9 @@ sections:
   banner_bg_for_center_left_dark: "/uploads/onas-left-dark-1.svg"
   banner_bg_for_center_right_dark: "/uploads/onas-right-dark-1.svg"
   banner_bg_no_img_dark: ''
+  formularz_wylaczony: false
+  tekst_pod_naglowkiem: ''
+  dymki_z_tekstem: []
 - template: sekcja-strona-o-nas-kolumny-historia-misja
   kolumny_o_nas:
   - opis: 'Dwóch entuzjastów branży SEO postanowiło rozpocząć komercjalizacje swojego
@@ -142,6 +145,9 @@ sections:
       txt_block_size: XL
 - template: sekcja-o-nas-druzyna-pierscienia
   section_team_group:
+  - obrazek: "/uploads/magda.jpeg"
+    my_name: Magda
+    stanowisko: Junior SEO Specialist
   - obrazek: "/uploads/bartek1.jpg"
     my_name: Bartek
     stanowisko: Marketing Manager
