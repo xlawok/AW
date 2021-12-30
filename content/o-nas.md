@@ -178,12 +178,12 @@ sections:
   - obrazek: "/uploads/ola.jpeg"
     my_name: Ola
     stanowisko: SEO Specialist
-  - obrazek: "/uploads/mateusz1.jpg"
-    my_name: Mateusz
-    stanowisko: SEO Specialist
   - obrazek: "/uploads/agata.jpeg"
     my_name: Agata
     stanowisko: Junior SEO Specialist
+  - obrazek: "/uploads/mateusz1.jpg"
+    my_name: Mateusz
+    stanowisko: SEO Specialist
   - obrazek: "/uploads/sziba1.jpg"
     my_name: Shiba
     stanowisko: Doge
