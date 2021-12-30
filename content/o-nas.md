@@ -171,7 +171,7 @@ sections:
     stanowisko: SEO Expert
   - obrazek: "/uploads/robert1.jpeg"
     my_name: Robert
-    stanowisko: Google ADS Expert
+    stanowisko: Google ADS Manager
   - obrazek: "/uploads/magda.jpeg"
     my_name: Magda
     stanowisko: Junior SEO Specialist
