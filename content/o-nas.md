@@ -175,6 +175,9 @@ sections:
   - obrazek: "/uploads/magda.jpeg"
     my_name: Magda
     stanowisko: Junior SEO Specialist
+  - obrazek: "/uploads/ola.jpeg"
+    my_name: Ola
+    stanowisko: SEO Specialist
   - obrazek: "/uploads/sziba1.jpg"
     my_name: Shiba
     stanowisko: Doge
