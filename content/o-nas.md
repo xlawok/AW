@@ -145,9 +145,6 @@ sections:
       txt_block_size: XL
 - template: sekcja-o-nas-druzyna-pierscienia
   section_team_group:
-  - obrazek: "/uploads/magda.jpeg"
-    my_name: Magda
-    stanowisko: Junior SEO Specialist
   - obrazek: "/uploads/bartek1.jpg"
     my_name: Bartek
     stanowisko: Marketing Manager
@@ -175,6 +172,9 @@ sections:
   - obrazek: "/uploads/wladek.jpg"
     my_name: Władek
     stanowisko: SEO Expert
+  - obrazek: "/uploads/magda.jpeg"
+    my_name: Magda
+    stanowisko: Junior SEO Specialist
   - obrazek: "/uploads/sziba1.jpg"
     my_name: Shiba
     stanowisko: Doge
