@@ -7,7 +7,8 @@ slug = "slownik"
 title = "Słownik SEO | Agencja Wrocławska"
 [menu.main]
 name = "Słownik SEO"
-weight = 4
+parent = "Pozycjonowanie"
+weight = 7
 [[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_left_dark = ""
