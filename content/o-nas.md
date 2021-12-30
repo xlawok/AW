@@ -145,6 +145,9 @@ sections:
       txt_block_size: XL
 - template: sekcja-o-nas-druzyna-pierscienia
   section_team_group:
+  - obrazek: "/uploads/julia.jpeg"
+    my_name: Julia
+    stanowisko: Social Media Manager
   - obrazek: "/uploads/bartek1.jpg"
     my_name: Bartek
     stanowisko: Marketing Manager
