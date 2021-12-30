@@ -175,12 +175,12 @@ sections:
   - obrazek: "/uploads/julia.jpeg"
     my_name: Julia
     stanowisko: Social Media Manager
-  - obrazek: "/uploads/magda.jpeg"
-    my_name: Magda
-    stanowisko: Junior SEO Specialist
   - obrazek: "/uploads/ola.jpeg"
     my_name: Ola
     stanowisko: SEO Specialist
+  - obrazek: "/uploads/magda.jpeg"
+    my_name: Magda
+    stanowisko: Junior SEO Specialist
   - obrazek: "/uploads/agata.jpeg"
     my_name: Agata
     stanowisko: Junior SEO Specialist
