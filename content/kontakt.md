@@ -7,7 +7,7 @@ slug = "kontakt"
 title = "Kontakt - SEO Wrocław - 792 789 836 | Agencja Wrocławska"
 [menu.main]
 name = "Kontakt"
-weight = 4
+weight = 5
 [[sections]]
 banner_bg_for_center = ""
 banner_bg_for_center_left = ""
