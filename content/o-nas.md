@@ -162,7 +162,7 @@ sections:
     stanowisko: Key Account Manager
   - obrazek: "/uploads/agata1.jpg"
     my_name: Agata
-    stanowisko: Head of Administration
+    stanowisko: Copywriter
   - obrazek: "/uploads/julia.jpeg"
     my_name: Julia
     stanowisko: Social Media Manager
