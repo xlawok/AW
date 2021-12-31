@@ -169,15 +169,15 @@ sections:
   - obrazek: "/uploads/robert1.jpeg"
     my_name: Robert
     stanowisko: Google ADS Manager
+  - obrazek: "/uploads/julia.jpeg"
+    my_name: Julia
+    stanowisko: Social Media Manager
   - obrazek: "/uploads/mateusz1.jpg"
     my_name: Mateusz
     stanowisko: SEO Specialist
   - obrazek: "/uploads/ola.jpeg"
     my_name: Ola
     stanowisko: SEO Specialist
-  - obrazek: "/uploads/julia.jpeg"
-    my_name: Julia
-    stanowisko: Social Media Manager
   - obrazek: "/uploads/_79b1097-2.jpg"
     my_name: Eugenia
     stanowisko: Junior SEO Specialist
