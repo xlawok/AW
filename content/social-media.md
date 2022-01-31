@@ -263,6 +263,27 @@ ornament = "brak"
 txt_block = "Facebook Ads"
 txt_block_size = "XXL"
 [[sections]]
+opis = "Kampanie na Facebooku występują tam, gdzie Twoi klienci. Dzięki różnym formą reklamy można dotrzeć do grupy docelowej i uzyskać zamierzony efekt. Dużym plusem jest wolność finansowa, jeżeli masz 600zł wolnego budżetu możesz go zainwestować. Jeszcze lepszy efekt uzyskasz przy 3000zł budżetu. Nie masz sztywnie określonej kwoty, wkładasz w reklamę tyle ile chcesz. Facebook Ads można wyświetlać w określonych godzinach i dniach."
 template = "sekcja-czerwony-box-srodek"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "biały"
+ornament = "brak"
+txt_block = "Zalety"
+txt_block_size = "XL"
+[[sections]]
+ikona_obok_naglowka = "/uploads/tiktok_sklep.png"
+template = "sekcja-formy-reklamy"
+[[sections.boxy]]
+opis = "czyli pojedyncza grafika, którą sami przygotujemy."
+tytul = "Obraz"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czerwony"
+ornament = "lewa w dół"
+txt_block = "Formy reklamy"
+txt_block_size = "XL"
 
 +++
