@@ -144,6 +144,26 @@ txt_block_size = "XL"
 underline = false
 [[sections.punkty]]
 ikona = "/uploads/onas-1.svg"
+podtytul = "ds. social media"
+tytul = "KONTAKT SPECJALISTY"
+[[sections.punkty]]
+ikona = "/uploads/onas-1.svg"
+podtytul = "wybór odpowiedniego pakietu"
+tytul = "OMÓWIENIE STRATEGII"
+[[sections.punkty]]
+ikona = "/uploads/onas-1.svg"
+podtytul = "według uzgodnionych warunków"
+tytul = "ZAWARCIE UMOWY"
+[[sections.punkty]]
+ikona = "/uploads/onas-1.svg"
+podtytul = "lub jego uzupełnienie"
+tytul = "ZAŁOŻENIE PROFILU"
+[[sections.punkty]]
+ikona = "/uploads/onas-1.svg"
+podtytul = "na profilu"
+tytul = "WDROŻENIE DZIAŁAŃ"
+[[sections.punkty]]
+ikona = "/uploads/onas-1.svg"
 podtytul = "co miesiąc z przeprowadzonych działań"
 tytul = "RAPORTOWANIE"
 
