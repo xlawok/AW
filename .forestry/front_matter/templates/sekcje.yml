@@ -79,6 +79,7 @@ fields:
   - sekcja-oferta-2-kol-tekst-ikona
   - sekcja-formy-reklamy
   - sekcja-duzy-cta-z-ikona
+  - sekcja-czerwony-box-srodek
   config:
     min: 
     max: 
