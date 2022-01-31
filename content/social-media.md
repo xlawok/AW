@@ -186,6 +186,22 @@ txt_block = "współpracy"
 txt_block_size = "XL"
 [[sections.punkty_zasad]]
 ikona = "/uploads/onas-2.svg"
+opis = "Poprzez prowadzenie profilu w Social Mediach i unikatowy content można dać klientom łatwy dostęp do marki, przedstawić wyjątkowość produktów oraz dać możliwość uczestniczenia w życiu profilu.Skłaniamy konsumenta to refleksji, zastanowienia się i zainteresowanie profilem Zachęcamy klienta do komunikacji, wyrażania opinii i tworzeniu wspólnie profilu w Social Mediach, który chce oglądać."
+tytul = "Wyróżnić"
+[[sections.punkty_zasad]]
+ikona = "/uploads/onas-2.svg"
+opis = "Planowanie działan i budowanie atrakcyjnego contentu zagwarantuje wzrost efektywności komunikacji w social mediach. Aby prowadzić właściwie profil trzeba dobrze poznać konsumenta, jego działania, wybory i preferencje wyświetlania. Do tego służy nam analiza dotychczasowych działan klienta, dobranie odpowiedniej grupy docelowej, badania nastroju i odczuć użytkownika. Na podstawie zebranych informacji projektujemy posty, relacje i grafiki."
+tytul = "Tworzyć atrakcyjny content"
+[[sections.punkty_zasad]]
+ikona = "/uploads/onas-2.svg"
+opis = "Konieczna jest najwyższa jakość pracy i efektywne planowanie. Dzięki temu możemy utrzymać zadowalające usługi i tworzyć całkowity content (grafiki, tekst, relacje, posty), które będą zaplanowane do publikacji na cały miesiąc. Pozwala to na stałą obsługę oraz skuteczne działanie na profilach w social mediach."
+tytul = "Planować"
+[[sections.punkty_zasad]]
+ikona = "/uploads/onas-2.svg"
+opis = "Treści publikowane są autentyczne, wyjątkowe i przyciągające uwagę klienta. Dodatkowo działamy płatnymi reklamami Facebook Ads, co skutkuje wzrostem zasięgu i większą sprzedaż. Specjaliści odpowiednio dobierają grupy odbiorców, hasła oraz reklamy pod zainteresowanych."
+tytul = "Budować zasięg"
+[[sections.punkty_zasad]]
+ikona = "/uploads/onas-2.svg"
 opis = "Konieczna jest najwyższa jakość pracy i efektywne planowanie. Dzięki temu możemy utrzymać zadowalające usługi i tworzyć całkowity content (grafiki, tekst, relacje, posty), które będą zaplanowane do publikacji na cały miesiąc. Pozwala to na stałą obsługę oraz skuteczne działanie na profilach w social mediach."
 tytul = "Analizować"
 
