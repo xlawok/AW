@@ -262,5 +262,7 @@ color_txt = "czerwony"
 ornament = "brak"
 txt_block = "Facebook Ads"
 txt_block_size = "XXL"
+[[sections]]
+template = "sekcja-czerwony-box-srodek"
 
 +++
