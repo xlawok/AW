@@ -74,6 +74,11 @@ fields:
   - sekcja-metrowka
   - sekcja-wykres
   - naglowek-i-belka-czerwona
+  - sekcja-zasady-wspolpracy
+  - sekcja-strategia-punkty-w-okregach
+  - sekcja-oferta-2-kol-tekst-ikona
+  - sekcja-formy-reklamy
+  - sekcja-duzy-cta-z-ikona
   config:
     min: 
     max: 
