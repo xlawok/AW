@@ -1,4 +1,41 @@
 ---
 label: Sekcja - zasady współpracy
 hide_body: true
-fields: []
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: ikona_obok_naglowka
+  type: file
+  config:
+    maxSize: 1
+  label: Ikona obok nagłówka
+- name: punkty_zasad
+  type: field_group_list
+  fields:
+  - name: ikona
+    type: file
+    config:
+      maxSize: 1
+    label: Ikona
+  - name: tytul
+    type: text
+    config:
+      required: false
+    label: Tytuł
+  - name: opis
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Opis
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Punkty zasad
