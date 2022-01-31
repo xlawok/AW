@@ -306,4 +306,12 @@ otworz_modal = "<div class=\"form-header\">Zamów bezpłatną wycenę w 24h!</di
 polozenie_ikony = "lewa"
 template = "sekcja-duzy-cta-z-ikona"
 tytul_odnosnika = "Skontaktuj się z nami"
+[[sections]]
+e_mail = " j.pietraszko@agencjawroclawska.pl"
+imie_i_nazwisko = "Julia Pietraszko"
+stanowisko = "Social Media Manager"
+telefon = "+48 667 422 354"
+template = "naglowek-i-belka-czerwona"
+zdjecie = "/uploads/julia.jpeg"
+
 +++
