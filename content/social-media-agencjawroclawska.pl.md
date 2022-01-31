@@ -121,5 +121,30 @@ tekst = "Stworzymy KV komunikacji przystosowany do kanałów social media"
 tekst = "Zaplanujemy publikacje na najbliższe miesiące"
 [[sections.punkty_w_okregach]]
 tekst = "Zaopiekujemy się działaniami związanymi z administrowaniem Twoich profili"
+[[sections]]
+opis = "W ramach obsługi profilu na Instagramie i Facebooku klienci otrzymują wsparcie oraz stały kontakt ze specjalistą. <br><br>Po rozpoczęciu współpracy klient otrzymuje analizę dotychczasowych działań w social mediach, na podstawie analizy pracujemy strategię, content i cele działania profilu. Klient co miesiąc otrzymuje plan publikacji na kolejny miesiąc (posty, teksty, grafiki, relacje). <br><br>Podczas trwania współpracy dbamy o konto i utrzymujemy stałą komunikację."
+template = "sekcja-oferta-2-kol-tekst-ikona"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Oferta obsługi"
+txt_block_size = "MD"
+underline = false
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czerwony"
+ornament = "prawa w dół"
+txt_block = "Social Mediów"
+txt_block_size = "XL"
+underline = false
+[[sections.punkty]]
+ikona = "/uploads/onas-1.svg"
+podtytul = "co miesiąc z przeprowadzonych działań"
+tytul = "RAPORTOWANIE"
 
 +++
