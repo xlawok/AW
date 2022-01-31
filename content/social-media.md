@@ -204,5 +204,10 @@ tytul = "Budować zasięg"
 ikona = "/uploads/onas-2.svg"
 opis = "Konieczna jest najwyższa jakość pracy i efektywne planowanie. Dzięki temu możemy utrzymać zadowalające usługi i tworzyć całkowity content (grafiki, tekst, relacje, posty), które będą zaplanowane do publikacji na cały miesiąc. Pozwala to na stałą obsługę oraz skuteczne działanie na profilach w social mediach."
 tytul = "Analizować"
+[[sections]]
+ikona = "/uploads/jak-nauczyc-sie-pozycjonowania.jpg"
+polozenie_ikony = "prawa"
+template = "sekcja-duzy-cta-z-ikona"
+tytul_odnosnika = "Skontaktuj się z nami"
 
 +++
