@@ -2,6 +2,20 @@
 label: Sekcja - oferta 2 kol tekst ikona
 hide_body: true
 fields:
+- name: naglowek_sekcji
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek sekcji
+- name: opis
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Opis sekcji
 - name: punkty
   type: field_group_list
   fields:
