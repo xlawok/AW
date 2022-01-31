@@ -26,10 +26,13 @@ banner_form_script_no_img = ""
 banner_img = "/uploads/wroclaw_kontakt-2.jpg"
 banner_list_gruop = []
 banner_type = "wide_img"
+dymki_z_tekstem = []
+formularz_wylaczony = false
 naglowek_formularza = "Zamów bezpłatną wycenę w 24h!"
 naglowek_formularza_no_img = ""
 opis_banner = ""
 otworz_modal = ""
+tekst_pod_naglowkiem = ""
 template = "banner"
 [[sections.banner_header_cnt.header_repeater]]
 block_tag_type = "h1"
@@ -81,11 +84,11 @@ wiersz_danych_adresowych = "Agencja Wrocławska Sp. z o.o."
 [[sections.contact_data_contact_group.lewa_kolumna.dane_adresowe]]
 adres_do_linkowania = ""
 if_link = "none"
-wiersz_danych_adresowych = "ul. Hercena 3-5"
+wiersz_danych_adresowych = "ul. Dmowskiego 17"
 [[sections.contact_data_contact_group.lewa_kolumna.dane_adresowe]]
 adres_do_linkowania = ""
 if_link = "none"
-wiersz_danych_adresowych = "50-453 Wrocław"
+wiersz_danych_adresowych = "50-203 Wrocław"
 [[sections.contact_data_contact_group.lewa_kolumna.dane_adresowe]]
 adres_do_linkowania = "+48 536 742 137"
 if_link = "tel"
