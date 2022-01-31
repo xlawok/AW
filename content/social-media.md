@@ -237,5 +237,30 @@ color_txt = "czerwony"
 ornament = "brak"
 txt_block = "Facebook Ads Instagram Ads"
 txt_block_size = "XXL"
+[[sections.wiersz_dwie_kolumny]]
+tytul_wiersza = "Dlaczego Facebook Ads"
+[sections.wiersz_dwie_kolumny.kolumna_druga]
+film_obrazek = "image"
+obrazek = "/uploads/wyszukiwarka.svg"
+obrazek_dark_mode = "/uploads/wyszukiwarka.svg"
+[sections.wiersz_dwie_kolumny.kolumna_pierwsza]
+adres_odnosnika = []
+opis = "Najszybciej i najlepiej rozwijające się reklamy w Internecie to właśnie Facebook Ads. Coraz więcej firm korzysta z takiej formy reklamy produktów i usług. Facebook Ads posiada doskonałe możliwości dobierania grup odbiorców i dopasowania dla nich oferty.<br><br><span class='txt-red'>Każdy może ustalić budżet według swoich możliwości finansowych.</span>"
+tytul_odnosnika = "Przeczytaj więcej"
+[[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "normalny"
+break_line = true
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Dlaczego"
+txt_block_size = "XXL"
+[[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "Facebook Ads"
+txt_block_size = "XXL"
 
 +++
