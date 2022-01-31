@@ -166,5 +166,27 @@ tytul = "WDROŻENIE DZIAŁAŃ"
 ikona = "/uploads/onas-1.svg"
 podtytul = "co miesiąc z przeprowadzonych działań"
 tytul = "RAPORTOWANIE"
+[[sections]]
+ikona_obok_naglowka = "/uploads/reklama_gads.svg"
+template = "sekcja-zasady-wspolpracy"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "normalny"
+break_line = true
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Zasady"
+txt_block_size = "MD"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+color_txt = "czerwony"
+ornament = "lewa w dół"
+txt_block = "współpracy"
+txt_block_size = "XL"
+[[sections.punkty_zasad]]
+ikona = "/uploads/onas-2.svg"
+opis = "Konieczna jest najwyższa jakość pracy i efektywne planowanie. Dzięki temu możemy utrzymać zadowalające usługi i tworzyć całkowity content (grafiki, tekst, relacje, posty), które będą zaplanowane do publikacji na cały miesiąc. Pozwala to na stałą obsługę oraz skuteczne działanie na profilach w social mediach."
+tytul = "Analizować"
 
 +++
