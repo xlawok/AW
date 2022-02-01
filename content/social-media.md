@@ -190,6 +190,7 @@ opis = "Poprzez prowadzenie profilu w Social Mediach i unikatowy content można 
 tytul = "Wyróżnić"
 [[sections.punkty_zasad]]
 ikona = "/uploads/onas-2.svg"
+ikona_dark_mode = "/uploads/seo3.svg"
 opis = "Planowanie działan i budowanie atrakcyjnego contentu zagwarantuje wzrost efektywności komunikacji w social mediach. Aby prowadzić właściwie profil trzeba dobrze poznać konsumenta, jego działania, wybory i preferencje wyświetlania. Do tego służy nam analiza dotychczasowych działan klienta, dobranie odpowiedniej grupy docelowej, badania nastroju i odczuć użytkownika. Na podstawie zebranych informacji projektujemy posty, relacje i grafiki."
 tytul = "Tworzyć atrakcyjny content"
 [[sections.punkty_zasad]]
