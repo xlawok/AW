@@ -98,6 +98,16 @@
     {{if eq .template "naglowek-i-belka-czerwona"}}
       {{- partial "naglowek-i-czerwona.html" . -}}
     {{end}}
+    {{if eq .template "sekcja-strategia-punkty-w-okregach"}}
+      {{- partial "sekcja-strategia-punkty-w-okregach.html" . -}}
+    {{end}}
+    {{if eq .template "sekcja-oferta-2-kol-tekst-ikona"}}
+      {{- partial "sekcja-oferta-2-kol-tekst-ikona.html" . -}}
+    {{end}}
+    {{if eq .template "sekcja-zasady-wspolpracy"}}
+      {{- partial "sekcja-zasady-wspolpracy.html" . -}}
+    {{end}}
+    
   {{ end }}
   
 
