@@ -12,6 +12,11 @@ fields:
   config:
     maxSize: 1
   label: Ikona obok nagłówka
+- name: ikona_obok_naglowka_dark_mode
+  type: file
+  config:
+    maxSize: 1
+  label: Ikona obok nagłówka dark mode
 - name: punkty_zasad
   type: field_group_list
   fields:
@@ -20,6 +25,11 @@ fields:
     config:
       maxSize: 1
     label: Ikona
+  - name: ikona_dark_mode
+    type: file
+    config:
+      maxSize: 1
+    label: Ikona dark mode
   - name: tytul
     type: text
     config:

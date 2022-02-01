@@ -189,9 +189,14 @@ document.addEventListener("DOMContentLoaded", function() {
   )
 
   function closeModal() {
-    var modal_quote_outer =  document.querySelector(".modal-quote-outer");
-    if(modal_quote_outer)
-    modal_quote_outer.classList.remove('modal-active');
+    var modal_quote_outer =  document.querySelectorAll(".modal-quote-outer");
+    
+    if(modal_quote_outer){
+      for (var i = 0; i < modal_quote_outer.length; i++) {
+        modal_quote_outer[i].classList.remove('modal-active');
+      }
+    }
+    
   }
 
 

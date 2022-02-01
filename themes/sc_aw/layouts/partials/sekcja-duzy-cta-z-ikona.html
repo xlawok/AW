@@ -1,0 +1,28 @@
+{{$tytul_odnosnika:=.tytul_odnosnika}}
+{{$polozenie_ikony:=.polozenie_ikony}}
+{{$ikona := .ikona}}
+{{$ikona_dark_mode := .ikona_dark_mode}}
+
+{{ $seed := "aw" }}
+{{ $random := delimit (shuffle (split (md5 $seed) "" )) "" }}
+{{with .otworz_modal}}
+    <section class='sec-padding sc-soc-cta icon-arrange-{{$polozenie_ikony}}'>
+        <div class='icon-wrapper'>
+            
+                            
+            {{with $ikona_dark_mode}}
+                {{- partial "img.html" (dict "image" $ikona "imgsizes" "" "tag_class" "col-img lmode" "ifsrcset" "nosrcset")  -}}
+                {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "dmode")  -}}
+            {{else}}
+                {{- partial "img.html" (dict "image" $ikona "imgsizes" "" "tag_class" "col-img" "ifsrcset" "nosrcset")  -}}
+            {{end}} 
+        </div>
+        <button data-modaltarget='modal-soc{{$random}}' class='open-modal-quote cta-soc-button' href='#'>{{$tytul_odnosnika}}</button>
+    </section>
+    <div data-modalname='modal-soc{{$random}}' class='modal-quote-outer'>
+        <div class='modal-wrapper'>
+        <a href="#" class='button-close-modal'></a>
+            {{. |safeHTML}}
+        </div>
+    </div>
+{{ end }}

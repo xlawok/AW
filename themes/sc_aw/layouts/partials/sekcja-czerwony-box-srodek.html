@@ -1,0 +1,10 @@
+<section class='sec-padding sc-soc-big-red'>
+    <div class='red-box-wrapper'>
+        {{ $header_list := (.header_repeater) }}
+    
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "front-news-header")  -}}
+        <div class='opis'>
+            {{.opis | safeHTML}}
+        </div>
+    </div>
+</section>

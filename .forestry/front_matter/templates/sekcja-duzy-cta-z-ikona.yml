@@ -21,6 +21,11 @@ fields:
   config:
     maxSize: 1
   label: Ikona
+- name: ikona_dark_mode
+  type: file
+  config:
+    maxSize: 1
+  label: Ikona dark mode
 - name: polozenie_ikony
   type: select
   default: []
