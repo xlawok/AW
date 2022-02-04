@@ -1,7 +1,7 @@
 +++
 author = "data/authors/julia.yml"
 categories = []
-date = ""
+date = 2022-02-04T13:43:00Z
 description = "Zastanawiasz się nad wprowadzeniem płatnych reklam dla swojej firmy na portalu Facebook? Facebook Ads umożliwia takie działania, o których przeczytasz w tym artykule!"
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = ""
