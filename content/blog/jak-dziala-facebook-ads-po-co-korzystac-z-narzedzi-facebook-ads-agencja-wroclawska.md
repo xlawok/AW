@@ -14,7 +14,7 @@ title = "Jak działa Facebook Ads? Po co korzystać z narzędzi Facebook Ads? | 
 tytul_do_listowania = "Jak działa Facebook Ads? Po co korzystać z narzędzi Facebook Ads?"
 tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
 [[header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h1"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czerwony"
