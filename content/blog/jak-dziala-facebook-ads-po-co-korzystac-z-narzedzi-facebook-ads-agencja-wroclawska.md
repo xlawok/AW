@@ -43,12 +43,12 @@ title = "5. Zalety reklam Facebook Ads"
 
 Zastanawiasz się nad wprowadzeniem płatnych reklam dla swojej firmy na portalu Facebook? Facebook Ads umożliwia takie działania. Jest to narzędzie Facebooka, które zostało stworzone do reklamowania produktów, stron oraz promowania postów. Co to dokładnie jest **Facebook Ads** i na czym polegają reklamy? Wszystkiego dowiesz się z tego artykułu.
 
-## **Co to jest Facebook Ads? {#**co-to-jest-facebook-ads}
+## Co to jest Facebook Ads? {#co-to-jest-facebook-ads}
 
-**  
-**Facebook Ads, czyli narzędzie reklamowe portalu społecznościowego Facebook, które umożliwia wyświetlanie reklam produktowych, filmowych, kolażowych oraz promujących posty na tablicy i relacjach Facebook. **Kampanie Facebook Ads** jest formą marketingu internetowego (na tablicy Facebook, Instagram oraz Messenger), które umożliwiają wyświetlanie reklamy na tablicach portali społecznościowych, na podstawie wybranej wcześniej przez reklamodawcę grupy docelowej. Reklamodawca płaci, kiedy reklama zostanie wyświetlona przez użytkownika. Poprzez korzystanie z Facebook Ads możemy zwiększyć zasięg postów, poszerzyć grupę odbiorców, zebrać dane kontaktowe do osób lub rozpowszechnić popularność witryny internetowej, co przekłada się na zwiększenie sprzedaży.
+\**  
+\**Facebook Ads, czyli narzędzie reklamowe portalu społecznościowego Facebook, które umożliwia wyświetlanie reklam produktowych, filmowych, kolażowych oraz promujących posty na tablicy i relacjach Facebook. **Kampanie Facebook Ads** jest formą marketingu internetowego (na tablicy Facebook, Instagram oraz Messenger), które umożliwiają wyświetlanie reklamy na tablicach portali społecznościowych, na podstawie wybranej wcześniej przez reklamodawcę grupy docelowej. Reklamodawca płaci, kiedy reklama zostanie wyświetlona przez użytkownika. Poprzez korzystanie z Facebook Ads możemy zwiększyć zasięg postów, poszerzyć grupę odbiorców, zebrać dane kontaktowe do osób lub rozpowszechnić popularność witryny internetowej, co przekłada się na zwiększenie sprzedaży.
 
-## **Rodzaje reklam Facebook Ads: {#**rodzaje-reklam-facebook-ads}
+## Rodzaje reklam Facebook Ads: {#rodzaje-reklam-facebook-ads}
 
 **Obraz**
 
@@ -73,15 +73,14 @@ Posty, które są udostępniane na fanpage są promowane i rozpowszechniane prze
 
 Facebook Ads umożliwia stworzenie formularza z zapisywaniem danych potencjalnych klientów i osób, które chcą zapisać się na kurs lub chcą znaleźć się w bazie danych danej firmy. Narzędzie to pozwala za pomocą Facebooka uzyskać więcej kontaktów dla firmy. Jeżeli nie chcemy specjalnie tworzyć formularza, reklama może zostać ustawiona jako przenośnik do strony internetowej z formularzem kontaktowym.
 
-### **Jak znaleźć odpowiednią grupę docelową do reklamy Facebook Ads? {#**grupa-docelowa-facebook-ads}
+### Jak znaleźć odpowiednią grupę docelową do reklamy Facebook Ads? {#grupa-docelowa-facebook-ads}
 
 Dzięki dokładnemu dobraniu grupy docelowej możemy liczyć na wyższe wyniki naszej reklamy Facebook Ads. Zdefiniowanie odpowiedniej grupy docelowej powinniśmy zacząć od kilku podstawowych pytań na temat odbiorców naszej reklamy: ile mają lat, jakiej są płci, czym mogą się interesować, gdzie pracują, jakie mają hobby i styl życia, jakich produktów szukają, z jakich portali i aplikacji korzystają. Po odpowiedzi na te pytania wypełniamy formularz zapisywania grupy docelowej na Facebooku i później możemy korzystać z zapisanej grupy docelowej w każdej kampanii Facebook Ads.
 
-## **Co dają nam reklamy Facebook Ads? {#**reklamy-facebook-ads}
+## Co dają nam reklamy Facebook Ads? {#reklamy-facebook-ads}
 
 Narzędzie Facebook Ads umożliwia nam wybranie celu każdej ustawionej reklamy. Wybranie odpowiedniego celu jest kluczowe, ponieważ narzędzie Facebook będzie wyświetlało reklamy z nastawieniem na osiągnięcie założonego celu.
 
-  
 **Istnieje kilka kategorii celów, które możemy założyć:**
 
 * Świadomość (świadomość marki, budowanie zasięgu) idealne dla klientów, które chcą poszerzyć bazę swoich klientów i zwiększyć zainteresowanie marką.
