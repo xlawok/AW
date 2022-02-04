@@ -1,5 +1,5 @@
 +++
-author = []
+author = "data/authors/julia.yml"
 categories = []
 date = ""
 description = "Zastanawiasz się nad wprowadzeniem płatnych reklam dla swojej firmy na portalu Facebook? Facebook Ads umożliwia takie działania, o których przeczytasz w tym artykule!"
