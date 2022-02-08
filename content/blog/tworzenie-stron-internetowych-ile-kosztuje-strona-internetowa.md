@@ -100,7 +100,7 @@ Koszt strony internetowej zależy również od funkcji, jakie chcemy udostępnia
 
 Szablon tak naprawdę jest uniwersalny i dostępny dla wszystkich. Stronę WWW na szablonie oczywiście można wyposażyć we wszelakie wtyczki, która dają możliwość znacznej modyfikacji wyglądu szablonu, natomiast każda firma powinna postawić na budowę autorskiej strony, ponieważ pomaga to budować własną markę oraz wspomagać jej funkcjonalność. Decydując się na zlecenie budowy strony firmowej od podstaw zyskujemy, że witryna powstanie dokładnie według tego, co chcemy i będzie zawierać wszelkie elementy, które są kluczowe, aby trafić w gusta określonej grupy docelowej.
 
-\**Tworzenie stron internetowych – witryna statyczna czy CMS? {#**tworzenie-stron-internetowych-witryna-statyczna-czy-cms}
+## Tworzenie stron internetowych – witryna statyczna czy CMS? {#tworzenie-stron-internetowych-witryna-statyczna-czy-cms}
 
 Strony WWW dzielą się na dwa główne typy:
 
@@ -112,11 +112,11 @@ Strona statyczna to prosta witryna, wykorzystywana najczęściej do prezentacji 
 
 Strona WWW zbudowana na oparciu o system CMS to najlepsze rozwiązanie w przypadku, gdy planujemy sukcesywny rozwój witryny. Jeżeli właścicielowi zależy na stałym aktualizowaniu treści, zamieszczaniu na stronie nowych elementów graficznych, uzupełnianiu oferty to system zarządzania treścią jest wręcz niezbędny. Na rynku dostępnych jest wiele systemów tego typu, a największą popularnością cieszy się darmowy WordPress. Dzięki CMS każdy właściciel strony, który nawet ma bardzo podstawowe pojęcie o Internecie będzie w stanie samodzielnie zaktualizować treści czy dodać proste elementy graficzne. Dlatego też standardem jest, że agencje interaktywne tworzą strony internetowe dla swoich klientów wyłącznie w oparciu o systemy CMS. Oczywiście trzeba mieć na uwadze, że strony oparte na systemie CMS są zwykle droższe niż strony statyczne, ponieważ ma on dużo większy wybór opcji, które często są na poziomie zaawansowanej aplikacji webowej, czyli projektu, który zastawiony jest na interakcję z użytkownikiem. CMS jest również niezbędny w przypadku, gdy planujesz gromadzenie danych na stronie internetowej, takich jak dane przesłane z formularza, czy dane o zamówieniu.
 
-\**Komu najlepiej powierzyć tworzenie stron WWW? {#**komu-najlepiej-powierzyc-tworzenie-stron-www}
+### Komu najlepiej powierzyć tworzenie stron WWW? {#komu-najlepiej-powierzyc-tworzenie-stron-www}
 
 Projektowanie strony internetowej to zadanie dla agencji lub freelancera. Oczywiście najlepszym wyborem jest powierzenie tworzenie stron WWW w ręce agencji, najlepiej zajmującej się nie tylko web developmentem, ale także pozycjonowaniem stron internetowych. Musisz mieć na uwadze, że indywidualny wykonawca nie zawsze jest w stanie zaprojektować stronę, która spełnia wytyczne Google, czyli krótko mówiąc dobrze się pozycjonować. Dodatkowo korzystając z usług freelancera nie masz gwarancji na poprawne funkcjonowanie strony WWW oraz nie masz pewności, że za jakiś czas freelancer będzie chętny do dalszej współpracy. Ograniczony budżet wcale nie zmusza Cię do rezygnacji z oferty profesjonalnej agencji, ponieważ w naszej agencji interaktywnej realizujemy także mniejsze projekty. Możesz mieć pewność, że po jakimś czasie nie odmówimy Ci pomocy przy wprowadzeniu ewentualnych zmian na stronie internetowej.
 
-\**Agencja interaktywna – budujemy strony internetowe, które zarabiają {#**agencja-interaktywna-budujemy-strony-internetowe-ktore-zarabiaja}
+## Agencja interaktywna – budujemy strony internetowe, które zarabiają {#agencja-interaktywna-budujemy-strony-internetowe-ktore-zarabiaja}
 
 ![strony internetowe jako inwestycja](/uploads/obraz_2022-02-08_105710.png)
 
@@ -140,7 +140,7 @@ Jeżeli zdecydujesz się na wybór profesjonalnej agencji interaktywnej to może
 
 Teraz sam widzisz, że stworzenie strony internetowej z pomocą profesjonalnej agencji interaktywnej niesie wachlarz dodatkowych możliwości. Zdajemy sobie sprawę, że na rynku funkcjonuje wiele agencji, których cena za stworzenie strony WWW są przerażające, dlatego warto porównać kilka ofert i wybrać tą, która wzbudzi Twoje zaufanie a koszt wykonania strony internetowej będzie racjonalny. Jeżeli jednak cena przekroczy Twoje założenia koniecznie dowiedz się, z czego to wynika – być może są to jakościowe rzeczy, w które warto zainwestować. Nasza agencja interaktywna posiada sprawdzone sposoby na projektowanie stron internetowych, które odpowiadają oczekiwaniom naszych klientów i wymaganiami danej branży.
 
-\**Projekt strony internetowej – przedstawienie planów działań {#**projekt-strony-internetowej-przestawienie-planow-dzialan}
+## Projekt strony internetowej – przedstawienie planów działań {#projekt-strony-internetowej-przestawienie-planow-dzialan}
 
 Dokładna analiza rynku, konkurencji oraz potrzeb naszych klientów to podstawa, aby wykonać perfekcyjną stronę internetową. Jak zatem w praktyce wygląda nasz plan działań?
 
@@ -168,7 +168,7 @@ Tworzenie stron internetowych to praca twórcza, dlatego przewidzenie dokładnej
 
 Po omówieniu planów działań, które dają Ci szeroki podgląd na cały proces tworzenia Twojej strony internetowej czas na przygotowanie wstępnej wyceny projektu. Im bardziej skomplikowana jest witryna, tym więcej roboczogodzin osoba wykonująca się musi na nią poświęcić. Tworzenie stron internetowych to zaawansowany proces bardzo kreatywnej pracy, długie godziny kodowania, testowania i stałego ulepszania witryny. Konsultujemy z Tobą kolejne elementy, dlatego masz realny wpływ na wygląd oraz działanie strony. Stała cena za tworzenie strony WWW jest możliwa do podania tylko wtedy, gdy mamy 100% pewność na temat wypracowanych rozwiązań. W międzyczasie podajemy przedział cenowy, który będzie albo rósł, albo malał wraz z wrażaniem naszych i Twoich pomysłów.
 
-\**Ile kosztuje strona internetowa w agencji interaktywnej? {#**ile-kosztuje-strona-internetowa-w-agencji-interaktywnej}
+### Ile kosztuje strona internetowa w agencji interaktywnej? {#ile-kosztuje-strona-internetowa-w-agencji-interaktywnej}
 
 Poniżej przedstawiamy nasze orientacyjne widełki cenowe:
 
