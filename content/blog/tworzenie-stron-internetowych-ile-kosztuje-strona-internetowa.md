@@ -68,7 +68,7 @@ Prowadzisz swoją firmę i potrzebujesz nowej strony WWW? A może już ją masz 
 
 To, ile kosztują strony internetowe zależy od bardzo wielu czynników. Tak samo jest z zakupem mieszkania – na jego cenę wpływać może bardzo wiele rzeczy, takich jak lokalizacja, metraż oraz standard wykończenia. Przykładowo kawalerka w małym mieście będzie o kilkanaście razy tańsza niż duży apartament w sercu Warszawy. To samo tyczy się tworzenia strony internetowej. Bardzo często jest tak, że z pozoru atrakcyjna strona WWW wykonana jest na szybko nie posiada wielu funkcjonalności, dlatego tak ważne jest sprawdzenie, co dana witryna kryje pod swoją maską, czyli w kodzie. Strona internetowa cena jest naprawdę różna zależy od tego, czego potrzebujesz. Być może wystarczy stworzyć dla Twojej firmy prostą stronę WWW, która sprosta wymaganiom firmy i zmieści się w niższym przedziale cenowym, a być może potrzebujesz zaawansowanej witryny, która pozwoli Ci zaistnieć wśród grona bardzo silnej konkurencji. Pozwól, że przejdziemy do konkretów i dowiesz się, w jaki sposób opracowujemy projekt strony internetowej, która jest funkcjonalna, a Ty za nią w żadnym wypadku nie przepłacisz.
 
-## **Co wpływa na cenę tworzenia strony internetowej?**{#**co-wplywa-na-cene-tworzenia-strony-internetowej}
+## **Co wpływa na cenę tworzenia strony internetowej?**{#co-wplywa-na-cene-tworzenia-strony-internetowej}
 
 Strona internetowa cena – co na nią tak właściwie wpływa? Wypiszmy kilka aspektów, które mają w tym przypadku znaczenie:
 
@@ -144,31 +144,23 @@ Teraz sam widzisz, że stworzenie strony internetowej z pomocą profesjonalnej a
 
 Dokładna analiza rynku, konkurencji oraz potrzeb naszych klientów to podstawa, aby wykonać perfekcyjną stronę internetową. Jak zatem w praktyce wygląda nasz plan działań?
 
-* Ustalamy, czy potrzebujesz strony na szablonie, czy indywidualnego projektu
+\- Ustalamy, czy potrzebujesz strony na szablonie, czy indywidualnego projektu
 
+\- Upewniamy się, jakie są Twoje wizje i potrzeby
 
-* Upewniamy się, jakie są Twoje wizje i potrzeby
+\- Przedstawiamy wiele naszych propozycji oraz praktycznych rozwiązań
 
+\- Przygotowujemy makietę strony i pokazujemy to, co internauta będzie mógł zrobić na stronie
 
-* Przedstawiamy wiele naszych propozycji oraz praktycznych rozwiązań
+\- Przewidujemy tzw. user story, czyli historię użytkownika na stronie głównej i innych podstronach
 
+\- Dokładnie badamy zachowanie oraz potrzeby grupy docelowej
 
-* Przygotowujemy makietę strony i pokazujemy to, co internauta będzie mógł zrobić na stronie
+\- Określamy ewentualne ryzyka projektowe
 
+\- Definiujemy wymagania niefunkcjonalne, czyli potrzeby, jakie strona WWW musi spełniać w zakresie jakości jej działania. Są to np. szybkość ładowania strony czy konieczność stworzenia regulaminów
 
-* Przewidujemy tzw. user story, czyli historię użytkownika na stronie głównej i innych podstronach
-
-
-* Dokładnie badamy zachowanie oraz potrzeby grupy docelowej
-
-
-* Określamy ewentualne ryzyka projektowe
-
-
-* Definiujemy wymagania niefunkcjonalne, czyli potrzeby, jakie strona WWW musi spełniać w zakresie jakości jej działania. Są to np. szybkość ładowania strony czy konieczność stworzenia regulaminów
-
-
-* Rozrysowujemy przykładowe podstrony
+\- Rozrysowujemy przykładowe podstrony
 
 Tworzenie stron internetowych to praca twórcza, dlatego przewidzenie dokładnej liczby roboczogodzin poświęconych nad projektem jest niemożliwe, a dodatkowo miałoby negatywny wpływ na jakość oczekiwanych przez klienta rezultatów. Na tym etapie najważniejsze jest, aby odpowiedzieć, ile kosztuje strona internetowa oraz to, aby dokładnie oszacować realne możliwości projektu i wskazać potencjalne ryzyko. Dostajesz od nas nie tylko szeroki zakres porad na temat Twojej strony, ale również branżową wiedzę, która pozwoli Ci na podjęcie najlepszej decyzji. Oprócz umiejętności dajemy cały nasz zasób intelektualny. Podejmując się współpracy z naszą agencją interaktywną możesz mieć pewność, że nie będziemy zwykłym wykonawcą usługi, ale staniemy się Twoim partnerem biznesowym, który doradzi Ci zarówno pod kątem SEO jak i podczas wyboru serwera czy domeny.
 
@@ -180,16 +172,13 @@ Po omówieniu planów działań, które dają Ci szeroki podgląd na cały proce
 
 Poniżej przedstawiamy nasze orientacyjne widełki cenowe:
 
-* Statyczna strona internetowa, szablon graficzny WordPress: od 3 tys. zł*
+\- Statyczna strona internetowa, szablon graficzny WordPress: od 3 tys. zł*
 
+\- Statyczna strona internetowa, indywidualny projekt graficzny WordPress: od 6 tys. zł*
 
-* Statyczna strona internetowa, indywidualny projekt graficzny WordPress: od 6 tys. zł*
+\- Strona internetowa z CMS WordPress, szablon graficzny: od 4 tys. zł*
 
-
-* Strona internetowa z CMS WordPress, szablon graficzny: od 4 tys. zł*
-
-
-* Strona internetowa z CMS WordPress, indywidualny projekt graficzny: od 10 tys. zł*
+\- Strona internetowa z CMS WordPress, indywidualny projekt graficzny: od 10 tys. zł*
 
 _*Powyższe kwoty to wyłącznie koszty orientacyjne utworzenia strony internetowej, które nie stanowią konkretnej oferty handlowej od Agencji Wrocławskiej._
 
