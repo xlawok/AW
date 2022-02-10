@@ -87,6 +87,6 @@ Narzędzie Facebook Ads umożliwia nam wybranie celu każdej ustawionej reklamy.
 * Wynagrodzenie (ruch, zaangażowanie, instalacja gry/aplikacji, wiadomości, zakup) dla firm, które chcą przełożyć ruch na sprzedaż produktów.
 * Konwersja (wizyty w sklepie, sprzedaż z katalogów) organizacje, które chcą zarabiać na sprzedaży.
 
-## **Zalety reklam Facebook Ads**
+## **Zalety reklam Facebook Ads {#**czy-warto-facebook-ads}
 
 Największą zaletą prowadzenia reklam Facebook Ads jest szybkie dotarcie do potencjalnych klientów lub zwiększenie zasięgu profilu. W linki, formularze oraz posty klikają osoby, które są zainteresowane danym produktem czy firmą. Kolejną zaletą reklam Facebook Ads jest natychmiastowy efekt. Jeśli reklama została poprawnie utworzona z nastawieniem na odpowiednią grupę docelową od razu widać ruch i kliknięcia link. Zaletą Facebook Ads jest samodzielne ustawienie kosztów związanych z reklamą. Można swobodnie wybrać budżet, na który dana firma może sobie pozwolić. Podczas aktywnej reklamy Facebook Ads możesz swobodnie obserwować, ile środków zostało wydanych oraz ile osób jest zainteresowanych ofertą, produktem lub ile jest nowych zaangażowanych w profil użytkowników. Dodatkowo przez narzędzie Facebook Ads możemy ustawić wyświetlanie [reklam na Instagramie](https://agencjawroclawska.pl/blog/jak-prowadzic-firmowego-instagrama/) i Messengerze.
