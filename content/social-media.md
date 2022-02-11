@@ -1,7 +1,7 @@
 +++
 body_class = "social-media"
 description = "Social Media to większa sprzedaż i rozpoznawalność marki"
-draft = true
+draft = false
 keywords = ""
 robots = "noindex nofollow"
 slug = "social-media"
