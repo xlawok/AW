@@ -63,8 +63,8 @@ tytul_wiersza = "po co prowadzić social media"
 film_obrazek = "image"
 if_svg = false
 kod_embed = ""
-obrazek = "/uploads/slowko.svg"
-obrazek_dark_mode = "/uploads/slowko.svg"
+obrazek = "/uploads/sm-aw-grafika-2.svg"
+obrazek_dark_mode = "/uploads/sm-aw-grafika-2.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = []
 if_blank = false
