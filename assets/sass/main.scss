@@ -7089,3 +7089,22 @@ justify-content: center;
 .sc-oferta-social .second-row li .ikona img {
   max-height: 120px;
 }
+
+.sc-oferta-social .second-row li:nth-child(2) .tytul::before{
+  content:'2';
+}
+.sc-oferta-social .second-row li:nth-child(3) .tytul::before{
+  content:'3';
+}
+.sc-oferta-social .second-row li:nth-child(4) .tytul::before{
+  content:'4';
+}
+.sc-oferta-social .second-row li:nth-child(5) .tytul::before{
+  content:'5';
+}
+.sc-oferta-social .second-row li:nth-child(6) .tytul::before{
+  content:'6';
+}
+.sc-oferta-social .second-row:nth-child(2) ul {
+  display: flex;
+}
