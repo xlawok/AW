@@ -7106,5 +7106,10 @@ justify-content: center;
   content:'6';
 }
 .sc-oferta-social .second-row:nth-child(2) ul {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sc-oferta-social .second-row:nth-child(2) li {
+  height: auto;
 }
