@@ -189,7 +189,7 @@ ikona = "/uploads/sm-wyroznic.svg"
 opis = "Poprzez prowadzenie profilu w Social Mediach i unikatowy content można dać klientom łatwy dostęp do marki, przedstawić wyjątkowość produktów oraz dać możliwość uczestniczenia w życiu profilu.Skłaniamy konsumenta to refleksji, zastanowienia się i zainteresowanie profilem Zachęcamy klienta do komunikacji, wyrażania opinii i tworzeniu wspólnie profilu w Social Mediach, który chce oglądać."
 tytul = "Wyróżnić"
 [[sections.punkty_zasad]]
-ikona = "/uploads/onas-2.svg"
+ikona = "/uploads/sm-tworzyc-content.svg"
 ikona_dark_mode = "/uploads/sm-tworzyc-content.svg"
 opis = "Planowanie działan i budowanie atrakcyjnego contentu zagwarantuje wzrost efektywności komunikacji w social mediach. Aby prowadzić właściwie profil trzeba dobrze poznać konsumenta, jego działania, wybory i preferencje wyświetlania. Do tego służy nam analiza dotychczasowych działan klienta, dobranie odpowiedniej grupy docelowej, badania nastroju i odczuć użytkownika. Na podstawie zebranych informacji projektujemy posty, relacje i grafiki."
 tytul = "Tworzyć atrakcyjny content"
