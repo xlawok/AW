@@ -242,8 +242,8 @@ txt_block_size = "XXL"
 tytul_wiersza = "Dlaczego Facebook Ads"
 [sections.wiersz_dwie_kolumny.kolumna_druga]
 film_obrazek = "image"
-obrazek = "/uploads/wyszukiwarka.svg"
-obrazek_dark_mode = "/uploads/wyszukiwarka.svg"
+obrazek = "/uploads/sm-dlaczego-ads.svg"
+obrazek_dark_mode = "/uploads/sm-dlaczego-ads.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = []
 opis = "Najszybciej i najlepiej rozwijające się reklamy w Internecie to właśnie Facebook Ads. Coraz więcej firm korzysta z takiej formy reklamy produktów i usług. Facebook Ads posiada doskonałe możliwości dobierania grup odbiorców i dopasowania dla nich oferty.<br><br><span class='txt-red'>Każdy może ustalić budżet według swoich możliwości finansowych.</span>"
@@ -274,7 +274,7 @@ ornament = "brak"
 txt_block = "Zalety"
 txt_block_size = "XL"
 [[sections]]
-ikona_obok_naglowka = "/uploads/tiktok_sklep.png"
+ikona_obok_naglowka = "/uploads/sm-formy-reklamy.svg"
 template = "sekcja-formy-reklamy"
 [[sections.boxy]]
 opis = "czyli pojedyncza grafika, którą sami przygotujemy"
@@ -302,7 +302,7 @@ ornament = "lewa w dół"
 txt_block = "Formy reklamy"
 txt_block_size = "XL"
 [[sections]]
-ikona = "/uploads/jak-nauczyc-sie-pozycjonowania.jpg"
+ikona = "/uploads/sm-kontakt-2.svg"
 otworz_modal = "<div class=\"form-header\">Zamów bezpłatną wycenę w 24h!</div>\n<form id=\"mcontactform\" action=\"https://formsubmit.io/send/kontakt@agencjawroclawska.pl\" method=\"POST\">\n<div class='input-cnt'>\n <input required name=\"email\" type=\"email\" id=\"email\" placeholder=\"Adres e-mail\"><label for='email'> Adres e-mail</label>\n</div>\n<div class='input-cnt'>\n    <input name=\"www\" type=\"text\" id=\"www\" placeholder=\"Adres strony www\"><label for='www'>Adres strony www</label>\n</div>\n<div class='input-cnt'>\n    <input  required name=\"phone\" type=\"tel\" id=\"phone\" placeholder=\"Numer telefonu\"><label for='phone'>Numer telefonu</label>\n   </div>\n   <div>\n<span class='radio-cnt-title'>Wybierz temat zapytania</span>\n <div class='form-radio'>\n\n  <input type=\"radio\" id=\"optimization\" name=\"question\" value=\"optymalizacja\"\n         ><label for=\"optimization\">\nOptymalizacja strony WWW </label>\n</div>\n <div class='form-radio'>\n \n  <input type=\"radio\" id=\"positoning\" name=\"question\" value=\"pozyjnonowanie\"\n         ><label for=\"positoning\">Pozycjonowanie\n </label>\n</div>\n <div class='form-radio'>\n \n  <input type=\"radio\" id=\"consulting\" name=\"question\" value=\"konsultacje\"\n         ><label for=\"consulting\">Konsultacje SEO\n </label>\n</div>\n</div>\n\n    <input name=\"_formsubmit_id\" type=\"text\" style=\"display:none\">\n\n    <button  type=\"submit\">Wyślij zapytanie</button>\n<div class='rodo'>\n<input id='rodo-accept' type='checkbox' required name='rodo-accept' value='accept'/>\n<label for='rodo-accept'>Administratorem Twoich danych osobowych, czyli podmiotem decydującym o celach i sposobach przetwarzania Twoich danych osobowych jest Agencja Wrocławska. Informujemy, że podanie danych osobowych zawartych w formularzu jest dobrowolne, ale niezbędne do skutecznego nawiązania kontaktu z Administratorem, jak również przysługują Ci prawa dostępu do Twoich danych osobowych, ich zmiany (w tym aktualizacji), a także pozostałe prawa opisane w Polityce prywatności. W Polityce prywatności znajdują się także szczegółowe informację w zakresie praw i obowiązków Administratora.\n</label>\n</div>\n</form>"
 polozenie_ikony = "lewa"
 template = "sekcja-duzy-cta-z-ikona"
