@@ -7129,4 +7129,7 @@ justify-content: center;
     background: white;
     border: 2px solid #f63d37;
   }
+  .sec-padding.sc-oferta-social:nth-of-type(5) .second-row .tytul::before {
+    display:none ;
+  }
 }
