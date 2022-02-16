@@ -7054,5 +7054,30 @@ justify-content: center;
   text-align: center;
   position: relative;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
+  height: 250px;
+  justify-content: center;
+}
+
+.sc-oferta-social .second-row p.tytul {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-self: center;
+}
+.sc-oferta-social .second-row li .tytul::before{
+  content: '1';
+  font-size: 2rem;
+  color: #f63d37;
+  margin: -.2em .3em;
+}
+.sc-oferta-social .second-row p.podtytul {
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+  color: #f63d37;
+  font-size: .9rem;
 }
