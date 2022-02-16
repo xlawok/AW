@@ -7060,7 +7060,7 @@ justify-content: center;
 }
 
 .sc-oferta-social .second-row p.tytul {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   font-weight: 600;
   line-height: 1;
   margin: 0;
@@ -7080,4 +7080,12 @@ justify-content: center;
   padding: 0;
   color: #f63d37;
   font-size: .9rem;
+}
+
+.sc-oferta-social .second-row .ikona {
+  margin-bottom: 2em;
+}
+
+.sc-oferta-social .second-row li .ikona img {
+  max-height: 120px;
 }
