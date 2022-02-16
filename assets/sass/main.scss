@@ -6969,6 +6969,8 @@ justify-content: center;
 
 /* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
 
+/*social media*/
+/*sekcja trzecia*/
 .sc-strategia {
   display: flex;
 }
@@ -7036,4 +7038,21 @@ justify-content: center;
 }
 .sc-strategia li:nth-child(6)::before{
   content: '6';
+}
+/*sekcja czwarta*/
+.sc-oferta-social .first-row {
+  width: 50%;
+}
+.sc-oferta-social .second-row {
+  width: 100%;
+}
+.sc-oferta-social .second-row ol {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.sc-oferta-social .second-row li {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction:column;
 }
