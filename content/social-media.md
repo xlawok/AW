@@ -185,7 +185,7 @@ ornament = "lewa w dół"
 txt_block = "współpracy"
 txt_block_size = "XL"
 [[sections.punkty_zasad]]
-ikona = "/uploads/sm-wyrozniac.svg"
+ikona = "/uploads/sm-wyroznic.svg"
 opis = "Poprzez prowadzenie profilu w Social Mediach i unikatowy content można dać klientom łatwy dostęp do marki, przedstawić wyjątkowość produktów oraz dać możliwość uczestniczenia w życiu profilu.Skłaniamy konsumenta to refleksji, zastanowienia się i zainteresowanie profilem Zachęcamy klienta do komunikacji, wyrażania opinii i tworzeniu wspólnie profilu w Social Mediach, który chce oglądać."
 tytul = "Wyróżnić"
 [[sections.punkty_zasad]]
