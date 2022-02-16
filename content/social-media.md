@@ -167,7 +167,7 @@ ikona = "/uploads/sm-raportowanie.svg"
 podtytul = "co miesiąc z przeprowadzonych działań"
 tytul = "RAPORTOWANIE"
 [[sections]]
-ikona_obok_naglowka = "/uploads/reklama_gads.svg"
+ikona_obok_naglowka = "/uploads/sm-zasady-wspolpracy.svg"
 template = "sekcja-zasady-wspolpracy"
 [[sections.header_repeater]]
 block_tag_type = "h2"
