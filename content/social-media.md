@@ -242,7 +242,7 @@ txt_block_size = "XXL"
 tytul_wiersza = "Dlaczego Facebook Ads"
 [sections.wiersz_dwie_kolumny.kolumna_druga]
 film_obrazek = "image"
-obrazek = "/uploads/wyszukiwarka.svg"
+obrazek = "/uploads/sm-dlaczego-ads.svg"
 obrazek_dark_mode = "/uploads/sm-dlaczego-ads.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = []
