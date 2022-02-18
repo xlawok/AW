@@ -6971,198 +6971,196 @@ justify-content: center;
 
 /*social media*/
 /*sekcja trzecia*/
-.social-media{
-  .sc-strategia {
-    display: flex;
-  }
+.sc-strategia {
+  display: flex;
+}
 
-  .sc-strategia  .left-col {
-    width: 50%;
-  }
-  .sc-strategia ol {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 3em;
-    align-items: center;
-  }
-  .sc-strategia li {
-    height: 15em;
-    width: 15em;
-    border-radius: 50%;
-    padding: 2em;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
-  .sc-strategia li:nth-child(odd) {
-    background: black;
-    color: white;
-  }
-  .sc-strategia li:nth-child(even) {
-    background: #f53c37;
-    color: white;
+.sc-strategia  .left-col {
+  width: 50%;
+}
+.sc-strategia ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3em;
+  align-items: center;
+}
+.sc-strategia li {
+  height: 15em;
+  width: 15em;
+  border-radius: 50%;
+  padding: 2em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.sc-strategia li:nth-child(odd) {
+  background: black;
+  color: white;
+}
+.sc-strategia li:nth-child(even) {
+  background: #f53c37;
+  color: white;
 
-  }
-  .sc-strategia li::before{
+}
+.sc-strategia li::before{
+  position: absolute;
+  font-weight: 700;
+  top: -.5em;
+  left: -1em;
+  font-size: 2em;
+  background: white;
+  padding: 1em;
+  line-height: .6em;
+  border-radius: 50%;
+}
+.sc-strategia li:nth-child(odd)::before{
+  color: #f53c37;
+}
+.sc-strategia li:nth-child(even)::before{
+  color: black;
+}
+.sc-strategia li:nth-child(1)::before{
+  content: '1';
+}
+.sc-strategia li:nth-child(2)::before{
+  content: '2';
+}
+.sc-strategia li:nth-child(3)::before{
+  content: '3';
+}
+.sc-strategia li:nth-child(4)::before{
+  content: '4';
+}
+.sc-strategia li:nth-child(5)::before{
+  content: '5';
+}
+.sc-strategia li:nth-child(6)::before{
+  content: '6';
+}
+/*sekcja czwarta*/
+.sc-oferta-social .first-row {
+  width: 50%;
+}
+.sc-oferta-social .second-row {
+  width: 100%;
+}
+.sc-oferta-social .second-row ol {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.sc-oferta-social .second-row li {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: center;
+}
+
+.sc-oferta-social .second-row p.tytul {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-self: center;
+}
+.sc-oferta-social .second-row li .tytul::before{
+  content: '1';
+  font-size: 2rem;
+  color: #f63d37;
+  margin: -.2em .3em;
+}
+.sc-oferta-social .second-row p.podtytul {
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+  color: #f63d37;
+  font-size: .9rem;
+}
+
+.sc-oferta-social .second-row .ikona {
+  margin-bottom: 2em;
+}
+
+.sc-oferta-social .second-row li .ikona img {
+  max-height: 120px;
+}
+
+.sc-oferta-social .second-row li:nth-child(2) .tytul::before{
+  content:'2';
+}
+.sc-oferta-social .second-row li:nth-child(3) .tytul::before{
+  content:'3';
+}
+.sc-oferta-social .second-row li:nth-child(4) .tytul::before{
+  content:'4';
+}
+.sc-oferta-social .second-row li:nth-child(5) .tytul::before{
+  content:'5';
+}
+.sc-oferta-social .second-row li:nth-child(6) .tytul::before{
+  content:'6';
+}
+.sc-oferta-social .second-row:nth-child(2) ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sc-oferta-social .second-row:nth-child(2) li {
+  height: auto;
+}
+
+.icon-arrange-prawa {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.icon-arrange-prawa button, .icon-arrange-lewa button {
+  height: 2em;
+  font-size: 2em;
+  padding: 0 1em;
+  color: #f63d37;
+  font-weight: 600;
+  border-radius: 35px;
+  background: white;
+  border: 2px solid #f63d37;
+}
+.sec-padding.sc-oferta-social:nth-of-type(5) .second-row .tytul::before {
+  display:none ;
+}
+/*red box*/
+section.sec-padding.sc-soc-big-red {
+  position: relative;
+}
+.sec-padding.sc-soc-big-red::before {
+    content: url("https://agencjawroclawska.pl/uploads/sm-zalety.svg");
     position: absolute;
-    font-weight: 700;
-    top: -.5em;
-    left: -1em;
-    font-size: 2em;
-    background: white;
-    padding: 1em;
-    line-height: .6em;
-    border-radius: 50%;
-  }
-  .sc-strategia li:nth-child(odd)::before{
-    color: #f53c37;
-  }
-  .sc-strategia li:nth-child(even)::before{
-    color: black;
-  }
-  .sc-strategia li:nth-child(1)::before{
-    content: '1';
-  }
-  .sc-strategia li:nth-child(2)::before{
-    content: '2';
-  }
-  .sc-strategia li:nth-child(3)::before{
-    content: '3';
-  }
-  .sc-strategia li:nth-child(4)::before{
-    content: '4';
-  }
-  .sc-strategia li:nth-child(5)::before{
-    content: '5';
-  }
-  .sc-strategia li:nth-child(6)::before{
-    content: '6';
-  }
-  /*sekcja czwarta*/
-  .sc-oferta-social .first-row {
-    width: 50%;
-  }
-  .sc-oferta-social .second-row {
-    width: 100%;
-  }
-  .sc-oferta-social .second-row ol {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .sc-oferta-social .second-row li {
+    left: 50%;
+    transform: translatex(-50%);
+    top: -50%;
+}
+.red-box-wrapper {
+    background: #f53c37;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    padding: 3em;
+    position: relative;
+    color: white;
+    border-radius: 15%;
     text-align: center;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    height: 250px;
-    justify-content: center;
-  }
+}
 
-  .sc-oferta-social .second-row p.tytul {
-    font-size: 1.8rem;
-    font-weight: 600;
-    line-height: 1;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-self: center;
-  }
-  .sc-oferta-social .second-row li .tytul::before{
-    content: '1';
-    font-size: 2rem;
-    color: #f63d37;
-    margin: -.2em .3em;
-  }
-  .sc-oferta-social .second-row p.podtytul {
-    line-height: 2;
-    margin: 0;
-    padding: 0;
-    color: #f63d37;
-    font-size: .9rem;
-  }
-
-  .sc-oferta-social .second-row .ikona {
-    margin-bottom: 2em;
-  }
-
-  .sc-oferta-social .second-row li .ikona img {
-    max-height: 120px;
-  }
-
-  .sc-oferta-social .second-row li:nth-child(2) .tytul::before{
-    content:'2';
-  }
-  .sc-oferta-social .second-row li:nth-child(3) .tytul::before{
-    content:'3';
-  }
-  .sc-oferta-social .second-row li:nth-child(4) .tytul::before{
-    content:'4';
-  }
-  .sc-oferta-social .second-row li:nth-child(5) .tytul::before{
-    content:'5';
-  }
-  .sc-oferta-social .second-row li:nth-child(6) .tytul::before{
-    content:'6';
-  }
-  .sc-oferta-social .second-row:nth-child(2) ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .sc-oferta-social .second-row:nth-child(2) li {
-    height: auto;
-  }
-
-  .icon-arrange-prawa {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  .icon-arrange-prawa button, .icon-arrange-lewa button {
-    height: 2em;
-    font-size: 2em;
-    padding: 0 1em;
-    color: #f63d37;
-    font-weight: 600;
-    border-radius: 35px;
-    background: white;
-    border: 2px solid #f63d37;
-  }
-  .sec-padding.sc-oferta-social:nth-of-type(5) .second-row .tytul::before {
-    display:none ;
-  }
-  /*red box*/
-  section.sec-padding.sc-soc-big-red {
-    position: relative;
-  }
-  .sec-padding.sc-soc-big-red::before {
-      content: url("https://agencjawroclawska.pl/uploads/sm-zalety.svg");
-      position: absolute;
-      left: 50%;
-      transform: translatex(-50%);
-      top: -50%;
-  }
-  .red-box-wrapper {
-      background: #f53c37;
-      width: 450px;
-      height: 450px;
-      margin: 0 auto;
-      padding: 3em;
-      position: relative;
-      color: white;
-      border-radius: 15%;
-      text-align: center;
-      position: relative;
-  }
-
-  .red-box-wrapper::before {
-      content:'';
-      position: absolute;
-      border: 1px solid #f53c37;
-      width: 100%;
-      height: 100%;
-      left: -2em;
-      border-radius: 15%;
-  }
+.red-box-wrapper::before {
+    content:'';
+    position: absolute;
+    border: 1px solid #f53c37;
+    width: 100%;
+    height: 100%;
+    left: -2em;
+    border-radius: 15%;
 }
