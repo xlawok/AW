@@ -7135,34 +7135,34 @@ justify-content: center;
   /*red box*/
   section.sec-padding.sc-soc-big-red {
     position: relative;
-}
-.sec-padding.sc-soc-big-red::before {
-    content: url("https://agencjawroclawska.pl/uploads/sm-zalety.svg");
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-    top: -50%;
-}
-.red-box-wrapper {
-    background: #f53c37;
-    width: 450px;
-    height: 450px;
-    margin: 0 auto;
-    padding: 3em;
-    position: relative;
-    color: white;
-    border-radius: 15%;
-    text-align: center;
-    position: relative;
-}
+  }
+  .sec-padding.sc-soc-big-red::before {
+      content: url("https://agencjawroclawska.pl/uploads/sm-zalety.svg");
+      position: absolute;
+      left: 50%;
+      transform: translatex(-50%);
+      top: -50%;
+  }
+  .red-box-wrapper {
+      background: #f53c37;
+      width: 450px;
+      height: 450px;
+      margin: 0 auto;
+      padding: 3em;
+      position: relative;
+      color: white;
+      border-radius: 15%;
+      text-align: center;
+      position: relative;
+  }
 
-.red-box-wrapper::before {
-    content:'';
-    position: absolute;
-    border: 1px solid #f53c37;
-    width: 100%;
-    height: 100%;
-    left: -2em;
-    border-radius: 15%;
-}
+  .red-box-wrapper::before {
+      content:'';
+      position: absolute;
+      border: 1px solid #f53c37;
+      width: 100%;
+      height: 100%;
+      left: -2em;
+      border-radius: 15%;
+  }
 }
