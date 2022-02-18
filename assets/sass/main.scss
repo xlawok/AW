@@ -7184,6 +7184,39 @@ justify-content: center;
   background: white;
   border: 2px solid #f63d37;
 }
+/*sekcja piąta*/
+.social-media section.sec-padding.sc-oferta-social {
+  margin: 10rem 0;
+}
+.social-media section.sec-padding.sc-oferta-social:nth-of-type(5) .first-row {
+  display: flex;
+  gap: 8em;
+}
+.social-media section.sec-padding.sc-oferta-social:nth-of-type(5) .first-row .right-col {
+display: table;
+}
+.social-media section.sec-padding.sc-oferta-social:nth-of-type(5) .first-row .right-col h2 {
+  display: table-cell;
+  vertical-align: middle;
+}
+.social-media section.sec-padding.sc-oferta-social:nth-of-type(5) .second-row{
+  margin: 10em 0;
+}
+.social-media section.sec-padding.sc-oferta-social:nth-of-type(5) .second-row li{
+text-align: left;
+}
+.social-media section.sec-padding.sc-oferta-social:nth-of-type(5) .second-row:nth-child(2) ul{
+  grid-gap: 8em;
+}
+.social-media section.sec-padding.sc-oferta-social:nth-of-type(5) .second-row p.tytul {
+      align-self: start;
+}
+.social-media section.sec-padding.sc-oferta-social:nth-of-type(5) .second-row li .ikona img{
+  position: absolute;
+  left: -100px;
+  top: -65px;
+  width: 110px;
+}
 .sec-padding.sc-oferta-social:nth-of-type(5) .second-row .tytul::before {
   display:none ;
 }
