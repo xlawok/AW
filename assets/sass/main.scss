@@ -6970,6 +6970,27 @@ justify-content: center;
 /* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
 
 /*social media*/
+
+/*sekcja baner*/
+.social-media .sc-banner-center-noimg .center-banner-cnt{
+  height: 60vh
+}
+.social-media .sc-banner-center-noimg .center-banner-cnt .banner-bg-img {
+  object-fit: contain;
+  height: 70%;
+  top: 5rem;
+}
+.sc-banner-center-noimg::before {
+  content: url(/img/AW-red.svg);
+  position: absolute;
+  display: block;
+  right: -30%;
+  z-index: 1;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  transform: scale(.7);
+}
 /*sekcja trzecia*/
 .sc-strategia {
   display: flex;
