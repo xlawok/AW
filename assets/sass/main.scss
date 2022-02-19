@@ -7097,6 +7097,7 @@ justify-content: center;
 /*sekcja czwarta*/
 .sc-oferta-social .first-row {
   width: 50%;
+  margin-bottom: 5rem;
 }
 .sc-oferta-social .second-row {
   width: 100%;
@@ -7187,6 +7188,7 @@ justify-content: center;
 /*sekcja piąta*/
 .social-media section.sec-padding.sc-oferta-social {
   margin: 10rem 0;
+  position: relative;
 }
 .social-media section.sec-padding.sc-oferta-social:nth-of-type(5) .first-row {
   display: flex;
