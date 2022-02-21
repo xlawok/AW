@@ -7173,9 +7173,11 @@ justify-content: center;
   height: auto;
 }
 
-.icon-arrange-prawa {
+.social-media .icon-arrange-prawa {
   display: flex;
   flex-direction: row-reverse;
+  align-items: center;
+  gap: 2em;
 }
 .icon-arrange-prawa button, .icon-arrange-lewa button {
   height: 2em;
