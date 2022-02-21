@@ -7293,3 +7293,22 @@ section.sec-padding.sc-soc-big-red {
 .sc-oferta-social:nth-of-type(9) .second-row li .tytul::before {
   display: none;
 }
+.social-media section.sec-padding.sc-oferta-social:nth-of-type(9) .first-row{
+  display: flex;
+}
+
+.social-media section.sec-padding.sc-oferta-social:nth-of-type(9) .first-row .right-col {
+  display: table;
+}
+.social-media section.sec-padding.sc-oferta-social:nth-of-type(9) .first-row .right-col .header-template {
+  display: table-cell;
+  padding-top: 4em;
+}
+
+/*sekcja footer*/
+.social-media .icon-arrange-lewa {
+  margin-top: 15em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
