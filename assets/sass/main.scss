@@ -7123,12 +7123,15 @@ justify-content: center;
   padding: 0;
   display: flex;
   align-self: center;
+  position: relative;
 }
 .sc-oferta-social .second-row li .tytul::before{
   content: '1';
   font-size: 3.6rem;
   color: #f63d37;
-  margin: -.2em .3em;
+  position: absolute;
+  left: -.7em;
+  top: -.2em;
 }
 .sc-oferta-social .second-row p.podtytul {
   line-height: 2;
