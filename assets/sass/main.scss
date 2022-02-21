@@ -7244,6 +7244,33 @@ text-align: left;
 .sec-padding.sc-oferta-social:nth-of-type(5) .second-row .tytul::before {
   display:none ;
 }
+
+/*sekcja 7*/
+
+.social-media .sc-two-col-img-txt:nth-of-type(7){
+  position: relative;
+}
+.social-media section.sec-padding.sc-two-col-img-txt:nth-of-type(7) .row-0{
+  flex-direction: row;
+}
+
+.social-media .sc-two-col-img-txt:nth-of-type(7) .row-0 .second-col img {
+  margin-top: 0;
+}
+
+.social-media .sc-two-col-img-txt:nth-of-type(7)::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 75.5rem;
+  clip-path: ellipse(90% 60% at 51% 100%);
+  clip-path: url(#my-clip-path2);
+  background-color: #ffffff;
+  z-index: 0;
+  bottom: -47em;
+}
 /*red box*/
 section.sec-padding.sc-soc-big-red {
   position: relative;
