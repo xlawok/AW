@@ -7212,13 +7212,14 @@ justify-content: center;
     .first-row {
       display: flex;
       gap: 8em;
-      .right-col {
+      /*.right-col {
         display: table;
         h2{
           display: table-cell;
     vertical-align: middle;
         }
       }
+      */
     
     }
   }
