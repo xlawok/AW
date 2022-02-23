@@ -7265,12 +7265,13 @@ text-align: left;
   width: 100%;
   left: 0;
   height: 75.5rem;
+  bottom: 30rem;
   clip-path: ellipse(90% 60% at 51% 100%);
   clip-path: url(#my-clip-path2);
-  background-color: #ffffff;
-  z-index: 0;
-  bottom: -47em;
+  background-color: #f2f2f2;
+  z-index: -1;
 }
+
 /*red box*/
 section.sec-padding.sc-soc-big-red {
   position: relative;
