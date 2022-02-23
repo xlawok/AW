@@ -7256,9 +7256,11 @@ text-align: left;
 .social-media section.sec-padding.sc-two-col-img-txt:nth-of-type(7) .row-0{
   flex-direction: row;
 }
-
 .social-media .sc-two-col-img-txt:nth-of-type(7) .row-0 .second-col img {
   margin-top: 0;
+}
+.social-media section.sec-padding.sc-two-col-img-txt:nth-of-type(7) .row-1 .second-col img{
+  width: 70%
 }
 
 .social-media .sc-two-col-img-txt:nth-of-type(7)::after {
@@ -7275,8 +7277,9 @@ text-align: left;
   z-index: -1;
 }
 /*red box*/
-section.sec-padding.sc-soc-big-red {
+.social-media section.sec-padding.sc-soc-big-red {
   position: relative;
+  margin: 8em 0;
 }
 .sec-padding.sc-soc-big-red::before {
     content: url("https://agencjawroclawska.pl/uploads/sm-zalety.svg");
@@ -7348,6 +7351,7 @@ section.sec-padding.sc-soc-big-red {
 }
 .social-media section.sec-padding.sc-oferta-social:nth-of-type(9) .first-row{
   display: flex;
+  gap: 0;
 }
 /*
 .social-media section.sec-padding.sc-oferta-social:nth-of-type(9) .first-row .right-col {
