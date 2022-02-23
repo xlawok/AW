@@ -7189,6 +7189,10 @@ justify-content: center;
   background: white;
   border: 2px solid #f63d37;
 }
+section.sec-padding.sc-oferta-social:nth-of-type(4) .first-row {
+  flex-direction: column;
+  gap: 0;
+}
 /*sekcja piąta*/
 .social-media section.sec-padding.sc-oferta-social {
   margin: 10rem 0;
