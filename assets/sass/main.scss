@@ -7194,39 +7194,39 @@ section.sec-padding.sc-oferta-social:nth-of-type(4) .first-row {
   gap: 0!important;
 }
 /*sekcja piąta*/
-  .social-media section.sec-padding.sc-oferta-social {
-    margin: 10rem 0;
-    position: relative;
-    &::after{
-      content: '';
-      display: block;
-      position: absolute;
-      width: 100%;
-      left: 0;
-      height: 75.5rem;
-      bottom: -5rem;
-      clip-path: ellipse(90% 60% at 51% 100%);
-      clip-path: url(#my-clip-path2);
-      background-color: #f2f2f2;
-      z-index: -2;
-    }
-    &:nth-of-type(5){
-      margin: 10rem 0 0 0;
-    }
-    .first-row {
-      display: flex;
-      gap: 8em;
-      /*.right-col {
-        display: table;
-        h2{
-          display: table-cell;
-    vertical-align: middle;
-        }
-      }
-      */
-    
-    }
+.social-media section.sec-padding.sc-oferta-social {
+  margin: 10rem 0;
+  position: relative;
+  &::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 75.5rem;
+    bottom: -5rem;
+    clip-path: ellipse(90% 60% at 51% 100%);
+    clip-path: url(#my-clip-path2);
+    background-color: #f2f2f2;
+    z-index: -2;
   }
+  &:nth-of-type(5){
+    margin: 10rem 0 0 0;
+  }
+  .first-row {
+    display: flex;
+    gap: 8em;
+    /*.right-col {
+      display: table;
+      h2{
+        display: table-cell;
+  vertical-align: middle;
+      }
+    }
+    */
+  
+  }
+}
 
 .social-media section.sec-padding.sc-oferta-social:nth-of-type(5) .second-row{
   margin: 10em 0 0 0;
