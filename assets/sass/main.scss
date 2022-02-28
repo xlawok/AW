@@ -7401,6 +7401,17 @@ text-align: left;
             }
           }
         }
+    section.sec-padding.sc-strategia{
+      &:nth-of-type(3){
+        flex-direction: column;
+      &::after{
+          bottom: -3rem;
+        }
+      }
+      ol{
+        grid-template-columns: 1fr;
+      }
+    }
     }
   }
 }
