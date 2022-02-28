@@ -7503,7 +7503,7 @@ text-align: left;
       }
     }
     section.sec-padding.sc-oferta-social{
-      :nth-of-type(9){
+      &:nth-of-type(9){
         .first-row{
         width: 100%;
         flex-direction: column;
