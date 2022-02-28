@@ -7507,17 +7507,17 @@ text-align: left;
         .first-row{
         width: 100%;
         flex-direction: column;
-        .left-col{
-          width: 100%;
-          img{
-            width: 130%;
+          .left-col{
+            width: 100%;
+            img{
+              width: 130%;
+            }
           }
-        }
-        .right-col{
-          margin-top: -10rem;
-          margin-left: 2em;
-        }
-        }
+          .right-col{
+            margin-top: -10rem;
+            margin-left: 2em;
+          }
+          }
         .second-row{
           position: relative;
           width: 100%;
@@ -7533,7 +7533,7 @@ text-align: left;
           }
         }
       }
-    }
+      }
     }
   }
 }
