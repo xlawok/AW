@@ -7380,7 +7380,8 @@ text-align: left;
 /*@media*/
 @media (max-width: 480px){
   .social-media{
-    .content: margin-top: 12rem;{
+    .content: {
+      margin-top: 12rem;{
     .sc-banner-center-noimg{
       .center-banner-cnt{
         &::after{
@@ -7393,10 +7394,11 @@ text-align: left;
         &:nth-child(2){
           .sec-padding.sc-two-col-img-txt{
             margin-top: 22rem;
+              }
+            }
           }
         }
       }
     }
-
   }
 }
