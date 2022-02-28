@@ -7376,3 +7376,27 @@ text-align: left;
   align-items: center;
   justify-content: center;
 }
+
+/*@media*/
+@media (max-width: 480px){
+  .social-media{
+    .content: margin-top: 12rem;{
+    .sc-banner-center-noimg{
+      .center-banner-cnt{
+        &::after{
+          bottom: -22rem;
+        }
+        .banner-bg-img{
+          top: 25rem;
+          opacity: 1;
+        }
+        &:nth-child(2){
+          .sec-padding.sc-two-col-img-txt{
+            margin-top: 22rem;
+          }
+        }
+      }
+    }
+
+  }
+}
