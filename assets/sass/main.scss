@@ -7435,7 +7435,8 @@ text-align: left;
     section.sec-padding.sc-oferta-social{
       &:nth-of-type(5){
         .first-row{
-          flex-direction: column; 
+          flex-direction: column;
+          width: 100%; 
           .right-col{
             margin-left: 2em;
           }
@@ -7446,7 +7447,16 @@ text-align: left;
         .second-row{
           ul{
             grid-template-columns: 1fr;
-            margin-left: 3em;
+            padding-left: 1em;
+          }
+          li{
+            .ikona{
+              img{
+                position: relative;
+                left: 0;
+                top: 0;
+              }
+            }
           }
         }
       }
