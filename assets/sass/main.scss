@@ -7477,6 +7477,23 @@ text-align: left;
         font-size: 1.5em;
       }
     }
+    .sc-two-col-img-txt{
+      &:nth-of-type(7){
+        margin-top: 2em!important;
+        .row-0{
+          .second-col{
+            z-index: 1;
+          }
+        }
+      }
+    }
+    .sc-soc-big-red{
+      .red-box-wrapper{
+        width: 100%;
+        height: auto;
+        border-radius: 50px;
+      }
+    }
     }
   }
 }
