@@ -7534,6 +7534,16 @@ text-align: left;
         }
       }
       }
+      .icon-arrange-lewa{
+        flex-direction: column-reverse;
+        img{
+          width: 70%;
+          margin-top: 2em;
+        }
+        button{
+          font-size: 1.5em;
+        }
+      }
     }
   }
 }
