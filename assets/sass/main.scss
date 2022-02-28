@@ -7465,6 +7465,18 @@ text-align: left;
         }
       }
     }
+    .icon-arrange-prawa{
+      flex-direction: column-reverse;
+      .icon-wrapper{
+        text-align: right;
+        img{
+        width: 80%;
+        }
+      }
+      button{
+        font-size: 1.5em;
+      }
+    }
     }
   }
 }
