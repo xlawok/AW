@@ -7445,9 +7445,11 @@ text-align: left;
           }
         }
         .second-row{
+          margin: 0;
           ul{
             grid-template-columns: 1fr;
             padding-left: 1em;
+            grid-gap: 1em;
           }
           li{
             .ikona{
