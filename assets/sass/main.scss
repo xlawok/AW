@@ -7385,6 +7385,7 @@ text-align: left;
       &:nth-child(2){
         .sec-padding.sc-two-col-img-txt{
           margin-top: 22rem;
+          padding-bottom: 4em;
           .second-col{
             z-index: 0;
           }
@@ -7407,6 +7408,9 @@ text-align: left;
       &::after{
           bottom: -3rem;
         }
+      }
+      .left-col{
+        width: 100%;
       }
       ol{
         grid-template-columns: 1fr;
