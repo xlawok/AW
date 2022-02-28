@@ -7385,6 +7385,9 @@ text-align: left;
       &:nth-child(2){
         .sec-padding.sc-two-col-img-txt{
           margin-top: 22rem;
+          .second-col{
+            z-index: 0;
+          }
             }
           }
     .sc-banner-center-noimg{
