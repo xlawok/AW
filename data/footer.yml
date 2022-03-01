@@ -1,8 +1,8 @@
 ---
 pierwsza_kolumna:
   logo: "/uploads/logo-aw-black.svg"
-  opis: <p>Agencja Wrocławska Sp. z o.o. <br>ul. Hercena 3-5 <br>50-453 Wrocław</p><p><a
-    href="mailto:kontakt@agencjawroclawska.pl" title="" target="_blank">kontakt@agencjawroclawska.pl</a></p>
+  opis: <p>Agencja Wrocławska Sp. z o.o. <br>Dmowskiego 17<br>50-203 Wrocław</p><p><a
+    href="mailto:kontakt@agencjawroclawska.pl" title="">kontakt@agencjawroclawska.pl</a></p>
   logo_dark: "/uploads/logo-aw-white.svg"
 druga_kolumna:
 - wybierz_odnosniki: pozycjonowanie-stron.md
