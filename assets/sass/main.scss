@@ -6979,7 +6979,8 @@ justify-content: center;
   height: 70%;
   top: 5rem;
 }
-.sc-banner-center-noimg::before {
+.social-media .sc-banner-center-noimg {
+  &::before{
   content: url(/img/AW-red.svg);
   position: absolute;
   display: block;
@@ -6989,6 +6990,21 @@ justify-content: center;
   height: 100%;
   width: 50%;
   transform: scale(.7);
+  }
+  &::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 15.5rem;
+    bottom: -4.625rem;
+    height: 23.5rem;
+    bottom: -11rem;
+    background-color: #f2f2f2;
+    clip-path: ellipse(90% 60% at 51% 100%);
+    z-index: -1;
+  }
 }
 .sc-strategia span.header-template.f-w700.txt-red.txt-XL::before {
   content: url(/img/arrow.svg);
