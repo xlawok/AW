@@ -7005,6 +7005,11 @@ justify-content: center;
     clip-path: ellipse(90% 60% at 51% 100%);
     z-index: -1;
   }
+  .center-banner-cnt{
+    &::after{
+      display: none;
+    }
+  }
 }
 .sc-strategia span.header-template.f-w700.txt-red.txt-XL::before {
   content: url(/img/arrow.svg);
