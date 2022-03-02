@@ -7504,7 +7504,6 @@ text-align: left;
         }
         &:nth-of-type(5){
           .second-row{
-            &:nth-child(2){
               ul{
                 grid-gap: 3em;
                 padding: 0;
@@ -7518,7 +7517,6 @@ text-align: left;
                   }
                 }
               }
-            }
           }
         }
       }
