@@ -7434,6 +7434,13 @@ text-align: left;
       }
     }
   }
+  .sc-oferta-social {
+    &:nth-of-type(4){ 
+      .second-row{
+        width: 100%;
+      }
+    }
+  }
   .social-media {
     section.sec-padding.sc-oferta-social{
       &:nth-of-type(5){
