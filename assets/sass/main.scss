@@ -7493,6 +7493,8 @@ text-align: left;
     .sc-strategia{
         flex-direction: column;
     }
+  }
+  .social-media{
     section.sec-padding{
       .sc-oferta-social{
         &:nth-of-type(4){
@@ -7506,9 +7508,6 @@ text-align: left;
     }
   }
   .social-media{
-    .sc-strategia{
-        flex-direction: column;
-    }
     section.sec-padding{
       .sc-oferta-social{
         &:nth-of-type(5){
