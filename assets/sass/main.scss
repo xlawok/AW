@@ -7511,8 +7511,8 @@ text-align: left;
           .second-row{
             padding: 0 2em;
             &:nth-child(2) ul{
-              grid-gap: 3em!important;
-              padding: 0;
+                grid-gap: 3em!important;
+                padding: 0;
             }
               li {
                 .ikona {
