@@ -7487,6 +7487,15 @@ text-align: left;
       }
     }
   }
+  .sc-oferta-social{
+    &:nth-of-type(9){
+      .second-row{
+        &:nth-child(2) li{
+          padding: 2em;
+        }
+      }
+    }
+  }
 }
 @media (max-width: 680px){
   .social-media{
