@@ -7495,8 +7495,7 @@ text-align: left;
     }
   }
   .social-media{
-    section.sec-padding{
-      .sc-oferta-social{
+    section.sec-padding.sc-oferta-social{
         &:nth-of-type(4){
           .second-row {
             ol{
@@ -7504,12 +7503,10 @@ text-align: left;
             }
           }
         }
-      }
     }
   }
   .social-media{
-    section.sec-padding{
-      .sc-oferta-social{
+    section.sec-padding.sc-oferta-social{
         &:nth-of-type(5){
           .second-row{
               ul{
@@ -7527,7 +7524,6 @@ text-align: left;
               }
           }
         }
-      }
     }
   }
 }
