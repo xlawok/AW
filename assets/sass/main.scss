@@ -7510,11 +7510,9 @@ text-align: left;
         &:nth-of-type(5){
           .second-row{
             padding: 0 2em;
-            &:nth-child(2){
-              ul{
-                grid-gap: 3em!important;
-                padding: 0;
-              }
+            &:nth-child(2) ul{
+              grid-gap: 3em!important;
+              padding: 0;
             }
               li {
                 .ikona {
