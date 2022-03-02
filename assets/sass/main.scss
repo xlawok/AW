@@ -7535,6 +7535,15 @@ text-align: left;
           }
         }
     }
+    .sc-oferta-social{
+      &:nth-of-type(9) {
+        .second-row{
+          &:nth-child(2) ul{
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+        }
+      }
+    }
   }
 }
 @media (max-width: 480px){
