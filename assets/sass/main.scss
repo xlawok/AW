@@ -7502,6 +7502,15 @@ text-align: left;
             }
           }
         }
+      }
+    }
+  }
+  .social-media{
+    .sc-strategia{
+        flex-direction: column;
+    }
+    section.sec-padding{
+      .sc-oferta-social{
         &:nth-of-type(5){
           .second-row{
               ul{
