@@ -7600,6 +7600,9 @@ text-align: left;
             }
           }
     .sc-banner-center-noimg{
+      &::after{
+        bottom: -25em;
+      }
       .center-banner-cnt{
         &::after{
           bottom: -22rem;
