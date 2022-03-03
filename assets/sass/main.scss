@@ -7505,6 +7505,11 @@ text-align: left;
       }
     }
   }
+  .icon-arrange-prawa{
+    .icon-wrapper{
+      width: 40%;
+    }
+  }
 }
 @media (max-width: 769px){
   .social-media{
@@ -7518,9 +7523,6 @@ text-align: left;
         }
     }
     .icon-arrange-prawa{
-      .icon-wrapper{
-        width: 40%;
-      }
       button{
         font-size: 1.75em;
       }
