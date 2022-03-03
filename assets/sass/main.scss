@@ -7544,6 +7544,11 @@ text-align: left;
         }
       }
     }
+    .sec-padding.sc-strategia{
+      &::after{
+        bottom: 11rem;
+      }
+    }
   }
 }
 @media (max-width: 480px){
