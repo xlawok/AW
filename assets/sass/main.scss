@@ -7497,6 +7497,19 @@ text-align: left;
     }
   }
 }
+@media (max-width: 769px){
+  .social-media{
+    section.sec-padding.sc-oferta-social{
+        &:nth-of-type(4){
+          .second-row {
+            ol{
+              grid-gap: 4em;
+            }
+          }
+        }
+    }
+  }
+}
 @media (max-width: 680px){
   .social-media{
     .sc-strategia{
