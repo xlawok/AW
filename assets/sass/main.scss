@@ -7506,12 +7506,7 @@ text-align: left;
     }
   }
 }
-@media (max-width: 680px){
-  .social-media{
-    .sc-strategia{
-        flex-direction: column;
-    }
-  }
+@media (max-width: 769px){
   .social-media{
     section.sec-padding.sc-oferta-social{
         &:nth-of-type(4){
@@ -7521,6 +7516,13 @@ text-align: left;
             }
           }
         }
+    }
+  }
+}
+@media (max-width: 680px){
+  .social-media{
+    .sc-strategia{
+        flex-direction: column;
     }
   }
   .social-media{
