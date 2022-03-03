@@ -7460,6 +7460,15 @@ text-align: left;
     }
     }
   }
+  .social-media {
+    .sc-two-col-img-txt{
+      &:nth-of-type(7){
+        &::after{
+          bottom: 50rem;
+        }
+      }
+    }
+  }
   .sc-oferta-social{
     &:nth-of-type(9){
       .second-row{
