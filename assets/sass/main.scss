@@ -7527,6 +7527,17 @@ text-align: left;
   }
   .social-media{
     section.sec-padding.sc-oferta-social{
+        &:nth-of-type(4){
+          .second-row {
+            ol{
+              grid-gap: 4em;
+            }
+          }
+        }
+    }
+  }
+  .social-media{
+    section.sec-padding.sc-oferta-social{
         &:nth-of-type(5){
           .second-row{
             padding: 0 2em;
