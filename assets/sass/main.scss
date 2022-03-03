@@ -7564,6 +7564,26 @@ text-align: left;
         font-size: 1.75em;
       }
     }
+    .sc-two-col-img-txt{
+      &:nth-of-type(7){
+        &::after{
+          bottom: 50rem;
+        }
+      }
+    }
+    section.sec-padding.sc-two-col-img-txt{
+      &:nth-of-type(7){
+        .row-0{
+          gap: 2em;
+        }
+        .row-1{
+          gap: 3em;
+        }
+      }
+    }
+    .icon-arrange-lewa{
+      margin-top: 55em;
+    }
   }
 }
 @media (max-width: 480px){
