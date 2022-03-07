@@ -7623,6 +7623,20 @@ text-align: left;
       }
       margin-top: 55em;
     }
+    .sec-padding.sc-oferta-social{
+      &:nth-of-type(9){
+        .first-row{
+          .left-col{
+            width: 100%;
+          }
+          .right-col{
+            .header-template{
+              margin-top: 1em;
+            }
+          }
+        }
+      }
+    }
   }
 }
 @media (max-width: 480px){
