@@ -7076,6 +7076,20 @@ justify-content: center;
   background-color: #fff;
   z-index: 0;
 }
+.social-media.dark-m .sec-padding.sc-strategia::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 75.5rem;
+  bottom: -13rem;
+  z-index: -2;
+  clip-path: ellipse(90% 60% at 51% 100%);
+  clip-path: url(#my-clip-path2);
+  background-color: #242424;
+  z-index: 0;
+}
 /*sekcja trzecia*/
 .sc-strategia {
   display: flex;
