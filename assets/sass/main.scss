@@ -7434,6 +7434,19 @@ text-align: left;
   padding: 4em;
   position: relative;
 }
+.sc-oferta-social.dark-m{
+  &:nth-of-type(9){
+    .second-row{
+      &:nth-child(2){
+        li{
+          .opis{
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
 
 .sc-oferta-social:nth-of-type(9) .second-row:nth-child(2) li::before{
   content: '';
