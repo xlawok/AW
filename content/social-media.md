@@ -3,7 +3,7 @@ body_class = "social-media"
 description = "Social Media to większa sprzedaż i rozpoznawalność marki"
 draft = false
 keywords = ""
-robots = "noindex nofollow"
+robots = "index follow"
 slug = "social-media"
 title = "Social media | Agencjawroclawska.pl"
 [[sections]]
