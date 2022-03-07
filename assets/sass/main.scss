@@ -7813,3 +7813,14 @@ text-align: left;
     }
   }
 }
+@media (max-width: 400px){
+  .social-media{
+    .sc-banner-center-noimg{
+      .banner-header{
+        span:nth-child(2){
+          font-size: 12vw;
+        }
+      }
+    }
+  }
+}
