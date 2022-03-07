@@ -2352,6 +2352,12 @@ form#contactform,form#mcontactform{
   .sc-our-clients{
     margin-top: 0;
   }
+  .sc-banner-wide .banner-img {
+    @media (min-width: 768px) {
+      transform: translateY(0);
+    }
+    
+  }
 }
 .sc-our-clients{
   position: relative;
@@ -2870,6 +2876,25 @@ form#contactform,form#mcontactform{
   border-top: 1px solid #000000;
   @at-root body.dark-m .list-art-date{
     border-top: 1px solid #fff;
+  }
+}
+.single-other-news{
+  .news-list{
+ 
+   
+   > li{
+ 
+      @media (min-width: 1200px){
+        width: 48%;
+      }
+      @media (min-width: 1920px){
+        width: 24%;
+      }
+    }
+  }
+
+  .header-template.front-news-header{
+    text-align: right;
   }
 }
 //
