@@ -7011,6 +7011,27 @@ justify-content: center;
     }
   }
 }
+.social-media.dark-m .sc-banner-center-noimg {
+  &::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 15.5rem;
+    bottom: -4.625rem;
+    height: 23.5rem;
+    bottom: -11rem;
+    background-color: #000000;
+    clip-path: ellipse(90% 60% at 51% 100%);
+    z-index: -1;
+  }
+  .center-banner-cnt{
+    &::after{
+      display: none;
+    }
+  }
+}
 .sc-strategia span.header-template.f-w700.txt-red.txt-XL::before {
   content: url(/img/arrow.svg);
   display: block;
