@@ -7439,8 +7439,9 @@ text-align: left;
     .second-row{
       &:nth-child(2){
         li{
-          .opis{
-            color: black;
+          background: #242424;
+          &::before{
+            background: #242424;
           }
         }
       }
