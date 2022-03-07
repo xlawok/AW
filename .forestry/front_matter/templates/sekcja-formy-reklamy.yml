@@ -1,0 +1,41 @@
+---
+label: Sekcja - formy reklamy
+hide_body: true
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: ikona_obok_naglowka
+  type: file
+  config:
+    maxSize: 1
+  label: Ikona obok nagłówka
+- name: ikona_obok_naglowka_dark_mode
+  type: file
+  config:
+    maxSize: 1
+  label: Ikona obok nagłówka dark mode
+- name: boxy
+  type: field_group_list
+  fields:
+  - name: tytul
+    type: text
+    config:
+      required: false
+    label: Tytuł
+  - name: opis
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Opis
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Boxy

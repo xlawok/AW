@@ -1,0 +1,22 @@
+<section class='sec-padding sc-strategia'>
+  
+    <div class='left-col'>
+        {{ $header_list := (.header_repeater) }}
+    
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "front-news-header")  -}}
+    </div>
+    <div class='right-col'>
+        {{with .punkty_w_okregach}}
+            <ol>
+                {{range . }}
+                    <li>
+                        {{.tekst | safeHTML}}
+                    </li>
+                {{end}}
+            </ol>
+        {{end}}
+ 
+    </div>
+    
+ 
+</section>

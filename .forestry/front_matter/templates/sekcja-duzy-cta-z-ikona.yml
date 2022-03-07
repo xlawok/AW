@@ -1,0 +1,42 @@
+---
+label: Sekcja - duży CTA z ikona
+hide_body: true
+fields:
+- name: tytul_odnosnika
+  type: text
+  config:
+    required: false
+  label: Tytul odnośnika
+- name: otworz_modal
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: otworz_modal
+- name: ikona
+  type: file
+  config:
+    maxSize: 1
+  label: Ikona
+- name: ikona_dark_mode
+  type: file
+  config:
+    maxSize: 1
+  label: Ikona dark mode
+- name: polozenie_ikony
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - lewa
+    - prawa
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Położenie ikony

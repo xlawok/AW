@@ -1,0 +1,46 @@
+---
+label: Sekcja - oferta 2 kol tekst ikona
+hide_body: true
+fields:
+- name: naglowek_sekcji
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek sekcji
+- name: opis
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Opis sekcji
+- name: punkty
+  type: field_group_list
+  fields:
+  - name: ikona
+    type: file
+    config:
+      maxSize: 1
+    label: Ikona
+  - name: ikona_dark_mode
+    type: file
+    config:
+      maxSize: 1
+    label: Ikona dark mode
+  - name: tytul
+    type: text
+    config:
+      required: false
+    label: Tytuł
+  - name: podtytul
+    type: text
+    config:
+      required: false
+    label: Podtytuł
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Punkty

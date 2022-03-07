@@ -1,9 +1,11 @@
 <section class=' sc-czerwona-belka'>
     
-   
-    {{ $header_list := (.header_repeater) }}
+   {{with .header_repeater}}
+    
 
-    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "czerwona-sec-header")  -}}
+    {{- partial "header-tag.html" (dict "context" . "header_list" . "custom_class" "czerwona-sec-header")  -}}
+
+    {{end}}
    
     <div class='red-badge-wrapper sec-padding'>
         <div class="badge-contact">
