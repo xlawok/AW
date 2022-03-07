@@ -1,0 +1,36 @@
+<section class='sec-padding sc-oferta-social'>
+  
+    <div class='first-row'>
+        {{ $header_list := (.header_repeater) }}
+    
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "front-news-header")  -}}
+        <div class='sec-description'>
+            {{.opis  | safeHTML}}
+        </div>
+    </div>
+    <div class='second-row'>
+        {{with .punkty}}
+            <ol>
+                {{range . }}
+                    <li>
+                        <span class='ikona'>
+                            {{$ikona := .ikona}}
+                        
+                            {{with .ikona_dark_mode}}
+                                {{- partial "img.html" (dict "image" $ikona "imgsizes" "" "tag_class" "col-img lmode" "ifsrcset" "nosrcset")  -}}
+                                {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "dmode")  -}}
+                            {{else}}
+                                {{- partial "img.html" (dict "image" $ikona "imgsizes" "" "tag_class" "col-img" "ifsrcset" "nosrcset")  -}}
+                            {{end}} 
+                        </span>
+                        <p class="tytul">{{.tytul}}</p>
+                        <p class="podtytul">{{.podtytul}}</p>
+                    </li>
+                {{end}}
+            </ol>
+        {{end}}
+ 
+    </div>
+    
+ 
+</section>

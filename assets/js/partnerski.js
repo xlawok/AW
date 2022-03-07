@@ -317,31 +317,35 @@ function fitElementToParent(el, padding, exception) {
 var introEasingsAnimation = (function() {
 
   var easingVisualizerEl = document.querySelector('.easing-visualizer');
-  var barsWrapperEl = easingVisualizerEl.querySelector('.bars-wrapper');
-  var dotsWrapperEl = easingVisualizerEl.querySelector('.dots-wrapper');
-  var barsFragment = document.createDocumentFragment();
-  var dotsFragment = document.createDocumentFragment();
-  var numberOfBars = 91;
-  var duration = 450;
-  var animation;
-  var paused = true;
-
-  fitElementToParent(easingVisualizerEl);
-
-  for (var i = 0; i < numberOfBars; i++) {
-    var barEl = document.createElement('div');
-    var dotEl = document.createElement('div');
-    barEl.classList.add('bar');
-    dotEl.classList.add('dot');
-    dotEl.classList.add('color-red');
-    barsFragment.appendChild(barEl);
-    dotsFragment.appendChild(dotEl);
+  if (typeof(easingVisualizerEl) != 'undefined' && easingVisualizerEl != null){
+    var barsWrapperEl = easingVisualizerEl.querySelector('.bars-wrapper');
+    var dotsWrapperEl = easingVisualizerEl.querySelector('.dots-wrapper');
+    var barsFragment = document.createDocumentFragment();
+    var dotsFragment = document.createDocumentFragment();
+    var numberOfBars = 91;
+    var duration = 450;
+    var animation;
+    var paused = true;
+  
+    fitElementToParent(easingVisualizerEl);
+  
+    for (var i = 0; i < numberOfBars; i++) {
+      var barEl = document.createElement('div');
+      var dotEl = document.createElement('div');
+      barEl.classList.add('bar');
+      dotEl.classList.add('dot');
+      dotEl.classList.add('color-red');
+      barsFragment.appendChild(barEl);
+      dotsFragment.appendChild(dotEl);
+    }
+  
+    barsWrapperEl.appendChild(barsFragment);
+    dotsWrapperEl.appendChild(dotsFragment);
+  
+    var defaultEase = 'easeOutElastic';
+  
   }
-
-  barsWrapperEl.appendChild(barsFragment);
-  dotsWrapperEl.appendChild(dotsFragment);
-
-  var defaultEase = 'easeOutElastic';
+  
 
   function play() {
 
@@ -647,7 +651,8 @@ var introEasingsAnimation = (function() {
 //   }
 
 // })();
-
+var sc_metrowka = document.querySelector('.sc-metrowka');
+if (typeof(sc_metrowka) != 'undefined' && sc_metrowka != null){
 var timeControlAnimation = (function() {
 
   var timeControlEl = document.querySelector('.time-control');
@@ -670,11 +675,13 @@ var timeControlAnimation = (function() {
     dotEl.classList.add('line');
     fragment.appendChild(dotEl);
   }
+  if (typeof(rullerEl) != 'undefined' && rullerEl != null){
+    rullerEl.appendChild(fragment);
+    var animationPXOffset = (timeControlEl.offsetWidth - (timeControlEl.parentNode.offsetWidth - 20)) / 2;
+    if (animationPXOffset < 0) animationPXOffset = 0;
+  }
 
-  rullerEl.appendChild(fragment);
 
-  var animationPXOffset = (timeControlEl.offsetWidth - (timeControlEl.parentNode.offsetWidth - 20)) / 2;
-  if (animationPXOffset < 0) animationPXOffset = 0;
 
   function pxToTime(px) {
     var width = window.innerWidth > rullerEl.offsetWidth ? rullerEl.offsetWidth + 180 : window.innerWidth;
@@ -811,7 +818,7 @@ var timeControlAnimation = (function() {
   }
 
 })();
-
+}
 // var layeredAnimation = (function() {
 
 //   var transformEls = document.querySelectorAll('.transform-progress');
@@ -913,5 +920,9 @@ var timeControlAnimation = (function() {
 //   e.preventDefault();
 //   scrollToElement(document.querySelector('#getting-started'));
 // })
+var checkingelement = document.querySelector('.easing-visualizer');
+if (typeof(checkingelement) != 'undefined' && checkingelement != null)
+{
+  window.onload = introEasingsAnimation.init;
+}
 
-window.onload = introEasingsAnimation.init;

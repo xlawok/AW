@@ -1,0 +1,26 @@
+---
+label: Sekcja - strategia (punkty w okręgach)
+hide_body: true
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: punkty_w_okregach
+  type: field_group_list
+  fields:
+  - name: tekst
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Tekst
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Punkty w okręgach
