@@ -7252,7 +7252,14 @@ justify-content: center;
   gap: 2em;
   background: #f2f2f2;
 }
-.icon-arrange-prawa button, .icon-arrange-lewa button {
+.social-media.dark-m .icon-arrange-prawa {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 2em;
+  background: #242424;
+}
+.social-media .icon-arrange-prawa button, .icon-arrange-lewa button {
   height: 2em;
   font-size: 2em;
   padding: 0 1em;
