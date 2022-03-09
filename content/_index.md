@@ -20,13 +20,16 @@ banner_form_html = "<div id=\"my-form-status\"></div>\n<form id=\"contactform\" 
 banner_form_html_no_img = ""
 banner_form_script = ""
 banner_form_script_no_img = ""
-banner_img = "/uploads/wroclaw-main-header.jpg"
+banner_img = "/uploads/wroclaw_kontakt-2-a.jpg"
 banner_list_gruop = []
 banner_type = "wide_img"
+dymki_z_tekstem = []
+formularz_wylaczony = false
 naglowek_formularza = "Zamów bezpłatną wycenę w 24h!"
 naglowek_formularza_no_img = ""
 opis_banner = ""
 otworz_modal = ""
+tekst_pod_naglowkiem = ""
 template = "banner"
 [[sections.banner_header_cnt.header_repeater]]
 block_tag_type = "h1"
