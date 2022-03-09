@@ -1382,7 +1382,7 @@ form#contactform,form#mcontactform{
   }
   
   @media (min-width: 1600px){
-    padding-bottom: 10rem;
+    padding-bottom: 2rem;
   }
   position: relative;
   z-index: 0;
@@ -2354,7 +2354,7 @@ form#contactform,form#mcontactform{
   }
   .sc-banner-wide .banner-img {
     @media (min-width: 768px) {
-      transform: translateY(0);
+      transform: translateY(-4em);
     }
     
   }
