@@ -1,11 +1,13 @@
 +++
 body_class = "social-media"
 description = "Social Media to większa sprzedaż i rozpoznawalność marki"
-draft = false
 keywords = ""
 robots = "index follow"
 slug = "social-media"
 title = "Social media | Agencjawroclawska.pl"
+[menu.main]
+name = "Social media"
+weight = 3
 [[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_left_dark = ""
