@@ -66,6 +66,7 @@ header_repeater = []
 kolumny = []
 opis = ""
 [[sections]]
+sekcja_jako = "3kolumny dlaczego"
 template = "gads-2-dlaczegowarto"
 tytul_nad_guzikiem = "Uzyskaj bezpłatną wycenę kampanii Google Ads"
 tytul_odnosnika = "Kontakt"
