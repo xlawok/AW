@@ -369,6 +369,14 @@ fields:
   showOnly:
     field: banner_type
     value: no_img_only_background_num
+- name: krotki_tekst_pod_odnosnikiem
+  type: text
+  config:
+    required: false
+  label: Krótki tekst pod odnośnikiem
+  showOnly:
+    field: banner_type
+    value: no_img_only_background_num
 - name: otworz_modal_num
   type: textarea
   default: ''
