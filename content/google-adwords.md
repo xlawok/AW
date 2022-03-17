@@ -186,5 +186,30 @@ ornament = "brak"
 txt_block = "Dlaczego my?"
 txt_block_size = "XL"
 underline = false
+[[sections]]
+template = "sekcja-przemienne-kolumny-txt-img"
+[[sections.wiersz_dwie_kolumny]]
+tytul_wiersza = ""
+[sections.wiersz_dwie_kolumny.kolumna_druga]
+film_obrazek = []
+if_svg = false
+kod_embed = ""
+obrazek = ""
+obrazek_dark_mode = ""
+[sections.wiersz_dwie_kolumny.kolumna_pierwsza]
+adres_odnosnika = []
+if_blank = false
+opis = "<strong>Działając jednocześnie na wielu polach w Internecie zwiększasz rozpoznawalność marki, wzmacniasz pozycję strony internetowej w wyszukiwarce i kreujesz pozytywny wizerunek swojej firmy. <br></strong>Wybierz i kompleksowo łącz usługi ze wszystkich obszarów e-marketingu. Wykorzystaj potencjał marketingu internetowego integrując kampanie SEO, Google Ads i Social Media, aby skutecznie realizować swoje cele biznesowe. <br><br>Gwarantujemy Ci wygodę obsługi i korzystną ofertę cenową dostosowaną do Twoich potrzeb."
+relacja_linku = ""
+tytul_odnosnika = "Kontakt"
+[[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Kompleksowe działania kluczem do sukcesu twojej firmy."
+txt_block_size = "XL"
+underline = false
 
 +++
