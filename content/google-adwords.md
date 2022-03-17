@@ -65,5 +65,43 @@ header_repeater = []
 header_repeater = []
 kolumny = []
 opis = ""
+[[sections]]
+template = "gads-2-dlaczegowarto"
+tytul_nad_guzikiem = "Uzyskaj bezpłatną wycenę kampanii Google Ads"
+tytul_odnosnika = "Kontakt"
+wyswietl_guzik = true
+[[sections.boxy]]
+ikona = "/uploads/miejsca-reklamowe.svg"
+opsi = "(google jest najczęściej używaną w Polsce przeglądarką)"
+tytul = "Najpopularniejsze miejsca reklamowe"
+[[sections.boxy]]
+ikona = "/uploads/zwiekszenie-ruchu.svg"
+opsi = "(konwertujący ruch przekładający się na sprzedaż lub zainteresowanie portfolio usługowym)"
+tytul = "Zwiększenie ruchu na witrynie"
+[[sections.boxy]]
+ikona = "/uploads/efekt-mierzalny.svg"
+opsi = ""
+tytul = "Efekt mierzalny w krótkiej perspektywie czasu"
+[[sections.boxy]]
+ikona = "/uploads/mozliwosc-personalizacji.svg"
+opsi = "aby dopasować idealnie ich wymiar do potrzeb reklamodawcy."
+tytul = "Możliwość personalizacji form reklamy"
+[[sections.boxy]]
+ikona = "/uploads/okreslanie-grupy.svg"
+opsi = "(dostosowanie reklam do odpowiedniej grupy odbiorczej np. płeć lub wiek)."
+tytul = "Określanie grupy odbiorczej"
+[[sections.boxy]]
+ikona = "/uploads/staly-monitoring.svg"
+opsi = "i możliwość wprowadzania zmian w naszych kampaniach w miarę bieżących potrzeb."
+tytul = "Stały monitoring efektów"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Dlaczego warto zainwestować w google Ads:"
+txt_block_size = "XL"
+underline = false
 
 +++
