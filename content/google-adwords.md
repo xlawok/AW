@@ -31,6 +31,7 @@ banner_list_gruop = []
 banner_type = "no_img_only_background_num"
 dymki_z_tekstem = []
 formularz_wylaczony = false
+krotki_tekst_pod_odnosnikiem = "bezpłatna wycena kampanii"
 naglowek_formularza = ""
 naglowek_formularza_no_img = ""
 naglowek_formularza_no_img_num = "Formularz kontaktowy"
