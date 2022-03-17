@@ -71,6 +71,7 @@ template = "gads-2-dlaczegowarto"
 tytul_nad_guzikiem = "Uzyskaj bezpłatną wycenę kampanii Google Ads"
 tytul_odnosnika = "Kontakt"
 wyswietl_guzik = true
+zdjecie = ""
 [[sections.boxy]]
 ikona = "/uploads/miejsca-reklamowe.svg"
 opsi = "(google jest najczęściej używaną w Polsce przeglądarką)"
@@ -110,6 +111,7 @@ template = "gads-2-dlaczegowarto"
 tytul_nad_guzikiem = "Wybierz najlepszą formę kampanii Google Ads dla ciebie"
 tytul_odnosnika = "Kontakt"
 wyswietl_guzik = true
+zdjecie = ""
 [[sections.boxy]]
 ikona = "/uploads/google-shopping.svg"
 opsi = "Dzięki systemowi Google Ads prowadzisz kampanie skutecznie promującą konkretne produkty w postaci zdjęcia wraz z krótkim opisem w sekcji zakupów Google wraz z ceną która automatycznie zmienia się wraz ze zmianą na twojej stronie . W przypadku tej reklamy płacisz tylko za efekt czyli kliknięcie bezpośrednio w link odnoszący do twojej strony. Skraca to proces zakupowy przenosząc potencjalnego klienta bezpośrednio do konkretnego produktu."
@@ -139,4 +141,37 @@ ornament = "brak"
 txt_block = "Jakie są rodzaje reklamy płatnej:"
 txt_block_size = "XL"
 underline = false
+[[sections]]
+sekcja_jako = "2kolumny zdjecie"
+template = "gads-2-dlaczegowarto"
+tytul_nad_guzikiem = ""
+tytul_odnosnika = ""
+wyswietl_guzik = true
+zdjecie = "/uploads/dlaczego-my-img.svg"
+[[sections.boxy]]
+ikona = "/uploads/doswiadczony-zespol.svg"
+opsi = "Doświadczony zespół (pełna opieka marketingowa)"
+tytul = ""
+[[sections.boxy]]
+ikona = "/uploads/skutecznie-zrealizowane.svg"
+opsi = "Skutecznie zrealizowane Kampanie Google Ads (przeszłe i obecne)"
+tytul = ""
+[[sections.boxy]]
+ikona = "/uploads/wsparcie-optymalizacji.svg"
+opsi = "Wsparcie pod kątem optymalizacji strony"
+tytul = ""
+[[sections.boxy]]
+ikona = "/uploads/ciagly-monitoring-1.svg"
+opsi = "Ciągły monitoring i optymalizacja kampanii Google Ads (maksymalizacja sprzedaży)"
+tytul = ""
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "Dlaczego my?"
+txt_block_size = "XL"
+underline = false
+
 +++
