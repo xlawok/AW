@@ -1,5 +1,5 @@
 ---
-label: Gads - 2 dlaczegowarto
+label: Gads - 2 dlaczegowarto 3 rodzaje
 hide_body: true
 fields:
 - name: naglowek
@@ -48,3 +48,17 @@ fields:
   config:
     required: false
   label: Tytuł odnosnika
+- name: sekcja_jako
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - 3kolumny dlaczego
+    - 2kolumny rodzaje
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Sekcja jako
