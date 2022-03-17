@@ -12,6 +12,7 @@ fields:
     - center_img_w_background
     - no_img_only_background
     - no_img_w_bubbles
+    - no_img_only_background_num
     source:
       type: simple
       section: 
