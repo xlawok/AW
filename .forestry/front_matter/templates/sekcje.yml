@@ -80,6 +80,7 @@ fields:
   - sekcja-formy-reklamy
   - sekcja-duzy-cta-z-ikona
   - sekcja-czerwony-box-srodek
+  - gads-2-dlaczegowarto
   config:
     min: 
     max: 
