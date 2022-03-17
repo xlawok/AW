@@ -48,6 +48,14 @@ fields:
   config:
     required: false
   label: Tytuł odnosnika
+- name: zdjecie
+  type: file
+  config:
+    maxSize: 1
+  showOnly:
+    field: sekcja_jako
+    value: 2kolumny zdjecie
+  label: Zdjęcie
 - name: sekcja_jako
   type: select
   default: []
@@ -56,6 +64,7 @@ fields:
     options:
     - 3kolumny dlaczego
     - 2kolumny rodzaje
+    - 2kolumny zdjecie
     source:
       type: simple
       section: 
