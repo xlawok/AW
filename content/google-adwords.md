@@ -142,6 +142,19 @@ txt_block = "Jakie są rodzaje reklamy płatnej:"
 txt_block_size = "XL"
 underline = false
 [[sections]]
+elementy_podzialki = ["Analiza potrzeb", "Konfiguracja google analitics", "Przygotowanie kampanii (do 7 dni)", "Kontrola ustawień i start kampanii", "Analizy efektów + bieżący kontakt", "Cykliczna optymalizacja", "Comiesięczne raportowanie", "Aktualizacja strategii i testowanie nowych rozwiązań"]
+template = "gads-miarka"
+zdjecie = "/uploads/etapy-kampanii-img.svg"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Etapy kampanii Google Ads:"
+txt_block_size = "XL"
+underline = false
+[[sections]]
 sekcja_jako = "2kolumny zdjecie"
 template = "gads-2-dlaczegowarto"
 tytul_nad_guzikiem = ""
