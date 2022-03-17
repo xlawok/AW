@@ -3,8 +3,8 @@
     <div class='center-banner-cnt'>
         
             
-            {{$obrazek := .banner_bg_no_img}}
-            {{with .banner_bg_no_img_dark}}
+            {{$obrazek := .banner_bg_no_img_num}}
+            {{with .banner_bg_no_img_dark_num}}
                 {{- partial "img.html" (dict "image" $obrazek "imgsizes" "" "tag_class" "banner-bg-img lmode" "ifsrcset" "nosrcset")  -}}
                 {{- partial "img.html" (dict "image" . "imgsizes" "" "tag_class" "banner-bg-img dmode")  -}}
 
@@ -18,15 +18,15 @@
                     {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "banner-header")  -}}
                     {{ $header_slogan_list := (.banner_slogan.header_repeater) }}
                     {{- partial "header-tag.html" (dict "context" . "header_list" $header_slogan_list "custom_class" "banner-slogan")  -}}
-                    {{with .opis_banner}}
+                    {{with .opis_banner_num}}
                         <div class='no-img-banner-desc'>
                             {{. | safeHTML}}
                         </div>
                     {{end}}
                
-                    {{if and .banner_cta_title (or .banner_cta_url .otworz_modal) }}
-                        {{$tytul_odnosnika:=.banner_cta_title}}
-                        {{ if .banner_cta_url }}
+                    {{if and .banner_cta_title_num (or .banner_cta_url_num .otworz_modal_num) }}
+                        {{$tytul_odnosnika:=.banner_cta_title_num}}
+                        {{ if .banner_cta_url_num }}
                             {{ with site.GetPage .banner_cta_url }}
                                 <a class='cta-button' href='{{.RelPermalink}}'>{{$tytul_odnosnika}}</a>
                             {{end}}
@@ -42,8 +42,8 @@
        
             </div>
         {{end}}
-        {{$naglowek_formularza_no_img :=.naglowek_formularza_no_img}}
-        {{with .banner_form_html_no_img}}
+        {{$naglowek_formularza_no_img :=.naglowek_formularza_no_img_num}}
+        {{with .banner_form_html_no_img_num}}
         <div class='banner-right-col'>
             <div class='form-header'>
                 {{$naglowek_formularza_no_img}}
@@ -56,7 +56,7 @@
 
 </section>
 {{if false }}
-    {{ with .otworz_modal}}
+    {{ with .otworz_modal_num}}
     {{- partial "modal.html" (dict "modal_data" . "modal_name" "modal1")  -}}
 
     {{end}}
