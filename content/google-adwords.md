@@ -191,10 +191,10 @@ template = "sekcja-przemienne-kolumny-txt-img"
 [[sections.wiersz_dwie_kolumny]]
 tytul_wiersza = ""
 [sections.wiersz_dwie_kolumny.kolumna_druga]
-film_obrazek = []
+film_obrazek = "image"
 if_svg = false
 kod_embed = ""
-obrazek = ""
+obrazek = "/uploads/google-seo-media.svg"
 obrazek_dark_mode = ""
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = []
