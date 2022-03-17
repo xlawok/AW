@@ -211,5 +211,13 @@ ornament = "brak"
 txt_block = "Kompleksowe działania kluczem do sukcesu twojej firmy."
 txt_block_size = "XL"
 underline = false
+[[sections]]
+e_mail = "r.czupry@agencjawroclawska.pl"
+header_repeater = []
+imie_i_nazwisko = "Robert Czupry"
+stanowisko = "SEO Specialist"
+telefon = "+48 735 928 630"
+template = "naglowek-i-belka-czerwona"
+zdjecie = "/uploads/robert1.jpeg"
 
 +++
