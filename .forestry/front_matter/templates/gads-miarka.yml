@@ -1,4 +1,21 @@
 ---
 label: Gads - miarka
 hide_body: true
-fields: []
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: zdjecie
+  type: file
+  config:
+    maxSize: 1
+  label: Zdjęcie
+- name: elementy_podzialki
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Elementy podziałki
