@@ -104,5 +104,39 @@ ornament = "brak"
 txt_block = "Dlaczego warto zainwestować w google Ads:"
 txt_block_size = "XL"
 underline = false
-
+[[sections]]
+sekcja_jako = "2kolumny rodzaje"
+template = "gads-2-dlaczegowarto"
+tytul_nad_guzikiem = "Wybierz najlepszą formę kampanii Google Ads dla ciebie"
+tytul_odnosnika = "Kontakt"
+wyswietl_guzik = true
+[[sections.boxy]]
+ikona = "/uploads/google-shopping.svg"
+opsi = "Dzięki systemowi Google Ads prowadzisz kampanie skutecznie promującą konkretne produkty w postaci zdjęcia wraz z krótkim opisem w sekcji zakupów Google wraz z ceną która automatycznie zmienia się wraz ze zmianą na twojej stronie . W przypadku tej reklamy płacisz tylko za efekt czyli kliknięcie bezpośrednio w link odnoszący do twojej strony. Skraca to proces zakupowy przenosząc potencjalnego klienta bezpośrednio do konkretnego produktu."
+tytul = "Reklamy Google Shopping"
+[[sections.boxy]]
+ikona = "/uploads/reklamy-w-sieci.svg"
+opsi = "Najpopularniejsza forma reklamy PPC (Pay per click) Jest to forma komunikatu tekstowego wyświetlanego nad wyszukiwaniem organicznym w polu oznaczonym jako reklama. Na to komu wyświetla się twoja reklama ma wpływ wiele czynników między innymi odpowiednie słowa kluczowe, wysokość stawki za kliknięcie oraz profil klienta docelowego na którego targetujemy reklamę."
+tytul = "Reklamy w sieci wyszukiwania"
+[[sections.boxy]]
+ikona = "/uploads/remarketing.svg"
+opsi = "Forma reklamy Google Ads uzupełniająca pozostałe polega na wyświetleniu reklamy osobie która miała już styczność z naszą witryną ale z jakiegoś powodu nie dokonała zakupu lub w przypadku produktów i usług które zakupujemy lub korzystamy z nich więcej niż raz np. fryzjer mogą się wyświetlać co określony interwał czasowy."
+tytul = "Remarketing"
+[[sections.boxy]]
+ikona = "/uploads/reklamy-yt.svg"
+opsi = "Kampanie wideo realizowane poprzez serwis You Tube. Każdego dnia miliony użytkowników korzystają z tej witryny co pozwala na dotarcie do bardzo szerokiego grona odbiorców naszej reklamy."
+tytul = "Reklamy na YouTube"
+[[sections.boxy]]
+ikona = "/uploads/kampanie-g-ads.svg"
+opsi = "Kampanie GDN (Google Display Network) wykorzystują udostępnioną powierzchnie reklamową na stronach tysięcy serwisów należących do sieci reklamowej Google w formie banerów reklamowych."
+tytul = "Kampanie Google Ads w sieci reklamowej"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Jakie są rodzaje reklamy płatnej:"
+txt_block_size = "XL"
+underline = false
 +++
