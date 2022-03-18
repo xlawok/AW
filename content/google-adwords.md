@@ -1,7 +1,7 @@
 +++
 body_class = ""
 description = "google adwords"
-draft = true
+draft = false
 keywords = ""
 robots = "noindex nofollow"
 slug = "google-adwords"
