@@ -159,8 +159,9 @@ sekcja_jako = "2kolumny zdjecie"
 template = "gads-2-dlaczegowarto"
 tytul_nad_guzikiem = ""
 tytul_odnosnika = ""
-wyswietl_guzik = true
+wyswietl_guzik = false
 zdjecie = "/uploads/dlaczego-my-img.svg"
+zdjecie_dark = "/uploads/dlaczego-my-img.svg"
 [[sections.boxy]]
 ikona = "/uploads/doswiadczony-zespol.svg"
 opsi = "Doświadczony zespół (pełna opieka marketingowa)"
@@ -201,6 +202,7 @@ adres_odnosnika = []
 if_blank = false
 opis = "<strong>Działając jednocześnie na wielu polach w Internecie zwiększasz rozpoznawalność marki, wzmacniasz pozycję strony internetowej w wyszukiwarce i kreujesz pozytywny wizerunek swojej firmy. <br></strong>Wybierz i kompleksowo łącz usługi ze wszystkich obszarów e-marketingu. Wykorzystaj potencjał marketingu internetowego integrując kampanie SEO, Google Ads i Social Media, aby skutecznie realizować swoje cele biznesowe. <br><br>Gwarantujemy Ci wygodę obsługi i korzystną ofertę cenową dostosowaną do Twoich potrzeb."
 relacja_linku = ""
+modal_linku = "formularz"
 tytul_odnosnika = "Kontakt"
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
 block_tag_type = "h2"

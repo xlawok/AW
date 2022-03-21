@@ -1,0 +1,55 @@
+<section class='sec-padding sc-cols-w-img {{.sekcja_jako | urlize}}'>
+
+
+    
+    {{ $header_list := .header_repeater }}
+  
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "cols-w-no-sec-header")  -}}
+    {{if eq .sekcja_jako "2kolumny zdjecie"}}
+        <div class='left-col'>
+    {{end}}
+    {{with .boxy}}
+        <ul class="cols-w-img">
+            
+            {{ range $index, $item:= . }} 
+                <li class="col-w-img">
+                 
+                    {{$obrazek := .ikona}}
+                    {{with .ikona_dark_mode}}
+                        {{- partial "img.html" (dict "image" $obrazek "imgsizes" "" "tag_class" "lmode" "ifsrcset" "nosrcset" )  -}}
+                        {{- partial "img.html" (dict "image" . "imgsizes" "" "tag_class" "dmode" "ifsrcset" "nosrcset" )  -}}
+
+                    {{else}}
+                        {{- partial "img.html" (dict "image" $obrazek "imgsizes" "" "tag_class" "" "ifsrcset" "nosrcset" )  -}}
+                    {{end}} 
+                   {{with $item.tytul}}
+                    <div class="col-header  txt-L">{{.}}</div>
+                    {{end}}
+                    {{with $item.opsi}}
+                    <div class="col-desc">{{. | safeHTML}}</div>
+                    {{end}}
+                </li>
+            
+
+            {{end}}
+        </ul>
+    {{end}}
+    {{if .wyswietl_guzik}}
+        <span class='additional-cta-desc'>{{.tytul_nad_guzikiem}}</span>
+        {{$tytul_odnosnika:=.tytul_odnosnika}}
+    
+            <button data-modaltarget='modal1' class='open-modal-quote cta-button' href='#'>{{$tytul_odnosnika}}</button>
+            
+       
+    {{end}}
+    {{if eq .sekcja_jako "2kolumny zdjecie"}}
+        </div>
+        <div class='right-col'>
+            {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "lmode")  -}}
+            {{with .zdjecie_dark}}
+                {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "dmode")  -}}
+            {{end}}
+        </div>
+    {{end}}
+
+</section>

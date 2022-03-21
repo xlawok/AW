@@ -17,5 +17,5 @@ fields:
   config:
     use_select: false
     min: 
-    max: 
+    max: 8
   label: Elementy podziałki

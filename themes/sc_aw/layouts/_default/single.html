@@ -118,6 +118,12 @@
     {{if eq .template "sekcja-formy-reklamy"}}
       {{- partial "sekcja-formy-reklamy.html" . -}}
     {{end}}
+    {{if eq .template "gads-2-dlaczegowarto"}}
+      {{- partial "kolumny-3-2-z-obrazkami.html" . -}}
+    {{end}}
+    {{if eq .template "gads-miarka"}}
+      {{- partial "gads-miarka.html" . -}}
+    {{end}}
     
   {{ end }}
   

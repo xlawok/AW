@@ -18,6 +18,12 @@
                     
                         <a class='two-col-link' href=" {{ .Permalink }}" rel="{{$relacja_linku}}">{{$tytul_odnosnika}}</a>
                     {{ end }}
+                {{else}}
+                    {{if eq .kolumna_pierwsza.modal_linku "formularz"}}
+                   
+    
+                    <button data-modaltarget='modal1' class='open-modal-quote cta-button' href='#'>{{$tytul_odnosnika}}</button>
+                    {{end}}
                 {{end}}
 
                 
