@@ -8345,6 +8345,9 @@ body {
     width: 100%  !important;
     font-weight: bold;
     color: #000;
+    @at-root .dark-m .kolumny2-rodzaje  .additional-cta-desc{
+      color: #fff;
+    }
   }
   .cta-button{
     margin: 0 auto;
@@ -8390,7 +8393,7 @@ body {
     top: 1rem;
     height: 87%;
     object-fit: contain;
-    opacity: .5;
+    opacity: .3;
     @media (min-width: 768px){
       right: -4rem;
     }
