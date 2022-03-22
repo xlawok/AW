@@ -1,11 +1,16 @@
 <section class='sec-padding sc-cols-w-img {{.sekcja_jako | urlize}}'>
-
-
+    
+ 
     
     {{ $header_list := .header_repeater }}
-  
-    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "cols-w-no-sec-header")  -}}
-    {{if eq .sekcja_jako "2kolumny zdjecie"}}
+    {{if isset . "sekcja_jako" }}
+   
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "header-counter")  -}}
+    {{else}}
+        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
+    {{end}}
+        
+    {{if eq .sekcja_jako "kolumny2 zdjecie"}}
         <div class='left-col'>
     {{end}}
     {{with .boxy}}
@@ -42,7 +47,7 @@
             
        
     {{end}}
-    {{if eq .sekcja_jako "2kolumny zdjecie"}}
+    {{if eq .sekcja_jako "kolumny2 zdjecie"}}
         </div>
         <div class='right-col'>
             {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "lmode")  -}}

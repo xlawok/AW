@@ -8087,3 +8087,202 @@ text-align: left;
       }
     }
 }
+body {
+  counter-reset: section;
+}
+.header-counter{
+  position: relative;
+}
+.set-counter .header-counter{
+  padding-left: 2rem;
+  @media (min-width:992px){
+    padding-left: 0;
+  }
+}
+.set-counter .header-counter::before {
+  counter-increment: section;
+  transform: unset;
+  width: 2.5rem;
+  text-align: center;
+  height: 2.5rem;
+  background: transparent;
+  border-radius: 50%;
+  border: 2px solid #000000;
+  position: absolute;
+  left: -1rem;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  
+  font-size: 1.875rem;
+  font-weight: bold;
+  content:  counter(section) !important;
+  @media (min-width:992px){
+    left: -3rem;
+  }
+  @media (min-width: 1366px){
+    left: -4rem;
+  }
+  
+}
+.set-counter .banner-header{
+  &:before {
+    top: .75rem;
+  }
+
+}
+.kolumny3-dlaczego{
+  ul.cols-w-img{
+    >li{
+      display: flex;
+      flex-direction: column;
+      // justify-content: center;
+      align-content: center;
+      align-items: center;
+      padding: .5rem 0;
+      .col-header{
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 1.2;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 1rem;
+      }
+      .col-desc{
+        font-size: 1rem;
+        border-bottom: 0;
+        text-align: center;
+      }
+    }
+    
+    img{
+      width: 100%;
+      object-fit: contain;
+      height: 100%;
+      max-width: 9.3125rem;
+      max-height: 5.5rem;
+    }
+  }
+  @media (min-width: 1600px){
+    padding-left: (324/1920)*100vw;
+    padding-right: (534/1920)*100vw;
+    ul.cols-w-img{
+      padding-left: (90/1920)*100vw;
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        background-image: url(/img/question-filled.svg);
+        height: 140%;
+        width: 100%;
+        top: -5rem;
+        background-repeat: no-repeat;
+        background-position: 60% 0%;
+        background-size: contain;
+        left: -40vw;
+      }
+    }
+  }
+  
+}
+.g-ads{
+  .cta-button{
+    width: 18.4375rem;
+    
+    height: 3.9375rem;
+    color: #F53C37;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.125rem solid #F53C37;
+    border-radius: 4.6875rem;
+    opacity: 1;
+    font-size: 2.3125rem;
+    line-height: 1;
+    @media (min-width: 768px){
+      width: 25.4375rem;
+    }
+    &:before,&:after{
+      display: none;
+    }
+    // &:hover{
+    //   &:before,&after{
+    //     display: none;
+    //   }
+    // }
+  }
+  .additional-cta-desc{
+    display: block;
+    width: 18.4375rem;
+    font-size: 0.9375rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    @media (min-width: 768px){
+      width: 25.4375rem;
+    }
+  }
+  .sc-banner-center-noimg .center-banner-cnt .banner-bg-img {
+   right: -2rem;
+    top: 1rem;
+    height: 87%;
+    object-fit: contain;
+    opacity: .5;
+    @media (min-width: 768px){
+      right: -4rem;
+    }
+    @media (min-width: 992px){
+      right: 0;
+    }
+    @media (min-width: 1600px){
+      opacity: 1;
+      right: 8rem;
+    }
+    
+  }
+  main{
+    section:nth-child(1){
+      z-index: 1;
+      .center-banner-cnt{
+        &:before {
+          content: url(/img/AW-red.svg);
+          position: absolute;
+          display: block;
+          right: -20%;
+          z-index: -1;
+          top: 0;
+          height: 100%;
+          width: 50%;
+          transform: scale(0.7);
+        }
+        &::after {
+         
+          z-index: -2;
+        }
+      }
+     
+    }
+    .sc-cols-w-img {
+      position: relative;
+      >* {
+        position: relative;
+        z-index: 1;
+        }
+    }
+    section:nth-child(3){
+      // background: unset;
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        height: 75.5rem;
+        top: -23rem;
+        z-index: -2;
+        clip-path: ellipse(90% 60% at 51% 100%);
+        clip-path: url(#my-clip-path2);
+        background-color: #fff;
+        z-index: 0;
+      }
+    }
+  }
+}

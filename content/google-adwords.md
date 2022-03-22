@@ -1,5 +1,5 @@
 +++
-body_class = ""
+body_class = "set-counter g-ads"
 description = "google adwords"
 draft = false
 keywords = ""
@@ -66,7 +66,7 @@ header_repeater = []
 kolumny = []
 opis = ""
 [[sections]]
-sekcja_jako = "3kolumny dlaczego"
+sekcja_jako = "kolumny3 dlaczego"
 template = "gads-2-dlaczegowarto"
 tytul_nad_guzikiem = "Uzyskaj bezpłatną wycenę kampanii Google Ads"
 tytul_odnosnika = "Kontakt"
@@ -106,7 +106,7 @@ txt_block = "Dlaczego warto zainwestować w google Ads:"
 txt_block_size = "XL"
 underline = false
 [[sections]]
-sekcja_jako = "2kolumny rodzaje"
+sekcja_jako = "kolumny2 rodzaje"
 template = "gads-2-dlaczegowarto"
 tytul_nad_guzikiem = "Wybierz najlepszą formę kampanii Google Ads dla ciebie"
 tytul_odnosnika = "Kontakt"
@@ -155,7 +155,7 @@ txt_block = "Etapy kampanii Google Ads:"
 txt_block_size = "XL"
 underline = false
 [[sections]]
-sekcja_jako = "2kolumny zdjecie"
+sekcja_jako = "kolumny2 zdjecie"
 template = "gads-2-dlaczegowarto"
 tytul_nad_guzikiem = ""
 tytul_odnosnika = ""

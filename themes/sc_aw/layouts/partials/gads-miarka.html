@@ -3,7 +3,7 @@
    
     {{ $header_list := (.header_repeater) }}
 
-    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "metrowka-sec-header")  -}}
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "metrowka-sec-header header-counter")  -}}
     {{ $miarka_len:= len .elementy_podzialki }}
     <ul class='miarka-wrapper miarka-len-{{$miarka_len}}'>
 

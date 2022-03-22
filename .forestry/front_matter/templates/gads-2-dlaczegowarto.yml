@@ -59,7 +59,7 @@ fields:
     maxSize: 1
   showOnly:
     field: sekcja_jako
-    value: 2kolumny zdjecie
+    value: kolumny2 zdjecie
   label: Zdjęcie
 - name: zdjecie_dark
   type: file
@@ -67,7 +67,7 @@ fields:
     maxSize: 1
   showOnly:
     field: sekcja_jako
-    value: 2kolumny zdjecie
+    value: kolumny2 zdjecie
   label: Zdjęcie dark mode
 - name: sekcja_jako
   type: select
@@ -75,9 +75,9 @@ fields:
   config:
     required: false
     options:
-    - 3kolumny dlaczego
-    - 2kolumny rodzaje
-    - 2kolumny zdjecie
+    - kolumny3 dlaczego
+    - kolumny2 rodzaje
+    - kolumny2 zdjecie
     source:
       type: simple
       section: 
