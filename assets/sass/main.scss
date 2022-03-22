@@ -8493,6 +8493,9 @@ body {
           background-color: #000;
         }
       }
+      @at-root .g-ads.dark-m.set-counter   section:nth-child(4) .header-counter::before{
+        border-color: #242424;
+      }
     }
     @at-root .set-counter section:nth-child(5)    .header-counter::before{
       border-color: #F53C37;
