@@ -15,7 +15,7 @@
             <div class='on-banner-content sec-padding'>
             
                     {{ $header_list := (.banner_header_cnt.header_repeater) }}
-                    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "banner-header header-counter")  -}}
+                    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "banner-header ")  -}}
                     {{ $header_slogan_list := (.banner_slogan.header_repeater) }}
                     {{- partial "header-tag.html" (dict "context" . "header_list" $header_slogan_list "custom_class" "banner-slogan")  -}}
                     {{with .opis_banner_num}}

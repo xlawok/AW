@@ -7982,7 +7982,8 @@ text-align: left;
       display: block;
       position: absolute;
       left: 1rem;
-      top: 0;
+      top: 1vw;
+      max-width: 17vw;
       z-index: 1;
     }
   }
@@ -8466,6 +8467,9 @@ body {
         width: 50%;
         transform: scale(0.7);
       }
+      @media (min-width: 1600px) {
+        margin-bottom: 7rem;
+      }
     }
     section:nth-child(4){
       position: relative;
@@ -8495,6 +8499,30 @@ body {
       }
       @at-root .g-ads.dark-m.set-counter   section:nth-child(4) .header-counter::before{
         border-color: #242424;
+      }
+      &:after{
+        display: none;
+        @media (min-width: 768px) {
+          content: url(/uploads/gear.svg);
+          position: absolute;
+          display: block;
+          
+          right: 10vw;
+          z-index: 0;
+          top: -4rem;
+          height: 5rem;
+          width: 5rem;
+          
+        }
+        @media (min-width: 1600px) {
+          right: 30vw;
+        }
+        
+      }
+      @media (min-width: 1600px) {
+        padding-top: 7rem;
+        
+        padding-bottom: 15rem;
       }
     }
     @at-root .set-counter section:nth-child(5)    .header-counter::before{
