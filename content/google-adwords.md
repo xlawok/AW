@@ -145,6 +145,7 @@ underline = false
 elementy_podzialki = ["Analiza potrzeb", "Konfiguracja google analitics", "Przygotowanie kampanii (do 7 dni)", "Kontrola ustawień i start kampanii", "Analizy efektów + bieżący kontakt", "Cykliczna optymalizacja", "Comiesięczne raportowanie", "Aktualizacja strategii i testowanie nowych rozwiązań"]
 template = "gads-miarka"
 zdjecie = "/uploads/etapy-kampanii-img.svg"
+zdjecie_dark = "/uploads/etapy-kampanii-img.svg"
 [[sections.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
@@ -196,7 +197,7 @@ film_obrazek = "image"
 if_svg = false
 kod_embed = ""
 obrazek = "/uploads/google-seo-media.svg"
-obrazek_dark_mode = ""
+obrazek_dark_mode = "/uploads/google-seo-media.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = []
 if_blank = false
