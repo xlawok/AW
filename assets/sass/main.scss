@@ -8086,6 +8086,8 @@ text-align: left;
               width: 0.0625rem;
               span{
                 position: absolute;
+                bottom: 0;
+                left: 50%;
                 inset: auto auto 0 50%;
                 transform: translate(-50%, 0);
                 text-align: center;
