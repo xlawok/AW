@@ -5,6 +5,8 @@ pierwsza_kolumna:
     href="mailto:kontakt@agencjawroclawska.pl" title="">kontakt@agencjawroclawska.pl</a></p>
   logo_dark: "/uploads/logo-aw-white.svg"
 druga_kolumna:
+- wybierz_odnosniki: google-adwords.md
+  tytul_odnosnika: Google Adwords
 - wybierz_odnosniki: social-media.md
   tytul_odnosnika: Social media
 - wybierz_odnosniki: pozycjonowanie-stron.md
