@@ -147,10 +147,10 @@ sections:
   section_team_group:
   - obrazek: "/uploads/bartek1.jpg"
     my_name: Bartek
-    stanowisko: Marketing Manager
+    stanowisko: Head of Marketing
   - obrazek: "/uploads/jakub1.jpg"
     my_name: Jakub
-    stanowisko: SEO Manager
+    stanowisko: Head of SEO
   - obrazek: "/uploads/piotr1.jpg"
     my_name: Piotr
     stanowisko: Web Developer
@@ -165,16 +165,13 @@ sections:
     stanowisko: Copywriter
   - obrazek: "/uploads/wladek.jpg"
     my_name: Władek
-    stanowisko: SEO Expert
+    stanowisko: SEO Manager
   - obrazek: "/uploads/robert1.jpeg"
     my_name: Robert
-    stanowisko: Google ADS Manager
+    stanowisko: Google Ads Manager
   - obrazek: "/uploads/julia.jpeg"
     my_name: Julia
     stanowisko: Social Media Manager
-  - obrazek: "/uploads/mateusz1.jpg"
-    my_name: Mateusz
-    stanowisko: SEO Specialist
   - obrazek: "/uploads/ola.jpeg"
     my_name: Ola
     stanowisko: SEO Specialist
