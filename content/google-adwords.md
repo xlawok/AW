@@ -36,7 +36,7 @@ naglowek_formularza = ""
 naglowek_formularza_no_img = ""
 naglowek_formularza_no_img_num = "Formularz kontaktowy"
 opis_banner = ""
-opis_banner_num = "<h2 class='header-counter txt-XL'>Co to jest Google Ads?</h2>- System reklamowy umożliwiający prowadzenie kampanii promujących marki, produkty, usługi. <br>- Cały system obejmuje nie tylko samą wyszukiwarkę, ale także sieć partnerską Google <br>- System obejmuje różnego rodzaju reklamy min reklamy tekstowe, graficzne oraz video."
+opis_banner_num = "<h2 class='header-counter txt-XL'>Co to jest Google Ads?</h2><ul class='no-img-banner-list'><li>System reklamowy umożliwiający prowadzenie kampanii promujących marki, produkty, usługi. </li><li>Cały system obejmuje nie tylko samą wyszukiwarkę, ale także sieć partnerską Google</li><li>System obejmuje różnego rodzaju reklamy min reklamy tekstowe, graficzne oraz video.</li></ul>"
 otworz_modal = ""
 otworz_modal_num = "<div class=\"form-header\">Zamów bezpłatną wycenę w 24h!</div>\n<form id=\"contactform\" action=\"https://formsubmit.io/send/kontakt@agencjawroclawska.pl\" method=\"POST\">\n<div class='input-cnt'>\n <input required name=\"email\" type=\"email\" id=\"email\" placeholder=\"Adres e-mail\"><label for='email'> Adres e-mail</label>\n</div>\n<div class='input-cnt'>\n    <input name=\"www\" type=\"text\" id=\"www\" placeholder=\"Adres strony www\"><label for='www'>Adres strony www</label>\n</div>\n<div class='input-cnt'>\n    <input  required name=\"phone\" type=\"tel\" id=\"phone\" placeholder=\"Numer telefonu\"><label for='phone'>Numer telefonu</label>\n   </div>\n   <div>\n<span class='radio-cnt-title'>Wybierz temat zapytania</span>\n <div class='form-radio'>\n\n  <input type=\"radio\" id=\"optimization\" name=\"question\" value=\"optymalizacja\"\n         ><label for=\"optimization\">\nOptymalizacja strony WWW </label>\n</div>\n <div class='form-radio'>\n \n  <input type=\"radio\" id=\"positoning\" name=\"question\" value=\"pozyjnonowanie\"\n         ><label for=\"positoning\">Pozycjonowanie\n </label>\n</div>\n <div class='form-radio'>\n \n  <input type=\"radio\" id=\"consulting\" name=\"question\" value=\"konsultacje\"\n         ><label for=\"consulting\">Konsultacje SEO\n </label>\n</div>\n</div>\n\n    <input name=\"_formsubmit_id\" type=\"text\" style=\"display:none\">\n\n    <button  type=\"submit\">Wyślij zapytanie</button>\n<div class='rodo'>\n<input id='rodo-accept' type='checkbox' required name='rodo-accept' value='accept'/>\n<label for='rodo-accept'>Administratorem Twoich danych osobowych, czyli podmiotem decydującym o celach i sposobach przetwarzania Twoich danych osobowych jest Agencja Wrocławska. Informujemy, że podanie danych osobowych zawartych w formularzu jest dobrowolne, ale niezbędne do skutecznego nawiązania kontaktu z Administratorem, jak również przysługują Ci prawa dostępu do Twoich danych osobowych, ich zmiany (w tym aktualizacji), a także pozostałe prawa opisane w Polityce prywatności. W Polityce prywatności znajdują się także szczegółowe informację w zakresie praw i obowiązków Administratora.\n</label>\n</div>\n</form>"
 tekst_pod_naglowkiem = ""
@@ -74,7 +74,7 @@ wyswietl_guzik = true
 zdjecie = ""
 [[sections.boxy]]
 ikona = "/uploads/miejsca-reklamowe.svg"
-opsi = "(google jest najczęściej używaną w Polsce przeglądarką)"
+opsi = "(Google jest najczęściej używaną w Polsce przeglądarką)"
 tytul = "Najpopularniejsze miejsca reklamowe"
 [[sections.boxy]]
 ikona = "/uploads/zwiekszenie-ruchu.svg"
@@ -102,13 +102,13 @@ bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
 ornament = "brak"
-txt_block = "Dlaczego warto zainwestować w google Ads:"
+txt_block = "Dlaczego warto zainwestować w Google Ads:"
 txt_block_size = "XL"
 underline = false
 [[sections]]
 sekcja_jako = "kolumny2 rodzaje"
 template = "gads-2-dlaczegowarto"
-tytul_nad_guzikiem = "Wybierz najlepszą formę kampanii Google Ads dla ciebie"
+tytul_nad_guzikiem = "Wybierz najlepszą formę kampanii Google Ads dla Ciebie"
 tytul_odnosnika = "Kontakt"
 wyswietl_guzik = true
 zdjecie = ""
@@ -142,7 +142,7 @@ txt_block = "Jakie są rodzaje reklamy płatnej:"
 txt_block_size = "XL"
 underline = false
 [[sections]]
-elementy_podzialki = ["Analiza potrzeb", "Konfiguracja google analitics", "Przygotowanie kampanii (do 7 dni)", "Kontrola ustawień i start kampanii", "Analizy efektów + bieżący kontakt", "Cykliczna optymalizacja", "Comiesięczne raportowanie", "Aktualizacja strategii i testowanie nowych rozwiązań"]
+elementy_podzialki = ["Analiza potrzeb", "Konfiguracja Google analitics", "Przygotowanie kampanii (do 7 dni)", "Kontrola ustawień i start kampanii", "Analizy efektów + bieżący kontakt", "Cykliczna optymalizacja", "Comiesięczne raportowanie", "Aktualizacja strategii i testowanie nowych rozwiązań"]
 template = "gads-miarka"
 zdjecie = "/uploads/etapy-kampanii-img.svg"
 zdjecie_dark = "/uploads/etapy-kampanii-img.svg"
