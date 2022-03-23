@@ -1,11 +1,13 @@
 +++
 body_class = "set-counter g-ads"
 description = "google adwords"
-draft = false
 keywords = ""
 robots = "index follow"
 slug = "google-adwords"
 title = "Google adwords | Agencja Wrocławska"
+[menu.main]
+name = "Google Adwords"
+weight = 2
 [[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_left_dark = ""
@@ -201,9 +203,9 @@ obrazek_dark_mode = "/uploads/google-seo-media.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = []
 if_blank = false
+modal_linku = "formularz"
 opis = "<strong>Działając jednocześnie na wielu polach w Internecie zwiększasz rozpoznawalność marki, wzmacniasz pozycję strony internetowej w wyszukiwarce i kreujesz pozytywny wizerunek swojej firmy. <br></strong>Wybierz i kompleksowo łącz usługi ze wszystkich obszarów e-marketingu. Wykorzystaj potencjał marketingu internetowego integrując kampanie SEO, Google Ads i Social Media, aby skutecznie realizować swoje cele biznesowe. <br><br>Gwarantujemy Ci wygodę obsługi i korzystną ofertę cenową dostosowaną do Twoich potrzeb."
 relacja_linku = ""
-modal_linku = "formularz"
 tytul_odnosnika = "Kontakt"
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
 block_tag_type = "h2"

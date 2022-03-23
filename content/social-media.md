@@ -7,7 +7,7 @@ slug = "social-media"
 title = "Social media | Agencjawroclawska.pl"
 [menu.main]
 name = "Social media"
-weight = 2
+weight = 3
 [[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_left_dark = ""

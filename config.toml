@@ -10,7 +10,7 @@ title = "Agencja Wrocławska"
 [[menu.main]]
 name = "O nas"
 url = "#"
-weight = 3
+weight = 4
 [[menu.main]]
 name = "Pozycjonowanie"
 url = "#"
