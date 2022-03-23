@@ -1,0 +1,86 @@
+---
+label: Gads - 2 dlaczegowarto 3 rodzaje
+hide_body: true
+fields:
+- name: naglowek
+  type: include
+  config: {}
+  template: naglowek
+  label: Nagłówek
+- name: boxy
+  type: field_group_list
+  fields:
+  - name: ikona
+    type: file
+    config:
+      maxSize: 1
+    label: Ikona
+  - name: ikona_dark_mode
+    type: file
+    config:
+      maxSize: 1
+    label: Ikona darkm mode
+  - name: tytul
+    type: text
+    config:
+      required: false
+    label: Tytuł
+  - name: opsi
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Opis
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: boxy
+- name: wyswietl_guzik
+  type: boolean
+  label: Wyświetl guzik
+  default: true
+- name: tytul_nad_guzikiem
+  type: text
+  config:
+    required: false
+  label: Tytuł nad guzikiem
+- name: tytul_odnosnika
+  type: text
+  config:
+    required: false
+  label: Tytuł odnosnika
+- name: zdjecie
+  type: file
+  config:
+    maxSize: 1
+  showOnly:
+    field: sekcja_jako
+    value: kolumny2 zdjecie
+  label: Zdjęcie
+- name: zdjecie_dark
+  type: file
+  config:
+    maxSize: 1
+  showOnly:
+    field: sekcja_jako
+    value: kolumny2 zdjecie
+  label: Zdjęcie dark mode
+- name: sekcja_jako
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - kolumny3 dlaczego
+    - kolumny2 rodzaje
+    - kolumny2 zdjecie
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Sekcja jako

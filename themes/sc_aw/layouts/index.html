@@ -12,7 +12,9 @@
           {{- partial "banner-center.html" . -}}
         {{else if eq .banner_type "no_img_only_background"}}
           {{- partial "banner-no-img.html" . -}}
-          {{else if eq .banner_type "no_img_w_bubbles"}}
+        {{else if eq .banner_type "no_img_only_background_num"}}
+          {{- partial "banner-no-img-num.html" . -}}
+        {{else if eq .banner_type "no_img_w_bubbles"}}
             {{- partial "banner-no-img-w-bubbles.html" . -}}
           
         {{end}}

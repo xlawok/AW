@@ -8,7 +8,7 @@
         <div class='two-col-row row-{{$index}}'>
             <div class='first-col'>
                 {{ $header_list := (.kolumna_pierwsza.header_repeater) }}
-                {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
+                {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "header-counter")  -}}
 
                 {{.kolumna_pierwsza.opis | safeHTML }}
                 {{ $relacja_linku := .kolumna_pierwsza.relacja_linku }}
@@ -18,6 +18,12 @@
                     
                         <a class='two-col-link' href=" {{ .Permalink }}" rel="{{$relacja_linku}}">{{$tytul_odnosnika}}</a>
                     {{ end }}
+                {{else}}
+                    {{if eq .kolumna_pierwsza.modal_linku "formularz"}}
+                   
+    
+                    <button data-modaltarget='modal1' class='open-modal-quote cta-button' href='#'>{{$tytul_odnosnika}}</button>
+                    {{end}}
                 {{end}}
 
                 

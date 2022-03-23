@@ -1,0 +1,34 @@
+<section class='sec-padding sc-miarka'>
+    
+   
+    {{ $header_list := (.header_repeater) }}
+
+    {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "metrowka-sec-header header-counter")  -}}
+    {{ $miarka_len:= len .elementy_podzialki }}
+    <ul class='miarka-wrapper miarka-len-{{$miarka_len}}'>
+
+        {{ range $index, $item:=.elementy_podzialki }} 
+
+        <li class="time-control" style="">
+          
+                {{/*  {{if eq $index 0}}  */}}
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                {{/*  {{end}}  */}}
+              <span class="ruller-middle"><span>{{ $item}}</span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                {{/*  <span></span>  */}}
+            
+            
+        </li>
+        {{end}}
+    </ul>
+    {{- partial "img.html" (dict "image" .zdjecie "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "lmode")  -}}
+    {{with .zdjecie_dark}}
+        {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "dmode")  -}}
+    {{end}}
+</section>

@@ -47,6 +47,20 @@ fields:
           file: 
           path: 
       label: Adres odnośnika
+    - name: modal_linku
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - wewnętrzny
+        - formularz
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Link wewnętrzny lub formularz
     - name: relacja_linku
       type: select
       default: []

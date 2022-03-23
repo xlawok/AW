@@ -80,12 +80,15 @@ fields:
   - sekcja-formy-reklamy
   - sekcja-duzy-cta-z-ikona
   - sekcja-czerwony-box-srodek
+  - gads-2-dlaczegowarto
+  - gads-miarka
   config:
     min: 
     max: 
 pages:
 - content/_index.md
 - content/case-study-agencja-wroclawska.md
+- content/google-adwords.md
 - content/konsultacje-seo.md
 - content/kontakt.md
 - content/o-nas.md
