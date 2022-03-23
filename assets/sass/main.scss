@@ -8574,7 +8574,11 @@ transform: rotate(180deg);
             display: block;
             margin: 1rem auto;
           }
-
+          &.first-col{
+            &:before{
+              display: none;
+            }
+          }
           &.second-col{
             img{
               @media (max-width: 1199px){
