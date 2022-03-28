@@ -74,28 +74,35 @@ tytul_nad_guzikiem = "Uzyskaj bezpłatną wycenę kampanii Google Ads"
 tytul_odnosnika = "Kontakt"
 wyswietl_guzik = true
 zdjecie = ""
+zdjecie_dark = ""
 [[sections.boxy]]
 ikona = "/uploads/miejsca-reklamowe.svg"
+ikona_dark_mode = ""
 opsi = "(Google jest najczęściej używaną w Polsce przeglądarką)"
 tytul = "Najpopularniejsze miejsca reklamowe"
 [[sections.boxy]]
 ikona = "/uploads/zwiekszenie-ruchu.svg"
+ikona_dark_mode = ""
 opsi = "(konwertujący ruch przekładający się na sprzedaż lub zainteresowanie portfolio usługowym)"
 tytul = "Zwiększenie ruchu na witrynie"
 [[sections.boxy]]
 ikona = "/uploads/efekt-mierzalny.svg"
+ikona_dark_mode = ""
 opsi = ""
 tytul = "Efekt mierzalny w krótkiej perspektywie czasu"
 [[sections.boxy]]
 ikona = "/uploads/mozliwosc-personalizacji.svg"
+ikona_dark_mode = ""
 opsi = "aby dopasować idealnie ich wymiar do potrzeb reklamodawcy."
 tytul = "Możliwość personalizacji form reklamy"
 [[sections.boxy]]
 ikona = "/uploads/okreslanie-grupy.svg"
+ikona_dark_mode = ""
 opsi = "(dostosowanie reklam do odpowiedniej grupy odbiorczej np. płeć lub wiek)."
 tytul = "Określanie grupy odbiorczej"
 [[sections.boxy]]
 ikona = "/uploads/staly-monitoring.svg"
+ikona_dark_mode = ""
 opsi = "i możliwość wprowadzania zmian w naszych kampaniach w miarę bieżących potrzeb."
 tytul = "Stały monitoring efektów"
 [[sections.header_repeater]]
@@ -114,24 +121,30 @@ tytul_nad_guzikiem = "Wybierz najlepszą formę kampanii Google Ads dla Ciebie"
 tytul_odnosnika = "Kontakt"
 wyswietl_guzik = true
 zdjecie = ""
+zdjecie_dark = ""
 [[sections.boxy]]
 ikona = "/uploads/google-shopping.svg"
+ikona_dark_mode = ""
 opsi = "Dzięki systemowi Google Ads prowadzisz kampanie skutecznie promującą konkretne produkty w postaci zdjęcia wraz z krótkim opisem w sekcji zakupów Google wraz z ceną która automatycznie zmienia się wraz ze zmianą na twojej stronie . W przypadku tej reklamy płacisz tylko za efekt czyli kliknięcie bezpośrednio w link odnoszący do twojej strony. Skraca to proces zakupowy przenosząc potencjalnego klienta bezpośrednio do konkretnego produktu."
 tytul = "Reklamy Google Shopping"
 [[sections.boxy]]
 ikona = "/uploads/reklamy-w-sieci.svg"
+ikona_dark_mode = ""
 opsi = "Najpopularniejsza forma reklamy PPC (Pay per click) Jest to forma komunikatu tekstowego wyświetlanego nad wyszukiwaniem organicznym w polu oznaczonym jako reklama. Na to komu wyświetla się twoja reklama ma wpływ wiele czynników między innymi odpowiednie słowa kluczowe, wysokość stawki za kliknięcie oraz profil klienta docelowego na którego targetujemy reklamę."
 tytul = "Reklamy w sieci wyszukiwania"
 [[sections.boxy]]
 ikona = "/uploads/remarketing.svg"
+ikona_dark_mode = ""
 opsi = "Forma reklamy Google Ads uzupełniająca pozostałe polega na wyświetleniu reklamy osobie która miała już styczność z naszą witryną ale z jakiegoś powodu nie dokonała zakupu lub w przypadku produktów i usług które zakupujemy lub korzystamy z nich więcej niż raz np. fryzjer mogą się wyświetlać co określony interwał czasowy."
 tytul = "Remarketing"
 [[sections.boxy]]
 ikona = "/uploads/reklamy-yt.svg"
+ikona_dark_mode = ""
 opsi = "Kampanie wideo realizowane poprzez serwis You Tube. Każdego dnia miliony użytkowników korzystają z tej witryny co pozwala na dotarcie do bardzo szerokiego grona odbiorców naszej reklamy."
 tytul = "Reklamy na YouTube"
 [[sections.boxy]]
 ikona = "/uploads/kampanie-g-ads.svg"
+ikona_dark_mode = ""
 opsi = "Kampanie GDN (Google Display Network) wykorzystują udostępnioną powierzchnie reklamową na stronach tysięcy serwisów należących do sieci reklamowej Google w formie banerów reklamowych."
 tytul = "Kampanie Google Ads w sieci reklamowej"
 [[sections.header_repeater]]
@@ -164,21 +177,25 @@ tytul_nad_guzikiem = ""
 tytul_odnosnika = ""
 wyswietl_guzik = false
 zdjecie = "/uploads/dlaczego-my-img.svg"
-zdjecie_dark = "/uploads/dlaczego-my-img.svg"
+zdjecie_dark = "/uploads/dlaczego-my-img-dark.svg"
 [[sections.boxy]]
 ikona = "/uploads/doswiadczony-zespol.svg"
+ikona_dark_mode = ""
 opsi = "Doświadczony zespół (pełna opieka marketingowa)"
 tytul = ""
 [[sections.boxy]]
 ikona = "/uploads/skutecznie-zrealizowane.svg"
+ikona_dark_mode = ""
 opsi = "Skutecznie zrealizowane Kampanie Google Ads (przeszłe i obecne)"
 tytul = ""
 [[sections.boxy]]
 ikona = "/uploads/wsparcie-optymalizacji.svg"
+ikona_dark_mode = ""
 opsi = "Wsparcie pod kątem optymalizacji strony"
 tytul = ""
 [[sections.boxy]]
 ikona = "/uploads/ciagly-monitoring-1.svg"
+ikona_dark_mode = ""
 opsi = "Ciągły monitoring i optymalizacja kampanii Google Ads (maksymalizacja sprzedaży)"
 tytul = ""
 [[sections.header_repeater]]
