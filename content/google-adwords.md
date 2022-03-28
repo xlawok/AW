@@ -159,7 +159,7 @@ underline = false
 [[sections]]
 elementy_podzialki = ["Analiza potrzeb", "Konfiguracja Google analitics", "Przygotowanie kampanii (do 7 dni)", "Kontrola ustawień i start kampanii", "Analizy efektów + bieżący kontakt", "Cykliczna optymalizacja", "Comiesięczne raportowanie", "Aktualizacja strategii i testowanie nowych rozwiązań"]
 template = "gads-miarka"
-zdjecie = "/uploads/etapy-kampanii-img.svg"
+zdjecie = "/uploads/etapy-kampanii-img-dark.svg"
 zdjecie_dark = "/uploads/etapy-kampanii-img.svg"
 [[sections.header_repeater]]
 block_tag_type = "h2"
