@@ -65,6 +65,16 @@ sections:
   formularz_wylaczony: false
   tekst_pod_naglowkiem: ''
   dymki_z_tekstem: []
+  naglowek_formularza_no_img_num: ''
+  banner_form_html_no_img_num: ''
+  banner_form_script_no_img_num: ''
+  banner_bg_no_img_num: ''
+  banner_bg_no_img_dark_num: ''
+  opis_banner_num: ''
+  banner_cta_title_num: ''
+  banner_cta_url_num: ''
+  krotki_tekst_pod_odnosnikiem: ''
+  otworz_modal_num: ''
 - template: sekcja-strona-o-nas-kolumny-historia-misja
   kolumny_o_nas:
   - opis: 'Dwóch entuzjastów branży SEO postanowiło rozpocząć komercjalizacje swojego
@@ -177,7 +187,7 @@ sections:
     stanowisko: SEO Specialist
   - obrazek: "/uploads/bartlomiej-aw.jpg"
     my_name: Bartłomiej
-    stanowisko: Junior SEO Expert
+    stanowisko: SEO Expert
   - obrazek: "/uploads/magda.jpeg"
     my_name: Magda
     stanowisko: Junior SEO Specialist
