@@ -198,7 +198,7 @@ txt_block_size = "MD"
 [[sections]]
 e_mail = "j.horbacz@agencjawroclawska.pl"
 imie_i_nazwisko = "Jakub Horbacz"
-stanowisko = "SEO Manager"
+stanowisko = "Head of SEO"
 telefon = "+48 792 789 836"
 template = "naglowek-i-belka-czerwona"
 zdjecie = "/uploads/jakub1.jpg"
