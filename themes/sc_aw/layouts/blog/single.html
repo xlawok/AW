@@ -214,6 +214,7 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
 
               
                       var floating_wrapper=document.querySelector('.floating-wrapper');
+                      var floating_el=document.querySelector('.is-about-floating');
                       var float_anchor=document.querySelector('.article-content');
                       function toggle_active(element){
                         element.classList.add('active');
@@ -226,21 +227,9 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
                         window.onscroll= function() {
                           
                       
-                              if(isAnyPartOfElementInViewport(float_anchor)){
-                                toggle_active(floating_wrapper);
-                                
-
-                            }
-                            else{
-                                
-                                toggle_deactive(floating_wrapper);
-                            }  
-                          }
-                          if(isAnyPartOfElementInViewport(float_anchor)){
-                            toggle_active(floating_wrapper);
                             
-
-                        }
+                          }
+                           
                
                           function isAnyPartOfElementInViewport(el) {
 
@@ -256,7 +245,65 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
                             return (vertInView && horInView);
                         }
                      
+                        const element = document.querySelector(".article-content");
+                        {{/*  const visible = document.querySelector("visible");  */}}
+                        
+                        const logPercentageSeen = () => {
+                            floating_el.style.position="fixed"
+                            floating_el.style.top="8rem";
+                            floating_el.style.top="-100%";
+                          var precentageseen=percentageSeen()+"%";
+                          var precentageseentranslate="translateY(calc(100% -  "+percentageSeen()+"%))";
+                          if(percentageSeen()>20&&percentageSeen()<100){
+                            {{/*  toggle_active(floating_wrapper);  */}}
+                            floating_el.style.opacity="1"
+                            floating_el.style.zIndex="1"
+                            floating_el.style.top="8rem";
+                            floating_el.style.bottom="unset";
+                            //floating_el.style.bottom=precentageseen;
+                          }
+               /*           else if(percentageSeen()>94&&percentageSeen()<98){
+                            floating_el.style.top="calc(100vh - " + floating_el.offsetHeight+"px)";
+                            floating_el.style.position="fixed"
+                            floating_el.style.opacity="1"
+                            floating_el.style.zIndex="1"
+                            //floating_el.style.bottom="0";
+                        }*/
+                          else if(percentageSeen()==100){
+                            //floating_el.style.opacity="0"
+                           // floating_el.style.transform=precentageseentranslate;
+                            //floating_el.style.position="absolute"
+                            floating_el.style.top="-100%";
+                            floating_el.style.opacity="1"
+                            floating_el.style.zIndex="1"
+                            //floating_el.style.bottom="0";
+                            //floating_el.style.position="relative";
+                            }
+                         
                           
+                        };
+                        
+                        window.addEventListener("scroll", logPercentageSeen);
+                        
+                        const percentageSeen = () => {
+                          // Get the relevant measurements and positions
+                          const viewportHeight = window.innerHeight;
+                          const scrollTop = window.scrollY;
+                          const elementOffsetTop = element.offsetTop;
+                          const elementHeight = element.offsetHeight;
+                        
+                          // Calculate percentage of the element that's been seen
+                          const distance = scrollTop + viewportHeight - elementOffsetTop;
+                          const percentage = Math.round(
+                            distance / ((viewportHeight + elementHeight) / 100)
+                          );
+                            console.log(distance);
+                          // Restrict the range to between 0 and 100
+                          return Math.min(100, Math.max(0, percentage));
+                        };
+                        
+                        // Log the initial value to the top before any scrolling has happened
+                        logPercentageSeen();
 
                         
                 

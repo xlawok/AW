@@ -3399,23 +3399,24 @@ form#contactform,form#mcontactform{
             bottom: 0;
             position: absolute;
             left: -22vw;
-            width: max-content;
-            max-width: 20vw;
-            opacity: 0;
-            transition: opacity 5s linear;
+            // width: max-content;
+            width: 20vw;
+           
+            transition: opacity 3.5s linear;
             @at-root body.dark-m.single .blog-post .article-content-wrapper .floating-wrapper {
               left: calc(-22vw - 4rem);
             }
-            &.active{
-              opacity: 1;
-            }
+           
             .is-about-floating{
-              position:sticky;
-              top: 8rem;
+              position:fixed;
+              opacity: 0;
+              z-index: -1;
+              // top: 8rem;
               font-size: .8rem;
               background: #f2f2f2;
               padding: 1em;
-            
+              width: 20vw;
+              transition: all 1s ease;
               @at-root body.dark-m.single .blog-post .article-content-wrapper .floating-wrapper .is-about-floating{
                 background: #424242;
                 padding: 1em;
@@ -3429,6 +3430,12 @@ form#contactform,form#mcontactform{
                   }
                   
                 }
+              }
+            }
+            &.active{
+              opacity: 1;
+              .is-about-floating{
+
               }
             }
           }
