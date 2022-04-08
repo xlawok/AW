@@ -58,7 +58,8 @@
 html {
   font-size: 100%;
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  // overflow-x: hidden;
+  overflow: visible;
 }
 
 // @media (min-width: 1920px) {
@@ -90,6 +91,7 @@ body {
   
   // margin-top: 8rem;
   overflow-x: hidden;
+  overflow-y: visible;
   color: var(--main-dark-color);
   background-color: var(--white);
   transition: background-color .3s ease,color .3s ease;
@@ -3360,6 +3362,7 @@ form#contactform,form#mcontactform{
         padding-left: 1rem;
       }
       .article-content{
+        position: relative;
         img{
           width: 100%;
           display: block;
@@ -3385,6 +3388,51 @@ form#contactform,form#mcontactform{
             margin-left: -1rem
           }
         }
+        .floating-wrapper{
+          display: none;
+        }
+        @media (min-width: 1200px){
+          .floating-wrapper{
+            display: block;
+            top: 0;
+            bottom: 0;
+            position: absolute;
+            left: -22vw;
+            width: max-content;
+            max-width: 20vw;
+            opacity: 0;
+            transition: opacity 3s linear;
+            @at-root body.dark-m.single .blog-post .article-content-wrapper .floating-wrapper {
+              left: calc(-22vw - 4rem);
+            }
+            &.active{
+              opacity: 1;
+            }
+            .is-about-floating{
+              position:sticky;
+              top: 8rem;
+              font-size: .8rem;
+              background: #f2f2f2;
+              padding: 1em;
+            
+              @at-root body.dark-m.single .blog-post .article-content-wrapper .floating-wrapper .is-about-floating{
+                background: #424242;
+                padding: 1em;
+              }
+              li{
+                padding-bottom: .5rem;
+                a{
+                  color: var(--main-dark-color);
+                  @at-root body.dark-m.single .blog-post .article-content-wrapper .floating-wrapper .is-about-floating li a{
+                    color: var(--white);
+                  }
+                  
+                }
+              }
+            }
+          }
+        }
+        
       }
     }
     .single-art-footer{

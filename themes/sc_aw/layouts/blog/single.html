@@ -52,9 +52,29 @@
                     {{end}}
                 </ol>  
             </div>
+          
             {{end}}
           
             <div class='article-content'>
+                {{ with $.Params.lista_o_czym_przeczytasz_group}}
+            
+                    <div class='floating-wrapper'>
+                    <div class='is-about-floating'>
+                        <div class='is-about-title'>
+                        {{ with $.Params.tytul_o_czym_przeczytasz}}
+                            {{.}}
+                        {{else}}
+                            O czym przeczytasz w artykule?
+                        {{end}}
+                        </div>
+                        <ol class='is-about-list'>
+                            {{range . }}
+                                <li class='is-about-item'><a href="#{{ .adres_odnosnika | urlize}}">{{ .title }}</a></li>
+                            {{end}}
+                        </ol>  
+                    </div>
+                </div>
+                {{end}}
                 {{.Content}}
             </div>
             <div class="single-art-footer">
@@ -190,6 +210,52 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
                     });
                     
                 }
+                
+
+              
+                      var floating_wrapper=document.querySelector('.floating-wrapper');
+                      var float_anchor=document.querySelector('.article-content');
+                      function toggle_active(element){
+                        element.classList.add('active');
+                        console.log('acrt');
+                        }
+                        function toggle_deactive(element){
+                            element.classList.remove('active');
+                            console.log('deeacrt');
+                            }
+                        window.onscroll= function() {
+                          
+                      
+                              if(isAnyPartOfElementInViewport(float_anchor)){
+                                toggle_active(floating_wrapper);
+                                
+
+                            }
+                            else{
+                                
+                                toggle_deactive(floating_wrapper);
+                            }  
+                          }
+                        
+               
+                          function isAnyPartOfElementInViewport(el) {
+
+                            const rect = el.getBoundingClientRect();
+                            // DOMRect { x: 8, y: 8, width: 100, height: 100, top: 8, right: 108, bottom: 108, left: 8 }
+                            const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
+                            const windowWidth = (window.innerWidth || document.documentElement.clientWidth);
+                        
+                            // http://stackoverflow.com/questions/325933/determine-whether-two-date-ranges-overlap
+                            const vertInView = (rect.top <= windowHeight) && ((rect.top + rect.height) >= 0);
+                            const horInView = (rect.left <= windowWidth) && ((rect.left + rect.width) >= 0);
+                        
+                            return (vertInView && horInView);
+                        }
+                     
+                          
+
+                        
+                
             });
         </script>
     </article>
