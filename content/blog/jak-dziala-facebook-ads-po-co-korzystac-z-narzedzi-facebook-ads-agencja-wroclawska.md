@@ -24,19 +24,19 @@ txt_block_size = ""
 underline = true
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "co-to-jest-facebook-ads"
-title = "1. Co to jest Facebook Ads?"
+title = "Co to jest Facebook Ads?"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "rodzaje-reklam-facebook-ads"
-title = "2. Rodzaje reklam Facebook Ads"
+title = "Rodzaje reklam Facebook Ads"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "grupa-docelowa-facebook-ads"
-title = "3. Jak znaleźć odpowiednią grupę docelową do reklamy Facebook Ads?"
+title = "Jak znaleźć odpowiednią grupę docelową do reklamy Facebook Ads?"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "reklamy-facebook-ads"
-title = "4. Co dają nam reklamy Facebook Ads?"
+title = "Co dają nam reklamy Facebook Ads?"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "czy-warto-facebook-ads"
-title = "5. Zalety reklam Facebook Ads"
+title = "Zalety reklam Facebook Ads"
 
 +++
 ## **Po co korzystać z narzędzi Facebook Ads?**
