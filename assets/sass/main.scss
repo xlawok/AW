@@ -3401,7 +3401,7 @@ form#contactform,form#mcontactform{
             width: max-content;
             max-width: 20vw;
             opacity: 0;
-            transition: opacity 3s linear;
+            transition: opacity 5s linear;
             @at-root body.dark-m.single .blog-post .article-content-wrapper .floating-wrapper {
               left: calc(-22vw - 4rem);
             }
