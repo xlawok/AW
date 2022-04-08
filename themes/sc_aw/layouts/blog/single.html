@@ -236,7 +236,11 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
                                 toggle_deactive(floating_wrapper);
                             }  
                           }
-                        
+                          if(isAnyPartOfElementInViewport(float_anchor)){
+                            toggle_active(floating_wrapper);
+                            
+
+                        }
                
                           function isAnyPartOfElementInViewport(el) {
 
