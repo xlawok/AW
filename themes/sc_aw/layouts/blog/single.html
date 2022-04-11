@@ -291,13 +291,31 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
                           const scrollTop = window.scrollY;
                           const elementOffsetTop = element.offsetTop;
                           const elementHeight = element.offsetHeight;
-                        
+                          var element_processbarwrapper = document.querySelector('.processbar-wrapper');
+                          if(!element_processbarwrapper){   
+                                const process_bar_wrapper=document.createElement("div");
+                                process_bar_wrapper.className='processbar-wrapper';
+                                process_bar_wrapper.classList.add('sec-padding');
+                                const process_bar=document.createElement("div");
+                                process_bar.className='processbar';
+                                process_bar_wrapper.appendChild(process_bar);
+                                const article= document.querySelector('header');
+                                article.appendChild(process_bar_wrapper);
+                          }
                           // Calculate percentage of the element that's been seen
                           const distance = scrollTop + viewportHeight - elementOffsetTop;
                           const percentage = Math.round(
                             distance / ((viewportHeight + elementHeight) / 100)
                           );
-                            console.log(distance);
+                            //console.log(distance);
+                            ///reading progress
+
+                            if(element_processbarwrapper){  
+                                var element_processbar = element_processbarwrapper.querySelector('.processbar');
+                                percentage_bar=percentage-3;
+                                var progres_width=Math.min(100, Math.max(0, percentage_bar ));
+                                element_processbar.style.width=progres_width+"%";
+                            }
                           // Restrict the range to between 0 and 100
                           return Math.min(100, Math.max(0, percentage));
                         };

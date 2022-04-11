@@ -3128,9 +3128,26 @@ form#contactform,form#mcontactform{
       }
   }
 }
+.processbar-wrapper {
+  position: absolute;
+  width: 100%;
+  z-index: 11;
+  bottom: -.5rem;
+  left: 0;
+  height: .5rem;
+  .processbar{
+    transition: width .3s linear;
+    background-color: var(--red);
+    display: block;
+    height:100%;
+    width: 0%;
+  }
+
+}
 .single{
   .blog-post{
- 
+    // position: relative;
+   
     .article-head{
       display: flex;
       flex-wrap: wrap;
