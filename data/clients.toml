@@ -47,9 +47,9 @@ clinet_logo = "/uploads/multivoucher-logo.jpg"
 czy_nofollow = false
 if_svg = false
 [[clients_list]]
-client_url = "https://saicos.pl"
-client_url_title = "https://saicos.pl"
-clinet_logo = "/uploads/saicos-logo.jpg"
+client_url = "https://venitti.com"
+client_url_title = "https://venitti.com"
+clinet_logo = "/uploads/venitti-logo.jpg"
 czy_nofollow = false
 if_svg = false
 [[clients_list]]
