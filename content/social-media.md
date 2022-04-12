@@ -92,38 +92,6 @@ txt_block = "Social Media?"
 txt_block_size = "XL"
 underline = false
 [[sections]]
-template = "sekcja-strategia-punkty-w-okregach"
-[[sections.header_repeater]]
-block_tag_type = "h2"
-bold_txt = "gruby"
-break_line = true
-color_txt = "czarny"
-ornament = "brak"
-txt_block = "Strategia"
-txt_block_size = "MD"
-underline = false
-[[sections.header_repeater]]
-block_tag_type = "h2"
-bold_txt = "gruby"
-break_line = false
-color_txt = "czerwony"
-ornament = "brak"
-txt_block = "Social Media"
-txt_block_size = "XL"
-underline = false
-[[sections.punkty_w_okregach]]
-tekst = "Przeanalizujemy Twoje dotychczasowe działania w social mediach"
-[[sections.punkty_w_okregach]]
-tekst = "Wyciągniemy wnioski i zastanowimy się nad nadrzędnym celem komunikacji"
-[[sections.punkty_w_okregach]]
-tekst = "Opracujemy strategię komunikacji i wyznaczymy cele na najbliższy rok"
-[[sections.punkty_w_okregach]]
-tekst = "Stworzymy KV komunikacji przystosowany do kanałów social media"
-[[sections.punkty_w_okregach]]
-tekst = "Zaplanujemy publikacje na najbliższe miesiące"
-[[sections.punkty_w_okregach]]
-tekst = "Zaopiekujemy się działaniami związanymi z administrowaniem Twoich profili"
-[[sections]]
 opis = "W ramach obsługi profilu na Instagramie i Facebooku klienci otrzymują wsparcie oraz stały kontakt ze specjalistą. <br><br>Po rozpoczęciu współpracy klient otrzymuje analizę dotychczasowych działań w social mediach, na podstawie analizy pracujemy strategię, content i cele działania profilu. Klient co miesiąc otrzymuje plan publikacji na kolejny miesiąc (posty, teksty, grafiki, relacje). <br><br>Podczas trwania współpracy dbamy o konto i utrzymujemy stałą komunikację."
 template = "sekcja-oferta-2-kol-tekst-ikona"
 [[sections.header_repeater]]
@@ -168,6 +136,38 @@ tytul = "WDROŻENIE DZIAŁAŃ"
 ikona = "/uploads/sm-raportowanie.svg"
 podtytul = "co miesiąc z przeprowadzonych działań"
 tytul = "RAPORTOWANIE"
+[[sections]]
+template = "sekcja-strategia-punkty-w-okregach"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = true
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Strategia"
+txt_block_size = "MD"
+underline = false
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "Social Media"
+txt_block_size = "XL"
+underline = false
+[[sections.punkty_w_okregach]]
+tekst = "Przeanalizujemy Twoje dotychczasowe działania w social mediach"
+[[sections.punkty_w_okregach]]
+tekst = "Wyciągniemy wnioski i zastanowimy się nad nadrzędnym celem komunikacji"
+[[sections.punkty_w_okregach]]
+tekst = "Opracujemy strategię komunikacji i wyznaczymy cele na najbliższy rok"
+[[sections.punkty_w_okregach]]
+tekst = "Stworzymy KV komunikacji przystosowany do kanałów social media"
+[[sections.punkty_w_okregach]]
+tekst = "Zaplanujemy publikacje na najbliższe miesiące"
+[[sections.punkty_w_okregach]]
+tekst = "Zaopiekujemy się działaniami związanymi z administrowaniem Twoich profili"
 [[sections]]
 ikona_obok_naglowka = "/uploads/sm-zasady-wspolpracy.svg"
 template = "sekcja-zasady-wspolpracy"
