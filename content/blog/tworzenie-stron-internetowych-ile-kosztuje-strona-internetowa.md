@@ -172,9 +172,9 @@ Po omówieniu planów działań, które dają Ci szeroki podgląd na cały proce
 
 Poniżej przedstawiamy nasze orientacyjne widełki cenowe:
 
-\- Statyczna strona internetowa, szablon graficzny WordPress: od 3 tys. zł*
+\- Statyczna strona internetowa, szablon: od 3 tys. zł*
 
-\- Statyczna strona internetowa, indywidualny projekt graficzny WordPress: od 6 tys. zł*
+\- Statyczna strona internetowa, indywidualny projekt graficzny: od 6 tys. zł*
 
 \- Strona internetowa z CMS WordPress, szablon graficzny: od 4 tys. zł*
 
