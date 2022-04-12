@@ -238,7 +238,7 @@ block_tag_type = "h2"
 bold_txt = "bardzo gruby"
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "Facebook Ads Instagram Ads"
+txt_block = "Facebook Ads"
 txt_block_size = "XXL"
 [[sections.wiersz_dwie_kolumny]]
 tytul_wiersza = "Dlaczego Facebook Ads"
