@@ -216,14 +216,14 @@ tytul_odnosnika = "Skontaktuj się z nami"
 [[sections]]
 template = "sekcja-przemienne-kolumny-txt-img"
 [[sections.wiersz_dwie_kolumny]]
-tytul_wiersza = "Reklamy Facebook Ads Instagram Ads"
+tytul_wiersza = "Reklamy Facebook Ads"
 [sections.wiersz_dwie_kolumny.kolumna_druga]
 film_obrazek = "image"
 obrazek = "/uploads/sm-reklamy-fb.svg"
 obrazek_dark_mode = "/uploads/wyszukiwarka.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = []
-opis = "• reklam w najpopularniejszym portalu social media, <br>• kampanie z nastawienie na pozyskiwanie klientów i sprzedaż, <br>• dokładne raporty z działan."
+opis = "• reklam w najpopularniejszym portalu social media, <br>• kampanie nastawione na pozyskiwanie klientów i sprzedaż, <br>• dokładne raporty z działań."
 tytul_odnosnika = "Przeczytaj więcej"
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
 block_tag_type = "h2"
@@ -248,7 +248,7 @@ obrazek = "/uploads/sm-dlaczego-ads.svg"
 obrazek_dark_mode = "/uploads/sm-dlaczego-ads.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = []
-opis = "Najszybciej i najlepiej rozwijające się reklamy w Internecie to właśnie Facebook Ads. Coraz więcej firm korzysta z takiej formy reklamy produktów i usług. Facebook Ads posiada doskonałe możliwości dobierania grup odbiorców i dopasowania dla nich oferty.<br><br><span class='txt-red'>Każdy może ustalić budżet według swoich możliwości finansowych.</span>"
+opis = "Najszybciej i najlepiej rozwijające się reklamy w Internecie to właśnie Facebook Ads. Coraz więcej firm korzysta z takiej formy reklamy produktów i usług. Facebook Ads posiada doskonałe możliwości dobierania grup odbiorców i dopasowania dla nich oferty. Masz mnóstwo możliwości, możesz wybrać formę idealnie dostosowaną do Twoich produktów czy usług. Reklama może angażować, zachęcać do działania, dawać informację, przekierować na stronę, zbierać kontakty oraz umożliwiać zakupy.<br><br><span class='txt-red'>Każdy może ustalić budżet według swoich możliwości finansowych.</span>"
 tytul_odnosnika = "Przeczytaj więcej"
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
 block_tag_type = "h2"
@@ -266,7 +266,7 @@ ornament = "brak"
 txt_block = "Facebook Ads"
 txt_block_size = "XXL"
 [[sections]]
-opis = "Kampanie na Facebooku występują tam, gdzie Twoi klienci. Dzięki różnym formą reklamy można dotrzeć do grupy docelowej i uzyskać zamierzony efekt. Dużym plusem jest wolność finansowa, jeżeli masz 600zł wolnego budżetu możesz go zainwestować. Jeszcze lepszy efekt uzyskasz przy 3000zł budżetu. Nie masz sztywnie określonej kwoty, wkładasz w reklamę tyle ile chcesz. Facebook Ads można wyświetlać w określonych godzinach i dniach."
+opis = "Kampanie na Facebooku występują tam, gdzie Twoi klienci. Dzięki różnym formom reklamy można dotrzeć do grupy docelowej i uzyskać zamierzony efekt. Dużym plusem jest wolność finansowa, jeżeli masz 600 zł wolnego budżetu możesz go zainwestować. Jeszcze lepszy efekt uzyskasz przy 3000zł budżetu. Nie masz sztywnie określonej kwoty, wkładasz w reklamę tyle ile chcesz. Facebook Ads można wyświetlać w określonych godzinach i dniach."
 template = "sekcja-czerwony-box-srodek"
 [[sections.header_repeater]]
 block_tag_type = "h2"
