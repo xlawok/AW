@@ -170,27 +170,27 @@ sections:
   - obrazek: "/uploads/karol-side.webp"
     my_name: Karol
     stanowisko: Key Account Manager
-  - obrazek: "/uploads/agata-side.webp"
-    my_name: Agata
-    stanowisko: Copywriter
-  - obrazek: "/uploads/wladek-side.webp"
-    my_name: Władek
-    stanowisko: SEO Manager
   - obrazek: "/uploads/robert-side.webp"
     my_name: Robert
     stanowisko: Google Ads Manager
   - obrazek: "/uploads/julia-side.webp"
     my_name: Julia
     stanowisko: Social Media Manager
+  - obrazek: "/uploads/wladek-side.webp"
+    my_name: Władek
+    stanowisko: SEO Manager
+  - obrazek: "/uploads/bartek-2-side.webp"
+    my_name: Bartłomiej
+    stanowisko: SEO Expert
+  - obrazek: "/uploads/agata-side.webp"
+    my_name: Agata
+    stanowisko: Copywriter
   - obrazek: "/uploads/ola-side.webp"
     my_name: Ola
     stanowisko: SEO Specialist
   - obrazek: "/uploads/damian-side.webp"
     my_name: Damian
     stanowisko: SEO Specialist
-  - obrazek: "/uploads/bartek-2-side.webp"
-    my_name: Bartłomiej
-    stanowisko: SEO Expert
   - obrazek: "/uploads/magda-side.webp"
     my_name: Magda
     stanowisko: Junior SEO Specialist
