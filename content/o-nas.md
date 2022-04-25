@@ -155,45 +155,45 @@ sections:
       txt_block_size: XL
 - template: sekcja-o-nas-druzyna-pierscienia
   section_team_group:
-  - obrazek: "/uploads/bartek1.jpg"
+  - obrazek: "/uploads/bartek-1-side.webp"
     my_name: Bartek
     stanowisko: Head of Marketing
-  - obrazek: "/uploads/jakub1.jpg"
+  - obrazek: "/uploads/jakub-side.jpg"
     my_name: Jakub
     stanowisko: Head of SEO
-  - obrazek: "/uploads/piotr1.jpg"
+  - obrazek: "/uploads/piotr-side.webp"
     my_name: Piotr
     stanowisko: Web Developer
-  - obrazek: "/uploads/konrad1.jpg"
+  - obrazek: "/uploads/konrad-side.webp"
     my_name: Konrad
     stanowisko: UX/UI Specialist
-  - obrazek: "/uploads/karol1.jpeg"
+  - obrazek: "/uploads/karol-side.webp"
     my_name: Karol
     stanowisko: Key Account Manager
-  - obrazek: "/uploads/agata1.jpg"
+  - obrazek: "/uploads/agata-side.webp"
     my_name: Agata
     stanowisko: Copywriter
-  - obrazek: "/uploads/wladek.jpg"
+  - obrazek: "/uploads/wladek-side.webp"
     my_name: Władek
     stanowisko: SEO Manager
-  - obrazek: "/uploads/robert1.jpeg"
+  - obrazek: "/uploads/robert-side.webp"
     my_name: Robert
     stanowisko: Google Ads Manager
-  - obrazek: "/uploads/julia.jpeg"
+  - obrazek: "/uploads/julia-side.webp"
     my_name: Julia
     stanowisko: Social Media Manager
-  - obrazek: "/uploads/ola.jpeg"
+  - obrazek: "/uploads/ola-side.webp"
     my_name: Ola
     stanowisko: SEO Specialist
-  - obrazek: "/uploads/bartlomiej-aw.jpg"
+  - obrazek: "/uploads/bartek-2-side.webp"
     my_name: Bartłomiej
     stanowisko: SEO Expert
-  - obrazek: "/uploads/magda.jpeg"
+  - obrazek: "/uploads/magda-side.webp"
     my_name: Magda
     stanowisko: Junior SEO Specialist
-  - obrazek: "/uploads/dawid-aw.jpg"
-    my_name: Dawid
-    stanowisko: Junior SEO Specialist
+  - obrazek: "/uploads/maria-side.webp"
+    my_name: Maria
+    stanowisko: Head of Administration
   - obrazek: "/uploads/sziba1.jpg"
     my_name: Shiba
     stanowisko: Doge
