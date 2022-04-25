@@ -185,6 +185,9 @@ sections:
   - obrazek: "/uploads/ola-side.webp"
     my_name: Ola
     stanowisko: SEO Specialist
+  - obrazek: "/uploads/damian-side.webp"
+    my_name: Damian
+    stanowisko: SEO Specialist
   - obrazek: "/uploads/bartek-2-side.webp"
     my_name: Bartłomiej
     stanowisko: SEO Expert
