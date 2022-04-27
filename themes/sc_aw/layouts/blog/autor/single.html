@@ -1,7 +1,43 @@
 {{ define "main" }}
+<section class=' sc-banner-center-noimg' id="top-banner">
+    <div class='center-banner-cnt'>
+        
+        {{ $dirFile := path.Base .Params.author }}
+    
+        {{ $pathArr := split $dirFile "." }}
+        
+        {{ $filename := index $pathArr 0}}
+    
+        {{$author:=(index site.Data.authors $filename).imi__i_nazwisko }}
+        {{$author_img:=(index site.Data.authors $filename).obrazek }}
+    
+        <div class='on-banner-content sec-padding autor-banner'>
+            <p class="autor-ab">Autor</p>
+            <h1>{{$author | safeHTML}}</h1>
+                
+                
+                {{with .Params.o_autorze}}
+                    <div class='no-img-banner-desc'>
+                        <div>{{. | safeHTML}}</div>
+                        <div> <img class="author-page-img" src="{{$author_img}}"></div>
+                    </div>
+                {{end}}
+          
+          
+        <!-- gdzieś formularz jeżeli istnieje -->
+        <!-- gdzieś modal -> zamiennie czy odnośnik do strony, czy modal -->
+    
+        </div>
+        
+       
+    </div>
+
+
+</section>
+<section class="sec-padding autor-page">
 <div class="container">
    
-    <div class="row">
+    <div class="row list">
   
 
         <ul id="list-cnt" class="news-list with_flex">
@@ -10,6 +46,7 @@
     </div>
     <div id="pagination"></div>
 </div>
+</section>
 <template id="news-listing-template">
     <li>
   
@@ -33,145 +70,145 @@
         </div>
     </li>
   </template>
-<script>
+    <script>
 
-    function getUrlVars() {
-      var vars = {};
-      var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-          vars[key] = value;
-      });
-      return vars;
-    }
-    function getUrlVarParam(parameter, defaultvalue){
-        var urlparameter = defaultvalue;
-        if(window.location.href.indexOf(parameter) > -1){
-            urlparameter = getUrlVars()[parameter];
+        function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+        }
+        function getUrlVarParam(parameter, defaultvalue){
+            var urlparameter = defaultvalue;
+            if(window.location.href.indexOf(parameter) > -1){
+                urlparameter = getUrlVars()[parameter];
+                }
+            return urlparameter;
+        }
+        function getUrlParam(wparam){
+            var pathArray =window.location.pathname.split('/');
+            return pathArray[wparam];
+        }
+        function getPage(){
+            var pathArray =window.location.search;
+            console.log(pathArray);
+            return pathArray[1];
+        }
+        function capitalize(str) {
+            return str.charAt(0).toUpperCase() + str.slice(1);
+        }
+        function createListWithTemplate(article) {
+            var mainContainer = document.getElementById("list-cnt");
+            const ul = document.createElement('ul');
+            ul.classList.add('news-list', 'with_flex');
+            const template = document.getElementById('news-listing-template');
+            for (var i = 0; i < article.length; i++) {
+                const articleCard = document.importNode(template.content, true);
+                articleCard.querySelector('a h3').textContent = article[i].tytul;
+                articleCard.querySelector('.list-art-authorname').textContent = article[i].author;
+                articleCard.querySelector('li .art-summary').innerHTML = article[i].summary;
+                articleCard.querySelector('li a').href = article[i].url;
+                articleCard.querySelector('.art-author-img').src = article[i].author_img; 
+                
+                articleCard.querySelector('li .list-art-date').textContent = article[i].data_art; 
+
+                ul.appendChild(articleCard);
             }
-        return urlparameter;
-    }
-    function getUrlParam(wparam){
-        var pathArray =window.location.pathname.split('/');
-        return pathArray[wparam];
-    }
-    function getPage(){
-        var pathArray =window.location.search;
-        console.log(pathArray);
-        return pathArray[1];
-    }
-    function capitalize(str) {
-        return str.charAt(0).toUpperCase() + str.slice(1);
-    }
-    function createListWithTemplate(article) {
-        var mainContainer = document.getElementById("list-cnt");
-        const ul = document.createElement('ul');
-        ul.classList.add('news-list', 'with_flex');
-        const template = document.getElementById('news-listing-template');
-        for (var i = 0; i < article.length; i++) {
-            const articleCard = document.importNode(template.content, true);
-            articleCard.querySelector('a h3').textContent = article[i].tytul;
-            articleCard.querySelector('.list-art-authorname').textContent = article[i].author;
-            articleCard.querySelector('li .art-summary').innerHTML = article[i].summary;
-            articleCard.querySelector('li a').href = article[i].url;
-            articleCard.querySelector('.art-author-img').src = article[i].author_img; 
-              {{/* articleCard.querySelector('.art-author-img').src = article[i].ikona;*/}}
-            articleCard.querySelector('li .list-art-date').textContent = article[i].data_art; 
-
-
-            // image
-            // var div = document.createElement("div");
-            // div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
-
-
-            ul.appendChild(articleCard);
+        
+            mainContainer.replaceWith(ul);
         }
-     
-        mainContainer.replaceWith(ul);
-    }
-    document.addEventListener("DOMContentLoaded", function() {
-        var author_name = getUrlParam(3);  
-        
-        var myHeaders = new Headers();
-        myHeaders.append("Content-Type", "application/json");
-
-        var raw = "";
-
-        var requestOptions = {
-        method: 'GET',
-        headers: myHeaders,
-
-        redirect: 'follow'
-        };
-
-    fetch("/blog/index.json", requestOptions)
-.then(response => response.text())
-.then(function(result){
-    var data = JSON.parse(result);
-  /*  data=data.sort(function(a, b){
-        let retval = 0;
-        
-        
-        if(getUrlParam('sortby', 'default')=='nameasc'){
-            if (retval === 0)
-            retval = a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1;  
-        }
-        else if(getUrlParam('sortby', 'default')=='namedesc'){
-            if (retval === 0)
-            retval = a.name.toUpperCase() > b.name.toUpperCase() ? -1 : 1;  
+        document.addEventListener("DOMContentLoaded", function() {
+            var author_name = getUrlParam(3);  
             
-        }
-        else if(getUrlParam('sortby', 'default')=='cenaasc'){
+            var myHeaders = new Headers();
+            myHeaders.append("Content-Type", "application/json");
+
+            var raw = "";
+
+            var requestOptions = {
+            method: 'GET',
+            headers: myHeaders,
+
+            redirect: 'follow'
+            };
+
+        fetch("/blog/index.json", requestOptions)
+        .then(response => response.text())
+        .then(function(result){
+            var data = JSON.parse(result);
+        /*  data=data.sort(function(a, b){
+                let retval = 0;
+                
+                
+                if(getUrlParam('sortby', 'default')=='nameasc'){
+                    if (retval === 0)
+                    retval = a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1;  
+                }
+                else if(getUrlParam('sortby', 'default')=='namedesc'){
+                    if (retval === 0)
+                    retval = a.name.toUpperCase() > b.name.toUpperCase() ? -1 : 1;  
+                    
+                }
+                else if(getUrlParam('sortby', 'default')=='cenaasc'){
+                    
+                    retval = Number(a.price) > Number(b.price) ? 1 : -1; 
+                }
+                else if(getUrlParam('sortby', 'default')=='cenadesc'){
+                    
+                    retval = Number(a.price) < Number(b.price) ? 1 : -1; 
+                }
+                else{
+                    retval = Number(a.id) < Number(b.id) ? -1 : 1;  
+                }
+                
+                return retval;
+            });
+        */
+            if(author_name){
+                    let author_name_url= author_name;
+                    let page=getUrlVarParam("page",1);
+                    author_name=author_name.replace('-', ' ');
+                    author_name = author_name.split(' ').map(capitalize).join(' ');
+                    console.log(author_name);
+                    var data =data.filter(obj=> obj.author.indexOf(author_name)!= -1);
+                    let pagination =`<nav aria-label="Page navigation" class="pagination-cnt">`;
+                    let perPage=6;
+                    const totalItems = data.length
+                    perPage = perPage ? perPage : 1
+                    const pages = Math.ceil(totalItems/perPage)
+                    
+                    for(let i = 1; i <= pages; i++) {
+                        if(page==i) current_class="current";
+                        else current_class="";
+                        if(i>1)
+                        pagination += `<a class="pageof pagenumbers ${current_class}" href="/blog/autor/${author_name_url}?page=${i}"  >${i}</a>`
+                        else pagination += `<a class="pageof pagenumbers  ${current_class}" href="/blog/autor/${author_name_url}/"  >${i}</a>`
+                    }
+                    pagination +=`</nav>`;
+                    document.getElementById('pagination').innerHTML = pagination
+                    let index, offSet
+                  
+                    if(page>1) document.querySelector("link[rel='canonical']").href=window.location.href;
+                    console.log(page);
+                    if(page == 1 || page <=0)  {
+                        index = 0
+                        offSet = 6
+                    } else if(page > data.length) {
+                        index = page - 1
+                        offSet = data.length
+                    } else {
+                        index = page * perPage - perPage
+                        offSet = index + perPage
+                    }
+                    
+                    data = data.slice(index, offSet)
+                }
+                createListWithTemplate(data);
             
-            retval = Number(a.price) > Number(b.price) ? 1 : -1; 
-        }
-        else if(getUrlParam('sortby', 'default')=='cenadesc'){
+            }
             
-            retval = Number(a.price) < Number(b.price) ? 1 : -1; 
-        }
-        else{
-            retval = Number(a.id) < Number(b.id) ? -1 : 1;  
-        }
-        
-        return retval;
+        );
     });
-   */
-   if(author_name){
-        let author_name_url= author_name;
-        author_name=author_name.replace('-', ' ');
-        author_name = author_name.split(' ').map(capitalize).join(' ');
-        console.log(author_name);
-        var data =data.filter(obj=> obj.author.indexOf(author_name)!= -1);
-        let pagination =``
-        let perPage=6;
-        const totalItems = data.length
-        perPage = perPage ? perPage : 1
-        const pages = Math.ceil(totalItems/perPage)
-        
-        for(let i = 1; i <= pages; i++) {
-          pagination += `<a href="/blog/autor/${author_name_url}?page=${i}"  >${i}</a>`
-        }
-      
-        document.getElementById('pagination').innerHTML = pagination
-        let index, offSet
-        let page=getUrlVarParam("page",1);
-        console.log(page);
-        if(page == 1 || page <=0)  {
-            index = 0
-            offSet = 6
-        } else if(page > data.length) {
-            index = page - 1
-            offSet = data.length
-        } else {
-            index = page * perPage - perPage
-            offSet = index + perPage
-        }
-        
-        data = data.slice(index, offSet)
-    }
-    createListWithTemplate(data);
-   
-}
-    
-)
-});
 </script>
 {{ end }}
