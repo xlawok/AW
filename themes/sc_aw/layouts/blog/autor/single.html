@@ -43,12 +43,38 @@
   
 
         <ul id="list-cnt" class="news-list with_flex">
+
+            {{ $section := "blog" }}
+            {{ range  (where (where site.RegularPages.ByDate "Section" $section ) ".Params.author" .Params.author).Reverse }}
+            <li>
+  
+        
+                <a href="{{ .Permalink }}"><h3>{{ .Params.tytul_do_listowania   }}</h3>
+                <!-- {{- partial "img.html" (dict "image" .Params.obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw")  -}} -->
+                <div class='art-summary'>{{ .Params.summary | safeHTML   }}</div>
+                
+                 </a>
+                 <div class="list-art-footer">
+                {{ $dirFile := path.Base .Params.author }}
+                <!-- sam plik z rozszrzeniem -->
+                {{ $pathArr := split $dirFile "." }}
+                <!-- nazwa pliku -->
+                {{ $filename := index $pathArr 0}}
+        
+                <!-- {{.Params.date}} -->
+                <span class='list-art-date'>{{ .Params.date.Format "02.01.2006" }}</span>
+                <span class='list-art-authorname'> | &nbsp;{{ (index site.Data.authors $filename).imi__i_nazwisko }}</span>
+                {{- partial "img.html" (dict "image" (index site.Data.authors $filename).obrazek "imgsizes" "" "ifsrcset" "nosrcset" "tag_class" "art-author-img")  -}}
+                </div>
+            </li>
+            {{end}}
         </ul>
         
     </div>
-    <div id="pagination"></div>
+    {{/*  <div id="pagination"></div>  */}}
 </div>
 </section>
+{{if false }}  
 <template id="news-listing-template">
     <li>
   
@@ -212,5 +238,6 @@
             
         );
     });
-</script>
+</script>  
+{{end}}
 {{ end }}
