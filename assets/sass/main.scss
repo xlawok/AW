@@ -8707,6 +8707,11 @@ transform: rotate(180deg);
     margin-bottom: 1.5rem;
     background-color: #f2f2f2;
     padding-left: .3rem;
+    img{
+      height: 1rem;
+      margin-left: 0.5rem;
+      padding-top: 0.2rem;
+    }
     @at-root body.dark-m .autor-banner .autor-ab{
       background-color: #000;
     }
@@ -8719,7 +8724,7 @@ transform: rotate(180deg);
     display: flex;
     flex-wrap: wrap;
     // grid-template-columns: 1fr;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
     position: relative;
     div{
       &:nth-child(1){

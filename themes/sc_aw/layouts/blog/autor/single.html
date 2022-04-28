@@ -12,7 +12,9 @@
         {{$author_img:=(index site.Data.authors $filename).obrazek }}
     
         <div class='on-banner-content sec-padding autor-banner'>
-            <p class="autor-ab">Autor</p>
+            <p class="autor-ab">Autor {{with (index site.Data.authors $filename).linkedin_odnosnik }}
+                <a rel="nofollow" target="_blank" class='author-linkedin' href='{{.}}'><img src="/img/linkedin-in_red.svg"></a>
+            {{end}}</p>
             <h1 class="txt-underline txt-red txt-XXL f-w700 ">{{$author | safeHTML}}</h1>
                 
                 
