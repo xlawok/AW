@@ -8689,26 +8689,38 @@ transform: rotate(180deg);
 }
 
 .sc-banner-center-noimg .center-banner-cnt .on-banner-content.autor-banner {
-  @media (min-width: 1200px){
+  margin-left: auto;
+  margin-right: auto;
+  @media (min-width: 992px){
     width: 80vw;
+    padding: 0;
+  }
+  @media (min-width: 1600px){
+    width: 70vw;
   }
   @media (min-width: 1920px){
-    width: 65vw;
+    width: 50vw;
   }
 }
 .autor-banner{
   .autor-ab{
-    margin-bottom: .2rem;
-
+    margin-bottom: 1.5rem;
+    background-color: #f2f2f2;
+    padding-left: .3rem;
+    @at-root body.dark-m .autor-banner .autor-ab{
+      background-color: #000;
+    }
   }
   h1{
     margin-top: 0;
     margin-bottom: 1rem;
   }
   .no-img-banner-desc{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    // grid-template-columns: 1fr;
     padding-bottom: 2rem;
+    position: relative;
     div{
       &:nth-child(1){
         @media (min-width: 560px){
@@ -8721,23 +8733,33 @@ transform: rotate(180deg);
       &:nth-child(2){
         border-radius: 50%;
         overflow: hidden;
-        max-width: 12rem;
-    
+        width: 12rem;
+        position: relative;
         @media (max-width: 700px){
+          
           width: 10rem;
           height: 10rem;
           margin: 1rem auto;
           order: -1;
         }
         @media (min-width: 700px){
-          transform: translateY(-4rem);
+          // transform: translateY(-4rem);
+          position: absolute;
+          top: -5rem;
+          right: 0;
+          width: 12rem;
+          display: block;
+          height: 12rem;
+          img{
+           
+          }
         }
-        @media (min-width: 992px){
-          // transform: translateY(-2rem);
-        }
-        @media (min-width: 1600px){
-          transform: translateY(-4rem);
-        }
+        // @media (min-width: 992px){
+        //   // transform: translateY(-2rem);
+        // }
+        // @media (min-width: 1600px){
+        //   transform: translateY(-4rem);
+        // }
       }
     }
     .author-page-img{
@@ -8749,11 +8771,15 @@ transform: rotate(180deg);
      
     }
     @media (min-width: 700px){
-      grid-template-columns: 3fr 2fr;
+    //   grid-template-columns: 3fr 2fr;
+      div:nth-child(1){
+        width: calc(100% - 12rem);
+       
+      }
     }
-    @media (min-width: 992px){
-      grid-template-columns: 3fr 1fr;
-    }
+    // @media (min-width: 992px){
+    //   grid-template-columns: 3fr 1fr;
+    // }
   }
 }
 .autor-page{
