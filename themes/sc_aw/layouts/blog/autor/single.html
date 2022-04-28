@@ -2,7 +2,7 @@
 <section class=' sc-banner-center-noimg' id="top-banner">
     <div class='center-banner-cnt'>
         
-        {{ $dirFile := path.Base .Params.author }}
+        {{ $dirFile := path.Base .Params.get_author }}
     
         {{ $pathArr := split $dirFile "." }}
         
@@ -45,7 +45,7 @@
         <ul id="list-cnt" class="news-list with_flex">
 
             {{ $section := "blog" }}
-            {{ range  (where (where site.RegularPages.ByDate "Section" $section ) ".Params.author" .Params.author).Reverse }}
+            {{ range  (where (where site.RegularPages.ByDate "Section" $section ) ".Params.author" .Params.get_author).Reverse }}
             <li>
   
         
@@ -85,7 +85,7 @@
         
          </a>
          <div class="list-art-footer">
-        {{ $dirFile := path.Base .Params.author }}
+        {{ $dirFile := path.Base .Params.get_author }}
         <!-- sam plik z rozszrzeniem -->
         {{ $pathArr := split $dirFile "." }}
         <!-- nazwa pliku -->
