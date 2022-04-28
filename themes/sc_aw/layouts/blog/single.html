@@ -254,7 +254,9 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
                             floating_el.style.top="-100%";
                           var precentageseen=percentageSeen()+"%";
                           var precentageseentranslate="translateY(calc(100% -  "+percentageSeen()+"%))";
-                          if(percentageSeen()>20&&percentageSeen()<100){
+                          let window_scrolled=window.scrollY;
+                          const article_offset_top=document.querySelector('.article-content-wrapper').offsetTop;
+                          if(percentageSeen()>20&&percentageSeen()<100&&window_scrolled>article_offset_top){
                             {{/*  toggle_active(floating_wrapper);  */}}
                             floating_el.style.opacity="1"
                             floating_el.style.zIndex="1"
@@ -279,8 +281,7 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
                             //floating_el.style.bottom="0";
                             //floating_el.style.position="relative";
                             }
-                         
-                          
+                           
                         };
                         
                         window.addEventListener("scroll", logPercentageSeen);
