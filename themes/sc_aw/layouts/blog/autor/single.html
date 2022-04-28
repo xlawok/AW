@@ -18,12 +18,16 @@
             <h1 class="txt-underline txt-red txt-XXL f-w700 ">{{$author | safeHTML}}</h1>
                 
                 
-                {{with .Params.o_autorze}}
+               
                     <div class='no-img-banner-desc'>
-                        <div>{{. | safeHTML}}</div>
+                        
+                        <div>
+                            {{with .Params.o_autorze}}
+                            {{. | safeHTML}}{{end}}</div>
+
                         <div> <img class="author-page-img" src="{{$author_img}}"></div>
                     </div>
-                {{end}}
+                
           
           
         <!-- gdzieś formularz jeżeli istnieje -->
