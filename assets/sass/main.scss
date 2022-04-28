@@ -3512,6 +3512,7 @@ form#contactform,form#mcontactform{
                 p.more-author{
                   color: var(--main-dark-color);
                   font-weight: 400;
+                  padding-bottom: 2rem;
                 }
               }
               @at-root body.dark-m.single .blog-post .article-content-wrapper .floating-wrapper-right .author-floating{
@@ -3520,6 +3521,7 @@ form#contactform,form#mcontactform{
                 .about-author{
                   p.more-author{
                     color: var(--white);
+                   
                   }
                 }
               }
@@ -3529,6 +3531,19 @@ form#contactform,form#mcontactform{
               opacity: 1;
               .is-about-floating{
 
+              }
+            }
+            .social-share{
+              padding-bottom: 2rem;
+              .share-head{
+                text-decoration: underline;
+                
+              }
+              a{
+                img{
+                  height: 1.25rem;
+                  width: 1.25rem;
+                }
               }
             }
           }
