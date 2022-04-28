@@ -60,7 +60,7 @@ tytul_wiersza = "POZNAJ NAS Agencja SEO "
 [sections.wiersz_dwie_kolumny.kolumna_druga]
 film_obrazek = "movie embed"
 if_svg = false
-kod_embed = "<div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe src=\"https://player.vimeo.com/video/531636649\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen></iframe></div><script src=\"https://player.vimeo.com/api/player.js\"></script>\n\n"
+kod_embed = "<div style=\"padding:56.25% 0 0 0;position:relative;\"><iframe src=\"https://player.vimeo.com/video/704044472\" style=\"position:absolute;top:0;left:0;width:100%;height:100%;\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen></iframe></div><script src=\"https://player.vimeo.com/api/player.js\"></script>\n\n"
 obrazek = ""
 obrazek_dark_mode = ""
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
