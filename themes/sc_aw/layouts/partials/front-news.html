@@ -4,7 +4,7 @@
     {{ $cta_btn_more_news_title := .home_news_group.cta_btn_more_news_title}}
     {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "front-news-header")  -}}
     <ul class="news-list cnt-visibility">
-        {{ range first 6 (where site.RegularPages.ByDate "Section" $section ).Reverse }}
+        {{ range first 6 (where site.RegularPages.ByDate "Type" "blog" ).Reverse }}
         <li>
             <!-- <ul id="tags">
                 {{ range .Params.tags }}

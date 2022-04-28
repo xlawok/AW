@@ -22,6 +22,11 @@ fields:
   config:
     required: false
   label: Linkedin odnośnik
+- name: krotki_opis
+  type: textarea
+  config:
+    required: false
+  label: Krótki opis
 pages:
 - data/authors/agata.yml
 - data/authors/bartek.yml

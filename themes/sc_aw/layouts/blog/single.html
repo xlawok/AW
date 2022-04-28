@@ -59,22 +59,44 @@
                 {{ with $.Params.lista_o_czym_przeczytasz_group}}
             
                     <div class='floating-wrapper'>
-                    <div class='is-about-floating'>
-                        <div class='is-about-title'>
-                        {{ with $.Params.tytul_o_czym_przeczytasz}}
-                            {{.}}
-                        {{else}}
-                            O czym przeczytasz w artykule?
-                        {{end}}
-                        </div>
-                        <ol class='is-about-list'>
-                            {{range . }}
-                                <li class='is-about-item'><a href="#{{ .adres_odnosnika | urlize}}">{{ .title }}</a></li>
+                        <div class='is-about-floating'>
+                            <div class='is-about-title'>
+                            {{ with $.Params.tytul_o_czym_przeczytasz}}
+                                {{.}}
+                            {{else}}
+                                O czym przeczytasz w artykule?
                             {{end}}
-                        </ol>  
+                            </div>
+                            <ol class='is-about-list'>
+                                {{range . }}
+                                    <li class='is-about-item'><a href="#{{ .adres_odnosnika | urlize}}">{{ .title }}</a></li>
+                                {{end}}
+                            </ol>  
+                        </div>
+                    </div>
+                {{end}}
+                <div class='floating-wrapper-right'>
+                    <div class='author-floating'>
+                        {{- partial "img.html" (dict "image" (index site.Data.authors $filename).obrazek "imgsizes" "" "ifsrcset" "nosrcset" "tag_class" "art-author-img")  -}}
+                        <div class='about-author'>
+                            <span class="author-name">{{ (index site.Data.authors $filename).imi__i_nazwisko }}
+                            {{with (index site.Data.authors $filename).linkedin_odnosnik }}
+                                <a rel="nofollow" target="_blank" class='author-linkedin' href='{{.}}'><img src="/img/linkedin-in_red.svg"></a>
+                            {{end}}
+                            </span>
+                            <p class="more-author">{{(index site.Data.authors $filename).krotki_opis}}</p>
+                        </div>
+                        <div class="social-share">
+                            <p>Udostępnij:</p>
+                            <a rel="nofollow" onclick="window.open(this.href, 'mywin',                            'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" href="https://www.linkedin.com/shareArticle?mini=true&url={{.Permalink}}&title={{.Params.tytul_do_listowania}}&source=agencjawroclawska.pl" >
+                                <img class="lmode " src="http://localhost:1313/uploads/linkedin-in.svg">
+                                <img class="dmode" src="http://localhost:1313/uploads/linkedin-in-white.svg">
+                            </a>
+                         
+                        </div>
+                        
                     </div>
                 </div>
-                {{end}}
                 {{.Content}}
             </div>
             <div class="single-art-footer">
@@ -214,7 +236,9 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
 
               
                       var floating_wrapper=document.querySelector('.floating-wrapper');
+                      var floating_wrapper_r=document.querySelector('.floating-wrapper-right');
                       var floating_el=document.querySelector('.is-about-floating');
+                      var floating_el_r=document.querySelector('.author-floating');
                       var float_anchor=document.querySelector('.article-content');
                       function toggle_active(element){
                         element.classList.add('active');
@@ -252,6 +276,9 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
                             floating_el.style.position="fixed"
                             floating_el.style.top="8rem";
                             floating_el.style.top="-100%";
+                            floating_el_r.style.position="fixed"
+                            floating_el_r.style.top="8rem";
+                            floating_el_r.style.top="-100%";
                           var precentageseen=percentageSeen()+"%";
                           var precentageseentranslate="translateY(calc(100% -  "+percentageSeen()+"%))";
                           let window_scrolled=window.scrollY;
@@ -262,6 +289,10 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
                             floating_el.style.zIndex="1"
                             floating_el.style.top="8rem";
                             floating_el.style.bottom="unset";
+                            floating_el_r.style.opacity="1"
+                            floating_el_r.style.zIndex="1"
+                            floating_el_r.style.top="8rem";
+                            floating_el_r.style.bottom="unset";
                             //floating_el.style.bottom=precentageseen;
                           }
                /*           else if(percentageSeen()>94&&percentageSeen()<98){
@@ -278,6 +309,9 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
                             floating_el.style.top="-100%";
                             floating_el.style.opacity="1"
                             floating_el.style.zIndex="1"
+                            floating_el_r.style.top="-100%";
+                            floating_el_r.style.opacity="1"
+                            floating_el_r.style.zIndex="1"
                             //floating_el.style.bottom="0";
                             //floating_el.style.position="relative";
                             }
@@ -338,7 +372,7 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
         {{ $section := "blog" }}
      
         <ul class="news-list cnt-visibility">
-            {{ range first 4 (where (where site.RegularPages.ByDate "Section" $section ) ".Params.slug" "!=" .Params.slug).Reverse }}
+            {{ range first 4 (where (where site.RegularPages.ByDate "Type" "blog" ) ".Params.slug" "!=" .Params.slug).Reverse }}
             <li>
                 <!-- <ul id="tags">
                     {{ range .Params.tags }}
