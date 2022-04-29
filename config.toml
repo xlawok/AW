@@ -1,4 +1,4 @@
-baseURL = "https://sharp-bassi-376df3.netlify.app/"
+baseURL = "https://agencjawroclawska.pl/"
 canonifyURLs = true
 description = "Hugo port of the Themefisher’s Kross Template"
 enableRobotsTXT = true
