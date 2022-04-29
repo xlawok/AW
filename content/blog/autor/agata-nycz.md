@@ -6,7 +6,7 @@ description = "Autor - Agata Nycz"
 keywords = "Autor - Agata Nyczoi"
 robots = "index follow"
 slug = "agata-nycz"
-o_autorze = "Kiedy inwestujesz w działania marketingowe musisz na bieżąco oceniać ich opłacalność. W tym celu wykorzystuje się wskaźnik rentowności, czyli ROI. Dzięki niemu można optymalnie wykorzystać dostępny budżet zarówno w przypadku kampanii o mniejszych oraz większych budżetach. Zatem co to tak właściwie jest ROI i jak go obliczyć?"
+o_autorze = "Copywriter w Agencji Wrocławskiej"
 
 title = "Agata Nycz  | Agencja Wrocławska"
 tytul_do_listowania = "Agata Nycz"

@@ -35,7 +35,7 @@ fields:
   label: slug
 - type: textarea
   name: o_autorze
-  label: O autorze
+  label: O autorze na stronie autora
   config:
     wysiwyg: true
     schema:

@@ -26,7 +26,7 @@ fields:
   type: textarea
   config:
     required: false
-  label: Krótki opis
+  label: Krótki opis w pływającym boxie
 pages:
 - data/authors/agata.yml
 - data/authors/bartek.yml

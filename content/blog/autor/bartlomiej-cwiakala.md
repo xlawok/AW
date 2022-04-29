@@ -6,7 +6,7 @@ description = "Autor - Bartłomiej Ćwiąkała"
 keywords = "Autor - Bartłomiej Ćwiąkała"
 robots = "index follow"
 slug = "bartlomiej-cwiakala"
-o_autorze = ""
+o_autorze = "Head of Marketing "
 
 title = "Bartłomiej Ćwiąkała  | Agencja Wrocławska"
 tytul_do_listowania = "Bartłomiej Ćwiąkała"

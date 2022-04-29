@@ -8811,6 +8811,7 @@ transform: rotate(180deg);
   }
 }
 .autor-banner{
+  padding-bottom: 2rem;
   .autor-ab{
     margin-bottom: 1.5rem;
     background-color: #f2f2f2;
@@ -8839,9 +8840,10 @@ transform: rotate(180deg);
         @media (min-width: 560px){
           padding-right: 1rem;
         }
-        // @media (max-width: 700px){
-         
-        // }
+        @media (max-width: 700px){
+          width: 100%;
+        }
+
       }
       &:nth-child(2){
         border-radius: 50%;
