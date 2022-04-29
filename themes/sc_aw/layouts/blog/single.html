@@ -49,7 +49,13 @@
         </div>
       
         <div class='article-content-wrapper'>
-           
+            {{if .Params.video}}
+            {{with .Params.video_kod_embed}}
+            <div class="post-video post-video-mobile">
+                {{. | safeHTML}}
+            </div>
+            {{end}}
+            {{end}}
             {{ with $.Params.lista_o_czym_przeczytasz_group}}
             <div class='is-about'>
                 <div class='is-about-title'>
@@ -59,6 +65,7 @@
                     O czym przeczytasz w artykule?
                 {{end}}
                 </div>
+              
                 <ol class='is-about-list'>
                     {{range . }}
                         <li class='is-about-item'><a href="#{{ .adres_odnosnika | urlize}}">{{ .title }}</a></li>

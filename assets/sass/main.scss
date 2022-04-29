@@ -3366,6 +3366,23 @@ form#contactform,form#mcontactform{
         width: (898/1920)*100vw;
         margin: 1rem auto;
       }
+      .post-video{
+        &.post-video-mobile{
+          @media (min-width: 1200px){
+            display: none;
+          }
+        }
+        iframe{
+          width: 100%;
+          max-height: 20rem;
+        }
+        &:not(.post-video-mobile){
+          .tiktok-embed > section{
+            max-width: calc(15vw - 2rem);
+            max-height: 20rem;
+          }
+        }
+      }
       .is-about {
         background: #f2f2f2;
         padding: 2em;
@@ -3409,6 +3426,7 @@ form#contactform,form#mcontactform{
             margin-left: -1rem
           }
         }
+       
         .floating-wrapper{
           display: none;
         }
@@ -3542,7 +3560,7 @@ form#contactform,form#mcontactform{
               }
             }
             .social-share{
-              padding-bottom: 2rem;
+              padding-bottom: 1rem;
               span{
                 display: flex;
                 flex-wrap: wrap;
