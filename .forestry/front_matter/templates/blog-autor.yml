@@ -1,0 +1,37 @@
+---
+label: Blog autor
+hide_body: true
+fields:
+- type: text
+  name: type
+  label: type
+- type: text
+  name: get_author
+  label: get_author
+- type: list
+  name: categories
+  label: categories
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: text
+  name: keywords
+  label: keywords
+- type: text
+  name: robots
+  label: robots
+- type: text
+  name: slug
+  label: slug
+- type: textarea
+  name: o_autorze
+  label: o_autorze
+- type: text
+  name: title
+  label: title
+- type: text
+  name: tytul_do_listowania
+  label: tytul_do_listowania
