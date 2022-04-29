@@ -128,7 +128,13 @@
                             </a>
                             </span>
                         </div>
-                        
+                        {{if .Params.video}}
+                        {{with .Params.video_kod_embed}}
+                        <div class="post-video">
+                            {{. | safeHTML}}
+                        </div>
+                        {{end}}
+                        {{end}}
                     </div>
                 </div>
                 {{.Content}}
