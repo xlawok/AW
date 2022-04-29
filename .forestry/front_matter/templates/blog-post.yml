@@ -136,15 +136,7 @@ fields:
   label: Video kod embed
   showOnly:
     field: video
-    value: 
-- name: tiktok_video_id
-  type: text
-  config:
-    required: false
-  label: TIKTOK video id
-  showOnly:
-    field: yt/vimeo_embed_or_tiktok
-    value: tiktok
+    value: true
 pages:
 - content/blog/6-narzedzi-seo-ktore-pomoga-ci-w-pozycjonowaniu.md
 - content/blog/co-to-jest-marketing-szeptany-czy-warto-go-stosowac-oraz-rodzaje-agencja-wroclawska.md
