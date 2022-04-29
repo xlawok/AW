@@ -125,7 +125,7 @@ fields:
 - name: video
   type: boolean
   label: Video
-- name: yt_vimeo_embed_or_tiktok
+- name: yt/vimeo_embed_or_tiktok
   type: select
   default: []
   config:

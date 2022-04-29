@@ -129,20 +129,11 @@
                             </span>
                         </div>
                         {{if .Params.video}}
-                            {{if eq .Params.yt_vimeo_embed_or_tiktok "tiktok"}}
-                                <div style="">
-                                    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 177.7778%; padding-top: 120px;">
-                                        <iframe src="https://www.tiktok.com/embed/{{.Params.tiktok_video_id}}" style="top: 0; left: 0; width: 100%; height: 100%; max-height:20rem; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
-                                    </div>
-                                </div>
-                            {{else}}
-                                {{with .Params.video_kod_embed}}
-                                    <div class="post-video">
-                                        {{. | safeHTML}}
-                                    </div>
-                                {{end}}
-                            {{end}}
-                        
+                        {{with .Params.video_kod_embed}}
+                        <div class="post-video">
+                            {{. | safeHTML}}
+                        </div>
+                        {{end}}
                         {{end}}
                     </div>
                 </div>
@@ -326,18 +317,18 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
                             if(floating_el){
                                 floating_el.style.position="fixed"
                                 floating_el.style.top="8rem";
-                                floating_el.style.top="-200vh";
+                                floating_el.style.top="-100%";
                             }
                             if(floating_el_r){
                                 floating_el_r.style.position="fixed"
                                 floating_el_r.style.top="8rem";
-                                floating_el_r.style.top="-200vh";
+                                floating_el_r.style.top="-100%";
                             }
                           var precentageseen=percentageSeen()+"%";
                           var precentageseentranslate="translateY(calc(100% -  "+percentageSeen()+"%))";
                           let window_scrolled=window.scrollY;
                           const article_offset_top=document.querySelector('.article-content-wrapper').offsetTop;
-                          if(percentageSeen()<100&&window_scrolled>article_offset_top){
+                          if(percentageSeen()>20&&percentageSeen()<100&&window_scrolled>article_offset_top){
                             {{/*  toggle_active(floating_wrapper);  */}}
                             if(floating_el){
                                 floating_el.style.opacity="1"
@@ -380,10 +371,10 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
                             //floating_el.style.opacity="0"
                            // floating_el.style.transform=precentageseentranslate;
                             //floating_el.style.position="absolute"
-                            floating_el.style.top="-200vh";
+                            floating_el.style.top="-100%";
                             floating_el.style.opacity="1"
                             floating_el.style.zIndex="1"
-                            floating_el_r.style.top="-200vh";
+                            floating_el_r.style.top="-100%";
                             floating_el_r.style.opacity="1"
                             floating_el_r.style.zIndex="1"
                             //floating_el_r_author.style.height="0";
