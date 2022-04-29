@@ -122,6 +122,21 @@ fields:
     max: 
     labelField: 
   label: Lista o czym przeczytasz
+- name: video
+  type: boolean
+  label: Video
+- name: video_kod_embed
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Video kod embed
+  showOnly:
+    field: video
+    value: true
 pages:
 - content/blog/6-narzedzi-seo-ktore-pomoga-ci-w-pozycjonowaniu.md
 - content/blog/co-to-jest-marketing-szeptany-czy-warto-go-stosowac-oraz-rodzaje-agencja-wroclawska.md
