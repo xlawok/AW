@@ -14,7 +14,7 @@ title = "W jaki sposób wypromować swój sklep online na TikToku?"
 tytul_do_listowania = "W jaki sposób wypromować swój sklep online na TikToku?"
 tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
 video = true
-video_kod_embed = "\n\n<div style=\"max-width: 56vh;\"><div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 177.7778%; padding-top: 120px;\"><iframe src=\"https://www.tiktok.com/embed/6808679698583850246\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\" allow=\"encrypted-media;\"></iframe></div></div>"
+video_kod_embed = "\n\n<div style=\"max-width: 56vh; max-height: 20rem;\"><div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 177.7778%; padding-top: 120px;\"><iframe src=\"https://www.tiktok.com/embed/6808679698583850246\" style=\"top: 0; left: 0; width: 100%; height: 20rem; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\" allow=\"encrypted-media;\"></iframe></div></div>"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
