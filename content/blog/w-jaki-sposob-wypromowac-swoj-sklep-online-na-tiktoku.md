@@ -10,13 +10,15 @@ robots = "index follow"
 slug = "w-jaki-sposob-wypromowac-swoj-sklep-online-na-tiktoku"
 summary = "TikTok to jedna z najpopularniejszych platform na całym świecie. Na swoim koncie posiada miliard zarejestrowanych użytkowników, bardzo szybko zdążyła podbić serca wielu osób. Cały czas się rozwija oraz daje bardzo duże możliwości w promowaniu siebie czy swoich produktów. Warto więc wykorzystać jego potencjał i efektywnie dotrzeć do nowych odbiorców."
 tags = []
-tiktok_video_id = "6808679698583850246"
 title = "W jaki sposób wypromować swój sklep online na TikToku?"
 tytul_do_listowania = "W jaki sposób wypromować swój sklep online na TikToku?"
 tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
 video = true
 video_kod_embed = "\n\n<div style=\"max-width: 56vh;\"><div style=\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 177.7778%; padding-top: 120px;\"><iframe src=\"https://www.tiktok.com/embed/6808679698583850246\" style=\"top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;\" allowfullscreen scrolling=\"no\" allow=\"encrypted-media;\"></iframe></div></div>"
+<<<<<<< HEAD
 yt_vimeo_embed_or_tiktok = "tiktok"
+=======
+>>>>>>> parent of f79d122... Update from Forestry.io
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
