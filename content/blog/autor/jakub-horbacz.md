@@ -1,7 +1,6 @@
 +++
 type= "blog/autor"
 get_author = "data/authors/jakub.yml"
-categories = []
 date = 2021-10-12T12:00:00Z
 description = "Autor - Jakub Horbacz"
 keywords = "Autor - Jakub Horbacz"

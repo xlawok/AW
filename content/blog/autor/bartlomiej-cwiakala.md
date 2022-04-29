@@ -1,7 +1,6 @@
 +++
 type= "blog/autor"
 get_author = "data/authors/bartek.yml"
-categories = []
 date = 2021-10-12T12:00:00Z
 description = "Autor - Bartłomiej Ćwiąkała"
 keywords = "Autor - Bartłomiej Ćwiąkała"

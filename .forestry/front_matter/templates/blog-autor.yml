@@ -7,37 +7,43 @@ fields:
   label: type
   default: blog/autor
   hidden: true
-- type: text
+- type: select
   name: get_author
-  label: get_author
-- type: list
-  name: categories
-  label: categories
+  label: Powiąż z autorem postów
+  default: []
+  config:
+    source:
+      type: pages
+      section: autorzy
+      file: data/authors.yml
+      path: ''
+    required: true
 - type: datetime
   name: date
   label: date
 - type: text
   name: description
-  label: description
+  label: Meta opis
 - type: text
   name: keywords
   label: keywords
 - type: text
   name: robots
-  label: robots
+  label: Meta robots
 - type: text
   name: slug
   label: slug
 - type: textarea
   name: o_autorze
-  label: o_autorze
+  label: O autorze
   config:
     wysiwyg: true
     schema:
       format: markdown
 - type: text
   name: title
-  label: title
+  label: Meta tytuł
 - type: text
   name: tytul_do_listowania
   label: tytul_do_listowania
+  hidden: true
