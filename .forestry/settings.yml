@@ -17,6 +17,7 @@ sections:
   create: all
   match: "**/*"
   templates:
+  - blog-autor
   - blog-post
 - type: directory
   path: content/slownik

@@ -7,7 +7,7 @@
 
     {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "related-news-header")  -}}
     <ul class="news-list">
-        {{ range first 3  (where site.RegularPages.ByDate "Section" $section ).Reverse }}
+        {{ range first 3  (where site.RegularPages.ByDate "Type" "blog" ).Reverse }}
           
                 <li>
                     <!-- <ul id="tags">

@@ -1,4 +1,4 @@
-baseURL = "https://agencjawroclawska.pl/"
+baseURL = "https://sharp-bassi-376df3.netlify.app/"
 canonifyURLs = true
 description = "Hugo port of the Themefisher’s Kross Template"
 enableRobotsTXT = true
@@ -29,6 +29,16 @@ metadescription = "Used as 'description' meta tag for both home and index pages.
 paginatedsections = ["posts"]
 portraitPhotoWidths = [1500, 1000, 750, 500]
 taxonomiesExcludedFromSitemap = ["letters", "tags"]
+[outputs]
+posts = ["HTML"]
+section = ["JSON", "HTML"]
+[outputFormats.JSON]
+    MediaType              = "application/json"
+    BaseName               = "index"
+    IsHTML                 = false
+    IsPlainText            = true
+    noUgly                 = false
+    Rel                    = "alternate"
 [permalinks]
 "/" = "/:slug/"
 categories = "/kategoria/:slug/"
