@@ -13,6 +13,8 @@ tags = []
 title = "W jaki sposób wypromować swój sklep online na TikToku?"
 tytul_do_listowania = "W jaki sposób wypromować swój sklep online na TikToku?"
 tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
+video = true
+video_kod_embed = "<blockquote class=\"tiktok-embed\" cite=\"https://www.tiktok.com/@karlitapantoja/video/7091793747725405445\" data-video-id=\"7091793747725405445\" style=\"max-width: 605px;min-width: 325px;\" > <section> <a target=\"_blank\" title=\"@karlitapantoja\" href=\"https://www.tiktok.com/@karlitapantoja\">@karlitapantoja</a> Si iba rápido 😥 <a title=\"toritomecanico\" target=\"_blank\" href=\"https://www.tiktok.com/tag/toritomecanico\">#toritomecanico</a>  <a title=\"divertido\" target=\"_blank\" href=\"https://www.tiktok.com/tag/divertido\">#divertido</a> <a target=\"_blank\" title=\"♬ sonido original - Karlita Pantoja\" href=\"https://www.tiktok.com/music/sonido-original-7091793736250067718\">♬ sonido original - Karlita Pantoja</a> </section> </blockquote> <script async src=\"https://www.tiktok.com/embed.js\"></script>"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
