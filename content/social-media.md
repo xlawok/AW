@@ -288,13 +288,13 @@ tytul = "Film"
 opis = "czyli film posiadający od 3 do 10 grafik/zdjęć, które indywidualnie dobieramy."
 tytul = "Pokaz slajdów"
 [[sections.boxy]]
-opis = "to karty z osobnymi grafikami i filmami, każda z osobnym nagłówkiem oraz opisem. Najczęściej używane przy sprzedaży produktów"
+opis = "to karty z osobnymi grafikami i filmami, indywidualnie dobieramy, każda z osobnym nagłówkiem oraz opisem. Najczęściej używane przy sprzedaży produktów."
 tytul = "Karuzela"
 [[sections.boxy]]
-opis = "wykorzystujemy wstawiony na fanpage post, aby zwiększyć zasięg strony"
+opis = "wykorzystujemy wstawiony na fanpage post, aby zwiększyć zasięg strony."
 tytul = "Promowanie postów"
 [[sections.boxy]]
-opis = "czyli przejście do formularza kontaktowego poprzez reklamę"
+opis = "czyli przejście do formularza kontaktowego poprzez reklamę."
 tytul = "Pozyskiwanie kontaktów"
 [[sections.header_repeater]]
 block_tag_type = "h2"
