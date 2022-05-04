@@ -39,6 +39,11 @@ fields:
   - type: list
     name: paginatedsections
     label: paginatedsections
+  - name: og_default_img
+    type: file
+    config:
+      maxSize: 1
+    label: Logo
   - name: logo
     type: file
     config:

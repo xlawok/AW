@@ -13,7 +13,7 @@
         {{with .Params.og_image}}    
             <meta property="og:image" content="{{.}}" />
         {{else}}
-            <meta property="og:image" content="https://agencjawroclawska.pl/uploads/logo-aw-black.png" />
+            <meta property="og:image" content="{{.Site.Params.og_default_img}}" />
         {{end}}
             {{/* 
             {{ with $.Params.ikona_artykulu }}

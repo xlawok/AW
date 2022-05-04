@@ -23,6 +23,7 @@ header_adres_email = "kontakt@agencjawroclawska.pl"
 header_numer_telefonu = "536 742 137"
 header_numer_telefonu_link = "+48536742137"
 landscapePhotoWidths = [3400, 2560, 1920, 1600, 1366, 1200, 992, 786, 560]
+og_default_img = "/uploads/og_aw.jpg"
 logo = "/uploads/logo-aw-black.svg"
 logo_dark_mode = "/uploads/logo-aw-white.svg"
 metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
