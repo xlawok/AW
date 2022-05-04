@@ -23,6 +23,11 @@ fields:
   config:
     required: false
   label: keywords
+- name: og_image
+  type: file
+  config:
+    maxSize: 1
+  label: OG obrazek
 - name: robots
   type: select
   default: ''

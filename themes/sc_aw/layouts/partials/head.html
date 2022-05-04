@@ -6,11 +6,19 @@
     <link rel="canonical" href="{{ .Permalink }}" itemprop="url" /> 
     <meta name="url" content="{{ .Permalink }}" />
     <meta name="twitter:url" content="{{ .Permalink }}" /> 
+    <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ .Permalink }}" />
     <meta name="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
     <meta name="og:title" content="{{ with $.Params.title }}{{ . }}{{ end }}">
-        {{ with $.Params.ikona_artykulu }}
+        {{with .Params.og_image}}    
+            <meta property="og:image" content="{{.}}" />
+        {{else}}
+            <meta property="og:image" content="https://agencjawroclawska.pl/uploads/logo-aw-black.png" />
+        {{end}}
+            {{/* 
+            {{ with $.Params.ikona_artykulu }}
          <meta property="og:image" content="https://agencjawroclawska.pl{{ . }}" />
+         */}}
         {{end}}
         {{/* 
        

@@ -27,6 +27,11 @@ fields:
 - type: text
   name: keywords
   label: keywords
+- name: og_image
+  type: file
+  config:
+    maxSize: 1
+  label: OG obrazek
 - type: text
   name: robots
   label: Meta robots
