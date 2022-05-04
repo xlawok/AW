@@ -6,7 +6,7 @@ robots = "index follow"
 slug = "social-media"
 title = "Reklama Facebook ADS, Prowadzenie Social Media | Agencjawroclawska.pl"
 [menu.main]
-name = "Social media"
+name = "Facebook Ads"
 weight = 3
 [[sections]]
 banner_bg_for_center_left = ""
@@ -279,13 +279,13 @@ txt_block_size = "XL"
 ikona_obok_naglowka = "/uploads/sm-formy-reklamy.svg"
 template = "sekcja-formy-reklamy"
 [[sections.boxy]]
-opis = "czyli pojedyncza grafika, którą sami przygotujemy"
+opis = "czyli pojedyncza grafika, którą sami przygotujemy."
 tytul = "Obraz"
 [[sections.boxy]]
-opis = "prezentujący markę, można wykorzystać film 360 stopni"
+opis = "prezentujący markę, można wykorzystać film 360 stopni."
 tytul = "Film"
 [[sections.boxy]]
-opis = "czyli film posiadający od 3 do 10 grafik/zdjęć, które indywidualnie dobieramy"
+opis = "czyli film posiadający od 3 do 10 grafik/zdjęć, które indywidualnie dobieramy."
 tytul = "Pokaz slajdów"
 [[sections.boxy]]
 opis = "to karty z osobnymi grafikami i filmami, każda z osobnym nagłówkiem oraz opisem. Najczęściej używane przy sprzedaży produktów"
