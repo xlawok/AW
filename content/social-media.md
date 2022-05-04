@@ -248,7 +248,7 @@ obrazek = "/uploads/sm-dlaczego-ads.svg"
 obrazek_dark_mode = "/uploads/sm-dlaczego-ads.svg"
 [sections.wiersz_dwie_kolumny.kolumna_pierwsza]
 adres_odnosnika = []
-opis = "Najszybciej i najlepiej rozwijające się reklamy w Internecie to właśnie Facebook Ads. Coraz więcej firm korzysta z takiej formy reklamy produktów i usług. Facebook Ads posiada doskonałe możliwości dobierania grup odbiorców i dopasowania dla nich oferty. Masz mnóstwo możliwości, możesz wybrać formę idealnie dostosowaną do Twoich produktów czy usług. Reklama może angażować, zachęcać do działania, dawać informację, przekierować na stronę, zbierać kontakty oraz umożliwiać zakupy.<br><br><span class='txt-red'>Każdy może ustalić budżet według swoich możliwości finansowych.</span>"
+opis = "Najszybciej i najlepiej rozwijające się reklamy w Internecie to właśnie Facebook Ads. Coraz więcej firm korzysta z takiej formy reklamy produktów i usług. Facebook Ads posiada doskonałe możliwości dobierania grup odbiorców i dopasowania dla nich oferty. Masz mnóstwo możliwości, możesz wybrać formę idealnie dostosowaną do Twoich produktów czy usług. Reklama może angażować, zachęcać do działania, dawać informację, przekierować na stronę, zbierać kontakty oraz umożliwiać zakupy.<br><br><span class=\"txt-red\">Każdy może ustalić budżet według swoich możliwości finansowych.</span>"
 tytul_odnosnika = "Przeczytaj więcej"
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
 block_tag_type = "h2"
