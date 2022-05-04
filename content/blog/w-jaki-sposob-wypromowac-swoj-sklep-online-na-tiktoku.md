@@ -4,6 +4,7 @@ categories = []
 date = 2021-06-29T23:00:00Z
 description = "Sklepy internetowe i sposoby na marketing na obecnie najpopularniejszej wśród młodych ludzi platformie social media"
 ikona_artykulu = "/uploads/tiktok_sklep.png"
+og_image = "/uploads/tiktok_sklep.png"
 keywords = "tiktok, tik-tok, tik tok"
 obrazek = ""
 robots = "index follow"

@@ -43,7 +43,7 @@ fields:
     type: file
     config:
       maxSize: 1
-    label: Logo
+    label: Open graph - domyślny obrazek
   - name: logo
     type: file
     config:

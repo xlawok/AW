@@ -4,6 +4,7 @@ categories = []
 date = 2021-04-16T15:11:00Z
 description = "Dowiedz się jak założyć i prowadzić fanpage firmowy na Facebooku! Nowe zestawienie 2021 sprawi, że bez problemu pozyskasz nowych klientów w social media!"
 ikona_artykulu = "/uploads/profil_fb.png"
+og_image = "/uploads/profil_fb.png"
 keywords = ""
 obrazek = ""
 robots = "index follow"
