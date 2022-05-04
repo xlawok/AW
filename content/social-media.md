@@ -266,7 +266,7 @@ polozenie_ikony = "prawa"
 template = "sekcja-duzy-cta-z-ikona"
 tytul_odnosnika = "Skontaktuj się z nami"
 [[sections]]
-opis = "Kampanie na Facebooku występują tam, gdzie Twoi klienci. Dzięki różnym formom reklamy można dotrzeć do grupy docelowej i uzyskać zamierzony efekt. Dużym plusem jest wolność finansowa, jeżeli masz 600 zł wolnego budżetu możesz go zainwestować. Jeszcze lepszy efekt uzyskasz przy 3000zł budżetu. Nie masz sztywnie określonej kwoty, wkładasz w reklamę tyle ile chcesz. Facebook Ads można wyświetlać w określonych godzinach i dniach."
+opis = "Kampanie na Facebooku występują tam, gdzie Twoi klienci. Dzięki różnym formom reklamy można dotrzeć do grupy docelowej i uzyskać zamierzony efekt. Dużym plusem jest wolność finansowa, jeżeli masz 600złwolnego budżetu możesz go zainwestować. Jeszcze lepszy efekt uzyskasz przy 3000zł budżetu. Nie masz sztywnie określonej kwoty, wkładasz w reklamę tyle ile chcesz. Facebook Ads można wyświetlać w określonych godzinach i dniach."
 template = "sekcja-czerwony-box-srodek"
 [[sections.header_repeater]]
 block_tag_type = "h2"
