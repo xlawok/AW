@@ -14,6 +14,8 @@ tags = []
 title = "W jaki sposób wypromować swój sklep online na TikToku?"
 tytul_do_listowania = "W jaki sposób wypromować swój sklep online na TikToku?"
 tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
+video = false
+video_kod_embed = "\n"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"

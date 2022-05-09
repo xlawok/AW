@@ -13,6 +13,8 @@ tags = []
 title = "Pozycjonowanie Niemcy – o czym warto pamiętać? | Agencja Wrocławska"
 tytul_do_listowania = "Pozycjonowanie Niemcy – o czym warto pamiętać? "
 tytul_o_czym_przeczytasz = "Z tego artykułu dowiesz się:"
+video = true
+video_kod_embed = "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/3vsjaobh-Q8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
