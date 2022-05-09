@@ -13,8 +13,8 @@ tags = []
 title = "Tworzenie stron internetowych – ile kosztuje strona internetowa? | Agencja Wrocławska"
 tytul_do_listowania = "Tworzenie stron internetowych – ile kosztuje strona internetowa?"
 tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
-video = true
-video_kod_embed = "<blockquote class=\"tiktok-embed\" cite=\"https://www.tiktok.com/@harrypooler2/video/7084876307791727874\" data-video-id=\"7084876307791727874\" style=\"max-width: 605px;min-width: 325px;\" > <section> <a target=\"_blank\" title=\"@harrypooler2\" href=\"https://www.tiktok.com/@harrypooler2\">@harrypooler2</a> Picasso <a title=\"atlasagriculture\" target=\"_blank\" href=\"https://www.tiktok.com/tag/atlasagriculture\">#atlasagriculture</a> <a title=\"broadacrebros\" target=\"_blank\" href=\"https://www.tiktok.com/tag/broadacrebros\">#broadacrebros</a> <a title=\"viral\" target=\"_blank\" href=\"https://www.tiktok.com/tag/viral\">#viral</a> <a title=\"fy\" target=\"_blank\" href=\"https://www.tiktok.com/tag/fy\">#fy</a> <a target=\"_blank\" title=\"♬ Clocks - Coldplay\" href=\"https://www.tiktok.com/music/Clocks-6711214808848402433\">♬ Clocks - Coldplay</a> </section> </blockquote> <script async src=\"https://www.tiktok.com/embed.js\"></script>"
+video = false
+video_kod_embed = ""
 [[header_repeater]]
 block_tag_type = "h1"
 bold_txt = "gruby"
