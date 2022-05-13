@@ -61,7 +61,7 @@ banenr_list_item = "marka Twojej firmy będzie coraz bardziej popularna"
 [[sections.banner_list_gruop]]
 banenr_list_item = "dbając o pozycjonowanie, zadbasz o rozwój całej firmy"
 [[sections]]
-opis = "Znalezienie potrzebnych informacji w szybki i skuteczny sposób jest fundamentalnym wymogiem dzisiejszych czasów, zarówno w celu ograniczenia kosztów, jak i zaoszczędzenia czasu. Informacje różnej treści krążące w sieci mnożą się w gwałtownym tempie i przyjmują różnorodne formy (dokumenty, filmy, linki, streamingi, audio i video) - z tego względu wyszukiwarki nabierają coraz większego znaczenia. <br><br>Wyczulone mechanizmy i roboty Google’a regulujące funkcjonowanie wyszukiwarki, w prosty sposób umożliwiają jej użytkownikowi otrzymywanie - poprzez czynność wyszukiwania - użytecznych i ścisłych wyników. <br><br>Użytkownik formuje zapytanie (wykaz fraz do wyszukania) dla wyszukiwarki, ta natomiast je przetwarza i przesyła, za pośrednictwem odpowiednich układów logicznych, szereg mniej lub bardziej istotnych informacji."
+opis = "Znalezienie potrzebnych informacji w szybki i skuteczny sposób jest fundamentalnym wymogiem dzisiejszych czasów, zarówno w celu ograniczenia kosztów, jak i zaoszczędzenia czasu. Informacje różnej treści krążące w sieci mnożą się w gwałtownym tempie i przyjmują różnorodne formy (dokumenty, filmy, linki, streamingi, audio i video) - z tego względu wyszukiwarki nabierają coraz większego znaczenia. <br><br>Wyczulone mechanizmy i roboty Google’a regulujące funkcjonowanie wyszukiwarki, w prosty sposób umożliwiają jej użytkownikowi otrzymywanie - poprzez czynność wyszukiwania - użytecznych i ścisłych wyników. <br><br>Użytkownik formuje zapytanie (wykaz fraz do wyszukania) dla wyszukiwarki, ta natomiast je przetwarza i przesyła, za pośrednictwem odpowiednich układów logicznych, szereg mniej lub bardziej istotnych informacji. "
 pytajnik_filled = "tylko kontur"
 pytajnik_where_shadow = "po lewej"
 template = "sekcja-z-pytajnikiem"
@@ -71,7 +71,7 @@ bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "SEO"
+txt_block = "Pozycjonowanie stron"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
