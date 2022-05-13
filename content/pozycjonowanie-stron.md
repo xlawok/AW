@@ -216,7 +216,7 @@ kategoria_tytulu_dla_poradnika = "h3"
 obrazek_sekcji = "/uploads/group-85.svg"
 obrazek_sekcji_dark = "/uploads/seo1.svg"
 template = "sekcja-pozycjonowanie-poradnik"
-title_of_index = "Spis treści"
+title_of_index = "Pozycjonowanie stron - spis treści"
 [sections.floating_box_group]
 opis_1 = "Wykorzystaj obecnie najtańszą formę dotarcia do klientów z całego świata. Pomożemy Ci wyprzedzić konkurencję w internecie i sprawimy, że Twoja firma będzie rosła dzięki dobrze rozplanowanym działaniom SEO. To się nie stanie z dnia na dzień, natomiast dzięki ustalaniu planów na każde 6 miesięcy współpracy, będziesz dokładnie wiedział czego się spodziewać."
 opis_2 = "Zmuszać i przekonywać Cię nie będziemy. Nie jesteśmy handlowcami do naganiania klientów. Będziesz chciał podziałać z dobrymi ludźmi od SEO - to zapraszamy :)"
