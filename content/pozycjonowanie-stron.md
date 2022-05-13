@@ -91,15 +91,15 @@ bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "OFERTA"
+txt_block = "Pozycjonowanie stron"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 color_txt = "czarny"
 ornament = "prawa w dół"
-txt_block = "SEO"
+txt_block = "SEO oferta"
 txt_block_size = "XL"
 [[sections.kafelki]]
 if_anchor = true
