@@ -285,7 +285,7 @@ title = "Wyszukiwarka i ruch organiczny"
 [[sections.poradnik_group]]
 odnosnik_spis = "pozycjonowanie-krok-po-kroku"
 opis = ""
-title = "Pozycjonowanie krok po kroku"
+title = "Pozycjonowanie strony krok po kroku"
 [[sections.poradnik_group.opis__kroki]]
 opis_kroku = "Dobrą strategią na sam początek współpracy jest określenie listy najlepszych słów kluczowych dla Twojej branży. Dzięki programom takim jak Senuto, czy Ahrefs możemy sprawdzić na jakie frazy kluczowe miesięcznie jest najwięcej wyszukiwań, ale również na jakich frazach będzie najtrudniej się przebić. Przez to, że mamy do czynienia z ogromnym zagęszczeniem rynku i sporą konkurencją ze strony firm, oferujących podobne usługi lub produkty. Warto być tutaj elastycznym i znaleźć frazy, na które z reguły wyszukuje spore grono odbiorców, natomiast nie są jeszcze na tyle trudne do wejścia na coraz bliższe strony w Google."
 tytul = "KROK 1 - Stwórz listę słów kluczowych"
