@@ -191,9 +191,6 @@ sections:
   - obrazek: "/uploads/damian-side.webp"
     my_name: Damian
     stanowisko: SEO Specialist
-  - obrazek: "/uploads/magda-side.webp"
-    my_name: Magda
-    stanowisko: Junior SEO Specialist
   - obrazek: "/uploads/maria-side.webp"
     my_name: Maria
     stanowisko: Head of Administration
@@ -231,6 +228,7 @@ description: Jesteśmy specjalistami branży SEO/SEM z Wrocławia. Nasze działa
   do zwiększenia sprzedaży, a nie do podkręcania ego wykresami o wzrostach widoczności.
 url: o-nas
 body_class: o-nas
+og_image: ''
 menu:
   main:
     name: O agencji
