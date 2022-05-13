@@ -83,7 +83,7 @@ ornament = "prawa w dół"
 txt_block = "co to jest?"
 txt_block_size = "XL"
 [[sections]]
-opis = "W ramach obsługi <strong>SEO</strong> każdy<strong>﻿</strong> z naszych klientów ma wsparcie od naszych specjalistów tj. pozycjonera, copywritera, grafika programisty czy ogólnego wsparcia marketingowego. Dzięki takim zasobom jesteśmy w stanie kompleksowo doradzić w kwestii marketingu i pozycjonowania online. Nasza <strong>oferta seo</strong> mówi jasno - uzyskanie efektu albo 100% zwrot pieniędzy. Nasza współpraca jest w pełni transparentna. Każde 6 miesięcy obsługi jest poprzedzone wyznaczeniem efektów, jakie są możliwe do uzyskania. Po każdych 6-ciu miesiącach analizujemy wraz z klientem obecną sytuację i wyznaczamy cele na kolejny okres."
+opis = "W ramach obsługi pozycjonowania stron SEO każdy<strong> </strong>z naszych klientów ma wsparcie od naszych specjalistów tj. pozycjonera, copywritera, grafika programisty czy ogólnego wsparcia marketingowego. Dzięki takim zasobom jesteśmy w stanie kompleksowo doradzić w kwestii marketingu i pozycjonowania online. Nasza <strong>oferta seo</strong> mówi jasno - uzyskanie efektu albo 100% zwrot pieniędzy. Nasza współpraca jest w pełni transparentna. Każde 6 miesięcy obsługi jest poprzedzone wyznaczeniem efektów, jakie są możliwe do uzyskania. Po każdych 6-ciu miesiącach analizujemy wraz z klientem obecną sytuację i wyznaczamy cele na kolejny okres."
 template = "sekcja-oferta-z-kafelkami"
 [[sections.header_repeater]]
 block_tag_type = "h2"
