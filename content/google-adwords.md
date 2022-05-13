@@ -2,6 +2,7 @@
 body_class = "set-counter g-ads"
 description = "google adwords"
 keywords = ""
+og_image = ""
 robots = "index follow"
 slug = "google-adwords"
 title = "Google adwords | Agencja Wrocławska"
@@ -238,7 +239,7 @@ e_mail = "r.czupry@agencjawroclawska.pl"
 header_repeater = []
 imie_i_nazwisko = "Robert Czupry"
 stanowisko = "Google Ads Manager"
-telefon = "+48 735 928 630"
+telefon = "+48 734 130 953"
 template = "naglowek-i-belka-czerwona"
 zdjecie = "/uploads/robert1.jpeg"
 
