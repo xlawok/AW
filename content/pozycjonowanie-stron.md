@@ -107,7 +107,7 @@ ikona = "/uploads/group-19.svg"
 ikona_dark_mode = "/uploads/ikona-pozycjonowanie-stron-dark.svg"
 title = "strony"
 [[sections.kafelki.header_repeater]]
-block_tag_type = "h3"
+block_tag_type = "h2"
 bold_txt = "gruby"
 break_line = true
 color_txt = "czarny"
