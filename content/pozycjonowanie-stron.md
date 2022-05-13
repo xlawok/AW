@@ -71,8 +71,8 @@ bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "Pozycjonowanie stron"
-txt_block_size = "L"
+txt_block = "Pozycjonowanie"
+txt_block_size = "XL"
 underline = true
 [[sections.header_repeater]]
 block_tag_type = "h3"
