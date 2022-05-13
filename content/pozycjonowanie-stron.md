@@ -251,7 +251,7 @@ block_tag_type = "h2"
 bold_txt = "bardzo gruby"
 color_txt = "czerwony"
 ornament = "lewa w prawo"
-txt_block = "Poradnik SEO"
+txt_block = "Pozycjonowanie stron - poradnik"
 txt_block_size = "L"
 underline = true
 [[sections.poradnik_group]]
