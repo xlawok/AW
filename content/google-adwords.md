@@ -200,7 +200,7 @@ ikona_dark_mode = ""
 opsi = "Ciągły monitoring i optymalizacja kampanii Google Ads (maksymalizacja sprzedaży)"
 tytul = ""
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czerwony"
