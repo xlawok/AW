@@ -39,11 +39,11 @@ bold_txt = "normalny"
 break_line = true
 color_txt = "czarny"
 ornament = "brak"
-txt_block = "Social Media"
+txt_block = "Kampanie Social Media"
 txt_block_size = "XXL"
 underline = false
 [[sections.banner_header_cnt.header_repeater]]
-block_tag_type = "h1"
+block_tag_type = "div"
 bold_txt = "bardzo gruby"
 break_line = false
 color_txt = "czerwony"
