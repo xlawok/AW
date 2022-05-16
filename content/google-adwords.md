@@ -54,12 +54,12 @@ txt_block = "Google Ads "
 txt_block_size = "XXL"
 underline = false
 [[sections.banner_header_cnt.header_repeater]]
-block_tag_type = "h1"
+block_tag_type = "h2"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "/Google Adwords"
+txt_block = "Google Adwords"
 txt_block_size = "XXL"
 underline = false
 [sections.banner_slogan]
