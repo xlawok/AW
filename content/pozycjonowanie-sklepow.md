@@ -115,7 +115,7 @@ txt_block_size = "XL"
 logosy_marek = ["/uploads/ahrefs-web.png", "/uploads/lrt-web.png", "/uploads/senuto-web.png", "/uploads/gtm-web.png", "/uploads/gsc-web.png", "/uploads/screamingfrog-web.png"]
 template = "sekcja-galeria-logosow"
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = true
 color_txt = "czerwony"
@@ -124,7 +124,7 @@ txt_block = "UŻYWAMY NARZĘDZI NAJLEPIEJ DOPASOWANYCH"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 color_txt = "czarny"
 ornament = "prawa w dół"
@@ -147,7 +147,7 @@ bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "STRATEGIE SEO"
+txt_block = "Pozycjonowanie sklepu internetowego"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
