@@ -172,7 +172,7 @@ tytul = "RAPORTOWANIE"
 ikona_obok_naglowka = "/uploads/sm-zasady-wspolpracy.svg"
 template = "sekcja-zasady-wspolpracy"
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "normalny"
 break_line = true
 color_txt = "czarny"
@@ -180,7 +180,7 @@ ornament = "brak"
 txt_block = "Zasady"
 txt_block_size = "MD"
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 color_txt = "czerwony"
 ornament = "lewa w dół"
