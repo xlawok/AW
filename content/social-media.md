@@ -297,11 +297,11 @@ tytul = "Promowanie postów"
 opis = "czyli przejście do formularza kontaktowego poprzez reklamę."
 tytul = "Pozyskiwanie kontaktów"
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 color_txt = "czerwony"
 ornament = "lewa w dół"
-txt_block = "Formy reklamy"
+txt_block = "Formy kampanii"
 txt_block_size = "XL"
 [[sections]]
 ikona = "/uploads/sm-kontakt-2.svg"
