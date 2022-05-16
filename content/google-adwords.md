@@ -1,6 +1,6 @@
 +++
 body_class = "set-counter g-ads"
-description = "google adwords"
+description = "Google ADS to pewne źródło pozyskania ruchu z Google! Ustal z naszym specjalistom budżet oraz uzyskaj wycenę na realizację Kampanii Google Adwords!"
 keywords = ""
 og_image = ""
 robots = "index follow"
