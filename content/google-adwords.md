@@ -107,7 +107,7 @@ ikona_dark_mode = ""
 opsi = "i możliwość wprowadzania zmian w naszych kampaniach w miarę bieżących potrzeb."
 tytul = "Stały monitoring efektów"
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
@@ -149,7 +149,7 @@ ikona_dark_mode = ""
 opsi = "Kampanie GDN (Google Display Network) wykorzystują udostępnioną powierzchnie reklamową na stronach tysięcy serwisów należących do sieci reklamowej Google w formie banerów reklamowych."
 tytul = "Kampanie Google Ads w sieci reklamowej"
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
