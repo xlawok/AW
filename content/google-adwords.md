@@ -226,7 +226,7 @@ opis = "<strong>Działając jednocześnie na wielu polach w Internecie zwiększa
 relacja_linku = ""
 tytul_odnosnika = "Kontakt"
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
