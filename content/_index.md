@@ -2,6 +2,7 @@
 body_class = ""
 description = "Agencja Wrocławska to firma SEO zajmująca się pozycjonowaniem stron w internecie. Cele na każde 6 miesięcy działań, gwarancja efektów!"
 keywords = ""
+og_image = ""
 robots = ""
 slug = "/"
 title = "Agencja SEO SEM - Marketing internetowy w Google | Agencja Wrocławska"
@@ -114,7 +115,7 @@ opis = "Współpracujemy głównie z firmami, które pochodzą z Wrocławia. Nat
 relacja_linku = "follow"
 tytul_odnosnika = "Przeczytaj więcej"
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
@@ -123,7 +124,7 @@ txt_block = "Lokalna obsługa"
 txt_block_size = "XL"
 underline = true
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
