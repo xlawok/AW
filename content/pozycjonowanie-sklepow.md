@@ -101,15 +101,15 @@ bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "DLACZEGO POZYCJONOWANIE E-COMMERCE"
+txt_block = "POZYCJONOWANIE E-COMMERCE"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 color_txt = "czarny"
 ornament = "prawa w dół"
-txt_block = "jest ważne dla marki?"
+txt_block = "czy jest ważne dla marki?"
 txt_block_size = "XL"
 [[sections]]
 logosy_marek = ["/uploads/ahrefs-web.png", "/uploads/lrt-web.png", "/uploads/senuto-web.png", "/uploads/gtm-web.png", "/uploads/gsc-web.png", "/uploads/screamingfrog-web.png"]
