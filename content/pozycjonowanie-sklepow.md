@@ -237,7 +237,7 @@ powiaz_haslem = "pozycjonowanie sklepów"
 template = "sekcja-artykuly-zwiazane"
 tytul_guzika_cta = "WIĘCEJ AKTUALNOŚCI"
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
@@ -246,7 +246,7 @@ txt_block = "WIĘCEJ"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 color_txt = "czarny"
 ornament = "lewa w dół"
