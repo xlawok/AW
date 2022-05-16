@@ -90,7 +90,7 @@ bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
 ornament = "prawa w dół"
-txt_block = "Wycena 2021"
+txt_block = "Wycena 2022"
 txt_block_size = "XL"
 underline = false
 [[sections.wiersze_tabela]]
@@ -99,7 +99,7 @@ kolumna_2 = "od 1299 zł"
 kolumna_3 = "na czas nieokreślony"
 [[sections.wiersze_tabela]]
 kolumna_1 = "SEO ogólnopolskie"
-kolumna_2 = "od 1590 zł"
+kolumna_2 = "od 1690 zł"
 kolumna_3 = "na czas nieokreślony"
 [[sections.wiersze_tabela]]
 kolumna_1 = "Pozycjonowanie sklepów"
