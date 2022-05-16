@@ -164,7 +164,7 @@ listowanie = ["PIK co 6 miesięcy", "Umowa na czas nieokreślony", "Założone e
 opis_czy_listowanie = "listowanie"
 tlo = "czerwone"
 [[sections.druga_kolumna.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 break_line = true
 color_txt = "biały"
@@ -173,7 +173,7 @@ txt_block = "OTRZYMUJESZ"
 txt_block_size = "L"
 underline = true
 [[sections.druga_kolumna.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 color_txt = "biały"
 ornament = "brak"
@@ -184,7 +184,7 @@ opis = "W ramach obsługi pozycjonowania sklepu, każdy z naszych klientów ma m
 opis_czy_listowanie = "opis"
 tlo = "biale"
 [[sections.pierwsza_kolumna.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 break_line = true
 color_txt = "czerwony"
@@ -193,7 +193,7 @@ txt_block = "OBSŁUGA"
 txt_block_size = "L"
 underline = true
 [[sections.pierwsza_kolumna.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 color_txt = "czarny"
 ornament = "brak"
@@ -202,7 +202,7 @@ txt_block_size = "XL"
 [[sections]]
 template = "sekcja-3-kolumny-z-obrazkami"
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
@@ -211,7 +211,7 @@ txt_block = "EFEKTY"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 color_txt = "czarny"
 ornament = "prawa w dół"
