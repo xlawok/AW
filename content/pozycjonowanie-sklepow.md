@@ -259,7 +259,7 @@ obrazek_dark_mode = "/uploads/seo3.svg"
 tekst_nad_listowaniem = "<strong>Jesteśmy wrocławskim zespołem, który w pełni zaangażuje się w pracę nad <span class='txt-red'>Twoim</span> serwisem. Twoje efekty są również miarą naszego sukcesu.</strong>"
 template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
@@ -268,7 +268,7 @@ txt_block = "DLACZEGO WARTO"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 color_txt = "czarny"
 ornament = "prawa w dół"
