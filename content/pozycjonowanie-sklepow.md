@@ -151,11 +151,11 @@ txt_block = "Pozycjonowanie sklepu internetowego"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 color_txt = "czarny"
 ornament = "prawa w dół"
-txt_block = "dla e-commerce"
+txt_block = "oferta e-commerce"
 txt_block_size = "XL"
 [[sections]]
 template = "sekcja-2-kolumny-text-lub-punktory"
