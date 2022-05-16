@@ -57,7 +57,7 @@ txt_block = "POZYCJONOWANIE SKLEPU"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 color_txt = "czarny"
 ornament = "prawa w dół"
@@ -66,7 +66,7 @@ txt_block_size = "XL"
 [[sections]]
 template = "sekcja-kolumny-z-cyframi-w-tle"
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
@@ -75,7 +75,7 @@ txt_block = "EFEKTY SEO"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 color_txt = "czarny"
 ornament = "prawa w dół"
