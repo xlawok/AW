@@ -79,16 +79,16 @@ bold_txt = "gruby"
 break_line = true
 color_txt = "czarny"
 ornament = "brak"
-txt_block = "Po co prowadzić"
+txt_block = "Kampanie Facebook&Instagram"
 txt_block_size = "MD"
 underline = false
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "Social Media?"
+txt_block = "Jak wykorzystać potencjał?"
 txt_block_size = "XL"
 underline = false
 [[sections]]
