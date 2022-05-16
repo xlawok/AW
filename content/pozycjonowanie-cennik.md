@@ -185,7 +185,7 @@ underline = false
 opis = ""
 template = "sekcja-oferta-z-kafelkami"
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 break_line = true
 color_txt = "czerwony"
@@ -194,7 +194,7 @@ txt_block = "ZAPOZNAJ SIĘ ZE SZCZEGÓŁAMI"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "div"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
