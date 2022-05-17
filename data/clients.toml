@@ -71,7 +71,7 @@ clinet_logo = "/uploads/amazigo-logo.jpg"
 czy_nofollow = false
 if_svg = false
 [[header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
@@ -80,7 +80,7 @@ txt_block = "Nasi"
 txt_block_size = "XL"
 underline = false
 [[header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czerwony"
