@@ -6,7 +6,7 @@ robots = "index follow"
 slug = "case-study"
 title = "Case study | Agencja Wrocławska"
 [menu.main]
-name = "Portfolio"
+name = "Case study"
 parent = "O nas"
 weight = 2
 [[sections]]
