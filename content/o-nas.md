@@ -155,12 +155,6 @@ sections:
       txt_block_size: XL
 - template: sekcja-o-nas-druzyna-pierscienia
   section_team_group:
-  - obrazek: "/uploads/sviatoslav-front.webp"
-    my_name: Sviatoslav
-    stanowisko: Junior SEO Specialist
-  - my_name: Weronika
-    obrazek: "/uploads/weronika-side.webp"
-    stanowisko: Junior SEO Specialist
   - obrazek: "/uploads/bartek-1-side.webp"
     my_name: Bartek
     stanowisko: Head of Marketing
@@ -200,6 +194,12 @@ sections:
   - obrazek: "/uploads/damian-side.webp"
     my_name: Damian
     stanowisko: SEO Specialist
+  - my_name: Weronika
+    obrazek: "/uploads/weronika-side.webp"
+    stanowisko: Junior SEO Specialist
+  - obrazek: "/uploads/sviatoslav-front.webp"
+    my_name: Sviatoslav
+    stanowisko: Junior SEO Specialist
   - obrazek: "/uploads/sziba1.jpg"
     my_name: Shiba
     stanowisko: Doge
