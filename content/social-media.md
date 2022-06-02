@@ -9,18 +9,6 @@ title = "Reklama Facebook ADS, Prowadzenie Social Media | Agencjawroclawska.pl"
 name = "Facebook Ads"
 weight = 3
 [[sections]]
-template = "sekcja-przemienne-kolumny-txt-img"
-[[sections.wiersz_dwie_kolumny]]
-tytul_wiersza = "Reklamy Facebook Ads"
-[sections.wiersz_dwie_kolumny.kolumna_druga]
-film_obrazek = "image"
-obrazek = "/uploads/sm-reklamy-fb.svg"
-obrazek_dark_mode = "/uploads/wyszukiwarka.svg"
-[sections.wiersz_dwie_kolumny.kolumna_pierwsza]
-adres_odnosnika = []
-opis = "• reklam w najpopularniejszym portalu social media, <br>• kampanie nastawione na pozyskiwanie klientów i sprzedaż, <br>• dokładne raporty z działań."
-tytul_odnosnika = "Przeczytaj więcej"
-[[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_left_dark = ""
 banner_bg_for_center_right = ""
@@ -225,6 +213,18 @@ otworz_modal = "<div class=\"form-header\">Zamów bezpłatną wycenę w 24h!</di
 polozenie_ikony = "prawa"
 template = "sekcja-duzy-cta-z-ikona"
 tytul_odnosnika = "Skontaktuj się z nami"
+[[sections]]
+template = "sekcja-przemienne-kolumny-txt-img"
+[[sections.wiersz_dwie_kolumny]]
+tytul_wiersza = "Reklamy Facebook Ads"
+[sections.wiersz_dwie_kolumny.kolumna_druga]
+film_obrazek = "image"
+obrazek = "/uploads/sm-reklamy-fb.svg"
+obrazek_dark_mode = "/uploads/wyszukiwarka.svg"
+[sections.wiersz_dwie_kolumny.kolumna_pierwsza]
+adres_odnosnika = []
+opis = "• reklam w najpopularniejszym portalu social media, <br>• kampanie nastawione na pozyskiwanie klientów i sprzedaż, <br>• dokładne raporty z działań."
+tytul_odnosnika = "Przeczytaj więcej"
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "normalny"
