@@ -98,14 +98,14 @@ txt_block = "SEO"
 txt_block_size = "XL"
 underline = false
 [[sections.kolumny_3_bg]]
-opis = "656%"
-title = "Wzrost widoczności na frazach TOP 100 (99 -> 650) "
+opis = "1436%"
+title = "Wzrost widoczności na frazach TOP 100 (307 -> 4409) "
 [[sections.kolumny_3_bg]]
-opis = "419%"
-title = "Wzrost ruchu organicznego na stronie (2 521 -> 10 569) "
+opis = "801%"
+title = "Wzrost ruchu organicznego na stronie (2375 -> 19024)  "
 [[sections.kolumny_3_bg]]
-opis = "1078%"
-title = "Wzrost ogólnej liczby fraz kluczowych powiązanych ze stroną TOP 100 (401 -> 4 323) "
+opis = "1260%"
+title = "Wzrost ogólnej liczby fraz kluczowych powiązanych ze stroną TOP 100 (399 -> 5029) "
 [[sections]]
 klasa_sekcji = "case-white-bg"
 listowanie = ["Pełny Audyt SEO", "Pełna optymalizacja SEO strony pod budowanie profilu linkowego", "Poprawa nagłówków oraz treści na stronie", "Stworzenie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
