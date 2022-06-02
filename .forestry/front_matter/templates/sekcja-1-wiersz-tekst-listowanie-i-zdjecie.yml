@@ -45,6 +45,11 @@ fields:
   config:
     maxSize: 2
   label: Obrazek dark mode
+- name: obrazek2_dark_mode
+  type: file
+  config:
+    maxSize: 2
+  label: Obrazek drugi dark mode  
 - name: klasa_sekcji
   type: text
   config:

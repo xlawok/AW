@@ -31,7 +31,19 @@
 
                     {{else}}
                         {{- partial "img.html" (dict "image" $obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "")  -}}
-                    {{end}}   
+                    {{end}}  
+                    <!-- </a>   -->
+                    </div>
+                    <div class='obrazek-wrapper'>
+                        <!-- <a data-modaltarget='{{$random}}' class='open-modal-quote' href='#'> -->
+                    {{$obrazek2 := .obrazek2}}
+                    {{with .obrazek2_dark_mode}}
+                        {{- partial "img.html" (dict "image" $obrazek2 "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "lmode")  -}}
+                        {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "dmode")  -}}
+
+                    {{else}}
+                        {{- partial "img.html" (dict "image" $obrazek2 "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "")  -}}
+                    {{end}}    
                     <!-- </a>   -->
                     </div>
                 </div>
