@@ -85,7 +85,7 @@ bold_txt = "bardzo gruby"
 break_line = true
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "EFEKTY POZYCJONOWANIA"
+txt_block = "EFEKTY POZYCJONOWANIA SEO"
 txt_block_size = "L"
 underline = true
 [[sections.header_repeater]]
@@ -94,7 +94,7 @@ bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
 ornament = "brak"
-txt_block = "SEO"
+txt_block = "3W"
 txt_block_size = "XL"
 underline = false
 [[sections.kolumny_3_bg]]
