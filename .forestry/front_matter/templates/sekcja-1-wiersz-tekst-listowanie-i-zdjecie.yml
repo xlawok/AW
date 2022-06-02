@@ -35,6 +35,11 @@ fields:
   config:
     maxSize: 2
   label: Obrazek
+- name: obrazek2
+  type: file
+  config:
+    maxSize: 2
+  label: Obrazek2  
 - name: obrazek_dark_mode
   type: file
   config:

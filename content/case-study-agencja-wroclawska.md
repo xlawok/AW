@@ -52,7 +52,8 @@ opis = ""
 [[sections]]
 klasa_sekcji = ""
 listowanie = ["Migracja kilku stron spółki w jedną", "Pełny Audyt SEO", "Pełna optymalizacja wraz z przekierowaniami ruchu z poprzednich stron", "Poprawa nagłówków oraz treści na stronie", "Napisanie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
-obrazek = "/uploads/medicus.jpg"
+obrazek = "/uploads/medicus-1-img-casestudy.jpg"
+obrazek2 = "/uploads/medicus-2-img-casestudy.jpg"
 obrazek_dark_mode = ""
 obrazek_przewijany = false
 tekst_nad_listowaniem = "Co zrobiliśmy?"
