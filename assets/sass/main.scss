@@ -6802,6 +6802,7 @@ justify-content: center;
     .first-col{
       @media (min-width: 992px) {
         width: 45%;
+        order: 2;
       }
     }
     .second-col{
@@ -6828,7 +6829,7 @@ justify-content: center;
         width: 100%;
         // height:400px;
         @media (min-width: 1200px){
-          transform: translateY(-8rem);
+          transform: none;
         }
         &:before{
           display: block;
