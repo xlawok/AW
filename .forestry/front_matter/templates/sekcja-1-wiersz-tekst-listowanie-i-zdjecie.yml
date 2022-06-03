@@ -42,10 +42,10 @@ fields:
   type: file
   config:
     maxSize: 2
-  label: Obrazek2 
+  label: Obrazek2
 - name: if_no_srcset_2
   type: boolean
-  label: Wyłącz wymiarowanie obrazka 
+  label: Wyłącz wymiarowanie obrazka
 - name: obrazek_dark_mode
   type: file
   config:
@@ -55,7 +55,7 @@ fields:
   type: file
   config:
     maxSize: 2
-  label: Obrazek drugi dark mode  
+  label: Obrazek drugi dark mode
 - name: klasa_sekcji
   type: text
   config:
