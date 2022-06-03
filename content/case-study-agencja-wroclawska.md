@@ -121,8 +121,8 @@ title = "Wzrost ruchu organicznego na stronie (2375 -> 19024)  "
 opis = "1260%"
 title = "Wzrost ogólnej liczby fraz kluczowych powiązanych ze stroną TOP 100 (399 -> 5029) "
 [[sections]]
-if_no_srcset = false
-if_no_srcset_2 = false
+if_no_srcset = true
+if_no_srcset_2 = true
 klasa_sekcji = "case-white-bg"
 listowanie = ["Pełny Audyt SEO", "Pełna optymalizacja SEO strony pod budowanie profilu linkowego", "Poprawa nagłówków oraz treści na stronie", "Stworzenie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych"]
 obrazek = "/uploads/wykres-odziez.jpg"
