@@ -360,5 +360,64 @@ title = "Wzrost ruchu organicznego na stronie (53 -> 5078)   "
 [[sections.kolumny_3_bg]]
 opis = "29%"
 title = "Wzrost ogólnej liczby fraz kluczowych powiązanych ze stroną TOP 100 (130 -> 1320) "
-
+[[sections]]
+if_no_srcset = true
+if_no_srcset_2 = true
+klasa_sekcji = "case-gray-bg"
+listowanie = ["Pełny Audyt SEO", "Pełna optymalizacja SEO strony pod budowanie profilu linkowego", "Poprawa nagłówków oraz treści na stronie", "Napisanie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych", "Ogromna rozbudowa contentu na podstronach kategorii"]
+obrazek = "/uploads/casestudy-costa-1.jpg"
+obrazek2 = "/uploads/casestudy-costa-2.jpg"
+obrazek2_dark_mode = ""
+obrazek_dark_mode = ""
+obrazek_przewijany = false
+tekst_nad_listowaniem = "Co zrobiliśmy?"
+template = "sekcja-1-wiersz-tekst-listowanie-i-zdjecie"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "POZYCJONOWANIE DLA E-COMMERCE"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "prawa w prawo"
+txt_block = "Costa.pl "
+txt_block_size = "XL"
+underline = false
+[[sections]]
+klasa_sekcji = "case-numbers-last"
+template = "sekcja-kolumny-z-cyframi-w-tle"
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "bardzo gruby"
+break_line = true
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "EFEKTY POZYCJONOWANIA"
+txt_block_size = "L"
+underline = true
+[[sections.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "SEO"
+txt_block_size = "XL"
+underline = false
+[[sections.kolumny_3_bg]]
+opis = "252%"
+title = "Wzrost widoczności na frazach TOP 100 (4392 -> 11102)  "
+[[sections.kolumny_3_bg]]
+opis = "1057%"
+title = "Wzrost ruchu organicznego na stronie (5301 -> 56043)  "
+[[sections.kolumny_3_bg]]
+opis = "369%"
+title = "Wzrost ogólnej liczby fraz kluczowych powiązanych ze stroną TOP 100 (4615 -> 17050) "
 +++
