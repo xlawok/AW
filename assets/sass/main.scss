@@ -6830,6 +6830,9 @@ justify-content: center;
         // height:400px;
         @media (min-width: 1200px){
           transform: none;
+          display: flex;
+          flex-direction: column;
+          gap: 1em;
         }
         &:before{
           display: block;
