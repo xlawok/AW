@@ -35,11 +35,17 @@ fields:
   config:
     maxSize: 2
   label: Obrazek
+- name: if_no_srcset
+  type: boolean
+  label: Wyłącz wymiarowanie obrazka
 - name: obrazek2
   type: file
   config:
     maxSize: 2
-  label: Obrazek2  
+  label: Obrazek2 
+- name: if_no_srcset_2
+  type: boolean
+  label: Wyłącz wymiarowanie obrazka 
 - name: obrazek_dark_mode
   type: file
   config:
