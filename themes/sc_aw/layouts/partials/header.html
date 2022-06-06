@@ -63,4 +63,7 @@
         <label for='darkmode'></label>
     </div>
 </header>
-
+{{ if not .IsHome }}
+{{$bread:= .}}
+{{ partial "breadcrumbs.html" $bread }}
+{{end}}
