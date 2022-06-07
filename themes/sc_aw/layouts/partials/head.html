@@ -15,16 +15,17 @@
         {{else}}
             <meta property="og:image" content="https://agencjawroclawska.pl{{.Site.Params.og_default_img}}" />
         {{end}}
-        {{/* 
+        
        
           <meta name="robots" content="noindex nofollow" />  
-          */}}
+         
+          {{/* 
           {{if eq .Params.robots ""}}
         <meta name="robots" content="index, follow" />
         {{else}}
         <meta name="robots" content="{{ .Params.robots }}" />
         {{end}} 
-    
+        */}}
     <link rel="icon" 
     type="image/png" 
     href="{{.Site.Params.favico}}" />
