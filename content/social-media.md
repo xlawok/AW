@@ -9,6 +9,55 @@ title = "Reklama Facebook ADS, Prowadzenie Social Media | Agencjawroclawska.pl"
 name = "Facebook Ads"
 weight = 3
 [[sections]]
+banner_bg_for_center_left = ""
+banner_bg_for_center_left_dark = ""
+banner_bg_for_center_right = ""
+banner_bg_for_center_right_dark = ""
+banner_bg_no_img = "/uploads/sm-aw-grafika-1.svg"
+banner_bg_no_img_dark = "/uploads/sm-aw-grafika-1.svg"
+banner_center_img = ""
+banner_cta_title = ""
+banner_cta_url = []
+banner_form_html = ""
+banner_form_html_no_img = ""
+banner_form_script = ""
+banner_form_script_no_img = ""
+banner_img = ""
+banner_list_gruop = []
+banner_type = "no_img_only_background"
+dymki_z_tekstem = []
+formularz_wylaczony = false
+naglowek_formularza = ""
+naglowek_formularza_no_img = ""
+opis_banner = "• będziesz miał atrakcyjne i popularne profile Facebook lub Instagram, <br>• dostarczanie wartościowych postów prowadzi do czerpania zysków, <br>• prowadząc social media dbasz o kontakt z klientami, <br>• praca nad przyjazną, ludzką twarzą marki."
+otworz_modal = ""
+tekst_pod_naglowkiem = ""
+template = "banner"
+[[sections.banner_header_cnt.header_repeater]]
+block_tag_type = "h1"
+bold_txt = "normalny"
+break_line = true
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "Kampanie Social Media"
+txt_block_size = "XXL"
+underline = false
+[[sections.banner_header_cnt.header_repeater]]
+block_tag_type = "div"
+bold_txt = "bardzo gruby"
+break_line = false
+color_txt = "czerwony"
+ornament = "brak"
+txt_block = "to większa sprzedaż i rozpoznawalność marki"
+txt_block_size = "XXL"
+underline = false
+[sections.banner_slogan]
+header_repeater = []
+[sections.box_pod_zdj_ciem]
+header_repeater = []
+kolumny = []
+opis = ""
+[[sections]]
 template = "sekcja-przemienne-kolumny-txt-img"
 [[sections.wiersz_dwie_kolumny]]
 tytul_wiersza = "Reklamy Facebook Ads"
@@ -60,55 +109,6 @@ color_txt = "czerwony"
 ornament = "brak"
 txt_block = "Facebook Ads"
 txt_block_size = "XXL"
-[[sections]]
-banner_bg_for_center_left = ""
-banner_bg_for_center_left_dark = ""
-banner_bg_for_center_right = ""
-banner_bg_for_center_right_dark = ""
-banner_bg_no_img = "/uploads/sm-aw-grafika-1.svg"
-banner_bg_no_img_dark = "/uploads/sm-aw-grafika-1.svg"
-banner_center_img = ""
-banner_cta_title = ""
-banner_cta_url = []
-banner_form_html = ""
-banner_form_html_no_img = ""
-banner_form_script = ""
-banner_form_script_no_img = ""
-banner_img = ""
-banner_list_gruop = []
-banner_type = "no_img_only_background"
-dymki_z_tekstem = []
-formularz_wylaczony = false
-naglowek_formularza = ""
-naglowek_formularza_no_img = ""
-opis_banner = "• będziesz miał atrakcyjne i popularne profile Facebook lub Instagram, <br>• dostarczanie wartościowych postów prowadzi do czerpania zysków, <br>• prowadząc social media dbasz o kontakt z klientami, <br>• praca nad przyjazną, ludzką twarzą marki."
-otworz_modal = ""
-tekst_pod_naglowkiem = ""
-template = "banner"
-[[sections.banner_header_cnt.header_repeater]]
-block_tag_type = "h1"
-bold_txt = "normalny"
-break_line = true
-color_txt = "czarny"
-ornament = "brak"
-txt_block = "Kampanie Social Media"
-txt_block_size = "XXL"
-underline = false
-[[sections.banner_header_cnt.header_repeater]]
-block_tag_type = "div"
-bold_txt = "bardzo gruby"
-break_line = false
-color_txt = "czerwony"
-ornament = "brak"
-txt_block = "to większa sprzedaż i rozpoznawalność marki"
-txt_block_size = "XXL"
-underline = false
-[sections.banner_slogan]
-header_repeater = []
-[sections.box_pod_zdj_ciem]
-header_repeater = []
-kolumny = []
-opis = ""
 [[sections]]
 template = "sekcja-przemienne-kolumny-txt-img"
 [[sections.wiersz_dwie_kolumny]]
