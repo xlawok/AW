@@ -95,6 +95,34 @@ ornament = "brak"
 txt_block = "Zalety"
 txt_block_size = "XL"
 [[sections]]
+ikona_obok_naglowka = "/uploads/sm-formy-reklamy.svg"
+template = "sekcja-formy-reklamy"
+[[sections.boxy]]
+opis = "czyli pojedyncza grafika, którą sami przygotujemy."
+tytul = "Obraz"
+[[sections.boxy]]
+opis = "prezentujący markę, można wykorzystać film 360 stopni."
+tytul = "Film"
+[[sections.boxy]]
+opis = "czyli film posiadający od 3 do 10 grafik/zdjęć, które indywidualnie dobieramy."
+tytul = "Pokaz slajdów"
+[[sections.boxy]]
+opis = "to karty z osobnymi grafikami i filmami, indywidualnie dobieramy, każda z osobnym nagłówkiem oraz opisem. Najczęściej używane przy sprzedaży produktów."
+tytul = "Karuzela"
+[[sections.boxy]]
+opis = "wykorzystujemy wstawiony na fanpage post, aby zwiększyć zasięg strony."
+tytul = "Promowanie postów"
+[[sections.boxy]]
+opis = "czyli przejście do formularza kontaktowego poprzez reklamę."
+tytul = "Pozyskiwanie kontaktów"
+[[sections.header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+color_txt = "czerwony"
+ornament = "lewa w dół"
+txt_block = "Formy kampanii"
+txt_block_size = "XL"
+[[sections]]
 template = "sekcja-przemienne-kolumny-txt-img"
 [[sections.wiersz_dwie_kolumny]]
 tytul_wiersza = "po co prowadzić social media"
@@ -250,34 +278,6 @@ otworz_modal = "<div class=\"form-header\">Zamów bezpłatną wycenę w 24h!</di
 polozenie_ikony = "prawa"
 template = "sekcja-duzy-cta-z-ikona"
 tytul_odnosnika = "Skontaktuj się z nami"
-[[sections]]
-ikona_obok_naglowka = "/uploads/sm-formy-reklamy.svg"
-template = "sekcja-formy-reklamy"
-[[sections.boxy]]
-opis = "czyli pojedyncza grafika, którą sami przygotujemy."
-tytul = "Obraz"
-[[sections.boxy]]
-opis = "prezentujący markę, można wykorzystać film 360 stopni."
-tytul = "Film"
-[[sections.boxy]]
-opis = "czyli film posiadający od 3 do 10 grafik/zdjęć, które indywidualnie dobieramy."
-tytul = "Pokaz slajdów"
-[[sections.boxy]]
-opis = "to karty z osobnymi grafikami i filmami, indywidualnie dobieramy, każda z osobnym nagłówkiem oraz opisem. Najczęściej używane przy sprzedaży produktów."
-tytul = "Karuzela"
-[[sections.boxy]]
-opis = "wykorzystujemy wstawiony na fanpage post, aby zwiększyć zasięg strony."
-tytul = "Promowanie postów"
-[[sections.boxy]]
-opis = "czyli przejście do formularza kontaktowego poprzez reklamę."
-tytul = "Pozyskiwanie kontaktów"
-[[sections.header_repeater]]
-block_tag_type = "h3"
-bold_txt = "gruby"
-color_txt = "czerwony"
-ornament = "lewa w dół"
-txt_block = "Formy kampanii"
-txt_block_size = "XL"
 [[sections]]
 ikona = "/uploads/sm-kontakt-2.svg"
 otworz_modal = "<div class=\"form-header\">Zamów bezpłatną wycenę w 24h!</div>\n<form id=\"mcontactform\" action=\"https://formsubmit.io/send/kontakt@agencjawroclawska.pl\" method=\"POST\">\n<div class='input-cnt'>\n <input required name=\"email\" type=\"email\" id=\"email\" placeholder=\"Adres e-mail\"><label for='email'> Adres e-mail</label>\n</div>\n<div class='input-cnt'>\n    <input name=\"www\" type=\"text\" id=\"www\" placeholder=\"Adres strony www\"><label for='www'>Adres strony www</label>\n</div>\n<div class='input-cnt'>\n    <input  required name=\"phone\" type=\"tel\" id=\"phone\" placeholder=\"Numer telefonu\"><label for='phone'>Numer telefonu</label>\n   </div>\n   <div>\n<span class='radio-cnt-title'>Wybierz temat zapytania</span>\n <div class='form-radio'>\n \n  <input type=\"radio\" id=\"positoning\" name=\"question\" value=\"pozycjonowanie\"\n         ><label for=\"positoning\">Pozycjonowanie\n </label>\n</div>\n<div class='form-radio'>\n\n  <input type=\"radio\" id=\"social-media\" name=\"question\" value=\"social media\"\n         ><label for=\"social-media\">\nSocial media </label>\n</div>\n <div class='form-radio'>\n \n  <input type=\"radio\" id=\"google-adwords\" name=\"question\" value=\"google adwrods\"\n         ><label for=\"google-adwords\">Google AdWords\n </label>\n</div>\n</div>\n\n    <input name=\"_formsubmit_id\" type=\"text\" style=\"display:none\">\n\n    <button  type=\"submit\">Wyślij zapytanie</button>\n<div class='rodo'>\n<input id='rodo-accept' type='checkbox' required name='rodo-accept' value='accept'/>\n<label for='rodo-accept'>Administratorem Twoich danych osobowych, czyli podmiotem decydującym o celach i sposobach przetwarzania Twoich danych osobowych jest Agencja Wrocławska. Informujemy, że podanie danych osobowych zawartych w formularzu jest dobrowolne, ale niezbędne do skutecznego nawiązania kontaktu z Administratorem, jak również przysługują Ci prawa dostępu do Twoich danych osobowych, ich zmiany (w tym aktualizacji), a także pozostałe prawa opisane w Polityce prywatności. W Polityce prywatności znajdują się także szczegółowe informację w zakresie praw i obowiązków Administratora.\n</label>\n</div>\n</form>"
