@@ -60,31 +60,6 @@ opis = ""
 [[sections]]
 template = "sekcja-przemienne-kolumny-txt-img"
 [[sections.wiersz_dwie_kolumny]]
-tytul_wiersza = "Reklamy Facebook Ads"
-[sections.wiersz_dwie_kolumny.kolumna_druga]
-film_obrazek = "image"
-obrazek = "/uploads/sm-reklamy-fb.svg"
-obrazek_dark_mode = "/uploads/wyszukiwarka.svg"
-[sections.wiersz_dwie_kolumny.kolumna_pierwsza]
-adres_odnosnika = []
-opis = "• reklam w najpopularniejszym portalu social media, <br>• kampanie nastawione na pozyskiwanie klientów i sprzedaż, <br>• dokładne raporty z działań."
-tytul_odnosnika = "Przeczytaj więcej"
-[[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
-block_tag_type = "h2"
-bold_txt = "normalny"
-break_line = true
-color_txt = "czarny"
-ornament = "brak"
-txt_block = "Reklamy"
-txt_block_size = "XXL"
-[[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
-block_tag_type = "h2"
-bold_txt = "bardzo gruby"
-color_txt = "czerwony"
-ornament = "brak"
-txt_block = "Facebook Ads"
-txt_block_size = "XXL"
-[[sections.wiersz_dwie_kolumny]]
 tytul_wiersza = "Dlaczego Facebook Ads"
 [sections.wiersz_dwie_kolumny.kolumna_druga]
 film_obrazek = "image"
