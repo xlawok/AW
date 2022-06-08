@@ -85,6 +85,16 @@ ornament = "brak"
 txt_block = "Facebook Ads"
 txt_block_size = "XXL"
 [[sections]]
+opis = "Kampanie na Facebooku występują tam, gdzie Twoi klienci. Dzięki różnym formom reklamy można dotrzeć do grupy docelowej i uzyskać zamierzony efekt. Dużym plusem jest wolność finansowa, jeżeli masz 600złwolnego budżetu możesz go zainwestować. Jeszcze lepszy efekt uzyskasz przy 3000zł budżetu. Nie masz sztywnie określonej kwoty, wkładasz w reklamę tyle ile chcesz. Facebook Ads można wyświetlać w określonych godzinach i dniach."
+template = "sekcja-czerwony-box-srodek"
+[[sections.header_repeater]]
+block_tag_type = "div"
+bold_txt = "gruby"
+color_txt = "biały"
+ornament = "brak"
+txt_block = "Zalety"
+txt_block_size = "XL"
+[[sections]]
 template = "sekcja-przemienne-kolumny-txt-img"
 [[sections.wiersz_dwie_kolumny]]
 tytul_wiersza = "po co prowadzić social media"
@@ -240,16 +250,6 @@ otworz_modal = "<div class=\"form-header\">Zamów bezpłatną wycenę w 24h!</di
 polozenie_ikony = "prawa"
 template = "sekcja-duzy-cta-z-ikona"
 tytul_odnosnika = "Skontaktuj się z nami"
-[[sections]]
-opis = "Kampanie na Facebooku występują tam, gdzie Twoi klienci. Dzięki różnym formom reklamy można dotrzeć do grupy docelowej i uzyskać zamierzony efekt. Dużym plusem jest wolność finansowa, jeżeli masz 600złwolnego budżetu możesz go zainwestować. Jeszcze lepszy efekt uzyskasz przy 3000zł budżetu. Nie masz sztywnie określonej kwoty, wkładasz w reklamę tyle ile chcesz. Facebook Ads można wyświetlać w określonych godzinach i dniach."
-template = "sekcja-czerwony-box-srodek"
-[[sections.header_repeater]]
-block_tag_type = "div"
-bold_txt = "gruby"
-color_txt = "biały"
-ornament = "brak"
-txt_block = "Zalety"
-txt_block_size = "XL"
 [[sections]]
 ikona_obok_naglowka = "/uploads/sm-formy-reklamy.svg"
 template = "sekcja-formy-reklamy"
