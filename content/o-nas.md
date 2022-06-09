@@ -194,9 +194,6 @@ sections:
   - obrazek: "/uploads/damian-side.webp"
     my_name: Damian
     stanowisko: SEO Specialist
-  - my_name: Weronika
-    obrazek: "/uploads/weronika-side.webp"
-    stanowisko: Junior SEO Specialist
   - obrazek: "/uploads/sviatoslav-front.webp"
     my_name: Sviatoslav
     stanowisko: Junior SEO Specialist
