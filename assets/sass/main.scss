@@ -2460,7 +2460,7 @@ form#contactform,form#mcontactform{
   .two-col-row{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     .second-col{
       position: relative;
       z-index: 1;
@@ -6802,7 +6802,6 @@ justify-content: center;
     .first-col{
       @media (min-width: 992px) {
         width: 45%;
-        order: 2;
         padding-left: 2rem;
       }
     }
