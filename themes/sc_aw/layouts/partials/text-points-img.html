@@ -3,6 +3,28 @@
 <section class='sec-padding sc-text-points-img {{.klasa_sekcji}} a{{$random}}'>
     
         <div class='two-col-row cnt-visibility'>
+            <div class='second-col'>
+                <div class='obrazek-outer-wrapper'>
+                    <div class='obrazek-wrapper'>
+                        <!-- <a data-modaltarget='{{$random}}' class='open-modal-quote' href='#'> -->
+                    {{$obrazek := .obrazek}}
+                    {{$ifsrcset:=""}}
+                    {{if .if_no_srcset}}
+                       {{ $ifsrcset = "nosrcset" }}
+                            
+                    {{end}}
+                    
+                    {{with .obrazek_dark_mode}}
+                        {{- partial "img.html" (dict "image" $obrazek   "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "lmode" "ifsrcset" $ifsrcset)  -}}
+                        {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "dmode" "ifsrcset" $ifsrcset )  -}}
+
+                    {{else}}
+                        {{- partial "img.html" (dict "image" $obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "" "ifsrcset" $ifsrcset)  -}}
+                    {{end}}  
+                    <!-- </a>   -->
+                    </div>
+                </div>
+            </div>
             {{ $header_list := (.header_repeater) }}
             {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
             <div class='first-col'>
@@ -24,24 +46,6 @@
                 <div class='obrazek-outer-wrapper'>
                     <div class='obrazek-wrapper'>
                         <!-- <a data-modaltarget='{{$random}}' class='open-modal-quote' href='#'> -->
-                    {{$obrazek := .obrazek}}
-                    {{$ifsrcset:=""}}
-                    {{if .if_no_srcset}}
-                       {{ $ifsrcset = "nosrcset" }}
-                            
-                    {{end}}
-                    
-                    {{with .obrazek_dark_mode}}
-                        {{- partial "img.html" (dict "image" $obrazek   "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "lmode" "ifsrcset" $ifsrcset)  -}}
-                        {{- partial "img.html" (dict "image" . "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "dmode" "ifsrcset" $ifsrcset )  -}}
-
-                    {{else}}
-                        {{- partial "img.html" (dict "image" $obrazek "imgsizes" "(max-width: 992px) 100vw, 50vw" "tag_class" "" "ifsrcset" $ifsrcset)  -}}
-                    {{end}}  
-                    <!-- </a>   -->
-                    </div>
-                    <div class='obrazek-wrapper'>
-                        <!-- <a data-modaltarget='{{$random}}' class='open-modal-quote' href='#'> -->
                     {{$obrazek2 := .obrazek2}}
                     {{$ifsrcset2:=""}}
                     {{if .if_no_srcset_2}}
@@ -58,10 +62,8 @@
                     <!-- </a>   -->
                     </div>
                 </div>
-
             </div>
-        </div>
-    
+        </div>   
 </section>
 {{if .obrazek_przewijany }}
 <div data-modalname='{{$random}}' class='modal-quote-outer img-modal-outer'>
