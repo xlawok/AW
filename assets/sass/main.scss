@@ -6807,6 +6807,31 @@ justify-content: center;
         padding: 2rem;
         width: 55%;
         margin: -2rem auto;
+        box-shadow: 0 3px 20px #00000029;
+      }
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 7.375rem;
+        height: 7.375rem;
+        transform: translate(5rem,-1rem)rotate(83deg);
+        background: var(--white)no-repeat padding-box;
+        left: 78%;
+        top: 22%;
+      }
+      &.first-col::after {
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 9.375rem;
+        height: 9.375rem;
+        transform: translate(5rem,-1rem)rotate(109deg);
+        background: #e3e3e3;
+        left: 0%;
+        top: 65%;
       }
     }
     .second-col{
