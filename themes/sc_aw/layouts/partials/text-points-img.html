@@ -3,6 +3,8 @@
 <section class='sec-padding sc-text-points-img {{.klasa_sekcji}} a{{$random}}'>
     
         <div class='two-col-row cnt-visibility'>
+            {{ $header_list := (.header_repeater) }}
+            {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
             <div class='second-col'>
                 <div class='obrazek-outer-wrapper'>
                     <div class='obrazek-wrapper'>
@@ -25,8 +27,6 @@
                     </div>
                 </div>
             </div>
-            {{ $header_list := (.header_repeater) }}
-            {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "")  -}}
             <div class='first-col'>
               
                 <div class='txt-L slogan'>
