@@ -6814,6 +6814,9 @@ justify-content: center;
         width: 55%;
         margin: -2rem auto;
         box-shadow: 0 3px 20px #00000029;
+        @at-root .case-study .sc-text-points-img .first-col {
+          background-color: #323335;
+        }
       }
       &::before {
         content: '';
