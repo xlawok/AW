@@ -78,7 +78,7 @@ obrazek_dark_mode = ""
 adres_odnosnika = "_index.md"
 if_blank = false
 modal_linku = ""
-opis = "Zanim porozmawiamy o obsłudze domeny, najpierw przygotujemy dla Ciebie bezpłatny audyt strony. Obejrzyj film, w którym opowiemy o zakresie działań audytu oraz jego korzyści, a następnie zostaw nam swoje dane, a wkrótce się odezwiemy z konkretami!"
+opis = "Zanim porozmawiamy o obsłudze domeny, najpierw przygotujemy dla Ciebie bezpłatny audyt strony. W audycie sprawdzimy Twoją stronę w naszych specjalistycznych programach SEO, wyszczególnimy błędy oraz ustalimy strategię pozycjonowania Twojej domeny. Zostaw nam swoje dane, a wkrótce odezwiemy się z konkretami!"
 relacja_linku = "follow"
 tytul_odnosnika = "Przeczytaj więcej"
 [[sections.wiersz_dwie_kolumny.kolumna_pierwsza.header_repeater]]
