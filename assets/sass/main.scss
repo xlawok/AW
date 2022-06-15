@@ -2460,7 +2460,6 @@ form#contactform,form#mcontactform{
   .two-col-row{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     .second-col{
       position: relative;
       z-index: 1;
@@ -6797,6 +6796,13 @@ justify-content: center;
       height: 15.5rem;
     }
     
+  }
+  .case-study{
+    .sc-two-col-img-txt{
+      .two-col-row{
+        flex-direction: column;
+      }
+    }
   }
   .sc-text-points-img{
     .first-col{
