@@ -2361,6 +2361,10 @@ form#contactform,form#mcontactform{
     }
     
   }
+  main>section,footer{
+    -webkit-transform: translate3d(0,0,0);
+  }
+
 }
 .sc-our-clients{
   position: relative;
