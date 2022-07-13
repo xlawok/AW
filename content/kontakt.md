@@ -69,7 +69,7 @@ bold_txt = "normalny"
 break_line = false
 color_txt = "czerwony"
 ornament = "brak"
-txt_block = "Pozwól przygotować spersonalizowaną, profesjonalną strategię marketingową oraz ofertę współpracy dla Twojej firmy. Zróbmy wspólnie krok w kierunku sukcesu!"
+txt_block = "Pozwól przygotować spersonalizowaną, profesjonalną strategię marketingową oraz ofertę współpracy dla Twojej firmy. Zróbmy wspólnie krok w kierunku sukcesu!\n<div><span>Zaufali nam:</span><div></div></div>"
 txt_block_size = "S"
 underline = false
 [sections.box_pod_zdj_ciem]
