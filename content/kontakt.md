@@ -49,18 +49,18 @@ template = "banner"
 block_tag_type = "h1"
 bold_txt = "bardzo gruby"
 break_line = true
-color_txt = "biały"
+color_txt = "czerwony"
 ornament = "brak"
-txt_block = "Zapraszamy"
+txt_block = "Darmowa"
 txt_block_size = "XXL"
 underline = false
 [[sections.banner_header_cnt.header_repeater]]
 block_tag_type = "h1"
 bold_txt = "bardzo gruby"
 break_line = false
-color_txt = "biały"
+color_txt = "czerwony"
 ornament = "brak"
-txt_block = "do kontaktu"
+txt_block = "wycena"
 txt_block_size = "XXL"
 underline = false
 [[sections.banner_slogan.header_repeater]]
