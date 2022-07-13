@@ -11,9 +11,9 @@
             {{if gt (len $header_slogan_list) 0}}
                 {{- partial "header-tag.html" (dict "context" . "header_list" $header_slogan_list "custom_class" "banner-slogan")  -}}
             {{end}}
-            <div>
-                Zaufali nam:
-            </div>
+            {{ with .Site.GetPage "/kontakt"}}
+                {{- partial "zaufali-nam.html" -}}
+            {{end}}
             {{if .formularz_wylaczony}}
                 <div class='banner-text'>
                     {{.tekst_pod_naglowkiem | safeHTML}}
