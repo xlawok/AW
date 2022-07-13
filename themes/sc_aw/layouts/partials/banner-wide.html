@@ -10,10 +10,8 @@
             {{ $header_slogan_list := (.banner_slogan.header_repeater) }}
             {{if gt (len $header_slogan_list) 0}}
                 {{- partial "header-tag.html" (dict "context" . "header_list" $header_slogan_list "custom_class" "banner-slogan")  -}}
-            {{end}}
-            {{ with .Site.GetPage "/kontakt"}}
+            {{end}}         
                 {{- partial "zaufali-nam.html" -}}
-            {{end}}
             {{if .formularz_wylaczony}}
                 <div class='banner-text'>
                     {{.tekst_pod_naglowkiem | safeHTML}}
