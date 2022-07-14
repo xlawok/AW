@@ -1,20 +1,5 @@
 <section class='sec-padding sc-contact'>
     {{- partial "contact-trust-section.html" -}}
-    <section class='sec-padding sc-onas-team-columns'>
-        <ul>
-        {{range .section_team_group}}
-            <li class='team-col-cnt'>
-                {{- partial "img.html" (dict "image" .obrazek "imgsizes" "(max-width: 992px) 50vw, 20vw" "ifsrcset" "" "tag_class" "team-item-img")  -}}
-                <div class='person-name'>
-                    {{.my_name}}
-                </div>
-                <div class='person-job'>
-                    {{.stanowisko}}
-                </div>
-            </li>
-        {{end}}
-        </ul>
-    </section>
     <!--<div class='left-col-contact-data'>
         {{ $header_list := (.contact_data_contact_group.lewa_kolumna.header_repeater) }}
        
@@ -84,4 +69,19 @@
         {{.contact_data_contact_group.embed_mapka_google | safeHTML}}
     </div>
     -->
+</section>
+<section class='sec-padding sc-onas-team-columns'>
+    <ul>
+    {{range .section_team_group}}
+        <li class='team-col-cnt'>
+            {{- partial "img.html" (dict "image" .obrazek "imgsizes" "(max-width: 992px) 50vw, 20vw" "ifsrcset" "" "tag_class" "team-item-img")  -}}
+            <div class='person-name'>
+                {{.my_name}}
+            </div>
+            <div class='person-job'>
+                {{.stanowisko}}
+            </div>
+        </li>
+    {{end}}
+    </ul>
 </section>
