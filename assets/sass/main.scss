@@ -6812,6 +6812,20 @@ justify-content: center;
     .second-col:nth-child(4){
       margin-left: auto;
     }
+    .sc-cols-w-no{
+      padding: 8rem 0;
+      .no-bg{
+        color: #e7e7e7;
+      }
+      .col-w-no-desc {
+        border-bottom: 0;
+        text-align: left;
+        font-size: 5.6875rem;
+        letter-spacing: 0;
+        font-weight: 700;
+        color: #f63d37;
+      }
+    }
   }
 }
 
