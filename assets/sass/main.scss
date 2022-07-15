@@ -6761,6 +6761,60 @@ justify-content: center;
     }
   }
 }
+@media (min-width: 992px){
+  .kontakt {
+    .sc-text-points-img {
+      .second-col {
+        width: 55%;
+        .obrazek-outer-wrapper{
+          position: relative;
+          &::before {
+            display: block;
+            content: '';
+            position: absolute;
+            top: 1rem;
+            right: 2rem;
+            border-radius: 5px;
+            background: #f63d37 no-repeat padding-box;
+            box-shadow: 0 3px 20px #00000029;
+            width: calc(100% - 1rem);
+            height: calc(100% - 1rem);
+            z-index: -1;
+            }
+          }
+          &:nth-child(2){
+            .obrazek-outer-wrapper{
+              &::before{
+                display: block;
+                content: '';
+                position: absolute;
+                top: 1rem;
+                right: -1rem;
+                border-radius: 5px;
+                background: #f63d37 no-repeat padding-box;
+                box-shadow: 0 3px 20px #00000029;
+                width: calc(100% - 1rem);
+                height: calc(100% - 1rem);
+                z-index: -1;
+              }
+            }
+          }
+        }
+    }
+    .case-gray-bg{
+      padding: 0;
+      }
+    .first-col{
+      margin: -2em auto;
+      background-color: white;
+      padding: 3rem;
+      }
+    .second-col:nth-child(4){
+      margin-left: auto;
+    }
+  }
+}
+
 .slownik-listowanie{
   @at-root body.dark-m.slownik-listowanie{
     background-color: var(--main-dark-color);
