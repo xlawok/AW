@@ -6720,6 +6720,11 @@ justify-content: center;
   .sc-banner-wide .banner-img {
     transform: translateY(-20vh);
   }
+  .gray-images-logo {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+  }
 }
 .slownik-listowanie{
   @at-root body.dark-m.slownik-listowanie{
