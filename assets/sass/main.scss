@@ -6753,6 +6753,12 @@ justify-content: center;
     .person-job-kontakt {
       padding-left: 1rem;
   }
+  li.team-col-cnt-kontakt{
+    height: min-content;
+    img{
+      max-height: 240px;
+    }
+  }
 }
 .slownik-listowanie{
   @at-root body.dark-m.slownik-listowanie{
