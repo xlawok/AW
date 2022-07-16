@@ -11,7 +11,7 @@
             {{if gt (len $header_slogan_list) 0}}
                 {{- partial "header-tag.html" (dict "context" . "header_list" $header_slogan_list "custom_class" "banner-slogan")  -}}
             {{end}}
-            {{ range where .Site.RegularPages ".Params.slug" "kontakt" }}         
+            {{ with site.GetPage "kontakt" }}         
                 {{- partial "zaufali-nam.html" -}}
             {{ end }}
             {{if .formularz_wylaczony}}
