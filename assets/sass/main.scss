@@ -6864,8 +6864,10 @@ justify-content: center;
   }
 }
 @media(max-width: 520px){
+  .kontakt{
   .team-col-cnt-kontakt-wrapper{
     grid-template-columns:1fr 1fr;
+    }
   }
 }
 @media(max-width: 1025px){
