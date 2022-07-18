@@ -6780,6 +6780,11 @@ justify-content: center;
       font-weight: 900;
     }
   }
+  .specialist-trust-wrapper{
+    display: flex;
+    flex-direction:
+    row;gap: 0 3rem;
+  }
 }
 @media (min-width: 992px){
   .kontakt {
