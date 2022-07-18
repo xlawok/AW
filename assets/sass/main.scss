@@ -6698,6 +6698,7 @@ justify-content: center;
   }
 }
 .kontakt{
+  overflow-x: visible;
   .sc-contact{
     background-color: #f2f2f2;
     @at-root body.dark-m.kontakt .sc-contact{
@@ -6762,6 +6763,9 @@ justify-content: center;
     }
   }
   .kontakt-why-section {
+    position: sticky;
+    height: max-content;
+    top: 10rem;
     p{
       span{
         font-size: 2rem;
