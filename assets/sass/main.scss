@@ -6774,6 +6774,11 @@ justify-content: center;
       }
     }
   }
+  .specialist-trust-wrapper{
+    @media(max-width: 1025px){
+      flex-direction: column;
+    }
+  }
   .trust-us-wrapper{
     margin-top: 3rem;
     span{
