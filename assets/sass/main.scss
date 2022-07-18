@@ -6869,11 +6869,6 @@ justify-content: center;
 }
 @media (max-width: 420px){
   .kontakt {
-    .trust-us-wrapper{
-      ul{
-        grid-template-columns: 1fr 1fr 1fr;
-      }
-    }
     .specialist-trust-wrapper {
       h3{
         margin-bottom: 0;
@@ -6910,6 +6905,13 @@ justify-content: center;
        &::after{
         display: none;
        }
+      }
+    }
+    .trust-us-wrapper{
+      section{
+        &ul{
+          grid-template-columns: 1fr 1fr 1fr;
+        }
       }
     }
   }
