@@ -6761,6 +6761,15 @@ justify-content: center;
       border-radius: 5px;
     }
   }
+  .kontakt-why-section {
+    p{
+      span{
+        font-size: 2rem;
+        font-weight: 900;
+        color: #f63d37;
+      }
+    }
+  }
 }
 @media (min-width: 992px){
   .kontakt {
