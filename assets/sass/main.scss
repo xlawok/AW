@@ -6774,6 +6774,13 @@ justify-content: center;
       }
     }
   }
+  .team-col-cnt-kontakt-wrapper{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:320px 320px 320px;
+    grid-gap:1rem;
+    padding-left:0;
+  }
   .trust-us-wrapper{
     margin-top: 3rem;
     span{
@@ -6854,6 +6861,11 @@ justify-content: center;
     .qustionmark-header{
       margin-bottom: 0;
     }
+  }
+}
+@media(max-width: 520px){
+  .team-col-cnt-kontakt-wrapper{
+    grid-template-columns:1fr 1fr;
   }
 }
 @media(max-width: 1025px){
