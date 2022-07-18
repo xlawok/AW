@@ -6863,6 +6863,48 @@ justify-content: center;
     }
   }
 }
+@media (max-width: 420px){
+  .kontakt {
+    .specialist-trust-wrapper {
+      h3{
+        margin-bottom: 0;
+        line-height: 1;
+      }
+    }
+    h3.header-template{
+      &::before{
+        display: none;
+     }
+    }
+    .case-numbers-last {
+      .no-bg{
+        color: white;
+     } 
+     .col-w-no-desc {
+      font-size: 4rem;
+      font-weight: 900;
+      color: #f63d37;
+     } 
+    }
+    ul{
+      &.red-point-list {
+        li {
+          padding: 0;
+       }
+      }
+    }
+    #contactform {
+      button{
+        &::before{
+          display: none;
+       }
+       &::after{
+        display: none;
+       }
+      }
+    }
+  }
+}
 @media(max-width: 520px){
   .kontakt{
   .team-col-cnt-kontakt-wrapper{
