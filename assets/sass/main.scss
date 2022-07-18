@@ -6774,11 +6774,6 @@ justify-content: center;
       }
     }
   }
-    @media(max-width: 1025px){
-      .specialist-trust-wrapper{
-      flex-direction: column;
-    }
-  }
   .trust-us-wrapper{
     margin-top: 3rem;
     span{
@@ -6855,6 +6850,13 @@ justify-content: center;
       margin-bottom: 0;
     }
   }
+}
+@media(max-width: 1025px){
+  .kontakt{
+    .specialist-trust-wrapper{
+    flex-direction: column;
+    }
+ }
 }
 
 .slownik-listowanie{
