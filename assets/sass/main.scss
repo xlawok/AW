@@ -6803,8 +6803,9 @@ justify-content: center;
   }
   .specialist-trust-wrapper{
     display: flex;
-    flex-direction:
-    row;gap: 0 3rem;
+    flex-direction:row;
+    gap: 0 3rem;
+    margin-bottom: 3rem;
   }
 }
 @media (min-width: 992px){
