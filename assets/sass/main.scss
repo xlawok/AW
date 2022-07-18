@@ -6790,6 +6790,16 @@ justify-content: center;
     span{
       font-weight: 900;
     }
+    section{
+      &ul{
+        align-items: center;
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        grid-template-rows:100px 100px 100px;
+        grid-gap:1rem;
+        padding:0;
+      }
+    }
   }
   .specialist-trust-wrapper{
     display: flex;
