@@ -6864,13 +6864,15 @@ justify-content: center;
       .no-bg{
         color: #e7e7e7;
       }
-      .col-w-no-desc {
-        border-bottom: 0;
-        text-align: left;
-        font-size: 5.6875rem;
-        letter-spacing: 0;
-        font-weight: 700;
-        color: #f63d37;
+      .col-w-no{
+        .col-w-no-desc {
+          border-bottom: 0;
+          text-align: left;
+          font-size: 5.6875rem;
+          letter-spacing: 0;
+          font-weight: 700;
+          color: #f63d37;
+        }
       }
     }
     .qustionmark-header{
