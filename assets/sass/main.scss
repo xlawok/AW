@@ -6881,6 +6881,30 @@ justify-content: center;
     }
   }
 }
+@media (max-width: 992px){
+  .kontakt{
+    .sc-cols-w-no{
+      padding: 8rem 0;
+      .no-bg{
+        color: #e7e7e7;
+      }
+      .col-w-no{
+        .col-w-no-desc {
+          border-bottom: 0;
+          text-align: left;
+          font-size: 5.6875rem;
+          letter-spacing: 0;
+          font-weight: 700;
+          color: #f63d37;
+          font-size: 4rem;
+        }
+      }
+    }
+    .qustionmark-header{
+      margin-bottom: 0;
+    }
+  }
+}
 @media (max-width: 420px){
   .kontakt {
     .specialist-trust-wrapper {
