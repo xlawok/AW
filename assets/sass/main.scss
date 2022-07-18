@@ -6791,7 +6791,7 @@ justify-content: center;
       font-weight: 900;
     }
     section{
-      &ul{
+      ul{
         align-items: center;
         display:grid;
         grid-template-columns:1fr 1fr 1fr 1fr;
@@ -6919,7 +6919,7 @@ justify-content: center;
     }
     .trust-us-wrapper{
       section{
-        &ul{
+        ul{
           grid-template-columns: 1fr 1fr 1fr;
         }
       }
