@@ -4086,7 +4086,10 @@ justify-content: center;
           
         }
         @at-root body.dark-m .sc-offer-w-tiles .offer-tiles-wrapper li .header-template span.txt-black{
-          color: var(--main-dark-color);
+          color: white;
+        }
+        @at-root body.dark-m .sc-offer-w-tiles .offer-tiles-wrapper li{
+          background: #000 no-repeat padding-box;
         }
       }
       &:before,&:after{
