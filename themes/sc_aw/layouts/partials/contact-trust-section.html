@@ -60,7 +60,6 @@
         <p><span>Strategia marketingowa&nbsp;</span>na 12 miesięcy współpracy&nbsp;</p>
         <p>Dostęp do &nbsp;<span>doświadczonej kadry specjalistów &nbsp;</span></p>
         <p><span>Holistyczne podejście &nbsp;</span> do marketingu internetowego&nbsp;</p>
-        <p><span>100%&nbsp;</span>This is a paragraph, one or more lines of text.&nbsp;</p>
     </div>
       <div></div>
   </section>
@@ -178,7 +177,7 @@
    
     <span class="no-bg">Zaawansowane narzędzia, których używamy w codziennej pracy</span>
 
-    {{with .logosy_marek}}
+    {{with .Site.Page.logosy_marek}}
     <ul class="tools-logos">
         {{range .}}
             <li>
@@ -190,5 +189,5 @@
 
 </section>
 <section>
-  {{ .Kontakt.banner_form_html_bottom | safeHTML}}  
+  {{ .Site.Page.kontakt.banner_form_html_bottom | safeHTML}}  
 </section>
