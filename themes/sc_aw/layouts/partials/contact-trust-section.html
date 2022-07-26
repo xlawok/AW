@@ -177,7 +177,7 @@
    
     <span class="no-bg">Zaawansowane narzędzia, których używamy w codziennej pracy</span>
 
-    {{with .Site.Page.logosy_marek}}
+    {{with .Site.Pages.logosy_marek}}
     <ul class="tools-logos">
         {{range .}}
             <li>
@@ -189,5 +189,5 @@
 
 </section>
 <section>
-  {{ .Site.Page.kontakt.banner_form_html_bottom | safeHTML}}  
+  {{ .Site.Pages.banner_form_html_bottom | safeHTML}}  
 </section>
