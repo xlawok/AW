@@ -56,10 +56,10 @@
       <div class="kontakt-why-section">
         <h3 class="header-template qustionmark-header"><span class="f-w900 txt-underline txt-break txt-red txt-XL">Dlaczego warto współpracować</span></h3>
         <h3 class="header-template f-w700 txt-break txt-black txt-XL ornament-r-b qustionmark-header">z Agencją Wrocławską</h3>
-        <p><span>100%&nbsp;</span>This is a paragraph, one or more lines of text.&nbsp;</p>
-        <p><span>100%&nbsp;</span>This is a paragraph, one or more lines of text.&nbsp;</p>
-        <p><span>100%&nbsp;</span>This is a paragraph, one or more lines of text.&nbsp;</p>
-        <p><span>100%&nbsp;</span>This is a paragraph, one or more lines of text.&nbsp;</p>
+        <p><span>100%&nbsp;</span>wykonanie określonych celów kampanii&nbsp;</p>
+        <p><span>Strategia marketingowa&nbsp;</span>na 12 miesięcy współpracy&nbsp;</p>
+        <p>Dostęp do &nbsp;<span>doświadczonej kadry specjalistów &nbsp;</span></p>
+        <p><span>Holistyczne podejście &nbsp;</span> do marketingu internetowego&nbsp;</p>
         <p><span>100%&nbsp;</span>This is a paragraph, one or more lines of text.&nbsp;</p>
     </div>
       <div></div>
@@ -67,6 +67,7 @@
 
   <section class="sec-padding sc-text-points-img case-gray-bg a3794babb722c9659fda88bf0f11b99ea">
     <div class="two-col-row cnt-visibility">
+      <span>Case study</span>
       <h2 class="header-template">
         <span class="f-w900 txt-underline txt-break txt-red txt-L">POZYCJONOWANIE DLA E-COMMERCE</span>
         <span class="header-template f-w700 txt-black txt-XL ornament-r-r">salon sukni ślubnych</span>
@@ -172,3 +173,22 @@
         </li>
       </ul>
   </section>
+  <section class='sec-padding sc-logos'>
+    
+   
+    <span class="no-bg">Zaawansowane narzędzia, których używamy w codziennej pracy</span>
+
+    {{with .logosy_marek}}
+    <ul class="tools-logos">
+        {{range .}}
+            <li>
+                {{- partial "img.html" (dict "image" . "imgsizes" "" "tag_class" "col-logos" "ifsrcset" "nosrcset")  -}}
+            </li>
+        {{end}}
+    </ul>
+    {{end}}
+
+</section>
+<section>
+  {{ .banner_form_html | safeHTML}}  
+</section>
