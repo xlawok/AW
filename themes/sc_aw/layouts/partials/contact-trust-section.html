@@ -203,28 +203,58 @@
 </ul>
 </section>
 <section>
-  <div id="my-form-status"></div>
-  <form id="contactform" action="https://formspree.io/f/xdoynvwe" method="POST">
-    <div class='input-cnt'>
-      <input required name="email" type="email" id="email" placeholder="Adres e-mail">
-      <label for='email'> Adres e-mail</label>
+  <div>
+    <div id="my-form-status">
+      <span>Bezpłatna wycena</span>
     </div>
-    <div class='input-cnt'>
-      <input name="www" type="text" id="www" placeholder="Adres strony www">
-      <label for='www'>Adres strony www</label>
-    </div>
-    <div class='input-cnt'>
-      <input  required name="phone" type="tel" id="phone" placeholder="Numer telefonu">
-      <label for='phone'>Numer telefonu</label>
-    </div>
-    <div class='input-cnt'>
-      <textarea rows="5" name="txtfield" id="txtfield" placeholder="Twoja wiadomość" ></textarea>
-      <label for='txtfield'>Twoja wiadomość</label>
-    </div>
-    <button  type="submit">Wyślij zapytanie</button>
-    <div class='rodo'>
-      <input id='rodo-accept' type='checkbox' required name='rodo-accept' value='accept'/>
-      <label for='rodo-accept'>Administratorem Twoich danych osobowych, czyli podmiotem decydującym o celach i sposobach przetwarzania Twoich danych osobowych jest Agencja Wrocławska. Informujemy, że podanie danych osobowych zawartych w formularzu jest dobrowolne, ale niezbędne do skutecznego nawiązania kontaktu z Administratorem, jak również przysługują Ci prawa dostępu do Twoich danych osobowych, ich zmiany (w tym aktualizacji), a także pozostałe prawa opisane w Polityce prywatności. W Polityce prywatności znajdują się także szczegółowe informację w zakresie praw i obowiązków Administratora.</label>
-    </div>
-  </form>
+      <form id="contactform" action="https://formspree.io/f/xdoynvwe" method="POST">
+        <div class='input-cnt'>
+          <input required name="email" type="email" id="email" placeholder="Adres e-mail">
+          <label for='email'> Adres e-mail</label>
+        </div>
+        <div class='input-cnt'>
+          <input name="www" type="text" id="www" placeholder="Adres strony www">
+          <label for='www'>Adres strony www</label>
+        </div>
+        <div class='input-cnt'>
+          <input  required name="phone" type="tel" id="phone" placeholder="Numer telefonu">
+          <label for='phone'>Numer telefonu</label>
+        </div>
+        <div class='input-cnt'>
+          <textarea rows="5" name="txtfield" id="txtfield" placeholder="Twoja wiadomość" ></textarea>
+          <label for='txtfield'>Twoja wiadomość</label>
+        </div>
+        <button  type="submit">Wyślij zapytanie</button>
+        <div class='rodo'>
+          <input id='rodo-accept' type='checkbox' required name='rodo-accept' value='accept'/>
+          <label for='rodo-accept'>Administratorem Twoich danych osobowych, czyli podmiotem decydującym o celach i sposobach przetwarzania Twoich danych osobowych jest Agencja Wrocławska. Informujemy, że podanie danych osobowych zawartych w formularzu jest dobrowolne, ale niezbędne do skutecznego nawiązania kontaktu z Administratorem, jak również przysługują Ci prawa dostępu do Twoich danych osobowych, ich zmiany (w tym aktualizacji), a także pozostałe prawa opisane w Polityce prywatności. W Polityce prywatności znajdują się także szczegółowe informację w zakresie praw i obowiązków Administratora.</label>
+        </div>
+      </form>
+  </div>
+  <div>
+    <span>Dane kontaktowe</span>
+    <p>Agencja Wrocławska Sp. z o.o.
+        Dmowskiego 17
+        50-203 Wrocław
+        kontakt@agencjawroclawska.pl
+    </p>
+    <div class='star-cnt'>
+      <span>Jak oceniasz stronę</span>
+      <form class="rate" id="post-{{ .File.UniqueID }}">
+          
+          <input type="radio" id="star5" name="rate" value="5" />
+          <label for="star5" title="text">5 stars</label>
+          <input type="radio" id="star4" name="rate" value="4" />
+          <label for="star4" title="text">4 stars</label>
+          <input type="radio" id="star3" name="rate" value="3" />
+          <label for="star3" title="text">3 stars</label>
+          <input type="radio" id="star2" name="rate" value="2" />
+          <label for="star2" title="text">2 stars</label>
+          <input type="radio" id="star1" name="rate" value="1" />
+          <label for="star1" title="text">1 star</label>
+      
+      </form>
+      <div>głosów: <span id="count_votes"></span> </div>
+  </div>
+  </div>
 </section>
