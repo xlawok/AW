@@ -202,8 +202,8 @@
   </li>
 </ul>
 </section>
-<section>
-  <div>
+<section class="form-bottom-contact">
+  <div class="form-bottom-column">
     <div id="my-form-status">
       <span>Bezpłatna wycena</span>
     </div>
@@ -231,13 +231,15 @@
         </div>
       </form>
   </div>
-  <div>
-    <span>Dane kontaktowe</span>
-    <p>Agencja Wrocławska Sp. z o.o.
-        Dmowskiego 17
-        50-203 Wrocław
-        kontakt@agencjawroclawska.pl
-    </p>
+  <div class="form-bottom-column">
+    <div class="form-bottom-data">
+      <span>Dane kontaktowe</span>
+      <p>Agencja Wrocławska Sp. z o.o.
+          Dmowskiego 17
+          50-203 Wrocław
+          kontakt@agencjawroclawska.pl
+      </p>
+    </div>
     <div class='star-cnt'>
       <span>Jak oceniasz stronę</span>
       <form class="rate" id="post-{{ .File.UniqueID }}">
@@ -255,6 +257,6 @@
       
       </form>
       <div>głosów: <span id="count_votes"></span> </div>
-  </div>
+    </div>
   </div>
 </section>
