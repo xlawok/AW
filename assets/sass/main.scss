@@ -6807,7 +6807,14 @@ justify-content: center;
     gap: 0 3rem;
     margin-bottom: 3rem;
   }
+  .form-bottom-contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    align-items: center;
+  }
 }
+
 @media (min-width: 992px){
   .kontakt {
     .sc-banner-wide {
@@ -6981,7 +6988,7 @@ justify-content: center;
     }
  }
 }
-
+/*kontakt inny koniec*/
 .slownik-listowanie{
   @at-root body.dark-m.slownik-listowanie{
     background-color: var(--main-dark-color);
