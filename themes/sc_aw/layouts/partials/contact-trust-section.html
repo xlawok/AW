@@ -203,5 +203,9 @@
 </ul>
 </section>
 <section>
-  {{ .banner_form_html_bottom | safeHTML}}  
+  {{if not .formularz_wylaczony}}
+        <div class='banner-right-col'>
+            {{ .banner_form_html_bottom | safeHTML}}     
+        </div>
+        {{end}}
 </section>
