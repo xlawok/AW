@@ -6813,6 +6813,22 @@ justify-content: center;
     grid-gap: 2rem;
     align-items: center;
   }
+  .case-numbers-last::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 15.5rem;
+    bottom: -4.625rem;
+    height: 108.5rem;
+    bottom: .2rem;
+    z-index: -2;
+    clip-path: ellipse(90% 60% at 51% 100%);
+    clip-path: url(#my-clip-path2);
+    background-color: #fff;
+    z-index: -2;
+  }
 }
 
 @media (min-width: 992px){
