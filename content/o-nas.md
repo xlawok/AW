@@ -4,7 +4,7 @@ sections:
   banner_type: center_img_w_background
   banner_cta_url: []
   banner_img: ''
-  banner_center_img: "/uploads/aw-grafiki12345.jpg"
+  banner_center_img: "/uploads/aw-grafiki12345-big.jpg"
   banner_header_cnt:
     header_repeater: []
   banner_slogan:
