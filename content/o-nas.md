@@ -169,7 +169,7 @@ sections:
     stanowisko: UX/UI Specialist
   - obrazek: "/uploads/karol-side.webp"
     my_name: Karol
-    stanowisko: Key Account Manager
+    stanowisko: Business Development Manager
   - obrazek: "/uploads/robert-side.webp"
     my_name: Robert
     stanowisko: Google Ads Manager
@@ -182,6 +182,9 @@ sections:
   - obrazek: "/uploads/bartek-2-side.webp"
     my_name: Bartłomiej
     stanowisko: SEO Expert
+  - obrazek: "/uploads/zofia-side.webp"
+    my_name: Zosia
+    stanowisko: Junior SEO Expert
   - obrazek: "/uploads/agata-side.webp"
     my_name: Agata
     stanowisko: Copywriter
@@ -191,12 +194,12 @@ sections:
   - obrazek: "/uploads/maria-side.webp"
     my_name: Maria
     stanowisko: Head of Administration
-  - obrazek: "/uploads/ola-side.webp"
-    my_name: Ola
-    stanowisko: SEO Specialist
   - obrazek: "/uploads/damian-side.webp"
     my_name: Damian
-    stanowisko: SEO Specialist
+    stanowisko: Project Manager
+  - obrazek: "/uploads/ola-side.webp"
+    my_name: Ola
+    stanowisko: Key Account Manager
   - obrazek: "/uploads/adrian-side.webp"
     my_name: Adrian
     stanowisko: Junior SEO Specialist
