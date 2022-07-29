@@ -42,7 +42,7 @@ sections:
     - naglowek: 0,2 dekady (doświadczenie)
       obrazek: "/uploads/onas-1.svg"
       if_svg: true
-    - naglowek: 15 osobowy zespół
+    - naglowek: 18 osobowy zespół
       obrazek: "/uploads/onas-2.svg"
       if_svg: true
     - naglowek: Gwarancja efektów
