@@ -6771,10 +6771,18 @@ justify-content: center;
     height: max-content;
     top: 10rem;
     p{
+      display: flex;
+      gap: 1rem;
+      align-items: center;
       span{
         font-size: 2rem;
         font-weight: 900;
         color: #f63d37;
+        img{
+          display:inline-block;
+          width:60px;
+          vertical-align:middle;
+        }
       }
     }
   }
