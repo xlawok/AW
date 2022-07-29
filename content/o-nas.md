@@ -185,6 +185,9 @@ sections:
   - obrazek: "/uploads/agata-side.webp"
     my_name: Agata
     stanowisko: Copywriter
+  - obrazek: "/uploads/zuzanna-side.webp"
+    my_name: Zuzanna
+    stanowisko: Copywriter
   - obrazek: "/uploads/maria-side.webp"
     my_name: Maria
     stanowisko: Head of Administration
@@ -196,6 +199,12 @@ sections:
     stanowisko: SEO Specialist
   - obrazek: "/uploads/adrian-side.webp"
     my_name: Adrian
+    stanowisko: Junior SEO Specialist
+  - my_name: Wiktoria
+    stanowisko: Junior SEO Specialist
+    obrazek: "/uploads/wiktoria-side.webp"
+  - obrazek: "/uploads/sebastian-m-side.webp"
+    my_name: Sebastian
     stanowisko: Junior SEO Specialist
   - obrazek: "/uploads/sziba1.jpg"
     my_name: Shiba
