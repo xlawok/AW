@@ -6808,10 +6808,12 @@ justify-content: center;
     margin-bottom: 3rem;
   }
   .form-bottom-contact{
+    @media (min-width: 768px){
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
     align-items: center;
+    }
   }
   .case-numbers-last::after {
     content: '';
