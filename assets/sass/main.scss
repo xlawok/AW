@@ -6786,6 +6786,15 @@ justify-content: center;
       }
     }
   }
+  .case_upper_title{
+    line-height: .8;
+    font-family: var(--header-font);
+    margin-top: 0;
+    font-size: var(--size-XL);
+    font-weight: 700;
+    z-index: 1;
+    position: relative;
+  }
   .team-col-cnt-kontakt-wrapper{
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
