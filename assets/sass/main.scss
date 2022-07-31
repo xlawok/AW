@@ -6794,6 +6794,7 @@ justify-content: center;
     font-weight: 700;
     z-index: 1;
     position: relative;
+    margin-top: 1rem;
   }
   .team-col-cnt-kontakt-wrapper{
     display:grid;
@@ -6851,6 +6852,25 @@ justify-content: center;
   .col-w-no-header{
     &.txt-L{
       line-height: 1.2;
+    }
+  }
+  .sc-cols-w-no{
+    &.cols-w-no-sec-header{
+      margin: 2rem 0;
+    }
+    .cols-w-no {
+      &li{
+        &.col-w-no {
+          padding: 0;
+        }
+      }
+      .col-w-no-header {
+        font-weight: 700;
+        font-family: var(--header-font);
+        padding-bottom: 0rem;
+        max-width: 85%;
+        flex-grow: 10;
+      }
     }
   }
 }
