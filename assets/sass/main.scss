@@ -6713,7 +6713,7 @@ justify-content: center;
     .sc-banner-wide {
     padding-bottom: 0;
   }
-}
+  }
   .sc-banner-wide .banner-img {
     transform: translateY(-20vh);
   }
@@ -6742,7 +6742,7 @@ justify-content: center;
     transform-origin: bottom left;
     z-index: -1;
     margin-top: -0.6rem;
-}
+  }
 
     .person-name-kontakt::before {
     content: '';
@@ -6754,7 +6754,7 @@ justify-content: center;
       width: 100%;
       background: #f53c37 no-repeat padding-box;
       z-index: -1;
-}
+  }
 
     .person-job-kontakt {
       padding-left: 1rem;
@@ -6847,6 +6847,11 @@ justify-content: center;
     clip-path: url(#my-clip-path2);
     background-color: #fff;
     z-index: -2;
+  }
+  .col-w-no-header{
+    &.txt-L{
+      line-height: 1.2;
+    }
   }
 }
 
