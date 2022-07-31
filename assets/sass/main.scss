@@ -6859,10 +6859,10 @@ justify-content: center;
       margin: 2rem 0;
     }
     .cols-w-no {
-      &li{
-        &.col-w-no {
-          padding: 0;
-        }
+        li{
+          &.col-w-no {
+            padding: 0;
+          }
       }
       .col-w-no-header {
         font-weight: 700;
