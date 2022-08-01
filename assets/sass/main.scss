@@ -6890,6 +6890,21 @@ justify-content: center;
         }
       }
     }
+    .cnt-visibility {
+      .first-col {
+        background-color: #222;
+      }
+    }
+    .sc-cols-w-no {
+      .no-bg{
+        color: #222222;
+      }
+    }
+    .case-numbers-last{
+      &::after{
+        display: none;
+      }
+    }
   }
 }
 
