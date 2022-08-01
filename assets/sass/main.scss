@@ -7040,6 +7040,12 @@ justify-content: center;
     grid-template-columns:1fr 1fr;
     }
   }
+  .ornament-r-b{
+    &::before {
+      right: 0;
+      top: 4rem;
+   }
+  }
 }
 @media(max-width: 1025px){
   .kontakt{
