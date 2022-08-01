@@ -6925,11 +6925,13 @@ justify-content: center;
     .case-gray-bg{
       padding: 0;
       }
-    .first-col{
-      margin: -2em auto;
-      background-color: white;
-      padding: 3rem;
-      }
+    .cnt-visibility{
+      .first-col{
+        margin: -2em auto;
+        background-color: white;
+        padding: 3rem;
+        }
+    }
     .second-col:nth-child(4){
       margin-left: auto;
     }
