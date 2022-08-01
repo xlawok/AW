@@ -6873,7 +6873,26 @@ justify-content: center;
       }
     }
   }
+  &.dark-m {
+    span.f-w900{
+      &.txt-break{
+        &.txt-red{
+          &.txt-XXL {
+            color: white;
+         }
+        }
+      }
+    }
+    .banner-left-col{
+      .banner-slogan{
+        .f-w400{
+          color: white;
+        }
+      }
+    }
+  }
 }
+
 
 @media (min-width: 992px){
   .kontakt {
