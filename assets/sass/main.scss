@@ -6798,7 +6798,7 @@ justify-content: center;
   }
   .team-col-cnt-kontakt-wrapper{
     display:grid;
-    grid-template-columns:1fr 1fr 1fr;
+    grid-template-columns:repeat(4, 1fr);
     grid-template-rows:320px 320px 320px;
     grid-gap:1rem;
     padding-left:0;
