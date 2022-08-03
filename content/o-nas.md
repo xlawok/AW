@@ -185,6 +185,9 @@ sections:
   - obrazek: "/uploads/zofia-side.webp"
     my_name: Zosia
     stanowisko: Junior SEO Expert
+  - obrazek: "/uploads/maciej-side.webp"
+    my_name: Maciek
+    stanowisko: Junior SEO Expert
   - obrazek: "/uploads/agata-side.webp"
     my_name: Agata
     stanowisko: Copywriter
@@ -206,9 +209,6 @@ sections:
   - my_name: Wiktoria
     stanowisko: Junior SEO Specialist
     obrazek: "/uploads/wiktoria-side.webp"
-  - obrazek: "/uploads/sebastian-m-side.webp"
-    my_name: Sebastian
-    stanowisko: Junior SEO Specialist
   - obrazek: "/uploads/sziba1.jpg"
     my_name: Shiba
     stanowisko: Doge
