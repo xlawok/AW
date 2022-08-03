@@ -6920,6 +6920,35 @@ justify-content: center;
         color: white!important;
       }
     }
+    .kontakt-why-section{
+      p {
+        &:nth-of-type(1), :nth-of-type(2){
+          span {
+            img{
+              margin-left: .12em;
+            }
+          }
+        }
+        
+        span{
+          position: relative;
+          &::before{
+            content:'';
+            position: absolute;
+            width: 5rem;
+            height: 5rem;
+            background-color: white;
+            top: -.6rem;
+            left: -.7rem;
+            z-index: -1;
+            border-radius: 100%;
+          }
+          img{
+            width: 3.5rem;
+          }
+        }
+      }
+    }
   }
 }
 
