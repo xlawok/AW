@@ -3,7 +3,6 @@ author = "data/authors/zuzia.yml"
 categories = []
 date = 2022-08-04T13:28:00Z
 description = "Poznaj 10 zasad SEO Copywritingu, który opisaliśmy w poradniku jak pisać teksty SEO. Copywriting na najwyższym poziomie!"
-header_repeater = []
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = ""
 lista_o_czym_przeczytasz_group = []
@@ -18,6 +17,24 @@ tytul_do_listowania = "10 zasad SEO copywritingu: poradnik pisania skutecznych i
 tytul_o_czym_przeczytasz = "O czym przeczytasz w artykule?"
 video = false
 video_kod_embed = ""
+[[header_repeater]]
+block_tag_type = "h1"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = "10 zasad SEO copywritingu"
+txt_block_size = ""
+underline = true
+[[header_repeater]]
+block_tag_type = "h3"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = " Poradnik pisania skutecznych i angażujących treści"
+txt_block_size = ""
+underline = false
 
 +++
 Copywriting to z definicji tworzenie dowolnych tekstowych treści reklamowych (i nie tylko) mających zachęcić czytelników do określonych działań czy zmiany przekonań, zaś pod słowem „SEO” kryje się termin Search Engine Optimization, czyli optymalizacja strony internetowej pod działanie wyszukiwarek internetowych, co ma na celu zwiększenie ruchu na stronie. 
