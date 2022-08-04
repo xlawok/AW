@@ -1,7 +1,7 @@
 +++
-author = []
+author = "data/authors/zuzia.yml"
 categories = []
-date = ""
+date = 2022-08-04T13:28:00Z
 description = "Poznaj 10 zasad SEO Copywritingu, który opisaliśmy w poradniku jak pisać teksty SEO. Copywriting na najwyższym poziomie!"
 header_repeater = []
 ikona_artykulu = "/uploads/art-placeholder.svg"
