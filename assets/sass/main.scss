@@ -6735,7 +6735,7 @@ justify-content: center;
     color: var(--white);
     font-family: var(--header-font);
     font-size: 1.375rem;
-    width: 80%;
+    width: 85%;
     position: relative;
     padding-left: 1rem;
     transition: transform .2s ease;
@@ -6758,6 +6758,9 @@ justify-content: center;
 
     .person-job-kontakt {
       padding-left: 1rem;
+      line-height: 1.5;
+      font-size: .9rem;
+      padding-top: .5em;
   }
   li.team-col-cnt-kontakt{
     height: min-content;
