@@ -6719,7 +6719,7 @@ justify-content: center;
   @media (min-width: 1600px) {
     .sc-banner-wide {
     padding-bottom: 0;
-    background: white !important;
+    background: white;
   }
   }
   .sc-banner-wide .banner-img {
@@ -6891,6 +6891,12 @@ justify-content: center;
     }
   }
   &.dark-m {
+    @media (min-width: 1600px) {
+      .sc-banner-wide {
+      padding-bottom: 0;
+      background: #000;
+    }
+    }
     span.f-w900{
       &.txt-break{
         &.txt-red{
