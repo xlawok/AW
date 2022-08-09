@@ -1,33 +1,43 @@
-
-<section class=' sc-banner-wide {{if .formularz_wylaczony}} banner-wo-form {{end}}'>
-    
-    {{- partial "img.html" (dict "image" .banner_img "imgsizes" "100vw" "tag_class" "banner-img")  -}}
-  
-   <div class='banner-wide-content sec-padding'>
-        <div class='banner-left-col'>
-            {{ $header_list := (.banner_header_cnt.header_repeater) }}
-            {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "banner-header")  -}}
-            {{ $header_slogan_list := (.banner_slogan.header_repeater) }}
-            {{if gt (len $header_slogan_list) 0}}
-                {{- partial "header-tag.html" (dict "context" . "header_list" $header_slogan_list "custom_class" "banner-slogan")  -}}
-            {{end}}
-            {{ with site.GetPage "kontakt" }} 
-                {{- partial "zaufali-nam.html" . -}}
-            {{ end }}
-            {{if .formularz_wylaczony}}
-                <div class='banner-text'>
-                    {{.tekst_pod_naglowkiem | safeHTML}}
-                </div>
-            {{end}}
-        </div>
-        {{if not .formularz_wylaczony}}
-        <div class='banner-right-col'>
-            <div class='form-header'>
-                {{.naglowek_formularza}}
-            </div>
-            {{ .banner_form_html | safeHTML}}    
-        </div>
-        {{end}}
-    </div>
-    <img class='banner-logo' src='/img/AW.svg'>
-</section>
+<div class="trust-us-wrapper">
+    <span>Zaufali nam:</span>
+    <section>
+        <ul>
+            <li style="list-style-type: none; max-height: 100px; display: flex; align-items: center; overflow: hidden;">
+                <img src="https://agencjawroclawska.pl/uploads/tuwroclaw-logo-aw.jpg" class="gray-images-logo"/>
+            </li>
+            <li style="list-style-type: none; max-height: 100px; display: flex; align-items: center; overflow: hidden;">
+                <img src="https://agencjawroclawska.pl/uploads/medicus-logo-aw.jpg" class="gray-images-logo"/>
+            </li>
+            <li style="list-style-type: none; max-height: 100px; display: flex; align-items: center; overflow: hidden;">
+                <img src="https://agencjawroclawska.pl/uploads/mbp-wroclaw-logo-aw.jpg" class="gray-images-logo"/>
+            </li>
+            <li style="list-style-type: none; max-height: 100px; display: flex; align-items: center; overflow: hidden;">
+                <img src="https://agencjawroclawska.pl/uploads/inkom-logo-aw.jpg" class="gray-images-logo"/>
+            </li>
+            <li style="list-style-type: none; max-height: 100px; display: flex; align-items: center; overflow: hidden;">
+                <img src="https://agencjawroclawska.pl/uploads/witaminaiziolo-logo.jpg" class="gray-images-logo"/>
+            </li>
+            <li style="list-style-type: none; max-height: 100px; display: flex; align-items: center; overflow: hidden;">
+                <img src="https://agencjawroclawska.pl/uploads/4ti-logo-aw.jpg" style="height: 100%;" class="gray-images-logo"/>
+            </li>
+            <li style="list-style-type: none; max-height: 100px; display: flex; align-items: center; overflow: hidden;">
+                <img src="https://agencjawroclawska.pl/uploads/comfortplus-logo-aw.jpg" class="gray-images-logo"/>
+            </li>
+            <li style="list-style-type: none; max-height: 100px; display: flex; align-items: center; overflow: hidden;">
+                <img src="https://agencjawroclawska.pl/uploads/multivoucher-logo.jpg" class="gray-images-logo"/>
+            </li>
+            <li style="list-style-type: none; max-height: 100px; display: flex; align-items: center; overflow: hidden;">
+                <img src="https://agencjawroclawska.pl/uploads/venitti-logo.jpg" class="gray-images-logo"/>
+            </li>
+            <li style="list-style-type: none; max-height: 100px; display: flex; align-items: center; overflow: hidden;">
+                <img src="https://agencjawroclawska.pl/uploads/costa-logo.jpg" style="height: 100%;" class="gray-images-logo"/>
+            </li>
+            <li style="list-style-type: none; max-height: 100px; display: flex; align-items: center; overflow: hidden;">
+                <img src="https://agencjawroclawska.pl/uploads/wsm24-logo.jpg" class="gray-images-logo"/>
+            </li>
+            <li style="list-style-type: none; max-height: 100px; display: flex; align-items: center; overflow: hidden;">
+                <img src="https://agencjawroclawska.pl/uploads/amazigo-logo.jpg" class="gray-images-logo"/>
+            </li>
+        </ul>
+    </section>
+</div>
