@@ -6973,6 +6973,12 @@ justify-content: center;
   }
 }
 
+// @at-root
+@at-root body:not(.dark-m).kontakt{
+  .sc-banner-wide{
+      background: white;
+  }
+}
 
 @media (min-width: 992px){
   .kontakt {
