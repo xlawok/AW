@@ -1,70 +1,307 @@
-<section class='sec-padding sc-contact'>
-    <div class='left-col-contact-data'>
-        {{ $header_list := (.contact_data_contact_group.lewa_kolumna.header_repeater) }}
-       
-        {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "contact-col-header")  -}}
-        <div class='main-contact-data-cnt'>
-        {{ range .contact_data_contact_group.lewa_kolumna.dane_adresowe}}
-            {{ $wiersz_danych_adresowych :=.wiersz_danych_adresowych}}
-            <span class='contact-data-row'>
-            {{if and  (.if_link) (eq .if_link "tel")   }}
+<section class="specialist-trust-wrapper">
+  <div style="display: flex; flex-direction: column;">
+      <div>
+        <h3 class="header-template qustionmark-header"><span class="f-w900 txt-underline txt-break txt-red txt-XL">Zaufaj</span></h3>
+        <h3 class="header-template f-w700 txt-break txt-black txt-XL ornament-r-b qustionmark-header">naszym specjalistom</h3>
+      </div>
+      <ul class="team-col-cnt-kontakt-wrapper"> 
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+            <img class="team-item-img lazyloaded" src="https://agencjawroclawska.pl/uploads/bartek-1-side_huf2a7b8a632768b3d70a76e1d4527c960_41016_500x0_resize_q75_h2_box_2.webp" style="height: 100%;"/>
+            <div class="person-name-kontakt">Bartek</div>
+            <div class="person-job-kontakt">Head of Marketing</div>
+        </li>
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+            <img class="team-item-img lazyloaded" src="https://agencjawroclawska.pl/uploads/jakub-side_hu73588b0fb15f006a4a864774ef694d7b_79930_500x0_resize_q75_box.jpg" style="height: 100%;"/>
+            <div class="person-name-kontakt">Jakub</div>
+            <div class="person-job-kontakt">Head of SEO</div>
+        </li>
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+          <img class="team-item-img lazyloaded" src="https://agencjawroclawska.pl/uploads/karol-side_hu22c054310c0926f8a9793440a83efa2a_68088_500x0_resize_q75_h2_box_2.webp" style="height: 100%;"/>
+          <div class="person-name-kontakt">Karol</div>
+          <div class="person-job-kontakt">Business Development Manager</div>
+        </li>
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+          <img class="team-item-img lazyloaded" src="https://sharp-bassi-376df3.netlify.app/uploads/wladek-side_hu83c90134e7be94f67ffdab3790ddc5b2_40606_500x0_resize_q75_h2_box.webp" style="height: 100%;"/>
+          <div class="person-name-kontakt">Władek</div>
+          <div class="person-job-kontakt">SEO Manager</div>
+        </li>
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+            <img class="team-item-img lazyloaded" src="https://agencjawroclawska.pl/uploads/piotr-side_hu2dbfb4eb307a148ab5069391577c5a04_79378_500x0_resize_q75_h2_box_2.webp" style="height: 100%;"/>
+            <div class="person-name-kontakt">Piotr</div>
+            <div class="person-job-kontakt">Web Developer</div>
+        </li>
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+            <img class="team-item-img lazyloaded" src="https://agencjawroclawska.pl/uploads/konrad-side_hu24d17a5fb7d9af56180858be0e0a372e_105754_500x0_resize_q75_h2_box_2.webp" style="height: 100%;"/>
+            <div class="person-name-kontakt">Konrad</div>
+            <div class="person-job-kontakt">UX/UI Specialist</div>
+        </li>
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+          <img class="team-item-img lazyloaded" src="https://sharp-bassi-376df3.netlify.app/uploads/robert-side_hu3e29e7915eca50ceff832f1c3e91aa6f_52700_500x0_resize_q75_h2_box.webp" style="height: 100%;"/>
+          <div class="person-name-kontakt">Robert</div>
+          <div class="person-job-kontakt">Google Ads Manager</div>
+        </li>
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+          <img class="team-item-img lazyloaded" src="https://agencjawroclawska.pl/uploads/julia-side_hua364c477a7e97de6941930731e43285a_45112_500x0_resize_q75_h2_box_2.webp" style="height: 100%;"/>
+          <div class="person-name-kontakt">Julia</div>
+          <div class="person-job-kontakt">Social Media Manager</div>
+        </li>
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+          <img class="team-item-img lazyloaded" src="https://sharp-bassi-376df3.netlify.app/uploads/bartek-2-side_hu06228c1403e5c2e46f08fb0ff359a6f5_67396_500x0_resize_q75_h2_box.webp" style="height: 100%;"/>
+          <div class="person-name-kontakt">Bartłomiej</div>
+          <div class="person-job-kontakt">SEO Expert</div>
+        </li>
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+          <img class="team-item-img lazyloaded" src="https://agencjawroclawska.pl/uploads/zofia-side_hu218e4546115405cb03cbcda1a631f9e9_74154_500x0_resize_q75_h2_box_2.webp" style="height: 100%;"/>
+          <div class="person-name-kontakt">Zosia</div>
+          <div class="person-job-kontakt">Junior SEO Expert</div>
+        </li>
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+          <img class="team-item-img lazyloaded" src="https://agencjawroclawska.pl/uploads/maciej-side_hubbe146b8016c92e775ad17a0dc1d13cc_62288_500x0_resize_q75_h2_box_2.webp" style="height: 100%;"/>
+          <div class="person-name-kontakt">Maciej</div>
+          <div class="person-job-kontakt">Junior SEO Expert</div>
+        </li>
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+          <img class="team-item-img lazyloaded" src="https://sharp-bassi-376df3.netlify.app/uploads/agata-side_hu4bc3e776c19159e707d20bc0175213e6_43374_500x0_resize_q75_h2_box.webp" style="height: 100%;"/>
+          <div class="person-name-kontakt">Agata</div>
+          <div class="person-job-kontakt">Copywriter</div>
+        </li>
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+          <img class="team-item-img lazyloaded" src="https://agencjawroclawska.pl/uploads/zuzanna-side_huccf1cfe4aa377b4393c5c7cfed761aff_150850_500x0_resize_q75_h2_box_2.webp" style="height: 100%;"/>
+          <div class="person-name-kontakt">Zuzanna</div>
+          <div class="person-job-kontakt">Copywriter</div>
+        </li>
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+          <img class="team-item-img lazyloaded" src="https://agencjawroclawska.pl/uploads/maria-side_hu9c5908bcf4d920afd19062fd44d15463_40016_500x0_resize_q75_h2_box_2.webp" style="height: 100%;"/>
+          <div class="person-name-kontakt">Maria</div>
+          <div class="person-job-kontakt">Head of Administration</div>
+        </li>
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+          <img class="team-item-img lazyloaded" src="https://agencjawroclawska.pl/uploads/damian-side_huadb79bf9b5dc72a32bcc380dc659222c_35768_500x0_resize_q75_h2_box_2.webp" style="height: 100%;"/>
+          <div class="person-name-kontakt">Damian</div>
+          <div class="person-job-kontakt">Project Manager</div>
+        </li>
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+          <img class="team-item-img lazyloaded" src="https://agencjawroclawska.pl/uploads/ola-side_hu26094df46ec0aa601f8bcd1a80e29a43_52882_500x0_resize_q75_h2_box_2.webp" style="height: 100%;"/>
+          <div class="person-name-kontakt">Ola</div>
+          <div class="person-job-kontakt">Key Account Manager</div>
+        </li>
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+          <img class="team-item-img lazyloaded" src="https://agencjawroclawska.pl/uploads/adrian-side_hu9f9b291074f54cc137475bc0247f6d23_134418_500x0_resize_q75_h2_box_2.webp" style="height: 100%;"/>
+          <div class="person-name-kontakt">Adrian</div>
+          <div class="person-job-kontakt">Junior SEO Specialist</div>
+        </li>
+        <li class="team-col-cnt-kontakt" style="list-style-type: none;">
+          <img class="team-item-img lazyloaded" src="https://agencjawroclawska.pl/uploads/wiktoria-side_hudcbc1400c64446438cbde7651a45c566_65070_500x0_resize_q75_h2_box_2.webp" style="height: 100%;"/>
+          <div class="person-name-kontakt">Wiktoria</div>
+          <div class="person-job-kontakt">Junior SEO Specialist</div>
+        </li>
+    </ul>
+  </div>
+  <div class="kontakt-why-section">
+    <h3 class="header-template qustionmark-header"><span class="f-w900 txt-underline txt-break txt-red txt-XL">Dlaczego warto współpracować</span></h3>
+    <h3 class="header-template f-w700 txt-break txt-black txt-XL ornament-r-b qustionmark-header">z Agencją Wrocławską</h3>
+    <p><span><img class="lazyloaded" src="https://agencjawroclawska.pl/uploads/100-cel-ikona.svg" /></span>100% wykonanie określonych celów kampanii&nbsp;</p>
+    <p><span><img class="lazyloaded" src="https://agencjawroclawska.pl/uploads/strategia-ikona-1.svg" /></span>Indywidualna strategia marketingowa&nbsp;</p>
+    <p><span><img class="lazyloaded" src="https://agencjawroclawska.pl/uploads/kadra-ikona.svg" /></span>Dostęp do doświadczonej kadry specjalistów</p>
+    <p><span><img class="lazyloaded" src="https://agencjawroclawska.pl/uploads/holistyczny-ikona.svg" /></span>Holistyczne podejście do marketingu internetowego&nbsp;</p>
+</div>
+  <div></div>
+</section>
 
-                {{with .adres_do_linkowania}}
-                    {{( printf "<a href='tel:%s'>%s</a>" . $wiersz_danych_adresowych) | safeHTML}}
-                {{else}}
-                    {{$wiersz_danych_adresowych}}
-                {{end}}
-            {{else if and  (.if_link)    (eq .if_link "mail")  }}
-                {{with .adres_do_linkowania}}
-                    {{( printf "<a href='mailto:%s'>%s</a>" . $wiersz_danych_adresowych) | safeHTML}}
-                {{else}}
-                    {{$wiersz_danych_adresowych}}
-                {{end}}
-            {{else}}
-                {{$wiersz_danych_adresowych}}
-            {{end}}
-             
-                   
-            </span>
-            
-        {{end}}
-        </div>
-        <div class='contact-registry-data'>
-            {{.contact_data_contact_group.lewa_kolumna.dane_rejestrowe | safeHTML}}
-        </div>
-
-        <div class='szef-img-cnt'>
-            {{- partial "img.html" (dict "image" .contact_data_contact_group.lewa_kolumna.zdj_cie_szefa "imgsizes" "" "ifsrcset" "nosrcset" "tag_class" "szef-img")  -}}
-        </div>
-        <div class='szef-data'>
-            <span class='szef-name'>{{.contact_data_contact_group.lewa_kolumna.imi__i_nazwisko_szefa}}</span>
-            <span class='job-position'>{{.contact_data_contact_group.lewa_kolumna.stanowisko}}</span>
-            <span class='job-tel'>
-            {{$numer_telefonu_szefa :=.contact_data_contact_group.lewa_kolumna.numer_telefonu_szefa}}
-           
-                {{with  .contact_data_contact_group.lewa_kolumna.numer_telefonu_bez_spacji_do_linkowania }}
-                    {{( printf "<a href='tel:%s'>%s</a>" . $numer_telefonu_szefa) | safeHTML}}
-                {{else}}
-                    {{$numer_telefonu_szefa}}
-                {{end}}
-           
-                
-            </span>
-            <span class='job-email'>
-          
-                {{( printf "<a href='mailto:%s'>%s</a>" .contact_data_contact_group.lewa_kolumna.adres_email .contact_data_contact_group.lewa_kolumna.adres_email) | safeHTML}}
-          
-                
-            </span>
-                
-                
-        </div>
-         
-
+<section class="sec-padding sc-text-points-img case-gray-bg a3794babb722c9659fda88bf0f11b99ea">
+<span class="case_upper_title">Case study</span>
+<div class="two-col-row cnt-visibility">
+  <h2 class="header-template">
+    <span class="f-w900 txt-underline txt-break txt-red txt-L">POZYCJONOWANIE DLA E-COMMERCE</span>
+    <span class="header-template f-w700 txt-black txt-XL ornament-r-r">salon sukni ślubnych</span>
+  </h2>
+<div class="second-col">
+  <div class="obrazek-outer-wrapper">
+    <div class="obrazek-wrapper">
+      <img class=" lazyloaded" data-src="https://agencjawroclawska.pl/uploads/case-study-suknie-slubne-1.jpg" src="https://agencjawroclawska.pl/uploads/case-study-suknie-slubne-1.jpg">
     </div>
-
-    <div class='right-col-embed'>
-
-        {{.contact_data_contact_group.embed_mapka_google | safeHTML}}
+  </div>
+</div>
+<div class="first-col">
+  <div class="case_upper_title">Co zrobiliśmy?</div>
+    <ul class="red-point-list">
+      <li>Pełny Audyt SEO</li>
+      <li>Pełna optymalizacja SEO strony pod budowanie profilu linkowego</li>
+      <li>Poprawa nagłówków oraz treści na stronie</li>
+      <li>Zaprojektowanie infografik na stronę główną</li>
+      <li>Napisanie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych</li>
+    </ul>
+  </div>
+  <div class="second-col">
+    <div class="obrazek-outer-wrapper">
+      <div class="obrazek-wrapper">
+        <img class=" lazyloaded" data-src="https://agencjawroclawska.pl/uploads/case-study-suknie-slubne-2.jpg" src="https://agencjawroclawska.pl/uploads/case-study-suknie-slubne-2.jpg">
+      </div>
     </div>
+  </div>
+</div>
+</section>
+<section class="sec-padding sc-cols-w-no case-numbers-last">
+<h2 class="header-template cols-w-no-sec-header">
+  <span class="f-w900 txt-underline txt-break txt-red txt-L">EFEKTY POZYCJONOWANIA</span>
+  <span class="header-template f-w700 txt-black txt-XL">SEO</span>
+</h2>
+<ul class="cols-w-no">
+  <li class="col-w-no">
+    <div class="col-w-no-header txt-L">Wzrost widoczności na frazach TOP 100 (130 -&gt; 1134)</div>
+    <div class="col-w-no-desc">827%</div>
+    <span class="no-bg">1</span>
+  </li>
+  <li class="col-w-no">
+    <div class="col-w-no-header txt-L">Wzrost ruchu organicznego na stronie (53 -&gt; 5078)</div>
+    <div class="col-w-no-desc">9582%</div>
+    <span class="no-bg">2</span>
+  </li>
+  <li class="col-w-no">
+    <div class="col-w-no-header txt-L">Wzrost ogólnej liczby fraz kluczowych powiązanych ze stroną TOP 100 (130 -&gt; 1320)</div>
+    <div class="col-w-no-desc">1015%</div>
+    <span class="no-bg">3</span>
+  </li>
+</ul>
+</section>
+<section class="sec-padding sc-text-points-img case-gray-bg af6fb18abba994f52b37eb89c2a901d79">
+<div class="two-col-row cnt-visibility">
+  <h2 class="header-template">
+    <span class="f-w900 txt-underline txt-break txt-red txt-L">POZYCJONOWANIE DLA E-COMMERCE</span>
+    <span class="header-template f-w700 txt-black txt-XL ornament-r-r">Costa.pl</span>
+  </h2>
+  <div class="second-col">
+    <div class="obrazek-outer-wrapper">
+      <div class="obrazek-wrapper">
+        <img class=" lazyloaded" data-src="https://agencjawroclawska.pl/uploads/casestudy-costa-1.jpg" src="https://agencjawroclawska.pl/uploads/casestudy-costa-1.jpg">
+      </div>
+    </div>
+  </div>
+  <div class="first-col">
+    <div class="case_upper_title">Co zrobiliśmy?</div>
+    <ul class="red-point-list">
+      <li>Pełny Audyt SEO</li>
+      <li>Pełna optymalizacja SEO strony pod budowanie profilu linkowego</li>
+      <li>Poprawa nagłówków oraz treści na stronie</li>
+      <li>Napisanie treści oraz wykupienie miejsc na wysoko rankingowanych portalach branżowych</li>
+      <li>Ogromna rozbudowa contentu na podstronach kategorii</li>
+    </ul>
+  </div>
+  <div class="second-col">
+    <div class="obrazek-outer-wrapper">
+      <div class="obrazek-wrapper">
+        <img class=" lazyloaded" data-src="https://agencjawroclawska.pl/uploads/casestudy-costa-2.jpg" src="https://agencjawroclawska.pl/uploads/casestudy-costa-2.jpg"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="sec-padding sc-cols-w-no case-numbers-last">
+<h2 class="header-template cols-w-no-sec-header">
+  <span class="f-w900 txt-underline txt-break txt-red txt-L">EFEKTY POZYCJONOWANIA</span>
+  <span class="header-template f-w700 txt-black txt-XL">SEO</span>
+</h2>
+<ul class="cols-w-no">
+  <li class="col-w-no">
+    <div class="col-w-no-header txt-L">Wzrost widoczności na frazach TOP 100 (4392 -&gt; 11102)</div>
+    <div class="col-w-no-desc">252%</div>
+    <span class="no-bg">1</span>
+  </li>
+  <li class="col-w-no">
+    <div class="col-w-no-header txt-L">Wzrost ruchu organicznego na stronie (5301 -&gt; 56043)</div>
+    <div class="col-w-no-desc">1057%</div>
+    <span class="no-bg">2</span></li><li class="col-w-no">
+      <div class="col-w-no-header txt-L">Wzrost ogólnej liczby fraz kluczowych powiązanych ze stroną TOP 100 (4615 -&gt; 17050)</div>
+      <div class="col-w-no-desc">369%</div>
+      <span class="no-bg">3</span>
+    </li>
+  </ul>
+</section>
+<section class="sec-padding sc-logos"  style="padding:0;width: 100%;">
+<h3 class="header-template tutorial-sec-header" style="margin-bottom: 0;">
+<span class="f-w900 txt-underline txt-break txt-red txt-L  ">
+  Zaawansowane narzędzia, 
+</span>
+<p class="header-template f-w700   txt-black txt-XL ornament-r-b tutorial-sec-header">
+których używamy w codziennej pracy
+</p>
+</h3>
+<ul class="tools-logos">
+<li>
+<img class="col-logos lazyloaded" data-src="https://sharp-bassi-376df3.netlify.app/uploads/senuto-web.png" src="https://sharp-bassi-376df3.netlify.app/uploads/senuto-web.png">
+</li>
+<li>
+<img class="col-logos lazyloaded" data-src="https://sharp-bassi-376df3.netlify.app/uploads/ahrefs-web.png" src="https://sharp-bassi-376df3.netlify.app/uploads/ahrefs-web.png">
+</li>
+<li>
+<img class="col-logos lazyloaded" data-src="https://sharp-bassi-376df3.netlify.app/uploads/screamingfrog-web.png" src="https://sharp-bassi-376df3.netlify.app/uploads/screamingfrog-web.png">
+</li>
+<li>
+<img class="col-logos lazyloaded" data-src="https://sharp-bassi-376df3.netlify.app/uploads/gtm-web.png" src="https://sharp-bassi-376df3.netlify.app/uploads/gtm-web.png">
+</li>
+<li>
+<img class="col-logos lazyloaded" data-src="https://sharp-bassi-376df3.netlify.app/uploads/lrt-web.png" src="https://sharp-bassi-376df3.netlify.app/uploads/lrt-web.png">
+</li>
+<li>
+<img class="col-logos lazyloaded" data-src="https://sharp-bassi-376df3.netlify.app/uploads/gsc-web.png" src="https://sharp-bassi-376df3.netlify.app/uploads/gsc-web.png">
+</li>
+</ul>
+</section>
+<section class="form-bottom-contact">
+<div class="form-bottom-column">
+<div id="my-form-status">
+  <span>Bezpłatna wycena</span>
+</div>
+  <form id="contactform" action="https://formspree.io/f/xdoynvwe" method="POST">
+    <div class='input-cnt'>
+      <input required name="email" type="email" id="email" placeholder="Adres e-mail">
+      <label for='email'> Adres e-mail</label>
+    </div>
+    <div class='input-cnt'>
+      <input name="www" type="text" id="www" placeholder="Adres strony www">
+      <label for='www'>Adres strony www</label>
+    </div>
+    <div class='input-cnt'>
+      <input  required name="phone" type="tel" id="phone" placeholder="Numer telefonu">
+      <label for='phone'>Numer telefonu</label>
+    </div>
+    <div class='input-cnt'>
+      <textarea rows="5" name="txtfield" id="txtfield" placeholder="Twoja wiadomość" ></textarea>
+      <label for='txtfield'>Twoja wiadomość</label>
+    </div>
+    <button  type="submit">Wyślij zapytanie</button>
+    <div class='rodo'>
+      <input id='rodo-accept-bottom' type='checkbox' required name='rodo-accept' value='accept'/>
+      <label for='rodo-accept-bottom'>Administratorem Twoich danych osobowych, czyli podmiotem decydującym o celach i sposobach przetwarzania Twoich danych osobowych jest Agencja Wrocławska. Informujemy, że podanie danych osobowych zawartych w formularzu jest dobrowolne, ale niezbędne do skutecznego nawiązania kontaktu z Administratorem, jak również przysługują Ci prawa dostępu do Twoich danych osobowych, ich zmiany (w tym aktualizacji), a także pozostałe prawa opisane w Polityce prywatności. W Polityce prywatności znajdują się także szczegółowe informację w zakresie praw i obowiązków Administratora.</label>
+    </div>
+  </form>
+</div>
+<div class="form-bottom-column">
+<div class="form-bottom-data">
+  <span class="header-template f-w700   txt-black txt-XL ornament-r-b tutorial-sec-header">Dane kontaktowe</span>
+  <p>Agencja Wrocławska Sp. z o.o.<br>
+      Dmowskiego 17<br>
+      50-203 Wrocław<br>
+      <a href="mailto:kontakt@agencjawroclawska.pl">kontakt@agencjawroclawska.pl</a><br>
+      <a href="tel:+48734131950"><span style="font-size:2rem;font-weight:700;color:var(--red);">tel. 734 131 950</span></a>
+  </p>
+</div>
+<div class='star-cnt' style="text-align:right;">
+  <span>Jak oceniasz stronę</span>
+  <form class="rate" id="post-{{ .File.UniqueID }}" style="padding:0;">
+      
+      <input type="radio" id="star5" name="rate" value="5" />
+      <label for="star5" title="text">5 stars</label>
+      <input type="radio" id="star4" name="rate" value="4" />
+      <label for="star4" title="text">4 stars</label>
+      <input type="radio" id="star3" name="rate" value="3" />
+      <label for="star3" title="text">3 stars</label>
+      <input type="radio" id="star2" name="rate" value="2" />
+      <label for="star2" title="text">2 stars</label>
+      <input type="radio" id="star1" name="rate" value="1" />
+      <label for="star1" title="text">1 star</label>
+  
+  </form>
+  <div>głosów: <span id="count_votes"></span> </div>
+</div>
+</div>
 </section>
