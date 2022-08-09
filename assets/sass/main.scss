@@ -6993,7 +6993,7 @@ justify-content: center;
             box-shadow: 0 3px 20px #00000029;
             width: calc(100% - 1rem);
             height: calc(100% - 1rem);
-            z-index: -1;
+            z-index: 0;
             }
           }
           &:nth-child(2){
@@ -7009,7 +7009,7 @@ justify-content: center;
                 box-shadow: 0 3px 20px #00000029;
                 width: calc(100% - 1rem);
                 height: calc(100% - 1rem);
-                z-index: -1;
+                z-index: 0;
               }
             }
           }
