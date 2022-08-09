@@ -1,0 +1,33 @@
+
+<section class=' sc-banner-wide {{if .formularz_wylaczony}} banner-wo-form {{end}}'>
+    
+    {{- partial "img.html" (dict "image" .banner_img "imgsizes" "100vw" "tag_class" "banner-img")  -}}
+  
+   <div class='banner-wide-content sec-padding'>
+        <div class='banner-left-col'>
+            {{ $header_list := (.banner_header_cnt.header_repeater) }}
+            {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "banner-header")  -}}
+            {{ $header_slogan_list := (.banner_slogan.header_repeater) }}
+            {{if gt (len $header_slogan_list) 0}}
+                {{- partial "header-tag.html" (dict "context" . "header_list" $header_slogan_list "custom_class" "banner-slogan")  -}}
+            {{end}}
+            {{ with site.GetPage "kontakt" }} 
+                {{- partial "zaufali-nam.html" . -}}
+            {{ end }}
+            {{if .formularz_wylaczony}}
+                <div class='banner-text'>
+                    {{.tekst_pod_naglowkiem | safeHTML}}
+                </div>
+            {{end}}
+        </div>
+        {{if not .formularz_wylaczony}}
+        <div class='banner-right-col'>
+            <div class='form-header'>
+                {{.naglowek_formularza}}
+            </div>
+            {{ .banner_form_html | safeHTML}}    
+        </div>
+        {{end}}
+    </div>
+    <img class='banner-logo' src='/img/AW.svg'>
+</section>
