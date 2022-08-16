@@ -71,29 +71,35 @@ Liczą się treści, jakimi wzbogacasz swoją witrynę internetową. Musisz sta�
 
 Aby nauczyć się zachować naszych potencjalnych klientów w Google, podejdźmy do tego od strony psychologicznej.
 
-#### 1.1. Twórz dobrej jakości treści. Wykorzystaj te pytania. {#tresci}
-
-* **Kto jest adresatem Twojego przesłania?**
-
+#### 1.1. Twórz dobrej jakości treści. Wykorzystaj te pytania.{#tresci}
+{{< rawhtml >}}
+<ul id="kluczowe-pytania">
+<li> <strong>Kto jest adresatem Twojego przesłania?</strong>
+<p>
 Trzeba zdefiniować swój target, czyli ludzi, do których się zwracamy. Stwórz idealną sylwetkę swojego czytelnika i to właśnie dla niego pisz treści.
-
-* **Co chcesz napisać?** {#kluczowe-pytania}
-
+</p>
+<li > <strong>Co chcesz napisać?</strong>
+<p>
   Warto mieć w głowie jasny i precyzyjny przekaz, z którym chcesz się podzielić. Usystematyzuj informację i wybierz te, który w łatwy sposób przeprowadzą Twojego czytelnika z punktu A do punktu B.
 
   Weź pod uwagę, że na bloga często ludzie trafiają ze swoich zapytań w internecie, jeżeli trafiają na Twoją stronę, weź pod uwagę, że oczekują konkretów.
-
-* **Po co piszesz ten wpis? Co nim chcesz osiągnąć?**
-
-Jeśli odpowiesz sobie na te pytania, będziesz mógł na poważnie zaintrygować swojego czytelnika, wysyłając mu zbiór argumentów, które mają przyciągnąć jego uwagę.
+</p>
+</li>
+<li> <strong>Po co piszesz ten wpis? Co nim chcesz osiągnąć?</strong>
+<p>
+Jeśli odpowiesz sobie na te pytania, będziesz mógł na poważnie zaintrygować swojego czytelnika, wysyłając mu zbiór argumentów, które mają przyciągnąć jego uwagę.</p>
+<p>
 
 Z innych zaleceń, powinieneś zadbać także o pisanie zgodne z wytycznymi SEO. Poniżej kilka wskazówek, po których wdrożeniu będziesz miał szanse na wyższe pozycje w wyszukiwarkach internetowych.
-
+</p>
+</li>
+</ul>
+{{< /rawhtml >}}
 ### 2. Jak być wyżej w Google? {#seo}
 
 Roboty nieprzerwanie analizują wszystkie strony internetowe, nadając im pewnego rodzaju ocenę. To coś w stylu jury, które po zakończonym występie wskazuje - co zrobiłeś dobrze, a co jest do poprawy. W tym artykule nie będziemy się skupiać na optymalizacji całej strony, a tylko na poszczególnych artykułach. Czyli co w nich zrobić, aby pomagały nam one w pozycjonowaniu strony.
 
-#### **Krok 1 - Dobry tytuł {#tytuly}**
+#### Krok 1 - Dobry tytuł{#tytuly}
 
 Prosty, zwięzły, zachęcający do kliknięcia.
 
@@ -143,8 +149,9 @@ Ilość ludzi na Twojej liście mailingowej będzie ważniejsze, niż liczba pol
 Jest to proces długofalowy, opierający się o relacje, które dzięki newsletterowi możesz budować ze swoim odbiorcą.
 
 Przykład wiadomości na newsletter:
-
-![newsletter przykłady](https://lh5.googleusercontent.com/2tf3mgYv1l77kk-8k2yMttoRWHEIxkkcBivpTkPu7ShLyE6nSJ_res63H5rVt5MReUfMaUSPUBviKA-R_6sc16mIa54BVZMptmJg0TeGGfChHYRf3lwuJCtm9pbQY0jSdzmCol6RHrRyaJQd_Al93w =602x505)
+{{< rawhtml >}}
+<img style="max-width: 20rem;" src="https://lh5.googleusercontent.com/2tf3mgYv1l77kk-8k2yMttoRWHEIxkkcBivpTkPu7ShLyE6nSJ_res63H5rVt5MReUfMaUSPUBviKA-R_6sc16mIa54BVZMptmJg0TeGGfChHYRf3lwuJCtm9pbQY0jSdzmCol6RHrRyaJQd_Al93w" alt="newsletter przykłady">
+{{< /rawhtml >}}
 
 > Dla zainteresowanych - jeśli chcecie sami zobaczyć, jak newsletter potrafi zaangażować odbiorców, warto się do kilku z nich zapytać i poobserwować. O tym, jak założyć newsletter pisaliśmy tutaj: [https://agencjawroclawska.pl/blog/co-to-jest-newsletter-i-jak-go-stworzyc/](https://agencjawroclawska.pl/blog/co-to-jest-newsletter-i-jak-go-stworzyc/ "https://agencjawroclawska.pl/blog/co-to-jest-newsletter-i-jak-go-stworzyc/")
 
