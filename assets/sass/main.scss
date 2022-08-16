@@ -6476,6 +6476,10 @@ form#mcontactform {
     display: none;
 }
 
+body:not(.kontakt) .trust-us-wrapper {
+    display: none;
+}
+
 .kontakt {
     overflow-x: visible;
     .sc-contact {
