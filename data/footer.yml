@@ -1,8 +1,7 @@
 ---
 pierwsza_kolumna:
   logo: "/uploads/logo-aw-black.svg"
-  opis: <p>Agencja Wrocławska Sp. z o.o. <br>Dmowskiego 17<br>50-203 Wrocław</p><p><a
-    href="mailto:kontakt@agencjawroclawska.pl" title="">kontakt@agencjawroclawska.pl</a></p>
+  opis: "<p>Agencja Wrocławska Sp. z o.o. <br>ul. Dmowskiego 17<br>50-203 Wrocław</p><p>kontakt@agencjawroclawska.pl</p>"
   logo_dark: "/uploads/logo-aw-white.svg"
 druga_kolumna:
 - wybierz_odnosniki: google-adwords.md
@@ -26,6 +25,8 @@ trzecia_kolumna:
   tytul_odnosnika: O nas
 - adres_odnosnika: kontakt.md
   tytul_odnosnika: Formularz kontaktowy
+- adres_odnosnika: []
+  tytul_odnosnika: Kampanie TikTok
 wiersz_dolny:
   tekst: "<p>© 2022 Agencja Wrocławska Sp. z o.o. Wszelkie prawa zastrzeżone</p>"
 czwarta_kolumna:
