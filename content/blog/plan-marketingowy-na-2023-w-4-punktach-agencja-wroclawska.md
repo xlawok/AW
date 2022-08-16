@@ -9,7 +9,7 @@ obrazek = ""
 og_image = ""
 robots = "index follow"
 slug = "plan-marketingowy-na-2023-w-4-punktach"
-summary = "Dobrze jest mieć plan marketingowy na 2023 rok. Nigdy nie wiadomo, jak jeszcze rynek się zmieni. Wszystko wskazuje na to, że coraz większa uwaga będzie skupiana na internecie. Są dwa wyjścia: dopasować się do rynku i budować w nim swój udział, a drugi pozostawiam w domyśle."
+summary = "Czy masz przygotowany plan marketingowy na kolejny, 2023 rok? Nigdy nie wiadomo, jak jeszcze rynek się zmieni. Wszystko wskazuje na to, że coraz większa uwaga będzie skupiana na internecie. Są dwa wyjścia: dopasować się do rynku i budować w nim swój udział, a drugi pozostawiam w domyśle."
 tags = []
 title = "Plan marketingowy na 2023 w 4 punktach | Agencja Wrocławska"
 tytul_do_listowania = "Plan marketingowy na 2023 w 4 punktach"
@@ -57,11 +57,10 @@ adres_odnosnika = "podsumowanie"
 title = "4.1. Podsumowanie"
 
 +++
-Dobrze jest mieć plan marketingowy na następny rok. Nigdy nie wiadomo, jak jeszcze rynek się zmieni. Wszystko wskazuje na to, że coraz większa uwaga będzie skupiana na internecie. Są dwa wyjścia: dopasować się do rynku i budować w nim swój udział, a drugi pozostawiam w domyśle.
+Czy masz przygotowany plan marketingowy na kolejny, 2023 rok? Nigdy nie wiadomo, jak jeszcze rynek się zmieni. Wszystko wskazuje na to, że coraz większa uwaga będzie skupiana na internecie. Są dwa wyjścia: dopasować się do rynku i budować w nim swój udział, a drugi pozostawiam w domyśle.
 
 ## Plan marketingowy na 2023
 
-  
 Podzielimy to sobie na cztery główne moduły.
 
 Moduły będą miały charakter ogólny, warto na pewno zdywersyfikować poszczególne elementy pod swoją branżę. Całość pozwoli Ci być gotowy na nadchodzące miesiące.
@@ -77,13 +76,11 @@ Aby nauczyć się zachować naszych potencjalnych klientów w Google, podejdźmy
 * **Kto jest adresatem Twojego przesłania?**
 
   Trzeba zdefiniować swój target, czyli ludzi, do których się zwracamy. Stwórz idealną sylwetkę swojego czytelnika i to właśnie dla niego pisz treści.
-
 * **Co chcesz napisać?**
 
   Warto mieć w głowie jasny i precyzyjny przekaz, z którym chcesz się podzielić. Usystematyzuj informację i wybierz te, który w łatwy sposób przeprowadzą Twojego czytelnika z punktu A do punktu B.
 
   Weź pod uwagę, że na bloga często ludzie trafiają ze swoich zapytań w internecie, jeżeli trafiają na Twoją stronę, weź pod uwagę, że oczekują konkretów.
-
 * **Po co piszesz ten wpis? Co nim chcesz osiągnąć?**
 
 Jeśli odpowiesz sobie na te pytania, będziesz mógł na poważnie zaintrygować swojego czytelnika, wysyłając mu zbiór argumentów, które mają przyciągnąć jego uwagę.
@@ -168,6 +165,6 @@ Strategia marketingowa firmy to coś więcej, niż tylko płatne reklamy zachęc
 
 ### 4.1. Podsumowanie
 
-Pomyśl o tym, jakie wartości Ty możesz dać swoim klientom. Psychologicznie, ludzie w momencie kiedy niespodziewanie coś otrzymują, z założenia są wdzięczni i znacznie lepiej myślą o tej drugiej stronie - gdy zrobiła coś bezinteresowanie. Dlatego też wskazana forma mailingu jest taką, w której tworzysz wartości dodane w postaci informacji zawartych w artykułach, e-bookach, itp. 
+Pomyśl o tym, jakie wartości Ty możesz dać swoim klientom. Psychologicznie, ludzie w momencie kiedy niespodziewanie coś otrzymują, z założenia są wdzięczni i znacznie lepiej myślą o tej drugiej stronie - gdy zrobiła coś bezinteresowanie. Dlatego też wskazana forma mailingu jest taką, w której tworzysz wartości dodane w postaci informacji zawartych w artykułach, e-bookach, itp.
 
 Przecież fizycznie nikt Ci nie zapłaci za napisanie kilkunastu artykułów, dlatego też wiele firm rezygnuje z tworzenia wartości dodanej dla rynku, nie mając pełnej świadomości, że może to wrócić ze zdwojoną siłą.
