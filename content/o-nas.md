@@ -36,13 +36,13 @@ sections:
     opis: Zostaliśmy powołani do życia w wakacje 2020 roku. Zaczynaliśmy od biura
       wirtualnego jako 2-osobowy skład. Bez klientów. Mając jedynie pewność świetnej
       usługi oraz wizji rozwoju. Jesteśmy aktualnie jedną z najszybciej rozwijających
-      się agencji SEO w Polsce. Na pokładzie posiadamy obecnie 15 osób + Mikiego (odpowiedzialnego
+      się agencji SEO w Polsce. Na pokładzie posiadamy obecnie 20 osób + Mikiego (odpowiedzialnego
       za Customer Experience).
     kolumny:
     - naglowek: 0,2 dekady (doświadczenie)
       obrazek: "/uploads/onas-1.svg"
       if_svg: true
-    - naglowek: 18 osobowy zespół
+    - naglowek: 20 osobowy zespół
       obrazek: "/uploads/onas-2.svg"
       if_svg: true
     - naglowek: Gwarancja efektów
