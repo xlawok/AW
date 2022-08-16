@@ -1,7 +1,7 @@
 +++
 author = "data/authors/bartek.yml"
 categories = []
-date = 2022-08-15T22:11:00Z
+date = ""
 description = "Plan marketingowy na 2023 rok - zobacz, jak przygotować odpowiednią strategię pod działania marketingu internetowego. "
 ikona_artykulu = "/uploads/art-placeholder.svg"
 keywords = ""
