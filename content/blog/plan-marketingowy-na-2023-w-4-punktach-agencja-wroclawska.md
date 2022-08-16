@@ -27,34 +27,34 @@ txt_block_size = ""
 underline = true
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "tresci"
-title = "1. Treści"
+title = "Treści"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "kluczowe-pytania"
-title = "1.1. Kluczowe pytania"
+title = "Kluczowe pytania"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "seo"
-title = "2. SEO"
+title = "SEO"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "tytuly"
-title = "2.1. Tytuły"
+title = "Tytuły"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "slowa-kluczowe"
-title = "2.2. Słowa kluczowe"
+title = "Słowa kluczowe"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "konwersja"
-title = "3. Konwersja"
+title = "Konwersja"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "mailing-w-praktyce"
-title = "3.1. Mailing w praktyce"
+title = "Mailing w praktyce"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "facebook-ads"
-title = "3.2. Facebook Ads"
+title = "Facebook Ads"
 [[lista_o_czym_przeczytasz_group]]
-adres_odnosnika = "wartosc"
-title = "4. Wartość dodana"
+adres_odnosnika = "wartosc-dodana"
+title = "Wartość dodana"
 [[lista_o_czym_przeczytasz_group]]
 adres_odnosnika = "podsumowanie"
-title = "4.1. Podsumowanie"
+title = "Podsumowanie"
 
 +++
 Czy masz przygotowany plan marketingowy na kolejny, 2023 rok? Nigdy nie wiadomo, jak jeszcze rynek się zmieni. Wszystko wskazuje na to, że coraz większa uwaga będzie skupiana na internecie. Są dwa wyjścia: dopasować się do rynku i budować w nim swój udział, a drugi pozostawiam w domyśle.
@@ -71,12 +71,12 @@ Liczą się treści, jakimi wzbogacasz swoją witrynę internetową. Musisz sta�
 
 Aby nauczyć się zachować naszych potencjalnych klientów w Google, podejdźmy do tego od strony psychologicznej.
 
-#### 1.1. Twórz dobrej jakości treści. Wykorzystaj te pytania.
+#### 1.1. Twórz dobrej jakości treści. Wykorzystaj te pytania. {#tresci}
 
 * **Kto jest adresatem Twojego przesłania?**
 
   Trzeba zdefiniować swój target, czyli ludzi, do których się zwracamy. Stwórz idealną sylwetkę swojego czytelnika i to właśnie dla niego pisz treści.
-* **Co chcesz napisać?**
+* **Co chcesz napisać? {#**kluczowe-pytania}
 
   Warto mieć w głowie jasny i precyzyjny przekaz, z którym chcesz się podzielić. Usystematyzuj informację i wybierz te, który w łatwy sposób przeprowadzą Twojego czytelnika z punktu A do punktu B.
 
@@ -87,11 +87,11 @@ Jeśli odpowiesz sobie na te pytania, będziesz mógł na poważnie zaintrygowa�
 
 Z innych zaleceń, powinieneś zadbać także o pisanie zgodne z wytycznymi SEO. Poniżej kilka wskazówek, po których wdrożeniu będziesz miał szanse na wyższe pozycje w wyszukiwarkach internetowych.
 
-### 2. Jak być wyżej w Google?
+### 2. Jak być wyżej w Google? {#seo}
 
 Roboty nieprzerwanie analizują wszystkie strony internetowe, nadając im pewnego rodzaju ocenę. To coś w stylu jury, które po zakończonym występie wskazuje - co zrobiłeś dobrze, a co jest do poprawy. W tym artykule nie będziemy się skupiać na optymalizacji całej strony, a tylko na poszczególnych artykułach. Czyli co w nich zrobić, aby pomagały nam one w pozycjonowaniu strony.
 
-#### **Krok 1 - Dobry tytuł**
+#### **Krok 1 - Dobry tytuł {#tytuly}**
 
 Prosty, zwięzły, zachęcający do kliknięcia.
 
@@ -109,7 +109,7 @@ Prosty, zwięzły, zachęcający do kliknięcia.
 
 Jest tego naprawdę cała masa. Jedną zależność, jaką można zauważyć w skutecznych tytułach jest fakt, że są one bardzo konkretne. Często jest to określone liczbowo, np. 10 porad, 3 sposoby, itp. Ktoś po drugiej stronie, wpisujący w wyszukiwarkę zapytanie chce konkretnej odpowiedzi - którą teraz jesteś mu w stanie dać.
 
-#### Krok 2 - Słowa kluczowe
+#### Krok 2 - Słowa kluczowe {#slowa-kluczowe}
 
 To odnosi się także do punktu pierwszego. Jeżeli coś piszemy, warto wiedzieć, co obecnie jest szukane przez internautów. Po co pisać o zaletach telefonie mającym 5 lat, jeżeli nikt już nie szuka recenzji na jego temat?
 
@@ -122,13 +122,13 @@ Co do samych fraz kluczowych, muszą one się komponować z całością tekstu. 
 
 Te dwa narzędzia mają jedno główne zadanie - pomoc w obraniu drogi do pisania artykułu z wykorzystaniem wybranych słów kluczowych.
 
-#### 3. Konwersja
+#### 3. Konwersja {#konwersja}
 
 Kluczowy punkt, bo będzie on kwintesencją naszych dotychczasowych prac określonych w punkcie powyżej.
 
 Potrafisz już zbudować dobrej jakości treści, czas obrać strategię na sposoby konwersji, czyli pozostawienie potencjalnego klienta u siebie.
 
-#### 3.1. Lista mailingowa w praktyce
+#### 3.1. Lista mailingowa w praktyce {#mailing-w-praktyce}
 
 Jednym ze sposobów będzie stworzenie listy mailingowej. Pamiętaj, omawiamy teraz schematy planu marketingowego na 2023 rok, w którym internet będzie miał jeszcze większy niż dotychczas udział. Posiadanie listy mailingowej jest czymś świetnym dla każdej firmy. Dlaczego?
 
@@ -146,7 +146,7 @@ Przykład wiadomości na newsletter:
 
 > Dla zainteresowanych - jeśli chcecie sami zobaczyć, jak newsletter potrafi zaangażować odbiorców, warto się do kilku z nich zapytać i poobserwować. O tym, jak założyć newsletter pisaliśmy tutaj: [https://agencjawroclawska.pl/blog/co-to-jest-newsletter-i-jak-go-stworzyc/](https://agencjawroclawska.pl/blog/co-to-jest-newsletter-i-jak-go-stworzyc/ "https://agencjawroclawska.pl/blog/co-to-jest-newsletter-i-jak-go-stworzyc/")
 
-#### 3.2. Facebook Ads
+#### 3.2. Facebook Ads {#facebook-ads}
 
 Jest to rozbudowane narzędzie promocyjne - niestety płatne, natomiast daje bardzo dobre rezultaty. Dobrze skonfigurowana [kampania Facebook ADS](https://agencjawroclawska.pl/social-media/) może się idealnie wpisać w Twój plan marketingowy.
 
@@ -159,11 +159,11 @@ Najważniejsze elementy Facebook Ads:
 
 > O tym, jak sprzedawać w social mediach opisaliśmy w tym artykule: [https://agencjawroclawska.pl/blog/jak-sprzedawac-w-social-mediach/](https://agencjawroclawska.pl/blog/jak-sprzedawac-w-social-mediach/ "https://agencjawroclawska.pl/blog/jak-sprzedawac-w-social-mediach/")
 
-#### 4. Wartość dodana w rzeczach, które robisz
+#### 4. Wartość dodana w rzeczach, które robisz {#wartosc-dodana}
 
 Strategia marketingowa firmy to coś więcej, niż tylko płatne reklamy zachęcające do zakupu produktu. Znajdziesz znacznie bardziej lolajnych klientów, kiedy nie będziesz dostrzegał w nich tylko procentu marży z zakupu, czy szans powodzenia na kolejny zakup. Prawdziwi gracze na rynku już jakiś czas temu zaczęli stosować różnego rodzaju programy lojalnościowe, zniżki dla stałych klientów, tylko po to, aby ich odbiorcy zaczęli utożsamiać się w pełni z ich marką i wartościami, które dostarcza.
 
-### 4.1. Podsumowanie
+### 4.1. Podsumowanie {#podsumowanie}
 
 Pomyśl o tym, jakie wartości Ty możesz dać swoim klientom. Psychologicznie, ludzie w momencie kiedy niespodziewanie coś otrzymują, z założenia są wdzięczni i znacznie lepiej myślą o tej drugiej stronie - gdy zrobiła coś bezinteresowanie. Dlatego też wskazana forma mailingu jest taką, w której tworzysz wartości dodane w postaci informacji zawartych w artykułach, e-bookach, itp.
 
