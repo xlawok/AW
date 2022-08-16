@@ -2287,6 +2287,21 @@ form#mcontactform {
 }
 
 .o-nas {
+    .sc-banner-center-img .center-banner-cnt {
+        max-height: 100vw;
+        min-height: 70vh;
+      background-image: url(https://agencjawroclawska.pl/uploads/aw-grafiki12345-big.jpg);
+        background-size: cover;
+        background-position-y: 186%;
+        background-attachment: fixed;
+    background-position-x: 55%;
+    }
+    .sc-banner-center-img .center-banner-cnt .banner-left-side-img, .o-nas .sc-banner-center-img .center-banner-cnt .center-on-banner-img, .o-nas .sc-banner-center-img .center-banner-cnt .banner-right-side-img{
+        display: none;
+    }
+    .o-nas .sc-banner-center-img .center-on-banner-img{
+        display: none;
+    }
     .sc-our-clients::before {
         top: -150%;
     }
@@ -2294,6 +2309,7 @@ form#mcontactform {
         position: relative;
         z-index: 1;
     }
+    
 }
 
 .home {
