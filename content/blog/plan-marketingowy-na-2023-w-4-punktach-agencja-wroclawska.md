@@ -77,7 +77,7 @@ Aby nauczyć się zachować naszych potencjalnych klientów w Google, podejdźmy
 
 Trzeba zdefiniować swój target, czyli ludzi, do których się zwracamy. Stwórz idealną sylwetkę swojego czytelnika i to właśnie dla niego pisz treści.
 
-* **Co chcesz napisać? {#**kluczowe-pytania}
+* **Co chcesz napisać?** {#kluczowe-pytania}
 
   Warto mieć w głowie jasny i precyzyjny przekaz, z którym chcesz się podzielić. Usystematyzuj informację i wybierz te, który w łatwy sposób przeprowadzą Twojego czytelnika z punktu A do punktu B.
 
