@@ -289,7 +289,7 @@ których używamy w codziennej pracy
 </div>
 <div class='star-cnt' style="text-align:right;">
   <span>Jak oceniasz stronę?</span>
-  <form class="rate" id="page-{{ .UniqueID }}">
+  <form class="rate" id="page-kontakt-new">
       
       <input type="radio" id="star5" name="rate" value="5" />
       <label for="star5" title="text">5 stars</label>
@@ -319,7 +319,7 @@ headers: myHeaders,
 redirect: 'follow'
 };
 
-fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f/basket/{{ .UniqueID }}", requestOptions)
+fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f/basket/page-kontakt-new", requestOptions)
 .then(response => response.text())
 .then(function(result){
 var json = JSON.parse(result);
@@ -390,7 +390,7 @@ document.head.appendChild(script);
               redirect: 'follow'
               };
               // console.log(raw);
-              fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f/basket/{{ .UniqueID }}", requestOptions)
+              fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f/basket/page-kontakt-new", requestOptions)
               .then(response => response.text())
               .then(result => console.log(result))
               .catch(error => console.log('error', error));
