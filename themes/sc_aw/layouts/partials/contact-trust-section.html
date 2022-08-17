@@ -303,7 +303,7 @@ których używamy w codziennej pracy
       <label for="star1" title="text">1 star</label>
   
   </form>
-  <div>głosów: <span id="count_votes-kontakt"></span> </div>
+  <div>głosów: <span id="count_votes_kontakt"></span> </div>
 </div>
 <script>
   document.addEventListener("DOMContentLoaded", function() {
@@ -329,7 +329,7 @@ var star3=Number.isInteger(parseInt(json.star3)) ? json.star3 : 0 ;
 var star4=Number.isInteger(parseInt(json.star4)) ? json.star4 : 0 ;
 var star5=Number.isInteger(parseInt(json.star5)) ? json.star5 : 0 ;
 var count_it=Math.ceil(((1* star1)+(2* star2)+(3* star3)+(4* star4)+(5* star5))/(star1+star2+star3+star4+star5));
-var count_votes-kontakt=Math.ceil(star1+star2+star3+star4+star5);
+var count_votes_kontakt=Math.ceil(star1+star2+star3+star4+star5);
 // console.log(count_it);
 var star_id="star" + count_it;
 // console.log(star_id);
@@ -344,8 +344,8 @@ document.getElementById('star2').dataset.votes=star2;
 document.getElementById('star3').dataset.votes=star3;
 document.getElementById('star4').dataset.votes=star4;
 document.getElementById('star5').dataset.votes=star5;
-document.getElementById('count_votes-kontakt').innerHTML=count_votes-kontakt;
-const structuredDataText='{"@context": "https://schema.org/","@type": "CreativeWorkSeries","name": "'+ {{$.Params.tytul_do_listowania | safeHTML}} + '","aggregateRating": {"@type": "AggregateRating","ratingValue": "' + count_it + '","bestRating": "5","ratingCount": "' + count_votes-kontakt + '"}}';
+document.getElementById('count_votes_kontakt').innerHTML=count_votes_kontakt;
+const structuredDataText='{"@context": "https://schema.org/","@type": "CreativeWorkSeries","name": "'+ {{$.Params.tytul_do_listowania | safeHTML}} + '","aggregateRating": {"@type": "AggregateRating","ratingValue": "' + count_it + '","bestRating": "5","ratingCount": "' + count_votes_kontakt + '"}}';
 const script = document.createElement('script');
 // script.setAttribute('type', 'application/ld+json');
 script.type = 'application/ld+json';
