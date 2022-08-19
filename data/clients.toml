@@ -23,9 +23,9 @@ clinet_logo = "/uploads/inkom-logo-aw.jpg"
 czy_nofollow = false
 if_svg = false
 [[clients_list]]
-client_url = "https://www.witaminaiziolo.pl/"
-client_url_title = "https://www.witaminaiziolo.pl/"
-clinet_logo = "/uploads/witaminaiziolo-logo.jpg"
+client_url = "https://wroclawskiejedzenie.pl/"
+client_url_title = "https://wroclawskiejedzenie.pl/"
+clinet_logo = "/uploads/wpk-logo.jpg"
 czy_nofollow = false
 if_svg = false
 [[clients_list]]
