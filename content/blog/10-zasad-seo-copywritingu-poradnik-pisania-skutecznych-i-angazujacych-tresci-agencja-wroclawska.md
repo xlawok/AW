@@ -37,7 +37,7 @@ txt_block_size = ""
 underline = false
 
 +++
-Copywriting to z definicji tworzenie dowolnych tekstowych treści reklamowych (i nie tylko) mających zachęcić czytelników do określonych działań czy zmiany przekonań, zaś pod słowem „SEO” kryje się termin Search Engine Optimization, czyli optymalizacja strony internetowej pod działanie wyszukiwarek internetowych, co ma na celu zwiększenie ruchu na stronie. 
+Copywriting to z definicji tworzenie dowolnych tekstowych treści reklamowych (i nie tylko) mających zachęcić czytelników do określonych działań czy zmiany przekonań, zaś pod słowem „SEO” kryje się termin Search Engine Optimization, czyli optymalizacja strony internetowej pod działanie wyszukiwarek internetowych, co ma na celu zwiększenie ruchu na stronie.
 
 Oba te działania mają docelowo przełożyć się na wzmożenie zainteresowania, wygenerowanie odwiedzin na stronie, pozyskanie klientów i wzrost sprzedaży. Łącząc je w jedno, otrzymujemy **SEO copywriting**: pisanie tekstów, których zadaniem jest zainteresowanie człowieka i wpasowanie się w algorytmy popularnych wyszukiwarek. Chcemy, aby nasze treści były widoczne w wynikach wyskakujących w Google i przekładały się na kliknięcia, ale też angażowały i ciekawiły ludzi. Brzmi prosto? Zagłębmy się w temat.
 
@@ -60,6 +60,8 @@ Pod SEO napisać można:
 ● opisy alternatywne obrazów
 
 Jak widzisz, pole do popisu jest spore. Jak to wszystko scalić ze sobą tak, aby umieścić swoją stronę możliwie najwyżej w wynikach wyszukiwania i jednocześnie zdobyć zainteresowanie ludzi? Już odpowiadam.
+
+![](/uploads/copywriting.jpg)
 
 ## Dekalog SEO copywritera - i każdego, kto chce skutecznie pozycjonujących tekstów
 
