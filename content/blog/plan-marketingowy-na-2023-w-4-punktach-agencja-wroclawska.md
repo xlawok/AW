@@ -65,6 +65,8 @@ Podzielimy to sobie na cztery główne moduły.
 
 Moduły będą miały charakter ogólny, warto na pewno zdywersyfikować poszczególne elementy pod swoją branżę. Całość pozwoli Ci być gotowy na nadchodzące miesiące.
 
+![](/uploads/plan-marketingowy.jpg)
+
 ### 1. Tworzenie strategii marketingowej
 
 Liczą się treści, jakimi wzbogacasz swoją witrynę internetową. Musisz stać się bardziej widoczny w internecie. Nawet jeśli obecnie na swojej stronie firmowej prowadzisz bloga, czy rzeczywiście jesteś w stanie sprawdzić, czy wnosi on wartość do Twojego biznesu?
@@ -72,6 +74,7 @@ Liczą się treści, jakimi wzbogacasz swoją witrynę internetową. Musisz sta�
 Aby nauczyć się zachować naszych potencjalnych klientów w Google, podejdźmy do tego od strony psychologicznej.
 
 #### 1.1. Twórz dobrej jakości treści. Wykorzystaj te pytania.{#tresci}
+
 {{< rawhtml >}}
 <ul id="kluczowe-pytania">
 <li> <strong>Kto jest adresatem Twojego przesłania?</strong>
@@ -80,9 +83,9 @@ Trzeba zdefiniować swój target, czyli ludzi, do których się zwracamy. Stwór
 </p>
 <li > <strong>Co chcesz napisać?</strong>
 <p>
-  Warto mieć w głowie jasny i precyzyjny przekaz, z którym chcesz się podzielić. Usystematyzuj informację i wybierz te, który w łatwy sposób przeprowadzą Twojego czytelnika z punktu A do punktu B.
+Warto mieć w głowie jasny i precyzyjny przekaz, z którym chcesz się podzielić. Usystematyzuj informację i wybierz te, który w łatwy sposób przeprowadzą Twojego czytelnika z punktu A do punktu B.
 
-  Weź pod uwagę, że na bloga często ludzie trafiają ze swoich zapytań w internecie, jeżeli trafiają na Twoją stronę, weź pod uwagę, że oczekują konkretów.
+Weź pod uwagę, że na bloga często ludzie trafiają ze swoich zapytań w internecie, jeżeli trafiają na Twoją stronę, weź pod uwagę, że oczekują konkretów.
 </p>
 </li>
 <li> <strong>Po co piszesz ten wpis? Co nim chcesz osiągnąć?</strong>
@@ -95,6 +98,7 @@ Z innych zaleceń, powinieneś zadbać także o pisanie zgodne z wytycznymi SEO.
 </li>
 </ul>
 {{< /rawhtml >}}
+
 ### 2. Jak być wyżej w Google? {#seo}
 
 Roboty nieprzerwanie analizują wszystkie strony internetowe, nadając im pewnego rodzaju ocenę. To coś w stylu jury, które po zakończonym występie wskazuje - co zrobiłeś dobrze, a co jest do poprawy. W tym artykule nie będziemy się skupiać na optymalizacji całej strony, a tylko na poszczególnych artykułach. Czyli co w nich zrobić, aby pomagały nam one w pozycjonowaniu strony.
