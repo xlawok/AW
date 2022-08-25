@@ -2338,18 +2338,18 @@ form#mcontactform {
             position: relative;
             top: -5rem;
             padding: 2rem;
-        }
-        &::before {
-            content: url('https://agencjawroclawska.pl/uploads/sygnet-aw.svg');
-            width: 15vh;
-            padding-top: 2rem;
-            position:
-            absolute;
-            top: -31vh;
-            background:
-            transparent;
-            left: 50%;
-            transform: translatex(-50%);
+            &::before {
+                content: url('https://agencjawroclawska.pl/uploads/sygnet-aw.svg');
+                width: 15vh;
+                padding-top: 2rem;
+                position:
+                absolute;
+                top: -31vh;
+                background:
+                transparent;
+                left: 50%;
+                transform: translatex(-50%);
+            }
         }
     }
 }
