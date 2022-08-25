@@ -188,6 +188,9 @@ sections:
   - obrazek: "/uploads/maciej-side.webp"
     my_name: Maciek
     stanowisko: Junior SEO Expert
+  - obrazek: "/uploads/julia-2-side.webp"
+    my_name: Julia
+    stanowisko: Junior SEO Expert
   - obrazek: "/uploads/agata-side.webp"
     my_name: Agata
     stanowisko: Copywriter
