@@ -2351,17 +2351,17 @@ form#mcontactform {
                 transform: translatex(-50%);
             }
             &::after {
+                content: url(https://agencjawroclawska.pl/uploads/smoke.svg);
+                width: 70%;
+                padding-top: 2rem;
+                position: absolute;
                 top: -3.5rem;
+                background: 0 0;
+                left: 50%;
+                transform: translatex(-50%);
+                z-index: -1;
                 @media (min-width:768px){
-                        content: url(https://agencjawroclawska.pl/uploads/smoke.svg);
-                        width: 70%;
-                        padding-top: 2rem;
-                        position: absolute;
                         top: -5.5rem;
-                        background: 0 0;
-                        left: 50%;
-                        transform: translatex(-50%);
-                        z-index: -1;
                 }
             }
         }
