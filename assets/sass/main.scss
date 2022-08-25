@@ -2300,7 +2300,7 @@ form#mcontactform {
     min-height: 60vh;
     background-image: url(https://agencjawroclawska.pl/uploads/aw-grafiki12345-big-back-simple.jpg);
     background-size: cover;
-    background-position-y: 125%;
+    background-position-y: 160%;
     background-attachment: fixed;
     background-position-x: 55%;
     background-repeat: no-repeat;
@@ -2349,6 +2349,17 @@ form#mcontactform {
                 transparent;
                 left: 50%;
                 transform: translatex(-50%);
+            }
+            &::after {
+                content: url(https://agencjawroclawska.pl/uploads/smoke.svg);
+                width: 70%;
+                padding-top: 2rem;
+                position: absolute;
+                top: -5.5rem;
+                background: 0 0;
+                left: 50%;
+                transform: translatex(-50%);
+                z-index: -1;
             }
         }
     }
