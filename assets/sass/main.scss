@@ -2288,12 +2288,20 @@ form#mcontactform {
 
 .o-nas {
     .sc-banner-center-img .center-banner-cnt {
-        max-height: 100vw;
+        /*max-height: 100vw;
         min-height: 80vh;
       background-image: url(https://agencjawroclawska.pl/uploads/aw-grafiki12345-big.jpg);
         background-size: cover;
         background-position-y: 125%;
         background-attachment: fixed;
+    background-position-x: 55%;
+    background-repeat: no-repeat;*/
+    max-height: 100vw;
+    min-height: 60vh;
+    background-image: url(https://agencjawroclawska.pl/uploads/aw-grafiki12345-big-back-simple.jpg);
+    background-size: cover;
+    background-position-y: 125%;
+    background-attachment: fixed;
     background-position-x: 55%;
     background-repeat: no-repeat;
     }
@@ -2325,7 +2333,25 @@ form#mcontactform {
         clip-path: url(#my-clip-path);
         background: var(--white);
     }
-    
+    .sc-banner-center-img{
+        .box-below-banner{
+            position: relative;
+            top: -5rem;
+            padding: 2rem;
+        }
+        &::before {
+            content: url('https://agencjawroclawska.pl/uploads/sygnet-aw.svg');
+            width: 15vh;
+            padding-top: 2rem;
+            position:
+            absolute;
+            top: -31vh;
+            background:
+            transparent;
+            left: 50%;
+            transform: translatex(-50%);
+        }
+    }
 }
 
 .home {
