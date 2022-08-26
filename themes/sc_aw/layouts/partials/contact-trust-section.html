@@ -345,7 +345,7 @@ document.getElementById('star3').dataset.votes=star3;
 document.getElementById('star4').dataset.votes=star4;
 document.getElementById('star5').dataset.votes=star5;
 document.getElementById('count_votes_kontakt').innerHTML=count_votes_kontakt;
-const structuredDataText='{"@context": "https://schema.org/","@type": "CreativeWorkSeries","name": "'+ {{$.Params.tytul_do_listowania | safeHTML}} + '","aggregateRating": {"@type": "AggregateRating","ratingValue": "' + count_it + '","bestRating": "5","ratingCount": "' + count_votes_kontakt + '"}}';
+const structuredDataText='{"@context": "https://schema.org/","@type": "CreativeWorkSeries","name": "Kontakt - Agencja Wrocławska","aggregateRating": {"@type": "AggregateRating","ratingValue": "' + count_it + '","bestRating": "5","ratingCount": "' + count_votes_kontakt + '"}}';
 const script = document.createElement('script');
 // script.setAttribute('type', 'application/ld+json');
 script.type = 'application/ld+json';
