@@ -33,9 +33,16 @@
       <ul>
       {{range .}}
         {{$tytul_odnosnika:=.tytul_odnosnika}}
-        {{ with site.GetPage .adres_odnosnika }}
-            
+        {{if .artykul_bloga}}
+
+          {{ with site.GetPage .adres_odnosnika_bloga }}
             <li><a href="{{.RelPermalink}}">{{$tytul_odnosnika}}</a></li>
+          {{end}}
+        {{else}}
+          {{ with site.GetPage .adres_odnosnika }}
+              
+              <li><a href="{{.RelPermalink}}">{{$tytul_odnosnika}}</a></li>
+          {{end}}
         {{end}}
         
       {{end}}

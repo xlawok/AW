@@ -21,10 +21,6 @@ druga_kolumna:
 - wybierz_odnosniki: konsultacje-seo.md
   tytul_odnosnika: Konsultacje SEO
 trzecia_kolumna:
-- adres_odnosnika: []
-  tytul_odnosnika: ''
-  artykul_bloga: false
-  adres_odnosnika_bloga: ''
 - adres_odnosnika: o-nas.md
   tytul_odnosnika: O nas
   artykul_bloga: false
@@ -37,6 +33,10 @@ trzecia_kolumna:
   tytul_odnosnika: Kampanie TikTok
   artykul_bloga: true
   adres_odnosnika_bloga: blog/w-jaki-sposob-wypromowac-swoj-sklep-online-na-tiktoku.md
+- adres_odnosnika: []
+  tytul_odnosnika: Pozycjonowanie Niemcy
+  artykul_bloga: true
+  adres_odnosnika_bloga: blog/pozycjonowanie-niemcy-o-czym-warto-pamietac-agencja-wroclawska.md
 wiersz_dolny:
   tekst: "<p>© 2022 Agencja Wrocławska Sp. z o.o. Wszelkie prawa zastrzeżone</p>"
 czwarta_kolumna:
