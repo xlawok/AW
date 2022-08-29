@@ -72,6 +72,21 @@ fields:
     config:
       required: false
     label: Tytuł odnośnika
+  - name: artykul_bloga
+    type: boolean
+    label: Artykuł bloga
+  - name: adres_odnosnika_bloga
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: blog
+        file: 
+        path: 
+    label: Adres odnośnika bloga
   config:
     min: 
     max: 
