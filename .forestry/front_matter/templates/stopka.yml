@@ -87,6 +87,9 @@ fields:
         file: 
         path: 
     label: Adres odnośnika bloga
+    showOnly:
+      field: artykul_bloga
+      value: true
   config:
     min: 
     max: 
