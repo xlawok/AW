@@ -173,9 +173,6 @@ sections:
   - obrazek: "/uploads/robert-side.webp"
     my_name: Robert
     stanowisko: Google Ads Manager
-  - obrazek: "/uploads/julia-side.webp"
-    my_name: Julia
-    stanowisko: Social Media Manager
   - obrazek: "/uploads/wladek-side.webp"
     my_name: Władek
     stanowisko: SEO Manager
