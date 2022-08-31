@@ -2366,6 +2366,20 @@ form#mcontactform {
             }
         }
     }
+    &.dark-m{
+        .sc-banner-center-img{
+            .box-below-banner{
+                &::before{
+                    background: transparent;
+                }
+            }
+            .center-banner-cnt{
+                &::after{
+                    #242424
+                }
+            }
+        }
+    }
 }
 
 .home {
