@@ -1438,6 +1438,7 @@ form#contactform,form#mcontactform{
     flex-wrap: wrap;
     justify-content:space-between;
     padding-top: 3rem;
+    flex-direction: row-reverse;
     @media (min-width: 768px){
       padding-top: 5rem;
     }
@@ -2357,7 +2358,7 @@ form#contactform,form#mcontactform{
   }
   .sc-banner-wide .banner-img {
     @media (min-width: 768px) {
-      transform: translateY(-4em);
+      transform: translateY(-17em) scalex(-1);
     }
     
   }
