@@ -1553,7 +1553,18 @@ form#mcontactform {
         }
     }
 }
-
+.header-social-list{
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    li{
+        display: inline-block;
+        img{
+            width: 20px;
+            margin: 0 .5rem;
+        }
+    }
+}
 .sc-banner-w-bubbles {
     position: relative;
     @media (min-width: 768px) {

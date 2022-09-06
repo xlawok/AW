@@ -13,6 +13,20 @@
             <a class='mail-link' href="mailto:{{.Site.Params.header_adres_email}}">
                 {{.Site.Params.header_adres_email}}
             </a>
+            <ul class='header-social-list'>
+                {{range .}}
+                 
+                 
+                      
+                      <li><a rel='nofollow' href="{{.adres_odnosnika}}">
+                        <img class='lmode ' src='{{.ikona}}'>
+                        <img class='dmode' src='{{.ikona_dark}}'>
+          
+                      </a></li>
+                 
+                  
+                {{end}}
+                </ul>
  
         </div>
         <nav class='below-row'>
