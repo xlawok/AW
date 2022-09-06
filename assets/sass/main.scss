@@ -1559,7 +1559,7 @@ header{
     display: inline-block;
     margin: 0;
     li{
-        $:nth-child(2){
+        &:nth-child(2){
             height: 20px;
         }
         display: inline-block;
