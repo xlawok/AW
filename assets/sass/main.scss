@@ -1559,13 +1559,15 @@ header{
     display: inline-block;
     margin: 0;
     li{
-        &:nth-child(2){
-            height: 20px;
-        }
         display: inline-block;
         img{
             width: 20px;
             margin: 0 .5rem;
+        }
+        &:nth-child(2){
+            img{
+            height: 20px;
+            }
         }
     }
 }
