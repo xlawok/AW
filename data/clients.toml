@@ -26,7 +26,7 @@ if_svg = false
 client_url = "https://wroclawskiejedzenie.pl/"
 client_url_title = "https://wroclawskiejedzenie.pl/"
 clinet_logo = "/uploads/wpk-logo.jpg"
-czy_nofollow = false
+czy_nofollow = true
 if_svg = false
 [[clients_list]]
 client_url = "https://4ti.com.pl"
@@ -56,7 +56,7 @@ if_svg = false
 client_url = "https://costa.pl/"
 client_url_title = "https://costa.pl/"
 clinet_logo = "/uploads/costa-logo.jpg"
-czy_nofollow = false
+czy_nofollow = true
 if_svg = false
 [[clients_list]]
 client_url = "https://wsm24.pl/"
@@ -68,7 +68,7 @@ if_svg = false
 client_url = "https://kochamwroclaw.pl/"
 client_url_title = "https://kochamwroclaw.pl/"
 clinet_logo = "/uploads/kochamwroclaw-logo.jpg"
-czy_nofollow = false
+czy_nofollow = true
 if_svg = false
 [[header_repeater]]
 block_tag_type = "h3"
