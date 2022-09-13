@@ -38,7 +38,7 @@ if_svg = false
 client_url = "http://www.comfortplus.pl/"
 client_url_title = "http://www.comfortplus.pl/"
 clinet_logo = "/uploads/comfortplus-logo-aw.jpg"
-czy_nofollow = false
+czy_nofollow = true
 if_svg = false
 [[clients_list]]
 client_url = "https://www.multivoucher.pl/"
