@@ -5,7 +5,7 @@ keywords = ""
 og_image = ""
 robots = "index follow"
 slug = "kontakt"
-title = "Kontakt - SEO Wrocław - 792 789 836 | Agencja Wrocławska"
+title = "Kontakt | Agencja Wrocławska"
 [menu.main]
 name = "Kontakt"
 weight = 6
