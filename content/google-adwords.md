@@ -3,9 +3,9 @@ body_class = "set-counter g-ads"
 description = "Kampanie Google ADS to pewne źródło pozyskania ruchu z Google! Ustal z naszym specjalistom budżet oraz uzyskaj wycenę na realizację Kampanii Google Adwords!"
 keywords = ""
 og_image = ""
-robots = "index, follow"
+robots = ""
 slug = "google-adwords"
-title = "Kampanie Google Ads, Google Adwords | Agencja Wrocławska"
+title = "Kampanie Google Ads | Agencja Wrocławska"
 [menu.main]
 name = "Google Adwords"
 weight = 2
