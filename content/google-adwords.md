@@ -1,11 +1,11 @@
 +++
 body_class = "set-counter g-ads"
-description = "Google ADS to pewne źródło pozyskania ruchu z Google! Ustal z naszym specjalistom budżet oraz uzyskaj wycenę na realizację Kampanii Google Adwords!"
+description = "Kampanie Google ADS to pewne źródło pozyskania ruchu z Google! Ustal z naszym specjalistom budżet oraz uzyskaj wycenę na realizację Kampanii Google Adwords!"
 keywords = ""
 og_image = ""
 robots = "index follow"
 slug = "google-adwords"
-title = "Google adwords | Agencja Wrocławska"
+title = "Kampanie Google Ads, Google Adwords | Agencja Wrocławska"
 [menu.main]
 name = "Google Adwords"
 weight = 2
@@ -39,7 +39,7 @@ naglowek_formularza = ""
 naglowek_formularza_no_img = ""
 naglowek_formularza_no_img_num = "Formularz kontaktowy"
 opis_banner = ""
-opis_banner_num = "<h2 class='header-counter txt-XL'>Co to jest Google Ads?</h2><ul class='no-img-banner-list'><li>System reklamowy umożliwiający prowadzenie kampanii promujących marki, produkty, usługi. </li><li>Cały system obejmuje nie tylko samą wyszukiwarkę, ale także sieć partnerską Google</li><li>System obejmuje różnego rodzaju reklamy min reklamy tekstowe, graficzne oraz video.</li></ul>"
+opis_banner_num = "<strong>Kampanie Google Ads</strong> - czym są? System reklamowy umożliwiający prowadzenie kampanii promujących marki, produkty, usługi. Cały system obejmuje nie tylko samą wyszukiwarkę, ale także sieć partnerską GoogleSystem obejmuje różnego rodzaju reklamy min reklamy tekstowe, graficzne oraz video."
 otworz_modal = ""
 otworz_modal_num = "<div class=\"form-header\">Zamów bezpłatną wycenę w 24h!</div>\n<form id=\"contactform\" action=\"https://formsubmit.io/send/kontakt@agencjawroclawska.pl\" method=\"POST\">\n<div class='input-cnt'>\n <input required name=\"email\" type=\"email\" id=\"email\" placeholder=\"Adres e-mail\"><label for='email'> Adres e-mail</label>\n</div>\n<div class='input-cnt'>\n    <input name=\"www\" type=\"text\" id=\"www\" placeholder=\"Adres strony www\"><label for='www'>Adres strony www</label>\n</div>\n<div class='input-cnt'>\n    <input  required name=\"phone\" type=\"tel\" id=\"phone\" placeholder=\"Numer telefonu\"><label for='phone'>Numer telefonu</label>\n   </div>\n   <div>\n<span class='radio-cnt-title'>Wybierz temat zapytania</span>\n <div class='form-radio'>\n\n  <input type=\"radio\" id=\"optimization\" name=\"question\" value=\"optymalizacja\"\n         ><label for=\"optimization\">\nOptymalizacja strony WWW </label>\n</div>\n <div class='form-radio'>\n \n  <input type=\"radio\" id=\"positoning\" name=\"question\" value=\"pozyjnonowanie\"\n         ><label for=\"positoning\">Pozycjonowanie\n </label>\n</div>\n <div class='form-radio'>\n \n  <input type=\"radio\" id=\"consulting\" name=\"question\" value=\"konsultacje\"\n         ><label for=\"consulting\">Konsultacje SEO\n </label>\n</div>\n</div>\n\n    <input name=\"_formsubmit_id\" type=\"text\" style=\"display:none\">\n\n    <button  type=\"submit\">Wyślij zapytanie</button>\n<div class='rodo'>\n<input id='rodo-accept' type='checkbox' required name='rodo-accept' value='accept'/>\n<label for='rodo-accept'>Administratorem Twoich danych osobowych, czyli podmiotem decydującym o celach i sposobach przetwarzania Twoich danych osobowych jest Agencja Wrocławska. Informujemy, że podanie danych osobowych zawartych w formularzu jest dobrowolne, ale niezbędne do skutecznego nawiązania kontaktu z Administratorem, jak również przysługują Ci prawa dostępu do Twoich danych osobowych, ich zmiany (w tym aktualizacji), a także pozostałe prawa opisane w Polityce prywatności. W Polityce prywatności znajdują się także szczegółowe informację w zakresie praw i obowiązków Administratora.\n</label>\n</div>\n</form>"
 tekst_pod_naglowkiem = ""
