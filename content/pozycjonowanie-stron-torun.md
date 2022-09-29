@@ -1,10 +1,10 @@
 +++
 body_class = "case-study"
-description = "Case study Agencji Wrocławskiej"
+description = "Pozycjonowanie stron internetowych - Toruń"
 keywords = ""
 robots = "index follow"
-slug = "case-study"
-title = "Case study | Agencja Wrocławska"
+slug = "pozycjonowanie-stron-torun"
+title = "Pozycjonowanie stron - Toruń | Agencja Wrocławska"
 [menu.main]
 name = "Pozycjonowanie stron - Toruń"
 parent = "O nas"
@@ -40,7 +40,7 @@ bold_txt = "gruby"
 break_line = false
 color_txt = "biały"
 ornament = "brak"
-txt_block = "Case study Agencja Wrocławska"
+txt_block = "Pozycjonowanie stron - Toruń"
 txt_block_size = "XXL"
 underline = false
 [sections.banner_slogan]
