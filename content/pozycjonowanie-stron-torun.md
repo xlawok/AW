@@ -8,7 +8,7 @@ title = "Pozycjonowanie stron - Toruń | Agencja Wrocławska"
 [menu.main]
 name = "Pozycjonowanie stron - Toruń"
 parent = "O nas"
-weight = 2
+weight = 4
 [[sections]]
 banner_bg_for_center_left = ""
 banner_bg_for_center_left_dark = ""
