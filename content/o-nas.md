@@ -155,9 +155,6 @@ sections:
       txt_block_size: XL
 - template: sekcja-o-nas-druzyna-pierscienia
   section_team_group:
-  - obrazek: "/uploads/aleksandra-front.jpg"
-    my_name: Aleksandra
-    stanowisko: Project Manager
   - obrazek: "/uploads/bartek-1-side.webp"
     my_name: Bartek
     stanowisko: Head of Marketing
@@ -179,6 +176,12 @@ sections:
   - obrazek: "/uploads/wladek-side.webp"
     my_name: Władek
     stanowisko: SEO Manager
+  - obrazek: "/uploads/aleksandra-front.jpg"
+    my_name: Aleksandra
+    stanowisko: Project Manager
+  - obrazek: "/uploads/damian-side.webp"
+    my_name: Damian
+    stanowisko: Project Manager
   - obrazek: "/uploads/bartek-2-side.webp"
     my_name: Bartłomiej
     stanowisko: SEO Expert
@@ -200,9 +203,6 @@ sections:
   - obrazek: "/uploads/maria-side.webp"
     my_name: Maria
     stanowisko: Head of Administration
-  - obrazek: "/uploads/damian-side.webp"
-    my_name: Damian
-    stanowisko: Project Manager
   - obrazek: "/uploads/ola-side.webp"
     my_name: Ola
     stanowisko: Key Account Manager
