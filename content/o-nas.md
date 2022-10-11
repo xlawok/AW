@@ -155,6 +155,9 @@ sections:
       txt_block_size: XL
 - template: sekcja-o-nas-druzyna-pierscienia
   section_team_group:
+  - obrazek: "/uploads/aleksandra-front.jpg"
+    my_name: Aleksandra
+    stanowisko: Project Manager
   - obrazek: "/uploads/bartek-1-side.webp"
     my_name: Bartek
     stanowisko: Head of Marketing
