@@ -110,7 +110,7 @@ adres_do_linkowania = "kontakt@agencjawroclawska.pl"
 if_link = "mail"
 wiersz_danych_adresowych = "kontakt@agencjawroclawska.pl"
 [[sections.contact_data_contact_group.lewa_kolumna.header_repeater]]
-block_tag_type = "h2"
+block_tag_type = "h3"
 bold_txt = "gruby"
 break_line = false
 color_txt = "czarny"
