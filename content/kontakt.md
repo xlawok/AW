@@ -1,6 +1,6 @@
 +++
 body_class = "kontakt"
-description = "O agencji wrocławskiej dane kontaktowe"
+description = "Otrzymaj bezpłatną wycenę SEO i ADS od Agencji Wrocławskiej. Skontaktuj się i omów swój projekt z dedykowanym specjalistom."
 keywords = ""
 og_image = ""
 robots = "index follow"
