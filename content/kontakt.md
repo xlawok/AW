@@ -102,9 +102,9 @@ adres_do_linkowania = ""
 if_link = "none"
 wiersz_danych_adresowych = "50-203 Wrocław"
 [[sections.contact_data_contact_group.lewa_kolumna.dane_adresowe]]
-adres_do_linkowania = "+48734131950"
+adres_do_linkowania = "+48530554037"
 if_link = "tel"
-wiersz_danych_adresowych = "+48 734 131 950"
+wiersz_danych_adresowych = "+48 530 554 037"
 [[sections.contact_data_contact_group.lewa_kolumna.dane_adresowe]]
 adres_do_linkowania = "kontakt@agencjawroclawska.pl"
 if_link = "mail"
