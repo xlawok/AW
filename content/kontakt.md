@@ -80,7 +80,7 @@ opis = ""
 [[sections]]
 template = "sekcja-strona-kontakt-dane-kontaktowe"
 [sections.contact_data_contact_group]
-embed_mapka_google = "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4213.185083777265!2d17.037112943370676!3d51.10523426511334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fc372231635e5%3A0x3004a0fd5f69f7cf!2sAgencja%20Wroc%C5%82awska%20-%20SEO%2FSEM!5e0!3m2!1spl!2spl!4v1616422558316!5m2!1spl!2spl\" width=\"800\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
+embed_mapka_google = "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2504.5009972969337!2d17.020495099999998!3d51.1176663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fc372231635e5%3A0x3004a0fd5f69f7cf!2sAgencja%20Wroc%C5%82awska%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1665652296441!5m2!1spl!2spl\" width=\"800\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
 [sections.contact_data_contact_group.lewa_kolumna]
 adres_email = "j.horbacz@agencjawroclawska.pl"
 dane_rejestrowe = "NIP: 8971882219 <br>REGON: 386840471 <br>KRS 0000856500 <br>Sąd Rejonowy dla Wrocław - Fabryczna <br>VI Wydział Gospodarczy <br>Krajowego Rejestru Sądowego"
