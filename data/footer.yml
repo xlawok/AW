@@ -38,7 +38,8 @@ trzecia_kolumna:
   artykul_bloga: true
   adres_odnosnika_bloga: blog/pozycjonowanie-niemcy-o-czym-warto-pamietac-agencja-wroclawska.md
 wiersz_dolny:
-  tekst: "<p>© 2022 Agencja Wrocławska Sp. z o.o. Wszelkie prawa zastrzeżone</p>"
+  tekst: <p>© 2022 Agencja Wrocławska Sp. z o.o. Wszelkie prawa zastrzeżone | <a href="/polityka-prywatnosci"
+    title="">Polityka prywatności</a></p>
 czwarta_kolumna:
 - ikona: "/uploads/linkedin-in.svg"
   adres_odnosnika: https://www.linkedin.com/company/agencja-wrocławska/
