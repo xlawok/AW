@@ -16,7 +16,7 @@ break_line = false
 color_txt = "czarny"
 ornament = "brak"
 txt_block = "Polityka prywatności"
-txt_block_size = "XXL"
+txt_block_size = "L"
 underline = false
 
 +++
