@@ -6705,11 +6705,39 @@ body:not(.kontakt) .trust-us-wrapper {
         margin-bottom: 3rem;
     }
     .form-bottom-contact {
+        .map-wrapper{
+            .star-cnt{
+                padding-top: 2rem;
+            }
+        }
         @media (min-width: 768px) {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-gap: 2rem;
             align-items: center;
+            .map-wrapper{
+                grid-column: 1 /span 2;
+            }
+        }
+        @media (min-width: 1800px) {
+            grid-template-columns:  2fr 1fr 2fr;
+            >div:nth-child(2){
+                padding-right: 1rem;
+                padding-bottom: 5rem;
+            }
+            .map-wrapper{
+                grid-column: unset;
+                iframe{
+                    padding-top: 1rem;
+                }
+                
+            }
+        }
+        @media (min-width: 2560px) {
+            grid-template-columns:  2fr 1fr 1fr;
+            >div:nth-child(2){
+                padding-right: 0;
+            }
         }
     }
     .case-numbers-last::after {

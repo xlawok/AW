@@ -1,0 +1,144 @@
+<div id="aw-faq-generator-wrapper">
+    
+</div>
+<script>
+  if (document.readyState === "complete" || document.readyState === "interactive") {
+
+    var faq_wrapper=document.getElementById('aw-faq-generator-wrapper');
+
+    if(typeof faq_wrapper !=="undefined" ){
+      let faq_left = document.createElement('div');
+      let faq_right = document.createElement('div');
+      let faq_group = document.createElement('ul');
+      let faq_item = document.createElement('li');
+      let question = document.createElement('input');
+      let removebtn = document.createElement('button');
+      let addbtn = document.createElement('button');
+      let cpbtn = document.createElement('button');
+      let answer = document.createElement('textarea');
+      let faq_schema = document.createElement('textarea');
+      question.type = "text";
+      question.placeholder = "Pytanie";
+      answer.placeholder = "odpowiedź";
+      removebtn.textContent="Usuń";
+      addbtn.textContent="Dodaj pytanie";
+      cpbtn.textContent="Skopiuj"
+      // div.appendChild(text);
+      faq_item.appendChild(question);
+      faq_item.appendChild(answer);
+      faq_item.appendChild(removebtn);
+      faq_wrapper.appendChild(faq_left);
+      faq_wrapper.appendChild(faq_right);
+      faq_left.appendChild(faq_group);
+      faq_group.appendChild(faq_item);
+      
+      faq_left.appendChild(addbtn);
+      faq_right.appendChild(faq_schema);
+      faq_right.appendChild(cpbtn);
+      
+      var fqlist=list_faq_items('#aw-faq-generator-wrapper ul li');
+      item_functionality('#aw-faq-generator-wrapper ul li',fqlist);
+      
+      addbtn.addEventListener('click',function(e){
+        let another_item=faq_item.cloneNode(true);
+        another_item.querySelector('input').value="";
+        another_item.querySelector('textarea').value="";
+        faq_group.appendChild( another_item);
+        item_functionality('#aw-faq-generator-wrapper ul li',fqlist);
+      });
+      cpbtn.onclick = function(){
+        faq_schema.select();
+        document.execCommand('copy');
+      }
+       var schema_arr = {
+              "@context":"https://schema.org",
+              "@type":"FAQPage",
+              "mainEntity": []
+          };
+  //     schema_arr.mainEntity.push({"@type":"Question","name":"hjh","acceptedAnswer":{"@type":"Answer","text":"gggg"}})
+    }
+   }
+  function list_faq_items(wrapper){
+    let faq_list=document.querySelectorAll(wrapper);
+    return faq_list;
+    
+  }
+  
+  function item_functionality(fqselector,fqlist){
+      fqlist=list_faq_items(fqselector);
+    for (let i = 0, len = fqlist.length; i < len; i++) {
+      fqlist[i].querySelector('button').addEventListener('click',function(e){
+        this.parentElement.remove();
+        fqlist=list_faq_items(fqselector);
+  //       console.log(fqlist);
+        build_schema(schema_arr,"del",fqlist);
+      });
+      fqlist[i].querySelector('input').addEventListener('change',function(e){
+  //       fqlist=list_faq_items(fqselector);
+        build_schema(schema_arr,"add",fqlist);
+        
+      });
+    }
+    
+  }
+  
+   function build_schema(faq_ar,add_or_del,fqlist){
+     faq_ar.mainEntity=[];
+  //    console.log(fqlist.length);
+     for (let i = 0, len = fqlist.length; i < len; i++) {
+       faq_ar.mainEntity[i]={"@type":"Question","name":fqlist[i].querySelector('input').value,"acceptedAnswer":{"@type":"Answer","text":fqlist[i].querySelector('textarea').value}};
+     }
+  
+     document.querySelector('#aw-faq-generator-wrapper >div > textarea').innerHTML='<script type="application/ld+json">'+JSON.stringify(faq_ar, undefined, 4) + '</script>';
+  }
+  
+  ///document.querySelector('#aw-faq-generator-wrapper >div > textarea').innerHTML=JSON.stringify(schema_arr, undefined, 4);
+  
+  
+  
+  
+  
+
+</script>
+<style>
+
+    #aw-faq-generator-wrapper {
+        display: grid;
+        
+        grid-template-columns: 1fr;
+        padding: 0;
+        gap: 1rem;
+      }
+      #aw-faq-generator-wrapper >button{
+         width: max-content;
+        margin-bottom: 2rem;
+      }
+      #aw-faq-generator-wrapper ul{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+      }
+      #aw-faq-generator-wrapper >div>textarea{
+        width: 100%;
+      }
+      #aw-faq-generator-wrapper ul li{
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 1rem 0;
+      }
+      #aw-faq-generator-wrapper ul li >*{
+        margin-bottom: .5rem;
+      }
+      #aw-faq-generator-wrapper ul li button{
+        width: max-content;
+      }
+      @media (min-width: 768px) {
+        #aw-faq-generator-wrapper {
+            
+            
+            grid-template-columns: 1fr 1fr;
+            
+        }
+    }
+</style>
