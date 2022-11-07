@@ -52,21 +52,37 @@
     {{with .czwarta_kolumna}}
     <div class='fourth-col'>
       <p class="footer-header">Narzędzia:</p>
-      <!--<ul class='footer-social-list'>
+      <ul class='footer-tools-list'>
+        {{range .}}
+         
+         {{ if .adres_odnosnika_w}}
+         {{$tytul_odnosnika:=.tytul_odnosnika}}
+         {{ with site.GetPage .adres_odnosnika_w }}
+            
+            <li><a href="{{.RelPermalink}}">{{$tytul_odnosnika}}</a></li>
+        {{end}}
+                
+  
+              </a></li>
+         {{ end }}
+          
+        {{end}}
+        </ul>
+     <!-- <ul class='footer-social-list'>
       {{range .}}
        
-       
+       {{ if .adres_odnosnika}}
             
             <li><a rel='nofollow' href="{{.adres_odnosnika}}">
               <img class='lmode ' src='{{.ikona}}'>
               <img class='dmode' src='{{.ikona_dark}}'>
 
             </a></li>
-       
+       {{ end }}
         
       {{end}}
-      </ul>
-    -->
+      </ul>-->
+    
     </div>
     {{end}}
   </div>

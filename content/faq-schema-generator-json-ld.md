@@ -1,18 +1,18 @@
 +++
 body_class = "faq-schema-generator"
-description = "FAQ schema generator"
-draft = true
-form_title = "FAQ schema generator"
+description = "FAQ generator schema"
+draft = false
+form_title = "FAQ generator schema"
 keywords = ""
 og_image = ""
-robots = "noindex nofollow"
+robots = "index follow"
 slug = "faq-schema-generator"
-title = "FAQ schema generator JSON-LD | Agencja Wrocławska"
-title_naglowek = "FAQ schema generator JSON-LD"
+title = "FAQ generator schema JSON-LD | Agencja Wrocławska"
+title_naglowek = "FAQ generator schema JSON-LD"
 [[sections]]
-form_title = "FAQ schema generator"
+form_title = "FAQ generator schema"
 template = "tools-faq"
-title = "FAQ schema generator JSON-LD"
-title_naglowek = "FAQ schema generator JSON-LD"
+title = "FAQ generator schema JSON-LD"
+title_naglowek = "FAQ generator schema JSON-LD"
 
 +++
