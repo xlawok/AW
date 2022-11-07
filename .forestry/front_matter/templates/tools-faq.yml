@@ -18,5 +18,3 @@ fields:
   config:
     required: false
   label: tytuł formularza
-pages:
-- content/faq-schema-generator-json-ld.md

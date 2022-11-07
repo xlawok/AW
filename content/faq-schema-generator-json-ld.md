@@ -6,9 +6,13 @@ form_title = "FAQ schema generator"
 keywords = ""
 og_image = ""
 robots = "noindex nofollow"
-sections = []
 slug = "faq-schema-generator"
 title = "FAQ schema generator JSON-LD"
 title_naglowek = "FAQ schema generator JSON-LD"
+[[sections]]
+form_title = ""
+template = "tools-faq"
+title = ""
+title_naglowek = ""
 
 +++
