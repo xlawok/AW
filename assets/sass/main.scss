@@ -6724,12 +6724,13 @@ body:not(.kontakt) .trust-us-wrapper {
             >div:nth-child(2){
                 padding-right: 1rem;
                 padding-bottom: 5rem;
+                align-self: start;
             }
             .map-wrapper{
                 grid-column: unset;
-                iframe{
-                    padding-top: 1rem;
-                }
+                // iframe{
+                //     padding-top: 1rem;
+                // }
                 
             }
         }
