@@ -87,13 +87,13 @@ fields:
   - sekcja-czerwony-box-srodek
   - gads-2-dlaczegowarto
   - gads-miarka
+  - tools-faq
   config:
     min: 
     max: 
 pages:
 - content/_index.md
 - content/case-study-agencja-wroclawska.md
-- content/faq-schema-generator-json-ld.md
 - content/google-adwords.md
 - content/konsultacje-seo.md
 - content/kontakt.md
