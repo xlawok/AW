@@ -7,7 +7,7 @@ keywords = ""
 og_image = ""
 robots = "noindex nofollow"
 slug = "faq-schema-generator"
-title = "FAQ schema generator JSON-LD"
+title = "FAQ schema generator JSON-LD | Agencja Wrocławska"
 title_naglowek = "FAQ schema generator JSON-LD"
 [[sections]]
 form_title = "FAQ schema generator"

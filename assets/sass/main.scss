@@ -9455,3 +9455,120 @@ body:not(.home):not(.list) {
         }
     }
 }
+.faq-schema-generator.single{
+    main{
+        section{
+            background: #f2f2f2 no-repeat padding-box;
+            padding-bottom: 4rem;
+            @media (min-width: 992px){
+                padding-top: 5rem;
+                
+              }
+        }
+    }
+}
+
+#aw-faq-generator-wrapper {
+    display: grid;
+    
+    grid-template-columns: 1fr;
+    padding: 0;
+    gap: 1rem;
+    input,textarea{
+        border-left: 1px solid #707070;
+        border-right: 1px solid #707070;
+        border-bottom: 1px solid #707070;
+        border-top: 0;
+        width: 100%;
+        background: 0 0;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        padding: 8px 12px;
+        outline: 0;
+        margin-top: 1rem;
+        
+    }
+    button{
+        font-size: var(--size-S);
+        cursor: pointer;
+        position: relative;
+        
+        border-radius: .5rem;
+        color: var(--white);
+        background-color: var(--red);
+        padding: .85rem;
+        border: 0;
+        font-weight: 700;
+        margin-top: .7rem;
+        opacity: 1;
+        font-family: var(--base-font);
+        transition: background-color .2s ease,color .2s ease;
+    }
+    >button{
+        width: max-content;
+       margin-bottom: 2rem;
+     }
+    ul{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    textarea{
+        height: 5rem;
+    }
+    >div>textarea{
+        width: 100%;
+    }
+    ul li{
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 1rem 0;
+        button{
+            width: max-content;
+          }
+        >*{
+            margin-bottom: .5rem;
+        }
+    }
+    >div:nth-child(1){
+        // padding-top: 4rem;
+        p{
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+    }
+    >div:nth-child(2){
+        p{
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        textarea{
+            height: 10rem;
+        }
+    }
+    @at-root body.dark-m #aw-faq-generator-wrapper p{
+        color: var(--main-dark-color);
+    }
+    @media (min-width: 768px) {
+  
+        
+        
+        grid-template-columns: 1fr 1fr;
+        
+  }
+  @media (min-width: 992px){
+    padding-top: 5rem;
+    
+  }
+  
+
+  
+  
+
+}
+footer .footer-header{
+    font-weight: bold;
+}

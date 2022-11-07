@@ -108,6 +108,23 @@ fields:
     config:
       required: false
     label: Adres odnośnika
+  - name: adres_odnosnika_w
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: pages
+        file: 
+        path: 
+    label: Adres odnośnika wewnętrzny
+  - name: tytul_odnosnika
+    type: text
+    config:
+      required: false
+    label: Tytuł odnośnika
   - name: ikona_dark
     type: file
     config:

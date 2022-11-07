@@ -124,7 +124,9 @@
     {{if eq .template "gads-miarka"}}
       {{- partial "gads-miarka.html" . -}}
     {{end}}
-    
+    {{if eq .template "tools-faq"}}
+      {{- partial "faq_generator.html" . -}}
+    {{end}}
   {{ end }}
   
 

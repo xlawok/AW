@@ -13,8 +13,3 @@ fields:
     required: false
   label: tytuł nagłówek
   description: Nagłówek
-- name: form_title
-  type: text
-  config:
-    required: false
-  label: tytuł formularza
