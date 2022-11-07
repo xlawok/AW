@@ -7,7 +7,7 @@ fields:
   config:
     required: false
   label: tytuł
-  description: 
+  
 - name: title_naglowek
   type: text
   config:
@@ -19,6 +19,6 @@ fields:
   config:
     required: false
   label: tytuł formularza
-  description: 
+  
 pages:
 - content/faq-schema-generator-json-ld.md
