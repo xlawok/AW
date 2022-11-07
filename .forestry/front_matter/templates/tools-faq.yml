@@ -1,0 +1,24 @@
+---
+label: Narzędzia FAQ
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: tytuł
+  description: 
+- name: title_naglowek
+  type: text
+  config:
+    required: false
+  label: tytuł nagłówek
+  description: Nagłówek
+- name: form_title
+  type: text
+  config:
+    required: false
+  label: tytuł formularza
+  description: 
+pages:
+- content/faq-schema-generator-json-ld.md
