@@ -1,11 +1,11 @@
 +++
 body_class = ""
-description = "Agencja Wrocławska to firma SEO zajmująca się pozycjonowaniem stron w internecie. Cele na każde 6 miesięcy działań, gwarancja efektów!"
+description = "Szukasz skutecznej agencji SEO? Agencja Wrocławska to firma zajmująca się pozycjonowaniem stron w internecie. Cele na każde 6 miesięcy działań, gwarancja efektów!"
 keywords = ""
 og_image = ""
 robots = ""
 slug = "/"
-title = "Agencja SEO SEM - Marketing internetowy w Google | Agencja Wrocławska"
+title = "Agencja SEO - Poznaj ofertę Agencji Wrocławskiej"
 [[sections]]
 banner_bg_for_center = ""
 banner_bg_for_center_left = ""
