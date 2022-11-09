@@ -25,7 +25,7 @@ txt_block_size = "XL"
 underline = false
 [[sections.bloki]]
 akapit = "<p>Pozycjonowanie stron internetowych (ang. Search Engine Optimization – SEO, Web Positioning) to strategia marketingowa, której celem jest zwiększenie widoczności w sieci. Użytkownicy po wpisaniu frazy kluczowej w wyszukiwarkę Google, znajdują konkretne strony internetowe i generują na nich ruch. To często przekłada się na realne zyski, na przykład sklepu internetowego.</p><p><strong>Algorytmy Google działają w taki sposób, aby pokazywać użytkownikom tylko te strony, na których znajdują się wartościowe, merytoryczne informacje.</strong> Kiedyś tworzenie treści na strony internetowe było o wiele prostsze, bo Google nie zwracało tak bardzo uwagi, ani na poziom artykułów, ani na duplikację. Dzisiaj wszelkie teksty, które są po prostu słabej jakości znajdują się na dalszych stronach. Dlatego tak ważne jest nie tylko samo pozycjonowanie stron, ale również wysokiej jakości treści, które dają użytkownikom konkretną wartość.</p>"
-czy_naglowek_w_spis_tresci = false
+czy_naglowek_w_spis_tresci = true
 zdjecie = ""
 [[sections.bloki.header_repeater]]
 block_tag_type = "h2"
@@ -36,5 +36,13 @@ ornament = "brak"
 txt_block = "Pozycjonowanie stron Toruń – na czym polega?"
 txt_block_size = "L"
 underline = false
-
+[[sections.bloki.header_repeater]]
+block_tag_type = "h2"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "brak"
+txt_block = " druga część"
+txt_block_size = "L"
+underline = false
 +++

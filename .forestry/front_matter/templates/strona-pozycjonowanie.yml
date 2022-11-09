@@ -22,11 +22,6 @@ fields:
       schema:
         format: html-blocks
     label: akapit
-  - name: zdjecie
-    type: file
-    config:
-      maxSize: 1
-    label: Zdjęcie
   config:
     min: 
     max: 

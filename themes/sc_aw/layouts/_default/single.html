@@ -127,6 +127,11 @@
     {{if eq .template "tools-faq"}}
       {{- partial "faq_generator.html" . -}}
     {{end}}
+    {{if eq .template "strona-pozycjonowanie"}}
+    
+      {{- partial "pozycjonowanie-miasta.html" . -}}
+    {{end}}
+    
   {{ end }}
   
 

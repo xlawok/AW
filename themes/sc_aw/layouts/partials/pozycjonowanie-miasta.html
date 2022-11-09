@@ -1,0 +1,72 @@
+  
+    
+    <article class="sec-padding blog-post">
+        {{with .bloki}}
+        <div class='article-content-wrapper'>
+            <div class='is-about'>
+                <ol class='is-about-list'>
+                {{range . }}
+                    
+                    
+
+                           {{$naglowek := ""}}
+                           {{range .header_repeater}}
+                            {{$naglowek = (printf "%s%s" $naglowek  .txt_block) }}
+                           {{end}}
+                            {{ with .czy_naglowek_w_spis_tresci }}
+                                <li class='is-about-item'><a href="#{{ $naglowek | anchorize}}">{{$naglowek}}</a></li>
+                            {{end}}
+                        
+                    
+                    
+                {{end}}
+                </ol>  
+            </div>
+            <div class='article-content'>
+                <div class='floating-wrapper'>
+                    <div class='is-about-floating'>
+                        
+                        <ol class='is-about-list'>
+                    {{range . }}
+                        
+                                    {{$naglowek := ""}}
+                                    {{range .header_repeater}}
+                                    {{$naglowek = (printf "%s%s" $naglowek  .txt_block) }}
+                                    {{end}}
+                                    {{ with .czy_naglowek_w_spis_tresci }}
+                                        <li class='is-about-item'><a href="#{{ $naglowek | anchorize}}">{{$naglowek}}</a></li>
+                                    {{end}}
+                                
+                    {{end}}
+                            </ol>  
+                        </div>
+                    </div>
+                    {{range . }}
+                        {{$naglowek := ""}}
+                        {{range .header_repeater}}
+                            {{$naglowek = (printf "%s%s" $naglowek  .txt_block) }}
+                        {{end}}
+                        {{$naglowek =  $naglowek | anchorize}}
+                        {{with .header_repeater}}
+                            {{- partial "header-tag.html" (dict "context" . "header_list" . "custom_class" "cols-w-no-sec-header" "custom_id" $naglowek)  -}}
+                        {{end}}
+                        <div>
+                            {{.akapit | safeHTML}}
+                        </div>
+                    {{end}}
+            </div>
+        </div>
+        {{end}}
+  
+        
+       
+         
+        
+        
+           
+        
+    </article>
+    
+     
+        
+

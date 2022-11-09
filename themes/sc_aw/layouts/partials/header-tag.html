@@ -4,7 +4,12 @@
 {{ $first_header_tag :=""}}
 {{ $previous_break_line :="" }}
 {{ $custom_class := .custom_class}}
-
+{{ $custom_id := .custom_id}}
+{{with $custom_id}}
+{{$custom_id = printf "id=%s" $custom_id}}
+{{else}}
+{{$custom_id = ""}}
+{{end}}
 
 {{ range $index, $element := .header_list }}
 <!--                    USTALENIE ZMIENNYCH W RZĘDZIE -->
@@ -78,7 +83,7 @@
         {{ if eq (add $index 1) 1 }}
             {{ $first_header_tag =$header_tag }}
         <!-- PIERWSZE OTWARCIE BLOKU -->
-                {{( printf "<%s class='header-template %s'>" $header_tag $custom_class) | safeHTML}}
+                {{( printf "<%s class='header-template %s' %s>" $header_tag $custom_class $custom_id) | safeHTML}}
                 {{( printf "<span class='%s %s %s %s %s %s '>"  $header_bold $txt_underline $break_line $header_color $header_size $header_ornament ) | safeHTML}}
                     {{.txt_block}}
                 </span>
