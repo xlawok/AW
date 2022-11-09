@@ -1,4 +1,43 @@
 ---
 label: Strona-pozycjonowanie
 hide_body: true
-fields: []
+fields:
+- name: bloki
+  type: field_group_list
+  fields:
+  - name: naglowek
+    type: include
+    config: {}
+    template: naglowek
+    label: Nagłówek
+  - name: czy_naglowek_w_spis_tresci
+    type: boolean
+    label: Czy nagłówek wchodzi w spis treści
+  - name: akapit
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: akapit
+  - name: zdjecie
+    type: file
+    config:
+      maxSize: 1
+    label: Zdjęcie
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Bloki
+- name: formularz_kod
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Formularz kod
