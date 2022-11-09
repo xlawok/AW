@@ -2250,7 +2250,12 @@ header{
                 &:nth-child(15),
                 &:nth-child(17),
                 &:nth-child(19),
-                &:nth-child(21) {
+                &:nth-child(21),
+                &:nth-child(23),
+                &:nth-child(25),
+                &:nth-child(27),
+                &:nth-child(29),
+                &:nth-child(31) {
                     margin: 0 4%;
                     transform: translateY(1rem);
                 }
