@@ -36,3 +36,12 @@ fields:
     schema:
       format: markdown
   label: Formularz kod
+- name: formularz_kod_drugi
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Formularz kod drugi

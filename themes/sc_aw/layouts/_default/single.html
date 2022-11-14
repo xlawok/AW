@@ -1,5 +1,5 @@
 {{ define "main" }}
-  
+  {{$current_page:=(printf  .Params.slug)}}
 
     
   {{ range .Params.sections }}
@@ -129,7 +129,7 @@
     {{end}}
     {{if eq .template "strona-pozycjonowanie"}}
     
-      {{- partial "pozycjonowanie-miasta.html" . -}}
+      {{- partial "pozycjonowanie-miasta.html" (dict "section_data" . "current_page" $current_page) -}}
     {{end}}
     
   {{ end }}

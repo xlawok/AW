@@ -9577,3 +9577,49 @@ body:not(.home):not(.list) {
 footer .footer-header{
     font-weight: bold;
 }
+.pozycjonowanie-stron-miasta{
+    .form-header{
+        
+        text-align: center;
+font-size: 1.25rem;
+font-weight: 700;
+line-height: 1.24137931;
+letter-spacing: 0;
+opacity: 1;
+    }
+    .excerpt{
+        margin-bottom: 15rem;
+        @media (min-width: 768px){
+            margin-bottom: 6rem;
+        }
+        
+    }
+   .star-cnt{
+    z-index: 11;
+   }
+   form#contactform{
+    max-width: 30rem;
+    margin: 1rem auto;
+   }
+   form#contactform button{
+    // text-align: left;
+// width: max-content;
+// padding-right: 5rem;
+// padding-left: 2rem;
+// margin: 1rem auto;
+   }
+   .bottom-form{
+    background: #fff;
+max-width: max-content;
+max-width: 30rem;
+margin: 2rem auto;
+padding: 2rem;
+position: relative;
+z-index: 11;
+   }
+   @media (max-width: 1599px){
+    .floating-wrapper-right{
+        display: none !important;
+    }
+   }
+}
