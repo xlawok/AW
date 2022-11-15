@@ -3,7 +3,7 @@ body_class = ""
 description = "Polityka prywatności Agencja Wrocławska. Dowiedź się w jakie dane zbieramy oraz w jaki sposób są one chronione i przetwarzane.  "
 keywords = ""
 og_image = ""
-robots = "noindex follow"
+robots = "noindex, follow"
 slug = "polityka-prywatnosci"
 title = "Polityka prywatności | Agencja Wrocławska"
 [[sections]]

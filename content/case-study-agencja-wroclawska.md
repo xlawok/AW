@@ -3,7 +3,7 @@ body_class = "case-study"
 description = "Case study Agencji Wrocławskiej"
 keywords = ""
 og_image = ""
-robots = "index follow"
+robots = "index, follow"
 slug = "case-study"
 title = "Case study | Agencja Wrocławska"
 [menu.main]

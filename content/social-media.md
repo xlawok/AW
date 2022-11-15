@@ -2,7 +2,7 @@
 body_class = "social-media"
 description = "Social Media to większa sprzedaż i rozpoznawalność marki"
 keywords = ""
-robots = "index follow"
+robots = "index, follow"
 slug = "social-media"
 title = "Kampanie Facebook ADS, Prowadzenie Social Media | Agencja Wrocławska"
 [menu.main]

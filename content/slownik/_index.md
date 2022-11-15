@@ -2,7 +2,7 @@
 body_class = "slownik-listowanie"
 description = "Słownik SEO/SEM"
 keywords = ""
-robots = "index follow"
+robots = "index, follow"
 slug = "slownik"
 title = "Słownik SEO | Agencja Wrocławska"
 [menu.main]

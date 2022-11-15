@@ -2,7 +2,7 @@
 body_class = "pozycjonowanie-sklepow"
 description = "Pozycjonowanie sklepów internetowych. Wrocław Stuff! Zajmiemy się pozycjonowaniem SEO Twojego sklepu internetowego bez ściemy! Na każde 6 msc działań określamy cele i oczekiwane rezultaty! Call us!"
 keywords = ""
-robots = "index follow"
+robots = "index, follow"
 slug = "pozycjonowanie-sklepow"
 title = "Pozycjonowanie Sklepów - Wsparcie Dev&UX/UI | Agencja Wrocławska"
 [menu.main]
