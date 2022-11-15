@@ -333,13 +333,13 @@ których używamy w codziennej pracy
   document.addEventListener("DOMContentLoaded", function() {
       var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
-
+myHeaders.append("cors", "no-cors");
 var raw = "";
 
 var requestOptions = {
 method: 'GET',
 headers: myHeaders,
-
+mode: 'cors',
 redirect: 'follow'
 };
 
@@ -411,6 +411,7 @@ document.head.appendChild(script);
               method: 'POST',
               headers: myHeaders,
               body: raw,
+              mode: 'cors',
               redirect: 'follow'
               };
               // console.log(raw);

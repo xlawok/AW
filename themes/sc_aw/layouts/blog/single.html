@@ -190,13 +190,13 @@
             document.addEventListener("DOMContentLoaded", function() {
                 var myHeaders = new Headers();
 myHeaders.append("Content-Type", "application/json");
-
+myHeaders.append("cors", "no-cors");
 var raw = "";
 
 var requestOptions = {
   method: 'GET',
   headers: myHeaders,
-  
+  mode: 'cors',
   redirect: 'follow'
 };
 
@@ -266,6 +266,7 @@ fetch("https://getpantry.cloud/apiv1/pantry/74cfb19a-5d7b-4804-94fa-b7a3b370bb8f
 
                         var requestOptions = {
                         method: 'POST',
+                        mode: 'cors',
                         headers: myHeaders,
                         body: raw,
                         redirect: 'follow'
