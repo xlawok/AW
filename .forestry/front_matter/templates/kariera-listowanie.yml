@@ -53,3 +53,8 @@ fields:
   config:
     required: false
   label: Nagłówek
+- name: blok_pod_ofertami
+  type: include
+  config: {}
+  template: sekcja-box-wysrodkowany-z-tekstem
+  label: blok pod ofertami
