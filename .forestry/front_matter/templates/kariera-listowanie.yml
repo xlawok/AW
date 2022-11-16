@@ -53,3 +53,5 @@ fields:
   config: {}
   template: naglowek
   label: Nagłówek
+pages:
+- content/kariera/kariera-agencja-wroclawska.md
