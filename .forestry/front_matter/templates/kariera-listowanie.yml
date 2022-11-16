@@ -53,5 +53,10 @@ fields:
   config: {}
   template: naglowek
   label: Nagłówek
+- name: bloki_pod_ofertami
+  type: include
+  config: {}
+  template: sekcja-box-wysrodkowany-z-tekstem
+  label: Bloki pod ofertami
 pages:
 - content/kariera/_index.md
