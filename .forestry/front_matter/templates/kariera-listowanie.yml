@@ -58,5 +58,3 @@ fields:
   config: {}
   template: sekcja-box-wysrodkowany-z-tekstem
   label: Bloki pod ofertami
-pages:
-- content/kariera/_index.md
