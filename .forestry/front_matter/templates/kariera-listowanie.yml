@@ -49,12 +49,12 @@ fields:
     required: true
   label: Opis
 - name: naglowek
-  type: include
-  config: {}
-  template: naglowek
+  type: text
+  config:
+    required: false
   label: Nagłówek
-- name: bloki_pod_ofertami
+- name: bloki
   type: include
   config: {}
   template: sekcja-box-wysrodkowany-z-tekstem
-  label: Bloki pod ofertami
+  label: Blok pod ofertami
