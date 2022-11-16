@@ -3,6 +3,7 @@ description = "Kariera"
 draft = true
 keywords = ""
 og_image = ""
+opis = ""
 robots = "noindex nofollow"
 slug = "/kariera"
 title = "Kariera | Agencja Wrocławska"
@@ -18,3 +19,4 @@ txt_block_size = "XL"
 underline = false
 
 +++
+Tutaj tekst przed ofertami 
