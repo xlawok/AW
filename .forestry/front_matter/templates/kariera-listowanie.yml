@@ -54,4 +54,4 @@ fields:
   template: naglowek
   label: Nagłówek
 pages:
-- content/kariera/kariera-agencja-wroclawska.md
+- content/kariera/_index.md

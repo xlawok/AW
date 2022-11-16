@@ -4,7 +4,7 @@ draft = true
 keywords = ""
 og_image = ""
 robots = "noindex nofollow"
-slug = "kariera"
+slug = "/kariera"
 title = "Kariera | Agencja Wrocławska"
 tytul_do_listowania = "Kariera"
 [[header_repeater]]
