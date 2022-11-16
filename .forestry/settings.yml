@@ -39,6 +39,13 @@ sections:
   new_doc_ext: yml
   templates:
   - autorzy
+- type: directory
+  path: content/kariera
+  label: Kariera
+  create: all
+  match: "**/*"
+  templates:
+  - kariera-listowanie
 - type: document
   path: data/footer.yml
   label: Stopka
