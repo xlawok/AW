@@ -77,3 +77,5 @@ fields:
     required: false
   label: Miejscowość
   default: Wrocław
+pages:
+- content/kariera/specjalista-ds.sprzedazy.md
