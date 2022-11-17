@@ -2,7 +2,6 @@
 date = ""
 description = "Oferta pracy dla specjalisty ds. sprzedaży"
 draft = true
-header_repeater = []
 keywords = ""
 miejscowosc = "Wrocław"
 og_image = ""
@@ -11,6 +10,15 @@ slug = "specjalista-ds-sprzedazy"
 summary = ""
 title = "specjalista ds. sprzedaży | Agencja Wrocławska"
 tytul_do_listowania = "specjalista ds. sprzedaży"
+[[header_repeater]]
+block_tag_type = "h1"
+bold_txt = "gruby"
+break_line = false
+color_txt = "czarny"
+ornament = "prawa w dół"
+txt_block = "Specjalista ds. sprzedaży"
+txt_block_size = "XL"
+underline = false
 
 +++
 Poszukujemy doświadczonego specjalisty ds. sprzedaży, który posiada:  
