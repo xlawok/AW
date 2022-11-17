@@ -9,7 +9,7 @@ og_image = ""
 robots = "noindex nofollow"
 slug = "specjalista-ds-sprzedazy"
 summary = ""
-title = "specjalista ds. sprzedaży"
+title = "specjalista ds. sprzedaży | Agencja Wrocławska"
 tytul_do_listowania = "specjalista ds. sprzedaży"
 
 +++
