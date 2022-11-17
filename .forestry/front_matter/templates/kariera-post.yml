@@ -1,5 +1,5 @@
 ---
-label: Blog post
+label: Kariera post
 hide_body: false
 fields:
 - name: title
@@ -48,7 +48,6 @@ fields:
   config:
     required: true
   label: Opis
-
 - name: date
   type: datetime
   label: Data
@@ -67,11 +66,8 @@ fields:
     schema:
       format: html
   label: Zajawka
-
 - name: naglowek
   type: include
   config: {}
   template: naglowek
   label: Nagłówek
-
-pages:
