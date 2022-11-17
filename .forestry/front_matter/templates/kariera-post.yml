@@ -1,5 +1,5 @@
 ---
-label: Kariera listowanie
+label: Blog post
 hide_body: false
 fields:
 - name: title
@@ -48,22 +48,30 @@ fields:
   config:
     required: true
   label: Opis
+
+- name: date
+  type: datetime
+  label: Data
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Zajawka
+
 - name: naglowek
-  type: text
-  config:
-    required: false
+  type: include
+  config: {}
+  template: naglowek
   label: Nagłówek
-- name: naglowek_offers
-  type: text
-  config:
-    required: false
-  label: Nagłówek nad listowaniem
-- name: bloki_pod_ofertami
-  type: blocks
-  label: Bloki pod ofertami
-  template_types:
-  - sekcja-box-wysrodkowany-z-tekstem
-  - sekcja-czerwony-box-srodek
-  config:
-    min: 
-    max: 
+
+pages:

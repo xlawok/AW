@@ -9623,3 +9623,85 @@ z-index: 9;
     }
    }
 }
+.offers-listing-page{
+.kariera-page{
+    position: relative;
+    background-color: #f2f2f2;
+    &:before{
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        height: 15.5rem;
+        // height: 75.5rem;
+        z-index: -2;
+        clip-path: ellipse(90% 60% at 51% 100%);
+        clip-path: url(#my-clip-path);
+        z-index: 0;
+        width: 100vw;
+        left: 0;
+        top: 75%;
+        background: #fff;
+    }
+    h1{
+        position: relative;
+        z-index: 1;
+        padding-top: 4rem;
+    }
+    .before-offers{
+        padding-bottom: 4rem;
+        position: relative;
+        z-index: 0;
+        
+        @media (min-width: 1200px){
+            width: 90%;
+        }
+        @media (min-width: 1366px){
+            width: 85%;
+        }
+        @media (min-width: 1600px){
+            width: 42.29166667vw;
+        }
+    }
+
+}
+.offers-listing-section{
+    position: relative;
+    z-index: 2;
+    .offers-listing-header{
+        margin-top: 4rem;
+    }
+    .offers-list{
+        > li{
+            width: 100%;
+            padding: 1rem 2rem 1rem;
+            box-shadow: 0 3px 20px #00000029;
+            background-color: var(--white);
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            &:hover{
+                
+                box-shadow: 0 3px 10px #00000029;
+                transform: translateY(3px);
+            
+            }
+        }
+    }
+    .no-offers{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+    .sec-padding.sc-soc-big-red{
+        padding-top: 3rem;
+        padding-bottom: 4rem;
+        &:before{
+            display: none;
+        }
+        
+    }
+}
