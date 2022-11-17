@@ -71,3 +71,9 @@ fields:
   config: {}
   template: naglowek
   label: Nagłówek
+- name: miejscowosc
+  type: text
+  config:
+    required: false
+  label: Miejscowość
+  default: Wrocław
