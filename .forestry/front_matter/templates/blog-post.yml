@@ -33,10 +33,10 @@ fields:
   config:
     required: false
     options:
-    - index follow
-    - noindex nofollow
-    - noindex follow
-    - index nofollow
+    - index, follow
+    - noindex, nofollow
+    - noindex, follow
+    - index, nofollow
     source:
       type: simple
       section: 
