@@ -67,3 +67,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- content/kariera/_index.md

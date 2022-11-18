@@ -15,10 +15,12 @@ template = "sekcja-box-wysrodkowany-z-tekstem"
 [[bloki_pod_ofertami.header_repeater]]
 block_tag_type = "h2"
 bold_txt = "gruby"
+break_line = false
 color_txt = "czarny"
 ornament = "brak"
 txt_block = "Bardzo ważny nagłówek"
 txt_block_size = "L"
+underline = false
 
 +++
 Zostaliśmy powołani do życia w wakacje 2020 roku. Zaczynaliśmy od biura wirtualnego jako 2-osobowy skład. Bez klientów. Mając jedynie pewność świetnej usługi oraz wizji rozwoju. Jesteśmy aktualnie jedną z najszybciej rozwijających się agencji SEO w Polsce. Na pokładzie posiadamy obecnie 20 osób + Mikiego (odpowiedzialnego za Customer Experience). 
