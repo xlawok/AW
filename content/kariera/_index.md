@@ -1,10 +1,9 @@
 +++
+body_class = "offers-listing-page"
 description = "Kariera"
-draft = true
 keywords = ""
 naglowek = "Kariera w Agencji Wrocławskiej"
 naglowek_offers = "Aktualnie poszukujemy"
-body_class = "offers-listing-page"
 og_image = ""
 robots = "noindex, nofollow"
 slug = "/kariera"
