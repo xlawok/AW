@@ -1,0 +1,66 @@
+{{ define "main" }}
+    <section class="sec-padding kariera-page">
+        <h1 class='blog-header txt-XXL f-w700 txt-underline txt-red'>{{ .Params.naglowek   }}</h1>
+    
+        <div class="container">
+   
+            <div class="row">
+                <div class="before-offers">
+                    {{.Content}}
+                </div>
+              
+              
+            </div>
+        </div>
+    </section>
+    <section class="sec-padding offers-listing-section ">
+        <div class="container">
+   
+            <div class="row">
+                <p class="header-template  offers-listing-header"><span class="header-template f-w700   txt-black txt-XL ornament-r-b ">{{.Params.naglowek_offers}}</span></p>
+                {{ $offers := where site.RegularPages.ByDate "Type" "kariera" }}
+                {{with $offers}}
+                    <ul class="offers-list with_flex">
+
+                    {{ range  . }} 
+                    
+                    
+                            <li>
+                                
+                                
+                            
+                                    <a href="{{ .Permalink }}">
+                                        <p class="h3">{{ .Params.tytul_do_listowania   }}</p>
+                                
+                                        <div class='art-summary'>{{.Params.miejscowosc }}</div>
+                                    
+                                    </a>
+                                
+                                
+                            </li>
+                        
+                            
+                            
+                                
+                    {{ end }}
+                    </ul>
+                {{else}}
+                    <p  class="no-offers">Akualnie brak ofert</p>
+                {{end}}
+                
+                   
+            </div>
+            
+        </div>
+    </section>
+    {{ range .Params.bloki_pod_ofertami}}
+    
+        {{if eq .template "sekcja-czerwony-box-srodek"}}
+            {{- partial "sekcja-czerwony-box-srodek.html" . -}}
+        {{end}}
+        {{if eq .template "sekcja-box-wysrodkowany-z-tekstem"}}
+            {{- partial "text-middle-box.html" . -}}
+        {{end}}
+    {{end}}
+
+{{end}}

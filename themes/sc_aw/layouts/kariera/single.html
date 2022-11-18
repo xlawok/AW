@@ -1,0 +1,24 @@
+{{ define "main" }}
+    
+    
+    <article class="sec-padding blog-post offer-post">
+   
+      
+        <div class='article-content-wrapper'>
+           
+            {{ $header_list := .Params.header_repeater }}
+            {{- partial "header-tag.html" (dict "context" . "header_list" $header_list "custom_class" "c-offer-sec-header")  -}}
+            <div class='article-content'>
+              
+                {{.Content}}
+            </div>
+            
+        </div>
+        
+        
+   
+    </article>
+    
+        
+        
+{{ end }}
