@@ -1,7 +1,6 @@
 +++
 date = ""
 description = "Oferta pracy dla specjalisty ds. sprzedaży"
-draft = true
 keywords = ""
 miejscowosc = "Wrocław"
 og_image = ""
