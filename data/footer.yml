@@ -41,11 +41,6 @@ wiersz_dolny:
   tekst: <p>© 2022 Agencja Wrocławska Sp. z o.o. Wszelkie prawa zastrzeżone | <a href="/polityka-prywatnosci"
     title="">Polityka prywatności</a></p>
 czwarta_kolumna:
-- ikona: ''
-  adres_odnosnika: ''
-  adres_odnosnika_w: faq-schema-generator-json-ld.md
-  tytul_odnosnika: FAQ generator schema
-  ikona_dark: ''
 - ikona: "/uploads/linkedin-in.svg"
   adres_odnosnika: https://www.linkedin.com/company/agencja-wrocławska/
   ikona_dark: "/uploads/linkedin-in-white.svg"
