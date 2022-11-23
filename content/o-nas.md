@@ -155,6 +155,12 @@ sections:
       txt_block_size: XL
 - template: sekcja-o-nas-druzyna-pierscienia
   section_team_group:
+  - obrazek: "/uploads/wiktoria.jpg"
+    my_name: Wiktoria
+    stanowisko: Graphic Designer
+  - obrazek: ''
+    my_name: ''
+    stanowisko: ''
   - obrazek: "/uploads/bartek-1-side.webp"
     my_name: Bartek
     stanowisko: Head of Marketing
