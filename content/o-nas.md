@@ -215,7 +215,7 @@ sections:
   - obrazek: "/uploads/ania-side.webp"
     my_name: Ania
     stanowisko: Junior SEO Specialist
-  - obrazek: "/uploads/sylwia.jpg"
+  - obrazek: "/uploads/sylwiaaw2.jpg"
     my_name: Sylwia
     stanowisko: SEO Expert
   - obrazek: "/uploads/wiktoria.jpg"
