@@ -158,9 +158,9 @@ sections:
   - obrazek: "/uploads/wiktoria.jpg"
     my_name: Wiktoria
     stanowisko: Graphic Designer
-  - obrazek: ''
-    my_name: ''
-    stanowisko: ''
+  - obrazek: "/uploads/sylwia.jpg"
+    my_name: Sylwia
+    stanowisko: SEO Expert
   - obrazek: "/uploads/bartek-1-side.webp"
     my_name: Bartek
     stanowisko: Head of Marketing
