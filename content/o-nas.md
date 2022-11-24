@@ -161,12 +161,6 @@ sections:
   - obrazek: "/uploads/jakub-side.jpg"
     my_name: Jakub
     stanowisko: Head of SEO
-  - obrazek: "/uploads/piotr-side.webp"
-    my_name: Piotr
-    stanowisko: Web Developer
-  - obrazek: "/uploads/konrad-side.webp"
-    my_name: Konrad
-    stanowisko: UX/UI Specialist
   - obrazek: "/uploads/karol-side.webp"
     my_name: Karol
     stanowisko: Business Development Manager
@@ -184,6 +178,9 @@ sections:
     stanowisko: Project Manager
   - obrazek: "/uploads/bartek-2-side.webp"
     my_name: Bartłomiej
+    stanowisko: SEO Expert
+  - obrazek: "/uploads/sylwiaaw3.jpg"
+    my_name: Sylwia
     stanowisko: SEO Expert
   - obrazek: "/uploads/zofia-side.webp"
     my_name: Zosia
@@ -215,9 +212,6 @@ sections:
   - obrazek: "/uploads/ania-side.webp"
     my_name: Ania
     stanowisko: Junior SEO Specialist
-  - obrazek: "/uploads/sylwiaaw3.jpg"
-    my_name: Sylwia
-    stanowisko: SEO Expert
   - obrazek: "/uploads/wiktoria.jpg"
     my_name: Wiktoria
     stanowisko: Graphic Designer
